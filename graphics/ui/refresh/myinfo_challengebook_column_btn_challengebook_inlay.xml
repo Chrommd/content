@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="NORMAL">
+    <asset type="IMAGE" name="asset_myinfo_btn_inlay_n" path="myinfo_btn_inlay_n.png">
+      <rect l="0" t="0" r="37" b="22" />
+    </asset>
+    <object name="myinfo_btn_inlay_n" ani="ani_myinfo_btn_inlay_n">
+      <asset type="IMAGE" link="asset_myinfo_btn_inlay_n" />
+    </object>
+    <param type="RES" x="37" y="22" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_myinfo_btn_inlay_n">
+      <frame cnt="0">
+        <posx val="0.486486486486487" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="OVER">
+    <asset type="IMAGE" name="asset_myinfo_btn_inlay_n" path="myinfo_btn_inlay_n.png">
+      <rect l="0" t="0" r="37" b="22" />
+    </asset>
+    <asset type="IMAGE" name="asset_myinfo_btn_inlay_o" path="myinfo_btn_inlay_o.png">
+      <rect l="0" t="0" r="37" b="22" />
+    </asset>
+    <object name="myinfo_btn_inlay_n" ani="ani_myinfo_btn_inlay_n">
+      <asset type="IMAGE" link="asset_myinfo_btn_inlay_n" />
+    </object>
+    <object name="myinfo_btn_inlay_o" ani="ani_myinfo_btn_inlay_o">
+      <asset type="IMAGE" link="asset_myinfo_btn_inlay_o" />
+    </object>
+    <param type="RES" x="37" y="22" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_myinfo_btn_inlay_n">
+      <frame cnt="0">
+        <posx val="0.486486486486487" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+    <anim name="ani_myinfo_btn_inlay_o">
+      <frame cnt="0">
+        <posx val="0.486486486486487" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="133">
+        <posx val="0.4864865" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="DOWN">
+    <asset type="IMAGE" name="asset_myinfo_btn_inlay_d" path="myinfo_btn_inlay_d.png">
+      <rect l="0" t="0" r="37" b="22" />
+    </asset>
+    <object name="myinfo_btn_inlay_d" ani="ani_myinfo_btn_inlay_d">
+      <asset type="IMAGE" link="asset_myinfo_btn_inlay_d" />
+    </object>
+    <param type="RES" x="37" y="22" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_myinfo_btn_inlay_d">
+      <frame cnt="0">
+        <posx val="0.486486486486487" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

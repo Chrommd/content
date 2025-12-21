@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="bg_navi_wing_right_Default">
+    <asset type="IMAGE" name="asset_bg_navi_wing_right" path="bg_navi_wing_right.png">
+      <rect l="0" t="0" r="21" b="21" />
+    </asset>
+    <object name="bg_navi_wing_right" ani="ani_bg_navi_wing_right">
+      <asset type="IMAGE" link="asset_bg_navi_wing_right" />
+    </object>
+    <param type="RES" x="21" y="21" />
+    <param type="LOOP" cnt="-1" pendulum="1" />
+    <anim name="ani_bg_navi_wing_right">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="1" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.2" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="1" />
+      </frame>
+      <frame cnt="1333">
+        <posx val="0" />
+        <posy val="1" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="-13" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="1" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

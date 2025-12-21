@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="myinfo_emblem_column_Animation.xml" />
+  </properties>
+  <base type="WND" subclass="" name="Wnd">
+    <Visible val="True" />
+    <Anchor val="Top, Left" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="178" b="117" />
+    <IsHitTestVisible val="True" />
+    <ClipChildren val="False" />
+    <base type="WND" subclass="" name="Wnd1">
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="176" b="115" />
+      <IsHitTestVisible val="False" />
+      <ClipChildren val="False" />
+      <child type="PICTURE" name="btn_emblem_list_Normal" subclass="">
+        <asset type="STATIC">list_btn_myinfo_emblem_Normal.png</asset>
+        <Visible val="False" />
+        <Anchor val="None" />
+        <pos x="0" y="0" />
+        <rect l="0" t="0" r="176" b="115" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="PICTURE" name="btn_emblem_list_Hover" subclass="">
+        <asset type="STATIC">list_btn_myinfo_emblem_Hover.png</asset>
+        <Visible val="False" />
+        <Anchor val="None" />
+        <pos x="0" y="0" />
+        <rect l="0" t="0" r="176" b="115" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="PICTURE" name="btn_emblem_list_Push" subclass="">
+        <asset type="STATIC">list_btn_myinfo_emblem_Push.png</asset>
+        <Visible val="False" />
+        <Anchor val="None" />
+        <pos x="0" y="0" />
+        <rect l="0" t="0" r="176" b="115" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="PICTURE" name="btn_emblem_list_Disable" subclass="">
+        <asset type="STATIC">list_btn_myinfo_emblem_Disable.png</asset>
+        <Visible val="False" />
+        <Anchor val="None" />
+        <pos x="0" y="0" />
+        <rect l="0" t="0" r="176" b="115" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="PICTURE" name="img_emblem" subclass="">
+        <asset type="STATIC">
+        </asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="35" y="-1" />
+        <rect l="0" t="0" r="100" b="100" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="PICTURE" name="img_emblem_list_Select" subclass="">
+        <asset type="STATIC">list_btn_myinfo_emblem_frame.png</asset>
+        <Visible val="False" />
+        <Anchor val="None" />
+        <pos x="0" y="0" />
+        <rect l="0" t="0" r="176" b="115" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="PICTURE" name="img_emblem_icon_select" subclass="">
+        <asset type="STATIC">icon_common_select.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="154" y="1" />
+        <rect l="0" t="0" r="22" b="23" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="PICTURE" name="img_common_emblem_ribbon" subclass="">
+        <asset type="STATIC">img_common_emblem_ribbon.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="3" y="79" />
+        <rect l="0" t="0" r="171" b="31" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="PICTURE" name="img_emblem_rare" subclass="">
+        <asset type="STATIC">icon_common_star_emblem_5.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="57" y="87" />
+        <rect l="0" t="0" r="63" b="16" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+    </base>
+  </base>
+</refresh>

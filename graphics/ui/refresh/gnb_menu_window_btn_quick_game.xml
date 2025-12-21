@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="NORMAL">
+    <asset type="IMAGE" name="asset_gnb_btn_game_n" path="gnb_btn_game_n.png">
+      <rect l="0" t="0" r="95" b="38" />
+    </asset>
+    <object name="gnb_btn_game_n" ani="ani_gnb_btn_game_n">
+      <asset type="IMAGE" link="asset_gnb_btn_game_n" />
+    </object>
+    <param type="RES" x="95" y="41" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_gnb_btn_game_n">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="OVER">
+    <asset type="IMAGE" name="asset_gnb_btn_game_o" path="gnb_btn_game_o.png">
+      <rect l="0" t="0" r="95" b="38" />
+    </asset>
+    <object name="gnb_btn_game_o" ani="ani_gnb_btn_game_o">
+      <asset type="IMAGE" link="asset_gnb_btn_game_o" />
+    </object>
+    <param type="RES" x="95" y="41" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_gnb_btn_game_o">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="DOWN">
+    <asset type="IMAGE" name="asset_gnb_btn_game_d" path="gnb_btn_game_d.png">
+      <rect l="0" t="0" r="95" b="38" />
+    </asset>
+    <object name="gnb_btn_game_d" ani="ani_gnb_btn_game_d">
+      <asset type="IMAGE" link="asset_gnb_btn_game_d" />
+    </object>
+    <param type="RES" x="95" y="41" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_gnb_btn_game_d">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="DISABLE">
+    <asset type="IMAGE" name="asset_gnb_btn_game_n" path="gnb_btn_game_n.png">
+      <rect l="0" t="0" r="95" b="38" />
+    </asset>
+    <asset type="IMAGE" name="asset_gnb_btn_game_dis" path="gnb_btn_game_dis.png">
+      <rect l="0" t="0" r="94" b="38" />
+    </asset>
+    <object name="gnb_btn_game_n" ani="ani_gnb_btn_game_n">
+      <asset type="IMAGE" link="asset_gnb_btn_game_n" />
+    </object>
+    <object name="gnb_btn_game_dis" ani="ani_gnb_btn_game_dis">
+      <asset type="IMAGE" link="asset_gnb_btn_game_dis" />
+    </object>
+    <param type="RES" x="95" y="41" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_gnb_btn_game_n">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.5" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_gnb_btn_game_dis">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

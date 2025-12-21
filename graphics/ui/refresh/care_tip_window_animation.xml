@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="_Opening_">
+    <asset type="UI" name="asset_care_tip">
+      <rect l="0" t="0" r="225" b="76" />
+    </asset>
+    <asset type="UI" name="asset_bg_care_tip1">
+      <rect l="0" t="0" r="225" b="76" />
+    </asset>
+    <asset type="UI" name="asset_bg_care_tip2">
+      <rect l="0" t="0" r="20" b="22" />
+    </asset>
+    <object name="care_tip" ani="ani_care_tip">
+      <asset type="UI" link="asset_care_tip" />
+    </object>
+    <object name="bg_care_tip1" ani="ani_bg_care_tip1">
+      <asset type="UI" link="asset_bg_care_tip1" />
+    </object>
+    <object name="bg_care_tip2" ani="ani_bg_care_tip2">
+      <asset type="UI" link="asset_bg_care_tip2" />
+    </object>
+    <param type="RES" x="225" y="76" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_care_tip">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="167">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_bg_care_tip1">
+      <frame cnt="167">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <sound val="ui_event_talkbox" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_bg_care_tip2">
+      <frame cnt="0">
+        <posx val="0.457777777777778" />
+        <posy val="-0.197368421052632" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="400">
+        <posx val="0.457777777777778" />
+        <posy val="-0.0657894736842105" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Closing_">
+    <asset type="UI" name="asset_care_tip">
+      <rect l="0" t="0" r="225" b="76" />
+    </asset>
+    <object name="care_tip" ani="ani_care_tip">
+      <asset type="UI" link="asset_care_tip" />
+    </object>
+    <param type="RES" x="225" y="76" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_care_tip">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="167">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

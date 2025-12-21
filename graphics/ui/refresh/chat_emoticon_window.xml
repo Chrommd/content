@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+  </properties>
+  <base type="WND" subclass="" name="Wnd_emoticon">
+    <Visible val="True" />
+    <Anchor val="Top, Left" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="296" b="231" />
+    <snd type="SHOW">
+    </snd>
+    <snd type="HIDE">
+    </snd>
+    <IsHitTestVisible val="True" />
+    <ClipChildren val="False" />
+    <child type="PICTURE" name="emoticon_bg" subclass="">
+      <asset type="STATIC">emoticon_bg.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="296" b="231" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="LIST" name="ListControl_emoticon" subclass="">
+      <asset type="BG" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="8" t="8" r="264" b="166" />
+      </asset>
+      <asset type="EDGE_LT" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_RT" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_LB" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_RB" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="FRAME_T" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="8" t="0" r="264" b="8" />
+      </asset>
+      <asset type="FRAME_B" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="8" t="0" r="264" b="8" />
+      </asset>
+      <asset type="FRAME_L" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="8" r="8" b="166" />
+      </asset>
+      <asset type="FRAME_R" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="8" r="8" b="166" />
+      </asset>
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <pos x="8" y="35" />
+      <rect l="0" t="0" r="280" b="182" />
+      <padding l="0" t="0" r="0" b="0" />
+      <column val="10" />
+      <itemrect l="0" t="0" r="28" b="26" />
+      <selection val="0" />
+      <deselectable val="0" />
+      <rclickaction val="1" />
+      <IsHitTestVisible val="True" />
+      <Orientation val="Vertical" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="LABEL" name="Label_emoticon_title" subclass="">
+      <label val="Emoticons" />
+      <pos x="12" y="11" />
+      <rect l="0" t="0" r="220" b="17" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <OutlineColor val="#FFFFFF" />
+      <ShadowColor val="#0000004C" />
+      <color val="#6B5D54" />
+      <halign val="0" />
+      <valign val="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="13" />
+      <TextTrimming val="None" />
+      <style val="1" />
+      <IsHitTestVisible val="False" />
+      <ClipChildren val="False" />
+      <Padding val="0, 0, 0, 0" />
+    </child>
+    <child type="BUTTON" subclass="" name="Button_emoticon_close">
+      <asset type="NORMAL">btn_common_exit2_Normal.png</asset>
+      <asset type="DOWN">btn_common_exit2_Disable.png</asset>
+      <asset type="OVER">btn_common_exit2_Hover.png</asset>
+      <asset type="DISABLE">
+      </asset>
+      <snd type="OVER">
+      </snd>
+      <snd type="DOWN">
+      </snd>
+      <snd type="RELEASE">
+      </snd>
+      <pos x="267" y="6" />
+      <rect l="0" t="0" r="24" b="24" />
+      <Visible val="True" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <Anchor val="Top, Left" />
+      <IsDefaultButton val="False" />
+    </child>
+  </base>
+</refresh>

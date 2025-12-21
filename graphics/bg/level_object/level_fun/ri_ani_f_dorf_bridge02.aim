@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <event animation="00">
+        <function>PlaySND($asset, "ob_dorf_bridge_creak1", "1", "-var 0")</function>
+        <time>4.1522</time>
+        <freq>100</freq>
+    </event>
+    <event animation="00">
+        <function>PlayFX($asset, "ob_bridge_down_crash", "1", "")</function>
+        <time>9.8039</time>
+        <freq>100</freq>
+    </event>
+    <event animation="00">
+        <function>PlaySND($asset, "ob_dorf_bridge_fall1", "1", "-var 0")</function>
+        <time>9.7693</time>
+        <freq>100</freq>
+    </event>
+    <event animation="00">
+        <function>PlaySND($asset, "ob_dorf_bridge_fall2", "1", "-var 0")</function>
+        <time>8.4429</time>
+        <freq>100</freq>
+    </event>
+    <event animation="00">
+        <function>PlaySND($asset, "ob_dorf_bridge_creak2", "1", "-var 0")</function>
+        <time>7.0704</time>
+        <freq>100</freq>
+    </event>
+    <dummy name="1" parent="Dummyroot" sync="TRUE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.0000</offsetY>
+        <offsetZ>20.2514</offsetZ>
+    </dummy>
+    <action category="" state="G_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>00</main>
+    </action>
+</aim>

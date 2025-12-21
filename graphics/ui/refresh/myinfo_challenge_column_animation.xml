@@ -1,0 +1,1539 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="_Selected_">
+    <asset type="UI" name="asset_Wnd">
+      <rect l="0" t="0" r="438" b="88" />
+    </asset>
+    <asset type="UI" name="asset_challenge_list">
+      <rect l="0" t="0" r="438" b="85" />
+    </asset>
+    <asset type="UI" name="asset_list_img_myinfo_archive_contents">
+      <rect l="0" t="0" r="438" b="85" />
+    </asset>
+    <asset type="UI" name="asset_ta_challenge_info">
+      <rect l="0" t="0" r="361" b="32" />
+    </asset>
+    <asset type="UI" name="asset_tx_challenge_title">
+      <rect l="0" t="0" r="275" b="20" />
+    </asset>
+    <asset type="UI" name="asset_WndEx5">
+      <rect l="0" t="0" r="428" b="17" />
+    </asset>
+    <asset type="UI" name="asset_prgrs_challengebook">
+      <rect l="0" t="0" r="420" b="10" />
+    </asset>
+    <asset type="UI" name="asset_tx_challenge_number_goal">
+      <rect l="0" t="0" r="32" b="17" />
+    </asset>
+    <asset type="UI" name="asset_lb_slash1">
+      <rect l="0" t="0" r="5" b="17" />
+    </asset>
+    <asset type="UI" name="asset_tx_challenge_number_perform">
+      <rect l="0" t="0" r="32" b="17" />
+    </asset>
+    <asset type="UI" name="asset_icon_challenge">
+      <rect l="0" t="0" r="60" b="60" />
+    </asset>
+    <asset type="UI" name="asset_btn_myinfo_icon_over">
+      <rect l="0" t="0" r="65" b="65" />
+    </asset>
+    <asset type="UI" name="asset_img_myinfo_archive_gift_medal_disable">
+      <rect l="0" t="0" r="22" b="25" />
+    </asset>
+    <asset type="UI" name="asset_img_myinfo_archive_gift_medal_disable1">
+      <rect l="0" t="0" r="22" b="25" />
+    </asset>
+    <asset type="UI" name="asset_img_myinfo_archive_gift_medal_disable2">
+      <rect l="0" t="0" r="22" b="25" />
+    </asset>
+    <asset type="UI" name="asset_img_myinfo_archive_gift_medal_disable3">
+      <rect l="0" t="0" r="22" b="25" />
+    </asset>
+    <asset type="UI" name="asset_img_myinfo_archive_medal_4">
+      <rect l="0" t="0" r="21" b="33" />
+    </asset>
+    <asset type="UI" name="asset_img_myinfo_archive_medal_1">
+      <rect l="0" t="0" r="21" b="33" />
+    </asset>
+    <asset type="UI" name="asset_img_myinfo_archive_medal_2">
+      <rect l="0" t="0" r="21" b="33" />
+    </asset>
+    <asset type="UI" name="asset_img_myinfo_archive_medal_3">
+      <rect l="0" t="0" r="21" b="33" />
+    </asset>
+    <object name="Wnd" ani="ani_Wnd">
+      <asset type="UI" link="asset_Wnd" />
+    </object>
+    <object name="challenge_list" ani="ani_challenge_list">
+      <asset type="UI" link="asset_challenge_list" />
+    </object>
+    <object name="list_img_myinfo_archive_contents" ani="ani_list_img_myinfo_archive_contents">
+      <asset type="UI" link="asset_list_img_myinfo_archive_contents" />
+    </object>
+    <object name="ta_challenge_info" ani="ani_ta_challenge_info">
+      <asset type="UI" link="asset_ta_challenge_info" />
+    </object>
+    <object name="tx_challenge_title" ani="ani_tx_challenge_title">
+      <asset type="UI" link="asset_tx_challenge_title" />
+    </object>
+    <object name="WndEx5" ani="ani_WndEx5">
+      <asset type="UI" link="asset_WndEx5" />
+    </object>
+    <object name="prgrs_challengebook" ani="ani_prgrs_challengebook">
+      <asset type="UI" link="asset_prgrs_challengebook" />
+    </object>
+    <object name="tx_challenge_number_goal" ani="ani_tx_challenge_number_goal">
+      <asset type="UI" link="asset_tx_challenge_number_goal" />
+    </object>
+    <object name="lb_slash1" ani="ani_lb_slash1">
+      <asset type="UI" link="asset_lb_slash1" />
+    </object>
+    <object name="tx_challenge_number_perform" ani="ani_tx_challenge_number_perform">
+      <asset type="UI" link="asset_tx_challenge_number_perform" />
+    </object>
+    <object name="icon_challenge" ani="ani_icon_challenge">
+      <asset type="UI" link="asset_icon_challenge" />
+    </object>
+    <object name="btn_myinfo_icon_over" ani="ani_btn_myinfo_icon_over">
+      <asset type="UI" link="asset_btn_myinfo_icon_over" />
+    </object>
+    <object name="img_myinfo_archive_gift_medal_disable" ani="ani_img_myinfo_archive_gift_medal_disable">
+      <asset type="UI" link="asset_img_myinfo_archive_gift_medal_disable" />
+    </object>
+    <object name="img_myinfo_archive_gift_medal_disable1" ani="ani_img_myinfo_archive_gift_medal_disable1">
+      <asset type="UI" link="asset_img_myinfo_archive_gift_medal_disable1" />
+    </object>
+    <object name="img_myinfo_archive_gift_medal_disable2" ani="ani_img_myinfo_archive_gift_medal_disable2">
+      <asset type="UI" link="asset_img_myinfo_archive_gift_medal_disable2" />
+    </object>
+    <object name="img_myinfo_archive_gift_medal_disable3" ani="ani_img_myinfo_archive_gift_medal_disable3">
+      <asset type="UI" link="asset_img_myinfo_archive_gift_medal_disable3" />
+    </object>
+    <object name="img_myinfo_archive_medal_4" ani="ani_img_myinfo_archive_medal_4">
+      <asset type="UI" link="asset_img_myinfo_archive_medal_4" />
+    </object>
+    <object name="img_myinfo_archive_medal_1" ani="ani_img_myinfo_archive_medal_1">
+      <asset type="UI" link="asset_img_myinfo_archive_medal_1" />
+    </object>
+    <object name="img_myinfo_archive_medal_2" ani="ani_img_myinfo_archive_medal_2">
+      <asset type="UI" link="asset_img_myinfo_archive_medal_2" />
+    </object>
+    <object name="img_myinfo_archive_medal_3" ani="ani_img_myinfo_archive_medal_3">
+      <asset type="UI" link="asset_img_myinfo_archive_medal_3" />
+    </object>
+    <param type="RES" x="438" y="85" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_Wnd">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_challenge_list">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_list_img_myinfo_archive_contents">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ta_challenge_info">
+      <frame cnt="0">
+        <posx val="0.1666667" />
+        <posy val="0.3529412" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_tx_challenge_title">
+      <frame cnt="0">
+        <posx val="0.1666667" />
+        <posy val="0.05882353" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_WndEx5">
+      <frame cnt="0">
+        <posx val="0.01141553" />
+        <posy val="0.7647059" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_prgrs_challengebook">
+      <frame cnt="0">
+        <posx val="0.00913242" />
+        <posy val="0.04705882" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_tx_challenge_number_goal">
+      <frame cnt="0">
+        <posx val="0.5091324" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_lb_slash1">
+      <frame cnt="0">
+        <posx val="0.4977169" />
+        <posy val="0.01176471" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_tx_challenge_number_perform">
+      <frame cnt="0">
+        <posx val="0.4223744" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_challenge">
+      <frame cnt="0">
+        <posx val="0.01598174" />
+        <posy val="0.04705882" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_btn_myinfo_icon_over">
+      <frame cnt="0">
+        <posx val="-0.00456621" />
+        <posy val="-0.03529412" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_myinfo_archive_gift_medal_disable">
+      <frame cnt="0">
+        <posx val="0.7671233" />
+        <posy val="0.03529412" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_myinfo_archive_gift_medal_disable1">
+      <frame cnt="0">
+        <posx val="0.8219178" />
+        <posy val="0.03529412" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_myinfo_archive_gift_medal_disable2">
+      <frame cnt="0">
+        <posx val="0.8767123" />
+        <posy val="0.03529412" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_myinfo_archive_gift_medal_disable3">
+      <frame cnt="0">
+        <posx val="0.9315069" />
+        <posy val="0.03529412" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_myinfo_archive_medal_4">
+      <frame cnt="0">
+        <posx val="0.8242009" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_myinfo_archive_medal_1">
+      <frame cnt="0">
+        <posx val="0.7694064" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_myinfo_archive_medal_2">
+      <frame cnt="0">
+        <posx val="0.93379" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_myinfo_archive_medal_3">
+      <frame cnt="0">
+        <posx val="0.8789954" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Over_">
+    <asset type="UI" name="asset_Wnd">
+      <rect l="0" t="0" r="438" b="88" />
+    </asset>
+    <asset type="UI" name="asset_challenge_list">
+      <rect l="0" t="0" r="438" b="85" />
+    </asset>
+    <asset type="UI" name="asset_list_img_myinfo_archive_contents">
+      <rect l="0" t="0" r="438" b="85" />
+    </asset>
+    <asset type="UI" name="asset_ta_challenge_info">
+      <rect l="0" t="0" r="361" b="32" />
+    </asset>
+    <asset type="UI" name="asset_tx_challenge_title">
+      <rect l="0" t="0" r="275" b="20" />
+    </asset>
+    <asset type="UI" name="asset_WndEx5">
+      <rect l="0" t="0" r="428" b="17" />
+    </asset>
+    <asset type="UI" name="asset_prgrs_challengebook">
+      <rect l="0" t="0" r="420" b="10" />
+    </asset>
+    <asset type="UI" name="asset_tx_challenge_number_goal">
+      <rect l="0" t="0" r="32" b="17" />
+    </asset>
+    <asset type="UI" name="asset_lb_slash1">
+      <rect l="0" t="0" r="5" b="17" />
+    </asset>
+    <asset type="UI" name="asset_tx_challenge_number_perform">
+      <rect l="0" t="0" r="32" b="17" />
+    </asset>
+    <asset type="UI" name="asset_icon_challenge">
+      <rect l="0" t="0" r="60" b="60" />
+    </asset>
+    <asset type="UI" name="asset_btn_myinfo_icon_over">
+      <rect l="0" t="0" r="65" b="65" />
+    </asset>
+    <asset type="UI" name="asset_img_myinfo_archive_gift_medal_disable">
+      <rect l="0" t="0" r="22" b="25" />
+    </asset>
+    <asset type="UI" name="asset_img_myinfo_archive_gift_medal_disable1">
+      <rect l="0" t="0" r="22" b="25" />
+    </asset>
+    <asset type="UI" name="asset_img_myinfo_archive_gift_medal_disable2">
+      <rect l="0" t="0" r="22" b="25" />
+    </asset>
+    <asset type="UI" name="asset_img_myinfo_archive_gift_medal_disable3">
+      <rect l="0" t="0" r="22" b="25" />
+    </asset>
+    <asset type="UI" name="asset_img_myinfo_archive_medal_4">
+      <rect l="0" t="0" r="21" b="33" />
+    </asset>
+    <asset type="UI" name="asset_img_myinfo_archive_medal_1">
+      <rect l="0" t="0" r="21" b="33" />
+    </asset>
+    <asset type="UI" name="asset_img_myinfo_archive_medal_2">
+      <rect l="0" t="0" r="21" b="33" />
+    </asset>
+    <asset type="UI" name="asset_img_myinfo_archive_medal_3">
+      <rect l="0" t="0" r="21" b="33" />
+    </asset>
+    <object name="Wnd" ani="ani_Wnd">
+      <asset type="UI" link="asset_Wnd" />
+    </object>
+    <object name="challenge_list" ani="ani_challenge_list">
+      <asset type="UI" link="asset_challenge_list" />
+    </object>
+    <object name="list_img_myinfo_archive_contents" ani="ani_list_img_myinfo_archive_contents">
+      <asset type="UI" link="asset_list_img_myinfo_archive_contents" />
+    </object>
+    <object name="ta_challenge_info" ani="ani_ta_challenge_info">
+      <asset type="UI" link="asset_ta_challenge_info" />
+    </object>
+    <object name="tx_challenge_title" ani="ani_tx_challenge_title">
+      <asset type="UI" link="asset_tx_challenge_title" />
+    </object>
+    <object name="WndEx5" ani="ani_WndEx5">
+      <asset type="UI" link="asset_WndEx5" />
+    </object>
+    <object name="prgrs_challengebook" ani="ani_prgrs_challengebook">
+      <asset type="UI" link="asset_prgrs_challengebook" />
+    </object>
+    <object name="tx_challenge_number_goal" ani="ani_tx_challenge_number_goal">
+      <asset type="UI" link="asset_tx_challenge_number_goal" />
+    </object>
+    <object name="lb_slash1" ani="ani_lb_slash1">
+      <asset type="UI" link="asset_lb_slash1" />
+    </object>
+    <object name="tx_challenge_number_perform" ani="ani_tx_challenge_number_perform">
+      <asset type="UI" link="asset_tx_challenge_number_perform" />
+    </object>
+    <object name="icon_challenge" ani="ani_icon_challenge">
+      <asset type="UI" link="asset_icon_challenge" />
+    </object>
+    <object name="btn_myinfo_icon_over" ani="ani_btn_myinfo_icon_over">
+      <asset type="UI" link="asset_btn_myinfo_icon_over" />
+    </object>
+    <object name="img_myinfo_archive_gift_medal_disable" ani="ani_img_myinfo_archive_gift_medal_disable">
+      <asset type="UI" link="asset_img_myinfo_archive_gift_medal_disable" />
+    </object>
+    <object name="img_myinfo_archive_gift_medal_disable1" ani="ani_img_myinfo_archive_gift_medal_disable1">
+      <asset type="UI" link="asset_img_myinfo_archive_gift_medal_disable1" />
+    </object>
+    <object name="img_myinfo_archive_gift_medal_disable2" ani="ani_img_myinfo_archive_gift_medal_disable2">
+      <asset type="UI" link="asset_img_myinfo_archive_gift_medal_disable2" />
+    </object>
+    <object name="img_myinfo_archive_gift_medal_disable3" ani="ani_img_myinfo_archive_gift_medal_disable3">
+      <asset type="UI" link="asset_img_myinfo_archive_gift_medal_disable3" />
+    </object>
+    <object name="img_myinfo_archive_medal_4" ani="ani_img_myinfo_archive_medal_4">
+      <asset type="UI" link="asset_img_myinfo_archive_medal_4" />
+    </object>
+    <object name="img_myinfo_archive_medal_1" ani="ani_img_myinfo_archive_medal_1">
+      <asset type="UI" link="asset_img_myinfo_archive_medal_1" />
+    </object>
+    <object name="img_myinfo_archive_medal_2" ani="ani_img_myinfo_archive_medal_2">
+      <asset type="UI" link="asset_img_myinfo_archive_medal_2" />
+    </object>
+    <object name="img_myinfo_archive_medal_3" ani="ani_img_myinfo_archive_medal_3">
+      <asset type="UI" link="asset_img_myinfo_archive_medal_3" />
+    </object>
+    <param type="RES" x="438" y="85" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_Wnd">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_challenge_list">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_list_img_myinfo_archive_contents">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ta_challenge_info">
+      <frame cnt="0">
+        <posx val="0.1666667" />
+        <posy val="0.3529412" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_tx_challenge_title">
+      <frame cnt="0">
+        <posx val="0.1666667" />
+        <posy val="0.05882353" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_WndEx5">
+      <frame cnt="0">
+        <posx val="0.01141553" />
+        <posy val="0.7647059" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_prgrs_challengebook">
+      <frame cnt="0">
+        <posx val="0.00913242" />
+        <posy val="0.04705882" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_tx_challenge_number_goal">
+      <frame cnt="0">
+        <posx val="0.5091324" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_lb_slash1">
+      <frame cnt="0">
+        <posx val="0.4977169" />
+        <posy val="0.01176471" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_tx_challenge_number_perform">
+      <frame cnt="0">
+        <posx val="0.4223744" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_challenge">
+      <frame cnt="0">
+        <posx val="0.01598174" />
+        <posy val="0.04705882" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_btn_myinfo_icon_over">
+      <frame cnt="0">
+        <posx val="-0.00456621" />
+        <posy val="-0.03529412" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_myinfo_archive_gift_medal_disable">
+      <frame cnt="0">
+        <posx val="0.7671233" />
+        <posy val="0.03529412" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_myinfo_archive_gift_medal_disable1">
+      <frame cnt="0">
+        <posx val="0.8219178" />
+        <posy val="0.03529412" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_myinfo_archive_gift_medal_disable2">
+      <frame cnt="0">
+        <posx val="0.8767123" />
+        <posy val="0.03529412" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_myinfo_archive_gift_medal_disable3">
+      <frame cnt="0">
+        <posx val="0.9315069" />
+        <posy val="0.03529412" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_myinfo_archive_medal_4">
+      <frame cnt="0">
+        <posx val="0.8242009" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_myinfo_archive_medal_1">
+      <frame cnt="0">
+        <posx val="0.7694064" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_myinfo_archive_medal_2">
+      <frame cnt="0">
+        <posx val="0.93379" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_myinfo_archive_medal_3">
+      <frame cnt="0">
+        <posx val="0.8789954" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Normal_">
+    <asset type="UI" name="asset_Wnd">
+      <rect l="0" t="0" r="438" b="88" />
+    </asset>
+    <asset type="UI" name="asset_challenge_list">
+      <rect l="0" t="0" r="438" b="85" />
+    </asset>
+    <asset type="UI" name="asset_list_img_myinfo_archive_contents">
+      <rect l="0" t="0" r="438" b="85" />
+    </asset>
+    <asset type="UI" name="asset_ta_challenge_info">
+      <rect l="0" t="0" r="361" b="32" />
+    </asset>
+    <asset type="UI" name="asset_tx_challenge_title">
+      <rect l="0" t="0" r="275" b="20" />
+    </asset>
+    <asset type="UI" name="asset_WndEx5">
+      <rect l="0" t="0" r="428" b="17" />
+    </asset>
+    <asset type="UI" name="asset_prgrs_challengebook">
+      <rect l="0" t="0" r="420" b="10" />
+    </asset>
+    <asset type="UI" name="asset_tx_challenge_number_goal">
+      <rect l="0" t="0" r="32" b="17" />
+    </asset>
+    <asset type="UI" name="asset_lb_slash1">
+      <rect l="0" t="0" r="5" b="17" />
+    </asset>
+    <asset type="UI" name="asset_tx_challenge_number_perform">
+      <rect l="0" t="0" r="32" b="17" />
+    </asset>
+    <asset type="UI" name="asset_icon_challenge">
+      <rect l="0" t="0" r="60" b="60" />
+    </asset>
+    <asset type="UI" name="asset_btn_myinfo_icon_over">
+      <rect l="0" t="0" r="65" b="65" />
+    </asset>
+    <asset type="UI" name="asset_img_myinfo_archive_gift_medal_disable">
+      <rect l="0" t="0" r="22" b="25" />
+    </asset>
+    <asset type="UI" name="asset_img_myinfo_archive_gift_medal_disable1">
+      <rect l="0" t="0" r="22" b="25" />
+    </asset>
+    <asset type="UI" name="asset_img_myinfo_archive_gift_medal_disable2">
+      <rect l="0" t="0" r="22" b="25" />
+    </asset>
+    <asset type="UI" name="asset_img_myinfo_archive_gift_medal_disable3">
+      <rect l="0" t="0" r="22" b="25" />
+    </asset>
+    <asset type="UI" name="asset_img_myinfo_archive_medal_4">
+      <rect l="0" t="0" r="21" b="33" />
+    </asset>
+    <asset type="UI" name="asset_img_myinfo_archive_medal_1">
+      <rect l="0" t="0" r="21" b="33" />
+    </asset>
+    <asset type="UI" name="asset_img_myinfo_archive_medal_2">
+      <rect l="0" t="0" r="21" b="33" />
+    </asset>
+    <asset type="UI" name="asset_img_myinfo_archive_medal_3">
+      <rect l="0" t="0" r="21" b="33" />
+    </asset>
+    <object name="Wnd" ani="ani_Wnd">
+      <asset type="UI" link="asset_Wnd" />
+    </object>
+    <object name="challenge_list" ani="ani_challenge_list">
+      <asset type="UI" link="asset_challenge_list" />
+    </object>
+    <object name="list_img_myinfo_archive_contents" ani="ani_list_img_myinfo_archive_contents">
+      <asset type="UI" link="asset_list_img_myinfo_archive_contents" />
+    </object>
+    <object name="ta_challenge_info" ani="ani_ta_challenge_info">
+      <asset type="UI" link="asset_ta_challenge_info" />
+    </object>
+    <object name="tx_challenge_title" ani="ani_tx_challenge_title">
+      <asset type="UI" link="asset_tx_challenge_title" />
+    </object>
+    <object name="WndEx5" ani="ani_WndEx5">
+      <asset type="UI" link="asset_WndEx5" />
+    </object>
+    <object name="prgrs_challengebook" ani="ani_prgrs_challengebook">
+      <asset type="UI" link="asset_prgrs_challengebook" />
+    </object>
+    <object name="tx_challenge_number_goal" ani="ani_tx_challenge_number_goal">
+      <asset type="UI" link="asset_tx_challenge_number_goal" />
+    </object>
+    <object name="lb_slash1" ani="ani_lb_slash1">
+      <asset type="UI" link="asset_lb_slash1" />
+    </object>
+    <object name="tx_challenge_number_perform" ani="ani_tx_challenge_number_perform">
+      <asset type="UI" link="asset_tx_challenge_number_perform" />
+    </object>
+    <object name="icon_challenge" ani="ani_icon_challenge">
+      <asset type="UI" link="asset_icon_challenge" />
+    </object>
+    <object name="btn_myinfo_icon_over" ani="ani_btn_myinfo_icon_over">
+      <asset type="UI" link="asset_btn_myinfo_icon_over" />
+    </object>
+    <object name="img_myinfo_archive_gift_medal_disable" ani="ani_img_myinfo_archive_gift_medal_disable">
+      <asset type="UI" link="asset_img_myinfo_archive_gift_medal_disable" />
+    </object>
+    <object name="img_myinfo_archive_gift_medal_disable1" ani="ani_img_myinfo_archive_gift_medal_disable1">
+      <asset type="UI" link="asset_img_myinfo_archive_gift_medal_disable1" />
+    </object>
+    <object name="img_myinfo_archive_gift_medal_disable2" ani="ani_img_myinfo_archive_gift_medal_disable2">
+      <asset type="UI" link="asset_img_myinfo_archive_gift_medal_disable2" />
+    </object>
+    <object name="img_myinfo_archive_gift_medal_disable3" ani="ani_img_myinfo_archive_gift_medal_disable3">
+      <asset type="UI" link="asset_img_myinfo_archive_gift_medal_disable3" />
+    </object>
+    <object name="img_myinfo_archive_medal_4" ani="ani_img_myinfo_archive_medal_4">
+      <asset type="UI" link="asset_img_myinfo_archive_medal_4" />
+    </object>
+    <object name="img_myinfo_archive_medal_1" ani="ani_img_myinfo_archive_medal_1">
+      <asset type="UI" link="asset_img_myinfo_archive_medal_1" />
+    </object>
+    <object name="img_myinfo_archive_medal_2" ani="ani_img_myinfo_archive_medal_2">
+      <asset type="UI" link="asset_img_myinfo_archive_medal_2" />
+    </object>
+    <object name="img_myinfo_archive_medal_3" ani="ani_img_myinfo_archive_medal_3">
+      <asset type="UI" link="asset_img_myinfo_archive_medal_3" />
+    </object>
+    <param type="RES" x="438" y="85" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_Wnd">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_challenge_list">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_list_img_myinfo_archive_contents">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ta_challenge_info">
+      <frame cnt="0">
+        <posx val="0.1666667" />
+        <posy val="0.3529412" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_tx_challenge_title">
+      <frame cnt="0">
+        <posx val="0.1666667" />
+        <posy val="0.05882353" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_WndEx5">
+      <frame cnt="0">
+        <posx val="0.01141553" />
+        <posy val="0.7647059" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_prgrs_challengebook">
+      <frame cnt="0">
+        <posx val="0.00913242" />
+        <posy val="0.04705882" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_tx_challenge_number_goal">
+      <frame cnt="0">
+        <posx val="0.5091324" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_lb_slash1">
+      <frame cnt="0">
+        <posx val="0.4977169" />
+        <posy val="0.01176471" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_tx_challenge_number_perform">
+      <frame cnt="0">
+        <posx val="0.4223744" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_challenge">
+      <frame cnt="0">
+        <posx val="0.01598174" />
+        <posy val="0.04705882" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_btn_myinfo_icon_over">
+      <frame cnt="0">
+        <posx val="-0.00456621" />
+        <posy val="-0.03529412" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_myinfo_archive_gift_medal_disable">
+      <frame cnt="0">
+        <posx val="0.7671233" />
+        <posy val="0.03529412" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_myinfo_archive_gift_medal_disable1">
+      <frame cnt="0">
+        <posx val="0.8219178" />
+        <posy val="0.03529412" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_myinfo_archive_gift_medal_disable2">
+      <frame cnt="0">
+        <posx val="0.8767123" />
+        <posy val="0.03529412" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_myinfo_archive_gift_medal_disable3">
+      <frame cnt="0">
+        <posx val="0.9315069" />
+        <posy val="0.03529412" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_myinfo_archive_medal_4">
+      <frame cnt="0">
+        <posx val="0.8242009" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_myinfo_archive_medal_1">
+      <frame cnt="0">
+        <posx val="0.7694064" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_myinfo_archive_medal_2">
+      <frame cnt="0">
+        <posx val="0.93379" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_myinfo_archive_medal_3">
+      <frame cnt="0">
+        <posx val="0.8789954" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Disabled_">
+    <asset type="UI" name="asset_Wnd">
+      <rect l="0" t="0" r="438" b="88" />
+    </asset>
+    <asset type="UI" name="asset_challenge_list">
+      <rect l="0" t="0" r="438" b="85" />
+    </asset>
+    <asset type="UI" name="asset_list_img_myinfo_archive_contents">
+      <rect l="0" t="0" r="438" b="85" />
+    </asset>
+    <asset type="UI" name="asset_ta_challenge_info">
+      <rect l="0" t="0" r="361" b="32" />
+    </asset>
+    <asset type="UI" name="asset_tx_challenge_title">
+      <rect l="0" t="0" r="275" b="20" />
+    </asset>
+    <asset type="UI" name="asset_WndEx5">
+      <rect l="0" t="0" r="428" b="17" />
+    </asset>
+    <asset type="UI" name="asset_prgrs_challengebook">
+      <rect l="0" t="0" r="420" b="10" />
+    </asset>
+    <asset type="UI" name="asset_tx_challenge_number_goal">
+      <rect l="0" t="0" r="32" b="17" />
+    </asset>
+    <asset type="UI" name="asset_lb_slash1">
+      <rect l="0" t="0" r="5" b="17" />
+    </asset>
+    <asset type="UI" name="asset_tx_challenge_number_perform">
+      <rect l="0" t="0" r="32" b="17" />
+    </asset>
+    <asset type="UI" name="asset_icon_challenge">
+      <rect l="0" t="0" r="60" b="60" />
+    </asset>
+    <asset type="UI" name="asset_btn_myinfo_icon_over">
+      <rect l="0" t="0" r="65" b="65" />
+    </asset>
+    <asset type="UI" name="asset_img_myinfo_archive_gift_medal_disable">
+      <rect l="0" t="0" r="22" b="25" />
+    </asset>
+    <asset type="UI" name="asset_img_myinfo_archive_gift_medal_disable1">
+      <rect l="0" t="0" r="22" b="25" />
+    </asset>
+    <asset type="UI" name="asset_img_myinfo_archive_gift_medal_disable2">
+      <rect l="0" t="0" r="22" b="25" />
+    </asset>
+    <asset type="UI" name="asset_img_myinfo_archive_gift_medal_disable3">
+      <rect l="0" t="0" r="22" b="25" />
+    </asset>
+    <asset type="UI" name="asset_img_myinfo_archive_medal_4">
+      <rect l="0" t="0" r="21" b="33" />
+    </asset>
+    <asset type="UI" name="asset_img_myinfo_archive_medal_1">
+      <rect l="0" t="0" r="21" b="33" />
+    </asset>
+    <asset type="UI" name="asset_img_myinfo_archive_medal_2">
+      <rect l="0" t="0" r="21" b="33" />
+    </asset>
+    <asset type="UI" name="asset_img_myinfo_archive_medal_3">
+      <rect l="0" t="0" r="21" b="33" />
+    </asset>
+    <object name="Wnd" ani="ani_Wnd">
+      <asset type="UI" link="asset_Wnd" />
+    </object>
+    <object name="challenge_list" ani="ani_challenge_list">
+      <asset type="UI" link="asset_challenge_list" />
+    </object>
+    <object name="list_img_myinfo_archive_contents" ani="ani_list_img_myinfo_archive_contents">
+      <asset type="UI" link="asset_list_img_myinfo_archive_contents" />
+    </object>
+    <object name="ta_challenge_info" ani="ani_ta_challenge_info">
+      <asset type="UI" link="asset_ta_challenge_info" />
+    </object>
+    <object name="tx_challenge_title" ani="ani_tx_challenge_title">
+      <asset type="UI" link="asset_tx_challenge_title" />
+    </object>
+    <object name="WndEx5" ani="ani_WndEx5">
+      <asset type="UI" link="asset_WndEx5" />
+    </object>
+    <object name="prgrs_challengebook" ani="ani_prgrs_challengebook">
+      <asset type="UI" link="asset_prgrs_challengebook" />
+    </object>
+    <object name="tx_challenge_number_goal" ani="ani_tx_challenge_number_goal">
+      <asset type="UI" link="asset_tx_challenge_number_goal" />
+    </object>
+    <object name="lb_slash1" ani="ani_lb_slash1">
+      <asset type="UI" link="asset_lb_slash1" />
+    </object>
+    <object name="tx_challenge_number_perform" ani="ani_tx_challenge_number_perform">
+      <asset type="UI" link="asset_tx_challenge_number_perform" />
+    </object>
+    <object name="icon_challenge" ani="ani_icon_challenge">
+      <asset type="UI" link="asset_icon_challenge" />
+    </object>
+    <object name="btn_myinfo_icon_over" ani="ani_btn_myinfo_icon_over">
+      <asset type="UI" link="asset_btn_myinfo_icon_over" />
+    </object>
+    <object name="img_myinfo_archive_gift_medal_disable" ani="ani_img_myinfo_archive_gift_medal_disable">
+      <asset type="UI" link="asset_img_myinfo_archive_gift_medal_disable" />
+    </object>
+    <object name="img_myinfo_archive_gift_medal_disable1" ani="ani_img_myinfo_archive_gift_medal_disable1">
+      <asset type="UI" link="asset_img_myinfo_archive_gift_medal_disable1" />
+    </object>
+    <object name="img_myinfo_archive_gift_medal_disable2" ani="ani_img_myinfo_archive_gift_medal_disable2">
+      <asset type="UI" link="asset_img_myinfo_archive_gift_medal_disable2" />
+    </object>
+    <object name="img_myinfo_archive_gift_medal_disable3" ani="ani_img_myinfo_archive_gift_medal_disable3">
+      <asset type="UI" link="asset_img_myinfo_archive_gift_medal_disable3" />
+    </object>
+    <object name="img_myinfo_archive_medal_4" ani="ani_img_myinfo_archive_medal_4">
+      <asset type="UI" link="asset_img_myinfo_archive_medal_4" />
+    </object>
+    <object name="img_myinfo_archive_medal_1" ani="ani_img_myinfo_archive_medal_1">
+      <asset type="UI" link="asset_img_myinfo_archive_medal_1" />
+    </object>
+    <object name="img_myinfo_archive_medal_2" ani="ani_img_myinfo_archive_medal_2">
+      <asset type="UI" link="asset_img_myinfo_archive_medal_2" />
+    </object>
+    <object name="img_myinfo_archive_medal_3" ani="ani_img_myinfo_archive_medal_3">
+      <asset type="UI" link="asset_img_myinfo_archive_medal_3" />
+    </object>
+    <param type="RES" x="438" y="85" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_Wnd">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_challenge_list">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_list_img_myinfo_archive_contents">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ta_challenge_info">
+      <frame cnt="0">
+        <posx val="0.1666667" />
+        <posy val="0.3529412" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_tx_challenge_title">
+      <frame cnt="0">
+        <posx val="0.1666667" />
+        <posy val="0.05882353" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_WndEx5">
+      <frame cnt="0">
+        <posx val="0.01141553" />
+        <posy val="0.7647059" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_prgrs_challengebook">
+      <frame cnt="0">
+        <posx val="0.00913242" />
+        <posy val="0.04705882" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_tx_challenge_number_goal">
+      <frame cnt="0">
+        <posx val="0.5091324" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_lb_slash1">
+      <frame cnt="0">
+        <posx val="0.4977169" />
+        <posy val="0.01176471" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_tx_challenge_number_perform">
+      <frame cnt="0">
+        <posx val="0.4223744" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_challenge">
+      <frame cnt="0">
+        <posx val="0.01598174" />
+        <posy val="0.04705882" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_btn_myinfo_icon_over">
+      <frame cnt="0">
+        <posx val="-0.00456621" />
+        <posy val="-0.03529412" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_myinfo_archive_gift_medal_disable">
+      <frame cnt="0">
+        <posx val="0.7671233" />
+        <posy val="0.03529412" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_myinfo_archive_gift_medal_disable1">
+      <frame cnt="0">
+        <posx val="0.8219178" />
+        <posy val="0.03529412" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_myinfo_archive_gift_medal_disable2">
+      <frame cnt="0">
+        <posx val="0.8767123" />
+        <posy val="0.03529412" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_myinfo_archive_gift_medal_disable3">
+      <frame cnt="0">
+        <posx val="0.9315069" />
+        <posy val="0.03529412" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_myinfo_archive_medal_4">
+      <frame cnt="0">
+        <posx val="0.8242009" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_myinfo_archive_medal_1">
+      <frame cnt="0">
+        <posx val="0.7694064" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_myinfo_archive_medal_2">
+      <frame cnt="0">
+        <posx val="0.93379" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_myinfo_archive_medal_3">
+      <frame cnt="0">
+        <posx val="0.8789954" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="event_result_frame_effect_Default">
+    <asset type="IMAGE" name="asset_event_result_frame_effect" path="event_result_frame_effect.png">
+      <rect l="0" t="0" r="106" b="111" />
+    </asset>
+    <object name="event_result_frame_effect" ani="ani_event_result_frame_effect">
+      <asset type="IMAGE" link="asset_event_result_frame_effect" />
+    </object>
+    <param type="RES" x="142" y="148" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_event_result_frame_effect">
+      <frame cnt="0">
+        <posx val="0.5" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="1000">
+        <posx val="0.5" />
+        <posy val="0.5" />
+        <scalex val="1.32075471698113" />
+        <scaley val="1.30630630630631" />
+        <alpha val="1" />
+        <rotate val="180" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="2000">
+        <posx val="0.5" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="360" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

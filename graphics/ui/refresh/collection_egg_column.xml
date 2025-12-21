@@ -1,0 +1,305 @@
+﻿<refresh version="2">
+	<properties>
+		<property name="DPI" val="72" />
+		<property name="UIAnimation" val="collection_egg_column_Animation.xml" />
+	</properties>
+	<base type="WND" subclass="" name="Wnd_egg_column">
+		<pos x="0" y="0" />
+		<rect l="0" t="0" r="104" b="99" />
+		<Visible val="True" />
+		<Anchor val="Top, Left" />
+		<snd type="SHOW"></snd>
+		<snd type="HIDE"></snd>
+		<IsHitTestVisible val="True" />
+		<ClipChildren val="False" />
+		<base type="WND" subclass="" name="Wnd_egg">
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="103" b="97" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<snd type="SHOW"></snd>
+			<snd type="HIDE"></snd>
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+			<child type="PICTURE" name="btn_emblem_list_Normal" subclass="">
+				<asset type="STATIC">collectionbook_list_Normal.png</asset>
+				<pos x="0" y="0" />
+				<rect l="0" t="0" r="103" b="97" />
+				<Visible val="False" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="btn_emblem_list_Hover" subclass="">
+				<asset type="STATIC">collectionbook_list_Hover.png</asset>
+				<pos x="0" y="0" />
+				<rect l="0" t="0" r="103" b="97" />
+				<Visible val="False" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="btn_emblem_list_Push" subclass="">
+				<asset type="STATIC"></asset>
+				<pos x="0" y="0" />
+				<rect l="0" t="0" r="103" b="97" />
+				<Visible val="False" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="btn_emblem_list_Dis" subclass="">
+				<asset type="STATIC">collectionbook_list_Normal.png</asset>
+				<pos x="0" y="0" />
+				<rect l="0" t="0" r="103" b="97" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="btn_emblem_list_theme" subclass="">
+				<asset type="STATIC">img_myinfo_emblem_blank.png</asset>
+				<pos x="-836" y="1" />
+				<rect l="0" t="0" r="74" b="88" />
+				<Visible val="False" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="img_emblem" subclass="">
+				<asset type="STATIC"></asset>
+				<pos x="3" y="-6" />
+				<rect l="0" t="0" r="95" b="105" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="egg_none" subclass="">
+				<asset type="STATIC">collectionbook_egg_none.png</asset>
+				<pos x="0" y="0" />
+				<rect l="0" t="0" r="103" b="97" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="img_common_emblem_ribbon" subclass="">
+				<asset type="STATIC">img_common_emblem_ribbon_s_01.png</asset>
+				<pos x="4" y="65" />
+				<rect l="0" t="0" r="97" b="31" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+				<child type="PICTURE" name="img_emblem_rare" subclass="">
+					<asset type="STATIC">icon_common_star_emblem_4.png</asset>
+					<pos x="16" y="8" />
+					<rect l="0" t="0" r="63" b="16" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+				</child>
+			</child>
+			<child type="PICTURE" name="incubation_flag" subclass="">
+				<asset type="STATIC">book_frame_deco_s_01.png</asset>
+				<pos x="0" y="0" />
+				<rect l="0" t="0" r="56" b="57" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+				<child type="LABEL" name=" incubation_1" subclass="">
+					<pos x="6" y="17" />
+					<rect l="0" t="0" r="42" b="22" />
+					<Visible val="True" />
+					<Anchor val="Left, Right" />
+					<label val="" />
+					<OutlineColor val="#FFFFFF" />
+					<ShadowColor val="#0000004C" />
+					<color val="#FFFFFFFF" />
+					<halign val="1" />
+					<valign val="1" />
+					<FontName val="나눔고딕 ExtraBold" />
+					<FontSize val="12" />
+					<TextTrimming val="None" />
+					<style val="0" />
+					<IsHitTestVisible val="False" />
+					<ClipChildren val="False" />
+					<Padding val="0, 0, 0, 0" />
+					<FitToContent val="False" />
+				</child>
+				<child type="LABEL" name="incubation_0" subclass="">
+					<pos x="8" y="3" />
+					<rect l="0" t="0" r="41" b="22" />
+					<Visible val="True" />
+					<Anchor val="Left, Right" />
+					<label val="" />
+					<OutlineColor val="#FFFFFF" />
+					<ShadowColor val="#0000004C" />
+					<color val="#FFFFFFFF" />
+					<halign val="1" />
+					<valign val="1" />
+					<FontName val="나눔고딕 ExtraBold" />
+					<FontSize val="14" />
+					<TextTrimming val="None" />
+					<style val="0" />
+					<IsHitTestVisible val="False" />
+					<ClipChildren val="False" />
+					<Padding val="0, 0, 0, 0" />
+					<FitToContent val="False" />
+				</child>
+			</child>
+			<child type="PICTURE" name="shop_icon_new" subclass="">
+				<asset type="STATIC">shop_icon_new.png</asset>
+				<pos x="0" y="0" />
+				<rect l="0" t="0" r="120" b="104" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="img_emblem_list_Select" subclass="">
+				<asset type="STATIC">collectionbook_list_select.png</asset>
+				<pos x="0" y="0" />
+				<rect l="0" t="0" r="103" b="97" />
+				<Visible val="False" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="img_emblem_icon_select" subclass="">
+				<asset type="STATIC">icon_common_select.png</asset>
+				<pos x="78" y="5" />
+				<rect l="0" t="0" r="22" b="23" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<base type="WNDEX" subclass="" name="WndEx_egg_bar">
+				<asset type="BG" path="frm_gauge_CenterMiddle.png" tileMode="Stretch">
+					<tex x="4" y="4" />
+					<rect l="7" t="7" r="69" b="-1" />
+				</asset>
+				<asset type="EDGE_LT" path="frm_gauge_LeftTop.png" tileMode="Stretch">
+					<tex x="7" y="7" />
+					<rect l="0" t="0" r="7" b="7" />
+				</asset>
+				<asset type="EDGE_RT" path="frm_gauge_RightTop.png" tileMode="Stretch">
+					<tex x="7" y="7" />
+					<rect l="0" t="0" r="7" b="7" />
+				</asset>
+				<asset type="EDGE_LB" path="frm_gauge_LeftBottom.png" tileMode="Stretch">
+					<tex x="7" y="7" />
+					<rect l="0" t="0" r="7" b="7" />
+				</asset>
+				<asset type="EDGE_RB" path="frm_gauge_RightBottom.png" tileMode="Stretch">
+					<tex x="7" y="7" />
+					<rect l="0" t="0" r="7" b="7" />
+				</asset>
+				<asset type="FRAME_T" path="frm_gauge_CenterTop.png" tileMode="Stretch">
+					<tex x="4" y="7" />
+					<rect l="7" t="0" r="69" b="7" />
+				</asset>
+				<asset type="FRAME_B" path="frm_gauge_CenterBottom.png" tileMode="Stretch">
+					<tex x="4" y="7" />
+					<rect l="7" t="0" r="69" b="7" />
+				</asset>
+				<asset type="FRAME_L" path="frm_gauge_LeftMiddle.png" tileMode="Stretch">
+					<tex x="7" y="4" />
+					<rect l="0" t="7" r="7" b="-1" />
+				</asset>
+				<asset type="FRAME_R" path="frm_gauge_RightMiddle.png" tileMode="Stretch">
+					<tex x="7" y="4" />
+					<rect l="0" t="7" r="7" b="-1" />
+				</asset>
+				<pos x="10" y="59" />
+				<rect l="0" t="0" r="83" b="13" />
+				<Visible val="True" />
+				<Anchor val="Top, Bottom, Left, Right" />
+				<snd type="SHOW"></snd>
+				<snd type="HIDE"></snd>
+				<Dragable val="False" />
+				<StartPosition val="None" />
+				<EscKeyAction val="None" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+				<child type="PROGRESS" name="progress_bar3" subclass="">
+					<asset type="BAR" tileMode="Stretch">img_common_gauge_small_alpha.png</asset>
+					<tex x="4" y="12" />
+					<pos x="-845" y="54" />
+					<rect l="0" t="0" r="75" b="5" />
+					<Visible val="True" />
+					<Anchor val="Top, Bottom, Left, Right" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+				</child>
+				<child type="PROGRESS" name="progress_bar1" subclass="">
+					<asset type="BAR" tileMode="Stretch">img_common_gauge_blue.png</asset>
+					<tex x="4" y="16" />
+					<pos x="-845" y="54" />
+					<rect l="0" t="0" r="75" b="5" />
+					<Visible val="True" />
+					<Anchor val="Top, Bottom, Left, Right" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+				</child>
+				<child type="PROGRESS" name="progress_bar2" subclass="">
+					<asset type="BAR" tileMode="Stretch">img_common_gauge_red_highlight.png</asset>
+					<tex x="4" y="16" />
+					<pos x="-845" y="54" />
+					<rect l="0" t="0" r="75" b="5" />
+					<Visible val="True" />
+					<Anchor val="Top, Bottom, Left, Right" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+				</child>
+				<child type="PROGRESS" name="progress_bar" subclass="">
+					<asset type="BAR" tileMode="Stretch">img_common_gauge_small.png</asset>
+					<tex x="4" y="12" />
+					<pos x="4" y="4" />
+					<rect l="0" t="0" r="75" b="5" />
+					<Visible val="True" />
+					<Anchor val="Top, Bottom, Left, Right" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+				</child>
+				<child type="LABEL" name="Label_finish" subclass="">
+					<pos x="-11" y="-1" />
+					<rect l="0" t="0" r="105" b="17" />
+					<Visible val="True" />
+					<Anchor val="Top, Left, Right" />
+					<label val="부화 준비 완료" />
+					<OutlineColor val="#423434FF" />
+					<ShadowColor val="#3B36364C" />
+					<color val="#FDF74FFF" />
+					<halign val="1" />
+					<valign val="1" />
+					<FontName val="나눔고딕 ExtraBold" />
+					<FontSize val="12" />
+					<TextTrimming val="None" />
+					<style val="48" />
+					<IsHitTestVisible val="False" />
+					<ClipChildren val="False" />
+					<Padding val="0, 0, 0, 0" />
+					<FitToContent val="False" />
+				</child>
+			</base>
+		</base>
+	</base>
+</refresh>

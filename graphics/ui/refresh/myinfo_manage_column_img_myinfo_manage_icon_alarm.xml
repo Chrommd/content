@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="img_myinfo_manage_icon_alarm_Default">
+    <asset type="IMAGE" name="asset_img_myinfo_manage_event_light" path="img_myinfo_manage_event_light.png">
+      <rect l="0" t="0" r="41" b="41" />
+    </asset>
+    <asset type="IMAGE" name="asset_img_myinfo_manage_event_frame" path="img_myinfo_manage_event_frame.png">
+      <rect l="0" t="0" r="43" b="43" />
+    </asset>
+    <asset type="IMAGE" name="asset_img_myinfo_manage_event" path="img_myinfo_manage_event.png">
+      <rect l="0" t="0" r="11" b="29" />
+    </asset>
+    <object name="img_myinfo_manage_event_light" ani="ani_img_myinfo_manage_event_light">
+      <asset type="IMAGE" link="asset_img_myinfo_manage_event_light" />
+    </object>
+    <object name="img_myinfo_manage_event_frame" ani="ani_img_myinfo_manage_event_frame">
+      <asset type="IMAGE" link="asset_img_myinfo_manage_event_frame" />
+    </object>
+    <object name="img_myinfo_manage_event" ani="ani_img_myinfo_manage_event">
+      <asset type="IMAGE" link="asset_img_myinfo_manage_event" />
+    </object>
+    <param type="RES" x="43" y="43" />
+    <param type="LOOP" cnt="-1" pendulum="0" />
+    <anim name="ani_img_myinfo_manage_event_light">
+      <frame cnt="0">
+        <posx val="0.5116279" />
+        <posy val="0.5116279" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="300">
+        <posx val="0.5116279" />
+        <posy val="0.5116279" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.3" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="600">
+        <posx val="0.5116279" />
+        <posy val="0.5116279" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+    <anim name="ani_img_myinfo_manage_event_frame">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_myinfo_manage_event">
+      <frame cnt="0">
+        <posx val="0.5116279" />
+        <posy val="0.5116279" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

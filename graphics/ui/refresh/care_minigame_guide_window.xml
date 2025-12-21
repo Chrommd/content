@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="care_minigame_guide_window_Animation.xml" />
+  </properties>
+  <base type="WND" subclass="" name="Wnd">
+    <Visible val="True" />
+    <Anchor val="Top, Bottom, Left, Right" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="1024" b="768" />
+    <snd type="SHOW">
+    </snd>
+    <snd type="HIDE">
+    </snd>
+    <IsHitTestVisible val="True" />
+    <ClipChildren val="False" />
+    <child type="STACKPANEL" name="anchor" subclass="">
+      <Visible val="True" />
+      <Anchor val="Top, Left, Right" />
+      <pos x="0" y="52" />
+      <rect l="0" t="0" r="1024" b="69" />
+      <Orientation val="Vertical" />
+      <HAlign val="Center" />
+      <VAlign val="Center" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <child type="PANEL" name="care_tip" subclass="">
+        <Visible val="True" />
+        <Anchor val="Left, Right" />
+        <embed src="" />
+        <pos x="0" y="0" />
+        <rect l="0" t="0" r="1024" b="69" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <child type="PICTURE" name="bg_care_tip" subclass="">
+          <asset type="STATIC">bg_care_tip4.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="309" y="0" />
+          <rect l="0" t="0" r="406" b="69" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="LABEL" name="lb_clean_tip1" subclass="">
+          <label val="마우스를 클릭하면 시작됩니다." />
+          <pos x="347" y="26" />
+          <rect l="0" t="0" r="330" b="18" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#531900" />
+          <color val="#FFFFFF" />
+          <halign val="1" />
+          <valign val="1" />
+          <FontName val="나눔고딕" />
+          <FontSize val="13" />
+          <TextTrimming val="None" />
+          <style val="32" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+        <child type="LABEL" name="lb_clean_tip2" subclass="">
+          <label val="노란색 영역에 맞춰서 마우스를 클릭하면 성공합니다." />
+          <pos x="347" y="26" />
+          <rect l="0" t="0" r="330" b="18" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#531900" />
+          <color val="#FFFFFF" />
+          <halign val="1" />
+          <valign val="1" />
+          <FontName val="나눔고딕" />
+          <FontSize val="13" />
+          <TextTrimming val="None" />
+          <style val="32" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+        <child type="PICTURE" name="icon_mouse" subclass="">
+          <asset type="STATIC">icon_mouse_1.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="615" y="17" />
+          <rect l="0" t="0" r="43" b="46" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="icon_mouse_3" subclass="">
+          <asset type="STATIC">icon_mouse_3.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="613" y="25" />
+          <rect l="0" t="0" r="50" b="40" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+      </child>
+    </child>
+    <child type="STACKPANEL" name="StackPanel1" subclass="">
+      <Visible val="True" />
+      <Anchor val="Top, Left, Right" />
+      <pos x="0" y="-5" />
+      <rect l="0" t="0" r="1024" b="39" />
+      <Orientation val="Vertical" />
+      <HAlign val="Center" />
+      <VAlign val="Center" />
+      <IsHitTestVisible val="False" />
+      <ClipChildren val="False" />
+      <base type="WND" subclass="" name="Wnd1">
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <pos x="361" y="0" />
+        <rect l="0" t="0" r="302" b="38" />
+        <snd type="SHOW">
+        </snd>
+        <snd type="HIDE">
+        </snd>
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <child type="PICTURE" name="top_title_bg" subclass="">
+          <asset type="STATIC">top_title_bg.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="0" y="0" />
+          <rect l="0" t="0" r="302" b="38" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="LABEL" name="lb_add_care" subclass="">
+          <label val="Care" />
+          <pos x="0" y="2" />
+          <rect l="0" t="0" r="302" b="31" />
+          <Visible val="True" />
+          <Anchor val="None" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#030201" />
+          <color val="#FFCD37" />
+          <halign val="1" />
+          <valign val="1" />
+          <FontName val="나눔고딕 ExtraBold" />
+          <FontSize val="16" />
+          <TextTrimming val="None" />
+          <style val="32" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+      </base>
+    </child>
+  </base>
+</refresh>

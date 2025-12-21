@@ -1,0 +1,604 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="_Opening__">
+    <asset type="UI" name="asset_img_navigation_bar">
+      <rect l="0" t="0" r="1001" b="65" />
+    </asset>
+    <asset type="UI" name="asset_bg_navi_spur">
+      <rect l="0" t="0" r="26" b="28" />
+    </asset>
+    <asset type="UI" name="asset_btn_mymenu">
+      <rect l="0" t="0" r="355" b="38" />
+    </asset>
+    <asset type="UI" name="asset_btn_game_menu">
+      <rect l="0" t="0" r="356" b="38" />
+    </asset>
+    <object name="img_navigation_bar" ani="ani_img_navigation_bar">
+      <asset type="UI" link="asset_img_navigation_bar" />
+    </object>
+    <object name="bg_navi_spur" ani="ani_bg_navi_spur">
+      <asset type="UI" link="asset_bg_navi_spur" />
+    </object>
+    <object name="btn_mymenu" ani="ani_btn_mymenu">
+      <asset type="UI" link="asset_btn_mymenu" />
+    </object>
+    <object name="btn_game_menu" ani="ani_btn_game_menu">
+      <asset type="UI" link="asset_btn_game_menu" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_img_navigation_bar">
+      <frame cnt="0">
+        <posx val="0.01171875" />
+        <posy val="0.0338541666666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0.01171875" />
+        <posy val="0.0338541666666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1167">
+        <posx val="0.01171875" />
+        <posy val="-0.0182291666666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_bg_navi_spur">
+      <frame cnt="0">
+        <posx val="0.4873047" />
+        <posy val="0.02083333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1167">
+        <posx val="0.4873047" />
+        <posy val="0.02083333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1433">
+        <posx val="0.4873047" />
+        <posy val="0.02083333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_btn_mymenu">
+      <frame cnt="0">
+        <posx val="0.5888671875" />
+        <posy val="0.0481770833333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0.5888671875" />
+        <posy val="0.0481770833333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1167">
+        <posx val="0.5888671875" />
+        <posy val="0.00911458333333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_btn_game_menu">
+      <frame cnt="0">
+        <posx val="0.064453125" />
+        <posy val="0.0481770833333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0.064453125" />
+        <posy val="0.0481770833333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1167">
+        <posx val="0.064453125" />
+        <posy val="0.00911458333333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Closing_">
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+  </scene>
+  <scene name="notice">
+    <asset type="UI" name="asset_notice_01">
+      <rect l="0" t="0" r="165" b="38" />
+    </asset>
+    <object name="notice_01" ani="ani_notice_01">
+      <asset type="UI" link="asset_notice_01" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="-1" pendulum="0" />
+    <anim name="ani_notice_01">
+      <frame cnt="0">
+        <posx val="0.1855469" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.8" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.1855469" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.5,0.0,0.5,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="4000">
+        <posx val="0.1855469" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="4333">
+        <posx val="0.1855469" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.8" easeValue="0.5,0.0,0.5,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Opening_">
+    <asset type="UI" name="asset_bg_navi">
+      <rect l="0" t="0" r="1024" b="56" />
+    </asset>
+    <asset type="UI" name="asset_img_line_right">
+      <rect l="0" t="0" r="493" b="50" />
+    </asset>
+    <asset type="UI" name="asset_img_line_left">
+      <rect l="0" t="0" r="493" b="50" />
+    </asset>
+    <asset type="UI" name="asset_img_navigation_bar">
+      <rect l="0" t="0" r="1001" b="65" />
+    </asset>
+    <asset type="UI" name="asset_bg_navi_spur">
+      <rect l="0" t="0" r="26" b="28" />
+    </asset>
+    <asset type="UI" name="asset_bg_navi_wing_left">
+      <rect l="0" t="0" r="21" b="21" />
+    </asset>
+    <asset type="UI" name="asset_bg_navi_wing_right">
+      <rect l="0" t="0" r="21" b="21" />
+    </asset>
+    <asset type="UI" name="asset_btn_mymenu">
+      <rect l="0" t="0" r="355" b="38" />
+    </asset>
+    <asset type="UI" name="asset_btn_game_menu">
+      <rect l="0" t="0" r="356" b="38" />
+    </asset>
+    <object name="bg_navi" ani="ani_bg_navi">
+      <asset type="UI" link="asset_bg_navi" />
+    </object>
+    <object name="img_line_right" ani="ani_img_line_right">
+      <asset type="UI" link="asset_img_line_right" />
+    </object>
+    <object name="img_line_left" ani="ani_img_line_left">
+      <asset type="UI" link="asset_img_line_left" />
+    </object>
+    <object name="img_navigation_bar" ani="ani_img_navigation_bar">
+      <asset type="UI" link="asset_img_navigation_bar" />
+    </object>
+    <object name="bg_navi_spur" ani="ani_bg_navi_spur">
+      <asset type="UI" link="asset_bg_navi_spur" />
+    </object>
+    <object name="bg_navi_wing_left" ani="ani_bg_navi_wing_left">
+      <asset type="UI" link="asset_bg_navi_wing_left" />
+    </object>
+    <object name="bg_navi_wing_right" ani="ani_bg_navi_wing_right">
+      <asset type="UI" link="asset_bg_navi_wing_right" />
+    </object>
+    <object name="btn_mymenu" ani="ani_btn_mymenu">
+      <asset type="UI" link="asset_btn_mymenu" />
+    </object>
+    <object name="btn_game_menu" ani="ani_btn_game_menu">
+      <asset type="UI" link="asset_btn_game_menu" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_bg_navi">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="-0.006510417" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="633">
+        <posx val="0" />
+        <posy val="-0.006510417" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1133">
+        <posx val="0" />
+        <posy val="-0.006510417" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_line_right">
+      <frame cnt="0">
+        <posx val="0.5" />
+        <posy val="-0.03385417" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1233">
+        <posx val="0.5" />
+        <posy val="-0.03385417" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1967">
+        <posx val="0.5" />
+        <posy val="-0.03385417" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_line_left">
+      <frame cnt="0">
+        <posx val="0.01953125" />
+        <posy val="-0.03385417" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1233">
+        <posx val="0.01953125" />
+        <posy val="-0.03385417" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1967">
+        <posx val="0.01953125" />
+        <posy val="-0.03385417" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_navigation_bar">
+      <frame cnt="0">
+        <posx val="0.01171875" />
+        <posy val="0.0338541666666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0.01171875" />
+        <posy val="0.0338541666666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1167">
+        <posx val="0.01171875" />
+        <posy val="-0.0182291666666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_bg_navi_spur">
+      <frame cnt="0">
+        <posx val="0.4873047" />
+        <posy val="0.02083333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1167">
+        <posx val="0.4873047" />
+        <posy val="0.02083333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1433">
+        <posx val="0.4873047" />
+        <posy val="0.02083333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_bg_navi_wing_left">
+      <frame cnt="0">
+        <posx val="0.4775391" />
+        <posy val="0.001302083" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1233">
+        <posx val="0.4775391" />
+        <posy val="0.001302083" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1967">
+        <posx val="0.4775391" />
+        <posy val="0.001302083" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_bg_navi_wing_right">
+      <frame cnt="0">
+        <posx val="0.5019531" />
+        <posy val="0.001302083" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1233">
+        <posx val="0.5019531" />
+        <posy val="0.001302083" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1967">
+        <posx val="0.5019531" />
+        <posy val="0.001302083" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_btn_mymenu">
+      <frame cnt="0">
+        <posx val="0.5888672" />
+        <posy val="0.009114583" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1167">
+        <posx val="0.5888672" />
+        <posy val="0.009114583" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1467">
+        <posx val="0.5888672" />
+        <posy val="0.009114583" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_btn_game_menu">
+      <frame cnt="0">
+        <posx val="0.06445313" />
+        <posy val="0.009114583" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1167">
+        <posx val="0.06445313" />
+        <posy val="0.009114583" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1467">
+        <posx val="0.06445313" />
+        <posy val="0.009114583" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

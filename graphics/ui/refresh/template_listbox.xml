@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+  </properties>
+  <base type="WND" subclass="" name="Wnd">
+    <Visible val="True" />
+    <Anchor val="Top, Left" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="400" b="300" />
+    <IsHitTestVisible val="True" />
+    <child type="LISTSC" name="listbox" subclass="">
+      <asset type="BG" path="login_edit_04.png">
+        <tex x="10" y="6" />
+        <rect l="10" t="10" r="380" b="280" />
+      </asset>
+      <asset type="EDGE_LT" path="login_edit_00.png">
+        <tex x="10" y="10" />
+        <rect l="0" t="0" r="10" b="10" />
+      </asset>
+      <asset type="EDGE_RT" path="login_edit_02.png">
+        <tex x="10" y="10" />
+        <rect l="0" t="0" r="10" b="10" />
+      </asset>
+      <asset type="EDGE_LB" path="login_edit_06.png">
+        <tex x="10" y="10" />
+        <rect l="0" t="0" r="10" b="10" />
+      </asset>
+      <asset type="EDGE_RB" path="login_edit_08.png">
+        <tex x="10" y="10" />
+        <rect l="0" t="0" r="10" b="10" />
+      </asset>
+      <asset type="FRAME_T" path="login_edit_01.png">
+        <tex x="10" y="10" />
+        <rect l="10" t="0" r="380" b="10" />
+      </asset>
+      <asset type="FRAME_B" path="login_edit_07.png">
+        <tex x="10" y="10" />
+        <rect l="10" t="0" r="380" b="10" />
+      </asset>
+      <asset type="FRAME_L" path="login_edit_03.png">
+        <tex x="10" y="6" />
+        <rect l="0" t="10" r="10" b="280" />
+      </asset>
+      <asset type="FRAME_R" path="login_edit_05.png">
+        <tex x="10" y="6" />
+        <rect l="0" t="10" r="10" b="280" />
+      </asset>
+      <control type="VSCROLLBAR" name="listbox_VSlider" horizontal="0">
+        <control type="BUTTON_LT" name="listbox_VScrollBar_TopButton">
+          <asset type="NORMAL">scroll_down_c_n.png</asset>
+          <asset type="DOWN">scroll_down_c_d.png</asset>
+          <asset type="OVER">scroll_down_c_dis.png</asset>
+          <asset type="DISABLE">scroll_down_c_d.png</asset>
+          <snd type="OVER">
+          </snd>
+          <snd type="DOWN">
+          </snd>
+          <snd type="RELEASE">
+          </snd>
+          <pos x="2" y="4" />
+          <rect l="0" t="0" r="14" b="17" />
+          <Visible val="True" />
+          <IsHitTestVisible val="True" />
+          <Anchor val="Top, Left, Right" />
+        </control>
+        <control type="THUMB" name="listbox_VScrollBar_Thumb">
+          <asset type="NORMAL">scroll_bar_a1_n.png</asset>
+          <asset type="DOWN">scroll_bar_a1_d.png</asset>
+          <asset type="OVER">scroll_bar_a1_o.png</asset>
+          <asset type="DISABLE">scroll_bar_a1_d.png</asset>
+          <snd type="OVER">
+          </snd>
+          <snd type="DOWN">
+          </snd>
+          <snd type="RELEASE">
+          </snd>
+          <pos x="0" y="26" />
+          <rect l="0" t="0" r="14" b="231" />
+          <Visible val="True" />
+          <IsHitTestVisible val="True" />
+          <Anchor val="Top, Left, Right" />
+        </control>
+        <control type="BUTTON_RB" name="listbox_VScrollBar_BottomButton">
+          <asset type="NORMAL">scroll_down_c_n.png</asset>
+          <asset type="DOWN">scroll_down_c_d.png</asset>
+          <asset type="OVER">scroll_down_c_dis.png</asset>
+          <asset type="DISABLE">scroll_down_c_d.png</asset>
+          <snd type="OVER">
+          </snd>
+          <snd type="DOWN">
+          </snd>
+          <snd type="RELEASE">
+          </snd>
+          <pos x="0" y="262" />
+          <rect l="0" t="0" r="14" b="17" />
+          <Visible val="True" />
+          <IsHitTestVisible val="True" />
+          <Anchor val="Bottom, Left, Right" />
+        </control>
+        <scrollrect l="0" t="21" r="20" b="247" />
+        <Visible val="True" />
+        <Anchor val="Top, Bottom, Right" />
+        <pos x="380" y="11" />
+        <rect l="0" t="0" r="20" b="264" />
+        <IsHitTestVisible val="True" />
+      </control>
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="400" b="300" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <padding l="7" t="6" r="6" b="7" />
+      <column val="1" />
+      <itemrect l="0" t="0" r="500" b="20" />
+      <selection val="0" />
+      <deselectable val="1" />
+      <rclickaction val="1" />
+      <IsHitTestVisible val="True" />
+    </child>
+  </base>
+</refresh>

@@ -1,0 +1,1310 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+  </properties>
+  <base type="WND" subclass="" name="inven_main_wnd">
+    <Visible val="True" />
+    <Anchor val="Top, Bottom, Left, Right" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="1024" b="768" />
+    <snd type="SHOW">
+    </snd>
+    <snd type="HIDE">
+    </snd>
+    <IsHitTestVisible val="True" />
+    <ClipChildren val="False" />
+    <child type="ANIMBUTTON" name="btn_close" subclass="">
+      <asset type="GROUP">inven_main_desktop_btn_close.xml</asset>
+      <asset type="NORMAL">
+      </asset>
+      <asset type="DOWN">
+      </asset>
+      <asset type="OVER">
+      </asset>
+      <asset type="DISABLE">
+      </asset>
+      <asset type="ENTER">
+      </asset>
+      <asset type="LEAVE">
+      </asset>
+      <snd type="OVER">
+      </snd>
+      <snd type="DOWN">ui_btn_menu_click</snd>
+      <snd type="RELEASE">
+      </snd>
+      <pos x="938" y="47" />
+      <rect l="0" t="0" r="80" b="27" />
+      <Visible val="True" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <Anchor val="Top, Right" />
+      <IsDefaultButton val="False" />
+    </child>
+    <base type="WND" subclass="" name="myinfo">
+      <Visible val="True" />
+      <Anchor val="Top, Right" />
+      <pos x="578" y="13" />
+      <rect l="0" t="0" r="435" b="27" />
+      <snd type="SHOW">
+      </snd>
+      <snd type="HIDE">
+      </snd>
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <child type="PICTURE" name="bg_myinfo" subclass="">
+        <asset type="STATIC">bg_myinfo.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="0" y="0" />
+        <rect l="0" t="0" r="435" b="27" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="LABEL" name="txt_my_level" subclass="">
+        <label val="" />
+        <pos x="11" y="2" />
+        <rect l="0" t="0" r="26" b="18" />
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#381B0D" />
+        <color val="#FEE3D6" />
+        <halign val="2" />
+        <valign val="0" />
+        <FontName val="나눔고딕" />
+        <FontSize val="14" />
+        <TextTrimming val="None" />
+        <style val="1" />
+        <IsHitTestVisible val="False" />
+        <ClipChildren val="False" />
+        <Padding val="0, 0, 0, 0" />
+      </child>
+      <child type="LABEL" name="txt_my_cash" subclass="">
+        <label val="" />
+        <pos x="104" y="2" />
+        <rect l="0" t="0" r="87" b="18" />
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#352200" />
+        <color val="#FEE3D6" />
+        <halign val="2" />
+        <valign val="0" />
+        <FontName val="나눔고딕" />
+        <FontSize val="14" />
+        <TextTrimming val="None" />
+        <style val="1" />
+        <IsHitTestVisible val="False" />
+        <ClipChildren val="False" />
+        <Padding val="0, 0, 0, 0" />
+      </child>
+      <child type="LABEL" name="txt_my_gamemoney" subclass="">
+        <label val="" />
+        <pos x="258" y="2" />
+        <rect l="0" t="0" r="118" b="18" />
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#352200" />
+        <color val="#FFF0D6" />
+        <halign val="2" />
+        <valign val="0" />
+        <FontName val="나눔고딕" />
+        <FontSize val="14" />
+        <TextTrimming val="None" />
+        <style val="1" />
+        <IsHitTestVisible val="False" />
+        <ClipChildren val="False" />
+        <Padding val="0, 0, 0, 0" />
+      </child>
+      <child type="LABEL" name="lb_my_gamemoney" subclass="">
+        <label val="Carrots" />
+        <pos x="383" y="2" />
+        <rect l="0" t="0" r="47" b="19" />
+        <Visible val="True" />
+        <Anchor val="None" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#B19E89" />
+        <color val="#381B0D" />
+        <halign val="1" />
+        <valign val="0" />
+        <FontName val="나눔고딕" />
+        <FontSize val="13" />
+        <TextTrimming val="None" />
+        <style val="1" />
+        <IsHitTestVisible val="False" />
+        <ClipChildren val="False" />
+        <Padding val="0, 0, 0, 0" />
+      </child>
+      <child type="LABEL" name="lb_my_cash" subclass="">
+        <label val="캐쉬" />
+        <pos x="198" y="2" />
+        <rect l="0" t="0" r="47" b="19" />
+        <Visible val="True" />
+        <Anchor val="None" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#B19E89" />
+        <color val="#381B0D" />
+        <halign val="1" />
+        <valign val="0" />
+        <FontName val="나눔고딕" />
+        <FontSize val="13" />
+        <TextTrimming val="None" />
+        <style val="1" />
+        <IsHitTestVisible val="False" />
+        <ClipChildren val="False" />
+        <Padding val="0, 0, 0, 0" />
+      </child>
+      <child type="LABEL" name="lb_my_level" subclass="">
+        <label val="Level" />
+        <pos x="44" y="2" />
+        <rect l="0" t="0" r="47" b="19" />
+        <Visible val="True" />
+        <Anchor val="None" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#B19E89" />
+        <color val="#381B0D" />
+        <halign val="1" />
+        <valign val="0" />
+        <FontName val="나눔고딕" />
+        <FontSize val="13" />
+        <TextTrimming val="None" />
+        <style val="1" />
+        <IsHitTestVisible val="False" />
+        <ClipChildren val="False" />
+        <Padding val="0, 0, 0, 0" />
+      </child>
+    </base>
+    <child type="STACKPANEL" name="StackPanel" subclass="">
+      <Visible val="True" />
+      <Anchor val="Top, Bottom, Left, Right" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="1024" b="768" />
+      <Orientation val="Vertical" />
+      <HAlign val="Center" />
+      <VAlign val="Center" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <base type="WND" subclass="" name="Anchor">
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="0" y="0" />
+        <rect l="0" t="0" r="1024" b="768" />
+        <snd type="SHOW">
+        </snd>
+        <snd type="HIDE">
+        </snd>
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <base type="WNDEX" subclass="" name="bg_shop_main">
+          <asset type="BG" path="frm_sub_04.png" tileMode="Stretch">
+            <tex x="10" y="5" />
+            <rect l="80" t="70" r="857" b="225" />
+          </asset>
+          <asset type="EDGE_LT" path="frm_sub_00.png" tileMode="Stretch">
+            <tex x="80" y="70" />
+            <rect l="0" t="0" r="80" b="70" />
+          </asset>
+          <asset type="EDGE_RT" path="frm_sub_02.png" tileMode="Stretch">
+            <tex x="87" y="70" />
+            <rect l="0" t="0" r="87" b="70" />
+          </asset>
+          <asset type="EDGE_LB" path="frm_sub_06.png" tileMode="Stretch">
+            <tex x="80" y="33" />
+            <rect l="0" t="0" r="80" b="33" />
+          </asset>
+          <asset type="EDGE_RB" path="frm_sub_08.png" tileMode="Stretch">
+            <tex x="87" y="33" />
+            <rect l="0" t="0" r="87" b="33" />
+          </asset>
+          <asset type="FRAME_T" path="frm_sub_01.png" tileMode="Stretch">
+            <tex x="10" y="70" />
+            <rect l="80" t="0" r="857" b="70" />
+          </asset>
+          <asset type="FRAME_B" path="frm_sub_07.png" tileMode="Stretch">
+            <tex x="10" y="33" />
+            <rect l="80" t="0" r="857" b="33" />
+          </asset>
+          <asset type="FRAME_L" path="frm_sub_03.png" tileMode="Stretch">
+            <tex x="80" y="5" />
+            <rect l="0" t="70" r="80" b="225" />
+          </asset>
+          <asset type="FRAME_R" path="frm_sub_05.png" tileMode="Stretch">
+            <tex x="87" y="5" />
+            <rect l="0" t="70" r="87" b="225" />
+          </asset>
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <pos x="0" y="398" />
+          <rect l="0" t="0" r="1024" b="328" />
+          <snd type="SHOW">
+          </snd>
+          <snd type="HIDE">
+          </snd>
+          <Dragable val="False" />
+          <StartPosition val="None" />
+          <EscKeyAction val="None" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </base>
+        <child type="PANEL" name="pn_list_3column" subclass="">
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <embed src="" />
+          <pos x="26" y="420" />
+          <rect l="0" t="0" r="972" b="282" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+          <child type="LISTSC" name="list_item_3column" subclass="">
+            <asset type="BG" path="" tileMode="Tile">
+              <tex x="0" y="0" />
+              <rect l="8" t="8" r="956" b="266" />
+            </asset>
+            <asset type="EDGE_LT" path="" tileMode="Tile">
+              <tex x="0" y="0" />
+              <rect l="0" t="0" r="8" b="8" />
+            </asset>
+            <asset type="EDGE_RT" path="" tileMode="Tile">
+              <tex x="0" y="0" />
+              <rect l="0" t="0" r="8" b="8" />
+            </asset>
+            <asset type="EDGE_LB" path="" tileMode="Tile">
+              <tex x="0" y="0" />
+              <rect l="0" t="0" r="8" b="8" />
+            </asset>
+            <asset type="EDGE_RB" path="" tileMode="Tile">
+              <tex x="0" y="0" />
+              <rect l="0" t="0" r="8" b="8" />
+            </asset>
+            <asset type="FRAME_T" path="" tileMode="Tile">
+              <tex x="0" y="0" />
+              <rect l="8" t="0" r="956" b="8" />
+            </asset>
+            <asset type="FRAME_B" path="" tileMode="Tile">
+              <tex x="0" y="0" />
+              <rect l="8" t="0" r="956" b="8" />
+            </asset>
+            <asset type="FRAME_L" path="" tileMode="Tile">
+              <tex x="0" y="0" />
+              <rect l="0" t="8" r="8" b="266" />
+            </asset>
+            <asset type="FRAME_R" path="" tileMode="Tile">
+              <tex x="0" y="0" />
+              <rect l="0" t="8" r="8" b="266" />
+            </asset>
+            <control type="VSCROLLBAR" name="list_item_3column_VSlider" horizontal="0">
+              <control type="BUTTON_LT" name="list_item_3column_VScrollBar_TopButton">
+                <asset type="NORMAL">
+                </asset>
+                <asset type="DOWN">
+                </asset>
+                <asset type="OVER">
+                </asset>
+                <asset type="DISABLE">
+                </asset>
+                <snd type="OVER">
+                </snd>
+                <snd type="DOWN">
+                </snd>
+                <snd type="RELEASE">
+                </snd>
+                <pos x="0" y="0" />
+                <rect l="0" t="0" r="20" b="20" />
+                <Visible val="True" />
+                <IsHitTestVisible val="True" />
+                <ClipChildren val="False" />
+                <Anchor val="Top, Left, Right" />
+                <IsDefaultButton val="False" />
+              </control>
+              <control type="THUMB" name="list_item_3column_VScrollBar_Thumb">
+                <asset type="NORMAL">
+                </asset>
+                <asset type="DOWN">
+                </asset>
+                <asset type="OVER">
+                </asset>
+                <asset type="DISABLE">
+                </asset>
+                <snd type="OVER">
+                </snd>
+                <snd type="DOWN">
+                </snd>
+                <snd type="RELEASE">
+                </snd>
+                <pos x="0" y="20" />
+                <rect l="0" t="0" r="20" b="20" />
+                <Visible val="True" />
+                <IsHitTestVisible val="True" />
+                <ClipChildren val="False" />
+                <Anchor val="Top, Left, Right" />
+                <IsDefaultButton val="False" />
+              </control>
+              <control type="BUTTON_RB" name="list_item_3column_VScrollBar_BottomButton">
+                <asset type="NORMAL">
+                </asset>
+                <asset type="DOWN">
+                </asset>
+                <asset type="OVER">
+                </asset>
+                <asset type="DISABLE">
+                </asset>
+                <snd type="OVER">
+                </snd>
+                <snd type="DOWN">
+                </snd>
+                <snd type="RELEASE">
+                </snd>
+                <pos x="0" y="242" />
+                <rect l="0" t="0" r="20" b="20" />
+                <Visible val="True" />
+                <IsHitTestVisible val="True" />
+                <ClipChildren val="False" />
+                <Anchor val="Bottom, Left, Right" />
+                <IsDefaultButton val="False" />
+              </control>
+              <scrollrect l="0" t="20" r="20" b="242" />
+              <Visible val="True" />
+              <Anchor val="Top, Bottom, Right" />
+              <pos x="952" y="0" />
+              <rect l="0" t="0" r="20" b="262" />
+              <IsHitTestVisible val="True" />
+              <ClipChildren val="False" />
+            </control>
+            <control type="HSCROLLBAR" name="list_item_3column_HSlider" horizontal="1">
+              <control type="BUTTON_LT" name="list_item_3column_HScrollBar_LeftButton">
+                <asset type="NORMAL">scroll_left_d_n.png</asset>
+                <asset type="DOWN">scroll_left_d_d.png</asset>
+                <asset type="OVER">scroll_left_d_o.png</asset>
+                <asset type="DISABLE">scroll_left_d_dis.png</asset>
+                <snd type="OVER">
+                </snd>
+                <snd type="DOWN">
+                </snd>
+                <snd type="RELEASE">
+                </snd>
+                <pos x="0" y="3" />
+                <rect l="0" t="0" r="17" b="14" />
+                <Visible val="True" />
+                <IsHitTestVisible val="True" />
+                <ClipChildren val="False" />
+                <Anchor val="Top, Bottom, Left" />
+                <IsDefaultButton val="False" />
+              </control>
+              <control type="THUMB" name="list_item_3column_HScrollBar_Thumb">
+                <asset type="NORMAL">scroll_bar_d_n.png</asset>
+                <asset type="DOWN">scroll_bar_d_d.png</asset>
+                <asset type="OVER">scroll_bar_d_o.png</asset>
+                <asset type="DISABLE">
+                </asset>
+                <snd type="OVER">
+                </snd>
+                <snd type="DOWN">
+                </snd>
+                <snd type="RELEASE">
+                </snd>
+                <pos x="20" y="3" />
+                <rect l="0" t="0" r="202" b="14" />
+                <Visible val="True" />
+                <IsHitTestVisible val="True" />
+                <ClipChildren val="False" />
+                <Anchor val="Top, Bottom, Left" />
+                <IsDefaultButton val="False" />
+              </control>
+              <control type="BUTTON_RB" name="list_item_3column_HScrollBar_RightButton">
+                <asset type="NORMAL">scroll_right_d_n.png</asset>
+                <asset type="DOWN">scroll_right_d_d.png</asset>
+                <asset type="OVER">scroll_right_d_o.png</asset>
+                <asset type="DISABLE">scroll_right_d_dis.png</asset>
+                <snd type="OVER">
+                </snd>
+                <snd type="DOWN">
+                </snd>
+                <snd type="RELEASE">
+                </snd>
+                <pos x="952" y="3" />
+                <rect l="0" t="0" r="17" b="14" />
+                <Visible val="True" />
+                <IsHitTestVisible val="True" />
+                <ClipChildren val="False" />
+                <Anchor val="Top, Bottom, Right" />
+                <IsDefaultButton val="False" />
+              </control>
+              <scrollrect l="17" t="0" r="955" b="20" />
+              <Visible val="True" />
+              <Anchor val="Bottom, Left, Right" />
+              <pos x="0" y="262" />
+              <rect l="0" t="0" r="972" b="20" />
+              <IsHitTestVisible val="True" />
+              <ClipChildren val="False" />
+            </control>
+            <pos x="0" y="0" />
+            <rect l="0" t="0" r="972" b="282" />
+            <Visible val="True" />
+            <Anchor val="Top, Left" />
+            <padding l="0" t="0" r="0" b="20" />
+            <column val="3" />
+            <itemrect l="0" t="0" r="324" b="268" />
+            <selection val="0" />
+            <deselectable val="0" />
+            <rclickaction val="1" />
+            <IsHitTestVisible val="True" />
+            <Orientation val="Vertical" />
+            <ClipChildren val="False" />
+          </child>
+          <child type="PICTURE" name="inven_img_section2" subclass="">
+            <asset type="STATIC">inven_img_section.png</asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="289" y="2" />
+            <rect l="0" t="0" r="69" b="260" />
+            <center x="0" y="0" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+          </child>
+          <child type="PICTURE" name="inven_img_section3" subclass="">
+            <asset type="STATIC">inven_img_section.png</asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="613" y="2" />
+            <rect l="0" t="0" r="69" b="260" />
+            <center x="0" y="0" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+          </child>
+        </child>
+        <child type="PANEL" name="pn_list_2column" subclass="">
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <embed src="" />
+          <pos x="26" y="420" />
+          <rect l="0" t="0" r="972" b="282" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+          <child type="LISTSC" name="list_item_2column" subclass="">
+            <asset type="BG" path="" tileMode="Tile">
+              <tex x="0" y="0" />
+              <rect l="8" t="8" r="634" b="266" />
+            </asset>
+            <asset type="EDGE_LT" path="" tileMode="Tile">
+              <tex x="0" y="0" />
+              <rect l="0" t="0" r="8" b="8" />
+            </asset>
+            <asset type="EDGE_RT" path="" tileMode="Tile">
+              <tex x="0" y="0" />
+              <rect l="0" t="0" r="8" b="8" />
+            </asset>
+            <asset type="EDGE_LB" path="" tileMode="Tile">
+              <tex x="0" y="0" />
+              <rect l="0" t="0" r="8" b="8" />
+            </asset>
+            <asset type="EDGE_RB" path="" tileMode="Tile">
+              <tex x="0" y="0" />
+              <rect l="0" t="0" r="8" b="8" />
+            </asset>
+            <asset type="FRAME_T" path="" tileMode="Tile">
+              <tex x="0" y="0" />
+              <rect l="8" t="0" r="634" b="8" />
+            </asset>
+            <asset type="FRAME_B" path="" tileMode="Tile">
+              <tex x="0" y="0" />
+              <rect l="8" t="0" r="634" b="8" />
+            </asset>
+            <asset type="FRAME_L" path="" tileMode="Tile">
+              <tex x="0" y="0" />
+              <rect l="0" t="8" r="8" b="266" />
+            </asset>
+            <asset type="FRAME_R" path="" tileMode="Tile">
+              <tex x="0" y="0" />
+              <rect l="0" t="8" r="8" b="266" />
+            </asset>
+            <control type="VSCROLLBAR" name="list_item_2column_VSlider" horizontal="0">
+              <control type="BUTTON_LT" name="list_item_2column_VScrollBar_TopButton">
+                <asset type="NORMAL">
+                </asset>
+                <asset type="DOWN">
+                </asset>
+                <asset type="OVER">
+                </asset>
+                <asset type="DISABLE">
+                </asset>
+                <snd type="OVER">
+                </snd>
+                <snd type="DOWN">
+                </snd>
+                <snd type="RELEASE">
+                </snd>
+                <pos x="0" y="0" />
+                <rect l="0" t="0" r="20" b="20" />
+                <Visible val="True" />
+                <IsHitTestVisible val="True" />
+                <ClipChildren val="False" />
+                <Anchor val="Top, Left, Right" />
+                <IsDefaultButton val="False" />
+              </control>
+              <control type="THUMB" name="list_item_2column_VScrollBar_Thumb">
+                <asset type="NORMAL">
+                </asset>
+                <asset type="DOWN">
+                </asset>
+                <asset type="OVER">
+                </asset>
+                <asset type="DISABLE">
+                </asset>
+                <snd type="OVER">
+                </snd>
+                <snd type="DOWN">
+                </snd>
+                <snd type="RELEASE">
+                </snd>
+                <pos x="0" y="20" />
+                <rect l="0" t="0" r="20" b="20" />
+                <Visible val="True" />
+                <IsHitTestVisible val="True" />
+                <ClipChildren val="False" />
+                <Anchor val="Top, Left, Right" />
+                <IsDefaultButton val="False" />
+              </control>
+              <control type="BUTTON_RB" name="list_item_2column_VScrollBar_BottomButton">
+                <asset type="NORMAL">
+                </asset>
+                <asset type="DOWN">
+                </asset>
+                <asset type="OVER">
+                </asset>
+                <asset type="DISABLE">
+                </asset>
+                <snd type="OVER">
+                </snd>
+                <snd type="DOWN">
+                </snd>
+                <snd type="RELEASE">
+                </snd>
+                <pos x="0" y="242" />
+                <rect l="0" t="0" r="20" b="20" />
+                <Visible val="True" />
+                <IsHitTestVisible val="True" />
+                <ClipChildren val="False" />
+                <Anchor val="Bottom, Left, Right" />
+                <IsDefaultButton val="False" />
+              </control>
+              <scrollrect l="0" t="20" r="20" b="242" />
+              <Visible val="True" />
+              <Anchor val="Top, Bottom, Right" />
+              <pos x="630" y="0" />
+              <rect l="0" t="0" r="20" b="262" />
+              <IsHitTestVisible val="True" />
+              <ClipChildren val="False" />
+            </control>
+            <control type="HSCROLLBAR" name="list_item_2column_HSlider" horizontal="1">
+              <control type="BUTTON_LT" name="list_item_2column_HScrollBar_LeftButton">
+                <asset type="NORMAL">scroll_left_d_n.png</asset>
+                <asset type="DOWN">scroll_left_d_d.png</asset>
+                <asset type="OVER">scroll_left_d_o.png</asset>
+                <asset type="DISABLE">scroll_left_d_dis.png</asset>
+                <snd type="OVER">
+                </snd>
+                <snd type="DOWN">
+                </snd>
+                <snd type="RELEASE">
+                </snd>
+                <pos x="0" y="3" />
+                <rect l="0" t="0" r="17" b="14" />
+                <Visible val="True" />
+                <IsHitTestVisible val="True" />
+                <ClipChildren val="False" />
+                <Anchor val="Top, Bottom, Left" />
+                <IsDefaultButton val="False" />
+              </control>
+              <control type="THUMB" name="list_item_2column_HScrollBar_Thumb">
+                <asset type="NORMAL">scroll_bar_d_n.png</asset>
+                <asset type="DOWN">scroll_bar_d_d.png</asset>
+                <asset type="OVER">scroll_bar_d_o.png</asset>
+                <asset type="DISABLE">
+                </asset>
+                <snd type="OVER">
+                </snd>
+                <snd type="DOWN">
+                </snd>
+                <snd type="RELEASE">
+                </snd>
+                <pos x="20" y="3" />
+                <rect l="0" t="0" r="202" b="14" />
+                <Visible val="True" />
+                <IsHitTestVisible val="True" />
+                <ClipChildren val="False" />
+                <Anchor val="Top, Bottom, Left" />
+                <IsDefaultButton val="False" />
+              </control>
+              <control type="BUTTON_RB" name="list_item_2column_HScrollBar_RightButton">
+                <asset type="NORMAL">scroll_right_d_n.png</asset>
+                <asset type="DOWN">scroll_right_d_d.png</asset>
+                <asset type="OVER">scroll_right_d_o.png</asset>
+                <asset type="DISABLE">scroll_right_d_dis.png</asset>
+                <snd type="OVER">
+                </snd>
+                <snd type="DOWN">
+                </snd>
+                <snd type="RELEASE">
+                </snd>
+                <pos x="630" y="3" />
+                <rect l="0" t="0" r="17" b="14" />
+                <Visible val="True" />
+                <IsHitTestVisible val="True" />
+                <ClipChildren val="False" />
+                <Anchor val="Top, Bottom, Right" />
+                <IsDefaultButton val="False" />
+              </control>
+              <scrollrect l="17" t="0" r="633" b="20" />
+              <Visible val="True" />
+              <Anchor val="Bottom, Left, Right" />
+              <pos x="0" y="262" />
+              <rect l="0" t="0" r="650" b="20" />
+              <IsHitTestVisible val="True" />
+              <ClipChildren val="False" />
+            </control>
+            <pos x="324" y="0" />
+            <rect l="0" t="0" r="650" b="282" />
+            <Visible val="True" />
+            <Anchor val="Top, Left" />
+            <padding l="0" t="0" r="0" b="20" />
+            <column val="2" />
+            <itemrect l="0" t="0" r="324" b="268" />
+            <selection val="0" />
+            <deselectable val="0" />
+            <rclickaction val="1" />
+            <IsHitTestVisible val="True" />
+            <Orientation val="Vertical" />
+            <ClipChildren val="False" />
+          </child>
+          <child type="PICTURE" name="inven_img_section1" subclass="">
+            <asset type="STATIC">inven_img_section.png</asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="613" y="2" />
+            <rect l="0" t="0" r="69" b="260" />
+            <center x="0" y="0" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+          </child>
+          <child type="PICTURE" name="img_shop_statgraph_e" subclass="">
+            <asset type="STATIC">
+            </asset>
+            <Visible val="True" />
+            <Anchor val="Top, Left" />
+            <pos x="0" y="0" />
+            <rect l="0" t="0" r="324" b="280" />
+            <center x="0" y="0" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+          </child>
+        </child>
+        <child type="PANEL" name="pn_list_horse" subclass="">
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <embed src="" />
+          <pos x="26" y="420" />
+          <rect l="0" t="0" r="972" b="282" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+          <child type="LISTSC" name="list_item_horse" subclass="">
+            <asset type="BG" path="" tileMode="Tile">
+              <tex x="0" y="0" />
+              <rect l="8" t="8" r="634" b="266" />
+            </asset>
+            <asset type="EDGE_LT" path="" tileMode="Tile">
+              <tex x="0" y="0" />
+              <rect l="0" t="0" r="8" b="8" />
+            </asset>
+            <asset type="EDGE_RT" path="" tileMode="Tile">
+              <tex x="0" y="0" />
+              <rect l="0" t="0" r="8" b="8" />
+            </asset>
+            <asset type="EDGE_LB" path="" tileMode="Tile">
+              <tex x="0" y="0" />
+              <rect l="0" t="0" r="8" b="8" />
+            </asset>
+            <asset type="EDGE_RB" path="" tileMode="Tile">
+              <tex x="0" y="0" />
+              <rect l="0" t="0" r="8" b="8" />
+            </asset>
+            <asset type="FRAME_T" path="" tileMode="Tile">
+              <tex x="0" y="0" />
+              <rect l="8" t="0" r="634" b="8" />
+            </asset>
+            <asset type="FRAME_B" path="" tileMode="Tile">
+              <tex x="0" y="0" />
+              <rect l="8" t="0" r="634" b="8" />
+            </asset>
+            <asset type="FRAME_L" path="" tileMode="Tile">
+              <tex x="0" y="0" />
+              <rect l="0" t="8" r="8" b="266" />
+            </asset>
+            <asset type="FRAME_R" path="" tileMode="Tile">
+              <tex x="0" y="0" />
+              <rect l="0" t="8" r="8" b="266" />
+            </asset>
+            <control type="VSCROLLBAR" name="list_item_horse_VSlider" horizontal="0">
+              <control type="BUTTON_LT" name="list_item_horse_VScrollBar_TopButton">
+                <asset type="NORMAL">
+                </asset>
+                <asset type="DOWN">
+                </asset>
+                <asset type="OVER">
+                </asset>
+                <asset type="DISABLE">
+                </asset>
+                <snd type="OVER">
+                </snd>
+                <snd type="DOWN">
+                </snd>
+                <snd type="RELEASE">
+                </snd>
+                <pos x="0" y="0" />
+                <rect l="0" t="0" r="20" b="20" />
+                <Visible val="True" />
+                <IsHitTestVisible val="True" />
+                <ClipChildren val="False" />
+                <Anchor val="Top, Left, Right" />
+                <IsDefaultButton val="False" />
+              </control>
+              <control type="THUMB" name="list_item_horse_VScrollBar_Thumb">
+                <asset type="NORMAL">
+                </asset>
+                <asset type="DOWN">
+                </asset>
+                <asset type="OVER">
+                </asset>
+                <asset type="DISABLE">
+                </asset>
+                <snd type="OVER">
+                </snd>
+                <snd type="DOWN">
+                </snd>
+                <snd type="RELEASE">
+                </snd>
+                <pos x="0" y="20" />
+                <rect l="0" t="0" r="20" b="20" />
+                <Visible val="True" />
+                <IsHitTestVisible val="True" />
+                <ClipChildren val="False" />
+                <Anchor val="Top, Left, Right" />
+                <IsDefaultButton val="False" />
+              </control>
+              <control type="BUTTON_RB" name="list_item_horse_VScrollBar_BottomButton">
+                <asset type="NORMAL">
+                </asset>
+                <asset type="DOWN">
+                </asset>
+                <asset type="OVER">
+                </asset>
+                <asset type="DISABLE">
+                </asset>
+                <snd type="OVER">
+                </snd>
+                <snd type="DOWN">
+                </snd>
+                <snd type="RELEASE">
+                </snd>
+                <pos x="0" y="242" />
+                <rect l="0" t="0" r="20" b="20" />
+                <Visible val="True" />
+                <IsHitTestVisible val="True" />
+                <ClipChildren val="False" />
+                <Anchor val="Bottom, Left, Right" />
+                <IsDefaultButton val="False" />
+              </control>
+              <scrollrect l="0" t="20" r="20" b="242" />
+              <Visible val="True" />
+              <Anchor val="Top, Bottom, Right" />
+              <pos x="630" y="0" />
+              <rect l="0" t="0" r="20" b="262" />
+              <IsHitTestVisible val="True" />
+              <ClipChildren val="False" />
+            </control>
+            <control type="HSCROLLBAR" name="list_item_horse_HSlider" horizontal="1">
+              <control type="BUTTON_LT" name="list_item_horse_HScrollBar_LeftButton">
+                <asset type="NORMAL">scroll_left_d_n.png</asset>
+                <asset type="DOWN">scroll_left_d_d.png</asset>
+                <asset type="OVER">scroll_left_d_o.png</asset>
+                <asset type="DISABLE">scroll_left_d_dis.png</asset>
+                <snd type="OVER">
+                </snd>
+                <snd type="DOWN">
+                </snd>
+                <snd type="RELEASE">
+                </snd>
+                <pos x="0" y="3" />
+                <rect l="0" t="0" r="17" b="14" />
+                <Visible val="True" />
+                <IsHitTestVisible val="True" />
+                <ClipChildren val="False" />
+                <Anchor val="Top, Bottom, Left" />
+                <IsDefaultButton val="False" />
+              </control>
+              <control type="THUMB" name="list_item_horse_HScrollBar_Thumb">
+                <asset type="NORMAL">scroll_bar_d_n.png</asset>
+                <asset type="DOWN">scroll_bar_d_d.png</asset>
+                <asset type="OVER">scroll_bar_d_o.png</asset>
+                <asset type="DISABLE">
+                </asset>
+                <snd type="OVER">
+                </snd>
+                <snd type="DOWN">
+                </snd>
+                <snd type="RELEASE">
+                </snd>
+                <pos x="20" y="3" />
+                <rect l="0" t="0" r="202" b="14" />
+                <Visible val="True" />
+                <IsHitTestVisible val="True" />
+                <ClipChildren val="False" />
+                <Anchor val="Top, Bottom, Left" />
+                <IsDefaultButton val="False" />
+              </control>
+              <control type="BUTTON_RB" name="list_item_horse_HScrollBar_RightButton">
+                <asset type="NORMAL">scroll_right_d_n.png</asset>
+                <asset type="DOWN">scroll_right_d_d.png</asset>
+                <asset type="OVER">scroll_right_d_o.png</asset>
+                <asset type="DISABLE">scroll_right_d_dis.png</asset>
+                <snd type="OVER">
+                </snd>
+                <snd type="DOWN">
+                </snd>
+                <snd type="RELEASE">
+                </snd>
+                <pos x="630" y="3" />
+                <rect l="0" t="0" r="17" b="14" />
+                <Visible val="True" />
+                <IsHitTestVisible val="True" />
+                <ClipChildren val="False" />
+                <Anchor val="Top, Bottom, Right" />
+                <IsDefaultButton val="False" />
+              </control>
+              <scrollrect l="17" t="0" r="633" b="20" />
+              <Visible val="True" />
+              <Anchor val="Bottom, Left, Right" />
+              <pos x="0" y="262" />
+              <rect l="0" t="0" r="650" b="20" />
+              <IsHitTestVisible val="True" />
+              <ClipChildren val="False" />
+            </control>
+            <pos x="323" y="0" />
+            <rect l="0" t="0" r="650" b="282" />
+            <Visible val="True" />
+            <Anchor val="Top, Left" />
+            <padding l="0" t="0" r="0" b="20" />
+            <column val="5" />
+            <itemrect l="0" t="0" r="130" b="268" />
+            <selection val="0" />
+            <deselectable val="0" />
+            <rclickaction val="1" />
+            <IsHitTestVisible val="True" />
+            <Orientation val="Vertical" />
+            <ClipChildren val="False" />
+          </child>
+          <child type="PICTURE" name="img_shop_statgraph_h" subclass="">
+            <asset type="STATIC">
+            </asset>
+            <Visible val="True" />
+            <Anchor val="Top, Left" />
+            <pos x="0" y="0" />
+            <rect l="0" t="0" r="324" b="280" />
+            <center x="0" y="0" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+          </child>
+        </child>
+        <base type="WND" subclass="" name="inven_slot">
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="338" y="329" />
+          <rect l="0" t="0" r="370" b="88" />
+          <snd type="SHOW">
+          </snd>
+          <snd type="HIDE">
+          </snd>
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+          <child type="PICTURE" name="img_slot5" subclass="">
+            <asset type="STATIC">
+            </asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="303" y="20" />
+            <rect l="0" t="0" r="60" b="60" />
+            <center x="0" y="0" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+          </child>
+          <child type="PICTURE" name="img_slot4" subclass="">
+            <asset type="STATIC">
+            </asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="229" y="20" />
+            <rect l="0" t="0" r="60" b="60" />
+            <center x="0" y="0" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+          </child>
+          <child type="PICTURE" name="img_slot3" subclass="">
+            <asset type="STATIC">
+            </asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="155" y="20" />
+            <rect l="0" t="0" r="60" b="60" />
+            <center x="0" y="0" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+          </child>
+          <child type="PICTURE" name="img_slot2" subclass="">
+            <asset type="STATIC">
+            </asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="81" y="20" />
+            <rect l="0" t="0" r="60" b="60" />
+            <center x="0" y="0" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+          </child>
+          <child type="PICTURE" name="img_slot1" subclass="">
+            <asset type="STATIC">
+            </asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="7" y="20" />
+            <rect l="0" t="0" r="60" b="60" />
+            <center x="0" y="0" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+          </child>
+          <child type="LABEL" name="txt_slot5" subclass="">
+            <label val="" />
+            <pos x="299" y="42" />
+            <rect l="0" t="0" r="69" b="19" />
+            <Visible val="True" />
+            <Anchor val="None" />
+            <OutlineColor val="#FF0000" />
+            <ShadowColor val="#030200" />
+            <color val="#FFFFFF" />
+            <halign val="1" />
+            <valign val="0" />
+            <FontName val="나눔고딕" />
+            <FontSize val="13" />
+            <TextTrimming val="None" />
+            <style val="1" />
+            <IsHitTestVisible val="False" />
+            <ClipChildren val="False" />
+            <Padding val="0, 0, 0, 0" />
+          </child>
+          <child type="LABEL" name="txt_slot4" subclass="">
+            <label val="" />
+            <pos x="225" y="43" />
+            <rect l="0" t="0" r="69" b="19" />
+            <Visible val="True" />
+            <Anchor val="None" />
+            <OutlineColor val="#FF0000" />
+            <ShadowColor val="#030200" />
+            <color val="#FFFFFF" />
+            <halign val="1" />
+            <valign val="0" />
+            <FontName val="나눔고딕" />
+            <FontSize val="13" />
+            <TextTrimming val="None" />
+            <style val="1" />
+            <IsHitTestVisible val="False" />
+            <ClipChildren val="False" />
+            <Padding val="0, 0, 0, 0" />
+          </child>
+          <child type="LABEL" name="txt_slot3" subclass="">
+            <label val="" />
+            <pos x="151" y="43" />
+            <rect l="0" t="0" r="69" b="19" />
+            <Visible val="True" />
+            <Anchor val="None" />
+            <OutlineColor val="#FF0000" />
+            <ShadowColor val="#030200" />
+            <color val="#FFFFFF" />
+            <halign val="1" />
+            <valign val="0" />
+            <FontName val="나눔고딕" />
+            <FontSize val="13" />
+            <TextTrimming val="None" />
+            <style val="1" />
+            <IsHitTestVisible val="False" />
+            <ClipChildren val="False" />
+            <Padding val="0, 0, 0, 0" />
+          </child>
+          <child type="LABEL" name="txt_slot2" subclass="">
+            <label val="" />
+            <pos x="77" y="43" />
+            <rect l="0" t="0" r="69" b="19" />
+            <Visible val="True" />
+            <Anchor val="None" />
+            <OutlineColor val="#FF0000" />
+            <ShadowColor val="#030200" />
+            <color val="#FFFFFF" />
+            <halign val="1" />
+            <valign val="0" />
+            <FontName val="나눔고딕" />
+            <FontSize val="13" />
+            <TextTrimming val="None" />
+            <style val="1" />
+            <IsHitTestVisible val="False" />
+            <ClipChildren val="False" />
+            <Padding val="0, 0, 0, 0" />
+          </child>
+          <child type="LABEL" name="txt_slot1" subclass="">
+            <label val="" />
+            <pos x="3" y="43" />
+            <rect l="0" t="0" r="69" b="19" />
+            <Visible val="True" />
+            <Anchor val="None" />
+            <OutlineColor val="#FF0000" />
+            <ShadowColor val="#030200" />
+            <color val="#FFFFFF" />
+            <halign val="1" />
+            <valign val="0" />
+            <FontName val="나눔고딕" />
+            <FontSize val="13" />
+            <TextTrimming val="None" />
+            <style val="1" />
+            <IsHitTestVisible val="False" />
+            <ClipChildren val="False" />
+            <Padding val="0, 0, 0, 0" />
+          </child>
+          <child type="BUTTON" subclass="" name="slot5">
+            <asset type="NORMAL">shop_btn_slot_n.png</asset>
+            <asset type="DOWN">shop_btn_slot_d.png</asset>
+            <asset type="OVER">shop_btn_slot_o.png</asset>
+            <asset type="DISABLE">slot_a_dis.png</asset>
+            <snd type="OVER">
+            </snd>
+            <snd type="DOWN">ui_btn_menu_page</snd>
+            <snd type="RELEASE">
+            </snd>
+            <pos x="296" y="14" />
+            <rect l="0" t="0" r="74" b="74" />
+            <Visible val="True" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+            <Anchor val="None" />
+            <IsDefaultButton val="False" />
+          </child>
+          <child type="ANIMBUTTON" name="slot5_delete" subclass="">
+            <asset type="GROUP">inven_main_desktop_slot5_delete.xml</asset>
+            <asset type="NORMAL">
+            </asset>
+            <asset type="DOWN">
+            </asset>
+            <asset type="OVER">
+            </asset>
+            <asset type="DISABLE">
+            </asset>
+            <asset type="ENTER">
+            </asset>
+            <asset type="LEAVE">
+            </asset>
+            <snd type="OVER">
+            </snd>
+            <snd type="DOWN">ui_btn_menu_click</snd>
+            <snd type="RELEASE">
+            </snd>
+            <pos x="303" y="1" />
+            <rect l="0" t="0" r="60" b="18" />
+            <Visible val="True" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+            <Anchor val="Top, Left" />
+            <IsDefaultButton val="False" />
+          </child>
+          <child type="BUTTON" subclass="" name="slot4">
+            <asset type="NORMAL">shop_btn_slot_n.png</asset>
+            <asset type="DOWN">shop_btn_slot_d.png</asset>
+            <asset type="OVER">shop_btn_slot_o.png</asset>
+            <asset type="DISABLE">slot_a_dis.png</asset>
+            <snd type="OVER">
+            </snd>
+            <snd type="DOWN">ui_btn_menu_page</snd>
+            <snd type="RELEASE">
+            </snd>
+            <pos x="222" y="14" />
+            <rect l="0" t="0" r="74" b="74" />
+            <Visible val="True" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+            <Anchor val="None" />
+            <IsDefaultButton val="False" />
+          </child>
+          <child type="ANIMBUTTON" name="slot4_delete" subclass="">
+            <asset type="GROUP">inven_main_desktop_slot4_delete.xml</asset>
+            <asset type="NORMAL">
+            </asset>
+            <asset type="DOWN">
+            </asset>
+            <asset type="OVER">
+            </asset>
+            <asset type="DISABLE">
+            </asset>
+            <asset type="ENTER">
+            </asset>
+            <asset type="LEAVE">
+            </asset>
+            <snd type="OVER">
+            </snd>
+            <snd type="DOWN">ui_btn_menu_click</snd>
+            <snd type="RELEASE">
+            </snd>
+            <pos x="229" y="1" />
+            <rect l="0" t="0" r="60" b="18" />
+            <Visible val="True" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+            <Anchor val="Top, Left" />
+            <IsDefaultButton val="False" />
+          </child>
+          <child type="BUTTON" subclass="" name="slot3">
+            <asset type="NORMAL">shop_btn_slot_n.png</asset>
+            <asset type="DOWN">shop_btn_slot_d.png</asset>
+            <asset type="OVER">shop_btn_slot_o.png</asset>
+            <asset type="DISABLE">slot_a_dis.png</asset>
+            <snd type="OVER">
+            </snd>
+            <snd type="DOWN">ui_btn_menu_page</snd>
+            <snd type="RELEASE">
+            </snd>
+            <pos x="148" y="14" />
+            <rect l="0" t="0" r="74" b="74" />
+            <Visible val="True" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+            <Anchor val="None" />
+            <IsDefaultButton val="False" />
+          </child>
+          <child type="ANIMBUTTON" name="slot3_delete" subclass="">
+            <asset type="GROUP">inven_main_desktop_slot3_delete.xml</asset>
+            <asset type="NORMAL">
+            </asset>
+            <asset type="DOWN">
+            </asset>
+            <asset type="OVER">
+            </asset>
+            <asset type="DISABLE">
+            </asset>
+            <asset type="ENTER">
+            </asset>
+            <asset type="LEAVE">
+            </asset>
+            <snd type="OVER">
+            </snd>
+            <snd type="DOWN">ui_btn_menu_click</snd>
+            <snd type="RELEASE">
+            </snd>
+            <pos x="155" y="1" />
+            <rect l="0" t="0" r="60" b="18" />
+            <Visible val="True" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+            <Anchor val="Top, Left" />
+            <IsDefaultButton val="False" />
+          </child>
+          <child type="BUTTON" subclass="" name="slot2">
+            <asset type="NORMAL">shop_btn_slot_n.png</asset>
+            <asset type="DOWN">shop_btn_slot_d.png</asset>
+            <asset type="OVER">shop_btn_slot_o.png</asset>
+            <asset type="DISABLE">slot_a_dis.png</asset>
+            <snd type="OVER">
+            </snd>
+            <snd type="DOWN">ui_btn_menu_page</snd>
+            <snd type="RELEASE">
+            </snd>
+            <pos x="74" y="14" />
+            <rect l="0" t="0" r="74" b="74" />
+            <Visible val="True" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+            <Anchor val="None" />
+            <IsDefaultButton val="False" />
+          </child>
+          <child type="ANIMBUTTON" name="slot2_delete" subclass="">
+            <asset type="GROUP">inven_main_desktop_slot2_delete.xml</asset>
+            <asset type="NORMAL">
+            </asset>
+            <asset type="DOWN">
+            </asset>
+            <asset type="OVER">
+            </asset>
+            <asset type="DISABLE">
+            </asset>
+            <asset type="ENTER">
+            </asset>
+            <asset type="LEAVE">
+            </asset>
+            <snd type="OVER">
+            </snd>
+            <snd type="DOWN">ui_btn_menu_click</snd>
+            <snd type="RELEASE">
+            </snd>
+            <pos x="81" y="1" />
+            <rect l="0" t="0" r="60" b="18" />
+            <Visible val="True" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+            <Anchor val="Top, Left" />
+            <IsDefaultButton val="False" />
+          </child>
+          <child type="BUTTON" subclass="" name="slot1">
+            <asset type="NORMAL">shop_btn_slot_n.png</asset>
+            <asset type="DOWN">shop_btn_slot_d.png</asset>
+            <asset type="OVER">shop_btn_slot_o.png</asset>
+            <asset type="DISABLE">
+            </asset>
+            <snd type="OVER">
+            </snd>
+            <snd type="DOWN">ui_btn_menu_page</snd>
+            <snd type="RELEASE">
+            </snd>
+            <pos x="0" y="14" />
+            <rect l="0" t="0" r="74" b="74" />
+            <Visible val="True" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+            <Anchor val="None" />
+            <IsDefaultButton val="False" />
+          </child>
+          <child type="ANIMBUTTON" name="slot1_delete" subclass="">
+            <asset type="GROUP">inven_main_desktop_slot1_delete.xml</asset>
+            <asset type="NORMAL">
+            </asset>
+            <asset type="DOWN">
+            </asset>
+            <asset type="OVER">
+            </asset>
+            <asset type="DISABLE">
+            </asset>
+            <asset type="ENTER">
+            </asset>
+            <asset type="LEAVE">
+            </asset>
+            <snd type="OVER">
+            </snd>
+            <snd type="DOWN">ui_btn_menu_click</snd>
+            <snd type="RELEASE">
+            </snd>
+            <pos x="7" y="1" />
+            <rect l="0" t="0" r="60" b="18" />
+            <Visible val="True" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+            <Anchor val="Top, Left" />
+            <IsDefaultButton val="False" />
+          </child>
+        </base>
+      </base>
+    </child>
+  </base>
+</refresh>

@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="tutorial_control_Default">
+    <asset type="IMAGE" name="asset_tutorial_control_key" path="tutorial_control_key.png">
+      <rect l="0" t="0" r="453" b="105" />
+    </asset>
+    <asset type="IMAGE" name="asset_tutorial_control_hand" path="tutorial_control_hand.png">
+      <rect l="0" t="0" r="448" b="179" />
+    </asset>
+    <object name="tutorial_control_key" ani="ani_tutorial_control_key">
+      <asset type="IMAGE" link="asset_tutorial_control_key" />
+    </object>
+    <object name="tutorial_control_hand" ani="ani_tutorial_control_hand">
+      <asset type="IMAGE" link="asset_tutorial_control_hand" />
+    </object>
+    <param type="RES" x="165" y="167" />
+    <param type="LOOP" cnt="-1" pendulum="0" />
+    <anim name="ani_tutorial_control_key">
+      <frame cnt="0">
+        <posx val="0.339393939393939" />
+        <posy val="0.317365269461078" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+    <anim name="ani_tutorial_control_hand">
+      <frame cnt="0">
+        <posx val="0.303030303030303" />
+        <posy val="0.892215568862275" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="200">
+        <posx val="0.303030303030303" />
+        <posy val="0.862275449101796" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="600">
+        <posx val="0.303030303030303" easeValue="0.0,0.0,0.7,1.0" />
+        <posy val="0.682634730538922" easeValue="0.0,0.0,0.7,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="1233">
+        <posx val="0.303030303030303" />
+        <posy val="0.682634730538922" />
+        <scalex val="1" />
+        <scaley val="0.994413407821229" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="1667">
+        <posx val="0.303030303030303" easeValue="0.0,0.0,0.6,1.0" />
+        <posy val="0.844311377245509" easeValue="0.0,0.0,0.6,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="2167">
+        <posx val="0.303030303030303" />
+        <posy val="0.844311377245509" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="2567">
+        <posx val="0.303030303030303" easeValue="0.0,0.0,0.6,1.0" />
+        <posy val="0.694610778443114" easeValue="0.0,0.0,0.6,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="3467">
+        <posx val="0.303030303030303" />
+        <posy val="0.694610778443114" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="3800">
+        <posx val="0.303030303030303" />
+        <posy val="0.892215568862275" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="4267">
+        <posx val="0.303030303030303" />
+        <posy val="0.892215568862275" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

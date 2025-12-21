@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="_Opening_">
+    <asset type="UI" name="asset_field_guild_makeroom_window">
+      <rect l="0" t="0" r="474" b="517" />
+    </asset>
+    <asset type="UI" name="asset_lb_makeroom">
+      <rect l="0" t="0" r="270" b="20" />
+    </asset>
+    <object name="field_guild_makeroom_window" ani="ani_field_guild_makeroom_window">
+      <asset type="UI" link="asset_field_guild_makeroom_window" />
+    </object>
+    <object name="lb_makeroom" ani="ani_lb_makeroom">
+      <asset type="UI" link="asset_lb_makeroom" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_field_guild_makeroom_window">
+      <frame cnt="0">
+        <posx val="0.2666015625" />
+        <posy val="0.15234375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="300">
+        <posx val="0.2666015625" />
+        <posy val="0.15234375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_lb_makeroom">
+      <frame cnt="0">
+        <posx val="0.09667969" />
+        <posy val="0.02994792" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <sound val="ui_event_open" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Closing_">
+    <asset type="UI" name="asset_field_guild_makeroom_window">
+      <rect l="0" t="0" r="474" b="517" />
+    </asset>
+    <object name="field_guild_makeroom_window" ani="ani_field_guild_makeroom_window">
+      <asset type="UI" link="asset_field_guild_makeroom_window" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_field_guild_makeroom_window">
+      <frame cnt="0">
+        <posx val="0.2666015625" />
+        <posy val="0.15234375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="200">
+        <posx val="0.2666015625" />
+        <posy val="0.15234375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

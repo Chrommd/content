@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="icon_menu_new_4_Default">
+    <asset type="IMAGE" name="asset_icon_menu_new2" path="icon_menu_new2.png">
+      <rect l="0" t="0" r="45" b="24" />
+    </asset>
+    <object name="icon_menu_new2" ani="ani_icon_menu_new2">
+      <asset type="IMAGE" link="asset_icon_menu_new2" />
+    </object>
+    <param type="RES" x="45" y="24" />
+    <param type="LOOP" cnt="-1" pendulum="0" />
+    <anim name="ani_icon_menu_new2">
+      <frame cnt="0">
+        <posx val="0.488888888888889" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="467">
+        <posx val="0.577777777777778" easeValue="1.0,0.0,1.0,1.0" />
+        <posy val="0.5" easeValue="1.0,0.0,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="1.0,0.0,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="933">
+        <posx val="0.488888888888889" easeValue="0.0,1.0,1.0,1.0" />
+        <posy val="0.5" easeValue="0.0,1.0,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,1.0,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+  </properties>
+  <base type="WND" subclass="" name="care_slot">
+    <Visible val="True" />
+    <Anchor val="None" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="82" b="82" />
+    <IsHitTestVisible val="True" />
+    <ClipChildren val="False" />
+    <child type="PICTURE" name="bg_care_slot" subclass="">
+      <asset type="STATIC">bg_care_slot.png</asset>
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="82" b="82" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="PICTURE" name="icon_care_step" subclass="">
+      <asset type="STATIC">
+      </asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="6" y="5" />
+      <rect l="0" t="0" r="71" b="71" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="LABEL" name="txt_step_number" subclass="">
+      <label val="" />
+      <pos x="44" y="4" />
+      <rect l="0" t="0" r="31" b="16" />
+      <Visible val="True" />
+      <Anchor val="None" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#D1BFB2" />
+      <color val="#E15200" />
+      <halign val="2" />
+      <valign val="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="12" />
+      <TextTrimming val="None" />
+      <style val="1" />
+      <IsHitTestVisible val="False" />
+      <ClipChildren val="False" />
+      <Padding val="0, 0, 0, 0" />
+    </child>
+    <child type="LABEL" name="txt_step_title" subclass="">
+      <label val="" />
+      <pos x="2" y="61" />
+      <rect l="0" t="0" r="78" b="17" />
+      <Visible val="True" />
+      <Anchor val="None" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#D1BFB2" />
+      <color val="#371B0E" />
+      <halign val="1" />
+      <valign val="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="12" />
+      <TextTrimming val="None" />
+      <style val="32" />
+      <IsHitTestVisible val="False" />
+      <ClipChildren val="False" />
+      <Padding val="0, 0, 0, 0" />
+    </child>
+    <child type="PICTURE" name="icon_care_step_lock" subclass="">
+      <asset type="STATIC">icon_care_lock.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="82" b="82" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="PICTURE" name="icon_care_step_open" subclass="">
+      <asset type="ANIMATION">care_slot_column_icon_care_step_open.xml</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="82" b="82" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="ANIMBUTTON" name="btn_care_slot" subclass="">
+      <asset type="GROUP">care_slot_column_btn_care_slot.xml</asset>
+      <asset type="NORMAL">
+      </asset>
+      <asset type="DOWN">
+      </asset>
+      <asset type="OVER">
+      </asset>
+      <asset type="DISABLE">
+      </asset>
+      <asset type="ENTER">
+      </asset>
+      <asset type="LEAVE">
+      </asset>
+      <snd type="OVER">
+      </snd>
+      <snd type="DOWN">
+      </snd>
+      <snd type="RELEASE">
+      </snd>
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="82" b="82" />
+      <Visible val="True" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <Anchor val="Top, Left" />
+      <IsDefaultButton val="False" />
+    </child>
+  </base>
+</refresh>

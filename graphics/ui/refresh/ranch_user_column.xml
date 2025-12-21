@@ -1,0 +1,169 @@
+﻿<refresh version="2">
+	<properties>
+		<property name="DPI" val="72" />
+		<property name="UIAnimation" val="ranch_user_column_Animation.xml" />
+	</properties>
+	<base type="WND" subclass="" name="Wnd_ranch_user">
+		<pos x="0" y="0" />
+		<rect l="0" t="0" r="200" b="23" />
+		<Visible val="True" />
+		<Anchor val="Top, Left" />
+		<snd type="SHOW"></snd>
+		<snd type="HIDE"></snd>
+		<IsHitTestVisible val="True" />
+		<ClipChildren val="False" />
+		<child type="PICTURE" name="user_bar_on" subclass="">
+			<asset type="STATIC">chat_bar_on.png</asset>
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="200" b="25" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="LABEL" name="Label_name" subclass="">
+			<pos x="23" y="1" />
+			<rect l="0" t="0" r="154" b="23" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<label val="" />
+			<OutlineColor val="#000000BF" />
+			<ShadowColor val="#0000004C" />
+			<color val="#FFFFFFFF" />
+			<halign val="0" />
+			<valign val="1" />
+			<FontName val="나눔고딕" />
+			<FontSize val="13" />
+			<TextTrimming val="CharacterEllipsis" />
+			<style val="33" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+			<Padding val="0, 0, 0, 0" />
+			<FitToContent val="False" />
+		</child>
+		<child type="PANEL" name="Panel_myinfo_icon_sex" subclass="">
+			<pos x="2" y="0" />
+			<rect l="0" t="0" r="20" b="23" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<embed src="" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<child type="BUTTON" subclass="" name="myinfo_icon_sex_2">
+				<asset type="NORMAL">myinfo_icon_sex_none.png</asset>
+				<asset type="DOWN">myinfo_icon_sex_none_over.png</asset>
+				<asset type="OVER">myinfo_icon_sex_none_over.png</asset>
+				<asset type="DISABLE"></asset>
+				<pos x="0" y="2" />
+				<rect l="0" t="0" r="20" b="23" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<snd type="OVER"></snd>
+				<snd type="DOWN"></snd>
+				<snd type="RELEASE"></snd>
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+				<IsDefaultButton val="False" />
+			</child>
+			<child type="BUTTON" subclass="" name="myinfo_icon_sex_1">
+				<asset type="NORMAL">myinfo_icon_sex_male.png</asset>
+				<asset type="DOWN">myinfo_icon_sex_male_over.png</asset>
+				<asset type="OVER">myinfo_icon_sex_male_over.png</asset>
+				<asset type="DISABLE"></asset>
+				<pos x="0" y="0" />
+				<rect l="0" t="0" r="20" b="23" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<snd type="OVER"></snd>
+				<snd type="DOWN"></snd>
+				<snd type="RELEASE"></snd>
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+				<IsDefaultButton val="False" />
+			</child>
+			<child type="BUTTON" subclass="" name="myinfo_icon_sex_0">
+				<asset type="NORMAL">myinfo_icon_sex_female.png</asset>
+				<asset type="DOWN">myinfo_icon_sex_female_over.png</asset>
+				<asset type="OVER">myinfo_icon_sex_female_over.png</asset>
+				<asset type="DISABLE"></asset>
+				<pos x="0" y="0" />
+				<rect l="0" t="0" r="20" b="23" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<snd type="OVER"></snd>
+				<snd type="DOWN"></snd>
+				<snd type="RELEASE"></snd>
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+				<IsDefaultButton val="False" />
+			</child>
+			<child type="PICTURE" name="myinfo_icon_gm" subclass="">
+				<asset type="STATIC">myinfo_icon_gm.png</asset>
+				<pos x="0" y="4" />
+				<rect l="0" t="0" r="23" b="15" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+		</child>
+		<child type="PICTURE" name="myinfo_chat_block" subclass="">
+			<asset type="STATIC">myinfo_icon_chat_block.png</asset>
+			<pos x="162" y="5" />
+			<rect l="0" t="0" r="14" b="14" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="myinfo_icon_age" subclass="">
+			<asset type="STATIC">myinfo_icon_age_18.png</asset>
+			<pos x="2" y="11" />
+			<rect l="0" t="0" r="19" b="10" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="BUTTON" subclass="" name="btn_user_info">
+			<asset type="NORMAL">cha_info_btn_Normal.png</asset>
+			<asset type="DOWN">cha_info_btn_Push.png</asset>
+			<asset type="OVER">cha_info_btn_Hover.png</asset>
+			<asset type="DISABLE">cha_info_btn_Disable.png</asset>
+			<pos x="179" y="3" />
+			<rect l="0" t="0" r="19" b="19" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<snd type="OVER"></snd>
+			<snd type="DOWN"></snd>
+			<snd type="RELEASE"></snd>
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<IsDefaultButton val="False" />
+		</child>
+		<child type="PICTURE" name="icon_ranchman" subclass="">
+			<asset type="STATIC">icon_ranchman_0.png</asset>
+			<pos x="200" y="3" />
+			<rect l="0" t="0" r="53" b="20" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="icon_partyman" subclass="">
+			<asset type="STATIC">icon_partyman_0.png</asset>
+			<pos x="200" y="3" />
+			<rect l="0" t="0" r="53" b="20" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+	</base>
+</refresh>

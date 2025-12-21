@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+  </properties>
+  <base type="WND" subclass="" name="Wnd">
+    <Visible val="True" />
+    <Anchor val="None" />
+    <pos x="726" y="42" />
+    <rect l="0" t="0" r="180" b="34" />
+    <snd type="SHOW">
+    </snd>
+    <snd type="HIDE">
+    </snd>
+    <IsHitTestVisible val="True" />
+    <ClipChildren val="False" />
+    <base type="WNDEX" subclass="" name="WndEx">
+      <asset type="BG" path="frm_tooltip_S_CenterMiddle.png" tileMode="Stretch">
+        <tex x="4" y="4" />
+        <rect l="6" t="6" r="155" b="21" />
+      </asset>
+      <asset type="EDGE_LT" path="frm_tooltip_S_LeftTop.png" tileMode="Stretch">
+        <tex x="6" y="6" />
+        <rect l="0" t="0" r="6" b="6" />
+      </asset>
+      <asset type="EDGE_RT" path="frm_tooltip_S_RightTop.png" tileMode="Stretch">
+        <tex x="8" y="6" />
+        <rect l="0" t="0" r="8" b="6" />
+      </asset>
+      <asset type="EDGE_LB" path="frm_tooltip_S_LeftBottom.png" tileMode="Stretch">
+        <tex x="6" y="7" />
+        <rect l="0" t="0" r="6" b="7" />
+      </asset>
+      <asset type="EDGE_RB" path="frm_tooltip_S_RightBottom.png" tileMode="Stretch">
+        <tex x="8" y="7" />
+        <rect l="0" t="0" r="8" b="7" />
+      </asset>
+      <asset type="FRAME_T" path="frm_tooltip_S_CenterTop.png" tileMode="Tile">
+        <tex x="4" y="6" />
+        <rect l="6" t="0" r="155" b="6" />
+      </asset>
+      <asset type="FRAME_B" path="frm_tooltip_S_CenterBottom.png" tileMode="Tile">
+        <tex x="4" y="7" />
+        <rect l="6" t="0" r="155" b="7" />
+      </asset>
+      <asset type="FRAME_L" path="frm_tooltip_S_LeftMiddle.png" tileMode="Tile">
+        <tex x="6" y="4" />
+        <rect l="0" t="6" r="6" b="21" />
+      </asset>
+      <asset type="FRAME_R" path="frm_tooltip_S_RightMiddle.png" tileMode="Tile">
+        <tex x="8" y="4" />
+        <rect l="0" t="6" r="8" b="21" />
+      </asset>
+      <Visible val="True" />
+      <Anchor val="Top, Bottom, Left, Right" />
+      <pos x="8" y="0" />
+      <rect l="0" t="0" r="169" b="34" />
+      <snd type="SHOW">
+      </snd>
+      <snd type="HIDE">
+      </snd>
+      <Dragable val="False" />
+      <StartPosition val="None" />
+      <EscKeyAction val="None" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <child type="LIST" name="ListControl" subclass="">
+        <asset type="BG" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="8" t="8" r="144" b="7" />
+        </asset>
+        <asset type="EDGE_LT" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="EDGE_RT" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="EDGE_LB" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="EDGE_RB" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="FRAME_T" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="8" t="0" r="144" b="8" />
+        </asset>
+        <asset type="FRAME_B" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="8" t="0" r="144" b="8" />
+        </asset>
+        <asset type="FRAME_L" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="0" t="8" r="8" b="7" />
+        </asset>
+        <asset type="FRAME_R" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="0" t="8" r="8" b="7" />
+        </asset>
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <pos x="6" y="6" />
+        <rect l="0" t="0" r="160" b="23" />
+        <padding l="3" t="2" r="3" b="2" />
+        <column val="1" />
+        <itemrect l="0" t="0" r="160" b="23" />
+        <selection val="0" />
+        <deselectable val="0" />
+        <rclickaction val="1" />
+        <IsHitTestVisible val="True" />
+        <Orientation val="Vertical" />
+        <ClipChildren val="False" />
+      </child>
+    </base>
+    <child type="PICTURE" name="frm_tooltip_S" subclass="">
+      <asset type="STATIC">frm_tooltip_S.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="0" y="9" />
+      <rect l="0" t="0" r="15" b="16" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+  </base>
+</refresh>

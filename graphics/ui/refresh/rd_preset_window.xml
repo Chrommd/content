@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="rd_preset_window_Animation.xml" />
+  </properties>
+  <base type="WND" subclass="" name="rd_preset_wnd">
+    <Visible val="True" />
+    <Anchor val="Top, Left" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="138" b="74" />
+    <snd type="SHOW">
+    </snd>
+    <snd type="HIDE">
+    </snd>
+    <IsHitTestVisible val="True" />
+    <ClipChildren val="False" />
+    <child type="PICTURE" name="readyroom_btn_setslot_n" subclass="">
+      <asset type="STATIC">rd_bg_preset.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="4" y="4" />
+      <rect l="0" t="0" r="130" b="66" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="PICTURE" name="rd_bg_preset_dis" subclass="">
+      <asset type="STATIC">rd_bg_preset.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="4" y="4" />
+      <rect l="0" t="0" r="130" b="66" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="PICTURE" name="readyroom_btn_setslot_d" subclass="">
+      <asset type="STATIC">rd_bg_preset_d.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="4" y="4" />
+      <rect l="0" t="0" r="130" b="66" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="PICTURE" name="readyroom_btn_setslot_o" subclass="">
+      <asset type="STATIC">rd_bg_preset_o.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="138" b="74" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="PICTURE" name="skill_icon_2" subclass="">
+      <asset type="STATIC">
+      </asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="71" y="7" />
+      <rect l="0" t="0" r="60" b="60" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="PICTURE" name="skill_icon_1" subclass="">
+      <asset type="STATIC">
+      </asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="7" y="7" />
+      <rect l="0" t="0" r="60" b="60" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+  </base>
+</refresh>

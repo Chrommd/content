@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2" prefix="n_f[land][]april_">
+    <event animation="idle00">
+        <function>PlaySND($asset, "npc_pig_foot", "", "-var 2")</function>
+        <time>0.9917</time>
+        <freq>100</freq>
+    </event>
+    <event animation="idle00">
+        <function>PlaySND($asset, "npc_pig_foot", "", "-var 2")</function>
+        <time>1.6683</time>
+        <freq>100</freq>
+    </event>
+    <event animation="idle00">
+        <function>PlaySND($asset, "npc_pig_foot", "", "-var 2")</function>
+        <time>2.2925</time>
+        <freq>100</freq>
+    </event>
+    <event animation="idle00">
+        <function>PlaySND($asset, "npc_pig_foot", "", "-var 2")</function>
+        <time>4.1417</time>
+        <freq>100</freq>
+    </event>
+    <event animation="idle00">
+        <function>PlaySND($asset, "npc_pig_foot", "", "-var 2")</function>
+        <time>3.7543</time>
+        <freq>100</freq>
+    </event>
+    <event animation="idle00">
+        <function>PlaySND($asset, "npc_pig_foot", "", "-var 2")</function>
+        <time>5.1367</time>
+        <freq>100</freq>
+    </event>
+    <event animation="idle00">
+        <function>PlaySND($asset, "npc_pig_foot", "", "-var 2")+</function>
+        <time>5.4850</time>
+        <freq>100</freq>
+    </event>
+    <event animation="idle00">
+        <function>PlaySND($asset, "npc_pig_grunt", "", "-var 3")</function>
+        <time>0.3675</time>
+        <freq>100</freq>
+    </event>
+    <event animation="idle00">
+        <function>PlaySND($asset, "npc_pig_grunt", "", "-var 3")</function>
+        <time>2.3858</time>
+        <freq>100</freq>
+    </event>
+    <event animation="idle00">
+        <function>PlaySND($asset, "npc_pig_grunt", "", "-var 3")</function>
+        <time>5.0225</time>
+        <freq>100</freq>
+    </event>
+    <event animation="idle01">
+        <function>PlaySND($asset, "npc_pig_fly1", "", "-var 0")</function>
+        <time>0.5390</time>
+        <freq>100</freq>
+    </event>
+    <event animation="idle01">
+        <function>PlaySND($asset, "npc_pig_falldown", "", "-var 0")</function>
+        <time>12.7890</time>
+        <freq>100</freq>
+    </event>
+    <event animation="idle01">
+        <function>PlaySND($asset, "npc_pig_scream", "", "-var 0")</function>
+        <time>13.0013</time>
+        <freq>100</freq>
+    </event>
+    <event animation="idle01">
+        <function>PlaySND($asset, "npc_pig_grunt", "", "-var 3")</function>
+        <time>14.1447</time>
+        <freq>100</freq>
+    </event>
+    <event animation="idle01">
+        <function>PlaySND($asset, "npc_pig_fly2", "", "-var 0")</function>
+        <time>2.8796</time>
+        <freq>100</freq>
+    </event>
+    <event animation="idle01">
+        <function>PlaySND($asset, "npc_pig_fly3", "", "-var 0")</function>
+        <time>4.9387</time>
+        <freq>100</freq>
+    </event>
+    <event animation="idle01">
+        <function>PlaySND($asset, "npc_pig_fly2", "", "-var 0")</function>
+        <time>7.6171</time>
+        <freq>100</freq>
+    </event>
+    <event animation="idle01">
+        <function>PlaySND($asset, "npc_pig_fly4", "", "-var 0")</function>
+        <time>9.6607</time>
+        <freq>100</freq>
+    </event>
+    <dummy name="npc_cam_front" parent="Dummyroot" sync="TRUE" extra="">
+        <rotationX>-0.0010</rotationX>
+        <rotationY>0.9962</rotationY>
+        <rotationZ>-0.0722</rotationZ>
+        <rotationW>-0.0497</rotationW>
+        <offsetX>0.3992</offsetX>
+        <offsetY>0.9760</offsetY>
+        <offsetZ>2.8801</offsetZ>
+    </dummy>
+    <action category="" state="IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>idle00</main>
+    </action>
+    <action category="" state="IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>idle01</main>
+    </action>
+    <action category="" state="JUMP" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>surprise00</main>
+    </action>
+    <action category="" state="MOVE_1ST" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>walk00</main>
+    </action>
+    <action category="" state="MOVE_2ND" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>walk00</main>
+    </action>
+    <action category="" state="MOVE_3RD" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>run00</main>
+    </action>
+    <action category="" state="MOVE_4TH" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>run00</main>
+    </action>
+    <action category="" state="MOVE_ZERO" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>walk00</main>
+    </action>
+</aim>

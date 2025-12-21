@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="NORMAL">
+    <asset type="IMAGE" name="asset_rd_back_n" path="rd_back_n.png">
+      <rect l="0" t="0" r="48" b="57" />
+    </asset>
+    <object name="rd_back_n" ani="ani_rd_back_n">
+      <asset type="IMAGE" link="asset_rd_back_n" />
+    </object>
+    <param type="RES" x="48" y="57" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_rd_back_n">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="OVER">
+    <asset type="IMAGE" name="asset_rd_back_o" path="rd_back_o.png">
+      <rect l="0" t="0" r="48" b="57" />
+    </asset>
+    <object name="rd_back_o" ani="ani_rd_back_o">
+      <asset type="IMAGE" link="asset_rd_back_o" />
+    </object>
+    <param type="RES" x="48" y="57" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_rd_back_o">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="DOWN">
+    <asset type="IMAGE" name="asset_rd_back_d" path="rd_back_d.png">
+      <rect l="0" t="0" r="48" b="57" />
+    </asset>
+    <object name="rd_back_d" ani="ani_rd_back_d">
+      <asset type="IMAGE" link="asset_rd_back_d" />
+    </object>
+    <param type="RES" x="48" y="57" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_rd_back_d">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="DISABLE">
+    <asset type="IMAGE" name="asset_rd_back_dis" path="rd_back_dis.png">
+      <rect l="0" t="0" r="48" b="57" />
+    </asset>
+    <object name="rd_back_dis" ani="ani_rd_back_dis">
+      <asset type="IMAGE" link="asset_rd_back_dis" />
+    </object>
+    <param type="RES" x="48" y="57" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_rd_back_dis">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

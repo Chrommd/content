@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="fes_result_fail_dialog_Animation.xml" />
+  </properties>
+  <base type="WNDEX" subclass="" name="fes_result_fail">
+    <asset type="BG" path="frm_std_04.png">
+      <tex x="4" y="4" />
+      <rect l="167" t="70" r="96" b="197" />
+    </asset>
+    <asset type="EDGE_LT" path="frm_std_00.png">
+      <tex x="167" y="70" />
+      <rect l="0" t="0" r="167" b="70" />
+    </asset>
+    <asset type="EDGE_RT" path="frm_std_02.png">
+      <tex x="167" y="70" />
+      <rect l="0" t="0" r="167" b="70" />
+    </asset>
+    <asset type="EDGE_LB" path="frm_std_06.png">
+      <tex x="167" y="33" />
+      <rect l="0" t="0" r="167" b="33" />
+    </asset>
+    <asset type="EDGE_RB" path="frm_std_08.png">
+      <tex x="167" y="33" />
+      <rect l="0" t="0" r="167" b="33" />
+    </asset>
+    <asset type="FRAME_T" path="frm_std_01.png">
+      <tex x="4" y="70" />
+      <rect l="167" t="0" r="96" b="70" />
+    </asset>
+    <asset type="FRAME_B" path="frm_std_07.png">
+      <tex x="4" y="33" />
+      <rect l="167" t="0" r="96" b="33" />
+    </asset>
+    <asset type="FRAME_L" path="frm_std_03.png">
+      <tex x="167" y="4" />
+      <rect l="0" t="70" r="167" b="197" />
+    </asset>
+    <asset type="FRAME_R" path="frm_std_05.png">
+      <tex x="167" y="4" />
+      <rect l="0" t="70" r="167" b="197" />
+    </asset>
+    <Visible val="True" />
+    <Anchor val="None" />
+    <pos x="297" y="200" />
+    <rect l="0" t="0" r="430" b="300" />
+    <Dragable val="False" />
+    <StartPosition val="CenterScreen" />
+    <EscKeyAction val="None" />
+    <child type="LIST" name="img_ms_failed_innerbox" subclass="">
+      <asset type="BG" path="frm_std_innerbox_04.png">
+        <tex x="4" y="4" />
+        <rect l="8" t="8" r="284" b="54" />
+      </asset>
+      <asset type="EDGE_LT" path="frm_std_innerbox_00.png">
+        <tex x="8" y="8" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_RT" path="frm_std_innerbox_02.png">
+        <tex x="8" y="8" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_LB" path="frm_std_innerbox_06.png">
+        <tex x="8" y="8" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_RB" path="frm_std_innerbox_08.png">
+        <tex x="8" y="8" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="FRAME_T" path="frm_std_innerbox_01.png">
+        <tex x="4" y="8" />
+        <rect l="8" t="0" r="284" b="8" />
+      </asset>
+      <asset type="FRAME_B" path="frm_std_innerbox_07.png">
+        <tex x="4" y="8" />
+        <rect l="8" t="0" r="284" b="8" />
+      </asset>
+      <asset type="FRAME_L" path="frm_std_innerbox_03.png">
+        <tex x="8" y="4" />
+        <rect l="0" t="8" r="8" b="54" />
+      </asset>
+      <asset type="FRAME_R" path="frm_std_innerbox_05.png">
+        <tex x="8" y="4" />
+        <rect l="0" t="8" r="8" b="54" />
+      </asset>
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <pos x="65" y="184" />
+      <rect l="0" t="0" r="300" b="70" />
+      <padding l="3" t="2" r="3" b="2" />
+      <column val="1" />
+      <itemrect l="0" t="0" r="250" b="20" />
+      <selection val="0" />
+      <deselectable val="0" />
+      <rclickaction val="1" />
+      <child type="LABEL" name="txt_ms_failed" subclass="">
+        <label val="안타깝습니다. 다음 기회를 노려보시기 바랍니다." />
+        <pos x="14" y="18" />
+        <rect l="0" t="0" r="270" b="34" />
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#000000" />
+        <color val="#51402C" />
+        <halign val="1" />
+        <valign val="1" />
+        <FontName val="나눔고딕" />
+        <FontSize val="13" />
+        <FontName val="나눔고딕" />
+      </child>
+    </child>
+    <child type="PICTURE" name="img_ms_failed" subclass="">
+      <asset type="STATIC">Festival_MissionFailed.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="85" y="75" />
+      <rect l="0" t="0" r="260" b="92" />
+      <center x="0" y="0" />
+    </child>
+    <child type="LABEL" name="txt_title_fesresult" subclass="">
+      <label val="축제미션 결과" />
+      <pos x="85" y="23" />
+      <rect l="0" t="0" r="250" b="22" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#000000" />
+      <color val="#FFFFFF" />
+      <halign val="1" />
+      <valign val="1" />
+      <FontName val="나눔고딕" />
+      <FontSize val="15" />
+      <FontName val="나눔고딕" />
+    </child>
+  </base>
+</refresh>

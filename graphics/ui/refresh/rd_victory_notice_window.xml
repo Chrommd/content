@@ -1,0 +1,67 @@
+﻿<refresh version="2">
+	<properties>
+		<property name="DPI" val="72" />
+		<property name="UIAnimation" val="rd_victory_notice_window_Animation.xml" />
+	</properties>
+	<base type="WND" subclass="" name="victory_notice_">
+		<pos x="0" y="206" />
+		<rect l="0" t="0" r="1024" b="22" />
+		<Visible val="True" />
+		<Anchor val="Top, Left, Right" />
+		<snd type="SHOW"></snd>
+		<snd type="HIDE"></snd>
+		<IsHitTestVisible val="True" />
+		<ClipChildren val="False" />
+		<child type="STACKPANEL" name="anchor2" subclass="">
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="1024" b="22" />
+			<Visible val="True" />
+			<Anchor val="Top, Left, Right" />
+			<Orientation val="Vertical" />
+			<HAlign val="Center" />
+			<VAlign val="Top" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<base type="WND" subclass="" name="anchor1">
+				<pos x="0" y="0" />
+				<rect l="0" t="0" r="1024" b="22" />
+				<Visible val="True" />
+				<Anchor val="Top, Left, Right" />
+				<snd type="SHOW"></snd>
+				<snd type="HIDE"></snd>
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+				<child type="PICTURE" name="bg_victory_handicap" subclass="">
+					<asset type="STATIC">bg_wins_notice.png</asset>
+					<pos x="282" y="0" />
+					<rect l="0" t="0" r="460" b="22" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+				</child>
+				<child type="LABEL" name="lb_victory_handicap" subclass="">
+					<pos x="282" y="2" />
+					<rect l="0" t="0" r="460" b="18" />
+					<Visible val="True" />
+					<Anchor val="Top, Left" />
+					<label val="연승을 하셔서 이번 게임은 핸드캡이 적용됩니다 !" />
+					<OutlineColor val="#FF0000" />
+					<ShadowColor val="#030200" />
+					<color val="#FEBBBB" />
+					<halign val="1" />
+					<valign val="0" />
+					<FontName val="나눔고딕" />
+					<FontSize val="13" />
+					<TextTrimming val="None" />
+					<style val="33" />
+					<IsHitTestVisible val="False" />
+					<ClipChildren val="False" />
+					<Padding val="0, 0, 0, 0" />
+					<FitToContent val="False" />
+				</child>
+			</base>
+		</child>
+	</base>
+</refresh>

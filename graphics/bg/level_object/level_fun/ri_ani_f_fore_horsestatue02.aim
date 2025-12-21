@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <event animation="1st">
+        <function>PlayFX($asset, "ob_funobj_ston_crash_006", "1", "")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="1st">
+        <function>PlaySND($asset, "crash_stonebreak01_", "1", "-var 3")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="3rd">
+        <function>PlayFX($asset, "ob_funobj_ston_crash_005", "1", "")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="3rd">
+        <function>PlaySND($asset, "crash_stonebreak01_", "1", "-var 3")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="3rd">
+        <function>PlaySND($asset, "crash_wall_stone", "1", "-var 2")</function>
+        <time>0.3208</time>
+        <freq>100</freq>
+    </event>
+    <dummy name="1" parent="NODE_0" sync="FALSE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>1.3610</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <action category="" state="BROKEN_1ST" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>1st</main>
+    </action>
+    <action category="" state="BROKEN_2ND" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>3rd</main>
+    </action>
+    <action category="" state="BROKEN_3RD" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>3rd</main>
+    </action>
+</aim>

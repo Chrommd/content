@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="img_chat_off_Default">
+    <asset type="IMAGE" name="asset_icon_chat_off" path="icon_chat_off.png">
+      <rect l="0" t="0" r="30" b="23" />
+    </asset>
+    <object name="icon_chat_off" ani="ani_icon_chat_off">
+      <asset type="IMAGE" link="asset_icon_chat_off" />
+    </object>
+    <param type="RES" x="30" y="23" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_icon_chat_off">
+      <frame cnt="0">
+        <posx val="0.5" />
+        <posy val="0.608695652173913" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.5" />
+        <posy val="0.434782608695652" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0.5" />
+        <posy val="0.521739130434783" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

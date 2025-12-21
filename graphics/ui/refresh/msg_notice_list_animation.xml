@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="_Opening_">
+    <asset type="UI" name="asset_msg_notice_list">
+      <rect l="0" t="0" r="150" b="73" />
+    </asset>
+    <object name="msg_notice_list" ani="ani_msg_notice_list">
+      <asset type="UI" link="asset_msg_notice_list" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_msg_notice_list">
+      <frame cnt="0">
+        <posx val="0.427734375" />
+        <posy val="0.595052083333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="233">
+        <posx val="0.427734375" easeValue="0.0,1.0,1.0,1.0" />
+        <posy val="0.58203125" easeValue="0.0,1.0,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,1.0,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Closing_">
+    <asset type="UI" name="asset_msg_notice_list">
+      <rect l="0" t="0" r="150" b="73" />
+    </asset>
+    <object name="msg_notice_list" ani="ani_msg_notice_list">
+      <asset type="UI" link="asset_msg_notice_list" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_msg_notice_list">
+      <frame cnt="0">
+        <posx val="0.427734375" />
+        <posy val="0.58203125" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="233">
+        <posx val="0.427734375" />
+        <posy val="0.595052083333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

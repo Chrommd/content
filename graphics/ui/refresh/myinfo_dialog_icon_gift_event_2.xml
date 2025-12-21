@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="icon_gift_event_2_Default">
+    <asset type="IMAGE" name="asset_icon_common_event" path="icon_common_event.png">
+      <rect l="0" t="0" r="33" b="38" />
+    </asset>
+    <object name="icon_common_event" ani="ani_icon_common_event">
+      <asset type="IMAGE" link="asset_icon_common_event" />
+    </object>
+    <param type="RES" x="33" y="38" />
+    <param type="LOOP" cnt="-1" pendulum="0" />
+    <anim name="ani_icon_common_event">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="200">
+        <posx val="0" />
+        <posy val="0.0789473684210526" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="400">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="revenge_effect_speed_Animation.xml" />
+  </properties>
+  <base type="WND" subclass="" name="wnd_revenge_effect_speed">
+    <Visible val="True" />
+    <Anchor val="Top, Left" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="150" b="80" />
+    <IsHitTestVisible val="True" />
+    <ClipChildren val="False" />
+    <child type="PICTURE" name="img_revenge_effect_speed" subclass="">
+      <asset type="ANIMATION">revenge_effect_speed_img_revenge_effect_speed.xml</asset>
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="150" b="80" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="PICTURE" name="img_revenge_effect_10seclead" subclass="">
+      <asset type="ANIMATION">revenge_effect_speed_img_revenge_effect_10seclead.xml</asset>
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="150" b="80" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="PICTURE" name="img_revenge_effect_20seclead" subclass="">
+      <asset type="ANIMATION">revenge_effect_speed_img_revenge_effect_20seclead.xml</asset>
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="150" b="80" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="PICTURE" name="img_revenge_effect_perfectlead" subclass="">
+      <asset type="ANIMATION">revenge_effect_speed_img_revenge_effect_perfectlead.xml</asset>
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="150" b="80" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+  </base>
+</refresh>

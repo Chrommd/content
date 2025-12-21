@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="img_esc_select_Default">
+    <asset type="IMAGE" name="asset_img_esc_effect" path="img_esc_effect.png">
+      <rect l="0" t="0" r="62" b="50" />
+    </asset>
+    <asset type="IMAGE" name="asset_img_esc_select" path="img_esc_select.png">
+      <rect l="0" t="0" r="42" b="31" />
+    </asset>
+    <object name="img_esc_effect" ani="ani_img_esc_effect">
+      <asset type="IMAGE" link="asset_img_esc_effect" />
+    </object>
+    <object name="img_esc_select" ani="ani_img_esc_select">
+      <asset type="IMAGE" link="asset_img_esc_select" />
+    </object>
+    <param type="RES" x="42" y="31" />
+    <param type="LOOP" cnt="-1" pendulum="1" />
+    <anim name="ani_img_esc_effect">
+      <frame cnt="0">
+        <posx val="0.5" />
+        <posy val="0.516129032258065" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="1000">
+        <posx val="0.5" easeValue="0.5,0.0,0.5,1.0" />
+        <posy val="0.516129032258065" easeValue="0.5,0.0,0.5,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" easeValue="0.5,0.0,0.5,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+    <anim name="ani_img_esc_select">
+      <frame cnt="0">
+        <posx val="0.5" />
+        <posy val="0.516129032258065" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

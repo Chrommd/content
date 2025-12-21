@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="NORMAL">
+    <asset type="IMAGE" name="asset_slot_get_item_n" path="slot_get_item_n.png">
+      <rect l="0" t="0" r="60" b="60" />
+    </asset>
+    <asset type="IMAGE" name="asset_icon_get_item" path="icon_get_item.png">
+      <rect l="0" t="0" r="60" b="60" />
+    </asset>
+    <asset type="IMAGE" name="asset_icon_down" path="icon_down.png">
+      <rect l="0" t="0" r="19" b="19" />
+    </asset>
+    <object name="slot_get_item_n" ani="ani_slot_get_item_n">
+      <asset type="IMAGE" link="asset_slot_get_item_n" />
+    </object>
+    <object name="icon_get_item" ani="ani_icon_get_item">
+      <asset type="IMAGE" link="asset_icon_get_item" />
+    </object>
+    <object name="icon_down" ani="ani_icon_down">
+      <asset type="IMAGE" link="asset_icon_down" />
+    </object>
+    <param type="RES" x="60" y="60" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_slot_get_item_n">
+      <frame cnt="0">
+        <posx val="0.5" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_get_item">
+      <frame cnt="0">
+        <posx val="0.5" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_down">
+      <frame cnt="0">
+        <posx val="0.766666666666667" />
+        <posy val="0.766666666666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="OVER">
+    <asset type="IMAGE" name="asset_slot_get_item_n" path="slot_get_item_n.png">
+      <rect l="0" t="0" r="60" b="60" />
+    </asset>
+    <asset type="IMAGE" name="asset_slot_get_item_o" path="slot_get_item_o.png">
+      <rect l="0" t="0" r="60" b="60" />
+    </asset>
+    <asset type="IMAGE" name="asset_icon_get_item" path="icon_get_item.png">
+      <rect l="0" t="0" r="60" b="60" />
+    </asset>
+    <asset type="IMAGE" name="asset_icon_down" path="icon_down.png">
+      <rect l="0" t="0" r="19" b="19" />
+    </asset>
+    <object name="slot_get_item_n" ani="ani_slot_get_item_n">
+      <asset type="IMAGE" link="asset_slot_get_item_n" />
+    </object>
+    <object name="slot_get_item_o" ani="ani_slot_get_item_o">
+      <asset type="IMAGE" link="asset_slot_get_item_o" />
+    </object>
+    <object name="icon_get_item" ani="ani_icon_get_item">
+      <asset type="IMAGE" link="asset_icon_get_item" />
+    </object>
+    <object name="icon_down" ani="ani_icon_down">
+      <asset type="IMAGE" link="asset_icon_down" />
+    </object>
+    <param type="RES" x="60" y="60" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_slot_get_item_n">
+      <frame cnt="0">
+        <posx val="0.5" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+    <anim name="ani_slot_get_item_o">
+      <frame cnt="0">
+        <posx val="0.5" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.8" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="167">
+        <posx val="0.5" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.8" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_get_item">
+      <frame cnt="0">
+        <posx val="0.5" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_down">
+      <frame cnt="0">
+        <posx val="0.766666666666667" />
+        <posy val="0.766666666666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="300">
+        <posx val="0.766666666666667" easeValue="0.0,1.0,1.0,1.0" />
+        <posy val="0.816666666666667" easeValue="0.0,1.0,1.0,1.0" />
+        <scalex val="1" easeValue="0.0,1.0,1.0,1.0" />
+        <scaley val="1" easeValue="0.0,1.0,1.0,1.0" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="DOWN">
+    <asset type="IMAGE" name="asset_slot_get_item_d1" path="slot_get_item_d.png">
+      <rect l="0" t="0" r="60" b="60" />
+    </asset>
+    <asset type="IMAGE" name="asset_icon_get_item" path="icon_get_item.png">
+      <rect l="0" t="0" r="60" b="60" />
+    </asset>
+    <asset type="IMAGE" name="asset_icon_down" path="icon_down.png">
+      <rect l="0" t="0" r="19" b="19" />
+    </asset>
+    <object name="slot_get_item_d1" ani="ani_slot_get_item_d1">
+      <asset type="IMAGE" link="asset_slot_get_item_d1" />
+    </object>
+    <object name="icon_get_item" ani="ani_icon_get_item">
+      <asset type="IMAGE" link="asset_icon_get_item" />
+    </object>
+    <object name="icon_down" ani="ani_icon_down">
+      <asset type="IMAGE" link="asset_icon_down" />
+    </object>
+    <param type="RES" x="60" y="60" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_slot_get_item_d1">
+      <frame cnt="0">
+        <posx val="0.5" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="167">
+        <posx val="0.5" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_get_item">
+      <frame cnt="0">
+        <posx val="0.5" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.5" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="167">
+        <posx val="0.5" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.5" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_down">
+      <frame cnt="0">
+        <posx val="0.766666666666667" />
+        <posy val="0.816666666666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.5" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="DISABLE">
+    <param type="RES" x="60" y="60" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+  </scene>
+</rfanimation>

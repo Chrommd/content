@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="img_perfectbonus_3_Default">
+    <asset type="IMAGE" name="asset_img_ingame_perfectbonus_back" path="img_ingame_perfectbonus_back.png">
+      <rect l="0" t="0" r="81" b="30" />
+    </asset>
+    <asset type="IMAGE" name="asset_img_ingame_perfectbonus_bonus" path="img_ingame_perfectbonus_bonus.png">
+      <rect l="0" t="0" r="41" b="15" />
+    </asset>
+    <asset type="IMAGE" name="asset_img_ingame_perfectbonus_1" path="img_ingame_perfectbonus_3.png">
+      <rect l="0" t="0" r="32" b="28" />
+    </asset>
+    <asset type="IMAGE" name="asset_img_ingame_perfectbonus_white_1" path="img_ingame_perfectbonus_white_3.png">
+      <rect l="0" t="0" r="32" b="28" />
+    </asset>
+    <object name="img_ingame_perfectbonus_back" ani="ani_img_ingame_perfectbonus_back">
+      <asset type="IMAGE" link="asset_img_ingame_perfectbonus_back" />
+    </object>
+    <object name="img_ingame_perfectbonus_bonus" ani="ani_img_ingame_perfectbonus_bonus">
+      <asset type="IMAGE" link="asset_img_ingame_perfectbonus_bonus" />
+    </object>
+    <object name="img_ingame_perfectbonus_1" ani="ani_img_ingame_perfectbonus_1">
+      <asset type="IMAGE" link="asset_img_ingame_perfectbonus_1" />
+    </object>
+    <object name="img_ingame_perfectbonus_white_1" ani="ani_img_ingame_perfectbonus_white_1">
+      <asset type="IMAGE" link="asset_img_ingame_perfectbonus_white_1" />
+    </object>
+    <param type="RES" x="81" y="68" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_img_ingame_perfectbonus_back">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="533">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1500">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2000">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_ingame_perfectbonus_bonus">
+      <frame cnt="0">
+        <posx val="0.0617283950617284" />
+        <posy val="0.0147058823529412" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="233">
+        <posx val="-0.308641975308642" />
+        <posy val="0.0147058823529412" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="567">
+        <posx val="0.0617283950617284" easeValue="0.0,0.0,0.1,1.0" />
+        <posy val="0.0147058823529412" easeValue="0.0,0.0,0.1,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,0.0,0.1,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1500">
+        <posx val="0.0617283950617284" />
+        <posy val="0.0147058823529412" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2000">
+        <posx val="0.0617283950617284" easeValue="0.0,0.0,0.1,1.0" />
+        <posy val="0.514705882352941" easeValue="0.0,0.0,0.1,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" easeValue="0.0,0.0,0.1,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_ingame_perfectbonus_1">
+      <frame cnt="0">
+        <posx val="0.604938271604938" />
+        <posy val="0.220588235294118" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="100">
+        <posx val="0.6049383" />
+        <posy val="0.2205882" />
+        <scalex val="3.1875" />
+        <scaley val="3.17857142857143" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="433">
+        <posx val="0.6049383" />
+        <posy val="0.2205882" />
+        <scalex val="1" easeValue="0.0,0.0,0.1,1.0" />
+        <scaley val="1" easeValue="0.0,0.0,0.1,1.0" />
+        <alpha val="1" easeValue="0.0,0.0,0.1,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="1500">
+        <posx val="0.604938271604938" />
+        <posy val="0.220588235294118" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="2000">
+        <posx val="0.604938271604938" easeValue="0.0,0.0,0.1,1.0" />
+        <posy val="0.720588235294118" easeValue="0.0,0.0,0.1,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" easeValue="0.0,0.0,0.1,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+    <anim name="ani_img_ingame_perfectbonus_white_1">
+      <frame cnt="0">
+        <posx val="0.604938271604938" />
+        <posy val="0.220588235294118" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="433">
+        <posx val="0.6049383" />
+        <posy val="0.2205882" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="700">
+        <posx val="0.6049383" />
+        <posy val="0.2205882" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="867">
+        <posx val="0.6049383" />
+        <posy val="0.2205882" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="1500">
+        <posx val="0.6049383" />
+        <posy val="0.2205882" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

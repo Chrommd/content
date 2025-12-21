@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="NORMAL">
+    <asset type="IMAGE" name="asset_care_hor_slot_n" path="care_hor_slot_n.png">
+      <rect l="0" t="0" r="75" b="75" />
+    </asset>
+    <object name="care_hor_slot_n" ani="ani_care_hor_slot_n">
+      <asset type="IMAGE" link="asset_care_hor_slot_n" />
+    </object>
+    <param type="RES" x="63" y="63" />
+    <param type="LOOP" cnt="-1" pendulum="1" />
+    <anim name="ani_care_hor_slot_n">
+      <frame cnt="0">
+        <posx val="-0.0952380952380952" />
+        <posy val="-0.0952380952380952" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="OVER">
+    <asset type="IMAGE" name="asset_care_hor_slot_n" path="care_hor_slot_n.png">
+      <rect l="0" t="0" r="75" b="75" />
+    </asset>
+    <asset type="IMAGE" name="asset_slot_d_o" path="care_hor_slot_o.png">
+      <rect l="0" t="0" r="75" b="75" />
+    </asset>
+    <object name="care_hor_slot_n" ani="ani_care_hor_slot_n">
+      <asset type="IMAGE" link="asset_care_hor_slot_n" />
+    </object>
+    <object name="slot_d_o" ani="ani_slot_d_o">
+      <asset type="IMAGE" link="asset_slot_d_o" />
+    </object>
+    <param type="RES" x="63" y="63" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_care_hor_slot_n">
+      <frame cnt="0">
+        <posx val="-0.0952380952380952" />
+        <posy val="-0.0952380952380952" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_slot_d_o">
+      <frame cnt="0">
+        <posx val="-0.0952380952380952" />
+        <posy val="-0.0952380952380952" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.5" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="167">
+        <posx val="-0.0952380952380952" />
+        <posy val="-0.0952380952380952" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="DOWN">
+    <asset type="IMAGE" name="asset_care_hor_slot_n" path="care_hor_slot_n.png">
+      <rect l="0" t="0" r="75" b="75" />
+    </asset>
+    <asset type="IMAGE" name="asset_slot_d_d" path="care_hor_slot_d.png">
+      <rect l="0" t="0" r="75" b="75" />
+    </asset>
+    <object name="care_hor_slot_n" ani="ani_care_hor_slot_n">
+      <asset type="IMAGE" link="asset_care_hor_slot_n" />
+    </object>
+    <object name="slot_d_d" ani="ani_slot_d_d">
+      <asset type="IMAGE" link="asset_slot_d_d" />
+    </object>
+    <param type="RES" x="63" y="63" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_care_hor_slot_n">
+      <frame cnt="0">
+        <posx val="-0.0952380952380952" />
+        <posy val="-0.0952380952380952" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_slot_d_d">
+      <frame cnt="0">
+        <posx val="-0.0952380952380952" />
+        <posy val="-0.0952380952380952" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="167">
+        <posx val="-0.0952380952380952" />
+        <posy val="-0.0952380952380952" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="DISABLE">
+    <param type="RES" x="63" y="63" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+  </scene>
+</rfanimation>

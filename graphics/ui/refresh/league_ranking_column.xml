@@ -1,0 +1,410 @@
+﻿<refresh version="2">
+	<properties>
+		<property name="DPI" val="72" />
+	</properties>
+	<base type="WND" subclass="" name="Wnd_league_list">
+		<pos x="0" y="0" />
+		<rect l="0" t="0" r="364" b="2000" />
+		<Visible val="True" />
+		<Anchor val="Top, Left" />
+		<snd type="SHOW"></snd>
+		<snd type="HIDE"></snd>
+		<IsHitTestVisible val="True" />
+		<ClipChildren val="False" />
+		<child type="PANEL" name="Panel_league_0" subclass="">
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="365" b="218" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<embed src="" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<child type="PANEL" name="Panel_1" subclass="">
+				<pos x="98" y="3" />
+				<rect l="0" t="0" r="260" b="21" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<embed src="" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+				<child type="LABEL" name="lb_league_point_001" subclass="">
+					<pos x="214" y="2" />
+					<rect l="0" t="0" r="55" b="17" />
+					<Visible val="True" />
+					<Anchor val="Top, Left" />
+					<label val="90,584" />
+					<OutlineColor val="#FFFFFF" />
+					<ShadowColor val="#0000004C" />
+					<color val="#6B5D54" />
+					<halign val="1" />
+					<valign val="1" />
+					<FontName val="나눔고딕" />
+					<FontSize val="13" />
+					<TextTrimming val="CharacterEllipsis" />
+					<style val="1" />
+					<IsHitTestVisible val="False" />
+					<ClipChildren val="False" />
+					<Padding val="0, 0, 0, 0" />
+					<FitToContent val="False" />
+				</child>
+				<child type="LABEL" name="lb_league_name_001" subclass="">
+					<pos x="50" y="3" />
+					<rect l="0" t="0" r="166" b="17" />
+					<Visible val="True" />
+					<Anchor val="Top, Left" />
+					<label val="WWWWWWWWWWWW" />
+					<OutlineColor val="#FFFFFF" />
+					<ShadowColor val="#0000004C" />
+					<color val="#6B5D54" />
+					<halign val="0" />
+					<valign val="1" />
+					<FontName val="나눔고딕" />
+					<FontSize val="13" />
+					<TextTrimming val="CharacterEllipsis" />
+					<style val="1" />
+					<IsHitTestVisible val="False" />
+					<ClipChildren val="False" />
+					<Padding val="0, 0, 0, 0" />
+					<FitToContent val="False" />
+				</child>
+				<child type="LABEL" name="lb_league_rank_001" subclass="">
+					<pos x="17" y="3" />
+					<rect l="0" t="0" r="25" b="17" />
+					<Visible val="True" />
+					<Anchor val="Top, Left" />
+					<label val="1" />
+					<OutlineColor val="#FFFFFF" />
+					<ShadowColor val="#0000004C" />
+					<color val="#6B5D54" />
+					<halign val="1" />
+					<valign val="1" />
+					<FontName val="나눔고딕 ExtraBold" />
+					<FontSize val="13" />
+					<TextTrimming val="None" />
+					<style val="0" />
+					<IsHitTestVisible val="False" />
+					<ClipChildren val="False" />
+					<Padding val="0, 0, 0, 0" />
+					<FitToContent val="False" />
+				</child>
+				<child type="PICTURE" name="rank_icon_001" subclass="">
+					<asset type="STATIC">rank_icon_01.png</asset>
+					<pos x="4" y="6" />
+					<rect l="0" t="0" r="12" b="13" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+				</child>
+			</child>
+			<child type="PICTURE" name="rank_0" subclass="">
+				<asset type="STATIC">rank_bg_01.png</asset>
+				<pos x="8" y="0" />
+				<rect l="0" t="0" r="84" b="177" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+				<child type="PICTURE" name="rank_icon_small_0" subclass="">
+					<asset type="STATIC">platinum_01_small.png</asset>
+					<pos x="14" y="11" />
+					<rect l="0" t="0" r="50" b="50" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+				</child>
+				<child type="LABEL" name="lb_league_rank_1" subclass="">
+					<pos x="21" y="80" />
+					<rect l="0" t="0" r="36" b="17" />
+					<Visible val="True" />
+					<Anchor val="Top, Left" />
+					<label val="상위" />
+					<OutlineColor val="#FFFFFF" />
+					<ShadowColor val="#0000004C" />
+					<color val="#6B5D54" />
+					<halign val="1" />
+					<valign val="1" />
+					<FontName val="나눔고딕" />
+					<FontSize val="13" />
+					<TextTrimming val="None" />
+					<style val="1" />
+					<IsHitTestVisible val="False" />
+					<ClipChildren val="False" />
+					<Padding val="0, 0, 0, 0" />
+					<FitToContent val="False" />
+				</child>
+				<child type="LABEL" name="lb_league_rank_0" subclass="">
+					<pos x="20" y="95" />
+					<rect l="0" t="0" r="36" b="29" />
+					<Visible val="True" />
+					<Anchor val="Top, Left" />
+					<label val="10" />
+					<OutlineColor val="#FFFFFF" />
+					<ShadowColor val="#0000004C" />
+					<color val="#FFFFFFFF" />
+					<halign val="1" />
+					<valign val="1" />
+					<FontName val="나눔고딕" />
+					<FontSize val="32" />
+					<TextTrimming val="None" />
+					<style val="1" />
+					<IsHitTestVisible val="False" />
+					<ClipChildren val="False" />
+					<Padding val="0, 0, 0, 0" />
+					<FitToContent val="False" />
+				</child>
+				<child type="PICTURE" name="img_common_lineHorizontal_0" subclass="">
+					<asset type="STATIC">common_line_02.png</asset>
+					<pos x="3" y="63" />
+					<rect l="0" t="0" r="71" b="13" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+				</child>
+			</child>
+		</child>
+		<child type="PANEL" name="Panel_league_1" subclass="">
+			<pos x="0" y="227" />
+			<rect l="0" t="0" r="365" b="323" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<embed src="" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<child type="PICTURE" name="rank_1" subclass="">
+				<asset type="STATIC">rank_bg_02.png</asset>
+				<pos x="8" y="0" />
+				<rect l="0" t="0" r="84" b="177" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+				<child type="PICTURE" name="rank_icon_small_1" subclass="">
+					<asset type="STATIC">platinum_01_small.png</asset>
+					<pos x="13" y="11" />
+					<rect l="0" t="0" r="50" b="50" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+				</child>
+				<child type="LABEL" name="lb_league_rank_4" subclass="">
+					<pos x="22" y="80" />
+					<rect l="0" t="0" r="36" b="17" />
+					<Visible val="True" />
+					<Anchor val="Top, Left" />
+					<label val="상위" />
+					<OutlineColor val="#FFFFFF" />
+					<ShadowColor val="#0000004C" />
+					<color val="#6B5D54" />
+					<halign val="1" />
+					<valign val="1" />
+					<FontName val="나눔고딕" />
+					<FontSize val="13" />
+					<TextTrimming val="None" />
+					<style val="1" />
+					<IsHitTestVisible val="False" />
+					<ClipChildren val="False" />
+					<Padding val="0, 0, 0, 0" />
+					<FitToContent val="False" />
+				</child>
+				<child type="LABEL" name="lb_league_rank_3" subclass="">
+					<pos x="21" y="95" />
+					<rect l="0" t="0" r="36" b="29" />
+					<Visible val="True" />
+					<Anchor val="Top, Left" />
+					<label val="25" />
+					<OutlineColor val="#FFFFFF" />
+					<ShadowColor val="#0000004C" />
+					<color val="#FFFFFFFF" />
+					<halign val="1" />
+					<valign val="1" />
+					<FontName val="나눔고딕" />
+					<FontSize val="32" />
+					<TextTrimming val="None" />
+					<style val="1" />
+					<IsHitTestVisible val="False" />
+					<ClipChildren val="False" />
+					<Padding val="0, 0, 0, 0" />
+					<FitToContent val="False" />
+				</child>
+				<child type="PICTURE" name="img_common_lineHorizontal_1" subclass="">
+					<asset type="STATIC">common_line_02.png</asset>
+					<pos x="2" y="66" />
+					<rect l="0" t="0" r="71" b="13" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+				</child>
+			</child>
+		</child>
+		<child type="PANEL" name="Panel_league_2" subclass="">
+			<pos x="0" y="559" />
+			<rect l="0" t="0" r="365" b="532" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<embed src="" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<child type="PICTURE" name="rank_2" subclass="">
+				<asset type="STATIC">rank_bg_03.png</asset>
+				<pos x="5" y="0" />
+				<rect l="0" t="0" r="84" b="177" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+				<child type="PICTURE" name="rank_icon_small_2" subclass="">
+					<asset type="STATIC">platinum_01_small.png</asset>
+					<pos x="14" y="12" />
+					<rect l="0" t="0" r="50" b="50" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+				</child>
+				<child type="LABEL" name="lb_league_2" subclass="">
+					<pos x="21" y="82" />
+					<rect l="0" t="0" r="36" b="17" />
+					<Visible val="True" />
+					<Anchor val="Top, Left" />
+					<label val="상위" />
+					<OutlineColor val="#FFFFFF" />
+					<ShadowColor val="#0000004C" />
+					<color val="#6B5D54" />
+					<halign val="1" />
+					<valign val="1" />
+					<FontName val="나눔고딕" />
+					<FontSize val="13" />
+					<TextTrimming val="None" />
+					<style val="1" />
+					<IsHitTestVisible val="False" />
+					<ClipChildren val="False" />
+					<Padding val="0, 0, 0, 0" />
+					<FitToContent val="False" />
+				</child>
+				<child type="LABEL" name="lb_league_rank_2" subclass="">
+					<pos x="21" y="100" />
+					<rect l="0" t="0" r="36" b="29" />
+					<Visible val="True" />
+					<Anchor val="Top, Left" />
+					<label val="50" />
+					<OutlineColor val="#FFFFFF" />
+					<ShadowColor val="#0000004C" />
+					<color val="#FFFFFFFF" />
+					<halign val="1" />
+					<valign val="1" />
+					<FontName val="나눔고딕" />
+					<FontSize val="32" />
+					<TextTrimming val="None" />
+					<style val="1" />
+					<IsHitTestVisible val="False" />
+					<ClipChildren val="False" />
+					<Padding val="0, 0, 0, 0" />
+					<FitToContent val="False" />
+				</child>
+				<child type="PICTURE" name="img_common_lineHorizontal_2" subclass="">
+					<asset type="STATIC">common_line_02.png</asset>
+					<pos x="3" y="68" />
+					<rect l="0" t="0" r="71" b="13" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+				</child>
+			</child>
+		</child>
+		<child type="PANEL" name="Panel_league_3" subclass="">
+			<pos x="0" y="1104" />
+			<rect l="0" t="0" r="365" b="898" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<embed src="" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<child type="PICTURE" name="rank_3" subclass="">
+				<asset type="STATIC">rank_bg_04.png</asset>
+				<pos x="5" y="0" />
+				<rect l="0" t="0" r="84" b="177" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+				<child type="PICTURE" name="rank_icon_small_3" subclass="">
+					<asset type="STATIC">platinum_01_small.png</asset>
+					<pos x="14" y="12" />
+					<rect l="0" t="0" r="50" b="50" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+				</child>
+				<child type="LABEL" name="lb_league_3" subclass="">
+					<pos x="21" y="82" />
+					<rect l="0" t="0" r="36" b="17" />
+					<Visible val="True" />
+					<Anchor val="Top, Left" />
+					<label val="상위" />
+					<OutlineColor val="#FFFFFF" />
+					<ShadowColor val="#0000004C" />
+					<color val="#6B5D54" />
+					<halign val="1" />
+					<valign val="1" />
+					<FontName val="나눔고딕" />
+					<FontSize val="13" />
+					<TextTrimming val="None" />
+					<style val="1" />
+					<IsHitTestVisible val="False" />
+					<ClipChildren val="False" />
+					<Padding val="0, 0, 0, 0" />
+					<FitToContent val="False" />
+				</child>
+				<child type="LABEL" name="lb_league_rank_5" subclass="">
+					<pos x="3" y="100" />
+					<rect l="0" t="0" r="70" b="29" />
+					<Visible val="True" />
+					<Anchor val="Top, Left" />
+					<label val="100" />
+					<OutlineColor val="#FFFFFF" />
+					<ShadowColor val="#0000004C" />
+					<color val="#FFFFFFFF" />
+					<halign val="1" />
+					<valign val="1" />
+					<FontName val="나눔고딕" />
+					<FontSize val="32" />
+					<TextTrimming val="None" />
+					<style val="1" />
+					<IsHitTestVisible val="False" />
+					<ClipChildren val="False" />
+					<Padding val="0, 0, 0, 0" />
+					<FitToContent val="False" />
+				</child>
+				<child type="PICTURE" name="img_common_lineHorizontal_3" subclass="">
+					<asset type="STATIC">common_line_02.png</asset>
+					<pos x="3" y="68" />
+					<rect l="0" t="0" r="71" b="13" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+				</child>
+			</child>
+		</child>
+	</base>
+</refresh>

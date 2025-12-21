@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <event animation="r00_cure_00">
+        <function>PlayFX($asset, "cure_muscle02", "1", "-attach ")</function>
+        <time>0.4700</time>
+        <freq>100</freq>
+    </event>
+    <event animation="r00_cure_00">
+        <function>PlayFX($asset, "cure_muscle02", "1", "-attach ")</function>
+        <time>3.2496</time>
+        <freq>100</freq>
+    </event>
+    <event animation="r00_cure_00">
+        <function>PlayFX($asset, "cure_muscle02", "1", "-attach ")</function>
+        <time>5.6100</time>
+        <freq>100</freq>
+    </event>
+    <event animation="r00_cure_00">
+        <function>PlayFX($asset, "cure_muscle02", "1", "-attach ")</function>
+        <time>9.2508</time>
+        <freq>100</freq>
+    </event>
+    <event animation="r00_cure_00">
+        <function>PlaySND($asset, "cure_item_ice_fx", "1", "-var 0")</function>
+        <time>5.6398</time>
+        <freq>100</freq>
+    </event>
+    <event animation="r00_cure_00">
+        <function>PlaySND($asset, "cure_item_ice_fx", "1", "-var 0")</function>
+        <time>9.2792</time>
+        <freq>100</freq>
+    </event>
+    <event animation="r00_cure_00">
+        <function>PlaySND($asset, "ranch_hand_pet", "1", "-var 0")</function>
+        <time>6.6005</time>
+        <freq>100</freq>
+    </event>
+    <event animation="r00_cure_00">
+        <function>PlaySND($asset, "ranch_hand_pet", "1", "-var 0")</function>
+        <time>9.7621</time>
+        <freq>100</freq>
+    </event>
+    <event animation="r00_cure_00">
+        <function>PlaySND($asset, "ranch_hand_pet", "1", "-var 0")</function>
+        <time>10.9963</time>
+        <freq>100</freq>
+    </event>
+    <event animation="r02_cure_00">
+        <function>PlayFX($asset, "cure_muscle02", "1", "-attach ")</function>
+        <time>0.4163</time>
+        <freq>100</freq>
+    </event>
+    <event animation="r02_cure_00">
+        <function>PlayFX($asset, "cure_muscle02", "1", "-attach ")</function>
+        <time>3.1308</time>
+        <freq>100</freq>
+    </event>
+    <event animation="r02_cure_00">
+        <function>PlayFX($asset, "cure_muscle02", "1", "-attach ")</function>
+        <time>5.5675</time>
+        <freq>100</freq>
+    </event>
+    <event animation="r02_cure_00">
+        <function>PlayFX($asset, "cure_muscle02", "1", "-attach ")</function>
+        <time>9.3500</time>
+        <freq>100</freq>
+    </event>
+    <event animation="r02_cure_00">
+        <function>PlaySND($asset, "cure_item_ice_fx", "1", "-var 0")</function>
+        <time>5.5533</time>
+        <freq>100</freq>
+    </event>
+    <event animation="r02_cure_00">
+        <function>PlaySND($asset, "cure_item_ice_fx", "1", "-var 0")</function>
+        <time>9.3500</time>
+        <freq>100</freq>
+    </event>
+    <event animation="r02_cure_00">
+        <function>PlaySND($asset, "ranch_hand_pet", "1", "-var 0")</function>
+        <time>6.4896</time>
+        <freq>100</freq>
+    </event>
+    <event animation="r02_cure_00">
+        <function>PlaySND($asset, "ranch_hand_pet", "1", "-var 0")</function>
+        <time>9.9701</time>
+        <freq>100</freq>
+    </event>
+    <event animation="r02_cure_00">
+        <function>PlaySND($asset, "ranch_hand_pet", "1", "-var 0")</function>
+        <time>10.9547</time>
+        <freq>100</freq>
+    </event>
+    <dummy name="1" parent="Dummy_ice_bone" sync="FALSE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.0000</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <category name="R00" script="-r00" />
+    <category name="R02" script="-r02" />
+    <action category="R00" state="CARE_CURE" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>r00_cure_00</main>
+    </action>
+    <action category="R02" state="CARE_CURE" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>r02_cure_00</main>
+    </action>
+    <action category="R00" state="CARE_CURE_SELECT" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>r00_idle_00_trans</main>
+    </action>
+    <action category="R02" state="CARE_CURE_SELECT" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>r02_idle_00_trans</main>
+    </action>
+    <action category="R02" state="CARE_CURE_SELECT_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>r02_idle_00</main>
+    </action>
+    <action category="R00" state="CARE_CURE_SELECT_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>r00_idle_00</main>
+    </action>
+    <blend sec="0">
+        <name>r00_cure_00</name>
+    </blend>
+    <blend sec="0">
+        <name>r00_idle_00</name>
+    </blend>
+    <blend sec="0">
+        <name>r00_idle_00_trans</name>
+    </blend>
+    <blend sec="0">
+        <name>r02_cure_00</name>
+    </blend>
+    <blend sec="0">
+        <name>r02_idle_00</name>
+    </blend>
+    <blend sec="0">
+        <name>r02_idle_00_trans</name>
+    </blend>
+</aim>

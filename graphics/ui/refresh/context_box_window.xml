@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+  </properties>
+  <base type="WND" subclass="" name="context">
+    <Visible val="True" />
+    <Anchor val="Top, Left" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="115" b="54" />
+    <snd type="SHOW">
+    </snd>
+    <snd type="HIDE">
+    </snd>
+    <IsHitTestVisible val="True" />
+    <ClipChildren val="False" />
+    <child type="LIST" name="context_box" subclass="">
+      <asset type="BG" path="list_control_a_04.png" tileMode="Stretch">
+        <tex x="17" y="17" />
+        <rect l="17" t="17" r="81" b="20" />
+      </asset>
+      <asset type="EDGE_LT" path="list_control_a_00.png" tileMode="Stretch">
+        <tex x="17" y="17" />
+        <rect l="0" t="0" r="17" b="17" />
+      </asset>
+      <asset type="EDGE_RT" path="list_control_a_02.png" tileMode="Stretch">
+        <tex x="17" y="17" />
+        <rect l="0" t="0" r="17" b="17" />
+      </asset>
+      <asset type="EDGE_LB" path="list_control_a_06.png" tileMode="Stretch">
+        <tex x="17" y="17" />
+        <rect l="0" t="0" r="17" b="17" />
+      </asset>
+      <asset type="EDGE_RB" path="list_control_a_08.png" tileMode="Stretch">
+        <tex x="17" y="17" />
+        <rect l="0" t="0" r="17" b="17" />
+      </asset>
+      <asset type="FRAME_T" path="list_control_a_01.png" tileMode="Stretch">
+        <tex x="17" y="17" />
+        <rect l="17" t="0" r="81" b="17" />
+      </asset>
+      <asset type="FRAME_B" path="list_control_a_07.png" tileMode="Stretch">
+        <tex x="17" y="17" />
+        <rect l="17" t="0" r="81" b="17" />
+      </asset>
+      <asset type="FRAME_L" path="list_control_a_03.png" tileMode="Stretch">
+        <tex x="17" y="17" />
+        <rect l="0" t="17" r="17" b="20" />
+      </asset>
+      <asset type="FRAME_R" path="list_control_a_05.png" tileMode="Stretch">
+        <tex x="17" y="17" />
+        <rect l="0" t="17" r="17" b="20" />
+      </asset>
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="115" b="54" />
+      <padding l="7" t="15" r="9" b="19" />
+      <column val="1" />
+      <itemrect l="0" t="0" r="101" b="20" />
+      <selection val="0" />
+      <deselectable val="0" />
+      <rclickaction val="1" />
+      <IsHitTestVisible val="True" />
+      <Orientation val="Vertical" />
+      <ClipChildren val="False" />
+    </child>
+  </base>
+</refresh>

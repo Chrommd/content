@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="NORMAL">
+    <asset type="IMAGE" name="asset_btn_singleplay_n" path="btn_singleplay_n.png">
+      <rect l="0" t="0" r="150" b="33" />
+    </asset>
+    <asset type="IMAGE" name="asset_icon_singleplay" path="icon_singleplay.png">
+      <rect l="0" t="0" r="34" b="34" />
+    </asset>
+    <object name="btn_singleplay_n" ani="ani_btn_singleplay_n">
+      <asset type="IMAGE" link="asset_btn_singleplay_n" />
+    </object>
+    <object name="icon_singleplay" ani="ani_icon_singleplay">
+      <asset type="IMAGE" link="asset_icon_singleplay" />
+    </object>
+    <param type="RES" x="150" y="33" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_btn_singleplay_n">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_singleplay">
+      <frame cnt="0">
+        <posx val="0.06" />
+        <posy val="0.0606060606060606" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="OVER">
+    <asset type="IMAGE" name="asset_btn_singleplay_n" path="btn_singleplay_n.png">
+      <rect l="0" t="0" r="150" b="33" />
+    </asset>
+    <asset type="IMAGE" name="asset_btn_singleplay_o" path="btn_singleplay_o.png">
+      <rect l="0" t="0" r="150" b="33" />
+    </asset>
+    <asset type="IMAGE" name="asset_icon_singleplay" path="icon_singleplay.png">
+      <rect l="0" t="0" r="34" b="34" />
+    </asset>
+    <object name="btn_singleplay_n" ani="ani_btn_singleplay_n">
+      <asset type="IMAGE" link="asset_btn_singleplay_n" />
+    </object>
+    <object name="btn_singleplay_o" ani="ani_btn_singleplay_o">
+      <asset type="IMAGE" link="asset_btn_singleplay_o" />
+    </object>
+    <object name="icon_singleplay" ani="ani_icon_singleplay">
+      <asset type="IMAGE" link="asset_icon_singleplay" />
+    </object>
+    <param type="RES" x="150" y="33" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_btn_singleplay_n">
+      <frame cnt="0">
+        <posx val="0.5" />
+        <posy val="0.515151515151515" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+    <anim name="ani_btn_singleplay_o">
+      <frame cnt="0">
+        <posx val="0" easeValue="0.5,0.0,0.5,1.0" />
+        <posy val="0" easeValue="0.5,0.0,0.5,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.8" easeValue="0.5,0.0,0.5,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="167">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_singleplay">
+      <frame cnt="0">
+        <posx val="0.06" />
+        <posy val="0.0606060606060606" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="DOWN">
+    <asset type="IMAGE" name="asset_btn_singleplay_d" path="btn_singleplay_d.png">
+      <rect l="0" t="0" r="150" b="33" />
+    </asset>
+    <asset type="IMAGE" name="asset_icon_singleplay" path="icon_singleplay.png">
+      <rect l="0" t="0" r="34" b="34" />
+    </asset>
+    <object name="btn_singleplay_d" ani="ani_btn_singleplay_d">
+      <asset type="IMAGE" link="asset_btn_singleplay_d" />
+    </object>
+    <object name="icon_singleplay" ani="ani_icon_singleplay">
+      <asset type="IMAGE" link="asset_icon_singleplay" />
+    </object>
+    <param type="RES" x="150" y="33" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_btn_singleplay_d">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="167">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_singleplay">
+      <frame cnt="0">
+        <posx val="0.06" />
+        <posy val="0.0606060606060606" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.5" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="DISABLE">
+    <asset type="IMAGE" name="asset_btn_singleplay_dis" path="btn_singleplay_dis.png">
+      <rect l="0" t="0" r="150" b="33" />
+    </asset>
+    <asset type="IMAGE" name="asset_icon_singleplay" path="icon_singleplay.png">
+      <rect l="0" t="0" r="34" b="34" />
+    </asset>
+    <object name="btn_singleplay_dis" ani="ani_btn_singleplay_dis">
+      <asset type="IMAGE" link="asset_btn_singleplay_dis" />
+    </object>
+    <object name="icon_singleplay" ani="ani_icon_singleplay">
+      <asset type="IMAGE" link="asset_icon_singleplay" />
+    </object>
+    <param type="RES" x="150" y="33" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_btn_singleplay_dis">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_singleplay">
+      <frame cnt="0">
+        <posx val="0.06" />
+        <posy val="0.0606060606060606" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.2" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

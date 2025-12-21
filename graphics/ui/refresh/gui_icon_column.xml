@@ -1,0 +1,185 @@
+﻿<refresh version="2">
+	<properties>
+		<property name="DPI" val="72" />
+		<property name="UIAnimation" val="gui_icon_column_Animation.xml" />
+	</properties>
+	<base type="WND" subclass="" name="Wnd_item_icon_colum">
+		<pos x="0" y="0" />
+		<rect l="0" t="0" r="110" b="105" />
+		<Visible val="True" />
+		<Anchor val="Top, Left" />
+		<snd type="SHOW"></snd>
+		<snd type="HIDE"></snd>
+		<IsHitTestVisible val="True" />
+		<ClipChildren val="False" />
+		<child type="PICTURE" name="slot_b_BG" subclass="">
+			<asset type="STATIC">slot_b_dis.png</asset>
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="109" b="104" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="slot_b_n" subclass="">
+			<asset type="STATIC">slot_b_n.png</asset>
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="109" b="104" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="slot_b_d" subclass="">
+			<asset type="STATIC">slot_b_d.png</asset>
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="109" b="104" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="item_icon" subclass="">
+			<asset type="STATIC"></asset>
+			<pos x="18" y="9" />
+			<rect l="0" t="0" r="71" b="71" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="img_icon_label" subclass="">
+			<asset type="STATIC"></asset>
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="120" b="104" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="icon_common_select" subclass="">
+			<asset type="STATIC">icon_common_select.png</asset>
+			<pos x="83" y="4" />
+			<rect l="0" t="0" r="22" b="23" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="LABEL" name="Label_item_name" subclass="">
+			<pos x="7" y="86" />
+			<rect l="0" t="0" r="95" b="17" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<label val="아이템 이름" />
+			<OutlineColor val="#FFFFFF" />
+			<ShadowColor val="#0000004C" />
+			<color val="#FFFFFFFF" />
+			<halign val="1" />
+			<valign val="0" />
+			<FontName val="나눔고딕" />
+			<FontSize val="13" />
+			<TextTrimming val="CharacterEllipsis" />
+			<style val="1" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+			<Padding val="0, 0, 0, 0" />
+			<FitToContent val="False" />
+		</child>
+		<child type="PICTURE" name="slot_b_limit" subclass="">
+			<asset type="STATIC">slot_b_limit.png</asset>
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="109" b="104" />
+			<Visible val="False" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+			<child type="LABEL" name="level_limit" subclass="">
+				<pos x="85" y="2" />
+				<rect l="0" t="0" r="21" b="16" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<label val="" />
+				<OutlineColor val="#FFFFFF" />
+				<ShadowColor val="#0000004C" />
+				<color val="#FEFCAFFF" />
+				<halign val="1" />
+				<valign val="0" />
+				<FontName val="나눔고딕 ExtraBold" />
+				<FontSize val="13" />
+				<TextTrimming val="None" />
+				<style val="0" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+				<Padding val="0, 0, 0, 0" />
+				<FitToContent val="False" />
+			</child>
+		</child>
+		<child type="PANEL" name="item_state" subclass="">
+			<pos x="0" y="63" />
+			<rect l="0" t="0" r="110" b="21" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<embed src="" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+			<child type="PICTURE" name="time1" subclass="">
+				<asset type="STATIC">btn_bg.png</asset>
+				<pos x="0" y="0" />
+				<rect l="0" t="0" r="108" b="20" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+				<child type="LABEL" name="txt_item_time_state" subclass="">
+					<pos x="30" y="0" />
+					<rect l="0" t="0" r="74" b="18" />
+					<Visible val="True" />
+					<Anchor val="Top, Left" />
+					<label val="23시간 남음" />
+					<OutlineColor val="#6A5D4E7F" />
+					<ShadowColor val="#261B1BFF" />
+					<color val="#FFFFFFFF" />
+					<halign val="2" />
+					<valign val="1" />
+					<FontName val="나눔고딕 ExtraBold" />
+					<FontSize val="14" />
+					<TextTrimming val="None" />
+					<style val="16" />
+					<IsHitTestVisible val="False" />
+					<ClipChildren val="False" />
+					<Padding val="0, 0, 0, 0" />
+					<FitToContent val="False" />
+				</child>
+			</child>
+			<child type="LABEL" name="txt_item_state" subclass="">
+				<pos x="5" y="3" />
+				<rect l="0" t="0" r="41" b="16" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<label val="소유중" />
+				<OutlineColor val="#FFDCACFF" />
+				<ShadowColor val="#0000004C" />
+				<color val="#A55222FF" />
+				<halign val="0" />
+				<valign val="1" />
+				<FontName val="나눔고딕 ExtraBold" />
+				<FontSize val="12" />
+				<TextTrimming val="None" />
+				<style val="16" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+				<Padding val="0, 0, 0, 0" />
+				<FitToContent val="False" />
+			</child>
+		</child>
+	</base>
+</refresh>

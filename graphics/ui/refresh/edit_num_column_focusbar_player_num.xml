@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="focusbar_player_num_Default">
+    <asset type="IMAGE" name="asset_focusbar_player_num" path="focusbar_player_num.png">
+      <rect l="0" t="0" r="4" b="18" />
+    </asset>
+    <object name="focusbar_player_num" ani="ani_focusbar_player_num">
+      <asset type="IMAGE" link="asset_focusbar_player_num" />
+    </object>
+    <param type="RES" x="104" y="18" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_focusbar_player_num">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="26" />
+        <scaley val="1" />
+        <alpha val="0.5" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="100">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="26" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

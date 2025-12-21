@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="_Opening_">
+    <asset type="UI" name="asset_Festival_Lettercover">
+      <rect l="0" t="0" r="506" b="212" />
+    </asset>
+    <asset type="UI" name="asset_Invite_Letter">
+      <rect l="0" t="0" r="612" b="344" />
+    </asset>
+    <object name="Festival_Lettercover" ani="ani_Festival_Lettercover">
+      <asset type="UI" link="asset_Festival_Lettercover" />
+    </object>
+    <object name="Invite_Letter" ani="ani_Invite_Letter">
+      <asset type="UI" link="asset_Invite_Letter" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_Festival_Lettercover">
+      <frame cnt="0">
+        <posx val="0.2587890625" />
+        <posy val="0.0377604166666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="600">
+        <posx val="0.2587890625" easeValue="0.0,0.0,0.5,1.0" />
+        <posy val="0.0638020833333333" easeValue="0.0,0.0,0.5,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,0.0,0.5,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_Invite_Letter">
+      <frame cnt="0">
+        <posx val="0.2412109375" />
+        <posy val="-0.151041666666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.2412109375" />
+        <posy val="-0.151041666666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="933">
+        <posx val="0.2412109375" easeValue="0.0,0.0,0.4,1.0" />
+        <posy val="-0.125" easeValue="0.0,0.0,0.4,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,0.0,0.4,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Closing_">
+    <asset type="UI" name="asset_Festival_Lettercover">
+      <rect l="0" t="0" r="506" b="212" />
+    </asset>
+    <asset type="UI" name="asset_Invite_Letter">
+      <rect l="0" t="0" r="612" b="344" />
+    </asset>
+    <object name="Festival_Lettercover" ani="ani_Festival_Lettercover">
+      <asset type="UI" link="asset_Festival_Lettercover" />
+    </object>
+    <object name="Invite_Letter" ani="ani_Invite_Letter">
+      <asset type="UI" link="asset_Invite_Letter" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_Festival_Lettercover">
+      <frame cnt="0">
+        <posx val="0.2587890625" />
+        <posy val="0.0638020833333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="633">
+        <posx val="0.2587890625" easeValue="0.0,0.0,0.4,1.0" />
+        <posy val="0.102864583333333" easeValue="0.0,0.0,0.4,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" easeValue="0.0,0.0,0.4,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_Invite_Letter">
+      <frame cnt="0">
+        <posx val="0.2412109375" />
+        <posy val="-0.125" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="233">
+        <posx val="0.2412109375" />
+        <posy val="-0.125" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="867">
+        <posx val="0.2412109375" easeValue="0.0,0.0,0.5,1.0" />
+        <posy val="-0.0859375" easeValue="0.0,0.0,0.5,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" easeValue="0.0,0.0,0.5,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

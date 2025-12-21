@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+  </properties>
+  <base type="WNDEX" subclass="" name="WndEx">
+    <asset type="BG" path="">
+      <tex x="0" y="0" />
+      <rect l="8" t="8" r="217" b="215" />
+    </asset>
+    <asset type="EDGE_LT" path="">
+      <tex x="0" y="0" />
+      <rect l="0" t="0" r="8" b="8" />
+    </asset>
+    <asset type="EDGE_RT" path="">
+      <tex x="0" y="0" />
+      <rect l="0" t="0" r="8" b="8" />
+    </asset>
+    <asset type="EDGE_LB" path="">
+      <tex x="0" y="0" />
+      <rect l="0" t="0" r="8" b="8" />
+    </asset>
+    <asset type="EDGE_RB" path="">
+      <tex x="0" y="0" />
+      <rect l="0" t="0" r="8" b="8" />
+    </asset>
+    <asset type="FRAME_T" path="">
+      <tex x="0" y="0" />
+      <rect l="8" t="0" r="217" b="8" />
+    </asset>
+    <asset type="FRAME_B" path="">
+      <tex x="0" y="0" />
+      <rect l="8" t="0" r="217" b="8" />
+    </asset>
+    <asset type="FRAME_L" path="">
+      <tex x="0" y="0" />
+      <rect l="0" t="8" r="8" b="215" />
+    </asset>
+    <asset type="FRAME_R" path="">
+      <tex x="0" y="0" />
+      <rect l="0" t="8" r="8" b="215" />
+    </asset>
+    <Visible val="True" />
+    <Anchor val="Top, Left" />
+    <pos x="225" y="123" />
+    <rect l="0" t="0" r="233" b="231" />
+    <Dragable val="False" />
+    <StartPosition val="None" />
+    <EscKeyAction val="None" />
+    <child type="PICTURE" name="Picture" subclass="">
+      <asset type="STATIC">frm_list_control_04.png</asset>
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <pos x="-9" y="-9" />
+      <rect l="0" t="0" r="238" b="50" />
+      <center x="0" y="0" />
+    </child>
+    <child type="COMBO" name="combo" subclass="">
+      <control type="TEXTAREA" name="combo_TextArea">
+        <asset type="BG" path="">
+          <tex x="0" y="0" />
+          <rect l="8" t="8" r="169" b="14" />
+        </asset>
+        <asset type="EDGE_LT" path="">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="EDGE_RT" path="">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="EDGE_LB" path="">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="EDGE_RB" path="">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="FRAME_T" path="">
+          <tex x="0" y="0" />
+          <rect l="8" t="0" r="169" b="8" />
+        </asset>
+        <asset type="FRAME_B" path="">
+          <tex x="0" y="0" />
+          <rect l="8" t="0" r="169" b="8" />
+        </asset>
+        <asset type="FRAME_L" path="">
+          <tex x="0" y="0" />
+          <rect l="0" t="8" r="8" b="14" />
+        </asset>
+        <asset type="FRAME_R" path="">
+          <tex x="0" y="0" />
+          <rect l="0" t="8" r="8" b="14" />
+        </asset>
+        <asset type="CARET" path="">
+          <rpos x="0" y="0" />
+          <rect l="0" t="0" r="0" b="0" />
+        </asset>
+        <pos x="15" y="10" />
+        <rect l="0" t="0" r="185" b="30" />
+        <Visible val="True" />
+        <Anchor val="Top, Bottom, Left, Right" />
+        <Editable val="False" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#000000" />
+        <SelectionBrush val="#E5D9FF" />
+        <color val="#E0F5FF" />
+        <FontName val="나눔고딕" />
+        <halign val="0" />
+        <padding l="3" t="2" r="3" b="2" />
+        <FontName val="나눔고딕" />
+        <FontSize val="14" />
+      </control>
+      <control type="BUTTON" name="combo_DropButton">
+        <asset type="NORMAL">scroll_down_a_n.png</asset>
+        <asset type="DOWN">scroll_down_a_d.png</asset>
+        <asset type="OVER">scroll_down_a_o.png</asset>
+        <asset type="DISABLE">scroll_down_a_dis.png</asset>
+        <snd type="OVER">
+        </snd>
+        <snd type="DOWN">
+        </snd>
+        <snd type="RELEASE">
+        </snd>
+        <pos x="204" y="4" />
+        <rect l="0" t="0" r="29" b="41" />
+        <Visible val="True" />
+        <Anchor val="Top, Bottom, Right" />
+      </control>
+      <control type="LISTAREA" name="combo_DropList">
+        <asset type="BG" path="frm_list_control_04.png">
+          <tex x="4" y="4" />
+          <rect l="8" t="8" r="218" b="166" />
+        </asset>
+        <asset type="EDGE_LT" path="frm_list_control_00.png">
+          <tex x="15" y="18" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="EDGE_RT" path="frm_list_control_02.png">
+          <tex x="20" y="18" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="EDGE_LB" path="frm_list_control_06.png">
+          <tex x="15" y="40" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="EDGE_RB" path="frm_list_control_08.png">
+          <tex x="20" y="40" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="FRAME_T" path="frm_list_control_01.png">
+          <tex x="4" y="18" />
+          <rect l="8" t="0" r="218" b="8" />
+        </asset>
+        <asset type="FRAME_B" path="frm_list_control_07.png">
+          <tex x="4" y="40" />
+          <rect l="8" t="0" r="218" b="8" />
+        </asset>
+        <asset type="FRAME_L" path="frm_list_control_03.png">
+          <tex x="15" y="4" />
+          <rect l="0" t="8" r="8" b="166" />
+        </asset>
+        <asset type="FRAME_R" path="frm_list_control_05.png">
+          <tex x="20" y="4" />
+          <rect l="0" t="8" r="8" b="166" />
+        </asset>
+        <control type="VSCROLLBAR" name="combo_DropList_VSlider" horizontal="0">
+          <control type="BUTTON_LT" name="combo_DropList_VScrollBar_TopButton">
+            <asset type="NORMAL">scroll_up_a_n.png</asset>
+            <asset type="DOWN">scroll_up_c_d.png</asset>
+            <asset type="OVER">scroll_up_a_o.png</asset>
+            <asset type="DISABLE">scroll_up_c_dis.png</asset>
+            <snd type="OVER">
+            </snd>
+            <snd type="DOWN">
+            </snd>
+            <snd type="RELEASE">
+            </snd>
+            <pos x="1" y="1" />
+            <rect l="0" t="0" r="17" b="18" />
+            <Visible val="True" />
+            <Anchor val="Top, Left, Right" />
+          </control>
+          <control type="THUMB" name="combo_DropList_VScrollBar_Thumb">
+            <asset type="NORMAL">scroll_bar_c_n.png</asset>
+            <asset type="DOWN">scroll_bar_c_d.png</asset>
+            <asset type="OVER">scroll_bar_c_o.png</asset>
+            <asset type="DISABLE">scroll_bar_c_d.png</asset>
+            <snd type="OVER">
+            </snd>
+            <snd type="DOWN">
+            </snd>
+            <snd type="RELEASE">
+            </snd>
+            <pos x="1" y="20" />
+            <rect l="0" t="0" r="14" b="62" />
+            <Visible val="True" />
+            <Anchor val="Top, Left, Right" />
+          </control>
+          <control type="BUTTON_RB" name="combo_DropList_VScrollBar_BottomButton">
+            <asset type="NORMAL">scroll_down_a_n.png</asset>
+            <asset type="DOWN">scroll_down_c_d.png</asset>
+            <asset type="OVER">scroll_down_a_o.png</asset>
+            <asset type="DISABLE">scroll_down_c_dis.png</asset>
+            <snd type="OVER">
+            </snd>
+            <snd type="DOWN">
+            </snd>
+            <snd type="RELEASE">
+            </snd>
+            <pos x="0" y="162" />
+            <rect l="0" t="0" r="17" b="18" />
+            <Visible val="True" />
+            <Anchor val="Bottom, Left, Right" />
+          </control>
+          <scrollrect l="0" t="19" r="20" b="164" />
+          <Visible val="True" />
+          <Anchor val="Top, Bottom, Right" />
+          <pos x="210" y="-1" />
+          <rect l="0" t="0" r="20" b="182" />
+        </control>
+        <pos x="0" y="50" />
+        <rect l="0" t="0" r="234" b="182" />
+        <Visible val="True" />
+        <Anchor val="Left, Right" />
+        <padding l="10" t="10" r="10" b="10" />
+        <column val="1" />
+        <itemrect l="0" t="0" r="180" b="20" />
+        <selection val="0" />
+        <deselectable val="0" />
+        <rclickaction val="1" />
+      </control>
+      <pos x="-10" y="-9" />
+      <rect l="0" t="0" r="234" b="50" />
+      <Visible val="True" />
+      <Anchor val="None" />
+      <NormalColor val="#FCFCFC" />
+      <SelectColor val="#B18CFF" />
+      <FontName val="나눔고딕" />
+      <FontSize val="14" />
+    </child>
+  </base>
+</refresh>

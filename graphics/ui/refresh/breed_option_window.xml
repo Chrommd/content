@@ -1,0 +1,1821 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="breed_option_window_Animation.xml" />
+  </properties>
+  <base type="WND" subclass="" name="breed_option_Wnd">
+    <Visible val="True" />
+    <Anchor val="Top, Bottom, Left, Right" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="1024" b="768" />
+    <snd type="SHOW">
+    </snd>
+    <snd type="HIDE">
+    </snd>
+    <IsHitTestVisible val="True" />
+    <ClipChildren val="False" />
+    <child type="PICTURE" name="img_black" subclass="">
+      <asset type="STATIC">img_black.png</asset>
+      <Visible val="True" />
+      <Anchor val="Top, Bottom, Left, Right" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="1024" b="768" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="STACKPANEL" name="StackPanel" subclass="">
+      <Visible val="True" />
+      <Anchor val="Top, Bottom, Left, Right" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="1024" b="768" />
+      <Orientation val="Vertical" />
+      <HAlign val="Center" />
+      <VAlign val="Center" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <base type="WND" subclass="" name="Anchor">
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <pos x="0" y="0" />
+        <rect l="0" t="0" r="1024" b="768" />
+        <snd type="SHOW">
+        </snd>
+        <snd type="HIDE">
+        </snd>
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <base type="WNDEX" subclass="" name="breed_opt_list_select">
+          <asset type="BG" path="frm_sub_04.png" tileMode="Stretch">
+            <tex x="10" y="5" />
+            <rect l="80" t="70" r="859" b="145" />
+          </asset>
+          <asset type="EDGE_LT" path="frm_sub_00.png" tileMode="Stretch">
+            <tex x="80" y="70" />
+            <rect l="0" t="0" r="80" b="70" />
+          </asset>
+          <asset type="EDGE_RT" path="frm_sub_02.png" tileMode="Stretch">
+            <tex x="87" y="70" />
+            <rect l="0" t="0" r="87" b="70" />
+          </asset>
+          <asset type="EDGE_LB" path="frm_sub_06.png" tileMode="Stretch">
+            <tex x="80" y="33" />
+            <rect l="0" t="0" r="80" b="33" />
+          </asset>
+          <asset type="EDGE_RB" path="frm_sub_08.png" tileMode="Stretch">
+            <tex x="87" y="33" />
+            <rect l="0" t="0" r="87" b="33" />
+          </asset>
+          <asset type="FRAME_T" path="frm_sub_01.png" tileMode="Stretch">
+            <tex x="10" y="70" />
+            <rect l="80" t="0" r="859" b="70" />
+          </asset>
+          <asset type="FRAME_B" path="frm_sub_07.png" tileMode="Stretch">
+            <tex x="10" y="33" />
+            <rect l="80" t="0" r="859" b="33" />
+          </asset>
+          <asset type="FRAME_L" path="frm_sub_03.png" tileMode="Stretch">
+            <tex x="80" y="5" />
+            <rect l="0" t="70" r="80" b="145" />
+          </asset>
+          <asset type="FRAME_R" path="frm_sub_05.png" tileMode="Stretch">
+            <tex x="87" y="5" />
+            <rect l="0" t="70" r="87" b="145" />
+          </asset>
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <pos x="-2" y="510" />
+          <rect l="0" t="0" r="1026" b="248" />
+          <snd type="SHOW">
+          </snd>
+          <snd type="HIDE">
+          </snd>
+          <Dragable val="False" />
+          <StartPosition val="None" />
+          <EscKeyAction val="None" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+          <child type="PICTURE" name="option_subtitle" subclass="">
+            <asset type="STATIC">option_subtitle.png</asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="31" y="28" />
+            <rect l="0" t="0" r="108" b="30" />
+            <center x="0" y="0" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+            <child type="LABEL" name="lb_selectedfilter" subclass="">
+              <label val="선택된 필터" />
+              <pos x="12" y="4" />
+              <rect l="0" t="0" r="101" b="21" />
+              <Visible val="True" />
+              <Anchor val="Top, Left" />
+              <OutlineColor val="#FF0000" />
+              <ShadowColor val="#FF0000" />
+              <color val="#FFFFFF" />
+              <halign val="0" />
+              <valign val="1" />
+              <FontName val="나눔고딕" />
+              <FontSize val="14" />
+              <TextTrimming val="None" />
+              <style val="1" />
+              <IsHitTestVisible val="False" />
+              <ClipChildren val="False" />
+              <Padding val="0, 0, 0, 0" />
+            </child>
+          </child>
+          <child type="LABELBUTTON" name="btn_opt_action_1_1" subclass="">
+            <asset type="NORMAL">option_btn_keyset_n.png</asset>
+            <asset type="DOWN">option_btn_keyset_d.png</asset>
+            <asset type="OVER">option_btn_keyset_o.png</asset>
+            <asset type="DISABLE">option_btn_keyset_dis.png</asset>
+            <snd type="OVER">
+            </snd>
+            <snd type="DOWN">ui_btn_menu_click</snd>
+            <snd type="RELEASE">
+            </snd>
+            <control type="LABEL" name="btn_opt_action_1_1_Label">
+              <label val="필터해제" />
+              <pos x="5" y="4" />
+              <rect l="0" t="0" r="108" b="20" />
+              <Visible val="True" />
+              <Anchor val="Bottom, Left, Right" />
+              <OutlineColor val="#FF0000" />
+              <ShadowColor val="#FF0000" />
+              <color val="#1C0F00" />
+              <halign val="1" />
+              <valign val="1" />
+              <FontName val="나눔고딕" />
+              <FontSize val="13" />
+              <TextTrimming val="None" />
+              <style val="1" />
+              <IsHitTestVisible val="False" />
+              <ClipChildren val="False" />
+              <Padding val="0, 0, 0, 0" />
+            </control>
+            <pos x="880" y="27" />
+            <rect l="0" t="0" r="118" b="28" />
+            <Visible val="True" />
+            <Anchor val="Top, Left" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+            <NormalColor val="#1C0F00" />
+            <HoverColor val="#1C0F00" />
+            <PushColor val="#1C0F00" />
+            <DisableColor val="#1C0F00" />
+            <IsDefaultButton val="False" />
+          </child>
+          <child type="LISTSC" name="lc_option_selected" subclass="">
+            <asset type="BG" path="frm_std_innerbox_04.png" tileMode="Stretch">
+              <tex x="4" y="4" />
+              <rect l="8" t="8" r="947" b="104" />
+            </asset>
+            <asset type="EDGE_LT" path="frm_std_innerbox_00.png" tileMode="Stretch">
+              <tex x="8" y="8" />
+              <rect l="0" t="0" r="8" b="8" />
+            </asset>
+            <asset type="EDGE_RT" path="frm_std_innerbox_02.png" tileMode="Stretch">
+              <tex x="8" y="8" />
+              <rect l="0" t="0" r="8" b="8" />
+            </asset>
+            <asset type="EDGE_LB" path="frm_std_innerbox_06.png" tileMode="Stretch">
+              <tex x="8" y="8" />
+              <rect l="0" t="0" r="8" b="8" />
+            </asset>
+            <asset type="EDGE_RB" path="frm_std_innerbox_08.png" tileMode="Stretch">
+              <tex x="8" y="8" />
+              <rect l="0" t="0" r="8" b="8" />
+            </asset>
+            <asset type="FRAME_T" path="frm_std_innerbox_01.png" tileMode="Stretch">
+              <tex x="4" y="8" />
+              <rect l="8" t="0" r="947" b="8" />
+            </asset>
+            <asset type="FRAME_B" path="frm_std_innerbox_07.png" tileMode="Stretch">
+              <tex x="4" y="8" />
+              <rect l="8" t="0" r="947" b="8" />
+            </asset>
+            <asset type="FRAME_L" path="frm_std_innerbox_03.png" tileMode="Stretch">
+              <tex x="8" y="4" />
+              <rect l="0" t="8" r="8" b="104" />
+            </asset>
+            <asset type="FRAME_R" path="frm_std_innerbox_05.png" tileMode="Stretch">
+              <tex x="8" y="4" />
+              <rect l="0" t="8" r="8" b="104" />
+            </asset>
+            <control type="VSCROLLBAR" name="lc_option_selected_VSlider" horizontal="0">
+              <control type="BUTTON_LT" name="lc_option_selected_VScrollBar_TopButton">
+                <asset type="NORMAL">
+                </asset>
+                <asset type="DOWN">
+                </asset>
+                <asset type="OVER">
+                </asset>
+                <asset type="DISABLE">
+                </asset>
+                <snd type="OVER">
+                </snd>
+                <snd type="DOWN">
+                </snd>
+                <snd type="RELEASE">
+                </snd>
+                <pos x="0" y="0" />
+                <rect l="0" t="0" r="20" b="20" />
+                <Visible val="True" />
+                <IsHitTestVisible val="True" />
+                <ClipChildren val="False" />
+                <Anchor val="Top, Left, Right" />
+                <IsDefaultButton val="False" />
+              </control>
+              <control type="THUMB" name="lc_option_selected_VScrollBar_Thumb">
+                <asset type="NORMAL">
+                </asset>
+                <asset type="DOWN">
+                </asset>
+                <asset type="OVER">
+                </asset>
+                <asset type="DISABLE">
+                </asset>
+                <snd type="OVER">
+                </snd>
+                <snd type="DOWN">
+                </snd>
+                <snd type="RELEASE">
+                </snd>
+                <pos x="0" y="20" />
+                <rect l="0" t="0" r="20" b="20" />
+                <Visible val="True" />
+                <IsHitTestVisible val="True" />
+                <ClipChildren val="False" />
+                <Anchor val="Top, Left, Right" />
+                <IsDefaultButton val="False" />
+              </control>
+              <control type="BUTTON_RB" name="lc_option_selected_VScrollBar_BottomButton">
+                <asset type="NORMAL">
+                </asset>
+                <asset type="DOWN">
+                </asset>
+                <asset type="OVER">
+                </asset>
+                <asset type="DISABLE">
+                </asset>
+                <snd type="OVER">
+                </snd>
+                <snd type="DOWN">
+                </snd>
+                <snd type="RELEASE">
+                </snd>
+                <pos x="0" y="80" />
+                <rect l="0" t="0" r="20" b="20" />
+                <Visible val="True" />
+                <IsHitTestVisible val="True" />
+                <ClipChildren val="False" />
+                <Anchor val="Bottom, Left, Right" />
+                <IsDefaultButton val="False" />
+              </control>
+              <scrollrect l="0" t="20" r="20" b="80" />
+              <Visible val="True" />
+              <Anchor val="Top, Bottom, Right" />
+              <pos x="943" y="0" />
+              <rect l="0" t="0" r="20" b="100" />
+              <IsHitTestVisible val="True" />
+              <ClipChildren val="False" />
+            </control>
+            <control type="HSCROLLBAR" name="lc_option_selected_HSlider" horizontal="1">
+              <control type="BUTTON_LT" name="lc_option_selected_HScrollBar_LeftButton">
+                <asset type="NORMAL">scroll_left_d_n.png</asset>
+                <asset type="DOWN">scroll_left_d_d.png</asset>
+                <asset type="OVER">scroll_left_d_o.png</asset>
+                <asset type="DISABLE">scroll_left_d_dis.png</asset>
+                <snd type="OVER">
+                </snd>
+                <snd type="DOWN">
+                </snd>
+                <snd type="RELEASE">
+                </snd>
+                <pos x="3" y="1" />
+                <rect l="0" t="0" r="17" b="14" />
+                <Visible val="True" />
+                <IsHitTestVisible val="True" />
+                <ClipChildren val="False" />
+                <Anchor val="Top, Bottom, Left" />
+                <IsDefaultButton val="False" />
+              </control>
+              <control type="THUMB" name="lc_option_selected_HScrollBar_Thumb">
+                <asset type="NORMAL">scroll_bar_d_n.png</asset>
+                <asset type="DOWN">scroll_bar_d_d.png</asset>
+                <asset type="OVER">scroll_bar_d_o.png</asset>
+                <asset type="DISABLE">
+                </asset>
+                <snd type="OVER">
+                </snd>
+                <snd type="DOWN">
+                </snd>
+                <snd type="RELEASE">
+                </snd>
+                <pos x="29" y="1" />
+                <rect l="0" t="0" r="202" b="14" />
+                <Visible val="True" />
+                <IsHitTestVisible val="True" />
+                <ClipChildren val="False" />
+                <Anchor val="Top, Bottom, Left" />
+                <IsDefaultButton val="False" />
+              </control>
+              <control type="BUTTON_RB" name="lc_option_selected_HScrollBar_RightButton">
+                <asset type="NORMAL">scroll_right_d_n.png</asset>
+                <asset type="DOWN">scroll_right_d_d.png</asset>
+                <asset type="OVER">scroll_right_d_o.png</asset>
+                <asset type="DISABLE">scroll_right_d_dis.png</asset>
+                <snd type="OVER">
+                </snd>
+                <snd type="DOWN">
+                </snd>
+                <snd type="RELEASE">
+                </snd>
+                <pos x="943" y="1" />
+                <rect l="0" t="0" r="17" b="14" />
+                <Visible val="True" />
+                <IsHitTestVisible val="True" />
+                <ClipChildren val="False" />
+                <Anchor val="Top, Bottom, Right" />
+                <IsDefaultButton val="False" />
+              </control>
+              <scrollrect l="20" t="0" r="946" b="16" />
+              <Visible val="True" />
+              <Anchor val="Bottom, Left, Right" />
+              <pos x="0" y="104" />
+              <rect l="0" t="0" r="963" b="16" />
+              <IsHitTestVisible val="True" />
+              <ClipChildren val="False" />
+            </control>
+            <pos x="32" y="61" />
+            <rect l="0" t="0" r="963" b="120" />
+            <Visible val="True" />
+            <Anchor val="Top, Left" />
+            <padding l="0" t="0" r="0" b="0" />
+            <column val="1" />
+            <itemrect l="0" t="0" r="110" b="20" />
+            <selection val="0" />
+            <deselectable val="0" />
+            <rclickaction val="1" />
+            <IsHitTestVisible val="True" />
+            <Orientation val="Vertical" />
+            <ClipChildren val="False" />
+          </child>
+          <child type="ANIMBUTTON" name="btn_search" subclass="">
+            <asset type="GROUP">breed_option_window_btn_search.xml</asset>
+            <asset type="NORMAL">
+            </asset>
+            <asset type="DOWN">
+            </asset>
+            <asset type="OVER">
+            </asset>
+            <asset type="DISABLE">
+            </asset>
+            <asset type="ENTER">
+            </asset>
+            <asset type="LEAVE">
+            </asset>
+            <snd type="OVER">
+            </snd>
+            <snd type="DOWN">ui_btn_menu_click</snd>
+            <snd type="RELEASE">
+            </snd>
+            <pos x="823" y="187" />
+            <rect l="0" t="0" r="70" b="30" />
+            <Visible val="True" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+            <Anchor val="Top, Left" />
+            <IsDefaultButton val="False" />
+            <child type="LABEL" name="lb_search" subclass="">
+              <label val="Search" />
+              <pos x="0" y="5" />
+              <rect l="0" t="0" r="70" b="19" />
+              <Visible val="True" />
+              <Anchor val="Top, Left" />
+              <OutlineColor val="#FF0000" />
+              <ShadowColor val="#927254" />
+              <color val="#030200" />
+              <halign val="1" />
+              <valign val="0" />
+              <FontName val="나눔고딕" />
+              <FontSize val="14" />
+              <TextTrimming val="None" />
+              <style val="1" />
+              <IsHitTestVisible val="False" />
+              <ClipChildren val="False" />
+              <Padding val="0, 0, 0, 0" />
+            </child>
+          </child>
+          <child type="ANIMBUTTON" name="btn_cancel" subclass="">
+            <asset type="GROUP">breed_option_window_btn_cancel.xml</asset>
+            <asset type="NORMAL">
+            </asset>
+            <asset type="DOWN">
+            </asset>
+            <asset type="OVER">
+            </asset>
+            <asset type="DISABLE">
+            </asset>
+            <asset type="ENTER">
+            </asset>
+            <asset type="LEAVE">
+            </asset>
+            <snd type="OVER">
+            </snd>
+            <snd type="DOWN">ui_btn_menu_click</snd>
+            <snd type="RELEASE">
+            </snd>
+            <pos x="903" y="187" />
+            <rect l="0" t="0" r="70" b="30" />
+            <Visible val="True" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+            <Anchor val="Top, Left" />
+            <IsDefaultButton val="False" />
+            <child type="LABEL" name="lb_cancel" subclass="">
+              <label val="Cancel" />
+              <pos x="0" y="5" />
+              <rect l="0" t="0" r="70" b="19" />
+              <Visible val="True" />
+              <Anchor val="Top, Left" />
+              <OutlineColor val="#FF0000" />
+              <ShadowColor val="#927254" />
+              <color val="#030200" />
+              <halign val="1" />
+              <valign val="0" />
+              <FontName val="나눔고딕" />
+              <FontSize val="14" />
+              <TextTrimming val="None" />
+              <style val="1" />
+              <IsHitTestVisible val="False" />
+              <ClipChildren val="False" />
+              <Padding val="0, 0, 0, 0" />
+            </child>
+          </child>
+        </base>
+        <base type="WNDEX" subclass="" name="breed_opt_list">
+          <asset type="BG" path="frm_sub_04.png" tileMode="Stretch">
+            <tex x="10" y="5" />
+            <rect l="80" t="70" r="433" b="369" />
+          </asset>
+          <asset type="EDGE_LT" path="frm_sub_00.png" tileMode="Stretch">
+            <tex x="80" y="70" />
+            <rect l="0" t="0" r="80" b="70" />
+          </asset>
+          <asset type="EDGE_RT" path="frm_sub_02.png" tileMode="Stretch">
+            <tex x="87" y="70" />
+            <rect l="0" t="0" r="87" b="70" />
+          </asset>
+          <asset type="EDGE_LB" path="frm_sub_06.png" tileMode="Stretch">
+            <tex x="80" y="33" />
+            <rect l="0" t="0" r="80" b="33" />
+          </asset>
+          <asset type="EDGE_RB" path="frm_sub_08.png" tileMode="Stretch">
+            <tex x="87" y="33" />
+            <rect l="0" t="0" r="87" b="33" />
+          </asset>
+          <asset type="FRAME_T" path="frm_sub_01.png" tileMode="Stretch">
+            <tex x="10" y="70" />
+            <rect l="80" t="0" r="433" b="70" />
+          </asset>
+          <asset type="FRAME_B" path="frm_sub_07.png" tileMode="Stretch">
+            <tex x="10" y="33" />
+            <rect l="80" t="0" r="433" b="33" />
+          </asset>
+          <asset type="FRAME_L" path="frm_sub_03.png" tileMode="Stretch">
+            <tex x="80" y="5" />
+            <rect l="0" t="70" r="80" b="369" />
+          </asset>
+          <asset type="FRAME_R" path="frm_sub_05.png" tileMode="Stretch">
+            <tex x="87" y="5" />
+            <rect l="0" t="70" r="87" b="369" />
+          </asset>
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <pos x="424" y="30" />
+          <rect l="0" t="0" r="600" b="472" />
+          <snd type="SHOW">
+          </snd>
+          <snd type="HIDE">
+          </snd>
+          <Dragable val="False" />
+          <StartPosition val="None" />
+          <EscKeyAction val="None" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+          <child type="PICTURE" name="scroll_bg_breedopt2" subclass="">
+            <asset type="STATIC">scroll_bg_breedopt.png</asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="35" y="426" />
+            <rect l="0" t="0" r="533" b="15" />
+            <center x="0" y="0" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+          </child>
+          <child type="PICTURE" name="scroll_bg_breedopt1" subclass="">
+            <asset type="STATIC">scroll_bg_breedopt.png</asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="35" y="296" />
+            <rect l="0" t="0" r="533" b="15" />
+            <center x="0" y="0" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+          </child>
+          <child type="PICTURE" name="scroll_bg_breedopt" subclass="">
+            <asset type="STATIC">scroll_bg_breedopt.png</asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="35" y="166" />
+            <rect l="0" t="0" r="533" b="15" />
+            <center x="0" y="0" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+          </child>
+          <child type="LISTSC" name="lc_option_tail" subclass="">
+            <asset type="BG" path="frm_std_innerbox_04.png" tileMode="Stretch">
+              <tex x="4" y="4" />
+              <rect l="8" t="8" r="519" b="104" />
+            </asset>
+            <asset type="EDGE_LT" path="frm_std_innerbox_00.png" tileMode="Stretch">
+              <tex x="8" y="8" />
+              <rect l="0" t="0" r="8" b="8" />
+            </asset>
+            <asset type="EDGE_RT" path="frm_std_innerbox_02.png" tileMode="Stretch">
+              <tex x="8" y="8" />
+              <rect l="0" t="0" r="8" b="8" />
+            </asset>
+            <asset type="EDGE_LB" path="frm_std_innerbox_06.png" tileMode="Stretch">
+              <tex x="8" y="8" />
+              <rect l="0" t="0" r="8" b="8" />
+            </asset>
+            <asset type="EDGE_RB" path="frm_std_innerbox_08.png" tileMode="Stretch">
+              <tex x="8" y="8" />
+              <rect l="0" t="0" r="8" b="8" />
+            </asset>
+            <asset type="FRAME_T" path="frm_std_innerbox_01.png" tileMode="Stretch">
+              <tex x="4" y="8" />
+              <rect l="8" t="0" r="519" b="8" />
+            </asset>
+            <asset type="FRAME_B" path="frm_std_innerbox_07.png" tileMode="Stretch">
+              <tex x="4" y="8" />
+              <rect l="8" t="0" r="519" b="8" />
+            </asset>
+            <asset type="FRAME_L" path="frm_std_innerbox_03.png" tileMode="Stretch">
+              <tex x="8" y="4" />
+              <rect l="0" t="8" r="8" b="104" />
+            </asset>
+            <asset type="FRAME_R" path="frm_std_innerbox_05.png" tileMode="Stretch">
+              <tex x="8" y="4" />
+              <rect l="0" t="8" r="8" b="104" />
+            </asset>
+            <control type="VSCROLLBAR" name="lc_option_tail_VSlider" horizontal="0">
+              <control type="BUTTON_LT" name="lc_option_tail_VScrollBar_TopButton">
+                <asset type="NORMAL">
+                </asset>
+                <asset type="DOWN">
+                </asset>
+                <asset type="OVER">
+                </asset>
+                <asset type="DISABLE">
+                </asset>
+                <snd type="OVER">
+                </snd>
+                <snd type="DOWN">
+                </snd>
+                <snd type="RELEASE">
+                </snd>
+                <pos x="0" y="0" />
+                <rect l="0" t="0" r="20" b="20" />
+                <Visible val="True" />
+                <IsHitTestVisible val="True" />
+                <ClipChildren val="False" />
+                <Anchor val="Top, Left, Right" />
+                <IsDefaultButton val="False" />
+              </control>
+              <control type="THUMB" name="lc_option_tail_VScrollBar_Thumb">
+                <asset type="NORMAL">
+                </asset>
+                <asset type="DOWN">
+                </asset>
+                <asset type="OVER">
+                </asset>
+                <asset type="DISABLE">
+                </asset>
+                <snd type="OVER">
+                </snd>
+                <snd type="DOWN">
+                </snd>
+                <snd type="RELEASE">
+                </snd>
+                <pos x="0" y="20" />
+                <rect l="0" t="0" r="20" b="20" />
+                <Visible val="True" />
+                <IsHitTestVisible val="True" />
+                <ClipChildren val="False" />
+                <Anchor val="Top, Left, Right" />
+                <IsDefaultButton val="False" />
+              </control>
+              <control type="BUTTON_RB" name="lc_option_tail_VScrollBar_BottomButton">
+                <asset type="NORMAL">
+                </asset>
+                <asset type="DOWN">
+                </asset>
+                <asset type="OVER">
+                </asset>
+                <asset type="DISABLE">
+                </asset>
+                <snd type="OVER">
+                </snd>
+                <snd type="DOWN">
+                </snd>
+                <snd type="RELEASE">
+                </snd>
+                <pos x="0" y="80" />
+                <rect l="0" t="0" r="20" b="20" />
+                <Visible val="True" />
+                <IsHitTestVisible val="True" />
+                <ClipChildren val="False" />
+                <Anchor val="Bottom, Left, Right" />
+                <IsDefaultButton val="False" />
+              </control>
+              <scrollrect l="0" t="20" r="20" b="80" />
+              <Visible val="True" />
+              <Anchor val="Top, Bottom, Right" />
+              <pos x="515" y="0" />
+              <rect l="0" t="0" r="20" b="100" />
+              <IsHitTestVisible val="True" />
+              <ClipChildren val="False" />
+            </control>
+            <control type="HSCROLLBAR" name="lc_option_tail_HSlider" horizontal="1">
+              <control type="BUTTON_LT" name="lc_option_tail_HScrollBar_LeftButton">
+                <asset type="NORMAL">scroll_left_d_n.png</asset>
+                <asset type="DOWN">scroll_left_d_d.png</asset>
+                <asset type="OVER">scroll_left_d_o.png</asset>
+                <asset type="DISABLE">scroll_left_d_dis.png</asset>
+                <snd type="OVER">
+                </snd>
+                <snd type="DOWN">
+                </snd>
+                <snd type="RELEASE">
+                </snd>
+                <pos x="3" y="1" />
+                <rect l="0" t="0" r="17" b="14" />
+                <Visible val="True" />
+                <IsHitTestVisible val="True" />
+                <ClipChildren val="False" />
+                <Anchor val="Top, Bottom, Left" />
+                <IsDefaultButton val="False" />
+              </control>
+              <control type="THUMB" name="lc_option_tail_HScrollBar_Thumb">
+                <asset type="NORMAL">scroll_bar_d_n.png</asset>
+                <asset type="DOWN">scroll_bar_d_d.png</asset>
+                <asset type="OVER">scroll_bar_d_o.png</asset>
+                <asset type="DISABLE">
+                </asset>
+                <snd type="OVER">
+                </snd>
+                <snd type="DOWN">
+                </snd>
+                <snd type="RELEASE">
+                </snd>
+                <pos x="29" y="1" />
+                <rect l="0" t="0" r="202" b="14" />
+                <Visible val="True" />
+                <IsHitTestVisible val="True" />
+                <ClipChildren val="False" />
+                <Anchor val="Top, Bottom, Left" />
+                <IsDefaultButton val="False" />
+              </control>
+              <control type="BUTTON_RB" name="lc_option_tail_HScrollBar_RightButton">
+                <asset type="NORMAL">scroll_right_d_n.png</asset>
+                <asset type="DOWN">scroll_right_d_d.png</asset>
+                <asset type="OVER">scroll_right_d_o.png</asset>
+                <asset type="DISABLE">scroll_right_d_dis.png</asset>
+                <snd type="OVER">
+                </snd>
+                <snd type="DOWN">
+                </snd>
+                <snd type="RELEASE">
+                </snd>
+                <pos x="515" y="1" />
+                <rect l="0" t="0" r="17" b="14" />
+                <Visible val="True" />
+                <IsHitTestVisible val="True" />
+                <ClipChildren val="False" />
+                <Anchor val="Top, Bottom, Right" />
+                <IsDefaultButton val="False" />
+              </control>
+              <scrollrect l="20" t="0" r="518" b="16" />
+              <Visible val="True" />
+              <Anchor val="Bottom, Left, Right" />
+              <pos x="0" y="104" />
+              <rect l="0" t="0" r="535" b="16" />
+              <IsHitTestVisible val="True" />
+              <ClipChildren val="False" />
+            </control>
+            <pos x="34" y="321" />
+            <rect l="0" t="0" r="535" b="120" />
+            <Visible val="True" />
+            <Anchor val="Top, Left" />
+            <padding l="0" t="0" r="0" b="0" />
+            <column val="1" />
+            <itemrect l="0" t="0" r="107" b="20" />
+            <selection val="0" />
+            <deselectable val="0" />
+            <rclickaction val="1" />
+            <IsHitTestVisible val="True" />
+            <Orientation val="Vertical" />
+            <ClipChildren val="False" />
+          </child>
+          <child type="LISTSC" name="lc_option_mane" subclass="">
+            <asset type="BG" path="frm_std_innerbox_04.png" tileMode="Stretch">
+              <tex x="4" y="4" />
+              <rect l="8" t="8" r="519" b="104" />
+            </asset>
+            <asset type="EDGE_LT" path="frm_std_innerbox_00.png" tileMode="Stretch">
+              <tex x="8" y="8" />
+              <rect l="0" t="0" r="8" b="8" />
+            </asset>
+            <asset type="EDGE_RT" path="frm_std_innerbox_02.png" tileMode="Stretch">
+              <tex x="8" y="8" />
+              <rect l="0" t="0" r="8" b="8" />
+            </asset>
+            <asset type="EDGE_LB" path="frm_std_innerbox_06.png" tileMode="Stretch">
+              <tex x="8" y="8" />
+              <rect l="0" t="0" r="8" b="8" />
+            </asset>
+            <asset type="EDGE_RB" path="frm_std_innerbox_08.png" tileMode="Stretch">
+              <tex x="8" y="8" />
+              <rect l="0" t="0" r="8" b="8" />
+            </asset>
+            <asset type="FRAME_T" path="frm_std_innerbox_01.png" tileMode="Stretch">
+              <tex x="4" y="8" />
+              <rect l="8" t="0" r="519" b="8" />
+            </asset>
+            <asset type="FRAME_B" path="frm_std_innerbox_07.png" tileMode="Stretch">
+              <tex x="4" y="8" />
+              <rect l="8" t="0" r="519" b="8" />
+            </asset>
+            <asset type="FRAME_L" path="frm_std_innerbox_03.png" tileMode="Stretch">
+              <tex x="8" y="4" />
+              <rect l="0" t="8" r="8" b="104" />
+            </asset>
+            <asset type="FRAME_R" path="frm_std_innerbox_05.png" tileMode="Stretch">
+              <tex x="8" y="4" />
+              <rect l="0" t="8" r="8" b="104" />
+            </asset>
+            <control type="VSCROLLBAR" name="lc_option_mane_VSlider" horizontal="0">
+              <control type="BUTTON_LT" name="lc_option_mane_VScrollBar_TopButton">
+                <asset type="NORMAL">
+                </asset>
+                <asset type="DOWN">
+                </asset>
+                <asset type="OVER">
+                </asset>
+                <asset type="DISABLE">
+                </asset>
+                <snd type="OVER">
+                </snd>
+                <snd type="DOWN">
+                </snd>
+                <snd type="RELEASE">
+                </snd>
+                <pos x="0" y="0" />
+                <rect l="0" t="0" r="20" b="20" />
+                <Visible val="True" />
+                <IsHitTestVisible val="True" />
+                <ClipChildren val="False" />
+                <Anchor val="Top, Left, Right" />
+                <IsDefaultButton val="False" />
+              </control>
+              <control type="THUMB" name="lc_option_mane_VScrollBar_Thumb">
+                <asset type="NORMAL">
+                </asset>
+                <asset type="DOWN">
+                </asset>
+                <asset type="OVER">
+                </asset>
+                <asset type="DISABLE">
+                </asset>
+                <snd type="OVER">
+                </snd>
+                <snd type="DOWN">
+                </snd>
+                <snd type="RELEASE">
+                </snd>
+                <pos x="0" y="20" />
+                <rect l="0" t="0" r="20" b="20" />
+                <Visible val="True" />
+                <IsHitTestVisible val="True" />
+                <ClipChildren val="False" />
+                <Anchor val="Top, Left, Right" />
+                <IsDefaultButton val="False" />
+              </control>
+              <control type="BUTTON_RB" name="lc_option_mane_VScrollBar_BottomButton">
+                <asset type="NORMAL">
+                </asset>
+                <asset type="DOWN">
+                </asset>
+                <asset type="OVER">
+                </asset>
+                <asset type="DISABLE">
+                </asset>
+                <snd type="OVER">
+                </snd>
+                <snd type="DOWN">
+                </snd>
+                <snd type="RELEASE">
+                </snd>
+                <pos x="0" y="80" />
+                <rect l="0" t="0" r="20" b="20" />
+                <Visible val="True" />
+                <IsHitTestVisible val="True" />
+                <ClipChildren val="False" />
+                <Anchor val="Bottom, Left, Right" />
+                <IsDefaultButton val="False" />
+              </control>
+              <scrollrect l="0" t="20" r="20" b="80" />
+              <Visible val="True" />
+              <Anchor val="Top, Bottom, Right" />
+              <pos x="515" y="0" />
+              <rect l="0" t="0" r="20" b="100" />
+              <IsHitTestVisible val="True" />
+              <ClipChildren val="False" />
+            </control>
+            <control type="HSCROLLBAR" name="lc_option_mane_HSlider" horizontal="1">
+              <control type="BUTTON_LT" name="lc_option_mane_HScrollBar_LeftButton">
+                <asset type="NORMAL">scroll_left_d_n.png</asset>
+                <asset type="DOWN">scroll_left_d_d.png</asset>
+                <asset type="OVER">scroll_left_d_o.png</asset>
+                <asset type="DISABLE">scroll_left_d_dis.png</asset>
+                <snd type="OVER">
+                </snd>
+                <snd type="DOWN">
+                </snd>
+                <snd type="RELEASE">
+                </snd>
+                <pos x="3" y="1" />
+                <rect l="0" t="0" r="17" b="14" />
+                <Visible val="True" />
+                <IsHitTestVisible val="True" />
+                <ClipChildren val="False" />
+                <Anchor val="Top, Bottom, Left" />
+                <IsDefaultButton val="False" />
+              </control>
+              <control type="THUMB" name="lc_option_mane_HScrollBar_Thumb">
+                <asset type="NORMAL">scroll_bar_d_n.png</asset>
+                <asset type="DOWN">scroll_bar_d_d.png</asset>
+                <asset type="OVER">scroll_bar_d_o.png</asset>
+                <asset type="DISABLE">
+                </asset>
+                <snd type="OVER">
+                </snd>
+                <snd type="DOWN">
+                </snd>
+                <snd type="RELEASE">
+                </snd>
+                <pos x="29" y="1" />
+                <rect l="0" t="0" r="202" b="14" />
+                <Visible val="True" />
+                <IsHitTestVisible val="True" />
+                <ClipChildren val="False" />
+                <Anchor val="Top, Bottom, Left" />
+                <IsDefaultButton val="False" />
+              </control>
+              <control type="BUTTON_RB" name="lc_option_mane_HScrollBar_RightButton">
+                <asset type="NORMAL">scroll_right_d_n.png</asset>
+                <asset type="DOWN">scroll_right_d_d.png</asset>
+                <asset type="OVER">scroll_right_d_o.png</asset>
+                <asset type="DISABLE">scroll_right_d_dis.png</asset>
+                <snd type="OVER">
+                </snd>
+                <snd type="DOWN">
+                </snd>
+                <snd type="RELEASE">
+                </snd>
+                <pos x="515" y="1" />
+                <rect l="0" t="0" r="17" b="14" />
+                <Visible val="True" />
+                <IsHitTestVisible val="True" />
+                <ClipChildren val="False" />
+                <Anchor val="Top, Bottom, Right" />
+                <IsDefaultButton val="False" />
+              </control>
+              <scrollrect l="20" t="0" r="518" b="16" />
+              <Visible val="True" />
+              <Anchor val="Bottom, Left, Right" />
+              <pos x="0" y="104" />
+              <rect l="0" t="0" r="535" b="16" />
+              <IsHitTestVisible val="True" />
+              <ClipChildren val="False" />
+            </control>
+            <pos x="34" y="191" />
+            <rect l="0" t="0" r="535" b="120" />
+            <Visible val="True" />
+            <Anchor val="Top, Left" />
+            <padding l="0" t="0" r="0" b="0" />
+            <column val="1" />
+            <itemrect l="0" t="0" r="107" b="20" />
+            <selection val="0" />
+            <deselectable val="0" />
+            <rclickaction val="1" />
+            <IsHitTestVisible val="True" />
+            <Orientation val="Vertical" />
+            <ClipChildren val="False" />
+          </child>
+          <child type="LISTSC" name="lc_option_skin" subclass="">
+            <asset type="BG" path="frm_std_innerbox_04.png" tileMode="Stretch">
+              <tex x="4" y="4" />
+              <rect l="8" t="8" r="519" b="104" />
+            </asset>
+            <asset type="EDGE_LT" path="frm_std_innerbox_00.png" tileMode="Stretch">
+              <tex x="8" y="8" />
+              <rect l="0" t="0" r="8" b="8" />
+            </asset>
+            <asset type="EDGE_RT" path="frm_std_innerbox_02.png" tileMode="Stretch">
+              <tex x="8" y="8" />
+              <rect l="0" t="0" r="8" b="8" />
+            </asset>
+            <asset type="EDGE_LB" path="frm_std_innerbox_06.png" tileMode="Stretch">
+              <tex x="8" y="8" />
+              <rect l="0" t="0" r="8" b="8" />
+            </asset>
+            <asset type="EDGE_RB" path="frm_std_innerbox_08.png" tileMode="Stretch">
+              <tex x="8" y="8" />
+              <rect l="0" t="0" r="8" b="8" />
+            </asset>
+            <asset type="FRAME_T" path="frm_std_innerbox_01.png" tileMode="Stretch">
+              <tex x="4" y="8" />
+              <rect l="8" t="0" r="519" b="8" />
+            </asset>
+            <asset type="FRAME_B" path="frm_std_innerbox_07.png" tileMode="Stretch">
+              <tex x="4" y="8" />
+              <rect l="8" t="0" r="519" b="8" />
+            </asset>
+            <asset type="FRAME_L" path="frm_std_innerbox_03.png" tileMode="Stretch">
+              <tex x="8" y="4" />
+              <rect l="0" t="8" r="8" b="104" />
+            </asset>
+            <asset type="FRAME_R" path="frm_std_innerbox_05.png" tileMode="Stretch">
+              <tex x="8" y="4" />
+              <rect l="0" t="8" r="8" b="104" />
+            </asset>
+            <control type="VSCROLLBAR" name="lc_option_skin_VSlider" horizontal="0">
+              <control type="BUTTON_LT" name="lc_option_skin_VScrollBar_TopButton">
+                <asset type="NORMAL">
+                </asset>
+                <asset type="DOWN">
+                </asset>
+                <asset type="OVER">
+                </asset>
+                <asset type="DISABLE">
+                </asset>
+                <snd type="OVER">
+                </snd>
+                <snd type="DOWN">
+                </snd>
+                <snd type="RELEASE">
+                </snd>
+                <pos x="0" y="0" />
+                <rect l="0" t="0" r="20" b="20" />
+                <Visible val="True" />
+                <IsHitTestVisible val="True" />
+                <ClipChildren val="False" />
+                <Anchor val="Top, Left, Right" />
+                <IsDefaultButton val="False" />
+              </control>
+              <control type="THUMB" name="lc_option_skin_VScrollBar_Thumb">
+                <asset type="NORMAL">
+                </asset>
+                <asset type="DOWN">
+                </asset>
+                <asset type="OVER">
+                </asset>
+                <asset type="DISABLE">
+                </asset>
+                <snd type="OVER">
+                </snd>
+                <snd type="DOWN">
+                </snd>
+                <snd type="RELEASE">
+                </snd>
+                <pos x="0" y="20" />
+                <rect l="0" t="0" r="20" b="20" />
+                <Visible val="True" />
+                <IsHitTestVisible val="True" />
+                <ClipChildren val="False" />
+                <Anchor val="Top, Left, Right" />
+                <IsDefaultButton val="False" />
+              </control>
+              <control type="BUTTON_RB" name="lc_option_skin_VScrollBar_BottomButton">
+                <asset type="NORMAL">
+                </asset>
+                <asset type="DOWN">
+                </asset>
+                <asset type="OVER">
+                </asset>
+                <asset type="DISABLE">
+                </asset>
+                <snd type="OVER">
+                </snd>
+                <snd type="DOWN">
+                </snd>
+                <snd type="RELEASE">
+                </snd>
+                <pos x="0" y="80" />
+                <rect l="0" t="0" r="20" b="20" />
+                <Visible val="True" />
+                <IsHitTestVisible val="True" />
+                <ClipChildren val="False" />
+                <Anchor val="Bottom, Left, Right" />
+                <IsDefaultButton val="False" />
+              </control>
+              <scrollrect l="0" t="20" r="20" b="80" />
+              <Visible val="True" />
+              <Anchor val="Top, Bottom, Right" />
+              <pos x="515" y="0" />
+              <rect l="0" t="0" r="20" b="100" />
+              <IsHitTestVisible val="True" />
+              <ClipChildren val="False" />
+            </control>
+            <control type="HSCROLLBAR" name="lc_option_skin_HSlider" horizontal="1">
+              <control type="BUTTON_LT" name="lc_option_skin_HScrollBar_LeftButton">
+                <asset type="NORMAL">scroll_left_d_n.png</asset>
+                <asset type="DOWN">scroll_left_d_d.png</asset>
+                <asset type="OVER">scroll_left_d_o.png</asset>
+                <asset type="DISABLE">scroll_left_d_dis.png</asset>
+                <snd type="OVER">
+                </snd>
+                <snd type="DOWN">
+                </snd>
+                <snd type="RELEASE">
+                </snd>
+                <pos x="3" y="1" />
+                <rect l="0" t="0" r="17" b="14" />
+                <Visible val="True" />
+                <IsHitTestVisible val="True" />
+                <ClipChildren val="False" />
+                <Anchor val="Top, Bottom, Left" />
+                <IsDefaultButton val="False" />
+              </control>
+              <control type="THUMB" name="lc_option_skin_HScrollBar_Thumb">
+                <asset type="NORMAL">scroll_bar_d_n.png</asset>
+                <asset type="DOWN">scroll_bar_d_d.png</asset>
+                <asset type="OVER">scroll_bar_d_o.png</asset>
+                <asset type="DISABLE">
+                </asset>
+                <snd type="OVER">
+                </snd>
+                <snd type="DOWN">
+                </snd>
+                <snd type="RELEASE">
+                </snd>
+                <pos x="29" y="1" />
+                <rect l="0" t="0" r="202" b="14" />
+                <Visible val="True" />
+                <IsHitTestVisible val="True" />
+                <ClipChildren val="False" />
+                <Anchor val="Top, Bottom, Left" />
+                <IsDefaultButton val="False" />
+              </control>
+              <control type="BUTTON_RB" name="lc_option_skin_HScrollBar_RightButton">
+                <asset type="NORMAL">scroll_right_d_n.png</asset>
+                <asset type="DOWN">scroll_right_d_d.png</asset>
+                <asset type="OVER">scroll_right_d_o.png</asset>
+                <asset type="DISABLE">scroll_right_d_dis.png</asset>
+                <snd type="OVER">
+                </snd>
+                <snd type="DOWN">
+                </snd>
+                <snd type="RELEASE">
+                </snd>
+                <pos x="515" y="1" />
+                <rect l="0" t="0" r="17" b="14" />
+                <Visible val="True" />
+                <IsHitTestVisible val="True" />
+                <ClipChildren val="False" />
+                <Anchor val="Top, Bottom, Right" />
+                <IsDefaultButton val="False" />
+              </control>
+              <scrollrect l="20" t="0" r="518" b="16" />
+              <Visible val="True" />
+              <Anchor val="Bottom, Left, Right" />
+              <pos x="0" y="104" />
+              <rect l="0" t="0" r="535" b="16" />
+              <IsHitTestVisible val="True" />
+              <ClipChildren val="False" />
+            </control>
+            <pos x="34" y="61" />
+            <rect l="0" t="0" r="535" b="120" />
+            <Visible val="True" />
+            <Anchor val="Top, Left" />
+            <padding l="0" t="0" r="0" b="0" />
+            <column val="1" />
+            <itemrect l="0" t="0" r="107" b="20" />
+            <selection val="0" />
+            <deselectable val="0" />
+            <rclickaction val="1" />
+            <IsHitTestVisible val="True" />
+            <Orientation val="Vertical" />
+            <ClipChildren val="False" />
+          </child>
+          <child type="COMBO" name="CmB_status_2nd" subclass="">
+            <control type="TEXTAREA" name="CmB_status_2nd_TextArea">
+              <asset type="BG" path="" tileMode="Stretch">
+                <tex x="0" y="0" />
+                <rect l="8" t="8" r="44" b="3" />
+              </asset>
+              <asset type="EDGE_LT" path="" tileMode="Stretch">
+                <tex x="0" y="0" />
+                <rect l="0" t="0" r="8" b="8" />
+              </asset>
+              <asset type="EDGE_RT" path="" tileMode="Stretch">
+                <tex x="0" y="0" />
+                <rect l="0" t="0" r="8" b="8" />
+              </asset>
+              <asset type="EDGE_LB" path="" tileMode="Stretch">
+                <tex x="0" y="0" />
+                <rect l="0" t="0" r="8" b="8" />
+              </asset>
+              <asset type="EDGE_RB" path="" tileMode="Stretch">
+                <tex x="0" y="0" />
+                <rect l="0" t="0" r="8" b="8" />
+              </asset>
+              <asset type="FRAME_T" path="" tileMode="Stretch">
+                <tex x="0" y="0" />
+                <rect l="8" t="0" r="44" b="8" />
+              </asset>
+              <asset type="FRAME_B" path="" tileMode="Stretch">
+                <tex x="0" y="0" />
+                <rect l="8" t="0" r="44" b="8" />
+              </asset>
+              <asset type="FRAME_L" path="" tileMode="Stretch">
+                <tex x="0" y="0" />
+                <rect l="0" t="8" r="8" b="3" />
+              </asset>
+              <asset type="FRAME_R" path="" tileMode="Stretch">
+                <tex x="0" y="0" />
+                <rect l="0" t="8" r="8" b="3" />
+              </asset>
+              <asset type="CARET" path="">
+                <rpos x="0" y="0" />
+                <rect l="0" t="0" r="0" b="0" />
+              </asset>
+              <pos x="3" y="3" />
+              <rect l="0" t="0" r="60" b="19" />
+              <Visible val="True" />
+              <Anchor val="None" />
+              <Editable val="False" />
+              <OutlineColor val="#FF0000" />
+              <ShadowColor val="#D7C4B8" />
+              <SelectionBrush val="#FF0000" />
+              <color val="#BB5100" />
+              <style val="32" />
+              <halign val="2" />
+              <padding l="0" t="0" r="0" b="0" />
+              <FontName val="나눔고딕" />
+              <FontSize val="13" />
+              <IsHitTestVisible val="True" />
+              <ClipChildren val="False" />
+            </control>
+            <control type="BUTTON" name="CmB_status_2nd_DropButton">
+              <asset type="NORMAL">btn_dropmenu_n.png</asset>
+              <asset type="DOWN">btn_dropmenu_d.png</asset>
+              <asset type="OVER">btn_dropmenu_o.png</asset>
+              <asset type="DISABLE">btn_dropmenu_dis.png</asset>
+              <snd type="OVER">
+              </snd>
+              <snd type="DOWN">ui_btn_menu_click</snd>
+              <snd type="RELEASE">
+              </snd>
+              <pos x="63" y="1" />
+              <rect l="0" t="0" r="27" b="27" />
+              <Visible val="True" />
+              <IsHitTestVisible val="True" />
+              <ClipChildren val="False" />
+              <Anchor val="None" />
+              <IsDefaultButton val="False" />
+            </control>
+            <control type="LISTAREA" name="CmB_status_2nd_DropList">
+              <asset type="BG" path="dropmenu_04.png" tileMode="Stretch">
+                <tex x="25" y="4" />
+                <rect l="25" t="30" r="28" b="77" />
+              </asset>
+              <asset type="EDGE_LT" path="dropmenu_00.png" tileMode="Stretch">
+                <tex x="25" y="30" />
+                <rect l="0" t="0" r="25" b="30" />
+              </asset>
+              <asset type="EDGE_RT" path="dropmenu_02.png" tileMode="Stretch">
+                <tex x="37" y="30" />
+                <rect l="0" t="0" r="37" b="30" />
+              </asset>
+              <asset type="EDGE_LB" path="dropmenu_06.png" tileMode="Stretch">
+                <tex x="25" y="39" />
+                <rect l="0" t="0" r="25" b="39" />
+              </asset>
+              <asset type="EDGE_RB" path="dropmenu_08.png" tileMode="Stretch">
+                <tex x="37" y="39" />
+                <rect l="0" t="0" r="37" b="39" />
+              </asset>
+              <asset type="FRAME_T" path="dropmenu_01.png" tileMode="Stretch">
+                <tex x="25" y="30" />
+                <rect l="25" t="0" r="28" b="30" />
+              </asset>
+              <asset type="FRAME_B" path="dropmenu_07.png" tileMode="Stretch">
+                <tex x="25" y="39" />
+                <rect l="25" t="0" r="28" b="39" />
+              </asset>
+              <asset type="FRAME_L" path="dropmenu_03.png" tileMode="Stretch">
+                <tex x="25" y="4" />
+                <rect l="0" t="30" r="25" b="77" />
+              </asset>
+              <asset type="FRAME_R" path="dropmenu_05.png" tileMode="Stretch">
+                <tex x="37" y="4" />
+                <rect l="0" t="30" r="37" b="77" />
+              </asset>
+              <control type="VSCROLLBAR" name="CmB_status_2nd_DropList_VSlider" horizontal="0">
+                <control type="BUTTON_LT" name="CmB_status_2nd_DropList_VScrollBar_TopButton">
+                  <asset type="NORMAL">
+                  </asset>
+                  <asset type="DOWN">
+                  </asset>
+                  <asset type="OVER">
+                  </asset>
+                  <asset type="DISABLE">
+                  </asset>
+                  <snd type="OVER">
+                  </snd>
+                  <snd type="DOWN">
+                  </snd>
+                  <snd type="RELEASE">
+                  </snd>
+                  <pos x="0" y="0" />
+                  <rect l="0" t="0" r="14" b="17" />
+                  <Visible val="True" />
+                  <IsHitTestVisible val="True" />
+                  <ClipChildren val="False" />
+                  <Anchor val="Top, Left, Right" />
+                  <IsDefaultButton val="False" />
+                </control>
+                <control type="THUMB" name="CmB_status_2nd_DropList_VScrollBar_Thumb">
+                  <asset type="NORMAL">
+                  </asset>
+                  <asset type="DOWN">
+                  </asset>
+                  <asset type="OVER">
+                  </asset>
+                  <asset type="DISABLE">
+                  </asset>
+                  <snd type="OVER">
+                  </snd>
+                  <snd type="DOWN">
+                  </snd>
+                  <snd type="RELEASE">
+                  </snd>
+                  <pos x="0" y="20" />
+                  <rect l="0" t="0" r="14" b="24" />
+                  <Visible val="True" />
+                  <IsHitTestVisible val="True" />
+                  <ClipChildren val="False" />
+                  <Anchor val="Top, Left, Right" />
+                  <IsDefaultButton val="False" />
+                </control>
+                <control type="BUTTON_RB" name="CmB_status_2nd_DropList_VScrollBar_BottomButton">
+                  <asset type="NORMAL">
+                  </asset>
+                  <asset type="DOWN">
+                  </asset>
+                  <asset type="OVER">
+                  </asset>
+                  <asset type="DISABLE">
+                  </asset>
+                  <snd type="OVER">
+                  </snd>
+                  <snd type="DOWN">
+                  </snd>
+                  <snd type="RELEASE">
+                  </snd>
+                  <pos x="0" y="96" />
+                  <rect l="0" t="0" r="14" b="17" />
+                  <Visible val="True" />
+                  <IsHitTestVisible val="True" />
+                  <ClipChildren val="False" />
+                  <Anchor val="Bottom, Left, Right" />
+                  <IsDefaultButton val="False" />
+                </control>
+                <scrollrect l="0" t="17" r="14" b="99" />
+                <Visible val="True" />
+                <Anchor val="Top, Bottom, Right" />
+                <pos x="79" y="16" />
+                <rect l="0" t="0" r="14" b="116" />
+                <IsHitTestVisible val="True" />
+                <ClipChildren val="False" />
+              </control>
+              <control type="HSCROLLBAR" name="CmB_status_2nd_DropList_HSlider" horizontal="1">
+              </control>
+              <pos x="-12" y="14" />
+              <rect l="0" t="0" r="90" b="146" />
+              <Visible val="True" />
+              <Anchor val="None" />
+              <padding l="16" t="18" r="16" b="18" />
+              <column val="1" />
+              <itemrect l="0" t="0" r="117" b="20" />
+              <selection val="0" />
+              <deselectable val="0" />
+              <rclickaction val="1" />
+              <IsHitTestVisible val="True" />
+              <ClipChildren val="False" />
+            </control>
+            <pos x="427" y="29" />
+            <rect l="0" t="0" r="90" b="26" />
+            <Visible val="True" />
+            <Anchor val="Top, Left" />
+            <NormalColor val="#1C0F00" />
+            <SelectColor val="#BB5100" />
+            <FontName val="NtreevSoft" />
+            <FontSize val="13" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+          </child>
+          <child type="COMBO" name="CmB_status_1st" subclass="">
+            <control type="TEXTAREA" name="CmB_status_1st_TextArea">
+              <asset type="BG" path="" tileMode="Stretch">
+                <tex x="0" y="0" />
+                <rect l="8" t="8" r="44" b="3" />
+              </asset>
+              <asset type="EDGE_LT" path="" tileMode="Stretch">
+                <tex x="0" y="0" />
+                <rect l="0" t="0" r="8" b="8" />
+              </asset>
+              <asset type="EDGE_RT" path="" tileMode="Stretch">
+                <tex x="0" y="0" />
+                <rect l="0" t="0" r="8" b="8" />
+              </asset>
+              <asset type="EDGE_LB" path="" tileMode="Stretch">
+                <tex x="0" y="0" />
+                <rect l="0" t="0" r="8" b="8" />
+              </asset>
+              <asset type="EDGE_RB" path="" tileMode="Stretch">
+                <tex x="0" y="0" />
+                <rect l="0" t="0" r="8" b="8" />
+              </asset>
+              <asset type="FRAME_T" path="" tileMode="Stretch">
+                <tex x="0" y="0" />
+                <rect l="8" t="0" r="44" b="8" />
+              </asset>
+              <asset type="FRAME_B" path="" tileMode="Stretch">
+                <tex x="0" y="0" />
+                <rect l="8" t="0" r="44" b="8" />
+              </asset>
+              <asset type="FRAME_L" path="" tileMode="Stretch">
+                <tex x="0" y="0" />
+                <rect l="0" t="8" r="8" b="3" />
+              </asset>
+              <asset type="FRAME_R" path="" tileMode="Stretch">
+                <tex x="0" y="0" />
+                <rect l="0" t="8" r="8" b="3" />
+              </asset>
+              <asset type="CARET" path="">
+                <rpos x="0" y="0" />
+                <rect l="0" t="0" r="0" b="0" />
+              </asset>
+              <pos x="3" y="3" />
+              <rect l="0" t="0" r="60" b="19" />
+              <Visible val="True" />
+              <Anchor val="None" />
+              <Editable val="False" />
+              <OutlineColor val="#FF0000" />
+              <ShadowColor val="#D7C4B8" />
+              <SelectionBrush val="#FF0000" />
+              <color val="#BB5100" />
+              <style val="32" />
+              <halign val="2" />
+              <padding l="0" t="0" r="0" b="0" />
+              <FontName val="나눔고딕" />
+              <FontSize val="13" />
+              <IsHitTestVisible val="True" />
+              <ClipChildren val="False" />
+            </control>
+            <control type="BUTTON" name="CmB_status_1st_DropButton">
+              <asset type="NORMAL">btn_dropmenu_n.png</asset>
+              <asset type="DOWN">btn_dropmenu_d.png</asset>
+              <asset type="OVER">btn_dropmenu_o.png</asset>
+              <asset type="DISABLE">btn_dropmenu_dis.png</asset>
+              <snd type="OVER">
+              </snd>
+              <snd type="DOWN">ui_btn_menu_click</snd>
+              <snd type="RELEASE">
+              </snd>
+              <pos x="63" y="1" />
+              <rect l="0" t="0" r="27" b="27" />
+              <Visible val="True" />
+              <IsHitTestVisible val="True" />
+              <ClipChildren val="False" />
+              <Anchor val="None" />
+              <IsDefaultButton val="False" />
+            </control>
+            <control type="LISTAREA" name="CmB_status_1st_DropList">
+              <asset type="BG" path="dropmenu_04.png" tileMode="Stretch">
+                <tex x="25" y="4" />
+                <rect l="25" t="30" r="28" b="77" />
+              </asset>
+              <asset type="EDGE_LT" path="dropmenu_00.png" tileMode="Stretch">
+                <tex x="25" y="30" />
+                <rect l="0" t="0" r="25" b="30" />
+              </asset>
+              <asset type="EDGE_RT" path="dropmenu_02.png" tileMode="Stretch">
+                <tex x="37" y="30" />
+                <rect l="0" t="0" r="37" b="30" />
+              </asset>
+              <asset type="EDGE_LB" path="dropmenu_06.png" tileMode="Stretch">
+                <tex x="25" y="39" />
+                <rect l="0" t="0" r="25" b="39" />
+              </asset>
+              <asset type="EDGE_RB" path="dropmenu_08.png" tileMode="Stretch">
+                <tex x="37" y="39" />
+                <rect l="0" t="0" r="37" b="39" />
+              </asset>
+              <asset type="FRAME_T" path="dropmenu_01.png" tileMode="Stretch">
+                <tex x="25" y="30" />
+                <rect l="25" t="0" r="28" b="30" />
+              </asset>
+              <asset type="FRAME_B" path="dropmenu_07.png" tileMode="Stretch">
+                <tex x="25" y="39" />
+                <rect l="25" t="0" r="28" b="39" />
+              </asset>
+              <asset type="FRAME_L" path="dropmenu_03.png" tileMode="Stretch">
+                <tex x="25" y="4" />
+                <rect l="0" t="30" r="25" b="77" />
+              </asset>
+              <asset type="FRAME_R" path="dropmenu_05.png" tileMode="Stretch">
+                <tex x="37" y="4" />
+                <rect l="0" t="30" r="37" b="77" />
+              </asset>
+              <control type="VSCROLLBAR" name="CmB_status_1st_DropList_VSlider" horizontal="0">
+                <control type="BUTTON_LT" name="CmB_status_1st_DropList_VScrollBar_TopButton">
+                  <asset type="NORMAL">
+                  </asset>
+                  <asset type="DOWN">
+                  </asset>
+                  <asset type="OVER">
+                  </asset>
+                  <asset type="DISABLE">
+                  </asset>
+                  <snd type="OVER">
+                  </snd>
+                  <snd type="DOWN">
+                  </snd>
+                  <snd type="RELEASE">
+                  </snd>
+                  <pos x="0" y="0" />
+                  <rect l="0" t="0" r="14" b="17" />
+                  <Visible val="True" />
+                  <IsHitTestVisible val="True" />
+                  <ClipChildren val="False" />
+                  <Anchor val="Top, Left, Right" />
+                  <IsDefaultButton val="False" />
+                </control>
+                <control type="THUMB" name="CmB_status_1st_DropList_VScrollBar_Thumb">
+                  <asset type="NORMAL">
+                  </asset>
+                  <asset type="DOWN">
+                  </asset>
+                  <asset type="OVER">
+                  </asset>
+                  <asset type="DISABLE">
+                  </asset>
+                  <snd type="OVER">
+                  </snd>
+                  <snd type="DOWN">
+                  </snd>
+                  <snd type="RELEASE">
+                  </snd>
+                  <pos x="0" y="20" />
+                  <rect l="0" t="0" r="14" b="24" />
+                  <Visible val="True" />
+                  <IsHitTestVisible val="True" />
+                  <ClipChildren val="False" />
+                  <Anchor val="Top, Left, Right" />
+                  <IsDefaultButton val="False" />
+                </control>
+                <control type="BUTTON_RB" name="CmB_status_1st_DropList_VScrollBar_BottomButton">
+                  <asset type="NORMAL">
+                  </asset>
+                  <asset type="DOWN">
+                  </asset>
+                  <asset type="OVER">
+                  </asset>
+                  <asset type="DISABLE">
+                  </asset>
+                  <snd type="OVER">
+                  </snd>
+                  <snd type="DOWN">
+                  </snd>
+                  <snd type="RELEASE">
+                  </snd>
+                  <pos x="0" y="96" />
+                  <rect l="0" t="0" r="14" b="17" />
+                  <Visible val="True" />
+                  <IsHitTestVisible val="True" />
+                  <ClipChildren val="False" />
+                  <Anchor val="Bottom, Left, Right" />
+                  <IsDefaultButton val="False" />
+                </control>
+                <scrollrect l="0" t="17" r="14" b="99" />
+                <Visible val="True" />
+                <Anchor val="Top, Bottom, Right" />
+                <pos x="79" y="16" />
+                <rect l="0" t="0" r="14" b="116" />
+                <IsHitTestVisible val="True" />
+                <ClipChildren val="False" />
+              </control>
+              <control type="HSCROLLBAR" name="CmB_status_1st_DropList_HSlider" horizontal="1">
+              </control>
+              <pos x="-12" y="14" />
+              <rect l="0" t="0" r="90" b="146" />
+              <Visible val="True" />
+              <Anchor val="None" />
+              <padding l="16" t="18" r="16" b="18" />
+              <column val="1" />
+              <itemrect l="0" t="0" r="117" b="20" />
+              <selection val="0" />
+              <deselectable val="0" />
+              <rclickaction val="1" />
+              <IsHitTestVisible val="True" />
+              <ClipChildren val="False" />
+            </control>
+            <pos x="203" y="29" />
+            <rect l="0" t="0" r="90" b="26" />
+            <Visible val="True" />
+            <Anchor val="Top, Left" />
+            <NormalColor val="#1C0F00" />
+            <SelectColor val="#BB5100" />
+            <FontName val="NtreevSoft" />
+            <FontSize val="13" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+          </child>
+          <child type="PICTURE" name="img_sub_2nd" subclass="">
+            <asset type="STATIC">img_popup_sub2.png</asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="345" y="28" />
+            <rect l="0" t="0" r="80" b="26" />
+            <center x="0" y="0" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+            <child type="LABEL" name="lb_mate_horseopt_sub" subclass="">
+              <label val="2nd skill" />
+              <pos x="6" y="3" />
+              <rect l="0" t="0" r="70" b="19" />
+              <Visible val="True" />
+              <Anchor val="Top, Left" />
+              <OutlineColor val="#FF0000" />
+              <ShadowColor val="#FF0000" />
+              <color val="#1C0F00" />
+              <halign val="1" />
+              <valign val="1" />
+              <FontName val="나눔고딕" />
+              <FontSize val="13" />
+              <TextTrimming val="None" />
+              <style val="1" />
+              <IsHitTestVisible val="False" />
+              <ClipChildren val="False" />
+              <Padding val="0, 0, 0, 0" />
+            </child>
+          </child>
+          <child type="PICTURE" name="img_sub_1st" subclass="">
+            <asset type="STATIC">img_popup_sub2.png</asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="123" y="28" />
+            <rect l="0" t="0" r="80" b="26" />
+            <center x="0" y="0" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+            <child type="LABEL" name="lb_mate_horseopt_sub1" subclass="">
+              <label val="1st skill" />
+              <pos x="6" y="3" />
+              <rect l="0" t="0" r="70" b="19" />
+              <Visible val="True" />
+              <Anchor val="Top, Left" />
+              <OutlineColor val="#FF0000" />
+              <ShadowColor val="#FF0000" />
+              <color val="#1C0F00" />
+              <halign val="1" />
+              <valign val="1" />
+              <FontName val="나눔고딕" />
+              <FontSize val="13" />
+              <TextTrimming val="None" />
+              <style val="1" />
+              <IsHitTestVisible val="False" />
+              <ClipChildren val="False" />
+              <Padding val="0, 0, 0, 0" />
+            </child>
+          </child>
+          <child type="PICTURE" name="img_section" subclass="">
+            <asset type="STATIC">login_caret.png</asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="107" y="32" />
+            <rect l="0" t="0" r="2" b="18" />
+            <center x="0" y="0" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+          </child>
+          <child type="LABEL" name="lb_status" subclass="">
+            <label val="Skills" />
+            <pos x="52" y="32" />
+            <rect l="0" t="0" r="46" b="19" />
+            <Visible val="True" />
+            <Anchor val="Top, Left" />
+            <OutlineColor val="#FF0000" />
+            <ShadowColor val="#FF0000" />
+            <color val="#322920" />
+            <halign val="1" />
+            <valign val="1" />
+            <FontName val="나눔고딕" />
+            <FontSize val="14" />
+            <TextTrimming val="None" />
+            <style val="1" />
+            <IsHitTestVisible val="False" />
+            <ClipChildren val="False" />
+            <Padding val="0, 0, 0, 0" />
+          </child>
+        </base>
+        <base type="WNDEX" subclass="" name="mate_horseoption_3dview">
+          <asset type="BG" path="frm_system_b_04.png" tileMode="Stretch">
+            <tex x="13" y="4" />
+            <rect l="13" t="13" r="388" b="422" />
+          </asset>
+          <asset type="EDGE_LT" path="frm_system_b_00.png" tileMode="Stretch">
+            <tex x="13" y="13" />
+            <rect l="0" t="0" r="13" b="13" />
+          </asset>
+          <asset type="EDGE_RT" path="frm_system_b_02.png" tileMode="Stretch">
+            <tex x="19" y="13" />
+            <rect l="0" t="0" r="19" b="13" />
+          </asset>
+          <asset type="EDGE_LB" path="frm_system_b_06.png" tileMode="Stretch">
+            <tex x="13" y="16" />
+            <rect l="0" t="0" r="13" b="16" />
+          </asset>
+          <asset type="EDGE_RB" path="frm_system_b_08.png" tileMode="Stretch">
+            <tex x="19" y="16" />
+            <rect l="0" t="0" r="19" b="16" />
+          </asset>
+          <asset type="FRAME_T" path="frm_system_b_01.png" tileMode="Stretch">
+            <tex x="13" y="13" />
+            <rect l="13" t="0" r="388" b="13" />
+          </asset>
+          <asset type="FRAME_B" path="frm_system_b_07.png" tileMode="Stretch">
+            <tex x="13" y="16" />
+            <rect l="13" t="0" r="388" b="16" />
+          </asset>
+          <asset type="FRAME_L" path="frm_system_b_03.png" tileMode="Stretch">
+            <tex x="13" y="4" />
+            <rect l="0" t="13" r="13" b="422" />
+          </asset>
+          <asset type="FRAME_R" path="frm_system_b_05.png" tileMode="Stretch">
+            <tex x="19" y="4" />
+            <rect l="0" t="13" r="19" b="422" />
+          </asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="11" y="42" />
+          <rect l="0" t="0" r="420" b="451" />
+          <snd type="SHOW">
+          </snd>
+          <snd type="HIDE">
+          </snd>
+          <Dragable val="False" />
+          <StartPosition val="None" />
+          <EscKeyAction val="None" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+          <child type="PICTURE" name="mate_3dview_gradation" subclass="">
+            <asset type="STATIC">mate_3dview_gradation.png</asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="1" y="80" />
+            <rect l="0" t="0" r="414" b="364" />
+            <center x="0" y="0" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+          </child>
+          <child type="PICTURE" name="mate_3dview_nametag" subclass="">
+            <asset type="STATIC">mate_3dview_nametag.png</asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="119" y="406" />
+            <rect l="0" t="0" r="174" b="30" />
+            <center x="0" y="0" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+          </child>
+          <child type="LABEL" name="txt_mate_opt_contentname" subclass="">
+            <label val="" />
+            <pos x="158" y="411" />
+            <rect l="0" t="0" r="130" b="20" />
+            <Visible val="True" />
+            <Anchor val="None" />
+            <OutlineColor val="#FF0000" />
+            <ShadowColor val="#030200" />
+            <color val="#FFFFFF" />
+            <halign val="1" />
+            <valign val="0" />
+            <FontName val="나눔고딕" />
+            <FontSize val="13" />
+            <TextTrimming val="None" />
+            <style val="1" />
+            <IsHitTestVisible val="False" />
+            <ClipChildren val="False" />
+            <Padding val="0, 0, 0, 0" />
+          </child>
+          <child type="PICTURE" name="img_mate_opt_icon" subclass="">
+            <asset type="STATIC">
+            </asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="122" y="409" />
+            <rect l="0" t="0" r="30" b="24" />
+            <center x="0" y="0" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+          </child>
+          <child type="PICTURE" name="bg_3dview" subclass="">
+            <asset type="STATIC">bg_3d_view.png</asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="67" y="3" />
+            <rect l="0" t="0" r="288" b="31" />
+            <center x="0" y="0" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+          </child>
+          <child type="LABEL" name="lb_3dview" subclass="">
+            <label val="3D 전체보기" />
+            <pos x="147" y="3" />
+            <rect l="0" t="0" r="127" b="20" />
+            <Visible val="True" />
+            <Anchor val="None" />
+            <OutlineColor val="#FF0000" />
+            <ShadowColor val="#030200" />
+            <color val="#FFFFFF" />
+            <halign val="1" />
+            <valign val="0" />
+            <FontName val="나눔고딕" />
+            <FontSize val="13" />
+            <TextTrimming val="None" />
+            <style val="1" />
+            <IsHitTestVisible val="False" />
+            <ClipChildren val="False" />
+            <Padding val="0, 0, 0, 0" />
+          </child>
+          <child type="PICTURE" name="mouse_rect" subclass="">
+            <asset type="STATIC">
+            </asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="10" y="39" />
+            <rect l="0" t="0" r="396" b="360" />
+            <center x="0" y="0" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+          </child>
+        </base>
+        <child type="ANIMBUTTON" name="btn_close" subclass="">
+          <asset type="GROUP">breed_option_window_btn_close.xml</asset>
+          <asset type="NORMAL">
+          </asset>
+          <asset type="DOWN">
+          </asset>
+          <asset type="OVER">
+          </asset>
+          <asset type="DISABLE">
+          </asset>
+          <asset type="ENTER">
+          </asset>
+          <asset type="LEAVE">
+          </asset>
+          <snd type="OVER">
+          </snd>
+          <snd type="DOWN">ui_btn_menu_click</snd>
+          <snd type="RELEASE">
+          </snd>
+          <pos x="933" y="12" />
+          <rect l="0" t="0" r="80" b="27" />
+          <Visible val="True" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+          <Anchor val="Top, Right" />
+          <IsDefaultButton val="False" />
+        </child>
+      </base>
+    </child>
+  </base>
+</refresh>

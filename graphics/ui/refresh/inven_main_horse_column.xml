@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="inven_main_horse_column_Animation.xml" />
+  </properties>
+  <base type="WND" subclass="" name="Wnd">
+    <Visible val="True" />
+    <Anchor val="Top, Left" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="130" b="268" />
+    <IsHitTestVisible val="True" />
+    <child type="PICTURE" name="inven_list_horse_n" subclass="">
+      <asset type="STATIC">inven_list_horse_n.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="133" b="268" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+    </child>
+    <child type="PICTURE" name="inven_list_horse_o_ex" subclass="">
+      <asset type="STATIC">inven_list_horse_o_ex.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="133" b="268" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+    </child>
+    <child type="PICTURE" name="inven_list_horse_d" subclass="">
+      <asset type="STATIC">inven_list_horse_d.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="0" y="1" />
+      <rect l="0" t="0" r="133" b="268" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+    </child>
+    <child type="PICTURE" name="icon_horse" subclass="">
+      <asset type="STATIC">
+      </asset>
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <pos x="0" y="3" />
+      <rect l="0" t="0" r="130" b="265" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+    </child>
+    <child type="PICTURE" name="inven_img_horsenamebg" subclass="">
+      <asset type="STATIC">inven_img_horsenamebg.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="0" y="218" />
+      <rect l="0" t="0" r="130" b="47" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+    </child>
+    <child type="LABEL" name="tx_horsename" subclass="">
+      <label val="" />
+      <pos x="0" y="243" />
+      <rect l="0" t="0" r="130" b="19" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#FF0000" />
+      <color val="#FFFFFF" />
+      <halign val="1" />
+      <valign val="1" />
+      <FontName val="나눔고딕" />
+      <FontSize val="13" />
+      <TextTrimming val="None" />
+      <FontName val="나눔고딕" />
+      <IsHitTestVisible val="False" />
+    </child>
+    <child type="LABEL" name="tx_horsegrade" subclass="">
+      <label val="" />
+      <pos x="0" y="225" />
+      <rect l="0" t="0" r="130" b="19" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#FF0000" />
+      <color val="#FFFFFF" />
+      <halign val="1" />
+      <valign val="1" />
+      <FontName val="나눔고딕" />
+      <FontSize val="13" />
+      <TextTrimming val="None" />
+      <FontName val="나눔고딕" />
+      <IsHitTestVisible val="False" />
+    </child>
+    <child type="PICTURE" name="inven_list_horse_o" subclass="">
+      <asset type="STATIC">inven_list_horse_o.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="133" b="268" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+    </child>
+  </base>
+</refresh>

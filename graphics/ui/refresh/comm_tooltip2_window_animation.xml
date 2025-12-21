@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="_Opening_">
+    <asset type="UI" name="asset_comm_tooltip2_wndex">
+      <rect l="0" t="0" r="244" b="92" />
+    </asset>
+    <object name="comm_tooltip2_wndex" ani="ani_comm_tooltip2_wndex">
+      <asset type="UI" link="asset_comm_tooltip2_wndex" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_comm_tooltip2_wndex">
+      <frame cnt="0">
+        <posx val="0.376953125" />
+        <posy val="0.4453125" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.5" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="167">
+        <posx val="0.376953125" />
+        <posy val="0.440104166666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Closing_">
+    <asset type="UI" name="asset_comm_tooltip2_wndex">
+      <rect l="0" t="0" r="244" b="92" />
+    </asset>
+    <object name="comm_tooltip2_wndex" ani="ani_comm_tooltip2_wndex">
+      <asset type="UI" link="asset_comm_tooltip2_wndex" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_comm_tooltip2_wndex">
+      <frame cnt="0">
+        <posx val="0.3769531" />
+        <posy val="0.4401042" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="167">
+        <posx val="0.3769531" />
+        <posy val="0.4401042" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

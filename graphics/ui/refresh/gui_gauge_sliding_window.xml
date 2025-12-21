@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="gui_gauge_sliding_window_Animation.xml" />
+  </properties>
+  <base type="WNDEX" name="gui_gauge_sliding_WndEx">
+    <asset type="BG" path="">
+      <tex x="0" y="0" />
+      <rect l="8" t="8" r="214" b="44" />
+    </asset>
+    <asset type="EDGE_LT" path="">
+      <tex x="0" y="0" />
+      <rect l="0" t="0" r="8" b="8" />
+    </asset>
+    <asset type="EDGE_RT" path="">
+      <tex x="0" y="0" />
+      <rect l="0" t="0" r="8" b="8" />
+    </asset>
+    <asset type="EDGE_LB" path="">
+      <tex x="0" y="0" />
+      <rect l="0" t="0" r="8" b="8" />
+    </asset>
+    <asset type="EDGE_RB" path="">
+      <tex x="0" y="0" />
+      <rect l="0" t="0" r="8" b="8" />
+    </asset>
+    <asset type="FRAME_T" path="">
+      <tex x="0" y="0" />
+      <rect l="8" t="0" r="214" b="8" />
+    </asset>
+    <asset type="FRAME_B" path="">
+      <tex x="0" y="0" />
+      <rect l="8" t="0" r="214" b="8" />
+    </asset>
+    <asset type="FRAME_L" path="">
+      <tex x="0" y="0" />
+      <rect l="0" t="8" r="8" b="44" />
+    </asset>
+    <asset type="FRAME_R" path="">
+      <tex x="0" y="0" />
+      <rect l="0" t="8" r="8" b="44" />
+    </asset>
+    <Visible val="True" />
+    <Anchor val="Top, Left" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="230" b="60" />
+    <Dragable val="False" />
+    <StartPosition val="None" />
+    <EscKeyAction val="None" />
+    <child type="PANEL" name="Panel">
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="230" b="60" />
+      <child type="PICTURE" name="ingame_gauge_sliding_bg">
+        <asset type="STATIC">ingame_gauge_sliding_bg.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="14" y="28" />
+        <rect l="0" t="0" r="202" b="30" />
+        <center x="0" y="0" />
+      </child>
+      <child type="PICTURE" name="ingame_gauge_sliding_bar3">
+        <asset type="STATIC">ingame_gauge_sliding_bar3.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="14" y="28" />
+        <rect l="0" t="0" r="202" b="30" />
+        <center x="0" y="0" />
+      </child>
+      <child type="PICTURE" name="ingame_gauge_sliding_bar2">
+        <asset type="STATIC">ingame_gauge_sliding_bar2.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="14" y="28" />
+        <rect l="0" t="0" r="202" b="30" />
+        <center x="0" y="0" />
+      </child>
+      <child type="PICTURE" name="ingame_gauge_sliding_bar1">
+        <asset type="STATIC">ingame_gauge_sliding_bar1.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="14" y="28" />
+        <rect l="0" t="0" r="202" b="30" />
+        <center x="0" y="0" />
+      </child>
+      <child type="PICTURE" name="ingame_gauge_sliding_highlight">
+        <asset type="ANIMATION">gui_gauge_sliding_window_ingame_gauge_sliding_highlight.xml</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="14" y="28" />
+        <rect l="0" t="0" r="202" b="30" />
+        <center x="0" y="0" />
+      </child>
+    </child>
+    <child type="PICTURE" name="ingame_gauge_sliding_mark">
+      <asset type="STATIC">ingame_gauge_sliding_mark.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="13" y="20" />
+      <rect l="0" t="0" r="22" b="20" />
+      <center x="0" y="0" />
+    </child>
+    <child type="PICTURE" name="ingame_gauge_sliding_endmark3">
+      <asset type="ANIMATION">gui_gauge_sliding_window_ingame_gauge_sliding_endmark3.xml</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="182" y="8" />
+      <rect l="0" t="0" r="40" b="32" />
+      <center x="0" y="0" />
+    </child>
+    <child type="PICTURE" name="ingame_gauge_sliding_endmark2">
+      <asset type="ANIMATION">gui_gauge_sliding_window_ingame_gauge_sliding_endmark2.xml</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="182" y="8" />
+      <rect l="0" t="0" r="40" b="32" />
+      <center x="0" y="0" />
+    </child>
+    <child type="PICTURE" name="ingame_gauge_sliding_endmark1">
+      <asset type="ANIMATION">gui_gauge_sliding_window_ingame_gauge_sliding_endmark1.xml</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="182" y="8" />
+      <rect l="0" t="0" r="40" b="32" />
+      <center x="0" y="0" />
+    </child>
+  </base>
+</refresh>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="img_line_right_Default">
+    <asset type="IMAGE" name="asset_bg_navi_line_right" path="bg_navi_line_right.png">
+      <rect l="0" t="0" r="493" b="50" />
+    </asset>
+    <object name="bg_navi_line_right" ani="ani_bg_navi_line_right">
+      <asset type="IMAGE" link="asset_bg_navi_line_right" />
+    </object>
+    <param type="RES" x="493" y="50" />
+    <param type="LOOP" cnt="-1" pendulum="1" />
+    <anim name="ani_bg_navi_line_right">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.2" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1333">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

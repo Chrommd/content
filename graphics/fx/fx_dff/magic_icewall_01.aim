@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <event animation="">
+        <function>PlayFX($asset, "magic_icewall_app", "dd", "-attach ")</function>
+        <time>0.0317</time>
+        <freq>100</freq>
+    </event>
+    <event animation="">
+        <function>PlaySND($asset, "magic_icewall_attack", "BBOX", "-var 0")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="1st">
+        <function>PlayFX($asset, "magic_icewall_harm", "BBOX", "-attach")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="1st">
+        <function>PlaySND($asset, "magic_icewall_hit", "BBOX", "-var 0 -crash")</function>
+        <time>0.0040</time>
+        <freq>100</freq>
+    </event>
+    <event animation="1st">
+        <function>RelayMsg($asset, "FadeOut", "-time 1")</function>
+        <time>1.2611</time>
+        <freq>100</freq>
+    </event>
+    <event animation="2nd">
+        <function>PlayFX($asset, "magic_icewall_harm", "BBOX", "-attach")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="2nd">
+        <function>PlaySND($asset, "magic_icewall_hit", "BBOX", "-var 0 -crash")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="2nd">
+        <function>RelayMsg($asset, "FadeOut", "-time 1")</function>
+        <time>1.5052</time>
+        <freq>100</freq>
+    </event>
+    <event animation="3rd">
+        <function>PlayFX($asset, "magic_icewall_harm", "BBOX", "-attach")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="3rd">
+        <function>PlaySND($asset, "magic_icewall_hit", "BBOX", "-var 0 -crash")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="3rd">
+        <function>RelayMsg($asset, "FadeOut", "-time 1")</function>
+        <time>2.4983</time>
+        <freq>100</freq>
+    </event>
+    <event animation="diminish_1st">
+        <function>PlaySND($asset, "magic_icewall_hit", "BBOX", "-var 0 -crash")</function>
+        <time>0.0123</time>
+        <freq>100</freq>
+    </event>
+    <event animation="diminish_1st">
+        <function>PlayFX($asset, "magic_icewall_harm", "BBOX", "-attach")</function>
+        <time>0.0153</time>
+        <freq>100</freq>
+    </event>
+    <event animation="diminish_1st">
+        <function>RelayMsg($asset, "FadeOut", "-time 1")</function>
+        <time>1.2557</time>
+        <freq>100</freq>
+    </event>
+    <event animation="diminish_2st">
+        <function>PlaySND($asset, "magic_icewall_hit", "BBOX", "-var 0 -crash")</function>
+        <time>0.0150</time>
+        <freq>100</freq>
+    </event>
+    <event animation="diminish_2st">
+        <function>PlayFX($asset, "magic_icewall_harm", "BBOX", "-attach")</function>
+        <time>0.0200</time>
+        <freq>100</freq>
+    </event>
+    <event animation="diminish_2st">
+        <function>RelayMsg($asset, "FadeOut", "-time 1")</function>
+        <time>1.2053</time>
+        <freq>100</freq>
+    </event>
+    <event animation="diminish_3rd">
+        <function>PlaySND($asset, "magic_icewall_hit", "BBOX", "-var 0 -crash")</function>
+        <time>0.0300</time>
+        <freq>100</freq>
+    </event>
+    <event animation="diminish_3rd">
+        <function>PlayFX($asset, "magic_icewall_harm", "BBOX", "-attach")</function>
+        <time>0.0420</time>
+        <freq>100</freq>
+    </event>
+    <event animation="diminish_3rd">
+        <function>RelayMsg($asset, "FadeOut", "-time 1")</function>
+        <time>2.3045</time>
+        <freq>100</freq>
+    </event>
+    <event animation="diminish_idle">
+        <function>PlayFX($asset, "magic_icewall_hold", "dd", "")</function>
+        <time>0.0191</time>
+        <freq>ONCE</freq>
+    </event>
+    <event animation="diminish_trans">
+        <function>SetOBB($asset, "DIMINISH")</function>
+        <time>1.0358</time>
+        <freq>100</freq>
+    </event>
+    <event animation="diminish_trans">
+        <function>PlayFX($asset, "magic_icewall_hold", "dd", "")</function>
+        <time>0.0620</time>
+        <freq>100</freq>
+    </event>
+    <event animation="idle">
+        <function>PlayFX($asset, "magic_icewall_hold", "dd", "")</function>
+        <time>0.0000</time>
+        <freq>ONCE</freq>
+    </event>
+    <event animation="idle">
+        <function>PlaySND($asset, "magic_icewall_loop", "BBOX", "-var 0")</function>
+        <time>0.0000</time>
+        <freq>ONCE</freq>
+    </event>
+    <dummy name="BBOX" parent="Dummyroot" sync="TRUE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.4600</offsetY>
+        <offsetZ>0.0038</offsetZ>
+    </dummy>
+    <dummy name="dd" parent="Dummyroot" sync="TRUE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.0000</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <action category="" state="APPEAR" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000></main>
+    </action>
+    <action category="" state="BROKEN_1ST" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>1st</main>
+    </action>
+    <action category="" state="BROKEN_2ND" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>2nd</main>
+    </action>
+    <action category="" state="BROKEN_3RD" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>3rd</main>
+    </action>
+    <action category="" state="DIMINISH" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>diminish_trans</main>
+    </action>
+    <action category="" state="DIMINISH_BROKEN_1ST" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>diminish_1st</main>
+    </action>
+    <action category="" state="DIMINISH_BROKEN_2ND" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>diminish_2st</main>
+    </action>
+    <action category="" state="DIMINISH_BROKEN_3RD" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>diminish_3rd</main>
+    </action>
+    <action category="" state="DIMINISH_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>diminish_idle</main>
+    </action>
+    <action category="" state="DISAPPEAR" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>1st</main>
+    </action>
+    <action category="" state="G_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>idle</main>
+    </action>
+</aim>

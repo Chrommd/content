@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <AABB animation="1st">
+        <minX>0.0000</minX>
+        <minY>0.0000</minY>
+        <minZ>-0.2561</minZ>
+        <maxX>0.4239</maxX>
+        <maxY>0.0000</maxY>
+        <maxZ>0.0000</maxZ>
+    </AABB>
+    <AABB animation="2nd">
+        <minX>0.0000</minX>
+        <minY>0.0000</minY>
+        <minZ>-0.2561</minZ>
+        <maxX>0.4239</maxX>
+        <maxY>0.0000</maxY>
+        <maxZ>0.0000</maxZ>
+    </AABB>
+    <AABB animation="3rd">
+        <minX>0.0000</minX>
+        <minY>0.0000</minY>
+        <minZ>-0.2561</minZ>
+        <maxX>0.4239</maxX>
+        <maxY>0.0000</maxY>
+        <maxZ>0.0000</maxZ>
+    </AABB>
+    <event animation="1st">
+        <function>PlayFX($asset, "ob_sgdust_crash_a", "CrashRoot", "-attach ")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="1st">
+        <function>RelayMsg($asset, "FadeOut", "-time 1")</function>
+        <time>1.1000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="1st">
+        <function>PlaySND($asset, "crash_sign01_", "CrashRoot", "-var 3")</function>
+        <time>0.0133</time>
+        <freq>100</freq>
+    </event>
+    <event animation="2nd">
+        <function>PlayFX($asset, "ob_sgdust_crash_b", "CrashRoot", "-attach ")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="2nd">
+        <function>RelayMsg($asset, "FadeOut", "-time 1")</function>
+        <time>1.0233</time>
+        <freq>100</freq>
+    </event>
+    <event animation="2nd">
+        <function>PlaySND($asset, "crash_sign01_", "CrashRoot", "-var 3")</function>
+        <time>0.0033</time>
+        <freq>100</freq>
+    </event>
+    <event animation="3rd">
+        <function>PlayFX($asset, "ob_sgdust_crash_c", "CrashRoot", "-attach ")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="3rd">
+        <function>RelayMsg($asset, "FadeOut", "-time 1")</function>
+        <time>1.0267</time>
+        <freq>100</freq>
+    </event>
+    <event animation="3rd">
+        <function>PlaySND($asset, "crash_sign01_", "CrashRoot", "-var 3")</function>
+        <time>0.0167</time>
+        <freq>100</freq>
+    </event>
+    <dummy name="CrashRoot" parent="DummyRoot" sync="FALSE">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.0000</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <action state="BROKEN_1ST" loop="0" poskey="0" rotkey="0">
+        <main speed=0.0000>1st</main>
+    </action>
+    <action state="BROKEN_2ND" loop="0" poskey="0" rotkey="0">
+        <main speed=0.0000>2nd</main>
+    </action>
+    <action state="BROKEN_3RD" loop="0" poskey="0" rotkey="0">
+        <main speed=0.0000>3rd</main>
+    </action>
+</aim>

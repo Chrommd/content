@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <AABB animation="1st_00">
+        <minX>-1.4307</minX>
+        <minY>0.0000</minY>
+        <minZ>-1.0298</minZ>
+        <maxX>2.0829</maxX>
+        <maxY>0.9304</maxY>
+        <maxZ>1.7101</maxZ>
+    </AABB>
+    <AABB animation="2nd_00">
+        <minX>-1.4307</minX>
+        <minY>0.0000</minY>
+        <minZ>-1.0298</minZ>
+        <maxX>2.0829</maxX>
+        <maxY>0.9304</maxY>
+        <maxZ>1.7101</maxZ>
+    </AABB>
+    <AABB animation="3rd_00">
+        <minX>-1.4307</minX>
+        <minY>0.0000</minY>
+        <minZ>-1.0298</minZ>
+        <maxX>2.0829</maxX>
+        <maxY>0.9304</maxY>
+        <maxZ>1.7101</maxZ>
+    </AABB>
+    <event animation="1st_00">
+        <function>PlayFX($asset, "ob_pot_set_crash_001", "dummy_fx01", "-attach")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="1st_00">
+        <function>PlayFX($asset, "ob_pot_set_crash_001", "dummy_fx02", "-attach")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="1st_00">
+        <function>PlayFX($asset, "ob_pot_set_crash_001", "dummy_fx03", "-attach")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="1st_00">
+        <function>PlaySND($asset, "crash_box02_1", "dummy_fx03", "-var 0")</function>
+        <time>0.0050</time>
+        <freq>100</freq>
+    </event>
+    <event animation="1st_00">
+        <function>RelayMsg($asset, "FadeOut", "-time 1")</function>
+        <time>1.6800</time>
+        <freq>100</freq>
+    </event>
+    <event animation="2nd_00">
+        <function>PlayFX($asset, "ob_pot_set_crash_001", "dummy_fx01", "-attach")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="2nd_00">
+        <function>PlayFX($asset, "ob_pot_set_crash_001", "dummy_fx02", "-attach")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="2nd_00">
+        <function>PlayFX($asset, "ob_pot_set_crash_001", "dummy_fx03", "-attach")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="2nd_00">
+        <function>PlayFX($asset, "ob_funobj_box_crash_001", "dummy_fx01", "")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="2nd_00">
+        <function>PlaySND($asset, "crash_box02_", "dummy_fx03", "-var 3")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="2nd_00">
+        <function>RelayMsg($asset, "FadeOut", "-time 1")</function>
+        <time>1.7246</time>
+        <freq>100</freq>
+    </event>
+    <event animation="3rd_00">
+        <function>PlayFX($asset, "ob_pot_set_crash_001", "dummy_fx01", "-attach")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="3rd_00">
+        <function>PlayFX($asset, "ob_pot_set_crash_001", "dummy_fx02", "-attach")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="3rd_00">
+        <function>PlayFX($asset, "ob_pot_set_crash_001", "dummy_fx03", "-attach")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="3rd_00">
+        <function>PlayFX($asset, "ob_funobj_box_crash_001", "dummy_fx01", "")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="3rd_00">
+        <function>PlaySND($asset, "crash_box02_", "dummy_fx03", "-var 3")</function>
+        <time>0.0100</time>
+        <freq>100</freq>
+    </event>
+    <event animation="3rd_00">
+        <function>RelayMsg($asset, "FadeOut", "-time 1")</function>
+        <time>1.8248</time>
+        <freq>100</freq>
+    </event>
+    <dummy name="dummy_fx01" parent="rel_ani_box02_1" sync="TRUE">
+        <rotationX>0.5421</rotationX>
+        <rotationY>-0.3211</rotationY>
+        <rotationZ>-0.4601</rotationZ>
+        <rotationW>0.6256</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.0000</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <dummy name="dummy_fx02" parent="rel_ani_box02_2" sync="TRUE">
+        <rotationX>-0.0008</rotationX>
+        <rotationY>-0.5354</rotationY>
+        <rotationZ>0.0008</rotationZ>
+        <rotationW>0.8446</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.0000</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <dummy name="dummy_fx03" parent="rel_ani_box02_3" sync="TRUE">
+        <rotationX>0.7106</rotationX>
+        <rotationY>0.6445</rotationY>
+        <rotationZ>0.0252</rotationZ>
+        <rotationW>0.2810</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.0000</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <action state="BROKEN_1ST" loop="0" poskey="0" rotkey="0">
+        <main speed=0.0000>1st_00</main>
+    </action>
+    <action state="BROKEN_2ND" loop="0" poskey="0" rotkey="0">
+        <main speed=0.0000>2nd_00</main>
+    </action>
+    <action state="BROKEN_3RD" loop="0" poskey="0" rotkey="0">
+        <main speed=0.0000>3rd_00</main>
+    </action>
+</aim>

@@ -1,0 +1,46 @@
+﻿<refresh version="2">
+	<properties>
+		<property name="DPI" val="72" />
+		<property name="UIAnimation" val="make_account_cloth_column_Animation.xml" />
+	</properties>
+	<base type="WND" subclass="" name="Wnd_face">
+		<pos x="0" y="0" />
+		<rect l="0" t="0" r="77" b="58" />
+		<Visible val="True" />
+		<Anchor val="Top, Left" />
+		<snd type="SHOW"></snd>
+		<snd type="HIDE"></snd>
+		<IsHitTestVisible val="True" />
+		<ClipChildren val="False" />
+		<child type="PICTURE" name="make_character" subclass="">
+			<asset type="STATIC">make_cloth_0_0.png</asset>
+			<pos x="1" y="1" />
+			<rect l="0" t="0" r="70" b="56" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="slot_b_d0" subclass="">
+			<asset type="STATIC">slot_select_2.png</asset>
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="72" b="58" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="icon_common_select0" subclass="">
+			<asset type="STATIC">icon_common_select.png</asset>
+			<pos x="48" y="4" />
+			<rect l="0" t="0" r="22" b="23" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+		</child>
+	</base>
+</refresh>

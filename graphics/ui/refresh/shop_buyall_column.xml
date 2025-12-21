@@ -1,0 +1,421 @@
+﻿<refresh version="2">
+	<properties>
+		<property name="DPI" val="72" />
+	</properties>
+	<base type="WND" subclass="" name="shop_buyall_column">
+		<pos x="0" y="0" />
+		<rect l="0" t="0" r="412" b="110" />
+		<Visible val="True" />
+		<Anchor val="Top, Left" />
+		<snd type="SHOW"></snd>
+		<snd type="HIDE"></snd>
+		<IsHitTestVisible val="True" />
+		<ClipChildren val="False" />
+		<child type="CHECK" name="check_buy" subclass="">
+			<asset type="NORMAL">checkbox_n.png</asset>
+			<asset type="CHECK">checkbox_d.png</asset>
+			<pos x="13" y="34" />
+			<rect l="0" t="0" r="28" b="28" />
+			<Visible val="True" />
+			<PushSound val="ui_btn_menu_close" />
+			<Anchor val="None" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="img_shop_buyall_iconbg" subclass="">
+			<asset type="STATIC">slot2.png</asset>
+			<pos x="47" y="6" />
+			<rect l="0" t="0" r="109" b="87" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+			<child type="PICTURE" name="img_shop_buyall_itemicon" subclass="">
+				<asset type="STATIC"></asset>
+				<pos x="17" y="5" />
+				<rect l="0" t="0" r="75" b="75" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+		</child>
+		<child type="PICTURE" name="calot_inclusion" subclass="">
+			<asset type="STATIC">calot_inclusion.png</asset>
+			<pos x="40" y="78" />
+			<rect l="0" t="0" r="123" b="26" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<child type="LABEL" name="Label_calot" subclass="">
+				<pos x="9" y="7" />
+				<rect l="0" t="0" r="80" b="14" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<label val="900,000캐롯" />
+				<OutlineColor val="#FFFFFF" />
+				<ShadowColor val="#0000004C" />
+				<color val="#FF7E00FF" />
+				<halign val="2" />
+				<valign val="1" />
+				<FontName val="나눔고딕 ExtraBold" />
+				<FontSize val="12" />
+				<TextTrimming val="None" />
+				<style val="0" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+				<Padding val="0, 0, 0, 0" />
+				<FitToContent val="False" />
+			</child>
+		</child>
+		<child type="PICTURE" name="shop_itemname_bg" subclass="">
+			<asset type="STATIC">shop_itemname_bg.png</asset>
+			<pos x="163" y="7" />
+			<rect l="0" t="0" r="241" b="29" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<child type="LABEL" name="txt_shop_buyall_itemname" subclass="">
+				<pos x="5" y="7" />
+				<rect l="0" t="0" r="231" b="20" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<label val="" />
+				<OutlineColor val="#392518FF" />
+				<ShadowColor val="#392518FF" />
+				<color val="#371B0E" />
+				<halign val="0" />
+				<valign val="0" />
+				<FontName val="나눔고딕 ExtraBold" />
+				<FontSize val="13" />
+				<TextTrimming val="None" />
+				<style val="32" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+				<Padding val="0, 0, 0, 0" />
+				<FitToContent val="False" />
+			</child>
+		</child>
+		<child type="PICTURE" name="img_shop_item_price" subclass="">
+			<asset type="STATIC"></asset>
+			<pos x="161" y="40" />
+			<rect l="0" t="0" r="242" b="30" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+			<base type="WNDEX" subclass="" name="WndEx4">
+				<asset type="BG" path="frm_std_innner_01_CenterMiddle.png" tileMode="Stretch">
+					<tex x="4" y="4" />
+					<rect l="10" t="10" r="222" b="8" />
+				</asset>
+				<asset type="EDGE_LT" path="frm_std_innner_01_LeftTop.png" tileMode="Stretch">
+					<tex x="10" y="10" />
+					<rect l="0" t="0" r="10" b="10" />
+				</asset>
+				<asset type="EDGE_RT" path="frm_std_innner_01_RightTop.png" tileMode="Stretch">
+					<tex x="10" y="10" />
+					<rect l="0" t="0" r="10" b="10" />
+				</asset>
+				<asset type="EDGE_LB" path="frm_std_innner_01_LeftBottom.png" tileMode="Stretch">
+					<tex x="10" y="10" />
+					<rect l="0" t="0" r="10" b="10" />
+				</asset>
+				<asset type="EDGE_RB" path="frm_std_innner_01_RightBottom.png" tileMode="Stretch">
+					<tex x="10" y="10" />
+					<rect l="0" t="0" r="10" b="10" />
+				</asset>
+				<asset type="FRAME_T" path="frm_std_innner_01_CenterTop.png" tileMode="Tile">
+					<tex x="4" y="10" />
+					<rect l="10" t="0" r="222" b="10" />
+				</asset>
+				<asset type="FRAME_B" path="frm_std_innner_01_CenterBottom.png" tileMode="Tile">
+					<tex x="4" y="10" />
+					<rect l="10" t="0" r="222" b="10" />
+				</asset>
+				<asset type="FRAME_L" path="frm_std_innner_01_LeftMiddle.png" tileMode="Tile">
+					<tex x="10" y="4" />
+					<rect l="0" t="10" r="10" b="8" />
+				</asset>
+				<asset type="FRAME_R" path="frm_std_innner_01_RightMiddle.png" tileMode="Tile">
+					<tex x="10" y="4" />
+					<rect l="0" t="10" r="10" b="8" />
+				</asset>
+				<pos x="2" y="0" />
+				<rect l="0" t="0" r="242" b="28" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<snd type="SHOW"></snd>
+				<snd type="HIDE"></snd>
+				<Dragable val="False" />
+				<StartPosition val="None" />
+				<EscKeyAction val="None" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</base>
+			<child type="LABEL" name="txt_shop_item_price" subclass="">
+				<pos x="79" y="2" />
+				<rect l="0" t="0" r="153" b="23" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<label val="" />
+				<OutlineColor val="#FF0000" />
+				<ShadowColor val="#EBDFD8FF" />
+				<color val="#796456FF" />
+				<halign val="2" />
+				<valign val="1" />
+				<FontName val="나눔고딕" />
+				<FontSize val="13" />
+				<TextTrimming val="None" />
+				<style val="1" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+				<Padding val="0, 0, 0, 0" />
+				<FitToContent val="False" />
+			</child>
+			<child type="LABEL" name="lb_shop_item_price" subclass="">
+				<pos x="5" y="1" />
+				<rect l="0" t="0" r="69" b="23" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<label val="영구 소유" />
+				<OutlineColor val="#FF0000" />
+				<ShadowColor val="#EBDFD8FF" />
+				<color val="#796456FF" />
+				<halign val="0" />
+				<valign val="1" />
+				<FontName val="나눔고딕" />
+				<FontSize val="13" />
+				<TextTrimming val="None" />
+				<style val="1" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+				<Padding val="0, 0, 0, 0" />
+				<FitToContent val="False" />
+			</child>
+		</child>
+		<child type="COMBO" name="combo_term" subclass="">
+			<control type="TEXTAREA" name="combo_term_TextArea">
+				<asset type="BG" path="dropbox_CenterMiddle.png" tileMode="Stretch">
+					<tex x="4" y="4" />
+					<rect l="10" t="10" r="222" b="4" />
+				</asset>
+				<asset type="EDGE_LT" path="dropbox_LeftTop.png" tileMode="Stretch">
+					<tex x="10" y="10" />
+					<rect l="0" t="0" r="10" b="10" />
+				</asset>
+				<asset type="EDGE_RT" path="dropbox_RightTop.png" tileMode="Stretch">
+					<tex x="10" y="10" />
+					<rect l="0" t="0" r="10" b="10" />
+				</asset>
+				<asset type="EDGE_LB" path="dropbox_LeftBottom.png" tileMode="Stretch">
+					<tex x="10" y="15" />
+					<rect l="0" t="0" r="10" b="15" />
+				</asset>
+				<asset type="EDGE_RB" path="dropbox_RightBottom.png" tileMode="Stretch">
+					<tex x="10" y="15" />
+					<rect l="0" t="0" r="10" b="15" />
+				</asset>
+				<asset type="FRAME_T" path="dropbox_CenterTop.png" tileMode="Stretch">
+					<tex x="4" y="10" />
+					<rect l="10" t="0" r="222" b="10" />
+				</asset>
+				<asset type="FRAME_B" path="dropbox_CenterBottom.png" tileMode="Stretch">
+					<tex x="4" y="15" />
+					<rect l="10" t="0" r="222" b="15" />
+				</asset>
+				<asset type="FRAME_L" path="dropbox_LeftCenter.png" tileMode="Stretch">
+					<tex x="10" y="4" />
+					<rect l="0" t="10" r="10" b="4" />
+				</asset>
+				<asset type="FRAME_R" path="dropbox_RightMiddle.png" tileMode="Stretch">
+					<tex x="10" y="4" />
+					<rect l="0" t="10" r="10" b="4" />
+				</asset>
+				<asset type="CARET" path="">
+					<rpos x="0" y="0" />
+					<rect l="0" t="0" r="0" b="0" />
+				</asset>
+				<pos x="2" y="-1" />
+				<rect l="0" t="0" r="242" b="29" />
+				<Visible val="True" />
+				<Anchor val="Top, Bottom, Left, Right" />
+				<Editable val="False" />
+				<OutlineColor val="#FF0000" />
+				<ShadowColor val="#EBDFD8" />
+				<SelectionBrush val="#FFFFFFFF" />
+				<color val="#6B5D54FF" />
+				<style val="1" />
+				<halign val="0" />
+				<padding l="76" t="7" r="10" b="2" />
+				<FontName val="나눔고딕" />
+				<FontSize val="13" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+				<FitToContent val="False" />
+				<Text val="" />
+			</control>
+			<control type="BUTTON" name="combo_term_DropButton">
+				<asset type="NORMAL">shop_item_combo_btn_Normal.png</asset>
+				<asset type="DOWN">shop_item_combo_btn_Push.png</asset>
+				<asset type="OVER">shop_item_combo_btn_Hover.png</asset>
+				<asset type="DISABLE">shop_item_combo_btn_Disable.png</asset>
+				<pos x="2" y="-1" />
+				<rect l="0" t="0" r="75" b="28" />
+				<Visible val="True" />
+				<Anchor val="Top, Bottom, Right" />
+				<snd type="OVER"></snd>
+				<snd type="DOWN">ui_btn_menu_click</snd>
+				<snd type="RELEASE">ui_btn_menu_page</snd>
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+				<IsDefaultButton val="False" />
+			</control>
+			<control type="LISTAREA" name="combo_term_DropList">
+				<asset type="BG" path="dropbox_CenterMiddle.png" tileMode="Stretch">
+					<tex x="4" y="4" />
+					<rect l="10" t="10" r="156" b="37" />
+				</asset>
+				<asset type="EDGE_LT" path="dropbox_LeftTop.png" tileMode="Stretch">
+					<tex x="10" y="10" />
+					<rect l="0" t="0" r="10" b="10" />
+				</asset>
+				<asset type="EDGE_RT" path="dropbox_RightTop.png" tileMode="Stretch">
+					<tex x="10" y="10" />
+					<rect l="0" t="0" r="10" b="10" />
+				</asset>
+				<asset type="EDGE_LB" path="dropbox_LeftBottom_01.png" tileMode="Stretch">
+					<tex x="10" y="15" />
+					<rect l="0" t="0" r="10" b="15" />
+				</asset>
+				<asset type="EDGE_RB" path="dropbox_RightBottom.png" tileMode="Stretch">
+					<tex x="10" y="15" />
+					<rect l="0" t="0" r="10" b="15" />
+				</asset>
+				<asset type="FRAME_T" path="dropbox_CenterTop.png" tileMode="Stretch">
+					<tex x="4" y="10" />
+					<rect l="10" t="0" r="156" b="10" />
+				</asset>
+				<asset type="FRAME_B" path="dropbox_CenterBottom.png" tileMode="Stretch">
+					<tex x="4" y="15" />
+					<rect l="10" t="0" r="156" b="15" />
+				</asset>
+				<asset type="FRAME_L" path="dropbox_LeftCenter.png" tileMode="Stretch">
+					<tex x="10" y="4" />
+					<rect l="0" t="10" r="10" b="37" />
+				</asset>
+				<asset type="FRAME_R" path="dropbox_RightMiddle.png" tileMode="Stretch">
+					<tex x="10" y="4" />
+					<rect l="0" t="10" r="10" b="37" />
+				</asset>
+				<control type="VSCROLLBAR" name="combo_term_DropList_VSlider" horizontal="0">
+					<control type="BUTTON_LT" name="combo_term_DropList_VScrollBar_TopButton">
+						<asset type="NORMAL"></asset>
+						<asset type="DOWN"></asset>
+						<asset type="OVER"></asset>
+						<asset type="DISABLE"></asset>
+						<pos x="0" y="0" />
+						<rect l="0" t="0" r="20" b="20" />
+						<Visible val="True" />
+						<Anchor val="Top, Left, Right" />
+						<snd type="OVER"></snd>
+						<snd type="DOWN"></snd>
+						<snd type="RELEASE"></snd>
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+						<IsDefaultButton val="False" />
+					</control>
+					<control type="THUMB" name="combo_term_DropList_VScrollBar_Thumb">
+						<asset type="NORMAL"></asset>
+						<asset type="DOWN"></asset>
+						<asset type="OVER"></asset>
+						<asset type="DISABLE"></asset>
+						<pos x="0" y="20" />
+						<rect l="0" t="0" r="20" b="20" />
+						<Visible val="True" />
+						<Anchor val="Top, Left, Right" />
+						<snd type="OVER"></snd>
+						<snd type="DOWN"></snd>
+						<snd type="RELEASE"></snd>
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+						<IsDefaultButton val="False" />
+					</control>
+					<control type="BUTTON_RB" name="combo_term_DropList_VScrollBar_BottomButton">
+						<asset type="NORMAL"></asset>
+						<asset type="DOWN"></asset>
+						<asset type="OVER"></asset>
+						<asset type="DISABLE"></asset>
+						<pos x="0" y="42" />
+						<rect l="0" t="0" r="20" b="20" />
+						<Visible val="True" />
+						<Anchor val="Bottom, Left, Right" />
+						<snd type="OVER"></snd>
+						<snd type="DOWN"></snd>
+						<snd type="RELEASE"></snd>
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+						<IsDefaultButton val="False" />
+					</control>
+					<pos x="156" y="0" />
+					<rect l="0" t="0" r="20" b="62" />
+					<Visible val="True" />
+					<Anchor val="Top, Bottom, Right" />
+					<scrollrect l="0" t="20" r="20" b="42" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+				</control>
+				<control type="HSCROLLBAR" name="combo_term_DropList_HSlider" horizontal="1"></control>
+				<pos x="68" y="-34" />
+				<rect l="0" t="0" r="176" b="62" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<padding l="12" t="4" r="14" b="2" />
+				<column val="1" />
+				<itemrect l="0" t="0" r="174" b="18" />
+				<selection val="0" />
+				<deselectable val="0" />
+				<rclickaction val="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</control>
+			<pos x="162" y="41" />
+			<rect l="0" t="0" r="251" b="27" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<NormalColor val="#6B5D54FF" />
+			<SelectColor val="#D0470EFF" />
+			<FontName val="나눔고딕 ExtraBold" />
+			<FontSize val="12" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="img_oneprice" subclass="">
+			<asset type="STATIC">shop_item_combo_btn_Hover.png</asset>
+			<pos x="162" y="40" />
+			<rect l="0" t="0" r="75" b="28" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="img_common_lineHorizontal" subclass="">
+			<asset type="STATIC">img_common_lineHorizontal.png</asset>
+			<pos x="14" y="105" />
+			<rect l="0" t="0" r="389" b="4" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+	</base>
+</refresh>

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="icon_care_step_open_Default">
+    <asset type="IMAGE" name="asset_care_slot_open" path="care_slot_open.png">
+      <rect l="0" t="0" r="82" b="82" />
+    </asset>
+    <asset type="IMAGE" name="asset_care_slot_open_text" path="care_slot_open_text.png">
+      <rect l="0" t="0" r="82" b="82" />
+    </asset>
+    <object name="care_slot_open" ani="ani_care_slot_open">
+      <asset type="IMAGE" link="asset_care_slot_open" />
+    </object>
+    <object name="care_slot_open_text" ani="ani_care_slot_open_text">
+      <asset type="IMAGE" link="asset_care_slot_open_text" />
+    </object>
+    <param type="RES" x="82" y="82" />
+    <param type="LOOP" cnt="-1" pendulum="1" />
+    <anim name="ani_care_slot_open">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="833">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_care_slot_open_text">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

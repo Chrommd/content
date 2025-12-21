@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="staplus_glow5_Default">
+    <asset type="IMAGE" name="asset_btn_horseinfo_status_up_Normal_glow" path="btn_horseinfo_status_up_Normal_glow.png">
+      <rect l="0" t="0" r="20" b="20" />
+    </asset>
+    <object name="btn_horseinfo_status_up_Normal_glow" ani="ani_btn_horseinfo_status_up_Normal_glow">
+      <asset type="IMAGE" link="asset_btn_horseinfo_status_up_Normal_glow" />
+    </object>
+    <param type="RES" x="20" y="20" />
+    <param type="LOOP" cnt="-1" pendulum="1" />
+    <anim name="ani_btn_horseinfo_status_up_Normal_glow">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="233">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="400">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

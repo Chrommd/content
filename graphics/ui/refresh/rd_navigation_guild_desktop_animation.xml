@@ -1,0 +1,762 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="_Opening_">
+    <asset type="UI" name="asset_rd_navigaion_desktop">
+      <rect l="0" t="0" r="1024" b="768" />
+    </asset>
+    <asset type="UI" name="asset_guild_record1">
+      <rect l="0" t="0" r="430" b="250" />
+    </asset>
+    <asset type="UI" name="asset_guild_record0">
+      <rect l="0" t="0" r="430" b="250" />
+    </asset>
+    <asset type="UI" name="asset_vs_effect">
+      <rect l="0" t="0" r="193" b="189" />
+    </asset>
+    <asset type="UI" name="asset_VS">
+      <rect l="0" t="0" r="138" b="98" />
+    </asset>
+    <asset type="UI" name="asset_mate_prograss_efc2">
+      <rect l="0" t="0" r="256" b="256" />
+    </asset>
+    <asset type="UI" name="asset_mate_prograss_efc3">
+      <rect l="0" t="0" r="256" b="256" />
+    </asset>
+    <asset type="UI" name="asset_mate_prograss_efc4">
+      <rect l="0" t="0" r="162" b="162" />
+    </asset>
+    <asset type="UI" name="asset_mate_prograss_efc5">
+      <rect l="0" t="0" r="108" b="108" />
+    </asset>
+    <object name="rd_navigaion_desktop" ani="ani_rd_navigaion_desktop">
+      <asset type="UI" link="asset_rd_navigaion_desktop" />
+    </object>
+    <object name="guild_record1" ani="ani_guild_record1">
+      <asset type="UI" link="asset_guild_record1" />
+    </object>
+    <object name="guild_record0" ani="ani_guild_record0">
+      <asset type="UI" link="asset_guild_record0" />
+    </object>
+    <object name="vs_effect" ani="ani_vs_effect">
+      <asset type="UI" link="asset_vs_effect" />
+    </object>
+    <object name="VS" ani="ani_VS">
+      <asset type="UI" link="asset_VS" />
+    </object>
+    <object name="mate_prograss_efc2" ani="ani_mate_prograss_efc2">
+      <asset type="UI" link="asset_mate_prograss_efc2" />
+    </object>
+    <object name="mate_prograss_efc3" ani="ani_mate_prograss_efc3">
+      <asset type="UI" link="asset_mate_prograss_efc3" />
+    </object>
+    <object name="mate_prograss_efc4" ani="ani_mate_prograss_efc4">
+      <asset type="UI" link="asset_mate_prograss_efc4" />
+    </object>
+    <object name="mate_prograss_efc5" ani="ani_mate_prograss_efc5">
+      <asset type="UI" link="asset_mate_prograss_efc5" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_rd_navigaion_desktop">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="-0.001302083" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <sound val="ui_event_guild_versus" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_guild_record1">
+      <frame cnt="0">
+        <posx val="0.677734375" />
+        <posy val="0.00390625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.4814453125" />
+        <posy val="0.00390625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="433">
+        <posx val="0.515625" />
+        <posy val="0.00390625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0.509765625" />
+        <posy val="0.00390625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_guild_record0">
+      <frame cnt="0">
+        <posx val="-0.228515625" />
+        <posy val="0.00390625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.03125" />
+        <posy val="0.00390625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="433">
+        <posx val="-0.005859375" />
+        <posy val="0.00390625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0.00390625" />
+        <posy val="0.00390625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_vs_effect">
+      <frame cnt="0">
+        <posx val="0.32421875" />
+        <posy val="0.0299479166666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="267">
+        <posx val="0.431640625" />
+        <posy val="0.123697916666667" />
+        <scalex val="0.259067357512953" />
+        <scaley val="0.264550264550265" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="300">
+        <posx val="0.3955078125" />
+        <posy val="0.0690104166666667" />
+        <scalex val="0.694300518134715" />
+        <scaley val="0.708994708994709" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="433">
+        <posx val="0.3359375" />
+        <posy val="-0.0377604166666667" />
+        <scalex val="1.55440414507772" />
+        <scaley val="1.58730158730159" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="567">
+        <posx val="0.2197265625" />
+        <posy val="-0.16796875" />
+        <scalex val="2.59067357512953" />
+        <scaley val="2.64550264550265" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_VS">
+      <frame cnt="0">
+        <posx val="0.3642578125" />
+        <posy val="0.126302083333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="233">
+        <posx val="0.3642578125" />
+        <posy val="0.126302083333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="267">
+        <posx val="0.2880859375" />
+        <posy val="0.03515625" />
+        <scalex val="2.36231884057971" />
+        <scaley val="2.35714285714286" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="433">
+        <posx val="0.3955078125" />
+        <posy val="0.126302083333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_mate_prograss_efc2">
+      <frame cnt="0">
+        <posx val="-0.029296875" />
+        <posy val="-0.0338541666666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="200">
+        <posx val="0" />
+        <posy val="-0.00130208333333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="233">
+        <posx val="0.0009765625" />
+        <posy val="-0.00130208333333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.0009765625" />
+        <posy val="-0.00130208333333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="467">
+        <posx val="0.0009765625" />
+        <posy val="-0.00130208333333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="567">
+        <posx val="0.0009765625" />
+        <posy val="-0.00130208333333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="667">
+        <posx val="0.0009765625" />
+        <posy val="-0.00130208333333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="800">
+        <posx val="0.0009765625" />
+        <posy val="-0.00130208333333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_mate_prograss_efc3">
+      <frame cnt="0">
+        <posx val="0.00390625" />
+        <posy val="-0.0638020833333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="200">
+        <posx val="0.001953125" />
+        <posy val="-0.00390625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="233">
+        <posx val="0.0009765625" />
+        <posy val="-0.00130208333333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.0009765625" />
+        <posy val="-0.00130208333333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="433">
+        <posx val="0.0009765625" />
+        <posy val="-0.00130208333333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="533">
+        <posx val="0.0009765625" />
+        <posy val="-0.00130208333333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="700">
+        <posx val="0.0009765625" />
+        <posy val="-0.00130208333333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="800">
+        <posx val="0.0009765625" />
+        <posy val="-0.00130208333333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="900">
+        <posx val="0.0009765625" />
+        <posy val="-0.00130208333333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_mate_prograss_efc4">
+      <frame cnt="0">
+        <posx val="-0.008789063" />
+        <posy val="0.009114583" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="200">
+        <posx val="-0.008789063" />
+        <posy val="0.009114583" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="233">
+        <posx val="-0.008789063" />
+        <posy val="0.009114583" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="367">
+        <posx val="-0.008789063" />
+        <posy val="0.009114583" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="-0.008789063" />
+        <posy val="0.009114583" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="700">
+        <posx val="-0.008789063" />
+        <posy val="0.009114583" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_mate_prograss_efc5">
+      <frame cnt="0">
+        <posx val="0.09960938" />
+        <posy val="0.05989583" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="200">
+        <posx val="0.09960938" />
+        <posy val="0.05989583" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="233">
+        <posx val="0.09960938" />
+        <posy val="0.05989583" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="400">
+        <posx val="0.09960938" />
+        <posy val="0.05989583" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0.09960938" />
+        <posy val="0.05989583" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="633">
+        <posx val="0.09960938" />
+        <posy val="0.05989583" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="767">
+        <posx val="0.09960938" />
+        <posy val="0.05989583" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="867">
+        <posx val="0.09960938" />
+        <posy val="0.05989583" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Closing_">
+    <asset type="UI" name="asset_guild_record1">
+      <rect l="0" t="0" r="430" b="250" />
+    </asset>
+    <asset type="UI" name="asset_guild_record0">
+      <rect l="0" t="0" r="430" b="250" />
+    </asset>
+    <asset type="UI" name="asset_vs_effect">
+      <rect l="0" t="0" r="193" b="189" />
+    </asset>
+    <asset type="UI" name="asset_VS">
+      <rect l="0" t="0" r="138" b="98" />
+    </asset>
+    <asset type="UI" name="asset_Panel_effect">
+      <rect l="0" t="0" r="213" b="172" />
+    </asset>
+    <object name="guild_record1" ani="ani_guild_record1">
+      <asset type="UI" link="asset_guild_record1" />
+    </object>
+    <object name="guild_record0" ani="ani_guild_record0">
+      <asset type="UI" link="asset_guild_record0" />
+    </object>
+    <object name="vs_effect" ani="ani_vs_effect">
+      <asset type="UI" link="asset_vs_effect" />
+    </object>
+    <object name="VS" ani="ani_VS">
+      <asset type="UI" link="asset_VS" />
+    </object>
+    <object name="Panel_effect" ani="ani_Panel_effect">
+      <asset type="UI" link="asset_Panel_effect" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_guild_record1">
+      <frame cnt="0">
+        <posx val="0.509765625" />
+        <posy val="0.00390625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="467">
+        <posx val="0.54296875" />
+        <posy val="0.00390625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_guild_record0">
+      <frame cnt="0">
+        <posx val="0.00390625" />
+        <posy val="0.00390625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="467">
+        <posx val="-0.0322265625" />
+        <posy val="0.00390625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_vs_effect">
+      <frame cnt="0">
+        <posx val="0.3789063" />
+        <posy val="0.02994792" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_VS">
+      <frame cnt="0">
+        <posx val="0.400390625" />
+        <posy val="0.110677083333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="467">
+        <posx val="0.400390625" />
+        <posy val="0.110677083333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_Panel_effect">
+      <frame cnt="0">
+        <posx val="0.3603516" />
+        <posy val="0.046875" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="467">
+        <posx val="0.3603516" />
+        <posy val="0.046875" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

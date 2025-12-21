@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+  </properties>
+  <base type="WND" subclass="" name="care_minigame_Wnd">
+    <Visible val="True" />
+    <Anchor val="Top, Left" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="360" b="60" />
+    <IsHitTestVisible val="True" />
+    <child type="PICTURE" name="img_minigame_barbg" subclass="">
+      <asset type="STATIC">img_minigame_barbg.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="11" y="23" />
+      <rect l="0" t="0" r="339" b="35" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+    </child>
+    <child type="PICTURE" name="img_minigame_bar1" subclass="">
+      <asset type="STATIC">img_minigame_bar1.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="20" y="31" />
+      <rect l="0" t="0" r="2" b="14" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+    </child>
+    <child type="PICTURE" name="img_minigame_bar2" subclass="">
+      <asset type="STATIC">img_minigame_bar2.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="20" y="31" />
+      <rect l="0" t="0" r="2" b="14" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+    </child>
+    <child type="PICTURE" name="img_black_targetarea" subclass="">
+      <asset type="STATIC">
+      </asset>
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <pos x="20" y="31" />
+      <rect l="0" t="0" r="318" b="14" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+    </child>
+    <child type="PICTURE" name="img_minigame_target" subclass="">
+      <asset type="STATIC">ingame_gauge_sliding_endmark1.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="0" y="3" />
+      <rect l="0" t="0" r="40" b="32" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+    </child>
+  </base>
+</refresh>

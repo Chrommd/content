@@ -1,0 +1,82 @@
+﻿<refresh version="2">
+	<properties>
+		<property name="DPI" val="72" />
+	</properties>
+	<base type="WND" subclass="" name="intro_questbtn_dialog">
+		<pos x="0" y="0" />
+		<rect l="0" t="0" r="82" b="62" />
+		<Visible val="True" />
+		<Anchor val="None" />
+		<snd type="SHOW"></snd>
+		<snd type="HIDE"></snd>
+		<IsHitTestVisible val="True" />
+		<ClipChildren val="False" />
+		<base type="WND" subclass="" name="questbtn_Wnd">
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="82" b="62" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<snd type="SHOW"></snd>
+			<snd type="HIDE"></snd>
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<child type="ANIMBUTTON" name="btn_intro_quest_balloon2" subclass="">
+				<asset type="GROUP">Intro_questbtn_dialog_btn_intro_quest_balloon2.xml</asset>
+				<asset type="NORMAL"></asset>
+				<asset type="DOWN"></asset>
+				<asset type="OVER"></asset>
+				<asset type="DISABLE"></asset>
+				<asset type="ENTER"></asset>
+				<asset type="LEAVE"></asset>
+				<pos x="0" y="0" />
+				<rect l="0" t="0" r="82" b="62" />
+				<Visible val="True" />
+				<snd type="OVER"></snd>
+				<snd type="DOWN">ui_btn_menu_click</snd>
+				<snd type="RELEASE">ui_btn_menu_release</snd>
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+				<Anchor val="None" />
+				<IsDefaultButton val="False" />
+			</child>
+			<child type="ANIMBUTTON" name="btn_intro_quest_balloon1" subclass="">
+				<asset type="GROUP">Intro_questbtn_dialog_btn_intro_quest_balloon1.xml</asset>
+				<asset type="NORMAL"></asset>
+				<asset type="DOWN"></asset>
+				<asset type="OVER"></asset>
+				<asset type="DISABLE"></asset>
+				<asset type="ENTER"></asset>
+				<asset type="LEAVE"></asset>
+				<pos x="0" y="0" />
+				<rect l="0" t="0" r="82" b="62" />
+				<Visible val="True" />
+				<snd type="OVER"></snd>
+				<snd type="DOWN">ui_btn_menu_click</snd>
+				<snd type="RELEASE">ui_btn_menu_release</snd>
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+				<Anchor val="None" />
+				<IsDefaultButton val="False" />
+			</child>
+			<child type="ANIMBUTTON" name="btn_intro_quest_balloon" subclass="">
+				<asset type="GROUP">Intro_questbtn_dialog_btn_intro_quest_balloon.xml</asset>
+				<asset type="NORMAL"></asset>
+				<asset type="DOWN"></asset>
+				<asset type="OVER"></asset>
+				<asset type="DISABLE"></asset>
+				<asset type="ENTER"></asset>
+				<asset type="LEAVE"></asset>
+				<pos x="0" y="0" />
+				<rect l="0" t="0" r="82" b="62" />
+				<Visible val="True" />
+				<snd type="OVER"></snd>
+				<snd type="DOWN">ui_btn_menu_click</snd>
+				<snd type="RELEASE">ui_btn_menu_release</snd>
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+				<Anchor val="None" />
+				<IsDefaultButton val="False" />
+			</child>
+		</base>
+	</base>
+</refresh>

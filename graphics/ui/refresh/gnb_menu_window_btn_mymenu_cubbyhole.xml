@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="NORMAL">
+    <asset type="IMAGE" name="asset_qnb_btn_mail_n" path="qnb_btn_cubbyhole_n.png">
+      <rect l="0" t="0" r="38" b="34" />
+    </asset>
+    <object name="qnb_btn_mail_n" ani="ani_qnb_btn_mail_n">
+      <asset type="IMAGE" link="asset_qnb_btn_mail_n" />
+    </object>
+    <param type="RES" x="38" y="34" />
+    <param type="LOOP" cnt="-1" pendulum="0" />
+    <anim name="ani_qnb_btn_mail_n">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="OVER">
+    <asset type="IMAGE" name="asset_qnb_btn_mail_n" path="qnb_btn_cubbyhole_o.png">
+      <rect l="0" t="0" r="39" b="34" />
+    </asset>
+    <object name="qnb_btn_mail_n" ani="ani_qnb_btn_mail_n">
+      <asset type="IMAGE" link="asset_qnb_btn_mail_n" />
+    </object>
+    <param type="RES" x="38" y="34" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_qnb_btn_mail_n">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="0.948717948717949" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="DOWN">
+    <asset type="IMAGE" name="asset_qnb_btn_mail_n" path="qnb_btn_cubbyhole_d.png">
+      <rect l="0" t="0" r="38" b="34" />
+    </asset>
+    <object name="qnb_btn_mail_n" ani="ani_qnb_btn_mail_n">
+      <asset type="IMAGE" link="asset_qnb_btn_mail_n" />
+    </object>
+    <param type="RES" x="38" y="34" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_qnb_btn_mail_n">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="0.973684210526316" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="DISABLE">
+    <asset type="IMAGE" name="asset_qnb_btn_mail_n" path="qnb_btn_cubbyhole_n.png">
+      <rect l="0" t="0" r="38" b="34" />
+    </asset>
+    <object name="qnb_btn_mail_n" ani="ani_qnb_btn_mail_n">
+      <asset type="IMAGE" link="asset_qnb_btn_mail_n" />
+    </object>
+    <param type="RES" x="38" y="34" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_qnb_btn_mail_n">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="0.6578947" />
+        <scaley val="0.5294118" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="ENTER">
+    <param type="RES" x="38" y="34" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+  </scene>
+  <scene name="LEAVE">
+    <param type="RES" x="38" y="34" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+  </scene>
+</rfanimation>

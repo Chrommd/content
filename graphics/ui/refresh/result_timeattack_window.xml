@@ -1,0 +1,562 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="result_timeattack_window_Animation.xml" />
+  </properties>
+  <base type="WNDEX" subclass="" name="WndEx_result_timeattack">
+    <asset type="BG" path="" tileMode="Tile">
+      <tex x="0" y="0" />
+      <rect l="8" t="8" r="1008" b="752" />
+    </asset>
+    <asset type="EDGE_LT" path="" tileMode="Tile">
+      <tex x="0" y="0" />
+      <rect l="0" t="0" r="8" b="8" />
+    </asset>
+    <asset type="EDGE_RT" path="" tileMode="Tile">
+      <tex x="0" y="0" />
+      <rect l="0" t="0" r="8" b="8" />
+    </asset>
+    <asset type="EDGE_LB" path="" tileMode="Tile">
+      <tex x="0" y="0" />
+      <rect l="0" t="0" r="8" b="8" />
+    </asset>
+    <asset type="EDGE_RB" path="" tileMode="Tile">
+      <tex x="0" y="0" />
+      <rect l="0" t="0" r="8" b="8" />
+    </asset>
+    <asset type="FRAME_T" path="" tileMode="Tile">
+      <tex x="0" y="0" />
+      <rect l="8" t="0" r="1008" b="8" />
+    </asset>
+    <asset type="FRAME_B" path="" tileMode="Tile">
+      <tex x="0" y="0" />
+      <rect l="8" t="0" r="1008" b="8" />
+    </asset>
+    <asset type="FRAME_L" path="" tileMode="Tile">
+      <tex x="0" y="0" />
+      <rect l="0" t="8" r="8" b="752" />
+    </asset>
+    <asset type="FRAME_R" path="" tileMode="Tile">
+      <tex x="0" y="0" />
+      <rect l="0" t="8" r="8" b="752" />
+    </asset>
+    <Visible val="True" />
+    <Anchor val="Top, Left, Right" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="1024" b="768" />
+    <snd type="SHOW">
+    </snd>
+    <snd type="HIDE">
+    </snd>
+    <Dragable val="False" />
+    <StartPosition val="None" />
+    <EscKeyAction val="None" />
+    <IsHitTestVisible val="True" />
+    <ClipChildren val="False" />
+    <child type="STACKPANEL" name="StackPanel" subclass="">
+      <Visible val="True" />
+      <Anchor val="Top, Left, Right" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="1024" b="768" />
+      <Orientation val="Vertical" />
+      <HAlign val="Center" />
+      <VAlign val="Center" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <base type="WNDEX" subclass="" name="result_timeattack_title_wndex">
+        <asset type="BG" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="8" t="8" r="1008" b="752" />
+        </asset>
+        <asset type="EDGE_LT" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="EDGE_RT" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="EDGE_LB" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="EDGE_RB" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="FRAME_T" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="8" t="0" r="1008" b="8" />
+        </asset>
+        <asset type="FRAME_B" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="8" t="0" r="1008" b="8" />
+        </asset>
+        <asset type="FRAME_L" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="0" t="8" r="8" b="752" />
+        </asset>
+        <asset type="FRAME_R" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="0" t="8" r="8" b="752" />
+        </asset>
+        <Visible val="True" />
+        <Anchor val="Top" />
+        <pos x="0" y="0" />
+        <rect l="0" t="0" r="1024" b="768" />
+        <snd type="SHOW">
+        </snd>
+        <snd type="HIDE">
+        </snd>
+        <Dragable val="False" />
+        <StartPosition val="None" />
+        <EscKeyAction val="None" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <base type="WNDEX" subclass="" name="result_timeattack">
+          <asset type="BG" path="" tileMode="Stretch">
+            <tex x="4" y="4" />
+            <rect l="167" t="70" r="311" b="64" />
+          </asset>
+          <asset type="EDGE_LT" path="" tileMode="Stretch">
+            <tex x="167" y="70" />
+            <rect l="0" t="0" r="167" b="70" />
+          </asset>
+          <asset type="EDGE_RT" path="" tileMode="Stretch">
+            <tex x="167" y="70" />
+            <rect l="0" t="0" r="167" b="70" />
+          </asset>
+          <asset type="EDGE_LB" path="" tileMode="Stretch">
+            <tex x="167" y="33" />
+            <rect l="0" t="0" r="167" b="33" />
+          </asset>
+          <asset type="EDGE_RB" path="" tileMode="Stretch">
+            <tex x="167" y="33" />
+            <rect l="0" t="0" r="167" b="33" />
+          </asset>
+          <asset type="FRAME_T" path="" tileMode="Stretch">
+            <tex x="4" y="70" />
+            <rect l="167" t="0" r="311" b="70" />
+          </asset>
+          <asset type="FRAME_B" path="" tileMode="Stretch">
+            <tex x="4" y="33" />
+            <rect l="167" t="0" r="311" b="33" />
+          </asset>
+          <asset type="FRAME_L" path="" tileMode="Stretch">
+            <tex x="167" y="4" />
+            <rect l="0" t="70" r="167" b="64" />
+          </asset>
+          <asset type="FRAME_R" path="" tileMode="Stretch">
+            <tex x="167" y="4" />
+            <rect l="0" t="70" r="167" b="64" />
+          </asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="190" y="79" />
+          <rect l="0" t="0" r="645" b="167" />
+          <snd type="SHOW">
+          </snd>
+          <snd type="HIDE">
+          </snd>
+          <Dragable val="False" />
+          <StartPosition val="None" />
+          <EscKeyAction val="None" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+          <child type="PICTURE" name="img_result_timeattack_back_1" subclass="">
+            <asset type="STATIC">img_result_timeattack_back_1.png</asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="0" y="0" />
+            <rect l="0" t="0" r="644" b="54" />
+            <center x="0" y="0" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+            <child type="LIST" name="list_timeattack_1" subclass="">
+              <asset type="BG" path="" tileMode="Tile">
+                <tex x="0" y="0" />
+                <rect l="8" t="8" r="627" b="38" />
+              </asset>
+              <asset type="EDGE_LT" path="" tileMode="Tile">
+                <tex x="0" y="0" />
+                <rect l="0" t="0" r="8" b="8" />
+              </asset>
+              <asset type="EDGE_RT" path="" tileMode="Tile">
+                <tex x="0" y="0" />
+                <rect l="0" t="0" r="8" b="8" />
+              </asset>
+              <asset type="EDGE_LB" path="" tileMode="Tile">
+                <tex x="0" y="0" />
+                <rect l="0" t="0" r="8" b="8" />
+              </asset>
+              <asset type="EDGE_RB" path="" tileMode="Tile">
+                <tex x="0" y="0" />
+                <rect l="0" t="0" r="8" b="8" />
+              </asset>
+              <asset type="FRAME_T" path="" tileMode="Tile">
+                <tex x="0" y="0" />
+                <rect l="8" t="0" r="627" b="8" />
+              </asset>
+              <asset type="FRAME_B" path="" tileMode="Tile">
+                <tex x="0" y="0" />
+                <rect l="8" t="0" r="627" b="8" />
+              </asset>
+              <asset type="FRAME_L" path="" tileMode="Tile">
+                <tex x="0" y="0" />
+                <rect l="0" t="8" r="8" b="38" />
+              </asset>
+              <asset type="FRAME_R" path="" tileMode="Tile">
+                <tex x="0" y="0" />
+                <rect l="0" t="8" r="8" b="38" />
+              </asset>
+              <Visible val="True" />
+              <Anchor val="Top, Left" />
+              <pos x="0" y="0" />
+              <rect l="0" t="0" r="643" b="54" />
+              <padding l="0" t="0" r="0" b="0" />
+              <column val="1" />
+              <itemrect l="0" t="0" r="644" b="26" />
+              <selection val="0" />
+              <deselectable val="0" />
+              <rclickaction val="1" />
+              <IsHitTestVisible val="True" />
+              <Orientation val="Vertical" />
+              <ClipChildren val="False" />
+            </child>
+          </child>
+          <child type="PICTURE" name="img_result_timeattack_back_2" subclass="">
+            <asset type="STATIC">img_result_timeattack_back_1.png</asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="0" y="54" />
+            <rect l="0" t="0" r="644" b="54" />
+            <center x="0" y="0" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+            <child type="LIST" name="list_timeattack_2" subclass="">
+              <asset type="BG" path="" tileMode="Tile">
+                <tex x="0" y="0" />
+                <rect l="8" t="8" r="627" b="38" />
+              </asset>
+              <asset type="EDGE_LT" path="" tileMode="Tile">
+                <tex x="0" y="0" />
+                <rect l="0" t="0" r="8" b="8" />
+              </asset>
+              <asset type="EDGE_RT" path="" tileMode="Tile">
+                <tex x="0" y="0" />
+                <rect l="0" t="0" r="8" b="8" />
+              </asset>
+              <asset type="EDGE_LB" path="" tileMode="Tile">
+                <tex x="0" y="0" />
+                <rect l="0" t="0" r="8" b="8" />
+              </asset>
+              <asset type="EDGE_RB" path="" tileMode="Tile">
+                <tex x="0" y="0" />
+                <rect l="0" t="0" r="8" b="8" />
+              </asset>
+              <asset type="FRAME_T" path="" tileMode="Tile">
+                <tex x="0" y="0" />
+                <rect l="8" t="0" r="627" b="8" />
+              </asset>
+              <asset type="FRAME_B" path="" tileMode="Tile">
+                <tex x="0" y="0" />
+                <rect l="8" t="0" r="627" b="8" />
+              </asset>
+              <asset type="FRAME_L" path="" tileMode="Tile">
+                <tex x="0" y="0" />
+                <rect l="0" t="8" r="8" b="38" />
+              </asset>
+              <asset type="FRAME_R" path="" tileMode="Tile">
+                <tex x="0" y="0" />
+                <rect l="0" t="8" r="8" b="38" />
+              </asset>
+              <Visible val="True" />
+              <Anchor val="Top, Left" />
+              <pos x="0" y="0" />
+              <rect l="0" t="0" r="643" b="54" />
+              <padding l="0" t="0" r="0" b="0" />
+              <column val="1" />
+              <itemrect l="0" t="0" r="644" b="26" />
+              <selection val="0" />
+              <deselectable val="0" />
+              <rclickaction val="1" />
+              <IsHitTestVisible val="True" />
+              <Orientation val="Vertical" />
+              <ClipChildren val="False" />
+            </child>
+          </child>
+          <child type="PICTURE" name="img_result_timeattack_back_3" subclass="">
+            <asset type="STATIC">Result_List_column.png</asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="0" y="108" />
+            <rect l="0" t="0" r="644" b="28" />
+            <center x="0" y="0" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+            <child type="LIST" name="list_timeattack_3" subclass="">
+              <asset type="BG" path="" tileMode="Tile">
+                <tex x="0" y="0" />
+                <rect l="8" t="8" r="628" b="12" />
+              </asset>
+              <asset type="EDGE_LT" path="" tileMode="Tile">
+                <tex x="0" y="0" />
+                <rect l="0" t="0" r="8" b="8" />
+              </asset>
+              <asset type="EDGE_RT" path="" tileMode="Tile">
+                <tex x="0" y="0" />
+                <rect l="0" t="0" r="8" b="8" />
+              </asset>
+              <asset type="EDGE_LB" path="" tileMode="Tile">
+                <tex x="0" y="0" />
+                <rect l="0" t="0" r="8" b="8" />
+              </asset>
+              <asset type="EDGE_RB" path="" tileMode="Tile">
+                <tex x="0" y="0" />
+                <rect l="0" t="0" r="8" b="8" />
+              </asset>
+              <asset type="FRAME_T" path="" tileMode="Tile">
+                <tex x="0" y="0" />
+                <rect l="8" t="0" r="628" b="8" />
+              </asset>
+              <asset type="FRAME_B" path="" tileMode="Tile">
+                <tex x="0" y="0" />
+                <rect l="8" t="0" r="628" b="8" />
+              </asset>
+              <asset type="FRAME_L" path="" tileMode="Tile">
+                <tex x="0" y="0" />
+                <rect l="0" t="8" r="8" b="12" />
+              </asset>
+              <asset type="FRAME_R" path="" tileMode="Tile">
+                <tex x="0" y="0" />
+                <rect l="0" t="8" r="8" b="12" />
+              </asset>
+              <Visible val="True" />
+              <Anchor val="Top, Left" />
+              <pos x="0" y="0" />
+              <rect l="0" t="0" r="644" b="28" />
+              <padding l="0" t="0" r="0" b="0" />
+              <column val="1" />
+              <itemrect l="0" t="0" r="644" b="26" />
+              <selection val="0" />
+              <deselectable val="0" />
+              <rclickaction val="1" />
+              <IsHitTestVisible val="True" />
+              <Orientation val="Vertical" />
+              <ClipChildren val="False" />
+            </child>
+          </child>
+          <child type="PICTURE" name="img_result_timeattack_back_4" subclass="">
+            <asset type="STATIC">Result_List_column.png</asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="0" y="136" />
+            <rect l="0" t="0" r="644" b="28" />
+            <center x="0" y="0" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+            <child type="LIST" name="list_timeattack_4" subclass="">
+              <asset type="BG" path="" tileMode="Tile">
+                <tex x="0" y="0" />
+                <rect l="8" t="8" r="628" b="12" />
+              </asset>
+              <asset type="EDGE_LT" path="" tileMode="Tile">
+                <tex x="0" y="0" />
+                <rect l="0" t="0" r="8" b="8" />
+              </asset>
+              <asset type="EDGE_RT" path="" tileMode="Tile">
+                <tex x="0" y="0" />
+                <rect l="0" t="0" r="8" b="8" />
+              </asset>
+              <asset type="EDGE_LB" path="" tileMode="Tile">
+                <tex x="0" y="0" />
+                <rect l="0" t="0" r="8" b="8" />
+              </asset>
+              <asset type="EDGE_RB" path="" tileMode="Tile">
+                <tex x="0" y="0" />
+                <rect l="0" t="0" r="8" b="8" />
+              </asset>
+              <asset type="FRAME_T" path="" tileMode="Tile">
+                <tex x="0" y="0" />
+                <rect l="8" t="0" r="628" b="8" />
+              </asset>
+              <asset type="FRAME_B" path="" tileMode="Tile">
+                <tex x="0" y="0" />
+                <rect l="8" t="0" r="628" b="8" />
+              </asset>
+              <asset type="FRAME_L" path="" tileMode="Tile">
+                <tex x="0" y="0" />
+                <rect l="0" t="8" r="8" b="12" />
+              </asset>
+              <asset type="FRAME_R" path="" tileMode="Tile">
+                <tex x="0" y="0" />
+                <rect l="0" t="8" r="8" b="12" />
+              </asset>
+              <Visible val="True" />
+              <Anchor val="Top, Left" />
+              <pos x="0" y="0" />
+              <rect l="0" t="0" r="644" b="28" />
+              <padding l="0" t="0" r="0" b="0" />
+              <column val="1" />
+              <itemrect l="0" t="0" r="644" b="26" />
+              <selection val="0" />
+              <deselectable val="0" />
+              <rclickaction val="1" />
+              <IsHitTestVisible val="True" />
+              <Orientation val="Vertical" />
+              <ClipChildren val="False" />
+            </child>
+          </child>
+        </base>
+        <base type="WND" subclass="" name="result_indi_title_Wnd">
+          <Visible val="True" />
+          <Anchor val="Top" />
+          <pos x="187" y="0" />
+          <rect l="0" t="0" r="649" b="83" />
+          <snd type="SHOW">
+          </snd>
+          <snd type="HIDE">
+          </snd>
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+          <child type="PICTURE" name="img_toptab" subclass="">
+            <asset type="STATIC">Result_List_Toptab.png</asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="0" y="0" />
+            <rect l="0" t="0" r="649" b="83" />
+            <center x="0" y="0" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+            <child type="LABEL" name="txt_toptab_myrecord1" subclass="">
+              <label val="분류" />
+              <pos x="34" y="55" />
+              <rect l="0" t="0" r="161" b="17" />
+              <Visible val="True" />
+              <Anchor val="None" />
+              <OutlineColor val="#FF0000" />
+              <ShadowColor val="#38322D" />
+              <color val="#FFFFFFFF" />
+              <halign val="1" />
+              <valign val="1" />
+              <FontName val="나눔고딕 ExtraBold" />
+              <FontSize val="13" />
+              <TextTrimming val="None" />
+              <style val="32" />
+              <IsHitTestVisible val="False" />
+              <ClipChildren val="False" />
+              <Padding val="0, 0, 0, 0" />
+            </child>
+            <child type="LABEL" name="txt_toptab_myrecord" subclass="">
+              <label val="내최고기록" />
+              <pos x="210" y="55" />
+              <rect l="0" t="0" r="129" b="17" />
+              <Visible val="True" />
+              <Anchor val="None" />
+              <OutlineColor val="#FF0000" />
+              <ShadowColor val="#38322D" />
+              <color val="#FFFFFFFF" />
+              <halign val="1" />
+              <valign val="1" />
+              <FontName val="나눔고딕 ExtraBold" />
+              <FontSize val="13" />
+              <TextTrimming val="None" />
+              <style val="32" />
+              <IsHitTestVisible val="False" />
+              <ClipChildren val="False" />
+              <Padding val="0, 0, 0, 0" />
+            </child>
+            <child type="LABEL" name="txt_toptab_nowrecord" subclass="">
+              <label val="이번기록" />
+              <pos x="352" y="55" />
+              <rect l="0" t="0" r="131" b="17" />
+              <Visible val="True" />
+              <Anchor val="None" />
+              <OutlineColor val="#FF0000" />
+              <ShadowColor val="#38322D" />
+              <color val="#FFFFFFFF" />
+              <halign val="1" />
+              <valign val="1" />
+              <FontName val="나눔고딕 ExtraBold" />
+              <FontSize val="13" />
+              <TextTrimming val="None" />
+              <style val="32" />
+              <IsHitTestVisible val="False" />
+              <ClipChildren val="False" />
+              <Padding val="0, 0, 0, 0" />
+            </child>
+            <child type="LABEL" name="txt_toptab_star" subclass="">
+              <label val="기록평가" />
+              <pos x="503" y="55" />
+              <rect l="0" t="0" r="120" b="17" />
+              <Visible val="True" />
+              <Anchor val="None" />
+              <OutlineColor val="#FF0000" />
+              <ShadowColor val="#38322D" />
+              <color val="#FFFFFFFF" />
+              <halign val="1" />
+              <valign val="1" />
+              <FontName val="나눔고딕 ExtraBold" />
+              <FontSize val="13" />
+              <TextTrimming val="None" />
+              <style val="32" />
+              <IsHitTestVisible val="False" />
+              <ClipChildren val="False" />
+              <Padding val="0, 0, 0, 0" />
+            </child>
+            <child type="LABEL" name="txt_title_timeattack" subclass="">
+              <label val="타임어택 결과" />
+              <pos x="209" y="10" />
+              <rect l="0" t="0" r="230" b="23" />
+              <Visible val="True" />
+              <Anchor val="Top, Left" />
+              <OutlineColor val="#FF0000" />
+              <ShadowColor val="#000000" />
+              <color val="#FFFFFF" />
+              <halign val="1" />
+              <valign val="1" />
+              <FontName val="나눔고딕 ExtraBold" />
+              <FontSize val="16" />
+              <TextTrimming val="None" />
+              <style val="32" />
+              <IsHitTestVisible val="False" />
+              <ClipChildren val="False" />
+              <Padding val="0, 0, 0, 0" />
+            </child>
+            <child type="PICTURE" name="result_list_toptab_point" subclass="">
+              <asset type="STATIC">result_list_toptab_point.png</asset>
+              <Visible val="True" />
+              <Anchor val="None" />
+              <pos x="202" y="56" />
+              <rect l="0" t="0" r="3" b="15" />
+              <center x="0" y="0" />
+              <IsHitTestVisible val="True" />
+              <ClipChildren val="False" />
+            </child>
+            <child type="PICTURE" name="result_list_toptab_point2" subclass="">
+              <asset type="STATIC">result_list_toptab_point.png</asset>
+              <Visible val="True" />
+              <Anchor val="None" />
+              <pos x="345" y="56" />
+              <rect l="0" t="0" r="3" b="15" />
+              <center x="0" y="0" />
+              <IsHitTestVisible val="True" />
+              <ClipChildren val="False" />
+            </child>
+            <child type="PICTURE" name="result_list_toptab_point3" subclass="">
+              <asset type="STATIC">result_list_toptab_point.png</asset>
+              <Visible val="True" />
+              <Anchor val="None" />
+              <pos x="488" y="56" />
+              <rect l="0" t="0" r="3" b="15" />
+              <center x="0" y="0" />
+              <IsHitTestVisible val="True" />
+              <ClipChildren val="False" />
+            </child>
+          </child>
+        </base>
+      </base>
+    </child>
+  </base>
+</refresh>

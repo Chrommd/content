@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="myinfo_newrecord_window_Animation.xml" />
+  </properties>
+  <base type="WND" name="anchor">
+    <Visible val="True" />
+    <Anchor val="Top, Bottom, Left, Right" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="1024" b="768" />
+    <child type="STACKPANEL" name="StackPanel">
+      <Visible val="True" />
+      <Anchor val="Top, Bottom, Left, Right" />
+      <pos x="317" y="305" />
+      <rect l="0" t="0" r="390" b="134" />
+      <Orientation val="" />
+      <HAlign val="Center" />
+      <VAlign val="Center" />
+      <base type="WND" name="myinfo_record">
+        <Visible val="True" />
+        <Anchor val="Top, Bottom, Left, Right" />
+        <pos x="-195" y="-67" />
+        <rect l="0" t="0" r="390" b="134" />
+        <base type="WNDEX" name="record_type2">
+          <asset type="BG" path="">
+            <tex x="0" y="0" />
+            <rect l="8" t="8" r="374" b="118" />
+          </asset>
+          <asset type="EDGE_LT" path="">
+            <tex x="0" y="0" />
+            <rect l="0" t="0" r="8" b="8" />
+          </asset>
+          <asset type="EDGE_RT" path="">
+            <tex x="0" y="0" />
+            <rect l="0" t="0" r="8" b="8" />
+          </asset>
+          <asset type="EDGE_LB" path="">
+            <tex x="0" y="0" />
+            <rect l="0" t="0" r="8" b="8" />
+          </asset>
+          <asset type="EDGE_RB" path="">
+            <tex x="0" y="0" />
+            <rect l="0" t="0" r="8" b="8" />
+          </asset>
+          <asset type="FRAME_T" path="">
+            <tex x="0" y="0" />
+            <rect l="8" t="0" r="374" b="8" />
+          </asset>
+          <asset type="FRAME_B" path="">
+            <tex x="0" y="0" />
+            <rect l="8" t="0" r="374" b="8" />
+          </asset>
+          <asset type="FRAME_L" path="">
+            <tex x="0" y="0" />
+            <rect l="0" t="8" r="8" b="118" />
+          </asset>
+          <asset type="FRAME_R" path="">
+            <tex x="0" y="0" />
+            <rect l="0" t="8" r="8" b="118" />
+          </asset>
+          <Visible val="True" />
+          <Anchor val="Top, Bottom, Left, Right" />
+          <pos x="0" y="0" />
+          <rect l="0" t="0" r="390" b="134" />
+          <Dragable val="False" />
+          <StartPosition val="None" />
+          <EscKeyAction val="None" />
+          <child type="PICTURE" name="bg_myinfo_notice2">
+            <asset type="STATIC">bg_myinfo_notice2.png</asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="0" y="0" />
+            <rect l="0" t="0" r="389" b="134" />
+            <center x="0" y="0" />
+          </child>
+          <child type="LABEL" name="txt_record_speed3">
+            <label val="" />
+            <pos x="163" y="93" />
+            <rect l="0" t="0" r="204" b="30" />
+            <Visible val="True" />
+            <Anchor val="None" />
+            <OutlineColor val="#FF0000" />
+            <ShadowColor val="#030200" />
+            <color val="#FAB267" />
+            <halign val="2" />
+            <valign val="0" />
+            <FontName val="나눔명조 ExtraBold" />
+            <FontSize val="21" />
+            <FontName val="나눔고딕" />
+          </child>
+          <child type="LABEL" name="txt_record_speed4">
+            <label val="" />
+            <pos x="162" y="71" />
+            <rect l="0" t="0" r="204" b="18" />
+            <Visible val="True" />
+            <Anchor val="None" />
+            <OutlineColor val="#FF0000" />
+            <ShadowColor val="#030200" />
+            <color val="#D77E20" />
+            <halign val="2" />
+            <valign val="0" />
+            <FontName val="나눔명조 ExtraBold" />
+            <FontSize val="15" />
+            <FontName val="나눔고딕" />
+          </child>
+          <child type="LABEL" name="txt_record_msg">
+            <label val="" />
+            <pos x="91" y="49" />
+            <rect l="0" t="0" r="274" b="21" />
+            <Visible val="True" />
+            <Anchor val="None" />
+            <OutlineColor val="#FF0000" />
+            <ShadowColor val="#030200" />
+            <color val="#FAB267" />
+            <halign val="0" />
+            <valign val="0" />
+            <FontName val="나눔고딕" />
+            <FontSize val="13" />
+            <FontName val="나눔고딕" />
+          </child>
+          <child type="LABEL" name="lb_record_title">
+            <label val="아쉽습니다" />
+            <pos x="95" y="25" />
+            <rect l="0" t="0" r="222" b="20" />
+            <Visible val="True" />
+            <Anchor val="None" />
+            <OutlineColor val="#FF0000" />
+            <ShadowColor val="#030200" />
+            <color val="#FFFFFF" />
+            <halign val="0" />
+            <valign val="0" />
+            <FontName val="나눔명조 ExtraBold" />
+            <FontSize val="18" />
+            <FontName val="나눔고딕" />
+          </child>
+          <child type="PICTURE" name="icon_state2">
+            <asset type="STATIC">
+            </asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="18" y="15" />
+            <rect l="0" t="0" r="66" b="67" />
+            <center x="0" y="0" />
+          </child>
+        </base>
+        <base type="WNDEX" name="record_type1">
+          <asset type="BG" path="">
+            <tex x="0" y="0" />
+            <rect l="8" t="8" r="374" b="118" />
+          </asset>
+          <asset type="EDGE_LT" path="">
+            <tex x="0" y="0" />
+            <rect l="0" t="0" r="8" b="8" />
+          </asset>
+          <asset type="EDGE_RT" path="">
+            <tex x="0" y="0" />
+            <rect l="0" t="0" r="8" b="8" />
+          </asset>
+          <asset type="EDGE_LB" path="">
+            <tex x="0" y="0" />
+            <rect l="0" t="0" r="8" b="8" />
+          </asset>
+          <asset type="EDGE_RB" path="">
+            <tex x="0" y="0" />
+            <rect l="0" t="0" r="8" b="8" />
+          </asset>
+          <asset type="FRAME_T" path="">
+            <tex x="0" y="0" />
+            <rect l="8" t="0" r="374" b="8" />
+          </asset>
+          <asset type="FRAME_B" path="">
+            <tex x="0" y="0" />
+            <rect l="8" t="0" r="374" b="8" />
+          </asset>
+          <asset type="FRAME_L" path="">
+            <tex x="0" y="0" />
+            <rect l="0" t="8" r="8" b="118" />
+          </asset>
+          <asset type="FRAME_R" path="">
+            <tex x="0" y="0" />
+            <rect l="0" t="8" r="8" b="118" />
+          </asset>
+          <Visible val="True" />
+          <Anchor val="Top, Bottom, Left, Right" />
+          <pos x="0" y="0" />
+          <rect l="0" t="0" r="390" b="134" />
+          <Dragable val="False" />
+          <StartPosition val="None" />
+          <EscKeyAction val="None" />
+          <child type="PICTURE" name="bg_myinfo_notice1">
+            <asset type="STATIC">bg_myinfo_notice1.png</asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="0" y="0" />
+            <rect l="0" t="0" r="390" b="134" />
+            <center x="0" y="0" />
+          </child>
+          <child type="LABEL" name="txt_record_speed2">
+            <label val="" />
+            <pos x="163" y="93" />
+            <rect l="0" t="0" r="204" b="30" />
+            <Visible val="True" />
+            <Anchor val="None" />
+            <OutlineColor val="#FF0000" />
+            <ShadowColor val="#030200" />
+            <color val="#FF8C1C" />
+            <halign val="2" />
+            <valign val="0" />
+            <FontName val="나눔명조 ExtraBold" />
+            <FontSize val="21" />
+            <FontName val="나눔고딕" />
+          </child>
+          <child type="LABEL" name="txt_record_speed1">
+            <label val="30" />
+            <pos x="5000" y="5000" />
+            <rect l="0" t="0" r="72" b="19" />
+            <Visible val="True" />
+            <Anchor val="None" />
+            <OutlineColor val="#FF0000" />
+            <ShadowColor val="#030200" />
+            <color val="#8C7054" />
+            <halign val="2" />
+            <valign val="0" />
+            <FontName val="나눔고딕" />
+            <FontSize val="12" />
+            <FontName val="나눔고딕" />
+          </child>
+          <child type="LABEL" name="txt_newrecord_msg">
+            <label val="" />
+            <pos x="91" y="49" />
+            <rect l="0" t="0" r="274" b="21" />
+            <Visible val="True" />
+            <Anchor val="None" />
+            <OutlineColor val="#FF0000" />
+            <ShadowColor val="#030200" />
+            <color val="#FF8C1C" />
+            <halign val="0" />
+            <valign val="0" />
+            <FontName val="나눔고딕" />
+            <FontSize val="13" />
+            <FontName val="나눔고딕" />
+          </child>
+          <child type="LABEL" name="lb_newrecord_title">
+            <label val="축하합니다" />
+            <pos x="95" y="25" />
+            <rect l="0" t="0" r="222" b="20" />
+            <Visible val="True" />
+            <Anchor val="None" />
+            <OutlineColor val="#FF0000" />
+            <ShadowColor val="#030200" />
+            <color val="#FFFFFF" />
+            <halign val="0" />
+            <valign val="0" />
+            <FontName val="나눔명조 ExtraBold" />
+            <FontSize val="19" />
+            <FontName val="나눔고딕" />
+          </child>
+          <child type="PICTURE" name="icon_state1">
+            <asset type="STATIC">
+            </asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="19" y="15" />
+            <rect l="0" t="0" r="66" b="67" />
+            <center x="0" y="0" />
+          </child>
+          <child type="PICTURE" name="bg_new">
+            <asset type="STATIC">icon_newrecord.png</asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="63" y="58" />
+            <rect l="0" t="0" r="41" b="42" />
+            <center x="0" y="0" />
+          </child>
+        </base>
+        <child type="PICTURE" name="bg_sparkle4">
+          <asset type="STATIC">bg_sparkle4.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="225" y="-35" />
+          <rect l="0" t="0" r="109" b="195" />
+          <center x="0" y="0" />
+        </child>
+        <child type="PICTURE" name="bg_sparkle3">
+          <asset type="STATIC">bg_sparkle1.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="225" y="-35" />
+          <rect l="0" t="0" r="109" b="195" />
+          <center x="0" y="0" />
+        </child>
+        <child type="PICTURE" name="bg_sparkle2">
+          <asset type="STATIC">bg_sparkle2.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="225" y="-35" />
+          <rect l="0" t="0" r="109" b="195" />
+          <center x="0" y="0" />
+        </child>
+        <child type="PICTURE" name="bg_sparkle1">
+          <asset type="STATIC">bg_sparkle3.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="225" y="-35" />
+          <rect l="0" t="0" r="109" b="195" />
+          <center x="0" y="0" />
+        </child>
+        <child type="PICTURE" name="bg_sparkle5">
+          <asset type="STATIC">bg_sparkle5.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="22" y="18" />
+          <rect l="0" t="0" r="58" b="58" />
+          <center x="0" y="0" />
+        </child>
+      </base>
+    </child>
+  </base>
+</refresh>

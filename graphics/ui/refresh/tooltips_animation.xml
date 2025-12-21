@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="_Opening_">
+    <asset type="UI" name="asset_tooltip">
+      <rect l="0" t="0" r="36" b="26" />
+    </asset>
+    <object name="tooltip" ani="ani_tooltip">
+      <asset type="UI" link="asset_tooltip" />
+    </object>
+    <param type="RES" x="36" y="26" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_tooltip">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.5" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="133">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Closing_">
+    <param type="RES" x="36" y="26" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+  </scene>
+</rfanimation>

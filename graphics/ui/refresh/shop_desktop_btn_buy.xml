@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="NORMAL">
+    <asset type="IMAGE" name="asset_btn_buy_n" path="btn_buy_n.png">
+      <rect l="0" t="0" r="76" b="42" />
+    </asset>
+    <object name="btn_buy_n" ani="ani_btn_buy_n">
+      <asset type="IMAGE" link="asset_btn_buy_n" />
+    </object>
+    <param type="RES" x="76" y="42" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_btn_buy_n">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="OVER">
+    <asset type="IMAGE" name="asset_btn_buy_n" path="btn_buy_n.png">
+      <rect l="0" t="0" r="76" b="42" />
+    </asset>
+    <asset type="IMAGE" name="asset_btn_buy_o" path="btn_buy_o.png">
+      <rect l="0" t="0" r="76" b="42" />
+    </asset>
+    <object name="btn_buy_n" ani="ani_btn_buy_n">
+      <asset type="IMAGE" link="asset_btn_buy_n" />
+    </object>
+    <object name="btn_buy_o" ani="ani_btn_buy_o">
+      <asset type="IMAGE" link="asset_btn_buy_o" />
+    </object>
+    <param type="RES" x="76" y="42" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_btn_buy_n">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_btn_buy_o">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.5" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="167">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="DOWN">
+    <asset type="IMAGE" name="asset_btn_buy_d" path="btn_buy_d.png">
+      <rect l="0" t="0" r="76" b="42" />
+    </asset>
+    <object name="btn_buy_d" ani="ani_btn_buy_d">
+      <asset type="IMAGE" link="asset_btn_buy_d" />
+    </object>
+    <param type="RES" x="76" y="42" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_btn_buy_d">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="167">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="DISABLE">
+    <asset type="IMAGE" name="asset_btn_buy_dis" path="btn_buy_dis.png">
+      <rect l="0" t="0" r="76" b="42" />
+    </asset>
+    <object name="btn_buy_dis" ani="ani_btn_buy_dis">
+      <asset type="IMAGE" link="asset_btn_buy_dis" />
+    </object>
+    <param type="RES" x="76" y="42" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_btn_buy_dis">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

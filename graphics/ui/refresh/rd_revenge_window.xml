@@ -1,0 +1,338 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="rd_revenge_window_Animation.xml" />
+  </properties>
+  <base type="WND" subclass="" name="revenge">
+    <Visible val="True" />
+    <Anchor val="Bottom, Right" />
+    <pos x="794" y="445" />
+    <rect l="0" t="0" r="230" b="323" />
+    <snd type="SHOW">
+    </snd>
+    <snd type="HIDE">
+    </snd>
+    <IsHitTestVisible val="True" />
+    <ClipChildren val="False" />
+    <child type="PICTURE" name="bg_revenge" subclass="">
+      <asset type="STATIC">bg_revenge.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="21" y="74" />
+      <rect l="0" t="0" r="209" b="99" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="PICTURE" name="bg_revenge_times_2" subclass="">
+      <asset type="STATIC">bg_revenge_times_2.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="67" y="114" />
+      <rect l="0" t="0" r="21" b="58" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="PICTURE" name="bg_revenge_times_1" subclass="">
+      <asset type="STATIC">bg_revenge_times_1.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="52" y="113" />
+      <rect l="0" t="0" r="52" b="53" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="LABEL" name="txt_revenge_times" subclass="">
+      <label val="" />
+      <pos x="58" y="138" />
+      <rect l="0" t="0" r="40" b="17" />
+      <Visible val="True" />
+      <Anchor val="None" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#FF0000" />
+      <color val="#FFFFFF" />
+      <halign val="1" />
+      <valign val="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="13" />
+      <TextTrimming val="None" />
+      <style val="1" />
+      <IsHitTestVisible val="False" />
+      <ClipChildren val="False" />
+      <Padding val="0, 0, 0, 0" />
+    </child>
+    <child type="LABEL" name="lb_revenge_times" subclass="">
+      <label val="기회" />
+      <pos x="58" y="125" />
+      <rect l="0" t="0" r="40" b="17" />
+      <Visible val="True" />
+      <Anchor val="None" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#FF0000" />
+      <color val="#4D230E" />
+      <halign val="1" />
+      <valign val="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="13" />
+      <TextTrimming val="None" />
+      <style val="1" />
+      <IsHitTestVisible val="False" />
+      <ClipChildren val="False" />
+      <Padding val="0, 0, 0, 0" />
+    </child>
+    <child type="PICTURE" name="icon_revenge_shadow" subclass="">
+      <asset type="ANIMATION">rd_revenge_window_icon_revenge_shadow.xml</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="112" y="153" />
+      <rect l="0" t="0" r="26" b="7" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="PANEL" name="boy" subclass="">
+      <Visible val="True" />
+      <Anchor val="None" />
+      <embed src="" />
+      <pos x="75" y="54" />
+      <rect l="0" t="0" r="140" b="122" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <child type="PICTURE" name="icon_girl_1" subclass="">
+        <asset type="ANIMATION">rd_revenge_window_icon_girl_1.xml</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="0" y="0" />
+        <rect l="0" t="0" r="76" b="92" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="PICTURE" name="icon_boy_1" subclass="">
+        <asset type="ANIMATION">rd_revenge_window_icon_boy_1.xml</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="55" y="11" />
+        <rect l="0" t="0" r="85" b="111" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+    </child>
+    <child type="PANEL" name="girl" subclass="">
+      <Visible val="True" />
+      <Anchor val="None" />
+      <embed src="" />
+      <pos x="77" y="55" />
+      <rect l="0" t="0" r="140" b="122" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <child type="PICTURE" name="icon_boy_2" subclass="">
+        <asset type="ANIMATION">rd_revenge_window_icon_boy_2.xml</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="0" y="0" />
+        <rect l="0" t="0" r="76" b="92" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="PICTURE" name="icon_girl_2" subclass="">
+        <asset type="ANIMATION">rd_revenge_window_icon_girl_2.xml</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="51" y="1" />
+        <rect l="0" t="0" r="85" b="118" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+    </child>
+    <child type="LABEL" name="txt_nickname_revenge" subclass="">
+      <label val="" />
+      <pos x="64" y="37" />
+      <rect l="0" t="0" r="122" b="17" />
+      <Visible val="True" />
+      <Anchor val="None" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#030200" />
+      <color val="#FFFFFF" />
+      <halign val="1" />
+      <valign val="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="12" />
+      <TextTrimming val="None" />
+      <style val="32" />
+      <IsHitTestVisible val="False" />
+      <ClipChildren val="False" />
+      <Padding val="0, 0, 0, 0" />
+    </child>
+    <child type="LABEL" name="lb_mynickname" subclass="">
+      <label val="나" />
+      <pos x="163" y="56" />
+      <rect l="0" t="0" r="17" b="17" />
+      <Visible val="True" />
+      <Anchor val="None" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#030200" />
+      <color val="#FFA837" />
+      <halign val="1" />
+      <valign val="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="12" />
+      <TextTrimming val="None" />
+      <style val="33" />
+      <IsHitTestVisible val="False" />
+      <ClipChildren val="False" />
+      <Padding val="0, 0, 0, 0" />
+    </child>
+    <base type="WNDEX" subclass="" name="revenge_bubble">
+      <asset type="BG" path="tooltip_c_04.png" tileMode="Stretch">
+        <tex x="11" y="4" />
+        <rect l="11" t="11" r="97" b="10" />
+      </asset>
+      <asset type="EDGE_LT" path="tooltip_c_00.png" tileMode="Stretch">
+        <tex x="11" y="11" />
+        <rect l="0" t="0" r="11" b="11" />
+      </asset>
+      <asset type="EDGE_RT" path="tooltip_c_02.png" tileMode="Stretch">
+        <tex x="14" y="11" />
+        <rect l="0" t="0" r="14" b="11" />
+      </asset>
+      <asset type="EDGE_LB" path="tooltip_c_06.png" tileMode="Stretch">
+        <tex x="11" y="20" />
+        <rect l="0" t="0" r="11" b="20" />
+      </asset>
+      <asset type="EDGE_RB" path="tooltip_c_08.png" tileMode="Stretch">
+        <tex x="14" y="20" />
+        <rect l="0" t="0" r="14" b="20" />
+      </asset>
+      <asset type="FRAME_T" path="tooltip_c_01.png" tileMode="Stretch">
+        <tex x="11" y="11" />
+        <rect l="11" t="0" r="97" b="11" />
+      </asset>
+      <asset type="FRAME_B" path="tooltip_c_07.png" tileMode="Stretch">
+        <tex x="11" y="20" />
+        <rect l="11" t="0" r="97" b="20" />
+      </asset>
+      <asset type="FRAME_L" path="tooltip_c_03.png" tileMode="Stretch">
+        <tex x="11" y="4" />
+        <rect l="0" t="11" r="11" b="10" />
+      </asset>
+      <asset type="FRAME_R" path="tooltip_c_05.png" tileMode="Stretch">
+        <tex x="14" y="4" />
+        <rect l="0" t="11" r="14" b="10" />
+      </asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="62" y="0" />
+      <rect l="0" t="0" r="122" b="41" />
+      <snd type="SHOW">
+      </snd>
+      <snd type="HIDE">
+      </snd>
+      <Dragable val="False" />
+      <StartPosition val="None" />
+      <EscKeyAction val="None" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </base>
+    <child type="PICTURE" name="img_bubble_line" subclass="">
+      <asset type="STATIC">tooltip_c_line.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="119" y="31" />
+      <rect l="0" t="0" r="11" b="10" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="TEXTAREA" name="txt_notice_revenge" subclass="">
+      <asset type="BG" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="8" t="8" r="80" b="1" />
+      </asset>
+      <asset type="EDGE_LT" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_RT" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_LB" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_RB" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="FRAME_T" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="8" t="0" r="80" b="8" />
+      </asset>
+      <asset type="FRAME_B" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="8" t="0" r="80" b="8" />
+      </asset>
+      <asset type="FRAME_L" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="8" r="8" b="1" />
+      </asset>
+      <asset type="FRAME_R" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="8" r="8" b="1" />
+      </asset>
+      <asset type="CARET" path="">
+        <rpos x="0" y="0" />
+        <rect l="0" t="0" r="0" b="0" />
+      </asset>
+      <pos x="75" y="7" />
+      <rect l="0" t="0" r="96" b="17" />
+      <Visible val="True" />
+      <Anchor val="None" />
+      <Editable val="False" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#030200" />
+      <SelectionBrush val="#FF0000" />
+      <color val="#FFFFFF" />
+      <style val="32" />
+      <halign val="1" />
+      <padding l="0" t="0" r="0" b="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="13" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="ANIMBUTTON" name="btn_revenge_help" subclass="">
+      <asset type="GROUP">rd_revenge_window_btn_revenge_help.xml</asset>
+      <asset type="NORMAL">
+      </asset>
+      <asset type="DOWN">
+      </asset>
+      <asset type="OVER">
+      </asset>
+      <asset type="DISABLE">
+      </asset>
+      <asset type="ENTER">
+      </asset>
+      <asset type="LEAVE">
+      </asset>
+      <snd type="OVER">
+      </snd>
+      <snd type="DOWN">ui_btn_menu_click</snd>
+      <snd type="RELEASE">ui_btn_menu_close</snd>
+      <pos x="173" y="170" />
+      <rect l="0" t="0" r="40" b="40" />
+      <Visible val="True" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <Anchor val="Top, Left" />
+      <IsDefaultButton val="False" />
+    </child>
+  </base>
+</refresh>

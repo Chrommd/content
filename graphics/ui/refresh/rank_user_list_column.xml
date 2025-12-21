@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="rank_user_list_column_Animation.xml" />
+  </properties>
+  <base type="WND" subclass="" name="Wnd_user_list">
+    <Visible val="True" />
+    <Anchor val="Top, Left" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="202" b="24" />
+    <snd type="SHOW">
+    </snd>
+    <snd type="HIDE">
+    </snd>
+    <IsHitTestVisible val="True" />
+    <ClipChildren val="False" />
+    <child type="PICTURE" name="user_list_Push" subclass="">
+      <asset type="STATIC">user_list_Push.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="200" b="22" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="PICTURE" name="user_list_Hover" subclass="">
+      <asset type="STATIC">user_list_Hover.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="201" b="23" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="PICTURE" name="user_list_Select" subclass="">
+      <asset type="STATIC">user_list_Select.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="202" b="24" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="PICTURE" name="icon_user_select" subclass="">
+      <asset type="STATIC">icon_common_select.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="178" y="0" />
+      <rect l="0" t="0" r="22" b="23" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="PICTURE" name="rank" subclass="">
+      <asset type="STATIC">
+      </asset>
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <pos x="2" y="1" />
+      <rect l="0" t="0" r="24" b="20" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="LABEL" name="user_name" subclass="">
+      <label val="캐릭터이름" />
+      <pos x="28" y="2" />
+      <rect l="0" t="0" r="169" b="17" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <OutlineColor val="#FFFFFF" />
+      <ShadowColor val="#0000004C" />
+      <color val="#6B5D54" />
+      <halign val="0" />
+      <valign val="1" />
+      <FontName val="나눔고딕" />
+      <FontSize val="13" />
+      <TextTrimming val="CharacterEllipsis" />
+      <style val="1" />
+      <IsHitTestVisible val="False" />
+      <ClipChildren val="False" />
+      <Padding val="0, 0, 0, 0" />
+    </child>
+    <child type="PICTURE" name="img_common_line_horizon" subclass="">
+      <asset type="STATIC">img_common_line_horizon.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="4" y="23" />
+      <rect l="0" t="0" r="192" b="4" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+  </base>
+</refresh>

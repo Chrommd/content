@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <event animation="1st">
+        <function>PlayFX($asset, "ob_funobj_ston_crash_008", "dum1", "")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="1st">
+        <function>PlayFX($asset, "ob_funobj_ston_akin_001", "dum2", "")</function>
+        <time>0.4833</time>
+        <freq>100</freq>
+    </event>
+    <event animation="1st">
+        <function>PlaySND($asset, "crash_stonebreak_impact", "dum2", "-var 0")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="1st">
+        <function>PlaySND($asset, "crash_stonebreak01_3", "dum2", "-var 0")</function>
+        <time>0.5024</time>
+        <freq>100</freq>
+    </event>
+    <event animation="3rd">
+        <function>PlayFX($asset, "ob_funobj_ston_crash_008", "dum1", "")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="3rd">
+        <function>PlayFX($asset, "ob_funobj_ston_akin_001", "dum2", "")</function>
+        <time>0.4900</time>
+        <freq>100</freq>
+    </event>
+    <event animation="3rd">
+        <function>PlaySND($asset, "crash_stonebreak_impact", "dum2", "-var 0")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="3rd">
+        <function>PlaySND($asset, "crash_stonebreak01_3", "dum2", "-var 0")</function>
+        <time>0.5055</time>
+        <freq>100</freq>
+    </event>
+    <dummy name="dum1" parent="Box01" sync="FALSE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.5349</offsetX>
+        <offsetY>3.5732</offsetY>
+        <offsetZ>-1.4489</offsetZ>
+    </dummy>
+    <dummy name="dum2" parent="Box01" sync="FALSE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>3.0939</offsetX>
+        <offsetY>-0.1499</offsetY>
+        <offsetZ>-0.2398</offsetZ>
+    </dummy>
+    <action category="" state="BROKEN_1ST" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>1st</main>
+    </action>
+    <action category="" state="BROKEN_2ND" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>3rd</main>
+    </action>
+    <action category="" state="BROKEN_3RD" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>3rd</main>
+    </action>
+</aim>

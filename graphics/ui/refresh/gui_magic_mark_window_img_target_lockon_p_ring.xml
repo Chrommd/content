@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="img_target_lockon_p_ring_Default">
+    <asset type="IMAGE" name="asset_img_target_lockon_anemy1" path="img_target_lockon_partner1.png">
+      <rect l="0" t="0" r="72" b="72" />
+    </asset>
+    <object name="img_target_lockon_anemy1" ani="ani_img_target_lockon_anemy1">
+      <asset type="IMAGE" link="asset_img_target_lockon_anemy1" />
+    </object>
+    <param type="RES" x="72" y="72" />
+    <param type="LOOP" cnt="-1" pendulum="0" />
+    <anim name="ani_img_target_lockon_anemy1">
+      <frame cnt="0">
+        <posx val="0.5" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="467">
+        <posx val="0.5" />
+        <posy val="0.5" />
+        <scalex val="1.22222222222222" />
+        <scaley val="1.22222222222222" />
+        <alpha val="1" />
+        <rotate val="175" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="967">
+        <posx val="0.5" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="350" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

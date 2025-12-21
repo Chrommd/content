@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="icon_menu6_new_Default">
+    <asset type="IMAGE" name="asset_icon_tab_new" path="icon_tab_new.png">
+      <rect l="0" t="0" r="38" b="27" />
+    </asset>
+    <object name="icon_tab_new" ani="ani_icon_tab_new">
+      <asset type="IMAGE" link="asset_icon_tab_new" />
+    </object>
+    <param type="RES" x="38" y="27" />
+    <param type="LOOP" cnt="-1" pendulum="0" />
+    <anim name="ani_icon_tab_new">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="267">
+        <posx val="0" easeValue="0.0,0.0,0.3,1.0" />
+        <posy val="-0.148148148148148" easeValue="0.0,0.0,0.3,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" easeValue="0.0,0.0,0.3,1.0" />
+        <centery val="0" easeValue="0.0,0.0,0.3,1.0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0" easeValue="0.0,0.0,0.3,1.0" />
+        <posy val="0.0740740740740741" easeValue="0.0,0.0,0.3,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" easeValue="0.0,0.0,0.3,1.0" />
+        <centery val="0" easeValue="0.0,0.0,0.3,1.0" />
+      </frame>
+      <frame cnt="600">
+        <posx val="0" easeValue="0.0,0.0,0.6,1.0" />
+        <posy val="0" easeValue="0.0,0.0,0.6,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" easeValue="0.0,0.0,0.6,1.0" />
+        <centery val="0" easeValue="0.0,0.0,0.6,1.0" />
+      </frame>
+      <frame cnt="833">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

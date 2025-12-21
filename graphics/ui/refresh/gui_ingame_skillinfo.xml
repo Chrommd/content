@@ -1,0 +1,618 @@
+﻿<refresh version="2">
+	<properties>
+		<property name="DPI" val="72" />
+	</properties>
+	<base type="WND" subclass="" name="wnd_ingame_skillinfo">
+		<pos x="292" y="644" />
+		<rect l="0" t="0" r="441" b="101" />
+		<Visible val="True" />
+		<Anchor val="Top, Left" />
+		<snd type="SHOW"></snd>
+		<snd type="HIDE"></snd>
+		<IsHitTestVisible val="True" />
+		<ClipChildren val="False" />
+		<base type="WND" subclass="" name="wnd_ingame_skillinfo_txt">
+			<pos x="17" y="30" />
+			<rect l="0" t="0" r="441" b="101" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<snd type="SHOW"></snd>
+			<snd type="HIDE"></snd>
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<child type="PICTURE" name="img_ingame_skillback_txt_1" subclass="">
+				<asset type="STATIC">img_ingame_skillback_txt_1.png</asset>
+				<pos x="0" y="13" />
+				<rect l="0" t="0" r="292" b="102" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+				<child type="STACKPANEL" name="StackPanel" subclass="">
+					<pos x="12" y="27" />
+					<rect l="0" t="0" r="128" b="50" />
+					<Visible val="True" />
+					<Anchor val="Top, Left" />
+					<Orientation val="Vertical" />
+					<HAlign val="Center" />
+					<VAlign val="Center" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+					<child type="TEXTAREA" name="ta_ingame_skill_1" subclass="">
+						<asset type="BG" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="8" t="8" r="112" b="34" />
+						</asset>
+						<asset type="EDGE_LT" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="0" t="0" r="8" b="8" />
+						</asset>
+						<asset type="EDGE_RT" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="0" t="0" r="8" b="8" />
+						</asset>
+						<asset type="EDGE_LB" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="0" t="0" r="8" b="8" />
+						</asset>
+						<asset type="EDGE_RB" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="0" t="0" r="8" b="8" />
+						</asset>
+						<asset type="FRAME_T" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="8" t="0" r="112" b="8" />
+						</asset>
+						<asset type="FRAME_B" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="8" t="0" r="112" b="8" />
+						</asset>
+						<asset type="FRAME_L" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="0" t="8" r="8" b="34" />
+						</asset>
+						<asset type="FRAME_R" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="0" t="8" r="8" b="34" />
+						</asset>
+						<asset type="CARET" path="">
+							<rpos x="0" y="0" />
+							<rect l="0" t="0" r="0" b="0" />
+						</asset>
+						<pos x="0" y="0" />
+						<rect l="0" t="0" r="128" b="50" />
+						<Visible val="True" />
+						<Anchor val="Top, Left" />
+						<Editable val="False" />
+						<OutlineColor val="#FFFFFF" />
+						<ShadowColor val="#0000004C" />
+						<SelectionBrush val="#FF0000" />
+						<color val="#F1E4DBFF" />
+						<style val="1" />
+						<halign val="1" />
+						<padding l="3" t="2" r="3" b="2" />
+						<FontName val="나눔고딕" />
+						<FontSize val="13" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+						<FitToContent val="False" />
+						<Text val="" />
+					</child>
+				</child>
+				<child type="STACKPANEL" name="StackPanel1" subclass="">
+					<pos x="152" y="27" />
+					<rect l="0" t="0" r="128" b="50" />
+					<Visible val="True" />
+					<Anchor val="Top, Left" />
+					<Orientation val="Vertical" />
+					<HAlign val="Center" />
+					<VAlign val="Center" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+					<child type="TEXTAREA" name="ta_ingame_skill_2" subclass="">
+						<asset type="BG" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="8" t="8" r="112" b="34" />
+						</asset>
+						<asset type="EDGE_LT" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="0" t="0" r="8" b="8" />
+						</asset>
+						<asset type="EDGE_RT" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="0" t="0" r="8" b="8" />
+						</asset>
+						<asset type="EDGE_LB" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="0" t="0" r="8" b="8" />
+						</asset>
+						<asset type="EDGE_RB" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="0" t="0" r="8" b="8" />
+						</asset>
+						<asset type="FRAME_T" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="8" t="0" r="112" b="8" />
+						</asset>
+						<asset type="FRAME_B" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="8" t="0" r="112" b="8" />
+						</asset>
+						<asset type="FRAME_L" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="0" t="8" r="8" b="34" />
+						</asset>
+						<asset type="FRAME_R" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="0" t="8" r="8" b="34" />
+						</asset>
+						<asset type="CARET" path="">
+							<rpos x="0" y="0" />
+							<rect l="0" t="0" r="0" b="0" />
+						</asset>
+						<pos x="0" y="0" />
+						<rect l="0" t="0" r="128" b="50" />
+						<Visible val="True" />
+						<Anchor val="Top, Left" />
+						<Editable val="False" />
+						<OutlineColor val="#FFFFFF" />
+						<ShadowColor val="#0000004C" />
+						<SelectionBrush val="#FF0000" />
+						<color val="#F1E4DBFF" />
+						<style val="1" />
+						<halign val="1" />
+						<padding l="3" t="2" r="3" b="2" />
+						<FontName val="나눔고딕" />
+						<FontSize val="13" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+						<FitToContent val="False" />
+						<Text val="" />
+					</child>
+				</child>
+				<child type="LABEL" name="lb_ingame_skill_name_1" subclass="">
+					<pos x="12" y="13" />
+					<rect l="0" t="0" r="128" b="13" />
+					<Visible val="True" />
+					<Anchor val="Top, Left" />
+					<label val="스킬 이름" />
+					<OutlineColor val="#FFFFFF" />
+					<ShadowColor val="#0000004C" />
+					<color val="#EBA652FF" />
+					<halign val="1" />
+					<valign val="1" />
+					<FontName val="나눔고딕" />
+					<FontSize val="13" />
+					<TextTrimming val="None" />
+					<style val="1" />
+					<IsHitTestVisible val="False" />
+					<ClipChildren val="False" />
+					<Padding val="0, 0, 0, 0" />
+					<FitToContent val="False" />
+				</child>
+				<child type="LABEL" name="lb_ingame_skill_name_2" subclass="">
+					<pos x="152" y="13" />
+					<rect l="0" t="0" r="128" b="13" />
+					<Visible val="True" />
+					<Anchor val="Top, Left" />
+					<label val="스킬 이름" />
+					<OutlineColor val="#FFFFFF" />
+					<ShadowColor val="#0000004C" />
+					<color val="#EBA652FF" />
+					<halign val="1" />
+					<valign val="1" />
+					<FontName val="나눔고딕" />
+					<FontSize val="13" />
+					<TextTrimming val="None" />
+					<style val="1" />
+					<IsHitTestVisible val="False" />
+					<ClipChildren val="False" />
+					<Padding val="0, 0, 0, 0" />
+					<FitToContent val="False" />
+				</child>
+			</child>
+			<child type="PICTURE" name="img_ingame_skillback_txt_2" subclass="">
+				<asset type="STATIC">img_ingame_skillback_txt_2.png</asset>
+				<pos x="290" y="13" />
+				<rect l="0" t="0" r="152" b="90" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+				<child type="STACKPANEL" name="StackPanel2" subclass="">
+					<pos x="12" y="27" />
+					<rect l="0" t="0" r="128" b="50" />
+					<Visible val="True" />
+					<Anchor val="Top, Left" />
+					<Orientation val="Vertical" />
+					<HAlign val="Center" />
+					<VAlign val="Center" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+					<child type="TEXTAREA" name="ta_ingame_skill_3" subclass="">
+						<asset type="BG" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="8" t="8" r="112" b="34" />
+						</asset>
+						<asset type="EDGE_LT" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="0" t="0" r="8" b="8" />
+						</asset>
+						<asset type="EDGE_RT" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="0" t="0" r="8" b="8" />
+						</asset>
+						<asset type="EDGE_LB" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="0" t="0" r="8" b="8" />
+						</asset>
+						<asset type="EDGE_RB" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="0" t="0" r="8" b="8" />
+						</asset>
+						<asset type="FRAME_T" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="8" t="0" r="112" b="8" />
+						</asset>
+						<asset type="FRAME_B" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="8" t="0" r="112" b="8" />
+						</asset>
+						<asset type="FRAME_L" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="0" t="8" r="8" b="34" />
+						</asset>
+						<asset type="FRAME_R" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="0" t="8" r="8" b="34" />
+						</asset>
+						<asset type="CARET" path="">
+							<rpos x="0" y="0" />
+							<rect l="0" t="0" r="0" b="0" />
+						</asset>
+						<pos x="0" y="0" />
+						<rect l="0" t="0" r="128" b="50" />
+						<Visible val="True" />
+						<Anchor val="Top, Left" />
+						<Editable val="False" />
+						<OutlineColor val="#FFFFFF" />
+						<ShadowColor val="#0000004C" />
+						<SelectionBrush val="#FF0000" />
+						<color val="#F1E4DBFF" />
+						<style val="1" />
+						<halign val="1" />
+						<padding l="3" t="2" r="3" b="2" />
+						<FontName val="나눔고딕" />
+						<FontSize val="13" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+						<FitToContent val="False" />
+						<Text val="" />
+					</child>
+				</child>
+				<child type="LABEL" name="lb_ingame_skill_name_3" subclass="">
+					<pos x="12" y="13" />
+					<rect l="0" t="0" r="128" b="13" />
+					<Visible val="True" />
+					<Anchor val="Top, Left" />
+					<label val="스킬 이름" />
+					<OutlineColor val="#FFFFFF" />
+					<ShadowColor val="#0000004C" />
+					<color val="#EBA652FF" />
+					<halign val="1" />
+					<valign val="1" />
+					<FontName val="나눔고딕" />
+					<FontSize val="13" />
+					<TextTrimming val="None" />
+					<style val="1" />
+					<IsHitTestVisible val="False" />
+					<ClipChildren val="False" />
+					<Padding val="0, 0, 0, 0" />
+					<FitToContent val="False" />
+				</child>
+			</child>
+			<child type="PICTURE" name="effect_ingame_skillback_txt_in_1" subclass="">
+				<asset type="ANIMATION">gui_ingame_skillinfo_effect_ingame_skillback_txt_in_1.xml</asset>
+				<pos x="-38" y="-57" />
+				<rect l="0" t="0" r="229" b="231" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="effect_ingame_skillback_txt_in_2" subclass="">
+				<asset type="ANIMATION">gui_ingame_skillinfo_effect_ingame_skillback_txt_in_2.xml</asset>
+				<pos x="101" y="-58" />
+				<rect l="0" t="0" r="229" b="231" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="effect_ingame_skillback_txt_in_3" subclass="">
+				<asset type="ANIMATION">gui_ingame_skillinfo_effect_ingame_skillback_txt_in_3.xml</asset>
+				<pos x="252" y="-57" />
+				<rect l="0" t="0" r="229" b="231" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="effect_ingame_skillback_txt_loop_1" subclass="">
+				<asset type="ANIMATION">gui_ingame_skillinfo_effect_ingame_skillback_txt_loop_1.xml</asset>
+				<pos x="9" y="22" />
+				<rect l="0" t="0" r="134" b="71" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="effect_ingame_skillback_txt_loop_2" subclass="">
+				<asset type="ANIMATION">gui_ingame_skillinfo_effect_ingame_skillback_txt_loop_2.xml</asset>
+				<pos x="149" y="22" />
+				<rect l="0" t="0" r="134" b="71" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="effect_ingame_skillback_txt_loop_3" subclass="">
+				<asset type="ANIMATION">gui_ingame_skillinfo_effect_ingame_skillback_txt_loop_3.xml</asset>
+				<pos x="299" y="22" />
+				<rect l="0" t="0" r="134" b="71" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="skill_cooltime1_0" subclass="">
+				<asset type="STATIC"></asset>
+				<pos x="10" y="21" />
+				<rect l="0" t="0" r="134" b="74" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="skill_cooltime1_1" subclass="">
+				<asset type="STATIC"></asset>
+				<pos x="149" y="21" />
+				<rect l="0" t="0" r="134" b="74" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="skill_cooltime1_2" subclass="">
+				<asset type="STATIC"></asset>
+				<pos x="299" y="21" />
+				<rect l="0" t="0" r="134" b="74" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="img_ingame_skillback_icon_bonus1" subclass="">
+				<asset type="STATIC">img_ingame_skillback_icon_bonus.png</asset>
+				<pos x="365" y="84" />
+				<rect l="0" t="0" r="76" b="20" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="ingame_item_event_tab_0" subclass="">
+				<asset type="STATIC">ingame_item_event_00_tab.png</asset>
+				<pos x="0" y="-19" />
+				<rect l="0" t="0" r="149" b="34" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="ingame_item_event_tab_1" subclass="">
+				<asset type="STATIC">ingame_item_event_01_tab.png</asset>
+				<pos x="145" y="-19" />
+				<rect l="0" t="0" r="149" b="34" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+		</base>
+		<base type="WND" subclass="" name="wnd_ingame_skillinfo_icon">
+			<pos x="127" y="49" />
+			<rect l="0" t="0" r="220" b="77" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<snd type="SHOW"></snd>
+			<snd type="HIDE"></snd>
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<child type="PICTURE" name="img_ingame_skillback_icon_1" subclass="">
+				<asset type="STATIC">img_ingame_skillback_icon_1.png</asset>
+				<pos x="0" y="0" />
+				<rect l="0" t="0" r="142" b="78" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+				<child type="PICTURE" name="icon_ingame_skill_1" subclass="">
+					<asset type="STATIC"></asset>
+					<pos x="10" y="9" />
+					<rect l="0" t="0" r="60" b="60" />
+					<Visible val="True" />
+					<Anchor val="Top, Left" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+				</child>
+				<child type="PICTURE" name="icon_ingame_skill_2" subclass="">
+					<asset type="STATIC"></asset>
+					<pos x="73" y="9" />
+					<rect l="0" t="0" r="60" b="60" />
+					<Visible val="True" />
+					<Anchor val="Top, Left" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+				</child>
+			</child>
+			<child type="PICTURE" name="img_ingame_skillback_icon_2" subclass="">
+				<asset type="STATIC">img_ingame_skillback_icon_2.png</asset>
+				<pos x="140" y="0" />
+				<rect l="0" t="0" r="80" b="78" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+				<child type="PICTURE" name="icon_ingame_skill_3" subclass="">
+					<asset type="STATIC"></asset>
+					<pos x="10" y="9" />
+					<rect l="0" t="0" r="60" b="60" />
+					<Visible val="True" />
+					<Anchor val="Top, Left" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+				</child>
+			</child>
+			<child type="PICTURE" name="effect_ingame_skillback_icon_in_1" subclass="">
+				<asset type="ANIMATION">gui_ingame_skillinfo_effect_ingame_skillback_icon_in_1.xml</asset>
+				<pos x="-42" y="-43" />
+				<rect l="0" t="0" r="163" b="164" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="effect_ingame_skillback_icon_in_2" subclass="">
+				<asset type="ANIMATION">gui_ingame_skillinfo_effect_ingame_skillback_icon_in_2.xml</asset>
+				<pos x="21" y="-43" />
+				<rect l="0" t="0" r="163" b="164" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="effect_ingame_skillback_icon_in_3" subclass="">
+				<asset type="ANIMATION">gui_ingame_skillinfo_effect_ingame_skillback_icon_in_3.xml</asset>
+				<pos x="99" y="-43" />
+				<rect l="0" t="0" r="163" b="164" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="effect_ingame_skillback_icon_loop_1" subclass="">
+				<asset type="ANIMATION">gui_ingame_skillinfo_effect_ingame_skillback_icon_loop_1.xml</asset>
+				<pos x="10" y="10" />
+				<rect l="0" t="0" r="56" b="56" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="effect_ingame_skillback_icon_loop_2" subclass="">
+				<asset type="ANIMATION">gui_ingame_skillinfo_effect_ingame_skillback_icon_loop_2.xml</asset>
+				<pos x="74" y="10" />
+				<rect l="0" t="0" r="56" b="56" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="effect_ingame_skillback_icon_loop_3" subclass="">
+				<asset type="ANIMATION">gui_ingame_skillinfo_effect_ingame_skillback_icon_loop_3.xml</asset>
+				<pos x="150" y="10" />
+				<rect l="0" t="0" r="56" b="56" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="skill_cooltime_0" subclass="">
+				<asset type="STATIC"></asset>
+				<pos x="7" y="7" />
+				<rect l="0" t="0" r="64" b="64" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="skill_cooltime_1" subclass="">
+				<asset type="STATIC"></asset>
+				<pos x="71" y="7" />
+				<rect l="0" t="0" r="64" b="64" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="skill_cooltime_2" subclass="">
+				<asset type="STATIC"></asset>
+				<pos x="149" y="7" />
+				<rect l="0" t="0" r="64" b="64" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="img_ingame_skillback_icon_bonus" subclass="">
+				<asset type="STATIC">img_ingame_skillback_icon_bonus.png</asset>
+				<pos x="143" y="59" />
+				<rect l="0" t="0" r="76" b="20" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="ingame_item_event_1" subclass="">
+				<asset type="STATIC">ingame_item_event_01.png</asset>
+				<pos x="39" y="-37" />
+				<rect l="0" t="0" r="40" b="38" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="ingame_item_event_0" subclass="">
+				<asset type="STATIC">ingame_item_event_00.png</asset>
+				<pos x="1" y="-37" />
+				<rect l="0" t="0" r="40" b="38" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+		</base>
+	</base>
+</refresh>

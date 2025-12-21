@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="img_grow_status_spirit_Default">
+    <asset type="IMAGE" name="asset_icon_horseinfo_spirit" path="icon_horseinfo_spirit.png">
+      <rect l="0" t="0" r="73" b="73" />
+    </asset>
+    <object name="icon_horseinfo_spirit" ani="ani_icon_horseinfo_spirit">
+      <asset type="IMAGE" link="asset_icon_horseinfo_spirit" />
+    </object>
+    <param type="RES" x="73" y="73" />
+    <param type="LOOP" cnt="-1" pendulum="1" />
+    <anim name="ani_icon_horseinfo_spirit">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="667">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,0.0,0.6,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

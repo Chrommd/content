@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="game_tooltip_window_Animation.xml" />
+  </properties>
+  <base type="WNDEX" name="game_tooltip1">
+    <asset type="BG" path="tooltip_b_04.png">
+      <tex x="14" y="14" />
+      <rect l="14" t="14" r="129" b="61" />
+    </asset>
+    <asset type="EDGE_LT" path="tooltip_b_00.png">
+      <tex x="14" y="14" />
+      <rect l="0" t="0" r="14" b="14" />
+    </asset>
+    <asset type="EDGE_RT" path="tooltip_b_02.png">
+      <tex x="17" y="14" />
+      <rect l="0" t="0" r="17" b="14" />
+    </asset>
+    <asset type="EDGE_LB" path="tooltip_b_06.png">
+      <tex x="14" y="18" />
+      <rect l="0" t="0" r="14" b="18" />
+    </asset>
+    <asset type="EDGE_RB" path="tooltip_b_08.png">
+      <tex x="17" y="18" />
+      <rect l="0" t="0" r="17" b="18" />
+    </asset>
+    <asset type="FRAME_T" path="tooltip_b_01.png">
+      <tex x="14" y="14" />
+      <rect l="14" t="0" r="129" b="14" />
+    </asset>
+    <asset type="FRAME_B" path="tooltip_b_07.png">
+      <tex x="14" y="18" />
+      <rect l="14" t="0" r="129" b="18" />
+    </asset>
+    <asset type="FRAME_L" path="tooltip_b_03.png">
+      <tex x="14" y="14" />
+      <rect l="0" t="14" r="14" b="61" />
+    </asset>
+    <asset type="FRAME_R" path="tooltip_b_05.png">
+      <tex x="17" y="14" />
+      <rect l="0" t="14" r="17" b="61" />
+    </asset>
+    <Visible val="True" />
+    <Anchor val="Top, Left" />
+    <pos x="148" y="626" />
+    <rect l="0" t="0" r="160" b="93" />
+    <Dragable val="False" />
+    <StartPosition val="None" />
+    <EscKeyAction val="None" />
+    <child type="LABEL" name="lb_tooltip_a2">
+      <label val="즐겨요" />
+      <pos x="17" y="56" />
+      <rect l="0" t="0" r="124" b="19" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#030200" />
+      <color val="#FFFFFF" />
+      <halign val="0" />
+      <valign val="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="13" />
+      <FontName val="나눔고딕" />
+    </child>
+    <child type="LABEL" name="lb_tooltip_a1">
+      <label val="말과 함께 다양한 게임을" />
+      <pos x="17" y="40" />
+      <rect l="0" t="0" r="124" b="19" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#030200" />
+      <color val="#FFFFFF" />
+      <halign val="0" />
+      <valign val="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="13" />
+      <FontName val="나눔고딕" />
+    </child>
+    <child type="PICTURE" name="bg_line1">
+      <asset type="STATIC">game_tooltip_line.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="17" y="35" />
+      <rect l="0" t="0" r="123" b="4" />
+      <center x="0" y="0" />
+    </child>
+    <child type="LABEL" name="lb_title1">
+      <label val="게임하기" />
+      <pos x="17" y="14" />
+      <rect l="0" t="0" r="123" b="20" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#030200" />
+      <color val="#FFD365" />
+      <halign val="0" />
+      <valign val="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="15" />
+      <style val="1" />
+    </child>
+  </base>
+  <base type="WNDEX" name="game_tooltip2">
+    <asset type="BG" path="tooltip_b_04.png">
+      <tex x="14" y="14" />
+      <rect l="14" t="14" r="129" b="61" />
+    </asset>
+    <asset type="EDGE_LT" path="tooltip_b_00.png">
+      <tex x="14" y="14" />
+      <rect l="0" t="0" r="14" b="14" />
+    </asset>
+    <asset type="EDGE_RT" path="tooltip_b_02.png">
+      <tex x="17" y="14" />
+      <rect l="0" t="0" r="17" b="14" />
+    </asset>
+    <asset type="EDGE_LB" path="tooltip_b_06.png">
+      <tex x="14" y="18" />
+      <rect l="0" t="0" r="14" b="18" />
+    </asset>
+    <asset type="EDGE_RB" path="tooltip_b_08.png">
+      <tex x="17" y="18" />
+      <rect l="0" t="0" r="17" b="18" />
+    </asset>
+    <asset type="FRAME_T" path="tooltip_b_01.png">
+      <tex x="14" y="14" />
+      <rect l="14" t="0" r="129" b="14" />
+    </asset>
+    <asset type="FRAME_B" path="tooltip_b_07.png">
+      <tex x="14" y="18" />
+      <rect l="14" t="0" r="129" b="18" />
+    </asset>
+    <asset type="FRAME_L" path="tooltip_b_03.png">
+      <tex x="14" y="14" />
+      <rect l="0" t="14" r="14" b="61" />
+    </asset>
+    <asset type="FRAME_R" path="tooltip_b_05.png">
+      <tex x="17" y="14" />
+      <rect l="0" t="14" r="17" b="61" />
+    </asset>
+    <Visible val="True" />
+    <Anchor val="Top, Left" />
+    <pos x="220" y="626" />
+    <rect l="0" t="0" r="160" b="93" />
+    <Dragable val="False" />
+    <StartPosition val="None" />
+    <EscKeyAction val="None" />
+    <child type="LABEL" name="lb_tooltip_b2">
+      <label val="구입할 수 있어요" />
+      <pos x="17" y="56" />
+      <rect l="0" t="0" r="124" b="19" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#030200" />
+      <color val="#FFFFFF" />
+      <halign val="0" />
+      <valign val="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="13" />
+      <FontName val="나눔고딕" />
+    </child>
+    <child type="LABEL" name="lb_tooltip_b1">
+      <label val="캐릭터, 말, 아이템을" />
+      <pos x="17" y="40" />
+      <rect l="0" t="0" r="124" b="19" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#030200" />
+      <color val="#FFFFFF" />
+      <halign val="0" />
+      <valign val="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="13" />
+      <FontName val="나눔고딕" />
+    </child>
+    <child type="PICTURE" name="bg_line2">
+      <asset type="STATIC">game_tooltip_line.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="17" y="35" />
+      <rect l="0" t="0" r="123" b="4" />
+      <center x="0" y="0" />
+    </child>
+    <child type="LABEL" name="lb_title2">
+      <label val="Shop" />
+      <pos x="17" y="14" />
+      <rect l="0" t="0" r="123" b="20" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#030200" />
+      <color val="#FFD365" />
+      <halign val="0" />
+      <valign val="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="15" />
+      <style val="1" />
+    </child>
+  </base>
+  <base type="WNDEX" name="game_tooltip3">
+    <asset type="BG" path="tooltip_b_04.png">
+      <tex x="14" y="14" />
+      <rect l="14" t="14" r="129" b="61" />
+    </asset>
+    <asset type="EDGE_LT" path="tooltip_b_00.png">
+      <tex x="14" y="14" />
+      <rect l="0" t="0" r="14" b="14" />
+    </asset>
+    <asset type="EDGE_RT" path="tooltip_b_02.png">
+      <tex x="17" y="14" />
+      <rect l="0" t="0" r="17" b="14" />
+    </asset>
+    <asset type="EDGE_LB" path="tooltip_b_06.png">
+      <tex x="14" y="18" />
+      <rect l="0" t="0" r="14" b="18" />
+    </asset>
+    <asset type="EDGE_RB" path="tooltip_b_08.png">
+      <tex x="17" y="18" />
+      <rect l="0" t="0" r="17" b="18" />
+    </asset>
+    <asset type="FRAME_T" path="tooltip_b_01.png">
+      <tex x="14" y="14" />
+      <rect l="14" t="0" r="129" b="14" />
+    </asset>
+    <asset type="FRAME_B" path="tooltip_b_07.png">
+      <tex x="14" y="18" />
+      <rect l="14" t="0" r="129" b="18" />
+    </asset>
+    <asset type="FRAME_L" path="tooltip_b_03.png">
+      <tex x="14" y="14" />
+      <rect l="0" t="14" r="14" b="61" />
+    </asset>
+    <asset type="FRAME_R" path="tooltip_b_05.png">
+      <tex x="17" y="14" />
+      <rect l="0" t="14" r="17" b="61" />
+    </asset>
+    <Visible val="True" />
+    <Anchor val="Top, Left" />
+    <pos x="292" y="626" />
+    <rect l="0" t="0" r="160" b="93" />
+    <Dragable val="False" />
+    <StartPosition val="None" />
+    <EscKeyAction val="None" />
+    <child type="LABEL" name="lb_tooltip_c2">
+      <label val="수 있어요" />
+      <pos x="17" y="56" />
+      <rect l="0" t="0" r="124" b="19" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#030200" />
+      <color val="#FFFFFF" />
+      <halign val="0" />
+      <valign val="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="13" />
+      <FontName val="나눔고딕" />
+    </child>
+    <child type="LABEL" name="lb_tooltip_c1">
+      <label val="착용한 아이템을 수정할" />
+      <pos x="17" y="40" />
+      <rect l="0" t="0" r="124" b="19" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#030200" />
+      <color val="#FFFFFF" />
+      <halign val="0" />
+      <valign val="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="13" />
+      <FontName val="나눔고딕" />
+    </child>
+    <child type="PICTURE" name="bg_line3">
+      <asset type="STATIC">game_tooltip_line.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="17" y="35" />
+      <rect l="0" t="0" r="123" b="4" />
+      <center x="0" y="0" />
+    </child>
+    <child type="LABEL" name="lb_title3">
+      <label val="인벤" />
+      <pos x="17" y="14" />
+      <rect l="0" t="0" r="123" b="20" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#030200" />
+      <color val="#FFD365" />
+      <halign val="0" />
+      <valign val="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="15" />
+      <style val="1" />
+    </child>
+  </base>
+  <base type="WNDEX" name="game_tooltip4">
+    <asset type="BG" path="tooltip_b_04.png">
+      <tex x="14" y="14" />
+      <rect l="14" t="14" r="129" b="61" />
+    </asset>
+    <asset type="EDGE_LT" path="tooltip_b_00.png">
+      <tex x="14" y="14" />
+      <rect l="0" t="0" r="14" b="14" />
+    </asset>
+    <asset type="EDGE_RT" path="tooltip_b_02.png">
+      <tex x="17" y="14" />
+      <rect l="0" t="0" r="17" b="14" />
+    </asset>
+    <asset type="EDGE_LB" path="tooltip_b_06.png">
+      <tex x="14" y="18" />
+      <rect l="0" t="0" r="14" b="18" />
+    </asset>
+    <asset type="EDGE_RB" path="tooltip_b_08.png">
+      <tex x="17" y="18" />
+      <rect l="0" t="0" r="17" b="18" />
+    </asset>
+    <asset type="FRAME_T" path="tooltip_b_01.png">
+      <tex x="14" y="14" />
+      <rect l="14" t="0" r="129" b="14" />
+    </asset>
+    <asset type="FRAME_B" path="tooltip_b_07.png">
+      <tex x="14" y="18" />
+      <rect l="14" t="0" r="129" b="18" />
+    </asset>
+    <asset type="FRAME_L" path="tooltip_b_03.png">
+      <tex x="14" y="14" />
+      <rect l="0" t="14" r="14" b="61" />
+    </asset>
+    <asset type="FRAME_R" path="tooltip_b_05.png">
+      <tex x="17" y="14" />
+      <rect l="0" t="14" r="17" b="61" />
+    </asset>
+    <Visible val="True" />
+    <Anchor val="Top, Left" />
+    <pos x="364" y="626" />
+    <rect l="0" t="0" r="160" b="93" />
+    <Dragable val="False" />
+    <StartPosition val="None" />
+    <EscKeyAction val="None" />
+    <child type="LABEL" name="lb_tooltip_d2">
+      <label val="친해질 수 있어요" />
+      <pos x="17" y="56" />
+      <rect l="0" t="0" r="124" b="19" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#030200" />
+      <color val="#FFFFFF" />
+      <halign val="0" />
+      <valign val="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="13" />
+      <FontName val="나눔고딕" />
+    </child>
+    <child type="LABEL" name="lb_tooltip_d1">
+      <label val="나의 말을 관리하면서" />
+      <pos x="17" y="40" />
+      <rect l="0" t="0" r="124" b="19" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#030200" />
+      <color val="#FFFFFF" />
+      <halign val="0" />
+      <valign val="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="13" />
+      <FontName val="나눔고딕" />
+    </child>
+    <child type="PICTURE" name="bg_line4">
+      <asset type="STATIC">game_tooltip_line.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="17" y="35" />
+      <rect l="0" t="0" r="123" b="4" />
+      <center x="0" y="0" />
+    </child>
+    <child type="LABEL" name="lb_title4">
+      <label val="관리" />
+      <pos x="17" y="14" />
+      <rect l="0" t="0" r="123" b="20" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#030200" />
+      <color val="#FFD365" />
+      <halign val="0" />
+      <valign val="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="15" />
+      <style val="1" />
+    </child>
+  </base>
+</refresh>

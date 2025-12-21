@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+  </properties>
+  <base type="WND" name="ticket">
+    <Visible val="True" />
+    <Anchor val="None" />
+    <pos x="269" y="210" />
+    <rect l="0" t="0" r="544" b="191" />
+    <child type="PICTURE" name="img_ticket_01">
+      <asset type="STATIC">login_ticket_01.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="93" y="0" />
+      <rect l="0" t="0" r="451" b="191" />
+      <center x="0" y="0" />
+    </child>
+    <child type="PICTURE" name="img_ticket_02">
+      <asset type="STATIC">login_ticket_02.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="121" b="191" />
+      <center x="0" y="0" />
+    </child>
+    <child type="LABEL" name="txt_ranch_add">
+      <label val="" />
+      <pos x="219" y="104" />
+      <rect l="0" t="0" r="272" b="12" />
+      <Visible val="True" />
+      <Anchor val="Top, Bottom, Left, Right" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#FF0000" />
+      <color val="#806E0C" />
+      <halign val="0" />
+      <valign val="1" />
+      <FontName val="나눔고딕" />
+      <FontSize val="13" />
+      <FontName val="나눔고딕" />
+    </child>
+    <child type="BUTTON" name="btn_confirm">
+      <asset type="NORMAL">btn_confirm_n.png</asset>
+      <asset type="DOWN">btn_confirm_d.png</asset>
+      <asset type="OVER">btn_confirm_o.png</asset>
+      <asset type="DISABLE">btn_confirm_d.png</asset>
+      <snd type="OVER">
+      </snd>
+      <snd type="DOWN">ui_btn_confirm</snd>
+      <pos x="431" y="119" />
+      <rect l="0" t="0" r="81" b="42" />
+      <Visible val="True" />
+      <Anchor val="None" />
+    </child>
+  </base>
+</refresh>

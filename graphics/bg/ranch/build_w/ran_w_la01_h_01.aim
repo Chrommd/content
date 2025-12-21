@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <event animation="_initialize_">
+        <function>PlayFX($asset, "ob_chim_smoke_002", "dum", "-attach ")</function>
+        <time>0.0000</time>
+        <freq>ONCE</freq>
+    </event>
+    <dummy name="dum" parent="ran_w_la01_h_01" sync="FALSE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.2116</offsetX>
+        <offsetY>9.6699</offsetY>
+        <offsetZ>-1.8898</offsetZ>
+    </dummy>
+    <dummy name="icon" parent="NODE_0" sync="FALSE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>6.9330</offsetY>
+        <offsetZ>5.0771</offsetZ>
+    </dummy>
+    <action category="" state="G_IDLE" prevState="" loop="1" weight="1" script="">
+    </action>
+</aim>

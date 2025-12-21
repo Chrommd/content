@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+  </properties>
+  <base type="WNDEX" subclass="" name="breed_submenu">
+    <asset type="BG" path="tooltip_b_04.png">
+      <tex x="14" y="14" />
+      <rect l="14" t="14" r="109" b="24" />
+    </asset>
+    <asset type="EDGE_LT" path="tooltip_b_00.png">
+      <tex x="14" y="14" />
+      <rect l="0" t="0" r="14" b="14" />
+    </asset>
+    <asset type="EDGE_RT" path="tooltip_b_02.png">
+      <tex x="17" y="14" />
+      <rect l="0" t="0" r="17" b="14" />
+    </asset>
+    <asset type="EDGE_LB" path="tooltip_b_06.png">
+      <tex x="14" y="18" />
+      <rect l="0" t="0" r="14" b="18" />
+    </asset>
+    <asset type="EDGE_RB" path="tooltip_b_08.png">
+      <tex x="17" y="18" />
+      <rect l="0" t="0" r="17" b="18" />
+    </asset>
+    <asset type="FRAME_T" path="tooltip_b_01.png">
+      <tex x="14" y="14" />
+      <rect l="14" t="0" r="109" b="14" />
+    </asset>
+    <asset type="FRAME_B" path="tooltip_b_07.png">
+      <tex x="14" y="18" />
+      <rect l="14" t="0" r="109" b="18" />
+    </asset>
+    <asset type="FRAME_L" path="tooltip_b_03.png">
+      <tex x="14" y="14" />
+      <rect l="0" t="14" r="14" b="24" />
+    </asset>
+    <asset type="FRAME_R" path="tooltip_b_05.png">
+      <tex x="17" y="14" />
+      <rect l="0" t="14" r="17" b="24" />
+    </asset>
+    <Visible val="True" />
+    <Anchor val="Top, Left" />
+    <pos x="442" y="356" />
+    <rect l="0" t="0" r="140" b="56" />
+    <Dragable val="False" />
+    <StartPosition val="None" />
+    <EscKeyAction val="None" />
+    <IsHitTestVisible val="True" />
+    <child type="LIST" name="lc_breed_submenu" subclass="">
+      <asset type="BG" path="">
+        <tex x="0" y="0" />
+        <rect l="8" t="8" r="104" b="18" />
+      </asset>
+      <asset type="EDGE_LT" path="">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_RT" path="">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_LB" path="">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_RB" path="">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="FRAME_T" path="">
+        <tex x="0" y="0" />
+        <rect l="8" t="0" r="104" b="8" />
+      </asset>
+      <asset type="FRAME_B" path="">
+        <tex x="0" y="0" />
+        <rect l="8" t="0" r="104" b="8" />
+      </asset>
+      <asset type="FRAME_L" path="">
+        <tex x="0" y="0" />
+        <rect l="0" t="8" r="8" b="18" />
+      </asset>
+      <asset type="FRAME_R" path="">
+        <tex x="0" y="0" />
+        <rect l="0" t="8" r="8" b="18" />
+      </asset>
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <pos x="8" y="8" />
+      <rect l="0" t="0" r="120" b="34" />
+      <padding l="5" t="6" r="5" b="6" />
+      <column val="1" />
+      <itemrect l="0" t="0" r="110" b="22" />
+      <selection val="0" />
+      <deselectable val="0" />
+      <rclickaction val="1" />
+      <IsHitTestVisible val="True" />
+    </child>
+  </base>
+</refresh>

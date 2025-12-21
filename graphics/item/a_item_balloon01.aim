@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <event animation="burst">
+        <function>PlayFX($asset, "itm_balloon", "b1", "")</function>
+        <time>0.0353</time>
+        <freq>100</freq>
+    </event>
+    <event animation="burst">
+        <function>PlaySND($asset, "ob_balloon_pop", "b1", "-var 2")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <dummy name="b1" parent="Dummy_balloon06" sync="FALSE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.0000</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <action state="BROKEN" prevState="" loop="0">
+        <main speed=0.0000>burst</main>
+    </action>
+    <action state="G_IDLE" prevState="" loop="1">
+        <main speed=0.0000>idle</main>
+    </action>
+</aim>

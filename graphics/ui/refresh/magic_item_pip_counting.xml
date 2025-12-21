@@ -1,0 +1,36 @@
+﻿<refresh version="2">
+	<properties>
+		<property name="DPI" val="72" />
+		<property name="UIAnimation" val="Magic_item_pip_counting_Animation.xml" />
+	</properties>
+	<base type="WND" subclass="" name="Wnd_magic_counting">
+		<pos x="0" y="0" />
+		<rect l="0" t="0" r="145" b="176" />
+		<Visible val="True" />
+		<Anchor val="Top, Left" />
+		<snd type="SHOW"></snd>
+		<snd type="HIDE"></snd>
+		<IsHitTestVisible val="False" />
+		<ClipChildren val="False" />
+		<child type="PICTURE" name="txt_combo" subclass="">
+			<asset type="STATIC">txt_combo.png</asset>
+			<pos x="-11" y="116" />
+			<rect l="0" t="0" r="106" b="31" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="pip_combo2" subclass="">
+			<asset type="STATIC">ingame_count_combo_2.png</asset>
+			<pos x="50" y="46" />
+			<rect l="0" t="0" r="107" b="149" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+	</base>
+</refresh>

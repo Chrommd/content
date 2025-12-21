@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="event_effect_0_Default">
+    <asset type="IMAGE" name="asset_event_stamp_effect_01" path="event_stamp_effect_01.png">
+      <rect l="0" t="0" r="158" b="157" />
+    </asset>
+    <object name="event_stamp_effect_01" ani="ani_event_stamp_effect_01">
+      <asset type="IMAGE" link="asset_event_stamp_effect_01" />
+    </object>
+    <param type="RES" x="95" y="95" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_event_stamp_effect_01">
+      <frame cnt="0">
+        <posx val="0.673684210526316" />
+        <posy val="0.589473684210526" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.601265788078308" />
+        <centery val="0.54777067899704" />
+      </frame>
+      <frame cnt="1100">
+        <posx val="0.505263157894737" />
+        <posy val="0.505263157894737" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <sound val="result_stamp_gift_st" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="1367">
+        <posx val="0.505263157894737" easeValue="0.0,0.0,0.4,1.0" />
+        <posy val="0.505263157894737" easeValue="0.0,0.0,0.4,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,0.0,0.4,1.0" />
+        <rotate val="360" easeValue="0.0,0.0,0.4,1.0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="1433">
+        <posx val="0.505263157894737" />
+        <posy val="0.505263157894737" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="255" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="1700">
+        <posx val="0.505263157894737" easeValue="0.0,0.0,0.5,1.0" />
+        <posy val="0.505263157894737" easeValue="0.0,0.0,0.5,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" easeValue="0.0,0.0,0.5,1.0" />
+        <rotate val="50" easeValue="0.0,0.0,0.5,1.0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+  </properties>
+  <base type="WND" subclass="" name="Wnd">
+    <Visible val="True" />
+    <Anchor val="Top, Left" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="430" b="24" />
+    <IsHitTestVisible val="True" />
+    <child type="PICTURE" name="mail_img_mailbox_underline" subclass="">
+      <asset type="STATIC">mail_img_mailbox_underline.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="4" y="22" />
+      <rect l="0" t="0" r="422" b="2" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+    </child>
+    <child type="ANIMBUTTON" name="btn_garbage" subclass="">
+      <asset type="GROUP">mail_mailbox_column_btn_garbage.xml</asset>
+      <asset type="NORMAL">
+      </asset>
+      <asset type="DOWN">
+      </asset>
+      <asset type="OVER">
+      </asset>
+      <asset type="DISABLE">
+      </asset>
+      <asset type="ENTER">
+      </asset>
+      <asset type="LEAVE">
+      </asset>
+      <snd type="OVER">
+      </snd>
+      <snd type="DOWN">ui_btn_check</snd>
+      <snd type="RELEASE">
+      </snd>
+      <pos x="407" y="1" />
+      <rect l="0" t="0" r="22" b="22" />
+      <Visible val="True" />
+      <IsHitTestVisible val="True" />
+      <Anchor val="None" />
+    </child>
+  </base>
+</refresh>

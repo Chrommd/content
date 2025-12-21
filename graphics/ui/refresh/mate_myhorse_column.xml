@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+  </properties>
+  <base type="WND" subclass="" name="myhorse_Wnd">
+    <Visible val="True" />
+    <Anchor val="Top, Left" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="397" b="28" />
+    <snd type="SHOW">
+    </snd>
+    <snd type="HIDE">
+    </snd>
+    <IsHitTestVisible val="True" />
+    <ClipChildren val="False" />
+    <child type="BUTTON" subclass="" name="btn_myhorse_list">
+      <asset type="NORMAL">mate_myhorse_list_n.png</asset>
+      <asset type="DOWN">mate_myhorse_list_d.png</asset>
+      <asset type="OVER">mate_myhorse_list_o.png</asset>
+      <asset type="DISABLE">mate_myhorse_list_dis.png</asset>
+      <snd type="OVER">
+      </snd>
+      <snd type="DOWN">ui_btn_menu_page</snd>
+      <snd type="RELEASE">
+      </snd>
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="340" b="28" />
+      <Visible val="True" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <Anchor val="Top, Left" />
+      <IsDefaultButton val="False" />
+      <child type="PICTURE" name="mate_myhorse_list_underline" subclass="">
+        <asset type="STATIC">img_common_lineHorizontal.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="1" y="25" />
+        <rect l="0" t="0" r="340" b="4" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="False" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="LABEL" name="txt_mh_name" subclass="">
+        <label val="" />
+        <pos x="31" y="3" />
+        <rect l="0" t="0" r="130" b="20" />
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#FF0000" />
+        <color val="#796456FF" />
+        <halign val="0" />
+        <valign val="1" />
+        <FontName val="나눔고딕" />
+        <FontSize val="13" />
+        <TextTrimming val="CharacterEllipsis" />
+        <style val="1" />
+        <IsHitTestVisible val="False" />
+        <ClipChildren val="False" />
+        <Padding val="0, 0, 0, 0" />
+      </child>
+      <child type="LABEL" name="txt_mh_class" subclass="">
+        <label val="" />
+        <pos x="223" y="3" />
+        <rect l="0" t="0" r="52" b="20" />
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#FF0000" />
+        <color val="#796456FF" />
+        <halign val="1" />
+        <valign val="1" />
+        <FontName val="나눔고딕" />
+        <FontSize val="13" />
+        <TextTrimming val="None" />
+        <style val="1" />
+        <IsHitTestVisible val="False" />
+        <ClipChildren val="False" />
+        <Padding val="0, 0, 0, 0" />
+      </child>
+      <child type="LABEL" name="txt_mh_matesuccess" subclass="">
+        <label val="" />
+        <pos x="275" y="3" />
+        <rect l="0" t="0" r="68" b="20" />
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#FF0000" />
+        <color val="#796456FF" />
+        <halign val="1" />
+        <valign val="1" />
+        <FontName val="나눔고딕" />
+        <FontSize val="13" />
+        <TextTrimming val="None" />
+        <style val="1" />
+        <IsHitTestVisible val="False" />
+        <ClipChildren val="False" />
+        <Padding val="0, 0, 0, 0" />
+      </child>
+      <child type="LABEL" name="txt_mh_blood" subclass="">
+        <label val="" />
+        <pos x="196" y="3" />
+        <rect l="0" t="0" r="27" b="20" />
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#FF0000" />
+        <color val="#796456FF" />
+        <halign val="0" />
+        <valign val="1" />
+        <FontName val="나눔고딕" />
+        <FontSize val="13" />
+        <TextTrimming val="None" />
+        <style val="1" />
+        <IsHitTestVisible val="False" />
+        <ClipChildren val="False" />
+        <Padding val="0, 0, 0, 0" />
+      </child>
+      <child type="PICTURE" name="img_horseskin" subclass="">
+        <asset type="STATIC">
+        </asset>
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <pos x="163" y="2" />
+        <rect l="0" t="0" r="30" b="22" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="PICTURE" name="mate_icon_love" subclass="">
+        <asset type="STATIC">mate_icon_horse_registration.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="4" y="2" />
+        <rect l="0" t="0" r="24" b="23" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="PICTURE" name="mate_icon_riding_girl" subclass="">
+        <asset type="STATIC">mate_icon_riding_2.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="5" y="3" />
+        <rect l="0" t="0" r="22" b="22" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="PICTURE" name="mate_icon_riding_man" subclass="">
+        <asset type="STATIC">mate_icon_riding.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="5" y="3" />
+        <rect l="0" t="0" r="22" b="22" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="PICTURE" name="mate_icon_PC" subclass="">
+        <asset type="STATIC">mate_icon_pc.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="5" y="3" />
+        <rect l="0" t="0" r="22" b="22" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="PICTURE" name="mate_icon_bonus" subclass="">
+        <asset type="STATIC">mate_icon_bonuseffect.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="2" y="2" />
+        <rect l="0" t="0" r="28" b="10" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+    </child>
+  </base>
+</refresh>

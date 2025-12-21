@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="img_success_Default">
+    <asset type="IMAGE" name="asset_success_s" path="success_s.png">
+      <rect l="0" t="0" r="31" b="31" />
+    </asset>
+    <asset type="IMAGE" name="asset_success_u" path="success_u.png">
+      <rect l="0" t="0" r="31" b="31" />
+    </asset>
+    <asset type="IMAGE" name="asset_success_c1" path="success_c.png">
+      <rect l="0" t="0" r="31" b="31" />
+    </asset>
+    <asset type="IMAGE" name="asset_success_c2" path="success_c.png">
+      <rect l="0" t="0" r="31" b="31" />
+    </asset>
+    <asset type="IMAGE" name="asset_success_e" path="success_e.png">
+      <rect l="0" t="0" r="31" b="31" />
+    </asset>
+    <asset type="IMAGE" name="asset_success_s1" path="success_s2.png">
+      <rect l="0" t="0" r="31" b="31" />
+    </asset>
+    <asset type="IMAGE" name="asset_success_s2" path="success_s2.png">
+      <rect l="0" t="0" r="31" b="31" />
+    </asset>
+    <object name="success_s" ani="ani_success_s">
+      <asset type="IMAGE" link="asset_success_s" />
+    </object>
+    <object name="success_u" ani="ani_success_u">
+      <asset type="IMAGE" link="asset_success_u" />
+    </object>
+    <object name="success_c1" ani="ani_success_c1">
+      <asset type="IMAGE" link="asset_success_c1" />
+    </object>
+    <object name="success_c2" ani="ani_success_c2">
+      <asset type="IMAGE" link="asset_success_c2" />
+    </object>
+    <object name="success_e" ani="ani_success_e">
+      <asset type="IMAGE" link="asset_success_e" />
+    </object>
+    <object name="success_s1" ani="ani_success_s1">
+      <asset type="IMAGE" link="asset_success_s1" />
+    </object>
+    <object name="success_s2" ani="ani_success_s2">
+      <asset type="IMAGE" link="asset_success_s2" />
+    </object>
+    <param type="RES" x="124" y="31" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_success_s">
+      <frame cnt="0">
+        <posx val="0.911290322580645" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="133">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_success_u">
+      <frame cnt="0">
+        <posx val="1.05645161290323" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="133">
+        <posx val="1.05645161290323" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="267">
+        <posx val="0.145161290322581" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_success_c1">
+      <frame cnt="0">
+        <posx val="1.18548387096774" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="267">
+        <posx val="1.18548387096774" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="400">
+        <posx val="0.274193548387097" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_success_c2">
+      <frame cnt="0">
+        <posx val="1.30645161290323" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="400">
+        <posx val="1.30645161290323" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="533">
+        <posx val="0.395161290322581" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_success_e">
+      <frame cnt="0">
+        <posx val="1.43548387096774" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="533">
+        <posx val="1.43548387096774" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="667">
+        <posx val="0.524193548387097" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_success_s1">
+      <frame cnt="0">
+        <posx val="1.54838709677419" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="667">
+        <posx val="1.54838709677419" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="800">
+        <posx val="0.637096774193548" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_success_s2">
+      <frame cnt="0">
+        <posx val="1.66129032258065" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="800">
+        <posx val="1.66129032258065" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="933">
+        <posx val="0.75" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

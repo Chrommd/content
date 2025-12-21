@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="NORMAL">
+    <param type="RES" x="82" y="82" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+  </scene>
+  <scene name="OVER">
+    <asset type="IMAGE" name="asset_care_slot_o" path="care_slot_o.png">
+      <rect l="0" t="0" r="88" b="88" />
+    </asset>
+    <object name="care_slot_o" ani="ani_care_slot_o">
+      <asset type="IMAGE" link="asset_care_slot_o" />
+    </object>
+    <param type="RES" x="82" y="82" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_care_slot_o">
+      <frame cnt="0">
+        <posx val="-0.03658536" />
+        <posy val="-0.03658536" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.5" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="167">
+        <posx val="-0.03658536" />
+        <posy val="-0.03658536" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="DOWN">
+    <asset type="IMAGE" name="asset_care_slot_d" path="care_slot_d.png">
+      <rect l="0" t="0" r="88" b="88" />
+    </asset>
+    <object name="care_slot_d" ani="ani_care_slot_d">
+      <asset type="IMAGE" link="asset_care_slot_d" />
+    </object>
+    <param type="RES" x="82" y="82" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_care_slot_d">
+      <frame cnt="0">
+        <posx val="-0.03658536" />
+        <posy val="-0.03658536" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="DISABLE">
+    <asset type="IMAGE" name="asset_care_slot_dis" path="care_slot_dis.png">
+      <rect l="0" t="0" r="88" b="88" />
+    </asset>
+    <object name="care_slot_dis" ani="ani_care_slot_dis">
+      <asset type="IMAGE" link="asset_care_slot_dis" />
+    </object>
+    <param type="RES" x="82" y="82" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_care_slot_dis">
+      <frame cnt="0">
+        <posx val="-0.03658536" />
+        <posy val="-0.03658536" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

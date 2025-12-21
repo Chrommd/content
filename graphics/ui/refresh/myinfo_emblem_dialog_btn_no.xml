@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="NORMAL">
+    <asset type="IMAGE" name="asset_btn_emblem_cancel_Normal" path="btn_emblem_cancel_Normal.png">
+      <rect l="0" t="0" r="106" b="38" />
+    </asset>
+    <object name="btn_emblem_cancel_Normal" ani="ani_btn_emblem_cancel_Normal">
+      <asset type="IMAGE" link="asset_btn_emblem_cancel_Normal" />
+    </object>
+    <param type="RES" x="106" y="38" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_btn_emblem_cancel_Normal">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="OVER">
+    <asset type="IMAGE" name="asset_btn_emblem_cancel_Normal" path="btn_emblem_cancel_Hover.png">
+      <rect l="0" t="0" r="106" b="38" />
+    </asset>
+    <object name="btn_emblem_cancel_Normal" ani="ani_btn_emblem_cancel_Normal">
+      <asset type="IMAGE" link="asset_btn_emblem_cancel_Normal" />
+    </object>
+    <param type="RES" x="106" y="38" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_btn_emblem_cancel_Normal">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="DOWN">
+    <asset type="IMAGE" name="asset_btn_emblem_cancel_Normal" path="btn_emblem_cancel_Normal.png">
+      <rect l="0" t="0" r="106" b="38" />
+    </asset>
+    <object name="btn_emblem_cancel_Normal" ani="ani_btn_emblem_cancel_Normal">
+      <asset type="IMAGE" link="asset_btn_emblem_cancel_Normal" />
+    </object>
+    <param type="RES" x="106" y="38" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_btn_emblem_cancel_Normal">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="DISABLE">
+    <asset type="IMAGE" name="asset_btn_b_dis" path="btn_b1_dis.png">
+      <rect l="0" t="0" r="70" b="31" />
+    </asset>
+    <object name="btn_b_dis" ani="ani_btn_b_dis">
+      <asset type="IMAGE" link="asset_btn_b_dis" />
+    </object>
+    <param type="RES" x="106" y="38" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_btn_b_dis">
+      <frame cnt="0">
+        <posx val="0.330188679245283" />
+        <posy val="0.394736842105263" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

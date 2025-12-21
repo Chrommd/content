@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="icon_bubble_small_Default">
+    <asset type="IMAGE" name="asset_smallbg" path="speech_bubble_smallbg.png">
+      <rect l="0" t="0" r="41" b="26" />
+    </asset>
+    <asset type="IMAGE" name="asset_smalldot1" path="speech_bubble_smalldot.png">
+      <rect l="0" t="0" r="11" b="11" />
+    </asset>
+    <asset type="IMAGE" name="asset_smalldot2" path="speech_bubble_smalldot.png">
+      <rect l="0" t="0" r="11" b="11" />
+    </asset>
+    <asset type="IMAGE" name="asset_smalldot3" path="speech_bubble_smalldot.png">
+      <rect l="0" t="0" r="11" b="11" />
+    </asset>
+    <object name="smallbg" ani="ani_smallbg">
+      <asset type="IMAGE" link="asset_smallbg" />
+    </object>
+    <object name="smalldot1" ani="ani_smalldot1">
+      <asset type="IMAGE" link="asset_smalldot1" />
+    </object>
+    <object name="smalldot2" ani="ani_smalldot2">
+      <asset type="IMAGE" link="asset_smalldot2" />
+    </object>
+    <object name="smalldot3" ani="ani_smalldot3">
+      <asset type="IMAGE" link="asset_smalldot3" />
+    </object>
+    <param type="RES" x="41" y="26" />
+    <param type="LOOP" cnt="-1" pendulum="0" />
+    <anim name="ani_smallbg">
+      <frame cnt="0">
+        <posx val="0.48780487804878" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+    <anim name="ani_smalldot1">
+      <frame cnt="0">
+        <posx val="0.24390243902439" />
+        <posy val="0.230769230769231" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.24390243902439" easeValue="0.0,1.0,1.0,1.0" />
+        <posy val="0.230769230769231" easeValue="0.0,1.0,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,1.0,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" easeValue="0.0,1.0,1.0,1.0" />
+        <centery val="0" easeValue="0.0,1.0,1.0,1.0" />
+      </frame>
+    </anim>
+    <anim name="ani_smalldot2">
+      <frame cnt="0">
+        <posx val="0.365853658536585" />
+        <posy val="0.230769230769231" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="367">
+        <posx val="0.365853658536585" />
+        <posy val="0.230769230769231" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="733">
+        <posx val="0.365853658536585" easeValue="0.0,1.0,1.0,1.0" />
+        <posy val="0.230769230769231" easeValue="0.0,1.0,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,1.0,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_smalldot3">
+      <frame cnt="0">
+        <posx val="0.48780487804878" />
+        <posy val="0.230769230769231" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="733">
+        <posx val="0.48780487804878" />
+        <posy val="0.230769230769231" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1300">
+        <posx val="0.48780487804878" easeValue="0.0,1.0,1.0,1.0" />
+        <posy val="0.230769230769231" easeValue="0.0,1.0,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,1.0,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

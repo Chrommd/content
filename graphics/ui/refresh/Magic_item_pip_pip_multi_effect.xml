@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="pip_multi_effect_Default">
+    <asset type="IMAGE" name="asset_pip_effect_00" path="pip_effect_00.png">
+      <rect l="0" t="0" r="467" b="509" />
+    </asset>
+    <object name="pip_effect_00" ani="ani_pip_effect_00">
+      <asset type="IMAGE" link="asset_pip_effect_00" />
+    </object>
+    <param type="RES" x="467" y="509" />
+    <param type="LOOP" cnt="-1" pendulum="0" />
+    <anim name="ani_pip_effect_00">
+      <frame cnt="0">
+        <posx val="0.565310492505353" />
+        <posy val="0.481335952848723" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.573875784873962" />
+        <centery val="0.483300596475601" />
+      </frame>
+      <frame cnt="633">
+        <posx val="0.565310492505353" easeValue="0.0,0.0,0.7,0.9" />
+        <posy val="0.481335952848723" easeValue="0.0,0.0,0.7,0.9" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="360" easeValue="0.0,0.0,0.7,0.9" />
+        <visible val="1" />
+        <centerx val="0.573875784873962" easeValue="0.0,0.0,0.7,0.9" />
+        <centery val="0.483300596475601" easeValue="0.0,0.0,0.7,0.9" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

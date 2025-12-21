@@ -1,0 +1,119 @@
+﻿<refresh version="2">
+	<properties>
+		<property name="DPI" val="72" />
+		<property name="UIAnimation" val="friend_user_list_column_Animation.xml" />
+	</properties>
+	<base type="WND" subclass="" name="Wnd_friend_list">
+		<pos x="0" y="0" />
+		<rect l="0" t="0" r="270" b="22" />
+		<Visible val="True" />
+		<Anchor val="Top, Left" />
+		<snd type="SHOW"></snd>
+		<snd type="HIDE"></snd>
+		<IsHitTestVisible val="True" />
+		<ClipChildren val="False" />
+		<child type="PICTURE" name="focus_over" subclass="">
+			<asset type="STATIC">letter_focus_over.png</asset>
+			<pos x="20" y="0" />
+			<rect l="0" t="0" r="250" b="22" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="focus_select" subclass="">
+			<asset type="STATIC">letter_focus_select.png</asset>
+			<pos x="20" y="0" />
+			<rect l="0" t="0" r="250" b="22" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="STACKPANEL" name="StackPanel" subclass="">
+			<pos x="229" y="1" />
+			<rect l="0" t="0" r="38" b="20" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<Orientation val="Horizontal" />
+			<HAlign val="Right" />
+			<VAlign val="Center" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<child type="BUTTON" subclass="" name="btn_user_follow">
+				<asset type="NORMAL">follow_btn_Normal.png</asset>
+				<asset type="DOWN">follow_btn_Push.png</asset>
+				<asset type="OVER">follow_btn_Hover.png</asset>
+				<asset type="DISABLE">follow_btn_Disable.png</asset>
+				<pos x="19" y="0" />
+				<rect l="0" t="0" r="19" b="19" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<snd type="OVER"></snd>
+				<snd type="DOWN"></snd>
+				<snd type="RELEASE"></snd>
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+				<IsDefaultButton val="False" />
+			</child>
+		</child>
+		<child type="LABEL" name="nickname" subclass="">
+			<pos x="42" y="1" />
+			<rect l="0" t="0" r="187" b="19" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<label val="" />
+			<OutlineColor val="#FF0000" />
+			<ShadowColor val="#FF0000" />
+			<color val="#796456FF" />
+			<halign val="0" />
+			<valign val="1" />
+			<FontName val="나눔고딕" />
+			<FontSize val="13" />
+			<TextTrimming val="CharacterEllipsis" />
+			<style val="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+			<Padding val="0, 0, 0, 0" />
+			<FitToContent val="False" />
+		</child>
+		<child type="PICTURE" name="slate_icon" subclass="">
+			<asset type="STATIC"></asset>
+			<pos x="27" y="5" />
+			<rect l="0" t="0" r="13" b="13" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="BUTTON" subclass="" name="btn_user_info">
+			<asset type="NORMAL">cha_info_btn_Normal.png</asset>
+			<asset type="DOWN">cha_info_btn_Push.png</asset>
+			<asset type="OVER">cha_info_btn_Hover.png</asset>
+			<asset type="DISABLE">cha_info_btn_Disable.png</asset>
+			<pos x="307" y="0" />
+			<rect l="0" t="0" r="19" b="19" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<snd type="OVER"></snd>
+			<snd type="DOWN"></snd>
+			<snd type="RELEASE"></snd>
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<IsDefaultButton val="False" />
+		</child>
+		<child type="PICTURE" name="underline" subclass="">
+			<asset type="STATIC">mail_img_mailbox_underline.png</asset>
+			<pos x="0" y="22" />
+			<rect l="0" t="0" r="270" b="2" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+		</child>
+	</base>
+</refresh>

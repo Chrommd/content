@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+  </properties>
+  <base type="WNDEX" name="gameroom_refusal">
+    <asset type="BG" path="">
+      <tex x="90" y="90" />
+      <rect l="90" t="86" r="228" b="103" />
+    </asset>
+    <asset type="EDGE_LT" path="">
+      <tex x="90" y="86" />
+      <rect l="0" t="0" r="90" b="86" />
+    </asset>
+    <asset type="EDGE_RT" path="">
+      <tex x="90" y="86" />
+      <rect l="0" t="0" r="90" b="86" />
+    </asset>
+    <asset type="EDGE_LB" path="">
+      <tex x="90" y="90" />
+      <rect l="0" t="0" r="90" b="90" />
+    </asset>
+    <asset type="EDGE_RB" path="">
+      <tex x="90" y="90" />
+      <rect l="0" t="0" r="90" b="90" />
+    </asset>
+    <asset type="FRAME_T" path="">
+      <tex x="90" y="86" />
+      <rect l="90" t="0" r="228" b="86" />
+    </asset>
+    <asset type="FRAME_B" path="">
+      <tex x="90" y="90" />
+      <rect l="90" t="0" r="228" b="90" />
+    </asset>
+    <asset type="FRAME_L" path="">
+      <tex x="90" y="90" />
+      <rect l="0" t="86" r="90" b="103" />
+    </asset>
+    <asset type="FRAME_R" path="">
+      <tex x="90" y="90" />
+      <rect l="0" t="86" r="90" b="103" />
+    </asset>
+    <Visible val="True" />
+    <Anchor val="None" />
+    <pos x="304" y="246" />
+    <rect l="0" t="0" r="408" b="279" />
+    <Dragable val="False" />
+    <StartPosition val="None" />
+    <EscKeyAction val="None" />
+    <child type="BUTTON" name="btn_no">
+      <asset type="NORMAL">
+      </asset>
+      <asset type="DOWN">
+      </asset>
+      <asset type="OVER">
+      </asset>
+      <asset type="DISABLE">
+      </asset>
+      <snd type="OVER">ui_alt_over</snd>
+      <snd type="DOWN">ui_back</snd>
+      <pos x="207" y="199" />
+      <rect l="0" t="0" r="75" b="38" />
+      <Visible val="True" />
+      <Anchor val="None" />
+    </child>
+    <child type="BUTTON" name="btn_yes">
+      <asset type="NORMAL">
+      </asset>
+      <asset type="DOWN">
+      </asset>
+      <asset type="OVER">
+      </asset>
+      <asset type="DISABLE">
+      </asset>
+      <snd type="OVER">ui_alt_over</snd>
+      <snd type="DOWN">ui_alt_click</snd>
+      <pos x="125" y="199" />
+      <rect l="0" t="0" r="75" b="38" />
+      <Visible val="True" />
+      <Anchor val="None" />
+    </child>
+    <child type="LABEL" name="txt_01">
+      <label val="초대장" />
+      <pos x="171" y="60" />
+      <rect l="0" t="0" r="77" b="36" />
+      <Visible val="True" />
+      <Anchor val="None" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#FF0000" />
+      <color val="#3C2605" />
+      <halign val="0" />
+      <valign val="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="22" />
+      <style val="1" />
+    </child>
+    <child type="LABEL" name="txt_02">
+      <label val="앨리스 경기에 초대되셨습니다 " />
+      <pos x="114" y="109" />
+      <rect l="0" t="0" r="198" b="16" />
+      <Visible val="True" />
+      <Anchor val="None" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#FF0000" />
+      <color val="#947F65" />
+      <halign val="0" />
+      <valign val="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="15" />
+      <FontName val="나눔고딕" />
+    </child>
+    <child type="LABEL" name="txt_03">
+      <label val="초대에 응하시겠습니까?" />
+      <pos x="142" y="129" />
+      <rect l="0" t="0" r="138" b="16" />
+      <Visible val="True" />
+      <Anchor val="None" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#FF0000" />
+      <color val="#6E4D1E" />
+      <halign val="0" />
+      <valign val="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="13" />
+      <FontName val="나눔고딕" />
+    </child>
+  </base>
+</refresh>

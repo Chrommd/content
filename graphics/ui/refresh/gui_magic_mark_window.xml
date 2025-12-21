@@ -1,0 +1,1072 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="gui_magic_mark_window_Animation.xml" />
+  </properties>
+  <base type="WND" subclass="" name="Wnd">
+    <Visible val="True" />
+    <Anchor val="None" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="200" b="120" />
+    <snd type="SHOW">
+    </snd>
+    <snd type="HIDE">
+    </snd>
+    <IsHitTestVisible val="True" />
+    <ClipChildren val="False" />
+    <base type="WNDEX" subclass="" name="ingame_magic_target_lockonme">
+      <asset type="BG" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="8" t="8" r="184" b="104" />
+      </asset>
+      <asset type="EDGE_LT" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_RT" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_LB" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_RB" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="FRAME_T" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="8" t="0" r="184" b="8" />
+      </asset>
+      <asset type="FRAME_B" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="8" t="0" r="184" b="8" />
+      </asset>
+      <asset type="FRAME_L" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="8" r="8" b="104" />
+      </asset>
+      <asset type="FRAME_R" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="8" r="8" b="104" />
+      </asset>
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="200" b="120" />
+      <snd type="SHOW">
+      </snd>
+      <snd type="HIDE">
+      </snd>
+      <Dragable val="False" />
+      <StartPosition val="None" />
+      <EscKeyAction val="None" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <child type="PICTURE" name="img_target_lockon_me_ring" subclass="">
+        <asset type="STATIC">img_target_lockon_anemy2.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="63" y="23" />
+        <rect l="0" t="0" r="74" b="74" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="PICTURE" name="img_target_lockon_me_bg" subclass="">
+        <asset type="STATIC">img_target_lockon_me_bg.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="63" y="23" />
+        <rect l="0" t="0" r="74" b="74" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="PICTURE" name="img_target_lockon_me_orange" subclass="">
+        <asset type="STATIC">img_target_lockon_me_orange.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="63" y="23" />
+        <rect l="0" t="0" r="74" b="74" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+    </base>
+    <base type="WNDEX" subclass="" name="ingame_magic_target_partner">
+      <asset type="BG" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="8" t="8" r="184" b="104" />
+      </asset>
+      <asset type="EDGE_LT" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_RT" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_LB" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_RB" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="FRAME_T" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="8" t="0" r="184" b="8" />
+      </asset>
+      <asset type="FRAME_B" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="8" t="0" r="184" b="8" />
+      </asset>
+      <asset type="FRAME_L" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="8" r="8" b="104" />
+      </asset>
+      <asset type="FRAME_R" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="8" r="8" b="104" />
+      </asset>
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="200" b="120" />
+      <snd type="SHOW">
+      </snd>
+      <snd type="HIDE">
+      </snd>
+      <Dragable val="False" />
+      <StartPosition val="None" />
+      <EscKeyAction val="None" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <child type="PICTURE" name="img_target_lockon_p_bg" subclass="">
+        <asset type="STATIC">img_target_lockon_basic.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="64" y="26" />
+        <rect l="0" t="0" r="72" b="72" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="PICTURE" name="img_target_lockon_p_ring" subclass="">
+        <asset type="ANIMATION">gui_magic_mark_window_img_target_lockon_p_ring.xml</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="64" y="26" />
+        <rect l="0" t="0" r="72" b="72" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="PICTURE" name="img_target_lockon_p_white" subclass="">
+        <asset type="ANIMATION">gui_magic_mark_window_img_target_lockon_p_white.xml</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="64" y="26" />
+        <rect l="0" t="0" r="72" b="72" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="PICTURE" name="img_target_lockon_p_arrow4" subclass="">
+        <asset type="STATIC">img_target_lockon_arrow4.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="69" y="58" />
+        <rect l="0" t="0" r="4" b="8" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="PICTURE" name="img_target_lockon_p_arrow3" subclass="">
+        <asset type="STATIC">img_target_lockon_arrow3.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="96" y="89" />
+        <rect l="0" t="0" r="8" b="4" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="PICTURE" name="img_target_lockon_p_arrow2" subclass="">
+        <asset type="STATIC">img_target_lockon_arrow2.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="126" y="58" />
+        <rect l="0" t="0" r="4" b="8" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="PICTURE" name="img_target_lockon_p_arrow1" subclass="">
+        <asset type="STATIC">img_target_lockon_arrow3.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="96" y="32" />
+        <rect l="0" t="0" r="8" b="4" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="PICTURE" name="img_target_lockon_p_outline1" subclass="">
+        <asset type="STATIC">img_target_basic_2.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="64" y="26" />
+        <rect l="0" t="0" r="72" b="72" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+    </base>
+    <base type="WNDEX" subclass="" name="ingame_magic_target_enemy">
+      <asset type="BG" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="8" t="8" r="184" b="104" />
+      </asset>
+      <asset type="EDGE_LT" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_RT" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_LB" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_RB" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="FRAME_T" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="8" t="0" r="184" b="8" />
+      </asset>
+      <asset type="FRAME_B" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="8" t="0" r="184" b="8" />
+      </asset>
+      <asset type="FRAME_L" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="8" r="8" b="104" />
+      </asset>
+      <asset type="FRAME_R" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="8" r="8" b="104" />
+      </asset>
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="200" b="120" />
+      <snd type="SHOW">
+      </snd>
+      <snd type="HIDE">
+      </snd>
+      <Dragable val="False" />
+      <StartPosition val="None" />
+      <EscKeyAction val="None" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <child type="PICTURE" name="img_target_lockon_e_white" subclass="">
+        <asset type="ANIMATION">gui_magic_mark_window_img_target_lockon_e_white.xml</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="64" y="26" />
+        <rect l="0" t="0" r="72" b="72" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="PICTURE" name="img_target_lockoff_basic2" subclass="">
+        <asset type="ANIMATION">gui_magic_mark_window_img_target_lockoff_basic2.xml</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="67" y="29" />
+        <rect l="0" t="0" r="66" b="66" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="PICTURE" name="img_target_lockon_anemy2" subclass="">
+        <asset type="ANIMATION">gui_magic_mark_window_img_target_lockon_anemy2.xml</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="64" y="26" />
+        <rect l="0" t="0" r="72" b="72" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="PICTURE" name="img_target_lockon_e_ring" subclass="">
+        <asset type="ANIMATION">gui_magic_mark_window_img_target_lockon_e_ring.xml</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="64" y="26" />
+        <rect l="0" t="0" r="72" b="72" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+    </base>
+    <base type="WNDEX" subclass="" name="ingame_magic_target_lockoff">
+      <asset type="BG" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="8" t="8" r="184" b="104" />
+      </asset>
+      <asset type="EDGE_LT" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_RT" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_LB" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_RB" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="FRAME_T" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="8" t="0" r="184" b="8" />
+      </asset>
+      <asset type="FRAME_B" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="8" t="0" r="184" b="8" />
+      </asset>
+      <asset type="FRAME_L" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="8" r="8" b="104" />
+      </asset>
+      <asset type="FRAME_R" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="8" r="8" b="104" />
+      </asset>
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="200" b="120" />
+      <snd type="SHOW">
+      </snd>
+      <snd type="HIDE">
+      </snd>
+      <Dragable val="False" />
+      <StartPosition val="None" />
+      <EscKeyAction val="None" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <child type="PICTURE" name="img_target_basic_ring" subclass="">
+        <asset type="ANIMATION">gui_magic_mark_window_img_target_basic_ring.xml</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="50" y="13" />
+        <rect l="0" t="0" r="99" b="99" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="PICTURE" name="img_target_basic" subclass="">
+        <asset type="ANIMATION">gui_magic_mark_window_img_target_basic.xml</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="65" y="28" />
+        <rect l="0" t="0" r="66" b="66" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="PICTURE" name="img_target_lockoff_basic1" subclass="">
+        <asset type="ANIMATION">gui_magic_mark_window_img_target_lockoff_basic1.xml</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="67" y="30" />
+        <rect l="0" t="0" r="66" b="66" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+    </base>
+    <base type="WNDEX" subclass="" name="ingame_magic_targetyou">
+      <asset type="BG" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="8" t="8" r="184" b="104" />
+      </asset>
+      <asset type="EDGE_LT" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_RT" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_LB" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_RB" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="FRAME_T" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="8" t="0" r="184" b="8" />
+      </asset>
+      <asset type="FRAME_B" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="8" t="0" r="184" b="8" />
+      </asset>
+      <asset type="FRAME_L" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="8" r="8" b="104" />
+      </asset>
+      <asset type="FRAME_R" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="8" r="8" b="104" />
+      </asset>
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="200" b="120" />
+      <snd type="SHOW">
+      </snd>
+      <snd type="HIDE">
+      </snd>
+      <Dragable val="False" />
+      <StartPosition val="None" />
+      <EscKeyAction val="None" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <child type="PICTURE" name="img_targetyou1" subclass="">
+        <asset type="STATIC">img_targetyou.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="72" y="22" />
+        <rect l="0" t="0" r="50" b="67" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="PICTURE" name="img_targetyou_target" subclass="">
+        <asset type="ANIMATION">gui_magic_mark_window_img_targetyou_target.xml</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="78" y="41" />
+        <rect l="0" t="0" r="45" b="45" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+    </base>
+    <base type="WNDEX" subclass="" name="ingame_magic_targetme">
+      <asset type="BG" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="5" t="5" r="190" b="110" />
+      </asset>
+      <asset type="EDGE_LT" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="5" b="5" />
+      </asset>
+      <asset type="EDGE_RT" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="5" b="5" />
+      </asset>
+      <asset type="EDGE_LB" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="5" b="5" />
+      </asset>
+      <asset type="EDGE_RB" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="5" b="5" />
+      </asset>
+      <asset type="FRAME_T" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="5" t="0" r="190" b="5" />
+      </asset>
+      <asset type="FRAME_B" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="5" t="0" r="190" b="5" />
+      </asset>
+      <asset type="FRAME_L" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="5" r="5" b="110" />
+      </asset>
+      <asset type="FRAME_R" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="5" r="5" b="110" />
+      </asset>
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="200" b="120" />
+      <snd type="SHOW">
+      </snd>
+      <snd type="HIDE">
+      </snd>
+      <Dragable val="False" />
+      <StartPosition val="None" />
+      <EscKeyAction val="None" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <child type="PICTURE" name="img_targetme" subclass="">
+        <asset type="STATIC">img_targetme.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="79" y="19" />
+        <rect l="0" t="0" r="42" b="82" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+    </base>
+    <base type="WNDEX" subclass="" name="ingame_magic_nojump">
+      <asset type="BG" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="8" t="8" r="184" b="104" />
+      </asset>
+      <asset type="EDGE_LT" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_RT" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_LB" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_RB" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="FRAME_T" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="8" t="0" r="184" b="8" />
+      </asset>
+      <asset type="FRAME_B" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="8" t="0" r="184" b="8" />
+      </asset>
+      <asset type="FRAME_L" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="8" r="8" b="104" />
+      </asset>
+      <asset type="FRAME_R" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="8" r="8" b="104" />
+      </asset>
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="200" b="120" />
+      <snd type="SHOW">
+      </snd>
+      <snd type="HIDE">
+      </snd>
+      <Dragable val="False" />
+      <StartPosition val="None" />
+      <EscKeyAction val="None" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <child type="PICTURE" name="img_nojump_bg" subclass="">
+        <asset type="STATIC">img_nojump_bg.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="35" y="9" />
+        <rect l="0" t="0" r="130" b="102" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="PICTURE" name="img_nojump_arrow" subclass="">
+        <asset type="STATIC">img_nojump_arrow.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="58" y="36" />
+        <rect l="0" t="0" r="84" b="46" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="PICTURE" name="img_nojump_x" subclass="">
+        <asset type="STATIC">img_nojump_x.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="83" y="24" />
+        <rect l="0" t="0" r="32" b="32" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+    </base>
+    <base type="WNDEX" subclass="" name="ingame_magic_miss">
+      <asset type="BG" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="8" t="8" r="184" b="104" />
+      </asset>
+      <asset type="EDGE_LT" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_RT" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_LB" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_RB" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="FRAME_T" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="8" t="0" r="184" b="8" />
+      </asset>
+      <asset type="FRAME_B" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="8" t="0" r="184" b="8" />
+      </asset>
+      <asset type="FRAME_L" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="8" r="8" b="104" />
+      </asset>
+      <asset type="FRAME_R" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="8" r="8" b="104" />
+      </asset>
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="200" b="120" />
+      <snd type="SHOW">
+      </snd>
+      <snd type="HIDE">
+      </snd>
+      <Dragable val="False" />
+      <StartPosition val="None" />
+      <EscKeyAction val="None" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <child type="PICTURE" name="img_miss_2" subclass="">
+        <asset type="STATIC">img_miss.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="40" y="41" />
+        <rect l="0" t="0" r="78" b="36" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="PICTURE" name="img_miss_1" subclass="">
+        <asset type="STATIC">img_miss.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="40" y="41" />
+        <rect l="0" t="0" r="78" b="36" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="PICTURE" name="img_miss_drop_1" subclass="">
+        <asset type="STATIC">img_miss_drop1.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="119" y="47" />
+        <rect l="0" t="0" r="22" b="28" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="PICTURE" name="img_miss_drop_2" subclass="">
+        <asset type="STATIC">img_miss_drop2.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="130" y="44" />
+        <rect l="0" t="0" r="18" b="24" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+    </base>
+    <base type="WNDEX" subclass="" name="ingame_magic_critical">
+      <asset type="BG" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="8" t="8" r="184" b="104" />
+      </asset>
+      <asset type="EDGE_LT" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_RT" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_LB" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_RB" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="FRAME_T" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="8" t="0" r="184" b="8" />
+      </asset>
+      <asset type="FRAME_B" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="8" t="0" r="184" b="8" />
+      </asset>
+      <asset type="FRAME_L" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="8" r="8" b="104" />
+      </asset>
+      <asset type="FRAME_R" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="8" r="8" b="104" />
+      </asset>
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="200" b="120" />
+      <snd type="SHOW">
+      </snd>
+      <snd type="HIDE">
+      </snd>
+      <Dragable val="False" />
+      <StartPosition val="None" />
+      <EscKeyAction val="None" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <child type="PICTURE" name="img_critical_spot" subclass="">
+        <asset type="STATIC">img_critical_spot.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="11" y="30" />
+        <rect l="0" t="0" r="70" b="70" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="PICTURE" name="img_critical_1" subclass="">
+        <asset type="STATIC">img_critical.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="39" y="36" />
+        <rect l="0" t="0" r="136" b="48" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="PICTURE" name="img_critical_2" subclass="">
+        <asset type="STATIC">img_critical.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="39" y="36" />
+        <rect l="0" t="0" r="136" b="48" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+    </base>
+    <base type="WNDEX" subclass="" name="ingame_magic_criticalchance">
+      <asset type="BG" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="8" t="8" r="184" b="104" />
+      </asset>
+      <asset type="EDGE_LT" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_RT" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_LB" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_RB" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="FRAME_T" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="8" t="0" r="184" b="8" />
+      </asset>
+      <asset type="FRAME_B" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="8" t="0" r="184" b="8" />
+      </asset>
+      <asset type="FRAME_L" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="8" r="8" b="104" />
+      </asset>
+      <asset type="FRAME_R" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="8" r="8" b="104" />
+      </asset>
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="200" b="120" />
+      <snd type="SHOW">
+      </snd>
+      <snd type="HIDE">
+      </snd>
+      <Dragable val="False" />
+      <StartPosition val="None" />
+      <EscKeyAction val="None" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <child type="PICTURE" name="txt_teammagic_crichance_glow" subclass="">
+        <asset type="STATIC">txt_teammagic_crichance_glow.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="0" y="44" />
+        <rect l="0" t="0" r="200" b="32" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="PICTURE" name="txt_teammagic_crichance" subclass="">
+        <asset type="STATIC">txt_teammagic_crichance.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="0" y="44" />
+        <rect l="0" t="0" r="200" b="32" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+    </base>
+    <base type="WNDEX" subclass="" name="ingame_magic_criticalchance_longtime">
+      <asset type="BG" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="8" t="8" r="184" b="104" />
+      </asset>
+      <asset type="EDGE_LT" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_RT" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_LB" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_RB" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="FRAME_T" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="8" t="0" r="184" b="8" />
+      </asset>
+      <asset type="FRAME_B" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="8" t="0" r="184" b="8" />
+      </asset>
+      <asset type="FRAME_L" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="8" r="8" b="104" />
+      </asset>
+      <asset type="FRAME_R" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="8" r="8" b="104" />
+      </asset>
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="200" b="120" />
+      <snd type="SHOW">
+      </snd>
+      <snd type="HIDE">
+      </snd>
+      <Dragable val="False" />
+      <StartPosition val="None" />
+      <EscKeyAction val="None" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <child type="PICTURE" name="txt_teammagic_crichance_glow1" subclass="">
+        <asset type="STATIC">txt_teammagic_crichance_glow.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="0" y="44" />
+        <rect l="0" t="0" r="200" b="32" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="PICTURE" name="txt_teammagic_crichance1" subclass="">
+        <asset type="STATIC">txt_teammagic_crichance.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="0" y="44" />
+        <rect l="0" t="0" r="200" b="32" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+    </base>
+    <base type="WNDEX" subclass="" name="ingame_magic_targetyou_summon">
+      <asset type="BG" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="8" t="8" r="184" b="104" />
+      </asset>
+      <asset type="EDGE_LT" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_RT" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_LB" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_RB" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="FRAME_T" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="8" t="0" r="184" b="8" />
+      </asset>
+      <asset type="FRAME_B" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="8" t="0" r="184" b="8" />
+      </asset>
+      <asset type="FRAME_L" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="8" r="8" b="104" />
+      </asset>
+      <asset type="FRAME_R" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="8" r="8" b="104" />
+      </asset>
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="200" b="120" />
+      <snd type="SHOW">
+      </snd>
+      <snd type="HIDE">
+      </snd>
+      <Dragable val="False" />
+      <StartPosition val="None" />
+      <EscKeyAction val="None" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <child type="PICTURE" name="img_targetyou_summon" subclass="">
+        <asset type="STATIC">img_targetyou_summon.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="72" y="22" />
+        <rect l="0" t="0" r="50" b="67" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="PICTURE" name="img_targetyou_target1" subclass="">
+        <asset type="ANIMATION">gui_magic_mark_window_img_targetyou_target1.xml</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="78" y="41" />
+        <rect l="0" t="0" r="45" b="45" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+    </base>
+    <base type="WNDEX" subclass="" name="ingame_magic_targetyou_magicball">
+      <asset type="BG" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="8" t="8" r="184" b="104" />
+      </asset>
+      <asset type="EDGE_LT" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_RT" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_LB" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_RB" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="FRAME_T" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="8" t="0" r="184" b="8" />
+      </asset>
+      <asset type="FRAME_B" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="8" t="0" r="184" b="8" />
+      </asset>
+      <asset type="FRAME_L" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="8" r="8" b="104" />
+      </asset>
+      <asset type="FRAME_R" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="8" r="8" b="104" />
+      </asset>
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="200" b="120" />
+      <snd type="SHOW">
+      </snd>
+      <snd type="HIDE">
+      </snd>
+      <Dragable val="False" />
+      <StartPosition val="None" />
+      <EscKeyAction val="None" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <child type="PICTURE" name="img_targetyou_magicball" subclass="">
+        <asset type="STATIC">img_targetyou_magicball.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="72" y="22" />
+        <rect l="0" t="0" r="50" b="67" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="PICTURE" name="img_targetyou_target2" subclass="">
+        <asset type="ANIMATION">gui_magic_mark_window_img_targetyou_target2.xml</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="78" y="41" />
+        <rect l="0" t="0" r="45" b="45" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+    </base>
+  </base>
+</refresh>

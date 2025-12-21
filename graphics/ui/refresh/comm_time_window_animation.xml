@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="timer">
+    <asset type="UI" name="asset_comm_time_Wnd">
+      <rect l="0" t="0" r="138" b="23" />
+    </asset>
+    <object name="comm_time_Wnd" ani="ani_comm_time_Wnd">
+      <asset type="UI" link="asset_comm_time_Wnd" />
+    </object>
+    <param type="RES" x="138" y="23" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_comm_time_Wnd">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

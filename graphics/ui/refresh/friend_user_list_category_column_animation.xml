@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="_Normal_">
+    <asset type="UI" name="asset_focus_normal">
+      <rect l="0" t="0" r="270" b="24" />
+    </asset>
+    <asset type="UI" name="asset_focus_over">
+      <rect l="0" t="0" r="270" b="24" />
+    </asset>
+    <asset type="UI" name="asset_focus_select">
+      <rect l="0" t="0" r="270" b="24" />
+    </asset>
+    <object name="focus_normal" ani="ani_focus_normal">
+      <asset type="UI" link="asset_focus_normal" />
+    </object>
+    <object name="focus_over" ani="ani_focus_over">
+      <asset type="UI" link="asset_focus_over" />
+    </object>
+    <object name="focus_select" ani="ani_focus_select">
+      <asset type="UI" link="asset_focus_select" />
+    </object>
+    <param type="RES" x="270" y="30" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_focus_normal">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.06666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_focus_over">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.06666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_focus_select">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.06666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Over_">
+    <asset type="UI" name="asset_focus_normal">
+      <rect l="0" t="0" r="270" b="24" />
+    </asset>
+    <asset type="UI" name="asset_focus_over">
+      <rect l="0" t="0" r="270" b="24" />
+    </asset>
+    <asset type="UI" name="asset_focus_select">
+      <rect l="0" t="0" r="270" b="24" />
+    </asset>
+    <object name="focus_normal" ani="ani_focus_normal">
+      <asset type="UI" link="asset_focus_normal" />
+    </object>
+    <object name="focus_over" ani="ani_focus_over">
+      <asset type="UI" link="asset_focus_over" />
+    </object>
+    <object name="focus_select" ani="ani_focus_select">
+      <asset type="UI" link="asset_focus_select" />
+    </object>
+    <param type="RES" x="270" y="30" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_focus_normal">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.06666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_focus_over">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.06666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_focus_select">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.06666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Selected_">
+    <asset type="UI" name="asset_focus_over">
+      <rect l="0" t="0" r="270" b="24" />
+    </asset>
+    <asset type="UI" name="asset_focus_select">
+      <rect l="0" t="0" r="270" b="24" />
+    </asset>
+    <object name="focus_over" ani="ani_focus_over">
+      <asset type="UI" link="asset_focus_over" />
+    </object>
+    <object name="focus_select" ani="ani_focus_select">
+      <asset type="UI" link="asset_focus_select" />
+    </object>
+    <param type="RES" x="270" y="30" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_focus_over">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.06666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_focus_select">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.06666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Disable_">
+    <asset type="UI" name="asset_focus_normal">
+      <rect l="0" t="0" r="270" b="24" />
+    </asset>
+    <asset type="UI" name="asset_focus_over">
+      <rect l="0" t="0" r="270" b="24" />
+    </asset>
+    <asset type="UI" name="asset_focus_select">
+      <rect l="0" t="0" r="270" b="24" />
+    </asset>
+    <object name="focus_normal" ani="ani_focus_normal">
+      <asset type="UI" link="asset_focus_normal" />
+    </object>
+    <object name="focus_over" ani="ani_focus_over">
+      <asset type="UI" link="asset_focus_over" />
+    </object>
+    <object name="focus_select" ani="ani_focus_select">
+      <asset type="UI" link="asset_focus_select" />
+    </object>
+    <param type="RES" x="270" y="30" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_focus_normal">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.06666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_focus_over">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.06666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_focus_select">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.06666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

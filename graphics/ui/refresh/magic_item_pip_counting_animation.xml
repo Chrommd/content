@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="_Counting_">
+    <asset type="UI" name="asset_pip_combo2">
+      <rect l="0" t="0" r="107" b="149" />
+    </asset>
+    <object name="pip_combo2" ani="ani_pip_combo2">
+      <asset type="UI" link="asset_pip_combo2" />
+    </object>
+    <param type="RES" x="140" y="155" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_pip_combo2">
+      <frame cnt="0">
+        <posx val="0.357142857142857" />
+        <posy val="0.296774193548387" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.86" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="100">
+        <posx val="0.357142857142857" />
+        <posy val="0.296774193548387" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.86" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="233">
+        <posx val="0.664285714285714" easeValue="0.0,0.0,0.2,1.0" />
+        <posy val="0.632258064516129" easeValue="0.0,0.0,0.2,1.0" />
+        <scalex val="0.336448598130841" easeValue="0.0,0.0,0.2,1.0" />
+        <scaley val="0.348993288590604" easeValue="0.0,0.0,0.2,1.0" />
+        <alpha val="1" easeValue="0.0,0.0,0.2,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

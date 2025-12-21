@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="_Opening_">
+    <asset type="UI" name="asset_mate_open">
+      <rect l="0" t="0" r="454" b="342" />
+    </asset>
+    <asset type="UI" name="asset_panel_text">
+      <rect l="0" t="0" r="454" b="342" />
+    </asset>
+    <asset type="UI" name="asset_icon_mate_open">
+      <rect l="0" t="0" r="150" b="104" />
+    </asset>
+    <object name="mate_open" ani="ani_mate_open">
+      <asset type="UI" link="asset_mate_open" />
+    </object>
+    <object name="panel_text" ani="ani_panel_text">
+      <asset type="UI" link="asset_panel_text" />
+    </object>
+    <object name="icon_mate_open" ani="ani_icon_mate_open">
+      <asset type="UI" link="asset_icon_mate_open" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_mate_open">
+      <frame cnt="0">
+        <posx val="0.2783203125" />
+        <posy val="0.295572916666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0.2783203125" />
+        <posy val="0.26953125" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_panel_text">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <sound val="ui_event_levelup" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_mate_open">
+      <frame cnt="0">
+        <posx val="0.2763671875" />
+        <posy val="0.221354166666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0.2763671875" />
+        <posy val="0.221354166666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="967">
+        <posx val="0.2763671875" />
+        <posy val="0.19921875" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Closing_">
+    <asset type="UI" name="asset_mate_open">
+      <rect l="0" t="0" r="454" b="342" />
+    </asset>
+    <asset type="UI" name="asset_panel_text">
+      <rect l="0" t="0" r="454" b="342" />
+    </asset>
+    <object name="mate_open" ani="ani_mate_open">
+      <asset type="UI" link="asset_mate_open" />
+    </object>
+    <object name="panel_text" ani="ani_panel_text">
+      <asset type="UI" link="asset_panel_text" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_mate_open">
+      <frame cnt="0">
+        <posx val="0.2783203" />
+        <posy val="0.2695313" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.2783203125" />
+        <posy val="0.295572916666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_panel_text">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <sound val="ui_fade_out" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

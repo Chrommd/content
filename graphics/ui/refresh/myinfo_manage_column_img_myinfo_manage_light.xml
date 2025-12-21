@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="img_myinfo_manage_light_Default">
+    <asset type="IMAGE" name="asset_img_myinfo_manage_light" path="img_myinfo_manage_light.png">
+      <rect l="0" t="0" r="317" b="52" />
+    </asset>
+    <object name="img_myinfo_manage_light" ani="ani_img_myinfo_manage_light">
+      <asset type="IMAGE" link="asset_img_myinfo_manage_light" />
+    </object>
+    <param type="RES" x="317" y="52" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_img_myinfo_manage_light">
+      <frame cnt="0">
+        <posx val="0.498422712933754" />
+        <posy val="0.5" />
+        <scalex val="0.842271293375394" />
+        <scaley val="0.307692307692308" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="100">
+        <posx val="0.498422712933754" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.498422712933754" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="1100">
+        <posx val="0.4984227" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

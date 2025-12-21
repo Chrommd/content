@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="guild_user_invite_list_column_Animation.xml" />
+  </properties>
+  <base type="WND" subclass="" name="Wnd_guild_invite_list">
+    <Visible val="True" />
+    <Anchor val="Top, Left" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="240" b="25" />
+    <snd type="SHOW">
+    </snd>
+    <snd type="HIDE">
+    </snd>
+    <IsHitTestVisible val="True" />
+    <ClipChildren val="False" />
+    <child type="PICTURE" name="underline" subclass="">
+      <asset type="STATIC">mail_img_mailbox_underline.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="0" y="22" />
+      <rect l="0" t="0" r="240" b="2" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="False" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="PICTURE" name="over" subclass="">
+      <asset type="STATIC">letter_focus_over.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="0" y="1" />
+      <rect l="0" t="0" r="240" b="20" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="False" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="PICTURE" name="select" subclass="">
+      <asset type="STATIC">letter_focus_select.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="0" y="1" />
+      <rect l="0" t="0" r="240" b="20" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="False" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="LABEL" name="nickname" subclass="">
+      <label val="" />
+      <pos x="16" y="1" />
+      <rect l="0" t="0" r="132" b="19" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#FF0000" />
+      <color val="#796456FF" />
+      <halign val="0" />
+      <valign val="1" />
+      <FontName val="나눔고딕" />
+      <FontSize val="13" />
+      <TextTrimming val="CharacterEllipsis" />
+      <style val="0" />
+      <IsHitTestVisible val="False" />
+      <ClipChildren val="False" />
+      <Padding val="0, 0, 0, 0" />
+    </child>
+    <child type="LABEL" name="date" subclass="">
+      <label val="" />
+      <pos x="150" y="1" />
+      <rect l="0" t="0" r="87" b="19" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#FF0000" />
+      <color val="#796456FF" />
+      <halign val="0" />
+      <valign val="1" />
+      <FontName val="나눔고딕" />
+      <FontSize val="13" />
+      <TextTrimming val="CharacterEllipsis" />
+      <style val="1" />
+      <IsHitTestVisible val="False" />
+      <ClipChildren val="False" />
+      <Padding val="0, 0, 0, 0" />
+    </child>
+    <child type="PICTURE" name="slate_icon" subclass="">
+      <asset type="STATIC">
+      </asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="2" y="4" />
+      <rect l="0" t="0" r="13" b="13" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+  </base>
+</refresh>

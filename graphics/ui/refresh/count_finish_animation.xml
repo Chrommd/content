@@ -1,0 +1,785 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="finish">
+    <asset type="UI" name="asset_r_ef">
+      <rect l="0" t="0" r="300" b="84" />
+    </asset>
+    <asset type="UI" name="asset_l_ef">
+      <rect l="0" t="0" r="300" b="84" />
+    </asset>
+    <asset type="UI" name="asset_timeover">
+      <rect l="0" t="0" r="718" b="122" />
+    </asset>
+    <asset type="UI" name="asset_raceover">
+      <rect l="0" t="0" r="744" b="122" />
+    </asset>
+    <asset type="UI" name="asset_goal">
+      <rect l="0" t="0" r="382" b="122" />
+    </asset>
+    <asset type="UI" name="asset_finish">
+      <rect l="0" t="0" r="452" b="122" />
+    </asset>
+    <object name="r_ef" ani="ani_r_ef">
+      <asset type="UI" link="asset_r_ef" />
+    </object>
+    <object name="l_ef" ani="ani_l_ef">
+      <asset type="UI" link="asset_l_ef" />
+    </object>
+    <object name="timeover" ani="ani_timeover">
+      <asset type="UI" link="asset_timeover" />
+    </object>
+    <object name="raceover" ani="ani_raceover">
+      <asset type="UI" link="asset_raceover" />
+    </object>
+    <object name="goal" ani="ani_goal">
+      <asset type="UI" link="asset_goal" />
+    </object>
+    <object name="finish" ani="ani_finish">
+      <asset type="UI" link="asset_finish" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_r_ef">
+      <frame cnt="0">
+        <posx val="0.431640625" />
+        <posy val="0.3515625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.431640625" />
+        <posy val="0.3515625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="700">
+        <posx val="0.48046875" />
+        <posy val="0.3515625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2667">
+        <posx val="0.48046875" />
+        <posy val="0.3515625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="3000">
+        <posx val="0.529296875" easeValue="0.4,0.0,1.0,1.0" />
+        <posy val="0.3515625" easeValue="0.4,0.0,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" easeValue="0.4,0.0,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_l_ef">
+      <frame cnt="0">
+        <posx val="0.2578125" />
+        <posy val="0.3515625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.2578125" />
+        <posy val="0.3515625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="700">
+        <posx val="0.21484375" />
+        <posy val="0.3515625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2667">
+        <posx val="0.21484375" />
+        <posy val="0.3515625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="3000">
+        <posx val="0.16015625" easeValue="0.4,0.0,1.0,1.0" />
+        <posy val="0.3515625" easeValue="0.4,0.0,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" easeValue="0.4,0.0,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_timeover">
+      <frame cnt="0">
+        <posx val="0.1494141" />
+        <posy val="0.2734375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_raceover">
+      <frame cnt="0">
+        <posx val="0.1367188" />
+        <posy val="0.2734375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_goal">
+      <frame cnt="0">
+        <posx val="0.3134766" />
+        <posy val="0.2734375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_finish">
+      <frame cnt="0">
+        <posx val="0.376953125" />
+        <posy val="0.266927083333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="400">
+        <posx val="0.279296875" easeValue="0.0,0.7,1.0,1.0" />
+        <posy val="0.266927083333333" easeValue="0.0,0.7,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,0.7,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2600">
+        <posx val="0.2792969" />
+        <posy val="0.2669271" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="3000">
+        <posx val="0.2792969" />
+        <posy val="0.2669271" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="timeover">
+    <asset type="UI" name="asset_r_ef">
+      <rect l="0" t="0" r="300" b="84" />
+    </asset>
+    <asset type="UI" name="asset_l_ef">
+      <rect l="0" t="0" r="300" b="84" />
+    </asset>
+    <asset type="UI" name="asset_timeover">
+      <rect l="0" t="0" r="718" b="122" />
+    </asset>
+    <asset type="UI" name="asset_raceover">
+      <rect l="0" t="0" r="744" b="122" />
+    </asset>
+    <asset type="UI" name="asset_goal">
+      <rect l="0" t="0" r="382" b="122" />
+    </asset>
+    <asset type="UI" name="asset_finish">
+      <rect l="0" t="0" r="452" b="122" />
+    </asset>
+    <object name="r_ef" ani="ani_r_ef">
+      <asset type="UI" link="asset_r_ef" />
+    </object>
+    <object name="l_ef" ani="ani_l_ef">
+      <asset type="UI" link="asset_l_ef" />
+    </object>
+    <object name="timeover" ani="ani_timeover">
+      <asset type="UI" link="asset_timeover" />
+    </object>
+    <object name="raceover" ani="ani_raceover">
+      <asset type="UI" link="asset_raceover" />
+    </object>
+    <object name="goal" ani="ani_goal">
+      <asset type="UI" link="asset_goal" />
+    </object>
+    <object name="finish" ani="ani_finish">
+      <asset type="UI" link="asset_finish" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_r_ef">
+      <frame cnt="0">
+        <posx val="0.484375" />
+        <posy val="0.372395833333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_l_ef">
+      <frame cnt="0">
+        <posx val="0.2666015625" />
+        <posy val="0.372395833333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_timeover">
+      <frame cnt="0">
+        <posx val="0.244140625" />
+        <posy val="0.2734375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <sound val="gui_end_raceover_st" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0.1494140625" easeValue="0.0,1.0,1.0,1.0" />
+        <posy val="0.2734375" easeValue="0.0,1.0,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,1.0,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2600">
+        <posx val="0.1494141" />
+        <posy val="0.2734375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="3000">
+        <posx val="0.1494141" />
+        <posy val="0.2734375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_raceover">
+      <frame cnt="0">
+        <posx val="0.1367188" />
+        <posy val="0.2734375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_goal">
+      <frame cnt="0">
+        <posx val="0.3134766" />
+        <posy val="0.2734375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_finish">
+      <frame cnt="0">
+        <posx val="0.2792969" />
+        <posy val="0.2734375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="goal">
+    <asset type="UI" name="asset_r_ef">
+      <rect l="0" t="0" r="300" b="84" />
+    </asset>
+    <asset type="UI" name="asset_l_ef">
+      <rect l="0" t="0" r="300" b="84" />
+    </asset>
+    <asset type="UI" name="asset_timeover">
+      <rect l="0" t="0" r="718" b="122" />
+    </asset>
+    <asset type="UI" name="asset_raceover">
+      <rect l="0" t="0" r="744" b="122" />
+    </asset>
+    <asset type="UI" name="asset_goal">
+      <rect l="0" t="0" r="382" b="122" />
+    </asset>
+    <asset type="UI" name="asset_finish">
+      <rect l="0" t="0" r="452" b="122" />
+    </asset>
+    <object name="r_ef" ani="ani_r_ef">
+      <asset type="UI" link="asset_r_ef" />
+    </object>
+    <object name="l_ef" ani="ani_l_ef">
+      <asset type="UI" link="asset_l_ef" />
+    </object>
+    <object name="timeover" ani="ani_timeover">
+      <asset type="UI" link="asset_timeover" />
+    </object>
+    <object name="raceover" ani="ani_raceover">
+      <asset type="UI" link="asset_raceover" />
+    </object>
+    <object name="goal" ani="ani_goal">
+      <asset type="UI" link="asset_goal" />
+    </object>
+    <object name="finish" ani="ani_finish">
+      <asset type="UI" link="asset_finish" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_r_ef">
+      <frame cnt="0">
+        <posx val="0.431640625" />
+        <posy val="0.3515625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="300">
+        <posx val="0.431640625" />
+        <posy val="0.3515625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="600">
+        <posx val="0.48046875" />
+        <posy val="0.3515625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1700">
+        <posx val="0.48046875" />
+        <posy val="0.3515625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1967">
+        <posx val="0.529296875" easeValue="0.4,0.0,1.0,1.0" />
+        <posy val="0.3515625" easeValue="0.4,0.0,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" easeValue="0.4,0.0,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_l_ef">
+      <frame cnt="0">
+        <posx val="0.2578125" />
+        <posy val="0.3515625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="300">
+        <posx val="0.2578125" />
+        <posy val="0.3515625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="600">
+        <posx val="0.21484375" />
+        <posy val="0.3515625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1700">
+        <posx val="0.21484375" />
+        <posy val="0.3515625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1967">
+        <posx val="0.16015625" easeValue="0.4,0.0,1.0,1.0" />
+        <posy val="0.3515625" easeValue="0.4,0.0,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" easeValue="0.4,0.0,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_timeover">
+      <frame cnt="0">
+        <posx val="0.1494141" />
+        <posy val="0.2734375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_raceover">
+      <frame cnt="0">
+        <posx val="0.1367188" />
+        <posy val="0.2734375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_goal">
+      <frame cnt="0">
+        <posx val="0.41015625" />
+        <posy val="0.266927083333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0.3095703125" easeValue="0.0,1.0,1.0,1.0" />
+        <posy val="0.266927083333333" easeValue="0.0,1.0,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,1.0,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1700">
+        <posx val="0.3095703125" />
+        <posy val="0.266927083333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1967">
+        <posx val="0.3095703" />
+        <posy val="0.2669271" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_finish">
+      <frame cnt="0">
+        <posx val="0.2792969" />
+        <posy val="0.2734375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="raceover">
+    <asset type="UI" name="asset_r_ef">
+      <rect l="0" t="0" r="300" b="84" />
+    </asset>
+    <asset type="UI" name="asset_l_ef">
+      <rect l="0" t="0" r="300" b="84" />
+    </asset>
+    <asset type="UI" name="asset_timeover">
+      <rect l="0" t="0" r="718" b="122" />
+    </asset>
+    <asset type="UI" name="asset_raceover">
+      <rect l="0" t="0" r="744" b="122" />
+    </asset>
+    <asset type="UI" name="asset_goal">
+      <rect l="0" t="0" r="382" b="122" />
+    </asset>
+    <asset type="UI" name="asset_finish">
+      <rect l="0" t="0" r="452" b="122" />
+    </asset>
+    <object name="r_ef" ani="ani_r_ef">
+      <asset type="UI" link="asset_r_ef" />
+    </object>
+    <object name="l_ef" ani="ani_l_ef">
+      <asset type="UI" link="asset_l_ef" />
+    </object>
+    <object name="timeover" ani="ani_timeover">
+      <asset type="UI" link="asset_timeover" />
+    </object>
+    <object name="raceover" ani="ani_raceover">
+      <asset type="UI" link="asset_raceover" />
+    </object>
+    <object name="goal" ani="ani_goal">
+      <asset type="UI" link="asset_goal" />
+    </object>
+    <object name="finish" ani="ani_finish">
+      <asset type="UI" link="asset_finish" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_r_ef">
+      <frame cnt="0">
+        <posx val="0.484375" />
+        <posy val="0.372395833333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_l_ef">
+      <frame cnt="0">
+        <posx val="0.2666015625" />
+        <posy val="0.372395833333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_timeover">
+      <frame cnt="0">
+        <posx val="0.1494141" />
+        <posy val="0.2734375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_raceover">
+      <frame cnt="0">
+        <posx val="0.234375" />
+        <posy val="0.2734375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <sound val="gui_end_raceover_st" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0.13671875" easeValue="0.0,1.0,1.0,1.0" />
+        <posy val="0.2734375" easeValue="0.0,1.0,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,1.0,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2600">
+        <posx val="0.1367188" />
+        <posy val="0.2734375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="3000">
+        <posx val="0.1367188" />
+        <posy val="0.2734375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_goal">
+      <frame cnt="0">
+        <posx val="0.3134766" />
+        <posy val="0.2734375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_finish">
+      <frame cnt="333">
+        <posx val="0.2792969" />
+        <posy val="0.2734375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

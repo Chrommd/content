@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="myinfo_challenge_column_Animation.xml" />
+  </properties>
+  <base type="WND" subclass="" name="Wnd">
+    <Visible val="True" />
+    <Anchor val="Top, Left" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="438" b="88" />
+    <snd type="SHOW">
+    </snd>
+    <snd type="HIDE">
+    </snd>
+    <IsHitTestVisible val="True" />
+    <ClipChildren val="False" />
+    <child type="PANEL" name="challenge_list" subclass="">
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <embed src="" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="438" b="85" />
+      <IsHitTestVisible val="False" />
+      <ClipChildren val="False" />
+      <child type="PICTURE" name="list_img_myinfo_archive_contents" subclass="">
+        <asset type="STATIC">list_img_myinfo_archive_contents.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="0" y="0" />
+        <rect l="0" t="0" r="438" b="85" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <child type="TEXTAREA" name="ta_challenge_info" subclass="">
+          <asset type="BG" path="" tileMode="Tile">
+            <tex x="0" y="0" />
+            <rect l="8" t="8" r="345" b="16" />
+          </asset>
+          <asset type="EDGE_LT" path="" tileMode="Tile">
+            <tex x="0" y="0" />
+            <rect l="0" t="0" r="8" b="8" />
+          </asset>
+          <asset type="EDGE_RT" path="" tileMode="Tile">
+            <tex x="0" y="0" />
+            <rect l="0" t="0" r="8" b="8" />
+          </asset>
+          <asset type="EDGE_LB" path="" tileMode="Tile">
+            <tex x="0" y="0" />
+            <rect l="0" t="0" r="8" b="8" />
+          </asset>
+          <asset type="EDGE_RB" path="" tileMode="Tile">
+            <tex x="0" y="0" />
+            <rect l="0" t="0" r="8" b="8" />
+          </asset>
+          <asset type="FRAME_T" path="" tileMode="Tile">
+            <tex x="0" y="0" />
+            <rect l="8" t="0" r="345" b="8" />
+          </asset>
+          <asset type="FRAME_B" path="" tileMode="Tile">
+            <tex x="0" y="0" />
+            <rect l="8" t="0" r="345" b="8" />
+          </asset>
+          <asset type="FRAME_L" path="" tileMode="Tile">
+            <tex x="0" y="0" />
+            <rect l="0" t="8" r="8" b="16" />
+          </asset>
+          <asset type="FRAME_R" path="" tileMode="Tile">
+            <tex x="0" y="0" />
+            <rect l="0" t="8" r="8" b="16" />
+          </asset>
+          <asset type="CARET" path="">
+            <rpos x="0" y="0" />
+            <rect l="0" t="0" r="0" b="0" />
+          </asset>
+          <pos x="73" y="30" />
+          <rect l="0" t="0" r="361" b="32" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <Editable val="False" />
+          <OutlineColor val="#FFFFFF" />
+          <ShadowColor val="#0000004C" />
+          <SelectionBrush val="#FF0000" />
+          <color val="#796456FF" />
+          <style val="1" />
+          <halign val="0" />
+          <padding l="0" t="0" r="0" b="0" />
+          <FontName val="나눔고딕" />
+          <FontSize val="13" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+      </child>
+      <child type="LABEL" name="tx_challenge_title" subclass="">
+        <label val="" />
+        <pos x="73" y="5" />
+        <rect l="0" t="0" r="275" b="20" />
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#FF0000" />
+        <color val="#624938FF" />
+        <halign val="0" />
+        <valign val="1" />
+        <FontName val="나눔고딕" />
+        <FontSize val="13" />
+        <TextTrimming val="None" />
+        <style val="1" />
+        <IsHitTestVisible val="False" />
+        <ClipChildren val="False" />
+        <Padding val="0, 0, 0, 0" />
+      </child>
+      <base type="WNDEX" subclass="" name="WndEx5">
+        <asset type="BG" path="frm_gauge_CenterMiddle.png" tileMode="Stretch">
+          <tex x="4" y="4" />
+          <rect l="7" t="7" r="414" b="3" />
+        </asset>
+        <asset type="EDGE_LT" path="frm_gauge_LeftTop.png" tileMode="Stretch">
+          <tex x="7" y="7" />
+          <rect l="0" t="0" r="7" b="7" />
+        </asset>
+        <asset type="EDGE_RT" path="frm_gauge_RightTop.png" tileMode="Stretch">
+          <tex x="7" y="7" />
+          <rect l="0" t="0" r="7" b="7" />
+        </asset>
+        <asset type="EDGE_LB" path="frm_gauge_LeftBottom.png" tileMode="Stretch">
+          <tex x="7" y="7" />
+          <rect l="0" t="0" r="7" b="7" />
+        </asset>
+        <asset type="EDGE_RB" path="frm_gauge_RightBottom.png" tileMode="Stretch">
+          <tex x="7" y="7" />
+          <rect l="0" t="0" r="7" b="7" />
+        </asset>
+        <asset type="FRAME_T" path="frm_gauge_CenterTop.png" tileMode="Stretch">
+          <tex x="4" y="7" />
+          <rect l="7" t="0" r="414" b="7" />
+        </asset>
+        <asset type="FRAME_B" path="frm_gauge_CenterBottom.png" tileMode="Stretch">
+          <tex x="4" y="7" />
+          <rect l="7" t="0" r="414" b="7" />
+        </asset>
+        <asset type="FRAME_L" path="frm_gauge_LeftMiddle.png" tileMode="Stretch">
+          <tex x="7" y="4" />
+          <rect l="0" t="7" r="7" b="3" />
+        </asset>
+        <asset type="FRAME_R" path="frm_gauge_RightMiddle.png" tileMode="Stretch">
+          <tex x="7" y="4" />
+          <rect l="0" t="7" r="7" b="3" />
+        </asset>
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <pos x="5" y="65" />
+        <rect l="0" t="0" r="428" b="17" />
+        <snd type="SHOW">
+        </snd>
+        <snd type="HIDE">
+        </snd>
+        <Dragable val="False" />
+        <StartPosition val="None" />
+        <EscKeyAction val="None" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <child type="PROGRESS" name="prgrs_challengebook" subclass="">
+          <asset type="BAR" tileMode="Stretch">img_common_gauge_default_small.png</asset>
+          <tex x="4" y="10" />
+          <pos x="4" y="4" />
+          <rect l="0" t="0" r="420" b="10" />
+          <Visible val="True" />
+          <Anchor val="Top, Left, Right" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="LABEL" name="tx_challenge_number_goal" subclass="">
+          <label val="" />
+          <pos x="223" y="0" />
+          <rect l="0" t="0" r="32" b="17" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#FF0000" />
+          <color val="#FFFFFF99" />
+          <halign val="0" />
+          <valign val="1" />
+          <FontName val="나눔고딕" />
+          <FontSize val="11" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+        <child type="LABEL" name="lb_slash1" subclass="">
+          <label val="/" />
+          <pos x="218" y="1" />
+          <rect l="0" t="0" r="5" b="17" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#FF0000" />
+          <color val="#FFFFFF99" />
+          <halign val="1" />
+          <valign val="1" />
+          <FontName val="나눔고딕" />
+          <FontSize val="11" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+        <child type="LABEL" name="tx_challenge_number_perform" subclass="">
+          <label val="" />
+          <pos x="185" y="0" />
+          <rect l="0" t="0" r="32" b="17" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#FF0000" />
+          <color val="#FFFFFF99" />
+          <halign val="2" />
+          <valign val="1" />
+          <FontName val="나눔고딕" />
+          <FontSize val="11" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+      </base>
+    </child>
+    <child type="PICTURE" name="icon_challenge" subclass="">
+      <asset type="STATIC">
+      </asset>
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <pos x="7" y="4" />
+      <rect l="0" t="0" r="60" b="60" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <child type="ANIMBUTTON" name="btn_myinfo_icon_over" subclass="">
+        <asset type="GROUP">myinfo_challenge_column_btn_myinfo_icon_over.xml</asset>
+        <asset type="NORMAL">
+        </asset>
+        <asset type="DOWN">
+        </asset>
+        <asset type="OVER">
+        </asset>
+        <asset type="DISABLE">
+        </asset>
+        <asset type="ENTER">
+        </asset>
+        <asset type="LEAVE">
+        </asset>
+        <snd type="OVER">
+        </snd>
+        <snd type="DOWN">
+        </snd>
+        <snd type="RELEASE">
+        </snd>
+        <pos x="-2" y="-3" />
+        <rect l="0" t="0" r="65" b="65" />
+        <Visible val="True" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <Anchor val="Top, Left" />
+        <IsDefaultButton val="False" />
+      </child>
+    </child>
+    <child type="PICTURE" name="img_myinfo_archive_gift_medal_disable" subclass="">
+      <asset type="STATIC">img_myinfo_archive_gift_medal_disable.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="336" y="3" />
+      <rect l="0" t="0" r="22" b="25" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="PICTURE" name="img_myinfo_archive_gift_medal_disable1" subclass="">
+      <asset type="STATIC">img_myinfo_archive_gift_medal_disable.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="360" y="3" />
+      <rect l="0" t="0" r="22" b="25" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="PICTURE" name="img_myinfo_archive_gift_medal_disable2" subclass="">
+      <asset type="STATIC">img_myinfo_archive_gift_medal_disable.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="384" y="3" />
+      <rect l="0" t="0" r="22" b="25" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="PICTURE" name="img_myinfo_archive_gift_medal_disable3" subclass="">
+      <asset type="STATIC">img_myinfo_archive_gift_medal_disable.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="408" y="3" />
+      <rect l="0" t="0" r="22" b="25" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="PICTURE" name="img_myinfo_archive_medal_4" subclass="">
+      <asset type="STATIC">img_myinfo_archive_medal_4.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="361" y="0" />
+      <rect l="0" t="0" r="21" b="33" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="PICTURE" name="img_myinfo_archive_medal_1" subclass="">
+      <asset type="STATIC">img_myinfo_archive_medal_1.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="337" y="0" />
+      <rect l="0" t="0" r="21" b="33" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="PICTURE" name="img_myinfo_archive_medal_2" subclass="">
+      <asset type="STATIC">img_myinfo_archive_medal_2.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="409" y="0" />
+      <rect l="0" t="0" r="21" b="33" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="PICTURE" name="img_myinfo_archive_medal_3" subclass="">
+      <asset type="STATIC">img_myinfo_archive_medal_3.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="385" y="0" />
+      <rect l="0" t="0" r="21" b="33" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+  </base>
+</refresh>

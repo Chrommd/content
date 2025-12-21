@@ -1,0 +1,890 @@
+﻿<refresh version="2">
+	<properties>
+		<property name="DPI" val="72" />
+		<property name="UIAnimation" val="field_guild_makeroom_window_Animation.xml" />
+	</properties>
+	<base type="WNDEX" subclass="" name="field_guild_makeroom_window">
+		<asset type="BG" path="frm_depth1_CenterMiddle.png" tileMode="Tile">
+			<tex x="40" y="40" />
+			<rect l="44" t="39" r="384" b="440" />
+		</asset>
+		<asset type="EDGE_LT" path="frm_depth1_LeftTop.png" tileMode="Stretch">
+			<tex x="44" y="39" />
+			<rect l="0" t="0" r="44" b="39" />
+		</asset>
+		<asset type="EDGE_RT" path="frm_depth1_RightTop.png" tileMode="Stretch">
+			<tex x="46" y="39" />
+			<rect l="0" t="0" r="46" b="39" />
+		</asset>
+		<asset type="EDGE_LB" path="frm_depth1_LeftBottom.png" tileMode="Stretch">
+			<tex x="44" y="38" />
+			<rect l="0" t="0" r="44" b="38" />
+		</asset>
+		<asset type="EDGE_RB" path="frm_depth1_RightBottom.png" tileMode="Stretch">
+			<tex x="46" y="38" />
+			<rect l="0" t="0" r="46" b="38" />
+		</asset>
+		<asset type="FRAME_T" path="frm_depth1_CenterTop.png" tileMode="Tile">
+			<tex x="40" y="39" />
+			<rect l="44" t="0" r="384" b="39" />
+		</asset>
+		<asset type="FRAME_B" path="frm_depth1_CenterBottom.png" tileMode="Tile">
+			<tex x="40" y="38" />
+			<rect l="44" t="0" r="384" b="38" />
+		</asset>
+		<asset type="FRAME_L" path="frm_depth1_LeftMiddle.png" tileMode="Tile">
+			<tex x="44" y="40" />
+			<rect l="0" t="39" r="44" b="440" />
+		</asset>
+		<asset type="FRAME_R" path="frm_depth1_RightMiddle.png" tileMode="Tile">
+			<tex x="46" y="40" />
+			<rect l="0" t="39" r="46" b="440" />
+		</asset>
+		<pos x="273" y="117" />
+		<rect l="0" t="0" r="474" b="517" />
+		<Visible val="True" />
+		<Anchor val="None" />
+		<snd type="SHOW"></snd>
+		<snd type="HIDE"></snd>
+		<Dragable val="False" />
+		<StartPosition val="CenterScreen" />
+		<EscKeyAction val="None" />
+		<IsHitTestVisible val="True" />
+		<ClipChildren val="False" />
+		<child type="PICTURE" name="frame_img_bg" subclass="">
+			<asset type="STATIC">makeroom_mode_img_bg.png</asset>
+			<pos x="24" y="47" />
+			<rect l="0" t="0" r="451" b="310" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="img_mode" subclass="">
+			<asset type="STATIC">mode_guild.png</asset>
+			<pos x="20" y="77" />
+			<rect l="0" t="0" r="433" b="200" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="CHECK" name="lock_check_n" subclass="">
+			<asset type="NORMAL">checkbox_n.png</asset>
+			<asset type="CHECK">checkbox_d.png</asset>
+			<pos x="265" y="1423" />
+			<rect l="0" t="0" r="28" b="28" />
+			<Visible val="True" />
+			<PushSound val="ui_btn_menu_close" />
+			<Anchor val="None" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="LABEL" name="lb_makeroom" subclass="">
+			<pos x="99" y="23" />
+			<rect l="0" t="0" r="270" b="20" />
+			<Visible val="True" />
+			<Anchor val="Top" />
+			<label val="New" />
+			<OutlineColor val="#FF0000" />
+			<ShadowColor val="#181818" />
+			<color val="#FFFFFF" />
+			<halign val="1" />
+			<valign val="0" />
+			<FontName val="나눔고딕" />
+			<FontSize val="15" />
+			<TextTrimming val="None" />
+			<style val="1" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+			<Padding val="0, 0, 0, 0" />
+			<FitToContent val="False" />
+		</child>
+		<base type="WNDEX" subclass="" name="wndex_courselist_title">
+			<asset type="BG" path="" tileMode="Stretch">
+				<tex x="4" y="4" />
+				<rect l="130" t="38" r="104" b="16" />
+			</asset>
+			<asset type="EDGE_LT" path="frm_depth1_titlebar_left.png" tileMode="Stretch">
+				<tex x="131" y="38" />
+				<rect l="0" t="0" r="130" b="38" />
+			</asset>
+			<asset type="EDGE_RT" path="frm_depth1_titlebar_right.png" tileMode="Stretch">
+				<tex x="130" y="38" />
+				<rect l="0" t="0" r="130" b="38" />
+			</asset>
+			<asset type="EDGE_LB" path="" tileMode="Stretch">
+				<tex x="5" y="5" />
+				<rect l="0" t="0" r="16" b="16" />
+			</asset>
+			<asset type="EDGE_RB" path="" tileMode="Stretch">
+				<tex x="5" y="5" />
+				<rect l="-114" t="0" r="16" b="16" />
+			</asset>
+			<asset type="FRAME_T" path="frm_depth1_titlebar_center.png" tileMode="Tile">
+				<tex x="31" y="32" />
+				<rect l="130" t="0" r="118" b="38" />
+			</asset>
+			<asset type="FRAME_B" path="" tileMode="Stretch">
+				<tex x="4" y="5" />
+				<rect l="130" t="0" r="104" b="16" />
+			</asset>
+			<asset type="FRAME_L" path="" tileMode="Stretch">
+				<tex x="5" y="4" />
+				<rect l="0" t="38" r="16" b="16" />
+			</asset>
+			<asset type="FRAME_R" path="" tileMode="Stretch">
+				<tex x="5" y="4" />
+				<rect l="-114" t="38" r="16" b="16" />
+			</asset>
+			<pos x="46" y="4" />
+			<rect l="0" t="0" r="378" b="70" />
+			<Visible val="True" />
+			<Anchor val="Top, Left, Right" />
+			<snd type="SHOW"></snd>
+			<snd type="HIDE"></snd>
+			<Dragable val="False" />
+			<StartPosition val="None" />
+			<EscKeyAction val="None" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<child type="LABEL" name="lb_item_obtain" subclass="">
+				<pos x="19" y="9" />
+				<rect l="0" t="0" r="342" b="18" />
+				<Visible val="True" />
+				<Anchor val="Top, Bottom, Left, Right" />
+				<label val="기사단전 New" />
+				<OutlineColor val="#FF0000" />
+				<ShadowColor val="#000000FF" />
+				<color val="#FFFFFFFF" />
+				<halign val="1" />
+				<valign val="1" />
+				<FontName val="나눔고딕 ExtraBold" />
+				<FontSize val="16" />
+				<TextTrimming val="None" />
+				<style val="32" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+				<Padding val="0, 0, 0, 0" />
+				<FitToContent val="False" />
+			</child>
+		</base>
+		<child type="PICTURE" name="mode_guild_speed" subclass="">
+			<asset type="STATIC">mode_guild_speed.png</asset>
+			<pos x="41" y="272" />
+			<rect l="0" t="0" r="406" b="55" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="mode_guild_magic" subclass="">
+			<asset type="STATIC">mode_guild_magic.png</asset>
+			<pos x="41" y="272" />
+			<rect l="0" t="0" r="406" b="55" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="ANIMBUTTON" name="btn_mode1" subclass="">
+			<asset type="GROUP">field_guild_makeroom_window_btn_mode1.xml</asset>
+			<asset type="NORMAL"></asset>
+			<asset type="DOWN"></asset>
+			<asset type="OVER"></asset>
+			<asset type="DISABLE"></asset>
+			<asset type="ENTER"></asset>
+			<asset type="LEAVE"></asset>
+			<pos x="236" y="218" />
+			<rect l="0" t="0" r="200" b="41" />
+			<Visible val="True" />
+			<snd type="OVER"></snd>
+			<snd type="DOWN">ui_btn_menu_click</snd>
+			<snd type="RELEASE">ui_btn_menu_close</snd>
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<Anchor val="Top, Left" />
+			<IsDefaultButton val="False" />
+		</child>
+		<child type="ANIMBUTTON" name="btn_mode0" subclass="">
+			<asset type="GROUP">field_guild_makeroom_window_btn_mode0.xml</asset>
+			<asset type="NORMAL"></asset>
+			<asset type="DOWN"></asset>
+			<asset type="OVER"></asset>
+			<asset type="DISABLE"></asset>
+			<asset type="ENTER"></asset>
+			<asset type="LEAVE"></asset>
+			<pos x="37" y="218" />
+			<rect l="0" t="0" r="200" b="41" />
+			<Visible val="True" />
+			<snd type="OVER"></snd>
+			<snd type="DOWN">ui_btn_menu_click</snd>
+			<snd type="RELEASE">ui_btn_menu_close</snd>
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<Anchor val="Top, Left" />
+			<IsDefaultButton val="False" />
+		</child>
+		<child type="BUTTON" subclass="" name="btn_close">
+			<asset type="NORMAL">btn_depth1_RightTop_close_Normal.png</asset>
+			<asset type="DOWN">btn_depth1_RightTop_close_Push.png</asset>
+			<asset type="OVER">btn_depth1_RightTop_close_Hover.png</asset>
+			<asset type="DISABLE">btn_depth1_RightTop_close_Disable.png</asset>
+			<pos x="440" y="8" />
+			<rect l="0" t="0" r="23" b="23" />
+			<Visible val="True" />
+			<Anchor val="Top, Right" />
+			<snd type="OVER"></snd>
+			<snd type="DOWN">ui_btn_menu_click</snd>
+			<snd type="RELEASE">ui_btn_menu_release;ui_btn_menu_close</snd>
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<IsDefaultButton val="False" />
+		</child>
+		<child type="LABELBUTTON" name="btn_confirm" subclass="">
+			<asset type="NORMAL">btn_common_confirm_large_Normal.png</asset>
+			<asset type="DOWN">btn_common_confirm_large_Push.png</asset>
+			<asset type="OVER">btn_common_confirm_large_Hover.png</asset>
+			<asset type="DISABLE">btn_common_confirm_large_Disable.png</asset>
+			<control type="LABEL" name="btn_confirm_Label">
+				<pos x="0" y="0" />
+				<rect l="0" t="0" r="182" b="33" />
+				<Visible val="True" />
+				<Anchor val="Bottom, Left, Right" />
+				<label val="Create" />
+				<OutlineColor val="#FFFFFF" />
+				<ShadowColor val="#0000004C" />
+				<color val="#6B5D54" />
+				<halign val="1" />
+				<valign val="1" />
+				<FontName val="나눔고딕" />
+				<FontSize val="13" />
+				<TextTrimming val="None" />
+				<style val="1" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+				<Padding val="0, 0, 0, 0" />
+				<FitToContent val="False" />
+			</control>
+			<pos x="103" y="460" />
+			<rect l="0" t="0" r="182" b="33" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<snd type="OVER"></snd>
+			<snd type="DOWN">ui_btn_menu_click</snd>
+			<snd type="RELEASE">ui_btn_menu_release;ui_btn_menu_confirm</snd>
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<NormalColor val="#FFFFFFFF" />
+			<HoverColor val="#FFFFFFFF" />
+			<PushColor val="#FEEF43FF" />
+			<DisableColor val="#998A81FF" />
+			<IsDefaultButton val="False" />
+		</child>
+		<child type="LABELBUTTON" name="btn_cancel" subclass="">
+			<asset type="NORMAL">btn_common_cancel_Normal.png</asset>
+			<asset type="DOWN">btn_common_cancel_Push.png</asset>
+			<asset type="OVER">btn_common_cancel_Hover.png</asset>
+			<asset type="DISABLE">btn_common_cancel_Disable.png</asset>
+			<control type="LABEL" name="btn_cancel_Label">
+				<pos x="0" y="0" />
+				<rect l="0" t="0" r="92" b="33" />
+				<Visible val="True" />
+				<Anchor val="Bottom, Left, Right" />
+				<label val="Close" />
+				<OutlineColor val="#FFFFFF" />
+				<ShadowColor val="#0000004C" />
+				<color val="#6B5D54" />
+				<halign val="1" />
+				<valign val="1" />
+				<FontName val="나눔고딕" />
+				<FontSize val="13" />
+				<TextTrimming val="None" />
+				<style val="1" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+				<Padding val="0, 0, 0, 0" />
+				<FitToContent val="False" />
+			</control>
+			<pos x="289" y="460" />
+			<rect l="0" t="0" r="92" b="33" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<snd type="OVER"></snd>
+			<snd type="DOWN">ui_btn_menu_click</snd>
+			<snd type="RELEASE">ui_btn_menu_release;ui_btn_menu_close</snd>
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<NormalColor val="#FFFFFFFF" />
+			<HoverColor val="#FFFFFFFF" />
+			<PushColor val="#F1E4DBFF" />
+			<DisableColor val="#998A81FF" />
+			<IsDefaultButton val="False" />
+		</child>
+		<child type="LABEL" name="lb_ recovery_content_1" subclass="">
+			<pos x="140" y="54" />
+			<rect l="0" t="0" r="202" b="19" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<label val="게임방식 선택" />
+			<OutlineColor val="#FF0000" />
+			<ShadowColor val="#B39987" />
+			<color val="#796456FF" />
+			<halign val="1" />
+			<valign val="1" />
+			<FontName val="나눔고딕 ExtraBold" />
+			<FontSize val="13" />
+			<TextTrimming val="None" />
+			<style val="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+			<Padding val="0, 0, 0, 0" />
+			<FitToContent val="False" />
+		</child>
+		<child type="PANEL" name="Panel" subclass="">
+			<pos x="65" y="343" />
+			<rect l="0" t="0" r="363" b="104" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<embed src="" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<child type="EDIT" name="Edit_roomtitle" subclass="">
+				<asset type="BG" path="edit_a_04.png" tileMode="Stretch">
+					<tex x="10" y="10" />
+					<rect l="10" t="10" r="230" b="10" />
+				</asset>
+				<asset type="EDGE_LT" path="edit_a_00.png" tileMode="Stretch">
+					<tex x="10" y="10" />
+					<rect l="0" t="0" r="10" b="10" />
+				</asset>
+				<asset type="EDGE_RT" path="edit_a_02.png" tileMode="Stretch">
+					<tex x="10" y="10" />
+					<rect l="0" t="0" r="10" b="10" />
+				</asset>
+				<asset type="EDGE_LB" path="edit_a_06.png" tileMode="Stretch">
+					<tex x="10" y="10" />
+					<rect l="0" t="0" r="10" b="10" />
+				</asset>
+				<asset type="EDGE_RB" path="edit_a_08.png" tileMode="Stretch">
+					<tex x="10" y="10" />
+					<rect l="0" t="0" r="10" b="10" />
+				</asset>
+				<asset type="FRAME_T" path="edit_a_01.png" tileMode="Stretch">
+					<tex x="10" y="10" />
+					<rect l="10" t="0" r="230" b="10" />
+				</asset>
+				<asset type="FRAME_B" path="edit_a_07.png" tileMode="Stretch">
+					<tex x="10" y="10" />
+					<rect l="10" t="0" r="230" b="10" />
+				</asset>
+				<asset type="FRAME_L" path="edit_a_03.png" tileMode="Stretch">
+					<tex x="10" y="10" />
+					<rect l="0" t="10" r="10" b="10" />
+				</asset>
+				<asset type="FRAME_R" path="edit_a_05.png" tileMode="Stretch">
+					<tex x="10" y="10" />
+					<rect l="0" t="10" r="10" b="10" />
+				</asset>
+				<asset type="CARET" path="dialog_caret.png">
+					<rpos x="0" y="0" />
+					<rect l="0" t="0" r="2" b="16" />
+				</asset>
+				<pos x="107" y="17" />
+				<rect l="0" t="0" r="250" b="30" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<padding l="13" t="7" r="10" b="5" />
+				<passwordchar val="" />
+				<OutlineColor val="#FF0000" />
+				<ShadowColor val="#D1BFB2" />
+				<SelectionBrush val="#FF0000" />
+				<color val="#392518FF" />
+				<style val="1" />
+				<halign val="0" />
+				<valign val="0" />
+				<FontName val="나눔고딕" />
+				<FontSize val="13" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<base type="WNDEX" subclass="" name="WndEx2">
+				<asset type="BG" path="frm_color_ivory_CenterTop.png" tileMode="Stretch">
+					<tex x="4" y="4" />
+					<rect l="4" t="4" r="82" b="19" />
+				</asset>
+				<asset type="EDGE_LT" path="frm_color_ivory_LeftTop.png" tileMode="Stretch">
+					<tex x="4" y="4" />
+					<rect l="0" t="0" r="4" b="4" />
+				</asset>
+				<asset type="EDGE_RT" path="frm_color_ivory_RightTop.png" tileMode="Stretch">
+					<tex x="4" y="4" />
+					<rect l="0" t="0" r="4" b="4" />
+				</asset>
+				<asset type="EDGE_LB" path="frm_color_ivory_LeftBottom.png" tileMode="Stretch">
+					<tex x="4" y="4" />
+					<rect l="0" t="0" r="4" b="4" />
+				</asset>
+				<asset type="EDGE_RB" path="frm_color_ivory_RightBottom.png" tileMode="Stretch">
+					<tex x="4" y="4" />
+					<rect l="0" t="0" r="4" b="4" />
+				</asset>
+				<asset type="FRAME_T" path="frm_color_ivory_CenterTop.png" tileMode="Tile">
+					<tex x="4" y="4" />
+					<rect l="4" t="0" r="82" b="4" />
+				</asset>
+				<asset type="FRAME_B" path="frm_color_ivory_CenterTop.png" tileMode="Tile">
+					<tex x="4" y="4" />
+					<rect l="4" t="0" r="82" b="4" />
+				</asset>
+				<asset type="FRAME_L" path="frm_color_ivory_CenterTop.png" tileMode="Tile">
+					<tex x="4" y="4" />
+					<rect l="0" t="4" r="4" b="19" />
+				</asset>
+				<asset type="FRAME_R" path="frm_color_ivory_CenterTop.png" tileMode="Tile">
+					<tex x="4" y="4" />
+					<rect l="0" t="4" r="4" b="19" />
+				</asset>
+				<pos x="14" y="19" />
+				<rect l="0" t="0" r="90" b="27" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<snd type="SHOW"></snd>
+				<snd type="HIDE"></snd>
+				<Dragable val="False" />
+				<StartPosition val="None" />
+				<EscKeyAction val="None" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+				<child type="LABEL" name="lb_ recovery_content_2" subclass="">
+					<pos x="-16" y="2" />
+					<rect l="0" t="0" r="96" b="25" />
+					<Visible val="True" />
+					<Anchor val="Top, Left" />
+					<label val="Name" />
+					<OutlineColor val="#FF0000" />
+					<ShadowColor val="#B39987" />
+					<color val="#796456FF" />
+					<halign val="2" />
+					<valign val="1" />
+					<FontName val="나눔고딕" />
+					<FontSize val="13" />
+					<TextTrimming val="None" />
+					<style val="1" />
+					<IsHitTestVisible val="False" />
+					<ClipChildren val="False" />
+					<Padding val="0, 0, 0, 0" />
+					<FitToContent val="False" />
+				</child>
+			</base>
+			<base type="WNDEX" subclass="" name="WndEx3">
+				<asset type="BG" path="frm_color_ivory_CenterTop.png" tileMode="Stretch">
+					<tex x="4" y="4" />
+					<rect l="4" t="4" r="82" b="19" />
+				</asset>
+				<asset type="EDGE_LT" path="frm_color_ivory_LeftTop.png" tileMode="Stretch">
+					<tex x="4" y="4" />
+					<rect l="0" t="0" r="4" b="4" />
+				</asset>
+				<asset type="EDGE_RT" path="frm_color_ivory_RightTop.png" tileMode="Stretch">
+					<tex x="4" y="4" />
+					<rect l="0" t="0" r="4" b="4" />
+				</asset>
+				<asset type="EDGE_LB" path="frm_color_ivory_LeftBottom.png" tileMode="Stretch">
+					<tex x="4" y="4" />
+					<rect l="0" t="0" r="4" b="4" />
+				</asset>
+				<asset type="EDGE_RB" path="frm_color_ivory_RightBottom.png" tileMode="Stretch">
+					<tex x="4" y="4" />
+					<rect l="0" t="0" r="4" b="4" />
+				</asset>
+				<asset type="FRAME_T" path="frm_color_ivory_CenterTop.png" tileMode="Tile">
+					<tex x="4" y="4" />
+					<rect l="4" t="0" r="82" b="4" />
+				</asset>
+				<asset type="FRAME_B" path="frm_color_ivory_CenterTop.png" tileMode="Tile">
+					<tex x="4" y="4" />
+					<rect l="4" t="0" r="82" b="4" />
+				</asset>
+				<asset type="FRAME_L" path="frm_color_ivory_CenterTop.png" tileMode="Tile">
+					<tex x="4" y="4" />
+					<rect l="0" t="4" r="4" b="19" />
+				</asset>
+				<asset type="FRAME_R" path="frm_color_ivory_CenterTop.png" tileMode="Tile">
+					<tex x="4" y="4" />
+					<rect l="0" t="4" r="4" b="19" />
+				</asset>
+				<pos x="14" y="65" />
+				<rect l="0" t="0" r="90" b="27" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<snd type="SHOW"></snd>
+				<snd type="HIDE"></snd>
+				<Dragable val="False" />
+				<StartPosition val="None" />
+				<EscKeyAction val="None" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+				<child type="LABEL" name="lb_ recovery_content_3" subclass="">
+					<pos x="-16" y="2" />
+					<rect l="0" t="0" r="96" b="25" />
+					<Visible val="True" />
+					<Anchor val="Top, Left" />
+					<label val="인원" />
+					<OutlineColor val="#FF0000" />
+					<ShadowColor val="#B39987" />
+					<color val="#796456FF" />
+					<halign val="2" />
+					<valign val="1" />
+					<FontName val="나눔고딕" />
+					<FontSize val="13" />
+					<TextTrimming val="None" />
+					<style val="1" />
+					<IsHitTestVisible val="False" />
+					<ClipChildren val="False" />
+					<Padding val="0, 0, 0, 0" />
+					<FitToContent val="False" />
+				</child>
+			</base>
+			<child type="PICTURE" name="bg_makeroom1" subclass="">
+				<asset type="STATIC">img_common_line_horizon.png</asset>
+				<pos x="15" y="54" />
+				<rect l="0" t="0" r="335" b="4" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="btn_num2_n" subclass="">
+				<asset type="STATIC">btn_num2_dis.png</asset>
+				<pos x="146" y="63" />
+				<rect l="0" t="0" r="35" b="32" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="btn_num1_n" subclass="">
+				<asset type="STATIC">btn_num1_dis.png</asset>
+				<pos x="108" y="63" />
+				<rect l="0" t="0" r="39" b="32" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="ANIMBUTTON" name="btn_num_2" subclass="">
+				<asset type="GROUP">field_guild_makeroom_window_btn_num_2.xml</asset>
+				<asset type="NORMAL"></asset>
+				<asset type="DOWN"></asset>
+				<asset type="OVER"></asset>
+				<asset type="DISABLE"></asset>
+				<asset type="ENTER"></asset>
+				<asset type="LEAVE"></asset>
+				<pos x="4065" y="94" />
+				<rect l="0" t="0" r="39" b="32" />
+				<Visible val="True" />
+				<snd type="OVER"></snd>
+				<snd type="DOWN">ui_btn_menu_close</snd>
+				<snd type="RELEASE"></snd>
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+				<Anchor val="Top, Left" />
+				<IsDefaultButton val="False" />
+				<child type="LABEL" name="lb_2" subclass="">
+					<pos x="5" y="8" />
+					<rect l="0" t="0" r="32" b="17" />
+					<Visible val="True" />
+					<Anchor val="Top, Left" />
+					<label val="2" />
+					<OutlineColor val="#FF0000" />
+					<ShadowColor val="#B39987" />
+					<color val="#392518FF" />
+					<halign val="1" />
+					<valign val="0" />
+					<FontName val="나눔고딕" />
+					<FontSize val="13" />
+					<TextTrimming val="None" />
+					<style val="1" />
+					<IsHitTestVisible val="False" />
+					<ClipChildren val="False" />
+					<Padding val="0, 0, 0, 0" />
+					<FitToContent val="False" />
+				</child>
+			</child>
+			<child type="ANIMBUTTON" name="btn_num_3" subclass="">
+				<asset type="GROUP">field_guild_makeroom_window_btn_num_3.xml</asset>
+				<asset type="NORMAL"></asset>
+				<asset type="DOWN"></asset>
+				<asset type="OVER"></asset>
+				<asset type="DISABLE"></asset>
+				<asset type="ENTER"></asset>
+				<asset type="LEAVE"></asset>
+				<pos x="4104" y="94" />
+				<rect l="0" t="0" r="35" b="32" />
+				<Visible val="True" />
+				<snd type="OVER"></snd>
+				<snd type="DOWN">ui_btn_menu_close</snd>
+				<snd type="RELEASE"></snd>
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+				<Anchor val="Top, Left" />
+				<IsDefaultButton val="False" />
+				<child type="LABEL" name="lb_3" subclass="">
+					<pos x="0" y="8" />
+					<rect l="0" t="0" r="35" b="17" />
+					<Visible val="True" />
+					<Anchor val="Top, Left" />
+					<label val="3" />
+					<OutlineColor val="#FF0000" />
+					<ShadowColor val="#B39987" />
+					<color val="#392518FF" />
+					<halign val="1" />
+					<valign val="0" />
+					<FontName val="나눔고딕" />
+					<FontSize val="13" />
+					<TextTrimming val="None" />
+					<style val="1" />
+					<IsHitTestVisible val="False" />
+					<ClipChildren val="False" />
+					<Padding val="0, 0, 0, 0" />
+					<FitToContent val="False" />
+				</child>
+			</child>
+			<child type="ANIMBUTTON" name="btn_num_4" subclass="">
+				<asset type="GROUP">field_guild_makeroom_window_btn_num_4.xml</asset>
+				<asset type="NORMAL"></asset>
+				<asset type="DOWN"></asset>
+				<asset type="OVER"></asset>
+				<asset type="DISABLE"></asset>
+				<asset type="ENTER"></asset>
+				<asset type="LEAVE"></asset>
+				<pos x="180" y="63" />
+				<rect l="0" t="0" r="39" b="32" />
+				<Visible val="True" />
+				<snd type="OVER"></snd>
+				<snd type="DOWN">ui_btn_menu_close</snd>
+				<snd type="RELEASE"></snd>
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+				<Anchor val="Top, Left" />
+				<IsDefaultButton val="False" />
+				<child type="LABEL" name="lb_4" subclass="">
+					<pos x="0" y="8" />
+					<rect l="0" t="0" r="35" b="17" />
+					<Visible val="True" />
+					<Anchor val="Top, Left" />
+					<label val="4" />
+					<OutlineColor val="#FF0000" />
+					<ShadowColor val="#B39987" />
+					<color val="#392518FF" />
+					<halign val="1" />
+					<valign val="0" />
+					<FontName val="나눔고딕" />
+					<FontSize val="13" />
+					<TextTrimming val="None" />
+					<style val="1" />
+					<IsHitTestVisible val="False" />
+					<ClipChildren val="False" />
+					<Padding val="0, 0, 0, 0" />
+					<FitToContent val="False" />
+				</child>
+			</child>
+			<child type="LABEL" name="lb_5" subclass="">
+				<pos x="113" y="71" />
+				<rect l="0" t="0" r="35" b="17" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<label val="2" />
+				<OutlineColor val="#FF0000" />
+				<ShadowColor val="#B39987" />
+				<color val="#B39987FF" />
+				<halign val="1" />
+				<valign val="0" />
+				<FontName val="나눔고딕" />
+				<FontSize val="13" />
+				<TextTrimming val="None" />
+				<style val="1" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+				<Padding val="0, 0, 0, 0" />
+				<FitToContent val="False" />
+			</child>
+			<child type="LABEL" name="lb_6" subclass="">
+				<pos x="146" y="71" />
+				<rect l="0" t="0" r="35" b="17" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<label val="3" />
+				<OutlineColor val="#FF0000" />
+				<ShadowColor val="#B39987FF" />
+				<color val="#B39987FF" />
+				<halign val="1" />
+				<valign val="0" />
+				<FontName val="나눔고딕" />
+				<FontSize val="13" />
+				<TextTrimming val="None" />
+				<style val="1" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+				<Padding val="0, 0, 0, 0" />
+				<FitToContent val="False" />
+			</child>
+			<child type="EDIT" name="Edit_password" subclass="">
+				<asset type="BG" path="edit_a_04.png" tileMode="Stretch">
+					<tex x="10" y="10" />
+					<rect l="10" t="10" r="126" b="10" />
+				</asset>
+				<asset type="EDGE_LT" path="edit_a_00.png" tileMode="Stretch">
+					<tex x="10" y="10" />
+					<rect l="0" t="0" r="10" b="10" />
+				</asset>
+				<asset type="EDGE_RT" path="edit_a_02.png" tileMode="Stretch">
+					<tex x="10" y="10" />
+					<rect l="0" t="0" r="10" b="10" />
+				</asset>
+				<asset type="EDGE_LB" path="edit_a_06.png" tileMode="Stretch">
+					<tex x="10" y="10" />
+					<rect l="0" t="0" r="10" b="10" />
+				</asset>
+				<asset type="EDGE_RB" path="edit_a_08.png" tileMode="Stretch">
+					<tex x="10" y="10" />
+					<rect l="0" t="0" r="10" b="10" />
+				</asset>
+				<asset type="FRAME_T" path="edit_a_01.png" tileMode="Stretch">
+					<tex x="10" y="10" />
+					<rect l="10" t="0" r="126" b="10" />
+				</asset>
+				<asset type="FRAME_B" path="edit_a_07.png" tileMode="Stretch">
+					<tex x="10" y="10" />
+					<rect l="10" t="0" r="126" b="10" />
+				</asset>
+				<asset type="FRAME_L" path="edit_a_03.png" tileMode="Stretch">
+					<tex x="10" y="10" />
+					<rect l="0" t="10" r="10" b="10" />
+				</asset>
+				<asset type="FRAME_R" path="edit_a_05.png" tileMode="Stretch">
+					<tex x="10" y="10" />
+					<rect l="0" t="10" r="10" b="10" />
+				</asset>
+				<asset type="CARET" path="dialog_caret.png">
+					<rpos x="0" y="0" />
+					<rect l="0" t="0" r="2" b="16" />
+				</asset>
+				<pos x="107" y="1240" />
+				<rect l="0" t="0" r="146" b="30" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<padding l="13" t="7" r="10" b="5" />
+				<passwordchar val="" />
+				<OutlineColor val="#FF0000" />
+				<ShadowColor val="#D1BFB2" />
+				<SelectionBrush val="#FF0000" />
+				<color val="#392518FF" />
+				<style val="1" />
+				<halign val="0" />
+				<valign val="0" />
+				<FontName val="나눔고딕" />
+				<FontSize val="13" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<base type="WNDEX" subclass="" name="WndEx4">
+				<asset type="BG" path="frm_color_ivory_CenterTop.png" tileMode="Stretch">
+					<tex x="4" y="4" />
+					<rect l="4" t="4" r="82" b="19" />
+				</asset>
+				<asset type="EDGE_LT" path="frm_color_ivory_LeftTop.png" tileMode="Stretch">
+					<tex x="4" y="4" />
+					<rect l="0" t="0" r="4" b="4" />
+				</asset>
+				<asset type="EDGE_RT" path="frm_color_ivory_RightTop.png" tileMode="Stretch">
+					<tex x="4" y="4" />
+					<rect l="0" t="0" r="4" b="4" />
+				</asset>
+				<asset type="EDGE_LB" path="frm_color_ivory_LeftBottom.png" tileMode="Stretch">
+					<tex x="4" y="4" />
+					<rect l="0" t="0" r="4" b="4" />
+				</asset>
+				<asset type="EDGE_RB" path="frm_color_ivory_RightBottom.png" tileMode="Stretch">
+					<tex x="4" y="4" />
+					<rect l="0" t="0" r="4" b="4" />
+				</asset>
+				<asset type="FRAME_T" path="frm_color_ivory_CenterTop.png" tileMode="Tile">
+					<tex x="4" y="4" />
+					<rect l="4" t="0" r="82" b="4" />
+				</asset>
+				<asset type="FRAME_B" path="frm_color_ivory_CenterTop.png" tileMode="Tile">
+					<tex x="4" y="4" />
+					<rect l="4" t="0" r="82" b="4" />
+				</asset>
+				<asset type="FRAME_L" path="frm_color_ivory_CenterTop.png" tileMode="Tile">
+					<tex x="4" y="4" />
+					<rect l="0" t="4" r="4" b="19" />
+				</asset>
+				<asset type="FRAME_R" path="frm_color_ivory_CenterTop.png" tileMode="Tile">
+					<tex x="4" y="4" />
+					<rect l="0" t="4" r="4" b="19" />
+				</asset>
+				<pos x="14" y="1240" />
+				<rect l="0" t="0" r="90" b="27" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<snd type="SHOW"></snd>
+				<snd type="HIDE"></snd>
+				<Dragable val="False" />
+				<StartPosition val="None" />
+				<EscKeyAction val="None" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+				<child type="LABEL" name="lb_ recovery_content_4" subclass="">
+					<pos x="-16" y="1" />
+					<rect l="0" t="0" r="96" b="25" />
+					<Visible val="True" />
+					<Anchor val="Top, Left" />
+					<label val="비밀번호" />
+					<OutlineColor val="#FF0000" />
+					<ShadowColor val="#B39987" />
+					<color val="#796456FF" />
+					<halign val="2" />
+					<valign val="1" />
+					<FontName val="나눔고딕" />
+					<FontSize val="13" />
+					<TextTrimming val="None" />
+					<style val="1" />
+					<IsHitTestVisible val="False" />
+					<ClipChildren val="False" />
+					<Padding val="0, 0, 0, 0" />
+					<FitToContent val="False" />
+				</child>
+			</base>
+			<child type="PICTURE" name="bg_makeroom2" subclass="">
+				<asset type="STATIC">img_common_line_horizon.png</asset>
+				<pos x="15" y="1229" />
+				<rect l="0" t="0" r="335" b="4" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+		</child>
+		<child type="PICTURE" name="common_line_2" subclass="">
+			<asset type="STATIC">common_line_01.png</asset>
+			<pos x="22" y="266" />
+			<rect l="0" t="0" r="430" b="13" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+		</child>
+	</base>
+</refresh>

@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2" prefix="n_p[fore][f]ladybug00a_">
+    <event animation="attach00">
+        <function>PlaySND($asset, "pet_vo_ladybug_fly3", "1", "-var 0")</function>
+        <time>0.0000</time>
+        <freq>80</freq>
+    </event>
+    <event animation="attach00">
+        <function>PlaySND($asset, "", "1", "-var 0 -my[pet_ladybug_sfx2]")</function>
+        <time>1.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="detach00">
+        <function>PlaySND($asset, "pet_vo_ladybug_fly", "1", "-var 3")</function>
+        <time>0.0000</time>
+        <freq>80</freq>
+    </event>
+    <event animation="detach00">
+        <function>PlaySND($asset, "pet_ladybug_flap", "1", "-var 2")</function>
+        <time>0.1499</time>
+        <freq>100</freq>
+    </event>
+    <event animation="detach00">
+        <function>PlaySND($asset, "", "1", "-var 0 -my[pet_ladybug_sfx1]")</function>
+        <time>0.0000</time>
+        <freq>20</freq>
+    </event>
+    <event animation="idle00">
+        <function>PlaySND($asset, "pet_vo_ladybug_fly", "1", "-var 3")</function>
+        <time>0.2179</time>
+        <freq>1</freq>
+    </event>
+    <event animation="move00">
+        <function>PlaySND($asset, "pet_ladybug_flap_long", "1", "-var 2")</function>
+        <time>0.0000</time>
+        <freq>6</freq>
+    </event>
+    <event animation="move00">
+        <function>PlaySND($asset, "pet_vo_ladybug", "1", "-var 4")</function>
+        <time>0.1988</time>
+        <freq>2</freq>
+    </event>
+    <event animation="move01">
+        <function>PlaySND($asset, "pet_ladybug_flap_long", "1", "-var 2")</function>
+        <time>0.0000</time>
+        <freq>6</freq>
+    </event>
+    <event animation="move01">
+        <function>PlaySND($asset, "pet_vo_ladybug", "1", "-var 4")</function>
+        <time>0.2252</time>
+        <freq>2</freq>
+    </event>
+
+<event animation="attach00">
+        <function>PlayFX($asset, "pet_fore_ladybug00b", "1", "-attach ")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="attach00">
+        <function>PlayFX($asset, "pet_fore_ladybug00b", "1", "-attach ")</function>
+        <time>0.5000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="attach00">
+        <function>PlayFX($asset, "pet_fore_ladybug00b", "1", "-attach ")</function>
+        <time>1.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="detach00">
+        <function>PlayFX($asset, "pet_fore_ladybug00b", "1", "-attach ")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="move00">
+        <function>PlayFX($asset, "pet_fore_ladybug00b", "1", "-attach ")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="move01">
+        <function>PlayFX($asset, "pet_fore_ladybug00b", "1", "-attach ")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <dummy name="name" parent="DummyRoot_ladybug" sync="FALSE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.2886</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <dummy name="1" parent="Bone28" sync="FALSE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.0000</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <action category="" state="IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>move00</main>
+    </action>
+    <action category="" state="MOVE_2ND" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>move00</main>
+    </action>
+    <action category="" state="MOVE_3RD" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>move01</main>
+    </action>
+    <action category="" state="PET_ATTACH" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>attach00</main>
+    </action>
+    <action category="" state="PET_ATTACH_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>idle00</main>
+    </action>
+    <action category="" state="PET_BORN_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>[h]idle00</main>
+    </action>
+    <action category="" state="PET_DETACH" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>detach00</main>
+    </action>
+</aim>

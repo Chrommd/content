@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <event animation="burst">
+        <function>PlayFX($asset, "itm_balloon", "b-1", "")</function>
+        <time>0.0136</time>
+        <freq>100</freq>
+    </event>
+    <event animation="burst">
+        <function>PlayFX($asset, "itm_balloon", "b-2", "")</function>
+        <time>0.0368</time>
+        <freq>100</freq>
+    </event>
+    <event animation="burst">
+        <function>PlayFX($asset, "itm_balloon", "b-3", "")</function>
+        <time>0.0705</time>
+        <freq>100</freq>
+    </event>
+    <event animation="burst">
+        <function>PlaySND($asset, "ob_balloon_pop", "b-1", "-var 2")</function>
+        <time>0.0128</time>
+        <freq>100</freq>
+    </event>
+    <event animation="burst">
+        <function>PlaySND($asset, "ob_balloon_pop", "b-3", "-var 2")</function>
+        <time>0.0704</time>
+        <freq>100</freq>
+    </event>
+    <dummy name="b-1" parent="Dummy_balloon04" sync="FALSE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.0000</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <dummy name="b-2" parent="Dummy_balloon03" sync="FALSE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.0000</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <dummy name="b-3" parent="Dummy_balloon05" sync="FALSE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.0000</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <action state="BROKEN" prevState="" loop="0">
+        <main speed=0.0000>burst</main>
+    </action>
+    <action state="G_IDLE" prevState="" loop="1">
+        <main speed=0.0000>idle</main>
+    </action>
+</aim>

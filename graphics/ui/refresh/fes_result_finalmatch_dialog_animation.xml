@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="_Opening_">
+    <asset type="UI" name="asset_fes_result_finalmatch">
+      <rect l="0" t="0" r="870" b="580" />
+    </asset>
+    <asset type="UI" name="asset_img_backboard">
+      <rect l="0" t="0" r="780" b="423" />
+    </asset>
+    <object name="fes_result_finalmatch" ani="ani_fes_result_finalmatch">
+      <asset type="UI" link="asset_fes_result_finalmatch" />
+    </object>
+    <object name="img_backboard" ani="ani_img_backboard">
+      <asset type="UI" link="asset_img_backboard" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_fes_result_finalmatch">
+      <frame cnt="0">
+        <posx val="0.0625" />
+        <posy val="0.130208333333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0.0625" />
+        <posy val="0.110677083333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,0.5,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_backboard">
+      <frame cnt="0">
+        <posx val="0.0458984375" />
+        <posy val="0.162760416666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="367">
+        <posx val="0.0458984375" />
+        <posy val="0.162760416666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="600">
+        <posx val="0.0458984375" />
+        <posy val="0.153645833333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,0.5,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Closing_">
+    <asset type="UI" name="asset_fes_result_finalmatch">
+      <rect l="0" t="0" r="870" b="580" />
+    </asset>
+    <object name="fes_result_finalmatch" ani="ani_fes_result_finalmatch">
+      <asset type="UI" link="asset_fes_result_finalmatch" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_fes_result_finalmatch">
+      <frame cnt="0">
+        <posx val="0.0625" />
+        <posy val="0.110677083333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0.0625" easeValue="0.0,0.5,1.0,1.0" />
+        <posy val="0.130208333333333" easeValue="0.0,0.5,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" easeValue="0.0,0.5,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

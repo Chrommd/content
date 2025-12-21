@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <event animation="_initialize_">
+        <function>PlayFX($asset, "ob_magwoodsm", "dum", "-attach ")</function>
+        <time>0.0000</time>
+        <freq>ONCE</freq>
+    </event>
+    <event animation="crash">
+        <function>PlaySND($asset, "crash_carpet", "", "-var 2")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <dummy name="dum" parent="Box01" sync="FALSE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.7005</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>0.7136</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.3121</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <action category="" state="BROKEN" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>crash</main>
+    </action>
+    <action category="" state="G_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>idle</main>
+    </action>
+</aim>

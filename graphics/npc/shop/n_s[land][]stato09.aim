@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2" prefix="n_s[land][]stato02_">
+    <event animation="showitem01">
+        <function>PlaySND($asset, "ranch_basket_drop", "root", "-var 0")</function>
+        <time>0.2194</time>
+        <freq>100</freq>
+    </event>
+    <dummy name="item_spawn" parent="Bip01 HeadNub" sync="TRUE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.0000</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <dummy name="stato1" parent="NODE_0" sync="FALSE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>-0.0184</offsetX>
+        <offsetY>0.1433</offsetY>
+        <offsetZ>-0.1187</offsetZ>
+    </dummy>
+    <dummy name="item_handle" parent="Bip01 HeadNub" sync="FALSE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.1834</offsetX>
+        <offsetY>-0.0030</offsetY>
+        <offsetZ>0.0219</offsetZ>
+    </dummy>
+    <dummy name="cam_0" parent=" stato_Dummyroot" sync="TRUE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>1.3300</offsetY>
+        <offsetZ>-3.0352</offsetZ>
+    </dummy>
+    <dummy name="cam_1" parent=" stato_Dummyroot" sync="TRUE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>2.0300</offsetY>
+        <offsetZ>-2.8441</offsetZ>
+    </dummy>
+    <dummy name="cam_2" parent=" stato_Dummyroot" sync="TRUE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0120</offsetX>
+        <offsetY>2.5500</offsetY>
+        <offsetZ>-3.9048</offsetZ>
+    </dummy>
+    <dummy name="cam_fall" parent=" stato_Dummyroot" sync="TRUE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>3.7400</offsetY>
+        <offsetZ>-0.0768</offsetZ>
+    </dummy>
+    <dummy name="sit" parent="Bip01 Head" sync="TRUE" extra="">
+        <rotationX>0.6936</rotationX>
+        <rotationY>0.6961</rotationY>
+        <rotationZ>0.1306</rotationZ>
+        <rotationW>0.1313</rotationW>
+        <offsetX>0.3467</offsetX>
+        <offsetY>-0.0070</offsetY>
+        <offsetZ>0.2355</offsetZ>
+    </dummy>
+    <dummy name="root" parent=" stato_Dummyroot" sync="TRUE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.0000</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <dummy name="npc_cam_front" parent=" stato_Dummyroot" sync="TRUE" extra="">
+        <rotationX>-0.0032</rotationX>
+        <rotationY>0.9989</rotationY>
+        <rotationZ>0.0469</rotationZ>
+        <rotationW>0.0001</rotationW>
+        <offsetX>0.0100</offsetX>
+        <offsetY>0.4348</offsetY>
+        <offsetZ>2.0082</offsetZ>
+    </dummy>
+    <dummy name="head" parent="Bip01 Head" sync="FALSE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0998</offsetX>
+        <offsetY>-0.0000</offsetY>
+        <offsetZ>-0.0000</offsetZ>
+    </dummy>
+    <action category="" state="G_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>idle00</main>
+    </action>
+    <action category="" state="G_REACTION" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>showitem01</main>
+    </action>
+</aim>

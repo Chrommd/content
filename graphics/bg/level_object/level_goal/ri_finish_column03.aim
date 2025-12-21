@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <AABB animation="ri_finish_column03">
+        <minX>0.0000</minX>
+        <minY>0.0000</minY>
+        <minZ>0.0000</minZ>
+        <maxX>0.0000</maxX>
+        <maxY>0.0000</maxY>
+        <maxZ>0.0000</maxZ>
+    </AABB>
+    <AABB animation="activate">
+        <minX>0.0000</minX>
+        <minY>0.0000</minY>
+        <minZ>0.0000</minZ>
+        <maxX>0.0000</maxX>
+        <maxY>0.0000</maxY>
+        <maxZ>0.0000</maxZ>
+    </AABB>
+    <AABB animation="idle">
+        <minX>0.0000</minX>
+        <minY>0.0000</minY>
+        <minZ>0.0000</minZ>
+        <maxX>0.0000</maxX>
+        <maxY>0.0000</maxY>
+        <maxZ>0.0000</maxZ>
+    </AABB>
+    <event animation="activate">
+        <function>PlayFX($asset, "ob_finish_column03", "dum", "-attach ")</function>
+        <time>0.0000</time>
+        <freq>ONCE</freq>
+    </event>
+    <dummy name="dum" parent="NODE_0" sync="TRUE">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.0000</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <action state="ACTIVATE" prevState="" loop="1">
+        <main speed=0.0000>activate</main>
+    </action>
+    <action state="G_IDLE" prevState="" loop="1">
+        <main speed=0.0000>idle</main>
+    </action>
+</aim>

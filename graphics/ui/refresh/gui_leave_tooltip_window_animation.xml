@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="leave">
+    <asset type="UI" name="asset_img_tip_leave_cancel">
+      <rect l="0" t="0" r="54" b="25" />
+    </asset>
+    <asset type="UI" name="asset_img_esc_select">
+      <rect l="0" t="0" r="70" b="57" />
+    </asset>
+    <asset type="UI" name="asset_img_tip_leave">
+      <rect l="0" t="0" r="78" b="42" />
+    </asset>
+    <asset type="UI" name="asset_img_esc_unselect">
+      <rect l="0" t="0" r="70" b="57" />
+    </asset>
+    <asset type="UI" name="asset_img_esc_click">
+      <rect l="0" t="0" r="18" b="21" />
+    </asset>
+    <object name="img_tip_leave_cancel" ani="ani_img_tip_leave_cancel">
+      <asset type="UI" link="asset_img_tip_leave_cancel" />
+    </object>
+    <object name="img_esc_select" ani="ani_img_esc_select">
+      <asset type="UI" link="asset_img_esc_select" />
+    </object>
+    <object name="img_tip_leave" ani="ani_img_tip_leave">
+      <asset type="UI" link="asset_img_tip_leave" />
+    </object>
+    <object name="img_esc_unselect" ani="ani_img_esc_unselect">
+      <asset type="UI" link="asset_img_esc_unselect" />
+    </object>
+    <object name="img_esc_click" ani="ani_img_esc_click">
+      <asset type="UI" link="asset_img_esc_click" />
+    </object>
+    <param type="RES" x="88" y="97" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_img_tip_leave_cancel">
+      <frame cnt="0">
+        <posx val="0.25" />
+        <posy val="0.5876288" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_esc_select">
+      <frame cnt="0">
+        <posx val="0.1590909" />
+        <posy val="0.1237113" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_tip_leave">
+      <frame cnt="0">
+        <posx val="0.1136364" />
+        <posy val="0.5670103" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="33">
+        <posx val="0.1136364" />
+        <posy val="0.5670103" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_esc_unselect">
+      <frame cnt="0">
+        <posx val="0.1590909" />
+        <posy val="0.1237113" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="33">
+        <posx val="0.1590909" />
+        <posy val="0.1237113" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_esc_click">
+      <frame cnt="0">
+        <posx val="0.454545454545455" />
+        <posy val="0.11340206185567" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="233">
+        <posx val="0.454545454545455" />
+        <posy val="0.134020618556701" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="leave_cancel">
+    <asset type="UI" name="asset_img_tip_leave_cancel">
+      <rect l="0" t="0" r="54" b="25" />
+    </asset>
+    <asset type="UI" name="asset_img_esc_select">
+      <rect l="0" t="0" r="70" b="57" />
+    </asset>
+    <asset type="UI" name="asset_img_tip_leave">
+      <rect l="0" t="0" r="78" b="42" />
+    </asset>
+    <asset type="UI" name="asset_img_esc_unselect">
+      <rect l="0" t="0" r="70" b="57" />
+    </asset>
+    <asset type="UI" name="asset_img_esc_click">
+      <rect l="0" t="0" r="18" b="21" />
+    </asset>
+    <object name="img_tip_leave_cancel" ani="ani_img_tip_leave_cancel">
+      <asset type="UI" link="asset_img_tip_leave_cancel" />
+    </object>
+    <object name="img_esc_select" ani="ani_img_esc_select">
+      <asset type="UI" link="asset_img_esc_select" />
+    </object>
+    <object name="img_tip_leave" ani="ani_img_tip_leave">
+      <asset type="UI" link="asset_img_tip_leave" />
+    </object>
+    <object name="img_esc_unselect" ani="ani_img_esc_unselect">
+      <asset type="UI" link="asset_img_esc_unselect" />
+    </object>
+    <object name="img_esc_click" ani="ani_img_esc_click">
+      <asset type="UI" link="asset_img_esc_click" />
+    </object>
+    <param type="RES" x="88" y="97" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_img_tip_leave_cancel">
+      <frame cnt="0">
+        <posx val="0.25" />
+        <posy val="0.5876288" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="33">
+        <posx val="0.25" />
+        <posy val="0.5876288" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_esc_select">
+      <frame cnt="0">
+        <posx val="0.1590909" />
+        <posy val="0.1237113" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="33">
+        <posx val="0.1590909" />
+        <posy val="0.1237113" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_tip_leave">
+      <frame cnt="0">
+        <posx val="0.1136364" />
+        <posy val="0.5670103" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_esc_unselect">
+      <frame cnt="0">
+        <posx val="0.1590909" />
+        <posy val="0.1237113" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_esc_click">
+      <frame cnt="0">
+        <posx val="0.4545455" />
+        <posy val="0.1340206" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="getcarrot">
+    <asset type="UI" name="asset_icon_carrot">
+      <rect l="0" t="0" r="36" b="36" />
+    </asset>
+    <asset type="UI" name="asset_img_carrotcount_plus">
+      <rect l="0" t="0" r="26" b="26" />
+    </asset>
+    <asset type="UI" name="asset_img_carrotcount_10">
+      <rect l="0" t="0" r="38" b="34" />
+    </asset>
+    <object name="icon_carrot" ani="ani_icon_carrot">
+      <asset type="UI" link="asset_icon_carrot" />
+    </object>
+    <object name="img_carrotcount_plus" ani="ani_img_carrotcount_plus">
+      <asset type="UI" link="asset_img_carrotcount_plus" />
+    </object>
+    <object name="img_carrotcount_10" ani="ani_img_carrotcount_10">
+      <asset type="UI" link="asset_img_carrotcount_10" />
+    </object>
+    <param type="RES" x="120" y="50" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_icon_carrot">
+      <frame cnt="0">
+        <posx val="0.025" />
+        <posy val="0.14" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="100">
+        <posx val="0.025" />
+        <posy val="0.14" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="233">
+        <posx val="0.025" />
+        <posy val="-0.1" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="367">
+        <posx val="0.025" />
+        <posy val="0.14" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1833">
+        <posx val="0.025" />
+        <posy val="0.14" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1967">
+        <posx val="0.025" />
+        <posy val="0.14" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_carrotcount_plus">
+      <frame cnt="0">
+        <posx val="0.3333333" />
+        <posy val="0.24" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="233">
+        <posx val="0.333333333333333" />
+        <posy val="0.24" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="367">
+        <posx val="0.333333333333333" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0.333333333333333" />
+        <posy val="0.24" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1833">
+        <posx val="0.3333333" />
+        <posy val="0.24" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1967">
+        <posx val="0.3333333" />
+        <posy val="0.24" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_carrotcount_10">
+      <frame cnt="0">
+        <posx val="0.55" />
+        <posy val="0.16" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="367">
+        <posx val="0.55" />
+        <posy val="0.16" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0.55" />
+        <posy val="-0.08" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="633">
+        <posx val="0.55" />
+        <posy val="0.16" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1833">
+        <posx val="0.55" />
+        <posy val="0.16" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1967">
+        <posx val="0.55" />
+        <posy val="0.16" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

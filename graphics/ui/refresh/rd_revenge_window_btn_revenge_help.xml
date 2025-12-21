@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="NORMAL">
+    <asset type="IMAGE" name="asset_btn_revenge_help_n" path="btn_revenge_help_n.png">
+      <rect l="0" t="0" r="40" b="40" />
+    </asset>
+    <asset type="IMAGE" name="asset_icon_revenge_help" path="icon_revenge_help.png">
+      <rect l="0" t="0" r="40" b="40" />
+    </asset>
+    <object name="btn_revenge_help_n" ani="ani_btn_revenge_help_n">
+      <asset type="IMAGE" link="asset_btn_revenge_help_n" />
+    </object>
+    <object name="icon_revenge_help" ani="ani_icon_revenge_help">
+      <asset type="IMAGE" link="asset_icon_revenge_help" />
+    </object>
+    <param type="RES" x="40" y="40" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_btn_revenge_help_n">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_revenge_help">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="OVER">
+    <asset type="IMAGE" name="asset_btn_revenge_help_n" path="btn_revenge_help_n.png">
+      <rect l="0" t="0" r="40" b="40" />
+    </asset>
+    <asset type="IMAGE" name="asset_btn_revenge_help_o" path="btn_revenge_help_o.png">
+      <rect l="0" t="0" r="40" b="40" />
+    </asset>
+    <asset type="IMAGE" name="asset_icon_revenge_help" path="icon_revenge_help.png">
+      <rect l="0" t="0" r="40" b="40" />
+    </asset>
+    <object name="btn_revenge_help_n" ani="ani_btn_revenge_help_n">
+      <asset type="IMAGE" link="asset_btn_revenge_help_n" />
+    </object>
+    <object name="btn_revenge_help_o" ani="ani_btn_revenge_help_o">
+      <asset type="IMAGE" link="asset_btn_revenge_help_o" />
+    </object>
+    <object name="icon_revenge_help" ani="ani_icon_revenge_help">
+      <asset type="IMAGE" link="asset_icon_revenge_help" />
+    </object>
+    <param type="RES" x="40" y="40" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_btn_revenge_help_n">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_btn_revenge_help_o">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.8" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="167">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_revenge_help">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="DOWN">
+    <asset type="IMAGE" name="asset_btn_revenge_help_d" path="btn_revenge_help_d.png">
+      <rect l="0" t="0" r="40" b="40" />
+    </asset>
+    <asset type="IMAGE" name="asset_icon_revenge_help" path="icon_revenge_help.png">
+      <rect l="0" t="0" r="40" b="40" />
+    </asset>
+    <object name="btn_revenge_help_d" ani="ani_btn_revenge_help_d">
+      <asset type="IMAGE" link="asset_btn_revenge_help_d" />
+    </object>
+    <object name="icon_revenge_help" ani="ani_icon_revenge_help">
+      <asset type="IMAGE" link="asset_icon_revenge_help" />
+    </object>
+    <param type="RES" x="40" y="40" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_btn_revenge_help_d">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_revenge_help">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="167">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

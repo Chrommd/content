@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <event animation="_initialize_">
+        <function>PlayFX($asset, "ob_chim_smoke_001", "box", "-attach ")</function>
+        <time>0.0000</time>
+        <type>ONCE</type>
+    </event>
+    <dummy name="box" parent="ri_land_house05" sync="FALSE">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>6.2100</offsetX>
+        <offsetY>17.8391</offsetY>
+        <offsetZ>-7.1850</offsetZ>
+    </dummy>
+    <action state="BROKEN_1ST" loop="0" poskey="" rotkey="">
+        <main>st_00</main>
+    </action>
+    <action state="BROKEN_2ND" loop="0" poskey="" rotkey="">
+        <main>nd_00</main>
+    </action>
+    <action state="BROKEN_3RD" loop="0" poskey="" rotkey="">
+        <main>rd_00</main>
+    </action>
+</aim>

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="lock_on">
+    <asset type="UI" name="asset_img_lock_on">
+      <rect l="0" t="0" r="65" b="19" />
+    </asset>
+    <object name="img_lock_on" ani="ani_img_lock_on">
+      <asset type="UI" link="asset_img_lock_on" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="-1" pendulum="1" />
+    <anim name="ani_img_lock_on">
+      <frame cnt="0">
+        <posx val="0.078125" />
+        <posy val="0.1979167" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.2" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0.078125" />
+        <posy val="0.1979167" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.5,0.0,0.5,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <sound val="gui_lock_on_st" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="target_move">
+    <asset type="UI" name="asset_target_direct_laying2">
+      <rect l="0" t="0" r="224" b="224" />
+    </asset>
+    <object name="target_direct_laying2" ani="ani_target_direct_laying2">
+      <asset type="UI" link="asset_target_direct_laying2" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="-1" pendulum="0" />
+    <anim name="ani_target_direct_laying2">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.5" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1000">
+        <posx val="0.0791015625" easeValue="0.5,0.0,0.5,1.0" />
+        <posy val="0.10546875" easeValue="0.5,0.0,0.5,1.0" />
+        <scalex val="0.276785714285714" />
+        <scaley val="0.276785714285714" />
+        <alpha val="1" easeValue="0.5,0.0,0.5,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

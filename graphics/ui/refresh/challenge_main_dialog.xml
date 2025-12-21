@@ -1,0 +1,886 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <base type="WNDEX" name="challenge_main">
+    <asset type="BG" path="bg_frm_04.tga">
+      <tex x="100" y="100" />
+      <rect l="100" t="100" r="446" b="258" />
+    </asset>
+    <asset type="EDGE_LT" path="bg_frm_00.tga">
+      <tex x="100" y="100" />
+      <rect l="0" t="0" r="100" b="100" />
+    </asset>
+    <asset type="EDGE_RT" path="bg_frm_02.tga">
+      <tex x="100" y="100" />
+      <rect l="0" t="0" r="100" b="100" />
+    </asset>
+    <asset type="EDGE_LB" path="bg_frm_06.tga">
+      <tex x="100" y="100" />
+      <rect l="0" t="0" r="100" b="100" />
+    </asset>
+    <asset type="EDGE_RB" path="bg_frm_08.tga">
+      <tex x="100" y="100" />
+      <rect l="0" t="0" r="100" b="100" />
+    </asset>
+    <asset type="FRAME_T" path="bg_frm_01.tga">
+      <tex x="100" y="100" />
+      <rect l="100" t="0" r="446" b="100" />
+    </asset>
+    <asset type="FRAME_B" path="bg_frm_07.tga">
+      <tex x="100" y="100" />
+      <rect l="100" t="0" r="446" b="100" />
+    </asset>
+    <asset type="FRAME_L" path="bg_frm_03.tga">
+      <tex x="100" y="100" />
+      <rect l="0" t="100" r="100" b="258" />
+    </asset>
+    <asset type="FRAME_R" path="bg_frm_05.tga">
+      <tex x="100" y="100" />
+      <rect l="0" t="100" r="100" b="258" />
+    </asset>
+    <Visible val="True" />
+    <Anchor val="Top, Bottom, Left, Right" />
+    <pos x="210" y="158" />
+    <rect l="0" t="0" r="646" b="458" />
+    <Dragable val="False" />
+    <StartPosition val="None" />
+    <EscKeyAction val="Close" />
+    <child type="BUTTON" name="btn_confirm">
+      <asset type="NORMAL">btn_confirm_n.tga</asset>
+      <asset type="DOWN">btn_confirm_d.tga</asset>
+      <asset type="OVER">btn_confirm_o.tga</asset>
+      <asset type="DISABLE">btn_confirm_d.tga</asset>
+      <snd type="OVER">
+      </snd>
+      <snd type="DOWN">ui_btn_close</snd>
+      <pos x="543" y="391" />
+      <rect l="0" t="0" r="75" b="38" />
+      <Visible val="True" />
+      <Anchor val="None" />
+    </child>
+    <child type="PICTURE" name="img_contents_bg">
+      <asset type="STATIC">challenge_contents_bg.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="6" y="12" />
+      <rect l="0" t="0" r="627" b="386" />
+      <center x="0" y="0" />
+    </child>
+    <child type="BUTTON" name="btn_close">
+      <asset type="NORMAL">btn_close_n.tga</asset>
+      <asset type="DOWN">btn_close_d.tga</asset>
+      <asset type="OVER">btn_close_o.tga</asset>
+      <asset type="DISABLE">btn_close_d.tga</asset>
+      <snd type="OVER">
+      </snd>
+      <snd type="DOWN">ui_close_board</snd>
+      <pos x="555" y="22" />
+      <rect l="0" t="0" r="70" b="24" />
+      <Visible val="True" />
+      <Anchor val="None" />
+    </child>
+    <base type="WND" name="tab1">
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="34" y="144" />
+      <rect l="0" t="0" r="596" b="261" />
+      <child type="PICTURE" name="img_contents_1">
+        <asset type="STATIC">challenge_contents_1.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="8" y="10" />
+        <rect l="0" t="0" r="562" b="206" />
+        <center x="0" y="0" />
+      </child>
+      <child type="PROGRESS" name="challenge_gauge">
+        <asset type="BAR">challenge_gauge.tga</asset>
+        <tex x="105" y="110" />
+        <pos x="72" y="176" />
+        <rect l="0" t="0" r="433" b="10" />
+        <Visible val="True" />
+        <Anchor val="None" />
+      </child>
+      <child type="PICTURE" name="gauge_mark">
+        <asset type="STATIC">challenge_gauge_mark.tga</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="65" y="188" />
+        <rect l="0" t="0" r="14" b="13" />
+        <center x="0" y="0" />
+      </child>
+      <child type="BUTTON" name="btn_new">
+        <asset type="NORMAL">tab_new_n.tga</asset>
+        <asset type="DOWN">tab_new_d.tga</asset>
+        <asset type="OVER">tab_new_o.tga</asset>
+        <asset type="DISABLE">tab_new_n.tga</asset>
+        <snd type="OVER">
+        </snd>
+        <snd type="DOWN">
+        </snd>
+        <pos x="-357" y="236" />
+        <rect l="0" t="0" r="93" b="27" />
+        <Visible val="True" />
+        <Anchor val="None" />
+      </child>
+      <child type="BUTTON" name="btn_recent">
+        <asset type="NORMAL">tab_recent_n.tga</asset>
+        <asset type="DOWN">tab_recent_d.tga</asset>
+        <asset type="OVER">tab_recent_o.tga</asset>
+        <asset type="DISABLE">tab_recent_n.tga</asset>
+        <snd type="OVER">
+        </snd>
+        <snd type="DOWN">
+        </snd>
+        <pos x="-357" y="261" />
+        <rect l="0" t="0" r="93" b="27" />
+        <Visible val="True" />
+        <Anchor val="None" />
+      </child>
+      <base type="WND" name="icon">
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="83" y="514" />
+        <rect l="0" t="0" r="443" b="61" />
+        <child type="PICTURE" name="img_icon1">
+          <asset type="STATIC">challenge_icon_empty.tga</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="0" y="0" />
+          <rect l="0" t="0" r="53" b="53" />
+          <center x="0" y="0" />
+        </child>
+        <child type="PICTURE" name="img_icon2">
+          <asset type="STATIC">challenge_icon_empty.tga</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="64" y="0" />
+          <rect l="0" t="0" r="53" b="53" />
+          <center x="0" y="0" />
+        </child>
+        <child type="PICTURE" name="img_icon3">
+          <asset type="STATIC">challenge_icon_empty.tga</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="128" y="0" />
+          <rect l="0" t="0" r="53" b="53" />
+          <center x="0" y="0" />
+        </child>
+        <child type="PICTURE" name="img_icon4">
+          <asset type="STATIC">challenge_icon_empty.tga</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="192" y="0" />
+          <rect l="0" t="0" r="53" b="53" />
+          <center x="0" y="0" />
+        </child>
+        <child type="PICTURE" name="img_icon5">
+          <asset type="STATIC">challenge_icon_empty.tga</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="256" y="0" />
+          <rect l="0" t="0" r="53" b="53" />
+          <center x="0" y="0" />
+        </child>
+        <child type="PICTURE" name="img_icon6">
+          <asset type="STATIC">challenge_icon_empty.tga</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="320" y="0" />
+          <rect l="0" t="0" r="53" b="53" />
+          <center x="0" y="0" />
+        </child>
+        <child type="PICTURE" name="img_icon7">
+          <asset type="STATIC">challenge_icon_empty.tga</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="384" y="0" />
+          <rect l="0" t="0" r="53" b="53" />
+          <center x="0" y="0" />
+        </child>
+        <child type="PICTURE" name="icon_success1">
+          <asset type="STATIC">icon_success.tga</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="24" y="26" />
+          <rect l="0" t="0" r="35" b="35" />
+          <center x="0" y="0" />
+        </child>
+        <child type="PICTURE" name="icon_success2">
+          <asset type="STATIC">icon_success.tga</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="88" y="26" />
+          <rect l="0" t="0" r="35" b="35" />
+          <center x="0" y="0" />
+        </child>
+        <child type="PICTURE" name="icon_success3">
+          <asset type="STATIC">icon_success.tga</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="152" y="26" />
+          <rect l="0" t="0" r="35" b="35" />
+          <center x="0" y="0" />
+        </child>
+        <child type="PICTURE" name="icon_success4">
+          <asset type="STATIC">icon_success.tga</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="216" y="26" />
+          <rect l="0" t="0" r="35" b="35" />
+          <center x="0" y="0" />
+        </child>
+        <child type="PICTURE" name="icon_success5">
+          <asset type="STATIC">icon_success.tga</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="280" y="26" />
+          <rect l="0" t="0" r="35" b="35" />
+          <center x="0" y="0" />
+        </child>
+        <child type="PICTURE" name="icon_success6">
+          <asset type="STATIC">icon_success.tga</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="344" y="26" />
+          <rect l="0" t="0" r="35" b="35" />
+          <center x="0" y="0" />
+        </child>
+        <child type="PICTURE" name="icon_success7">
+          <asset type="STATIC">icon_success.tga</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="408" y="26" />
+          <rect l="0" t="0" r="35" b="35" />
+          <center x="0" y="0" />
+        </child>
+      </base>
+      <child type="LIST" name="list_icon">
+        <asset type="BG" path="">
+          <tex x="0" y="0" />
+          <rect l="8" t="8" r="432" b="45" />
+        </asset>
+        <asset type="EDGE_LT" path="">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="EDGE_RT" path="">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="EDGE_LB" path="">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="EDGE_RB" path="">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="FRAME_T" path="">
+          <tex x="0" y="0" />
+          <rect l="8" t="0" r="432" b="8" />
+        </asset>
+        <asset type="FRAME_B" path="">
+          <tex x="0" y="0" />
+          <rect l="8" t="0" r="432" b="8" />
+        </asset>
+        <asset type="FRAME_L" path="">
+          <tex x="0" y="0" />
+          <rect l="0" t="8" r="8" b="45" />
+        </asset>
+        <asset type="FRAME_R" path="">
+          <tex x="0" y="0" />
+          <rect l="0" t="8" r="8" b="45" />
+        </asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="70" y="82" />
+        <rect l="0" t="0" r="448" b="61" />
+        <padding l="0" t="0" r="0" b="0" />
+        <column val="8" />
+        <itemrect l="0" t="0" r="64" b="61" />
+        <selection val="0" />
+        <deselectable val="0" />
+        <rclickaction val="0" />
+      </child>
+      <child type="LABEL" name="txt_percent">
+        <label val="" />
+        <pos x="412" y="157" />
+        <rect l="0" t="0" r="90" b="15" />
+        <Visible val="True" />
+        <Anchor val="None" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#FF0000" />
+        <color val="#736751" />
+        <style val="1" />
+        <halign val="2" />
+        <valign val="0" />
+        <fontname val="2=NtreevSoft" />
+        <fontsize val="17" />
+      </child>
+    </base>
+    <base type="WND" name="tab2">
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="34" y="144" />
+      <rect l="0" t="0" r="596" b="261" />
+      <child type="PICTURE" name="img_contents_2">
+        <asset type="STATIC">challenge_contents_2.tga</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="791" y="109" />
+        <rect l="0" t="0" r="497" b="69" />
+        <center x="0" y="0" />
+      </child>
+      <child type="LISTSC" name="slot_column1">
+        <asset type="BG" path="">
+          <tex x="0" y="0" />
+          <rect l="8" t="8" r="580" b="203" />
+        </asset>
+        <asset type="EDGE_LT" path="">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="EDGE_RT" path="">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="EDGE_LB" path="">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="EDGE_RB" path="">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="FRAME_T" path="">
+          <tex x="0" y="0" />
+          <rect l="8" t="0" r="580" b="8" />
+        </asset>
+        <asset type="FRAME_B" path="">
+          <tex x="0" y="0" />
+          <rect l="8" t="0" r="580" b="8" />
+        </asset>
+        <asset type="FRAME_L" path="">
+          <tex x="0" y="0" />
+          <rect l="0" t="8" r="8" b="203" />
+        </asset>
+        <asset type="FRAME_R" path="">
+          <tex x="0" y="0" />
+          <rect l="0" t="8" r="8" b="203" />
+        </asset>
+        <control type="VSCROLLBAR" name="slot_column1_VSlider" horizontal="0">
+          <control type="BUTTON_LT" name="slot_column1_VScrollBar_TopButton">
+            <asset type="NORMAL">scroll_n_1.tga</asset>
+            <asset type="DOWN">scroll_d_1.tga</asset>
+            <asset type="OVER">scroll_o_1.tga</asset>
+            <asset type="DISABLE">scroll_n_1.tga</asset>
+            <snd type="OVER">
+            </snd>
+            <snd type="DOWN">
+            </snd>
+            <pos x="0" y="0" />
+            <rect l="0" t="0" r="16" b="14" />
+            <Visible val="True" />
+            <Anchor val="Top, Left, Right" />
+          </control>
+          <control type="THUMB" name="slot_column1_VScrollBar_Thumb">
+            <asset type="NORMAL">scroll_n_2.tga</asset>
+            <asset type="DOWN">scroll_d_2.tga</asset>
+            <asset type="OVER">scroll_o_2.tga</asset>
+            <asset type="DISABLE">scroll_d_2.tga</asset>
+            <snd type="OVER">
+            </snd>
+            <snd type="DOWN">
+            </snd>
+            <pos x="-2" y="20" />
+            <rect l="0" t="0" r="20" b="49" />
+            <Visible val="True" />
+            <Anchor val="Top, Left, Right" />
+          </control>
+          <control type="BUTTON_RB" name="slot_column1_VScrollBar_BottomButton">
+            <asset type="NORMAL">scroll_n_3.tga</asset>
+            <asset type="DOWN">scroll_d_3.tga</asset>
+            <asset type="OVER">scroll_o_3.tga</asset>
+            <asset type="DISABLE">scroll_n_3.tga</asset>
+            <snd type="OVER">
+            </snd>
+            <snd type="DOWN">
+            </snd>
+            <pos x="0" y="203" />
+            <rect l="0" t="0" r="16" b="14" />
+            <Visible val="True" />
+            <Anchor val="Bottom, Left, Right" />
+          </control>
+          <scrollrect l="0" t="14" r="20" b="205" />
+          <Visible val="True" />
+          <Anchor val="Top, Bottom, Right" />
+          <pos x="576" y="0" />
+          <rect l="0" t="0" r="20" b="219" />
+        </control>
+        <pos x="0" y="0" />
+        <rect l="0" t="0" r="596" b="219" />
+        <Visible val="True" />
+        <Anchor val="None" />
+        <padding l="0" t="0" r="20" b="0" />
+        <column val="2" />
+        <itemrect l="0" t="0" r="288" b="73" />
+        <selection val="0" />
+        <deselectable val="0" />
+        <rclickaction val="0" />
+      </child>
+      <child type="PICTURE" name="img_page_bg2">
+        <asset type="STATIC">challenge_page_bg2.tga</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="753" y="528" />
+        <rect l="0" t="0" r="148" b="29" />
+        <center x="0" y="0" />
+      </child>
+      <child type="BUTTON" name="btn_nextpage">
+        <asset type="NORMAL">btn_nextpage_n.tga</asset>
+        <asset type="DOWN">btn_nextpage_d.tga</asset>
+        <asset type="OVER">btn_nextpage_o.tga</asset>
+        <asset type="DISABLE">btn_nextpage_dis.tga</asset>
+        <snd type="OVER">ui_alt_over</snd>
+        <snd type="DOWN">ui_alt_click</snd>
+        <pos x="838" y="533" />
+        <rect l="0" t="0" r="50" b="20" />
+        <Visible val="True" />
+        <Anchor val="None" />
+      </child>
+      <child type="BUTTON" name="btn_prevpage">
+        <asset type="NORMAL">btn_prevpage_n.tga</asset>
+        <asset type="DOWN">btn_prevpage_d.tga</asset>
+        <asset type="OVER">btn_prevpage_o.tga</asset>
+        <asset type="DISABLE">btn_prevpage_dis.tga</asset>
+        <snd type="OVER">ui_alt_over</snd>
+        <snd type="DOWN">ui_alt_click</snd>
+        <pos x="766" y="532" />
+        <rect l="0" t="0" r="51" b="21" />
+        <Visible val="True" />
+        <Anchor val="None" />
+      </child>
+      <child type="PICTURE" name="img_page_bg1">
+        <asset type="STATIC">challenge_page_bg1.tga</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="580" y="517" />
+        <rect l="0" t="0" r="38" b="25" />
+        <center x="0" y="0" />
+      </child>
+      <child type="LABEL" name="txt_page">
+        <label val="" />
+        <pos x="571" y="524" />
+        <rect l="0" t="0" r="17" b="18" />
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#FF0000" />
+        <color val="#4F360D" />
+        <style val="1" />
+        <halign val="2" />
+        <valign val="0" />
+        <fontname val="2=NtreevSoft" />
+        <fontsize val="14" />
+      </child>
+    </base>
+    <base type="WND" name="tab3">
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="34" y="144" />
+      <rect l="0" t="0" r="596" b="261" />
+      <child type="PICTURE" name="img_contents_3">
+        <asset type="STATIC">challenge_contents_3.tga</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="795" y="66" />
+        <rect l="0" t="0" r="497" b="69" />
+        <center x="0" y="0" />
+      </child>
+      <child type="LISTSC" name="slot_column2">
+        <asset type="BG" path="">
+          <tex x="0" y="0" />
+          <rect l="8" t="8" r="580" b="203" />
+        </asset>
+        <asset type="EDGE_LT" path="">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="EDGE_RT" path="">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="EDGE_LB" path="">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="EDGE_RB" path="">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="FRAME_T" path="">
+          <tex x="0" y="0" />
+          <rect l="8" t="0" r="580" b="8" />
+        </asset>
+        <asset type="FRAME_B" path="">
+          <tex x="0" y="0" />
+          <rect l="8" t="0" r="580" b="8" />
+        </asset>
+        <asset type="FRAME_L" path="">
+          <tex x="0" y="0" />
+          <rect l="0" t="8" r="8" b="203" />
+        </asset>
+        <asset type="FRAME_R" path="">
+          <tex x="0" y="0" />
+          <rect l="0" t="8" r="8" b="203" />
+        </asset>
+        <control type="VSCROLLBAR" name="slot_column2_VSlider" horizontal="0">
+          <control type="BUTTON_LT" name="slot_column2_VScrollBar_TopButton">
+            <asset type="NORMAL">scroll_n_1.tga</asset>
+            <asset type="DOWN">scroll_d_1.tga</asset>
+            <asset type="OVER">scroll_o_1.tga</asset>
+            <asset type="DISABLE">scroll_n_1.tga</asset>
+            <snd type="OVER">
+            </snd>
+            <snd type="DOWN">
+            </snd>
+            <pos x="2" y="0" />
+            <rect l="0" t="0" r="16" b="14" />
+            <Visible val="True" />
+            <Anchor val="Top, Left, Right" />
+          </control>
+          <control type="THUMB" name="slot_column2_VScrollBar_Thumb">
+            <asset type="NORMAL">scroll_n_2.tga</asset>
+            <asset type="DOWN">scroll_d_2.tga</asset>
+            <asset type="OVER">scroll_o_2.tga</asset>
+            <asset type="DISABLE">scroll_d_2.tga</asset>
+            <snd type="OVER">
+            </snd>
+            <snd type="DOWN">
+            </snd>
+            <pos x="0" y="20" />
+            <rect l="0" t="0" r="20" b="49" />
+            <Visible val="True" />
+            <Anchor val="Top, Left, Right" />
+          </control>
+          <control type="BUTTON_RB" name="slot_column2_VScrollBar_BottomButton">
+            <asset type="NORMAL">scroll_n_3.tga</asset>
+            <asset type="DOWN">scroll_d_3.tga</asset>
+            <asset type="OVER">scroll_o_3.tga</asset>
+            <asset type="DISABLE">scroll_n_3.tga</asset>
+            <snd type="OVER">
+            </snd>
+            <snd type="DOWN">
+            </snd>
+            <pos x="2" y="203" />
+            <rect l="0" t="0" r="16" b="14" />
+            <Visible val="True" />
+            <Anchor val="Bottom, Left, Right" />
+          </control>
+          <scrollrect l="0" t="14" r="20" b="205" />
+          <Visible val="True" />
+          <Anchor val="Top, Bottom, Right" />
+          <pos x="576" y="0" />
+          <rect l="0" t="0" r="20" b="219" />
+        </control>
+        <pos x="0" y="0" />
+        <rect l="0" t="0" r="596" b="219" />
+        <Visible val="True" />
+        <Anchor val="None" />
+        <padding l="0" t="0" r="20" b="0" />
+        <column val="2" />
+        <itemrect l="0" t="0" r="288" b="73" />
+        <selection val="0" />
+        <deselectable val="0" />
+        <rclickaction val="0" />
+      </child>
+    </base>
+    <base type="WND" name="tab4">
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="34" y="144" />
+      <rect l="0" t="0" r="596" b="261" />
+      <child type="PICTURE" name="img_contents_4">
+        <asset type="STATIC">challenge_contents_4.tga</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="800" y="349" />
+        <rect l="0" t="0" r="497" b="69" />
+        <center x="0" y="0" />
+      </child>
+      <child type="LISTSC" name="slot_column3">
+        <asset type="BG" path="">
+          <tex x="0" y="0" />
+          <rect l="8" t="8" r="580" b="203" />
+        </asset>
+        <asset type="EDGE_LT" path="">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="EDGE_RT" path="">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="EDGE_LB" path="">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="EDGE_RB" path="">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="FRAME_T" path="">
+          <tex x="0" y="0" />
+          <rect l="8" t="0" r="580" b="8" />
+        </asset>
+        <asset type="FRAME_B" path="">
+          <tex x="0" y="0" />
+          <rect l="8" t="0" r="580" b="8" />
+        </asset>
+        <asset type="FRAME_L" path="">
+          <tex x="0" y="0" />
+          <rect l="0" t="8" r="8" b="203" />
+        </asset>
+        <asset type="FRAME_R" path="">
+          <tex x="0" y="0" />
+          <rect l="0" t="8" r="8" b="203" />
+        </asset>
+        <control type="VSCROLLBAR" name="slot_column3_VSlider" horizontal="0">
+          <control type="BUTTON_LT" name="slot_column3_VScrollBar_TopButton">
+            <asset type="NORMAL">scroll_n_1.tga</asset>
+            <asset type="DOWN">scroll_d_1.tga</asset>
+            <asset type="OVER">scroll_o_1.tga</asset>
+            <asset type="DISABLE">scroll_n_1.tga</asset>
+            <snd type="OVER">
+            </snd>
+            <snd type="DOWN">
+            </snd>
+            <pos x="2" y="0" />
+            <rect l="0" t="0" r="16" b="14" />
+            <Visible val="True" />
+            <Anchor val="Top, Left, Right" />
+          </control>
+          <control type="THUMB" name="slot_column3_VScrollBar_Thumb">
+            <asset type="NORMAL">scroll_n_2.tga</asset>
+            <asset type="DOWN">scroll_d_2.tga</asset>
+            <asset type="OVER">scroll_o_2.tga</asset>
+            <asset type="DISABLE">scroll_d_2.tga</asset>
+            <snd type="OVER">
+            </snd>
+            <snd type="DOWN">
+            </snd>
+            <pos x="0" y="20" />
+            <rect l="0" t="0" r="20" b="49" />
+            <Visible val="True" />
+            <Anchor val="Top, Left, Right" />
+          </control>
+          <control type="BUTTON_RB" name="slot_column3_VScrollBar_BottomButton">
+            <asset type="NORMAL">scroll_n_3.tga</asset>
+            <asset type="DOWN">scroll_d_3.tga</asset>
+            <asset type="OVER">scroll_o_3.tga</asset>
+            <asset type="DISABLE">scroll_n_3.tga</asset>
+            <snd type="OVER">
+            </snd>
+            <snd type="DOWN">
+            </snd>
+            <pos x="2" y="203" />
+            <rect l="0" t="0" r="16" b="14" />
+            <Visible val="True" />
+            <Anchor val="Bottom, Left, Right" />
+          </control>
+          <scrollrect l="0" t="14" r="20" b="205" />
+          <Visible val="True" />
+          <Anchor val="Top, Bottom, Right" />
+          <pos x="576" y="0" />
+          <rect l="0" t="0" r="20" b="219" />
+        </control>
+        <pos x="0" y="0" />
+        <rect l="0" t="0" r="596" b="219" />
+        <Visible val="True" />
+        <Anchor val="None" />
+        <padding l="0" t="0" r="20" b="0" />
+        <column val="2" />
+        <itemrect l="0" t="0" r="288" b="73" />
+        <selection val="0" />
+        <deselectable val="0" />
+        <rclickaction val="0" />
+      </child>
+    </base>
+    <base type="WND" name="tab5">
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="34" y="144" />
+      <rect l="0" t="0" r="596" b="261" />
+      <child type="PICTURE" name="img_contents_5">
+        <asset type="STATIC">challenge_contents_4.tga</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="800" y="349" />
+        <rect l="0" t="0" r="497" b="69" />
+        <center x="0" y="0" />
+      </child>
+      <child type="LISTSC" name="slot_column4">
+        <asset type="BG" path="">
+          <tex x="0" y="0" />
+          <rect l="8" t="8" r="580" b="203" />
+        </asset>
+        <asset type="EDGE_LT" path="">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="EDGE_RT" path="">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="EDGE_LB" path="">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="EDGE_RB" path="">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="FRAME_T" path="">
+          <tex x="0" y="0" />
+          <rect l="8" t="0" r="580" b="8" />
+        </asset>
+        <asset type="FRAME_B" path="">
+          <tex x="0" y="0" />
+          <rect l="8" t="0" r="580" b="8" />
+        </asset>
+        <asset type="FRAME_L" path="">
+          <tex x="0" y="0" />
+          <rect l="0" t="8" r="8" b="203" />
+        </asset>
+        <asset type="FRAME_R" path="">
+          <tex x="0" y="0" />
+          <rect l="0" t="8" r="8" b="203" />
+        </asset>
+        <control type="VSCROLLBAR" name="slot_column4_VSlider" horizontal="0">
+          <control type="BUTTON_LT" name="slot_column4_VScrollBar_TopButton">
+            <asset type="NORMAL">scroll_n_1.tga</asset>
+            <asset type="DOWN">scroll_d_1.tga</asset>
+            <asset type="OVER">scroll_o_1.tga</asset>
+            <asset type="DISABLE">scroll_n_1.tga</asset>
+            <snd type="OVER">
+            </snd>
+            <snd type="DOWN">
+            </snd>
+            <pos x="2" y="0" />
+            <rect l="0" t="0" r="16" b="14" />
+            <Visible val="True" />
+            <Anchor val="Top, Left, Right" />
+          </control>
+          <control type="THUMB" name="slot_column4_VScrollBar_Thumb">
+            <asset type="NORMAL">scroll_n_2.tga</asset>
+            <asset type="DOWN">scroll_d_2.tga</asset>
+            <asset type="OVER">scroll_o_2.tga</asset>
+            <asset type="DISABLE">scroll_d_2.tga</asset>
+            <snd type="OVER">
+            </snd>
+            <snd type="DOWN">
+            </snd>
+            <pos x="0" y="20" />
+            <rect l="0" t="0" r="20" b="49" />
+            <Visible val="True" />
+            <Anchor val="Top, Left, Right" />
+          </control>
+          <control type="BUTTON_RB" name="slot_column4_VScrollBar_BottomButton">
+            <asset type="NORMAL">scroll_n_3.tga</asset>
+            <asset type="DOWN">scroll_d_3.tga</asset>
+            <asset type="OVER">scroll_o_3.tga</asset>
+            <asset type="DISABLE">scroll_n_3.tga</asset>
+            <snd type="OVER">
+            </snd>
+            <snd type="DOWN">
+            </snd>
+            <pos x="2" y="203" />
+            <rect l="0" t="0" r="16" b="14" />
+            <Visible val="True" />
+            <Anchor val="Bottom, Left, Right" />
+          </control>
+          <scrollrect l="0" t="14" r="20" b="205" />
+          <Visible val="True" />
+          <Anchor val="Top, Bottom, Right" />
+          <pos x="576" y="0" />
+          <rect l="0" t="0" r="20" b="219" />
+        </control>
+        <pos x="0" y="0" />
+        <rect l="0" t="0" r="596" b="219" />
+        <Visible val="True" />
+        <Anchor val="None" />
+        <padding l="0" t="0" r="20" b="0" />
+        <column val="2" />
+        <itemrect l="0" t="0" r="288" b="73" />
+        <selection val="0" />
+        <deselectable val="0" />
+        <rclickaction val="0" />
+      </child>
+    </base>
+    <child type="BUTTON" name="btn_tab5">
+      <asset type="NORMAL">challenge_tab4_n.tga</asset>
+      <asset type="DOWN">challenge_tab4_d.tga</asset>
+      <asset type="OVER">challenge_tab4_o.tga</asset>
+      <asset type="DISABLE">challenge_tab4_dis.tga</asset>
+      <snd type="OVER">
+      </snd>
+      <snd type="DOWN">ui_btn_paper_click</snd>
+      <pos x="292" y="113" />
+      <rect l="0" t="0" r="60" b="19" />
+      <Visible val="True" />
+      <Anchor val="None" />
+    </child>
+    <child type="BUTTON" name="btn_tab2">
+      <asset type="NORMAL">challenge_tab1_n.tga</asset>
+      <asset type="DOWN">challenge_tab1_d.tga</asset>
+      <asset type="OVER">challenge_tab1_o.tga</asset>
+      <asset type="DISABLE">challenge_tab1_n.tga</asset>
+      <snd type="OVER">
+      </snd>
+      <snd type="DOWN">ui_btn_paper_click</snd>
+      <pos x="225" y="113" />
+      <rect l="0" t="0" r="60" b="19" />
+      <Visible val="True" />
+      <Anchor val="None" />
+    </child>
+    <child type="BUTTON" name="btn_tab3">
+      <asset type="NORMAL">challenge_tab2_n.tga</asset>
+      <asset type="DOWN">challenge_tab2_d.tga</asset>
+      <asset type="OVER">challenge_tab2_o.tga</asset>
+      <asset type="DISABLE">
+      </asset>
+      <snd type="OVER">
+      </snd>
+      <snd type="DOWN">ui_btn_paper_click</snd>
+      <pos x="426" y="113" />
+      <rect l="0" t="0" r="60" b="19" />
+      <Visible val="True" />
+      <Anchor val="None" />
+    </child>
+    <child type="BUTTON" name="btn_tab4">
+      <asset type="NORMAL">challenge_tab3_n.tga</asset>
+      <asset type="DOWN">challenge_tab3_d.tga</asset>
+      <asset type="OVER">challenge_tab3_o.tga</asset>
+      <asset type="DISABLE">challenge_tab3_n.tga</asset>
+      <snd type="OVER">
+      </snd>
+      <snd type="DOWN">ui_btn_paper_click</snd>
+      <pos x="359" y="113" />
+      <rect l="0" t="0" r="60" b="19" />
+      <Visible val="True" />
+      <Anchor val="None" />
+    </child>
+    <child type="BUTTON" name="btn_tab1">
+      <asset type="NORMAL">btn_challenge_home_n.tga</asset>
+      <asset type="DOWN">btn_challenge_home_d.tga</asset>
+      <asset type="OVER">btn_challenge_home_o.tga</asset>
+      <asset type="DISABLE">btn_challenge_home_d.tga</asset>
+      <snd type="OVER">
+      </snd>
+      <snd type="DOWN">ui_btn_paper_click</snd>
+      <pos x="158" y="113" />
+      <rect l="0" t="0" r="60" b="19" />
+      <Visible val="True" />
+      <Anchor val="None" />
+    </child>
+  </base>
+</refresh>

@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="_Opening_">
+    <asset type="UI" name="asset_grow_horse_classup_wndex">
+      <rect l="0" t="0" r="529" b="517" />
+    </asset>
+    <asset type="UI" name="asset_lb_classup_notice">
+      <rect l="0" t="0" r="120" b="21" />
+    </asset>
+    <object name="grow_horse_classup_wndex" ani="ani_grow_horse_classup_wndex">
+      <asset type="UI" link="asset_grow_horse_classup_wndex" />
+    </object>
+    <object name="lb_classup_notice" ani="ani_lb_classup_notice">
+      <asset type="UI" link="asset_lb_classup_notice" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_grow_horse_classup_wndex">
+      <frame cnt="0">
+        <posx val="0.2314453125" />
+        <posy val="0.161458333333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.2314453125" easeValue="0.0,0.5,1.0,1.0" />
+        <posy val="0.141927083333333" easeValue="0.0,0.5,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,0.5,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_lb_classup_notice">
+      <frame cnt="0">
+        <posx val="0.1972656" />
+        <posy val="0.0390625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <sound val="ui_event_levelup" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_hiding_">
+    <asset type="UI" name="asset_grow_horse_classup_wndex">
+      <rect l="0" t="0" r="529" b="517" />
+    </asset>
+    <object name="grow_horse_classup_wndex" ani="ani_grow_horse_classup_wndex">
+      <asset type="UI" link="asset_grow_horse_classup_wndex" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_grow_horse_classup_wndex">
+      <frame cnt="0">
+        <posx val="0.2431641" />
+        <posy val="0.1419271" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.2314453125" easeValue="0.0,0.5,1.0,1.0" />
+        <posy val="0.161458333333333" easeValue="0.0,0.5,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" easeValue="0.0,0.5,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Closing_">
+    <asset type="UI" name="asset_grow_horse_classup_wndex">
+      <rect l="0" t="0" r="529" b="517" />
+    </asset>
+    <object name="grow_horse_classup_wndex" ani="ani_grow_horse_classup_wndex">
+      <asset type="UI" link="asset_grow_horse_classup_wndex" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_grow_horse_classup_wndex">
+      <frame cnt="0">
+        <posx val="0.2431641" />
+        <posy val="0.1419271" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.2314453125" easeValue="0.0,0.5,1.0,1.0" />
+        <posy val="0.161458333333333" easeValue="0.0,0.5,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" easeValue="0.0,0.5,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

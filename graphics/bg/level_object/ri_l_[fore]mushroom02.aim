@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <event animation="crash00">
+        <function>PlayFX($asset, "ob_mushroom_spore_spreading_02", "dum_02", "-attach ")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="crash00">
+        <function>PlayFX($asset, "ob_mushroom_spore_spreading_03", "dum_03", "-attach ")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="crash00">
+        <function>PlaySND($asset, "ob_fore_mushroom", "dum_00", "-var 0")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="idle00">
+        <function>PlayFX($asset, "ob_mushroom_spore_spread", "dum_00", "")</function>
+        <time>0.0000</time>
+        <freq>ONCE</freq>
+    </event>
+    <dummy name="dum_02" parent="ctrl_head01" sync="FALSE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.0000</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <dummy name="dum_03" parent="ctrl_head00" sync="FALSE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.0000</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <dummy name="dum_00" parent="Dummyroot_mushroom02" sync="FALSE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>2.2151</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <action category="" state="BROKEN" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>crash00</main>
+    </action>
+    <action category="" state="G_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>idle00</main>
+    </action>
+</aim>

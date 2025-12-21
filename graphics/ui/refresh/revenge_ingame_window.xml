@@ -1,0 +1,331 @@
+﻿<refresh version="2">
+	<properties>
+		<property name="DPI" val="72" />
+		<property name="UIAnimation" val="revenge_ingame_window_Animation.xml" />
+	</properties>
+	<base type="WND" subclass="" name="wnd_revenge">
+		<pos x="0" y="0" />
+		<rect l="0" t="0" r="1024" b="768" />
+		<Visible val="True" />
+		<Anchor val="Top, Left, Right" />
+		<snd type="SHOW"></snd>
+		<snd type="HIDE"></snd>
+		<IsHitTestVisible val="False" />
+		<ClipChildren val="False" />
+		<child type="STACKPANEL" name="StackPanel" subclass="">
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="1024" b="768" />
+			<Visible val="True" />
+			<Anchor val="Top, Left, Right" />
+			<Orientation val="Vertical" />
+			<HAlign val="Center" />
+			<VAlign val="Center" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<base type="WND" subclass="" name="wnd_revenge_ingame">
+				<pos x="0" y="0" />
+				<rect l="0" t="0" r="1024" b="768" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<snd type="SHOW"></snd>
+				<snd type="HIDE"></snd>
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+				<child type="PANEL" name="panel_revenge_success" subclass="">
+					<pos x="1166" y="-118" />
+					<rect l="0" t="0" r="288" b="97" />
+					<Visible val="True" />
+					<Anchor val="Top, Left" />
+					<embed src="" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+					<child type="PICTURE" name="img_revenge_txt_success_s" subclass="">
+						<asset type="ANIMATION">revenge_ingame_window_img_revenge_txt_success_s.xml</asset>
+						<pos x="17" y="1" />
+						<rect l="0" t="0" r="270" b="47" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+				</child>
+				<child type="PANEL" name="panel_revenge_failure" subclass="">
+					<pos x="858" y="-118" />
+					<rect l="0" t="0" r="288" b="97" />
+					<Visible val="True" />
+					<Anchor val="Top, Left" />
+					<embed src="" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+					<child type="PICTURE" name="img_revenge_txt_success_s1" subclass="">
+						<asset type="ANIMATION">revenge_ingame_window_img_revenge_txt_success_s1.xml</asset>
+						<pos x="10" y="36" />
+						<rect l="0" t="0" r="270" b="47" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+				</child>
+				<base type="WND" subclass="" name="wnd_revenge_praph">
+					<pos x="328" y="39" />
+					<rect l="0" t="0" r="360" b="135" />
+					<Visible val="True" />
+					<Anchor val="Top, Left" />
+					<snd type="SHOW"></snd>
+					<snd type="HIDE"></snd>
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+					<child type="PANEL" name="Panel_progress" subclass="">
+						<pos x="16" y="76" />
+						<rect l="0" t="0" r="333" b="51" />
+						<Visible val="True" />
+						<Anchor val="Top, Left" />
+						<embed src="" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+						<child type="PICTURE" name="img_revenge_dummy_2" subclass="">
+							<asset type="STATIC">bar_frame.png</asset>
+							<pos x="0" y="0" />
+							<rect l="0" t="0" r="332" b="50" />
+							<Visible val="True" />
+							<Anchor val="None" />
+							<center x="0" y="0" />
+							<IsHitTestVisible val="True" />
+							<ClipChildren val="False" />
+						</child>
+						<child type="PICTURE" name="img_revenge_dummy_3" subclass="">
+							<asset type="STATIC">img_revenge_dummy_3.png</asset>
+							<pos x="176" y="-286" />
+							<rect l="0" t="0" r="110" b="8" />
+							<Visible val="True" />
+							<Anchor val="None" />
+							<center x="0" y="0" />
+							<IsHitTestVisible val="True" />
+							<ClipChildren val="False" />
+						</child>
+						<child type="PROGRESS" name="progress_revenge_ingame" subclass="">
+							<asset type="BAR" tileMode="Tile">bar_progress.png</asset>
+							<tex x="224" y="26" />
+							<pos x="96" y="12" />
+							<rect l="0" t="0" r="224" b="26" />
+							<Visible val="True" />
+							<Anchor val="Top, Left" />
+							<IsHitTestVisible val="True" />
+							<ClipChildren val="False" />
+						</child>
+						<child type="PICTURE" name="img_revenge_dummy_1" subclass="">
+							<asset type="ANIMATION">revenge_ingame_window_img_revenge_dummy_1.xml</asset>
+							<pos x="97" y="11" />
+							<rect l="0" t="0" r="224" b="26" />
+							<Visible val="True" />
+							<Anchor val="None" />
+							<center x="0" y="0" />
+							<IsHitTestVisible val="True" />
+							<ClipChildren val="False" />
+						</child>
+					</child>
+					<child type="PANEL" name="Panel_revnege_txt" subclass="">
+						<pos x="80" y="79" />
+						<rect l="0" t="0" r="287" b="45" />
+						<Visible val="True" />
+						<Anchor val="Top, Left" />
+						<embed src="" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+						<child type="PICTURE" name="img_revenge_result_txtback" subclass="">
+							<asset type="STATIC">text_effect_bg.png</asset>
+							<pos x="-2" y="2" />
+							<rect l="0" t="0" r="287" b="43" />
+							<Visible val="True" />
+							<Anchor val="None" />
+							<center x="0" y="0" />
+							<IsHitTestVisible val="True" />
+							<ClipChildren val="False" />
+						</child>
+						<child type="LABEL" name="lb_revnege_result" subclass="">
+							<pos x="2" y="4" />
+							<rect l="0" t="0" r="280" b="36" />
+							<Visible val="True" />
+							<Anchor val="Top, Left" />
+							<label val="완벽한 복수 성공!!" />
+							<OutlineColor val="#FFFFFF" />
+							<ShadowColor val="#000000FF" />
+							<color val="#FFFFFFFF" />
+							<halign val="1" />
+							<valign val="1" />
+							<FontName val="나눔고딕 ExtraBold" />
+							<FontSize val="20" />
+							<TextTrimming val="None" />
+							<style val="32" />
+							<IsHitTestVisible val="False" />
+							<ClipChildren val="False" />
+							<Padding val="0, 0, 0, 0" />
+							<FitToContent val="False" />
+						</child>
+					</child>
+					<child type="PANEL" name="panel_revenge_ch_girl" subclass="">
+						<pos x="0" y="2" />
+						<rect l="0" t="0" r="112" b="87" />
+						<Visible val="True" />
+						<Anchor val="Top, Left" />
+						<embed src="" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+						<child type="PICTURE" name="img_revenge_ch_4" subclass="">
+							<asset type="STATIC">img_revenge_ch_4.png</asset>
+							<pos x="6" y="25" />
+							<rect l="0" t="0" r="112" b="87" />
+							<Visible val="True" />
+							<Anchor val="None" />
+							<center x="0" y="0" />
+							<IsHitTestVisible val="True" />
+							<ClipChildren val="False" />
+						</child>
+						<child type="PICTURE" name="img_revenge_ch_3" subclass="">
+							<asset type="STATIC">img_revenge_ch_3.png</asset>
+							<pos x="6" y="24" />
+							<rect l="0" t="0" r="112" b="87" />
+							<Visible val="True" />
+							<Anchor val="None" />
+							<center x="0" y="0" />
+							<IsHitTestVisible val="True" />
+							<ClipChildren val="False" />
+						</child>
+						<child type="PICTURE" name="img_revenge_ch_2" subclass="">
+							<asset type="STATIC">img_revenge_ch_2.png</asset>
+							<pos x="6" y="24" />
+							<rect l="0" t="0" r="112" b="87" />
+							<Visible val="True" />
+							<Anchor val="None" />
+							<center x="0" y="0" />
+							<IsHitTestVisible val="True" />
+							<ClipChildren val="False" />
+						</child>
+						<child type="PICTURE" name="img_revenge_ch_1" subclass="">
+							<asset type="STATIC">img_revenge_ch_1.png</asset>
+							<pos x="6" y="24" />
+							<rect l="0" t="0" r="112" b="87" />
+							<Visible val="True" />
+							<Anchor val="None" />
+							<center x="0" y="0" />
+							<IsHitTestVisible val="True" />
+							<ClipChildren val="False" />
+						</child>
+					</child>
+					<child type="PANEL" name="panel_revenge_ch_man" subclass="">
+						<pos x="21" y="22" />
+						<rect l="0" t="0" r="93" b="87" />
+						<Visible val="True" />
+						<Anchor val="Top, Left" />
+						<embed src="" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+						<child type="PICTURE" name="img_revenge_ch_man_4" subclass="">
+							<asset type="STATIC">img_revenge_ch_man_4.png</asset>
+							<pos x="1" y="3" />
+							<rect l="0" t="0" r="88" b="87" />
+							<Visible val="True" />
+							<Anchor val="None" />
+							<center x="0" y="0" />
+							<IsHitTestVisible val="True" />
+							<ClipChildren val="False" />
+						</child>
+						<child type="PICTURE" name="img_revenge_ch_man_3" subclass="">
+							<asset type="STATIC">img_revenge_ch_man_3.png</asset>
+							<pos x="0" y="4" />
+							<rect l="0" t="0" r="88" b="87" />
+							<Visible val="True" />
+							<Anchor val="None" />
+							<center x="0" y="0" />
+							<IsHitTestVisible val="True" />
+							<ClipChildren val="False" />
+						</child>
+						<child type="PICTURE" name="img_revenge_ch_man_2" subclass="">
+							<asset type="STATIC">img_revenge_ch_man_2.png</asset>
+							<pos x="0" y="4" />
+							<rect l="0" t="0" r="88" b="87" />
+							<Visible val="True" />
+							<Anchor val="None" />
+							<center x="0" y="0" />
+							<IsHitTestVisible val="True" />
+							<ClipChildren val="False" />
+						</child>
+						<child type="PICTURE" name="img_revenge_ch_man_1" subclass="">
+							<asset type="STATIC">img_revenge_ch_man_1.png</asset>
+							<pos x="0" y="4" />
+							<rect l="0" t="0" r="88" b="87" />
+							<Visible val="True" />
+							<Anchor val="None" />
+							<center x="0" y="0" />
+							<IsHitTestVisible val="True" />
+							<ClipChildren val="False" />
+						</child>
+					</child>
+					<child type="PICTURE" name="img_revenge_effect_glow_2" subclass="">
+						<asset type="STATIC">img_revenge_effect_glow_2.png</asset>
+						<pos x="256" y="-190" />
+						<rect l="0" t="0" r="135" b="135" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="PICTURE" name="img_revenge_effect_glow_1" subclass="">
+						<asset type="STATIC">img_revenge_effect_glow_1.png</asset>
+						<pos x="256" y="-190" />
+						<rect l="0" t="0" r="135" b="135" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="PICTURE" name="img_revenge_frame_in" subclass="">
+						<asset type="STATIC">img_revenge_frame_in.png</asset>
+						<pos x="266" y="-179" />
+						<rect l="0" t="0" r="113" b="97" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="PICTURE" name="img_revenge_frame" subclass="">
+						<asset type="STATIC">img_revenge_frame.png</asset>
+						<pos x="262" y="-183" />
+						<rect l="0" t="0" r="121" b="125" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="PICTURE" name="img_revenge_frame_top" subclass="">
+						<asset type="STATIC">img_revenge_frame_top.png</asset>
+						<pos x="267" y="-178" />
+						<rect l="0" t="0" r="108" b="87" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="PICTURE" name="img_revenge_txt" subclass="">
+						<asset type="STATIC">img_revenge_txt.png</asset>
+						<pos x="23" y="99" />
+						<rect l="0" t="0" r="88" b="37" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+				</base>
+			</base>
+		</child>
+	</base>
+</refresh>

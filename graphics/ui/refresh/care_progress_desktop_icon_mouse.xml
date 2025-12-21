@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="icon_mouse_Default">
+    <asset type="IMAGE" name="asset_icon_mouse_1" path="icon_mouse_1.png">
+      <rect l="0" t="0" r="43" b="46" />
+    </asset>
+    <object name="icon_mouse_1" ani="ani_icon_mouse_1">
+      <asset type="IMAGE" link="asset_icon_mouse_1" />
+    </object>
+    <param type="RES" x="42" y="43" />
+    <param type="LOOP" cnt="-1" pendulum="0" />
+    <anim name="ani_icon_mouse_1">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="0.9767442" />
+        <scaley val="0.9347826" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="-0.0238095238095238" easeValue="0.0,1.0,1.0,1.0" />
+        <posy val="0.0232558139534884" easeValue="0.0,1.0,1.0,1.0" />
+        <scalex val="0.9767442" />
+        <scaley val="0.9347826" />
+        <alpha val="1" easeValue="0.0,1.0,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" easeValue="0.0,1.0,1.0,1.0" />
+        <centery val="0" easeValue="0.0,1.0,1.0,1.0" />
+      </frame>
+      <frame cnt="833">
+        <posx val="0.0714285714285714" />
+        <posy val="0.0697674418604651" />
+        <scalex val="0.9767442" />
+        <scaley val="0.9347826" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1133">
+        <posx val="0.0952380952380952" />
+        <posy val="-0.0465116279069767" />
+        <scalex val="0.9767442" />
+        <scaley val="0.9347826" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1500">
+        <posx val="0" easeValue="0.7,0.0,1.0,1.0" />
+        <posy val="0" easeValue="0.7,0.0,1.0,1.0" />
+        <scalex val="0.9767442" />
+        <scaley val="0.9347826" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" easeValue="0.7,0.0,1.0,1.0" />
+        <centery val="0" easeValue="0.7,0.0,1.0,1.0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

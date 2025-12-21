@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="NORMAL">
+    <asset type="IMAGE" name="asset_img_introletter_bg_over" path="img_introletter_bg_nomal.png">
+      <rect l="0" t="0" r="534" b="690" />
+    </asset>
+    <object name="img_introletter_bg_over" ani="ani_img_introletter_bg_over">
+      <asset type="IMAGE" link="asset_img_introletter_bg_over" />
+    </object>
+    <param type="RES" x="460" y="484" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_img_introletter_bg_over">
+      <frame cnt="0">
+        <posx val="-0.091304347826087" />
+        <posy val="-0.163223140495868" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="OVER">
+    <asset type="IMAGE" name="asset_img_introletter_bg_over" path="img_introletter_bg_over.png">
+      <rect l="0" t="0" r="534" b="690" />
+    </asset>
+    <object name="img_introletter_bg_over" ani="ani_img_introletter_bg_over">
+      <asset type="IMAGE" link="asset_img_introletter_bg_over" />
+    </object>
+    <param type="RES" x="460" y="484" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_img_introletter_bg_over">
+      <frame cnt="0">
+        <posx val="-0.09130435" />
+        <posy val="-0.1632231" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="DOWN">
+    <asset type="IMAGE" name="asset_img_introletter_bg_over" path="img_introletter_bg_over.png">
+      <rect l="0" t="0" r="534" b="690" />
+    </asset>
+    <asset type="IMAGE" name="asset_img_introletter_bg_disable" path="img_introletter_bg_disable.png">
+      <rect l="0" t="0" r="534" b="690" />
+    </asset>
+    <object name="img_introletter_bg_over" ani="ani_img_introletter_bg_over">
+      <asset type="IMAGE" link="asset_img_introletter_bg_over" />
+    </object>
+    <object name="img_introletter_bg_disable" ani="ani_img_introletter_bg_disable">
+      <asset type="IMAGE" link="asset_img_introletter_bg_disable" />
+    </object>
+    <param type="RES" x="460" y="484" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_img_introletter_bg_over">
+      <frame cnt="0">
+        <posx val="-0.09130435" />
+        <posy val="-0.1632231" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="-0.09130435" />
+        <posy val="-0.1632231" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_introletter_bg_disable">
+      <frame cnt="0">
+        <posx val="-0.091304347826087" />
+        <posy val="-0.163223140495868" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="-0.09130435" />
+        <posy val="-0.1632231" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="ENTER">
+    <asset type="IMAGE" name="asset_img_introletter_bg_over" path="img_introletter_bg_nomal.png">
+      <rect l="0" t="0" r="534" b="690" />
+    </asset>
+    <asset type="IMAGE" name="asset_img_introletter_bg_over1" path="img_introletter_bg_over.png">
+      <rect l="0" t="0" r="534" b="690" />
+    </asset>
+    <object name="img_introletter_bg_over" ani="ani_img_introletter_bg_over">
+      <asset type="IMAGE" link="asset_img_introletter_bg_over" />
+    </object>
+    <object name="img_introletter_bg_over1" ani="ani_img_introletter_bg_over1">
+      <asset type="IMAGE" link="asset_img_introletter_bg_over1" />
+    </object>
+    <param type="RES" x="460" y="484" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_img_introletter_bg_over">
+      <frame cnt="0">
+        <posx val="-0.091304347826087" />
+        <posy val="-0.163223140495868" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="367">
+        <posx val="-0.09130435" />
+        <posy val="-0.1632231" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="833">
+        <posx val="-0.09130435" />
+        <posy val="-0.1632231" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_introletter_bg_over1">
+      <frame cnt="0">
+        <posx val="0.489130434782609" />
+        <posy val="0.549586776859504" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="367">
+        <posx val="0.4891304" />
+        <posy val="0.5495868" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="833">
+        <posx val="0.4891304" />
+        <posy val="0.5495868" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="LEAVE">
+    <asset type="IMAGE" name="asset_img_introletter_bg_over" path="img_introletter_bg_nomal.png">
+      <rect l="0" t="0" r="534" b="690" />
+    </asset>
+    <asset type="IMAGE" name="asset_img_introletter_bg_over1" path="img_introletter_bg_over.png">
+      <rect l="0" t="0" r="534" b="690" />
+    </asset>
+    <object name="img_introletter_bg_over" ani="ani_img_introletter_bg_over">
+      <asset type="IMAGE" link="asset_img_introletter_bg_over" />
+    </object>
+    <object name="img_introletter_bg_over1" ani="ani_img_introletter_bg_over1">
+      <asset type="IMAGE" link="asset_img_introletter_bg_over1" />
+    </object>
+    <param type="RES" x="460" y="484" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_img_introletter_bg_over">
+      <frame cnt="0">
+        <posx val="-0.09130435" />
+        <posy val="-0.1632231" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="367">
+        <posx val="-0.09130435" />
+        <posy val="-0.1632231" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="800">
+        <posx val="-0.091304347826087" />
+        <posy val="-0.163223140495868" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_introletter_bg_over1">
+      <frame cnt="0">
+        <posx val="0.4891304" />
+        <posy val="0.5495868" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="367">
+        <posx val="0.4891304" />
+        <posy val="0.5495868" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="800">
+        <posx val="0.489130434782609" />
+        <posy val="0.549586776859504" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+  </properties>
+  <base type="WND" name="myinfo">
+    <Visible val="True" />
+    <Anchor val="Top, Right" />
+    <pos x="578" y="13" />
+    <rect l="0" t="0" r="435" b="27" />
+    <child type="PICTURE" name="bg_myinfo">
+      <asset type="STATIC">bg_myinfo.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="435" b="27" />
+      <center x="0" y="0" />
+    </child>
+    <child type="LABEL" name="txt_my_level">
+      <label val="" />
+      <pos x="11" y="1" />
+      <rect l="0" t="0" r="26" b="18" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#381B0D" />
+      <color val="#FEE3D6" />
+      <halign val="2" />
+      <valign val="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="14" />
+      <style val="1" />
+    </child>
+    <child type="LABEL" name="txt_my_cash">
+      <label val="" />
+      <pos x="104" y="2" />
+      <rect l="0" t="0" r="87" b="18" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#352200" />
+      <color val="#FEE3D6" />
+      <halign val="2" />
+      <valign val="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="14" />
+      <style val="1" />
+    </child>
+    <child type="LABEL" name="txt_my_gamemoney">
+      <label val="" />
+      <pos x="258" y="2" />
+      <rect l="0" t="0" r="118" b="18" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#352200" />
+      <color val="#FFF0D6" />
+      <halign val="2" />
+      <valign val="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="14" />
+      <style val="1" />
+    </child>
+    <child type="LABEL" name="lb_my_gamemoney">
+      <label val="Carrots" />
+      <pos x="383" y="2" />
+      <rect l="0" t="0" r="47" b="19" />
+      <Visible val="True" />
+      <Anchor val="None" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#B19E89" />
+      <color val="#381B0D" />
+      <halign val="1" />
+      <valign val="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="13" />
+      <style val="1" />
+    </child>
+    <child type="LABEL" name="lb_my_cash">
+      <label val="캐쉬" />
+      <pos x="198" y="2" />
+      <rect l="0" t="0" r="47" b="19" />
+      <Visible val="True" />
+      <Anchor val="None" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#B19E89" />
+      <color val="#381B0D" />
+      <halign val="1" />
+      <valign val="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="13" />
+      <style val="1" />
+    </child>
+    <child type="LABEL" name="lb_my_level">
+      <label val="레벨" />
+      <pos x="44" y="2" />
+      <rect l="0" t="0" r="47" b="19" />
+      <Visible val="True" />
+      <Anchor val="None" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#B19E89" />
+      <color val="#381B0D" />
+      <halign val="1" />
+      <valign val="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="13" />
+      <style val="1" />
+    </child>
+  </base>
+</refresh>

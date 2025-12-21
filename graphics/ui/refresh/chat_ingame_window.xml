@@ -1,0 +1,305 @@
+﻿<refresh version="2">
+	<properties>
+		<property name="DPI" val="72" />
+	</properties>
+	<base type="WND" subclass="" name="chat_ingame_window">
+		<pos x="0" y="0" />
+		<rect l="0" t="0" r="300" b="150" />
+		<Visible val="True" />
+		<Anchor val="None" />
+		<snd type="SHOW"></snd>
+		<snd type="HIDE"></snd>
+		<IsHitTestVisible val="True" />
+		<ClipChildren val="False" />
+		<child type="PICTURE" name="chat_ingame_input_bg" subclass="">
+			<asset type="STATIC">img_chat.png</asset>
+			<pos x="8" y="96" />
+			<rect l="0" t="0" r="319" b="23" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="chat_ingame_input_txt" subclass="">
+			<asset type="STATIC">chat_input_txt.png</asset>
+			<pos x="20" y="96" />
+			<rect l="0" t="0" r="29" b="22" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<child type="LABEL" name="Label_chat" subclass="">
+				<pos x="31" y="5" />
+				<rect l="0" t="0" r="249" b="24" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<label val="Press enter to chat." />
+				<OutlineColor val="#FFFFFF" />
+				<ShadowColor val="#0000004C" />
+				<color val="#FFFFFFFF" />
+				<halign val="0" />
+				<valign val="0" />
+				<FontName val="나눔고딕" />
+				<FontSize val="13" />
+				<TextTrimming val="None" />
+				<style val="33" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+				<Padding val="0, 0, 0, 0" />
+				<FitToContent val="False" />
+			</child>
+			<child type="PICTURE" name="chat_input_enter" subclass="">
+				<asset type="STATIC">chat_input_enter.png</asset>
+				<pos x="255" y="0" />
+				<rect l="0" t="0" r="25" b="22" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+		</child>
+		<child type="LIST" name="chat_ingame_view" subclass="">
+			<asset type="BG" path="" tileMode="Tile">
+				<tex x="0" y="0" />
+				<rect l="8" t="8" r="264" b="80" />
+			</asset>
+			<asset type="EDGE_LT" path="" tileMode="Tile">
+				<tex x="0" y="0" />
+				<rect l="0" t="0" r="8" b="8" />
+			</asset>
+			<asset type="EDGE_RT" path="" tileMode="Tile">
+				<tex x="0" y="0" />
+				<rect l="0" t="0" r="8" b="8" />
+			</asset>
+			<asset type="EDGE_LB" path="" tileMode="Tile">
+				<tex x="0" y="0" />
+				<rect l="0" t="0" r="8" b="8" />
+			</asset>
+			<asset type="EDGE_RB" path="" tileMode="Tile">
+				<tex x="0" y="0" />
+				<rect l="0" t="0" r="8" b="8" />
+			</asset>
+			<asset type="FRAME_T" path="" tileMode="Tile">
+				<tex x="0" y="0" />
+				<rect l="8" t="0" r="264" b="8" />
+			</asset>
+			<asset type="FRAME_B" path="" tileMode="Tile">
+				<tex x="0" y="0" />
+				<rect l="8" t="0" r="264" b="8" />
+			</asset>
+			<asset type="FRAME_L" path="" tileMode="Tile">
+				<tex x="0" y="0" />
+				<rect l="0" t="8" r="8" b="80" />
+			</asset>
+			<asset type="FRAME_R" path="" tileMode="Tile">
+				<tex x="0" y="0" />
+				<rect l="0" t="8" r="8" b="80" />
+			</asset>
+			<pos x="20" y="-1" />
+			<rect l="0" t="0" r="280" b="96" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<padding l="3" t="2" r="3" b="2" />
+			<column val="1" />
+			<itemrect l="0" t="0" r="100" b="20" />
+			<selection val="0" />
+			<deselectable val="0" />
+			<rclickaction val="1" />
+			<IsHitTestVisible val="True" />
+			<Orientation val="Vertical" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="TEXTAREASC" subclass="" name="chatbox_ingame_view">
+			<asset type="BG" path="" tileMode="Tile">
+				<tex x="0" y="0" />
+				<rect l="8" t="8" r="264" b="111" />
+			</asset>
+			<asset type="EDGE_LT" path="" tileMode="Tile">
+				<tex x="0" y="0" />
+				<rect l="0" t="0" r="8" b="8" />
+			</asset>
+			<asset type="EDGE_RT" path="" tileMode="Tile">
+				<tex x="0" y="0" />
+				<rect l="0" t="0" r="8" b="8" />
+			</asset>
+			<asset type="EDGE_LB" path="" tileMode="Tile">
+				<tex x="0" y="0" />
+				<rect l="0" t="0" r="8" b="8" />
+			</asset>
+			<asset type="EDGE_RB" path="" tileMode="Tile">
+				<tex x="0" y="0" />
+				<rect l="0" t="0" r="8" b="8" />
+			</asset>
+			<asset type="FRAME_T" path="" tileMode="Tile">
+				<tex x="0" y="0" />
+				<rect l="8" t="0" r="264" b="8" />
+			</asset>
+			<asset type="FRAME_B" path="" tileMode="Tile">
+				<tex x="0" y="0" />
+				<rect l="8" t="0" r="264" b="8" />
+			</asset>
+			<asset type="FRAME_L" path="" tileMode="Tile">
+				<tex x="0" y="0" />
+				<rect l="0" t="8" r="8" b="111" />
+			</asset>
+			<asset type="FRAME_R" path="" tileMode="Tile">
+				<tex x="0" y="0" />
+				<rect l="0" t="8" r="8" b="111" />
+			</asset>
+			<asset type="CARET" path="">
+				<rpos x="0" y="0" />
+				<rect l="0" t="0" r="0" b="0" />
+			</asset>
+			<control type="VSCROLLBAR" name="chatbox_ingame_view_VSlider" horizontal="0">
+				<control type="BUTTON_LT" name="chatbox_ingame_view_VScrollBar_TopButton">
+					<asset type="NORMAL"></asset>
+					<asset type="DOWN"></asset>
+					<asset type="OVER"></asset>
+					<asset type="DISABLE"></asset>
+					<pos x="0" y="0" />
+					<rect l="0" t="0" r="20" b="20" />
+					<Visible val="True" />
+					<Anchor val="Top, Left, Right" />
+					<snd type="OVER"></snd>
+					<snd type="DOWN"></snd>
+					<snd type="RELEASE"></snd>
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+					<IsDefaultButton val="False" />
+				</control>
+				<control type="THUMB" name="chatbox_ingame_view_VScrollBar_Thumb">
+					<asset type="NORMAL"></asset>
+					<asset type="DOWN"></asset>
+					<asset type="OVER"></asset>
+					<asset type="DISABLE"></asset>
+					<pos x="0" y="20" />
+					<rect l="0" t="0" r="20" b="20" />
+					<Visible val="True" />
+					<Anchor val="Top, Left, Right" />
+					<snd type="OVER"></snd>
+					<snd type="DOWN"></snd>
+					<snd type="RELEASE"></snd>
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+					<IsDefaultButton val="False" />
+				</control>
+				<control type="BUTTON_RB" name="chatbox_ingame_view_VScrollBar_BottomButton">
+					<asset type="NORMAL"></asset>
+					<asset type="DOWN"></asset>
+					<asset type="OVER"></asset>
+					<asset type="DISABLE"></asset>
+					<pos x="0" y="107" />
+					<rect l="0" t="0" r="20" b="20" />
+					<Visible val="True" />
+					<Anchor val="Bottom, Left, Right" />
+					<snd type="OVER"></snd>
+					<snd type="DOWN"></snd>
+					<snd type="RELEASE"></snd>
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+					<IsDefaultButton val="False" />
+				</control>
+				<pos x="260" y="0" />
+				<rect l="0" t="0" r="20" b="127" />
+				<Visible val="True" />
+				<Anchor val="Top, Bottom, Right" />
+				<scrollrect l="0" t="20" r="20" b="107" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</control>
+			<pos x="20" y="-32" />
+			<rect l="0" t="0" r="280" b="127" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<Editable val="False" />
+			<OutlineColor val="#000000FF" />
+			<ShadowColor val="#000000FF" />
+			<SelectionBrush val="#FF0000" />
+			<padding l="3" t="2" r="3" b="2" />
+			<showalways hscroll="0" vscroll="0" />
+			<autovisible hscroll="0" vscroll="0" />
+			<autovisiblerect l="3" t="2" r="3" b="2" />
+			<color val="#FF0000FF" />
+			<style val="33" />
+			<halign val="0" />
+			<FontName val="나눔고딕" />
+			<FontSize val="13" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<FitToContent val="False" />
+			<Text val="" />
+		</child>
+		<child type="PICTURE" name="chat_input_focus" subclass="">
+			<asset type="STATIC">chat_input_focus.png</asset>
+			<pos x="4" y="87" />
+			<rect l="0" t="0" r="318" b="43" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="EDIT" name="chat_ingame_input" subclass="">
+			<asset type="BG" path="" tileMode="Stretch">
+				<tex x="8" y="7" />
+				<rect l="16" t="36" r="257" b="-21" />
+			</asset>
+			<asset type="EDGE_LT" path="" tileMode="Stretch">
+				<tex x="16" y="36" />
+				<rect l="0" t="0" r="16" b="36" />
+			</asset>
+			<asset type="EDGE_RT" path="" tileMode="Stretch">
+				<tex x="16" y="36" />
+				<rect l="0" t="0" r="16" b="36" />
+			</asset>
+			<asset type="EDGE_LB" path="" tileMode="Stretch">
+				<tex x="11" y="8" />
+				<rect l="0" t="0" r="5" b="5" />
+			</asset>
+			<asset type="EDGE_RB" path="" tileMode="Stretch">
+				<tex x="11" y="8" />
+				<rect l="-11" t="0" r="5" b="5" />
+			</asset>
+			<asset type="FRAME_T" path="" tileMode="Stretch">
+				<tex x="9" y="36" />
+				<rect l="16" t="0" r="261" b="36" />
+			</asset>
+			<asset type="FRAME_B" path="" tileMode="Stretch">
+				<tex x="8" y="8" />
+				<rect l="16" t="0" r="257" b="5" />
+			</asset>
+			<asset type="FRAME_L" path="" tileMode="Stretch">
+				<tex x="11" y="7" />
+				<rect l="0" t="36" r="5" b="-21" />
+			</asset>
+			<asset type="FRAME_R" path="" tileMode="Stretch">
+				<tex x="11" y="7" />
+				<rect l="-11" t="36" r="5" b="-21" />
+			</asset>
+			<asset type="CARET" path="cursor_caret.png">
+				<rpos x="0" y="0" />
+				<rect l="0" t="0" r="2" b="18" />
+			</asset>
+			<pos x="13" y="96" />
+			<rect l="0" t="0" r="293" b="20" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<padding l="0" t="0" r="0" b="0" />
+			<passwordchar val="" />
+			<OutlineColor val="#2F2626FF" />
+			<ShadowColor val="#000000FF" />
+			<SelectionBrush val="#FF0000" />
+			<color val="#FFA837" />
+			<style val="48" />
+			<halign val="0" />
+			<valign val="1" />
+			<FontName val="나눔고딕 ExtraBold" />
+			<FontSize val="13" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+	</base>
+</refresh>

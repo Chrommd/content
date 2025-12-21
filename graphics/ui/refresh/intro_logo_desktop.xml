@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="Intro_logo_desktop_Animation.xml" />
+  </properties>
+  <base type="WND" subclass="" name="anchor">
+    <Visible val="True" />
+    <Anchor val="Top, Bottom, Left, Right" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="1024" b="768" />
+    <base type="WND" subclass="" name="bg_anchor">
+      <Visible val="True" />
+      <Anchor val="Top, Bottom, Left, Right" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="1024" b="768" />
+      <child type="PICTURE" name="bg_white" subclass="">
+        <asset type="STATIC">bg_white.png</asset>
+        <Visible val="True" />
+        <Anchor val="Top, Bottom, Left, Right" />
+        <pos x="0" y="0" />
+        <rect l="0" t="0" r="1024" b="768" />
+        <center x="0" y="0" />
+      </child>
+    </base>
+    <child type="STACKPANEL" name="Stack_logo" subclass="">
+      <Visible val="True" />
+      <Anchor val="Top, Bottom, Left, Right" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="1024" b="768" />
+      <Orientation val="" />
+      <HAlign val="Center" />
+      <VAlign val="Center" />
+      <base type="WND" subclass="" name="intro">
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="0" y="0" />
+        <rect l="0" t="0" r="1024" b="768" />
+        <child type="PICTURE" name="img_logo_ntreev" subclass="">
+          <asset type="STATIC">logo_ntreev.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="411" y="228" />
+          <rect l="0" t="0" r="202" b="202" />
+          <center x="0" y="0" />
+        </child>
+        <child type="PICTURE" name="logo03" subclass="">
+          <asset type="STATIC">logo03.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="456" y="274" />
+          <rect l="0" t="0" r="21" b="22" />
+          <center x="0" y="0" />
+        </child>
+        <child type="PICTURE" name="logo05" subclass="">
+          <asset type="STATIC">logo05.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="503" y="274" />
+          <rect l="0" t="0" r="20" b="22" />
+          <center x="0" y="0" />
+        </child>
+        <child type="PICTURE" name="logo07" subclass="">
+          <asset type="STATIC">logo07.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="503" y="324" />
+          <rect l="0" t="0" r="21" b="23" />
+          <center x="0" y="0" />
+        </child>
+        <child type="PICTURE" name="logo09" subclass="">
+          <asset type="STATIC">logo09.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="549" y="325" />
+          <rect l="0" t="0" r="21" b="22" />
+          <center x="0" y="0" />
+        </child>
+        <child type="PANEL" name="logo" subclass="">
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <pos x="433" y="274" />
+          <rect l="0" t="0" r="158" b="110" />
+          <child type="PICTURE" name="logo01" subclass="">
+            <asset type="STATIC">logo01.png</asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="14" y="51" />
+            <rect l="0" t="0" r="20" b="23" />
+            <center x="0" y="0" />
+          </child>
+          <child type="PICTURE" name="logo02" subclass="">
+            <asset type="STATIC">logo02.png</asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="19" y="25" />
+            <rect l="0" t="0" r="21" b="23" />
+            <center x="0" y="0" />
+          </child>
+          <child type="PICTURE" name="logo04" subclass="">
+            <asset type="STATIC">logo04.png</asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="47" y="0" />
+            <rect l="0" t="0" r="20" b="22" />
+            <center x="0" y="0" />
+          </child>
+          <child type="PICTURE" name="logo06" subclass="">
+            <asset type="STATIC">logo06.png</asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="70" y="25" />
+            <rect l="0" t="0" r="21" b="23" />
+            <center x="0" y="0" />
+          </child>
+          <child type="PICTURE" name="logo08" subclass="">
+            <asset type="STATIC">logo08.png</asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="93" y="51" />
+            <rect l="0" t="0" r="21" b="23" />
+            <center x="0" y="0" />
+          </child>
+          <child type="PICTURE" name="logo10" subclass="">
+            <asset type="STATIC">logo10.png</asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="120" y="25" />
+            <rect l="0" t="0" r="21" b="23" />
+            <center x="0" y="0" />
+          </child>
+          <child type="PICTURE" name="logo11" subclass="">
+            <asset type="STATIC">logo11.png</asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="126" y="0" />
+            <rect l="0" t="0" r="21" b="22" />
+            <center x="0" y="0" />
+          </child>
+          <child type="PICTURE" name="logo12" subclass="">
+            <asset type="STATIC">logo12.png</asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="0" y="89" />
+            <rect l="0" t="0" r="158" b="21" />
+            <center x="0" y="0" />
+          </child>
+        </child>
+      </base>
+    </child>
+  </base>
+</refresh>

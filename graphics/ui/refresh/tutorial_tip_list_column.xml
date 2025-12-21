@@ -1,0 +1,66 @@
+﻿<refresh version="2">
+	<properties>
+		<property name="DPI" val="72" />
+		<property name="UIAnimation" val="tutorial_tip_list_column_Animation.xml" />
+	</properties>
+	<base type="WND" subclass="" name="Wnd_tip">
+		<pos x="0" y="0" />
+		<rect l="0" t="0" r="260" b="80" />
+		<Visible val="True" />
+		<Anchor val="Top, Left" />
+		<snd type="SHOW"></snd>
+		<snd type="HIDE"></snd>
+		<IsHitTestVisible val="True" />
+		<ClipChildren val="False" />
+		<child type="PICTURE" name="tuto_img_list_n" subclass="">
+			<asset type="STATIC">tuto_img_list_n.png</asset>
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="260" b="80" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="tuto_icon_tip" subclass="">
+			<asset type="STATIC">tip_list_00.png</asset>
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="260" b="80" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="tuto_img_list_o" subclass="">
+			<asset type="STATIC">tuto_img_list_o.png</asset>
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="260" b="80" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="tuto_img_list_d" subclass="">
+			<asset type="STATIC">tuto_img_list_d.png</asset>
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="260" b="80" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="icon_common_select" subclass="">
+			<asset type="STATIC">icon_common_select.png</asset>
+			<pos x="230" y="8" />
+			<rect l="0" t="0" r="22" b="23" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+	</base>
+</refresh>

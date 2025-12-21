@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <event animation="_initialize_">
+        <function>PlayFX($asset, "MAGIC_JUMPSTUN_foot", "1", "-attach ")</function>
+        <time>0.0000</time>
+        <freq>ONCE</freq>
+    </event>
+    <event animation="_initialize_">
+        <function>PlayFX($asset, "MAGIC_JUMPSTUN_foot", "2", "-attach ")</function>
+        <time>0.0000</time>
+        <freq>ONCE</freq>
+    </event>
+    <event animation="_initialize_">
+        <function>PlayFX($asset, "MAGIC_JUMPSTUN_foot", "3", "-attach ")</function>
+        <time>0.0000</time>
+        <freq>ONCE</freq>
+    </event>
+    <event animation="_initialize_">
+        <function>PlayFX($asset, "MAGIC_JUMPSTUN_foot", "4", "-attach ")</function>
+        <time>0.0000</time>
+        <freq>ONCE</freq>
+    </event>
+    <dummy name="1" parent="Opt_HorseRMetacarpus" sync="TRUE" extra="">
+        <rotationX>0.0031</rotationX>
+        <rotationY>0.0128</rotationY>
+        <rotationZ>0.7280</rotationZ>
+        <rotationW>0.6855</rotationW>
+        <offsetX>0.2561</offsetX>
+        <offsetY>0.0151</offsetY>
+        <offsetZ>0.0070</offsetZ>
+    </dummy>
+    <dummy name="2" parent="Opt_HorseLMetacarpus" sync="TRUE" extra="">
+        <rotationX>-0.0020</rotationX>
+        <rotationY>0.0032</rotationY>
+        <rotationZ>0.6854</rotationZ>
+        <rotationW>0.7282</rotationW>
+        <offsetX>0.2607</offsetX>
+        <offsetY>0.0138</offsetY>
+        <offsetZ>0.0069</offsetZ>
+    </dummy>
+    <dummy name="3" parent="Opt_HorseRLargeCannon" sync="TRUE" extra="">
+        <rotationX>-0.0603</rotationX>
+        <rotationY>-0.0614</rotationY>
+        <rotationZ>0.7316</rotationZ>
+        <rotationW>0.6763</rotationW>
+        <offsetX>0.3080</offsetX>
+        <offsetY>0.0147</offsetY>
+        <offsetZ>0.0444</offsetZ>
+    </dummy>
+    <dummy name="4" parent="Opt_HorseLLargeCannon" sync="TRUE" extra="">
+        <rotationX>-0.0554</rotationX>
+        <rotationY>-0.0511</rotationY>
+        <rotationZ>0.7010</rotationZ>
+        <rotationW>0.7092</rotationW>
+        <offsetX>0.3116</offsetX>
+        <offsetY>0.0044</offsetY>
+        <offsetZ>0.0634</offsetZ>
+    </dummy>
+</aim>

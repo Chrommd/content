@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="_Normal_">
+    <asset type="UI" name="asset_tip_img">
+      <rect l="0" t="0" r="420" b="80" />
+    </asset>
+    <object name="tip_img" ani="ani_tip_img">
+      <asset type="UI" link="asset_tip_img" />
+    </object>
+    <param type="RES" x="420" y="80" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_tip_img">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Over_">
+    <asset type="UI" name="asset_tip_img">
+      <rect l="0" t="0" r="420" b="80" />
+    </asset>
+    <object name="tip_img" ani="ani_tip_img">
+      <asset type="UI" link="asset_tip_img" />
+    </object>
+    <param type="RES" x="420" y="80" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_tip_img">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Selected_">
+    <asset type="UI" name="asset_tip_img">
+      <rect l="0" t="0" r="420" b="80" />
+    </asset>
+    <object name="tip_img" ani="ani_tip_img">
+      <asset type="UI" link="asset_tip_img" />
+    </object>
+    <param type="RES" x="420" y="80" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_tip_img">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Disable_">
+    <param type="RES" x="420" y="80" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+  </scene>
+</rfanimation>

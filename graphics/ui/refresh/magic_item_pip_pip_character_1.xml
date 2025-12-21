@@ -1,0 +1,761 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="pip_character_1_Default">
+    <asset type="IMAGE" name="asset_magic_pip_character_part_hand_left_0" path="magic_pip_character_part_16.png">
+      <rect l="0" t="0" r="47" b="43" />
+    </asset>
+    <asset type="IMAGE" name="asset_magic_pip_character_part_hand_left_1" path="magic_pip_character_part_13.png">
+      <rect l="0" t="0" r="76" b="57" />
+    </asset>
+    <asset type="IMAGE" name="asset_magic_pip_character_part_body" path="magic_pip_character_part_10.png">
+      <rect l="0" t="0" r="69" b="83" />
+    </asset>
+    <asset type="IMAGE" name="asset_magic_pip_character_part_hand_right_1" path="magic_pip_character_part_11_0.png">
+      <rect l="0" t="0" r="81" b="75" />
+    </asset>
+    <asset type="IMAGE" name="asset_magic_pip_character_part_head_0" path="magic_pip_character_part_12.png">
+      <rect l="0" t="0" r="201" b="164" />
+    </asset>
+    <asset type="IMAGE" name="asset_magic_pip_character_part_head_1" path="magic_pip_character_part_15.png">
+      <rect l="0" t="0" r="188" b="178" />
+    </asset>
+    <asset type="IMAGE" name="asset_magic_pip_character_part_hand_right_0" path="magic_pip_character_part_14.png">
+      <rect l="0" t="0" r="73" b="77" />
+    </asset>
+    <asset type="IMAGE" name="asset_magic_pip_character_part_9" path="magic_pip_character_part_9_0.png">
+      <rect l="0" t="0" r="72" b="64" />
+    </asset>
+    <asset type="IMAGE" name="asset_magic_pip_character_part_10" path="magic_pip_character_part_9.png">
+      <rect l="0" t="0" r="72" b="64" />
+    </asset>
+    <object name="magic_pip_character_part_hand_left_0" ani="ani_magic_pip_character_part_hand_left_0">
+      <asset type="IMAGE" link="asset_magic_pip_character_part_hand_left_0" />
+    </object>
+    <object name="magic_pip_character_part_hand_left_1" ani="ani_magic_pip_character_part_hand_left_1">
+      <asset type="IMAGE" link="asset_magic_pip_character_part_hand_left_1" />
+    </object>
+    <object name="magic_pip_character_part_body" ani="ani_magic_pip_character_part_body">
+      <asset type="IMAGE" link="asset_magic_pip_character_part_body" />
+    </object>
+    <object name="magic_pip_character_part_hand_right_1" ani="ani_magic_pip_character_part_hand_right_1">
+      <asset type="IMAGE" link="asset_magic_pip_character_part_hand_right_1" />
+    </object>
+    <object name="magic_pip_character_part_head_0" ani="ani_magic_pip_character_part_head_0">
+      <asset type="IMAGE" link="asset_magic_pip_character_part_head_0" />
+    </object>
+    <object name="magic_pip_character_part_head_1" ani="ani_magic_pip_character_part_head_1">
+      <asset type="IMAGE" link="asset_magic_pip_character_part_head_1" />
+    </object>
+    <object name="magic_pip_character_part_hand_right_0" ani="ani_magic_pip_character_part_hand_right_0">
+      <asset type="IMAGE" link="asset_magic_pip_character_part_hand_right_0" />
+    </object>
+    <object name="magic_pip_character_part_9" ani="ani_magic_pip_character_part_9">
+      <asset type="IMAGE" link="asset_magic_pip_character_part_9" />
+    </object>
+    <object name="magic_pip_character_part_10" ani="ani_magic_pip_character_part_10">
+      <asset type="IMAGE" link="asset_magic_pip_character_part_10" />
+    </object>
+    <param type="RES" x="200" y="267" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_magic_pip_character_part_hand_left_0">
+      <frame cnt="0">
+        <posx val="0.41" />
+        <posy val="0.602996254681648" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.877192974090576" />
+        <centery val="0.377358496189117" />
+      </frame>
+      <frame cnt="233">
+        <posx val="0.41" />
+        <posy val="0.602996254681648" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="10" />
+        <visible val="1" />
+        <centerx val="0.877192974090576" />
+        <centery val="0.377358496189117" />
+      </frame>
+      <frame cnt="467">
+        <posx val="0.31" />
+        <posy val="0.550561797752809" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="20" />
+        <visible val="1" />
+        <centerx val="0.877192974090576" />
+        <centery val="0.377358496189117" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0.41" />
+        <posy val="0.546816479400749" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="20" />
+        <visible val="1" />
+        <centerx val="0.877192974090576" />
+        <centery val="0.377358496189117" />
+      </frame>
+    </anim>
+    <anim name="ani_magic_pip_character_part_hand_left_1">
+      <frame cnt="0">
+        <posx val="0.405" />
+        <posy val="0.554307116104869" />
+        <scalex val="1.078947" />
+        <scaley val="1.122807" />
+        <alpha val="0" />
+        <rotate val="15" />
+        <visible val="1" />
+        <centerx val="0.926829278469086" />
+        <centery val="0.59375" />
+      </frame>
+      <frame cnt="233">
+        <posx val="0.405" />
+        <posy val="0.554307116104869" />
+        <scalex val="1.039474" />
+        <scaley val="1.070175" />
+        <alpha val="0" />
+        <rotate val="-14" />
+        <visible val="1" />
+        <centerx val="0.926829278469086" />
+        <centery val="0.59375" />
+      </frame>
+      <frame cnt="367">
+        <posx val="0.38" />
+        <posy val="0.588014981273408" />
+        <scalex val="1.026316" />
+        <scaley val="1.035088" />
+        <alpha val="1" />
+        <rotate val="-30" />
+        <visible val="1" />
+        <centerx val="0.926829278469086" />
+        <centery val="0.59375" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0.35" />
+        <posy val="0.580524344569288" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="-3" />
+        <visible val="1" />
+        <centerx val="0.932242214679718" />
+        <centery val="0.607620477676392" />
+      </frame>
+      <frame cnt="667">
+        <posx val="0.345" />
+        <posy val="0.595505617977528" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="30" />
+        <visible val="1" />
+        <centerx val="0.939024388790131" />
+        <centery val="0.625" />
+      </frame>
+      <frame cnt="967">
+        <posx val="0.365" />
+        <posy val="0.599250936329588" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="15" />
+        <visible val="1" />
+        <centerx val="0.939024388790131" />
+        <centery val="0.625" />
+      </frame>
+      <frame cnt="1333">
+        <posx val="0.385" />
+        <posy val="0.595505617977528" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="-15" />
+        <visible val="1" />
+        <centerx val="0.939024388790131" />
+        <centery val="0.625" />
+      </frame>
+      <frame cnt="1767">
+        <posx val="0.365" />
+        <posy val="0.591760299625468" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="15" />
+        <visible val="1" />
+        <centerx val="0.939024388790131" />
+        <centery val="0.625" />
+      </frame>
+      <frame cnt="2400">
+        <posx val="0.375" />
+        <posy val="0.602996254681648" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="-15" />
+        <visible val="1" />
+        <centerx val="0.939024388790131" />
+        <centery val="0.625" />
+      </frame>
+      <frame cnt="3533">
+        <posx val="0.37" />
+        <posy val="0.595505617977528" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="10" />
+        <visible val="1" />
+        <centerx val="0.939024388790131" />
+        <centery val="0.625" />
+      </frame>
+    </anim>
+    <anim name="ani_magic_pip_character_part_body">
+      <frame cnt="0">
+        <posx val="0.435" />
+        <posy val="0.550561797752809" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.507692277431488" />
+        <centery val="0.0864197462797165" />
+      </frame>
+      <frame cnt="267">
+        <posx val="0.435" />
+        <posy val="0.550561797752809" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.507692277431488" />
+        <centery val="0.0864197462797165" />
+      </frame>
+      <frame cnt="600">
+        <posx val="0.435" easeValue="0.0,0.0,0.1,1.0" />
+        <posy val="0.550561797752809" easeValue="0.0,0.0,0.1,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="25" easeValue="0.0,0.0,0.1,1.0" />
+        <visible val="1" />
+        <centerx val="0.507692277431488" easeValue="0.0,0.0,0.1,1.0" />
+        <centery val="0.0864197462797165" easeValue="0.0,0.0,0.1,1.0" />
+      </frame>
+      <frame cnt="700">
+        <posx val="0.435" />
+        <posy val="0.550561797752809" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="20" />
+        <visible val="1" />
+        <centerx val="0.507692277431488" />
+        <centery val="0.0864197462797165" />
+      </frame>
+    </anim>
+    <anim name="ani_magic_pip_character_part_hand_right_1">
+      <frame cnt="0">
+        <posx val="0.465" />
+        <posy val="0.569288389513109" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="-20" />
+        <visible val="1" />
+        <centerx val="0.530864179134369" />
+        <centery val="0.293333292007446" />
+      </frame>
+      <frame cnt="233">
+        <posx val="0.46" />
+        <posy val="0.558052434456929" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="-35" />
+        <visible val="1" />
+        <centerx val="0.530864179134369" />
+        <centery val="0.26666671037674" />
+      </frame>
+      <frame cnt="267">
+        <posx val="0.675" />
+        <posy val="0.617977528089888" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="-20" />
+        <visible val="1" />
+        <centerx val="0.777777791023254" />
+        <centery val="0.893333315849304" />
+      </frame>
+    </anim>
+    <anim name="ani_magic_pip_character_part_head_0">
+      <frame cnt="0">
+        <posx val="0.43" />
+        <posy val="0.539325842696629" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.384615391492844" />
+        <centery val="0.914473712444305" />
+      </frame>
+      <frame cnt="67">
+        <posx val="0.43" />
+        <posy val="0.539325842696629" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="-5" />
+        <visible val="1" />
+        <centerx val="0.384615391492844" />
+        <centery val="0.914473712444305" />
+      </frame>
+      <frame cnt="167">
+        <posx val="0.43" />
+        <posy val="0.539325842696629" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="5" />
+        <visible val="1" />
+        <centerx val="0.384615391492844" />
+        <centery val="0.914473712444305" />
+      </frame>
+      <frame cnt="233">
+        <posx val="0.43" />
+        <posy val="0.539325842696629" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="-9" />
+        <visible val="1" />
+        <centerx val="0.384615391492844" />
+        <centery val="0.914473712444305" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.43" />
+        <posy val="0.539325842696629" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="-30" />
+        <visible val="1" />
+        <centerx val="0.384615391492844" />
+        <centery val="0.914473712444305" />
+      </frame>
+      <frame cnt="367">
+        <posx val="0.43" />
+        <posy val="0.539325842696629" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.384615391492844" />
+        <centery val="0.914473712444305" />
+      </frame>
+    </anim>
+    <anim name="ani_magic_pip_character_part_head_1">
+      <frame cnt="0">
+        <posx val="0.42" />
+        <posy val="0.588014981273408" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.380116999149323" />
+        <centery val="0.946666717529297" />
+      </frame>
+      <frame cnt="233">
+        <posx val="0.42" />
+        <posy val="0.588014981273408" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="-28" />
+        <visible val="1" />
+        <centerx val="0.380116999149323" />
+        <centery val="0.946666717529297" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.42" />
+        <posy val="0.588014981273408" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="-40" />
+        <visible val="1" />
+        <centerx val="0.380116999149323" />
+        <centery val="0.946666717529297" />
+      </frame>
+      <frame cnt="433">
+        <posx val="0.42" />
+        <posy val="0.588014981273408" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="20" />
+        <visible val="1" />
+        <centerx val="0.380116999149323" />
+        <centery val="0.946666717529297" />
+      </frame>
+      <frame cnt="533">
+        <posx val="0.42" />
+        <posy val="0.588014981273408" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="-25" />
+        <visible val="1" />
+        <centerx val="0.380116999149323" />
+        <centery val="0.946666717529297" />
+      </frame>
+      <frame cnt="600">
+        <posx val="0.42" />
+        <posy val="0.588014981273408" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="10" />
+        <visible val="1" />
+        <centerx val="0.380116999149323" />
+        <centery val="0.946666717529297" />
+      </frame>
+      <frame cnt="667">
+        <posx val="0.42" />
+        <posy val="0.588014981273408" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="-15" />
+        <visible val="1" />
+        <centerx val="0.380116999149323" />
+        <centery val="0.946666717529297" />
+      </frame>
+      <frame cnt="733">
+        <posx val="0.42" />
+        <posy val="0.588014981273408" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="5" />
+        <visible val="1" />
+        <centerx val="0.380116999149323" />
+        <centery val="0.946666717529297" />
+      </frame>
+      <frame cnt="800">
+        <posx val="0.42" />
+        <posy val="0.588014981273408" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="-10" />
+        <visible val="1" />
+        <centerx val="0.380116999149323" />
+        <centery val="0.946666717529297" />
+      </frame>
+      <frame cnt="867">
+        <posx val="0.42" />
+        <posy val="0.588014981273408" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="5" />
+        <visible val="1" />
+        <centerx val="0.380116999149323" />
+        <centery val="0.946666717529297" />
+      </frame>
+      <frame cnt="933">
+        <posx val="0.42" />
+        <posy val="0.588014981273408" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="-5" />
+        <visible val="1" />
+        <centerx val="0.380116999149323" />
+        <centery val="0.946666717529297" />
+      </frame>
+    </anim>
+    <anim name="ani_magic_pip_character_part_hand_right_0">
+      <frame cnt="0">
+        <posx val="0.46" />
+        <posy val="0.550561797752809" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.0789473727345467" />
+        <centery val="0.142857104539871" />
+      </frame>
+      <frame cnt="233">
+        <posx val="0.335" />
+        <posy val="0.47565543071161" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="-14" />
+        <visible val="1" />
+        <centerx val="0.0789473727345467" />
+        <centery val="0.142857104539871" />
+      </frame>
+      <frame cnt="267">
+        <posx val="0.37" />
+        <posy val="0.48689138576779" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="-17" />
+        <visible val="1" />
+        <centerx val="0.157592102885246" />
+        <centery val="0.21710230410099" />
+      </frame>
+      <frame cnt="567">
+        <posx val="0.66" />
+        <posy val="0.595505617977528" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="-35" />
+        <visible val="1" />
+        <centerx val="0.849314987659454" />
+        <centery val="0.870129883289337" />
+      </frame>
+      <frame cnt="967">
+        <posx val="0.63" />
+        <posy val="0.602996254681648" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.821917772293091" />
+        <centery val="0.844155788421631" />
+      </frame>
+      <frame cnt="1300">
+        <posx val="0.665" />
+        <posy val="0.588014981273408" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="-30" />
+        <visible val="1" />
+        <centerx val="0.835616409778595" />
+        <centery val="0.844155788421631" />
+      </frame>
+      <frame cnt="1667">
+        <posx val="0.605" />
+        <posy val="0.610486891385768" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="15" />
+        <visible val="1" />
+        <centerx val="0.835616409778595" />
+        <centery val="0.844155788421631" />
+      </frame>
+      <frame cnt="2100">
+        <posx val="0.66" />
+        <posy val="0.573033707865169" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="-35" />
+        <visible val="1" />
+        <centerx val="0.849314987659454" />
+        <centery val="0.844155788421631" />
+      </frame>
+      <frame cnt="2733">
+        <posx val="0.625" />
+        <posy val="0.606741573033708" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="10" />
+        <visible val="1" />
+        <centerx val="0.835616409778595" />
+        <centery val="0.844155788421631" />
+      </frame>
+      <frame cnt="3500">
+        <posx val="0.645" />
+        <posy val="0.621722846441948" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="-10" />
+        <visible val="1" />
+        <centerx val="0.821917772293091" />
+        <centery val="0.844155788421631" />
+      </frame>
+    </anim>
+    <anim name="ani_magic_pip_character_part_9">
+      <frame cnt="0">
+        <posx val="0.335" />
+        <posy val="0.370786516853933" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.984615385532379" />
+        <centery val="0.65625" />
+      </frame>
+      <frame cnt="1167">
+        <posx val="0.2" />
+        <posy val="0.273408239700375" />
+        <scalex val="0.291666666666667" />
+        <scaley val="0.28125" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="1.01388895511627" />
+        <centery val="0.46875" />
+      </frame>
+      <frame cnt="1700">
+        <posx val="0.205" />
+        <posy val="0.269662921348315" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="-25" />
+        <visible val="1" />
+        <centerx val="1" />
+        <centery val="0.484375" />
+      </frame>
+      <frame cnt="1900">
+        <posx val="0.2" />
+        <posy val="0.273408239700375" />
+        <scalex val="0.291666666666667" />
+        <scaley val="0.28125" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="1.01388895511627" />
+        <centery val="0.46875" />
+      </frame>
+      <frame cnt="2567">
+        <posx val="0.205" />
+        <posy val="0.269662921348315" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="-25" />
+        <visible val="1" />
+        <centerx val="1" />
+        <centery val="0.484375" />
+      </frame>
+      <frame cnt="2733">
+        <posx val="0.2" />
+        <posy val="0.273408239700375" />
+        <scalex val="0.291666666666667" />
+        <scaley val="0.28125" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="1.01388895511627" />
+        <centery val="0.46875" />
+      </frame>
+      <frame cnt="3400">
+        <posx val="0.205" />
+        <posy val="0.269662921348315" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="-25" />
+        <visible val="1" />
+        <centerx val="1" />
+        <centery val="0.484375" />
+      </frame>
+    </anim>
+    <anim name="ani_magic_pip_character_part_10">
+      <frame cnt="0">
+        <posx val="0.765" />
+        <posy val="0.359550561797753" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="1167">
+        <posx val="0.55" />
+        <posy val="0.247191011235955" />
+        <scalex val="0.527777777777778" />
+        <scaley val="0.515625" />
+        <alpha val="0" />
+        <rotate val="-15" />
+        <visible val="1" />
+        <centerx val="0.208184495568275" />
+        <centery val="0.434341490268707" />
+      </frame>
+      <frame cnt="1700">
+        <posx val="0.5" />
+        <posy val="0.250936329588015" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="10" />
+        <visible val="1" />
+        <centerx val="0.0833333432674408" />
+        <centery val="0.40625" />
+      </frame>
+      <frame cnt="1900">
+        <posx val="0.55" />
+        <posy val="0.247191011235955" />
+        <scalex val="0.527777777777778" />
+        <scaley val="0.515625" />
+        <alpha val="0" />
+        <rotate val="-15" />
+        <visible val="1" />
+        <centerx val="0.208184495568275" />
+        <centery val="0.434341490268707" />
+      </frame>
+      <frame cnt="2567">
+        <posx val="0.5" />
+        <posy val="0.250936329588015" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="10" />
+        <visible val="1" />
+        <centerx val="0.0833333432674408" />
+        <centery val="0.40625" />
+      </frame>
+      <frame cnt="2733">
+        <posx val="0.55" />
+        <posy val="0.247191011235955" />
+        <scalex val="0.527777777777778" />
+        <scaley val="0.515625" />
+        <alpha val="0" />
+        <rotate val="-15" />
+        <visible val="1" />
+        <centerx val="0.208184495568275" />
+        <centery val="0.434341490268707" />
+      </frame>
+      <frame cnt="3400">
+        <posx val="0.5" />
+        <posy val="0.250936329588015" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="10" />
+        <visible val="1" />
+        <centerx val="0.0833333432674408" />
+        <centery val="0.40625" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

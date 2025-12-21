@@ -1,0 +1,277 @@
+﻿<refresh version="2">
+	<properties>
+		<property name="DPI" val="72" />
+		<property name="UIAnimation" val="result_guild_msg_window_Animation.xml" />
+	</properties>
+	<base type="WND" subclass="" name="wnd_result_guild">
+		<pos x="0" y="-1" />
+		<rect l="0" t="0" r="1024" b="377" />
+		<Visible val="True" />
+		<Anchor val="Top, Left, Right" />
+		<snd type="SHOW"></snd>
+		<snd type="HIDE"></snd>
+		<IsHitTestVisible val="False" />
+		<ClipChildren val="False" />
+		<base type="WND" subclass="" name="anchor_wnd_Win">
+			<pos x="0" y="77" />
+			<rect l="0" t="0" r="1024" b="280" />
+			<Visible val="True" />
+			<Anchor val="Left, Right" />
+			<snd type="SHOW"></snd>
+			<snd type="HIDE"></snd>
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<child type="PICTURE" name="blackbar_bg" subclass="">
+				<asset type="STATIC">icon_ready_count1.png</asset>
+				<pos x="0" y="9" />
+				<rect l="0" t="0" r="1024" b="303" />
+				<Visible val="True" />
+				<Anchor val="Left, Right" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="blackbar_bottom" subclass="">
+				<asset type="STATIC">readyrooom_start_count_frame.png</asset>
+				<pos x="0" y="311" />
+				<rect l="0" t="0" r="1024" b="3" />
+				<Visible val="True" />
+				<Anchor val="Left, Right" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="blackbar_top" subclass="">
+				<asset type="STATIC">readyrooom_start_count_frame.png</asset>
+				<pos x="0" y="7" />
+				<rect l="0" t="0" r="1024" b="3" />
+				<Visible val="True" />
+				<Anchor val="Left, Right" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="STACKPANEL" name="StackPanel_flag" subclass="">
+				<pos x="1" y="0" />
+				<rect l="0" t="0" r="1024" b="172" />
+				<Visible val="True" />
+				<Anchor val="Left, Right" />
+				<Orientation val="Vertical" />
+				<HAlign val="Center" />
+				<VAlign val="Center" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+				<base type="WND" subclass="" name="Wnd_flag">
+					<pos x="382" y="2" />
+					<rect l="0" t="0" r="259" b="168" />
+					<Visible val="True" />
+					<Anchor val="Top, Left" />
+					<snd type="SHOW"></snd>
+					<snd type="HIDE"></snd>
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+					<child type="PICTURE" name="rd_guild_flag_frame_0" subclass="">
+						<asset type="STATIC">rd_guild_flag_frame_0.png</asset>
+						<pos x="-150" y="-8" />
+						<rect l="0" t="0" r="173" b="89" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="PICTURE" name="rd_guild_flag_frame_1" subclass="">
+						<asset type="STATIC">rd_guild_flag_frame_1.png</asset>
+						<pos x="227" y="-8" />
+						<rect l="0" t="0" r="172" b="89" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="PICTURE" name="panel_bg" subclass="">
+						<asset type="STATIC">rd_guild_flag_200.png</asset>
+						<pos x="-7" y="-8" />
+						<rect l="0" t="0" r="273" b="313" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+						<child type="PICTURE" name="guild_mark" subclass="">
+							<asset type="STATIC">horse_blank_bg_200.png</asset>
+							<pos x="37" y="24" />
+							<rect l="0" t="0" r="200" b="200" />
+							<Visible val="True" />
+							<Anchor val="None" />
+							<center x="0" y="0" />
+							<IsHitTestVisible val="True" />
+							<ClipChildren val="False" />
+						</child>
+						<child type="PICTURE" name="result_guild_flag_deco" subclass="">
+							<asset type="STATIC">rd_guild_flag_deco.png</asset>
+							<pos x="-5" y="2" />
+							<rect l="0" t="0" r="285" b="95" />
+							<Visible val="True" />
+							<Anchor val="None" />
+							<center x="0" y="0" />
+							<IsHitTestVisible val="True" />
+							<ClipChildren val="False" />
+						</child>
+						<child type="PICTURE" name="result_guild_winner" subclass="">
+							<asset type="STATIC">result_guild_winner.png</asset>
+							<pos x="72" y="198" />
+							<rect l="0" t="0" r="132" b="42" />
+							<Visible val="True" />
+							<Anchor val="None" />
+							<center x="0" y="0" />
+							<IsHitTestVisible val="True" />
+							<ClipChildren val="False" />
+						</child>
+					</child>
+					<child type="PICTURE" name="mate_titlewing_l" subclass="">
+						<asset type="STATIC">mate_titlewing_l.png</asset>
+						<pos x="-82" y="129" />
+						<rect l="0" t="0" r="166" b="47" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="PICTURE" name="mate_titlewing_r" subclass="">
+						<asset type="STATIC">mate_titlewing_r.png</asset>
+						<pos x="174" y="129" />
+						<rect l="0" t="0" r="166" b="47" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="PICTURE" name="mate_prograss_efc2" subclass="">
+						<asset type="STATIC">mate_prograss_efc2.png</asset>
+						<pos x="-15" y="108" />
+						<rect l="0" t="0" r="256" b="256" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="PICTURE" name="mate_prograss_efc3" subclass="">
+						<asset type="STATIC">mate_prograss_efc2.png</asset>
+						<pos x="19" y="85" />
+						<rect l="0" t="0" r="256" b="256" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="PICTURE" name="mate_prograss_efc4" subclass="">
+						<asset type="STATIC">mate_prograss_efc2.png</asset>
+						<pos x="6" y="141" />
+						<rect l="0" t="0" r="162" b="162" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="PICTURE" name="mate_prograss_efc5" subclass="">
+						<asset type="STATIC">mate_prograss_efc2.png</asset>
+						<pos x="117" y="180" />
+						<rect l="0" t="0" r="108" b="108" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+				</base>
+			</child>
+			<child type="LABEL" name="txt_guild_message_1" subclass="">
+				<pos x="0" y="242" />
+				<rect l="0" t="0" r="1024" b="33" />
+				<Visible val="True" />
+				<Anchor val="Left, Right" />
+				<label val="기사단이름" />
+				<OutlineColor val="#373030FF" />
+				<ShadowColor val="#000000" />
+				<color val="#FFE300FF" />
+				<halign val="1" />
+				<valign val="0" />
+				<FontName val="나눔고딕 ExtraBold" />
+				<FontSize val="26" />
+				<TextTrimming val="None" />
+				<style val="48" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+				<Padding val="0, 0, 0, 0" />
+				<FitToContent val="False" />
+			</child>
+			<child type="LABEL" name="txt_guild_message_0" subclass="">
+				<pos x="0" y="275" />
+				<rect l="0" t="0" r="1024" b="26" />
+				<Visible val="True" />
+				<Anchor val="Left, Right" />
+				<label val="앨리샤대박기원 기사단의 어쩌고 저쩌고.." />
+				<OutlineColor val="#3F3232FF" />
+				<ShadowColor val="#000000" />
+				<color val="#FFFFFF" />
+				<halign val="1" />
+				<valign val="1" />
+				<FontName val="나눔고딕 ExtraBold" />
+				<FontSize val="16" />
+				<TextTrimming val="None" />
+				<style val="48" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+				<Padding val="0, 0, 0, 0" />
+				<FitToContent val="False" />
+			</child>
+			<child type="PICTURE" name="img_esc_unselect" subclass="">
+				<asset type="STATIC">img_esc_unselect.png</asset>
+				<pos x="437" y="209" />
+				<rect l="0" t="0" r="70" b="57" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+				<child type="PICTURE" name="bg_line" subclass="">
+					<asset type="STATIC">bg_select_horse2.png</asset>
+					<pos x="-67" y="9" />
+					<rect l="0" t="0" r="294" b="31" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+				</child>
+				<child type="LABEL" name="Label" subclass="">
+					<pos x="59" y="21" />
+					<rect l="0" t="0" r="82" b="19" />
+					<Visible val="True" />
+					<Anchor val="Top, Left" />
+					<label val="재도전 신청" />
+					<OutlineColor val="#FFFFFF" />
+					<ShadowColor val="#0000004C" />
+					<color val="#FFFFFFFF" />
+					<halign val="0" />
+					<valign val="0" />
+					<FontName val="나눔고딕" />
+					<FontSize val="13" />
+					<TextTrimming val="None" />
+					<style val="1" />
+					<IsHitTestVisible val="False" />
+					<ClipChildren val="False" />
+					<Padding val="0, 0, 0, 0" />
+					<FitToContent val="False" />
+				</child>
+			</child>
+		</base>
+	</base>
+</refresh>

@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="_Opening_">
+    <asset type="UI" name="asset_focusbox">
+      <rect l="0" t="0" r="477" b="70" />
+    </asset>
+    <asset type="UI" name="asset_slide">
+      <rect l="0" t="0" r="193" b="70" />
+    </asset>
+    <object name="focusbox" ani="ani_focusbox">
+      <asset type="UI" link="asset_focusbox" />
+    </object>
+    <object name="slide" ani="ani_slide">
+      <asset type="UI" link="asset_slide" />
+    </object>
+    <param type="RES" x="477" y="70" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_focusbox">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="467">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_slide">
+      <frame cnt="0">
+        <posx val="1.0125786163522" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="467">
+        <posx val="0.593291404612159" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Closing_">
+    <asset type="UI" name="asset_focusbox">
+      <rect l="0" t="0" r="477" b="70" />
+    </asset>
+    <asset type="UI" name="asset_slide">
+      <rect l="0" t="0" r="193" b="70" />
+    </asset>
+    <object name="focusbox" ani="ani_focusbox">
+      <asset type="UI" link="asset_focusbox" />
+    </object>
+    <object name="slide" ani="ani_slide">
+      <asset type="UI" link="asset_slide" />
+    </object>
+    <param type="RES" x="477" y="70" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_focusbox">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="467">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_slide">
+      <frame cnt="0">
+        <posx val="0.593291404612159" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="467">
+        <posx val="1.0125786163522" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

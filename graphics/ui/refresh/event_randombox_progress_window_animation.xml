@@ -1,0 +1,626 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="_step2_start_">
+    <asset type="UI" name="asset_Wnd1">
+      <rect l="0" t="0" r="843" b="323" />
+    </asset>
+    <asset type="UI" name="asset_step_1">
+      <rect l="0" t="0" r="841" b="322" />
+    </asset>
+    <asset type="UI" name="asset_img_event_effect_0">
+      <rect l="0" t="0" r="564" b="564" />
+    </asset>
+    <asset type="UI" name="asset_img_randombox_effect">
+      <rect l="0" t="0" r="325" b="283" />
+    </asset>
+    <asset type="UI" name="asset_img_randombox_0">
+      <rect l="0" t="0" r="325" b="283" />
+    </asset>
+    <asset type="UI" name="asset_img_randombox_1">
+      <rect l="0" t="0" r="325" b="283" />
+    </asset>
+    <asset type="UI" name="asset_Panel">
+      <rect l="0" t="0" r="317" b="68" />
+    </asset>
+    <asset type="UI" name="asset_step_2">
+      <rect l="0" t="0" r="841" b="322" />
+    </asset>
+    <asset type="UI" name="asset_event_result_frame_effect">
+      <rect l="0" t="0" r="142" b="148" />
+    </asset>
+    <asset type="UI" name="asset_event_item">
+      <rect l="0" t="0" r="71" b="71" />
+    </asset>
+    <asset type="UI" name="asset_Label2">
+      <rect l="0" t="0" r="328" b="22" />
+    </asset>
+    <asset type="UI" name="asset_btn_ok1">
+      <rect l="0" t="0" r="142" b="33" />
+    </asset>
+    <object name="Wnd1" ani="ani_Wnd1">
+      <asset type="UI" link="asset_Wnd1" />
+    </object>
+    <object name="step_1" ani="ani_step_1">
+      <asset type="UI" link="asset_step_1" />
+    </object>
+    <object name="img_event_effect_0" ani="ani_img_event_effect_0">
+      <asset type="UI" link="asset_img_event_effect_0" />
+    </object>
+    <object name="img_randombox_effect" ani="ani_img_randombox_effect">
+      <asset type="UI" link="asset_img_randombox_effect" />
+    </object>
+    <object name="img_randombox_0" ani="ani_img_randombox_0">
+      <asset type="UI" link="asset_img_randombox_0" />
+    </object>
+    <object name="img_randombox_1" ani="ani_img_randombox_1">
+      <asset type="UI" link="asset_img_randombox_1" />
+    </object>
+    <object name="Panel" ani="ani_Panel">
+      <asset type="UI" link="asset_Panel" />
+    </object>
+    <object name="step_2" ani="ani_step_2">
+      <asset type="UI" link="asset_step_2" />
+    </object>
+    <object name="event_result_frame_effect" ani="ani_event_result_frame_effect">
+      <asset type="UI" link="asset_event_result_frame_effect" />
+    </object>
+    <object name="event_item" ani="ani_event_item">
+      <asset type="UI" link="asset_event_item" />
+    </object>
+    <object name="Label2" ani="ani_Label2">
+      <asset type="UI" link="asset_Label2" />
+    </object>
+    <object name="btn_ok1" ani="ani_btn_ok1">
+      <asset type="UI" link="asset_btn_ok1" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_Wnd1">
+      <frame cnt="2967">
+        <posx val="0.08789063" />
+        <posy val="0.2903646" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <sound val="ui_popup_item" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_step_1">
+      <frame cnt="0">
+        <posx val="0.0009765625" />
+        <posy val="-0.03255208" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <sound val="ranch_happy_st" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2067">
+        <posx val="0.0009765625" />
+        <posy val="-0.03255208" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <sound val="ui_mating_foal_stat" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2633">
+        <posx val="0.0009765625" />
+        <posy val="-0.03255208" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_event_effect_0">
+      <frame cnt="0">
+        <posx val="0.1416016" />
+        <posy val="-0.1354167" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_randombox_effect">
+      <frame cnt="0">
+        <posx val="0.2529297" />
+        <posy val="0.02994792" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_randombox_0">
+      <frame cnt="0">
+        <posx val="0.2529297" />
+        <posy val="0.02994792" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_randombox_1">
+      <frame cnt="0">
+        <posx val="0.2529297" />
+        <posy val="0.02994792" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_Panel">
+      <frame cnt="0">
+        <posx val="0.2548828" />
+        <posy val="0.3046875" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0.2548828125" />
+        <posy val="0.3046875" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="967">
+        <posx val="0.2548828125" />
+        <posy val="0.32421875" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_step_2">
+      <frame cnt="0">
+        <posx val="-0.0009765625" />
+        <posy val="0.00130208333333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2967">
+        <posx val="-0.0009765625" />
+        <posy val="-0.0247395833333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="3500">
+        <posx val="-0.0009765625" />
+        <posy val="-0.04296875" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_event_result_frame_effect">
+      <frame cnt="567">
+        <posx val="0.3388671875" />
+        <posy val="0.102864583333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1067">
+        <posx val="0.376953125" />
+        <posy val="0.154947916666667" />
+        <scalex val="0.373239436619718" />
+        <scaley val="0.371621621621622" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1500">
+        <posx val="0.3388671875" />
+        <posy val="0.102864583333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_event_item">
+      <frame cnt="567">
+        <posx val="0.3740234" />
+        <posy val="0.1523438" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1400">
+        <posx val="0.3740234" />
+        <posy val="0.1523438" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1733">
+        <posx val="0.3740234" />
+        <posy val="0.1523438" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_Label2">
+      <frame cnt="567">
+        <posx val="0.25" />
+        <posy val="0.2799479" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.24" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1700">
+        <posx val="0.25" />
+        <posy val="0.2799479" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2033">
+        <posx val="0.25" />
+        <posy val="0.2799479" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_btn_ok1">
+      <frame cnt="0">
+        <posx val="0.3388672" />
+        <posy val="0.3177083" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2333">
+        <posx val="0.3388672" />
+        <posy val="0.3177083" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2500">
+        <posx val="0.3388672" />
+        <posy val="0.3177083" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Closing_">
+    <asset type="UI" name="asset_Wnd1">
+      <rect l="0" t="0" r="843" b="323" />
+    </asset>
+    <asset type="UI" name="asset_step_1">
+      <rect l="0" t="0" r="841" b="322" />
+    </asset>
+    <asset type="UI" name="asset_randombox_frame">
+      <rect l="0" t="0" r="401" b="231" />
+    </asset>
+    <object name="Wnd1" ani="ani_Wnd1">
+      <asset type="UI" link="asset_Wnd1" />
+    </object>
+    <object name="step_1" ani="ani_step_1">
+      <asset type="UI" link="asset_step_1" />
+    </object>
+    <object name="randombox_frame" ani="ani_randombox_frame">
+      <asset type="UI" link="asset_randombox_frame" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_Wnd1">
+      <frame cnt="0">
+        <posx val="0.087890625" />
+        <posy val="0.290364583333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="533">
+        <posx val="0.087890625" />
+        <posy val="0.303385416666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_step_1">
+      <frame cnt="0">
+        <posx val="0.0009765625" />
+        <posy val="-0.03255208" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_randombox_frame">
+      <frame cnt="0">
+        <posx val="0.2138672" />
+        <posy val="0.0859375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Opening_">
+    <asset type="UI" name="asset_StackPanel">
+      <rect l="0" t="0" r="1024" b="768" />
+    </asset>
+    <asset type="UI" name="asset_img_event_effect_0">
+      <rect l="0" t="0" r="564" b="564" />
+    </asset>
+    <asset type="UI" name="asset_img_randombox_effect">
+      <rect l="0" t="0" r="325" b="283" />
+    </asset>
+    <asset type="UI" name="asset_img_randombox_1">
+      <rect l="0" t="0" r="325" b="283" />
+    </asset>
+    <asset type="UI" name="asset_Panel">
+      <rect l="0" t="0" r="317" b="68" />
+    </asset>
+    <asset type="UI" name="asset_step_2">
+      <rect l="0" t="0" r="841" b="322" />
+    </asset>
+    <object name="StackPanel" ani="ani_StackPanel">
+      <asset type="UI" link="asset_StackPanel" />
+    </object>
+    <object name="img_event_effect_0" ani="ani_img_event_effect_0">
+      <asset type="UI" link="asset_img_event_effect_0" />
+    </object>
+    <object name="img_randombox_effect" ani="ani_img_randombox_effect">
+      <asset type="UI" link="asset_img_randombox_effect" />
+    </object>
+    <object name="img_randombox_1" ani="ani_img_randombox_1">
+      <asset type="UI" link="asset_img_randombox_1" />
+    </object>
+    <object name="Panel" ani="ani_Panel">
+      <asset type="UI" link="asset_Panel" />
+    </object>
+    <object name="step_2" ani="ani_step_2">
+      <asset type="UI" link="asset_step_2" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_StackPanel">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="400">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_event_effect_0">
+      <frame cnt="0">
+        <posx val="0.1416016" />
+        <posy val="-0.1354167" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_randombox_effect">
+      <frame cnt="0">
+        <posx val="0.2529297" />
+        <posy val="0.02994792" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_randombox_1">
+      <frame cnt="0">
+        <posx val="0.2529297" />
+        <posy val="0.02994792" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_Panel">
+      <frame cnt="0">
+        <posx val="0.2548828" />
+        <posy val="0.3046875" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="300">
+        <posx val="0.2548828125" />
+        <posy val="0.317708333333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="567">
+        <posx val="0.2548828125" />
+        <posy val="0.30078125" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="667">
+        <posx val="0.2548828125" />
+        <posy val="0.3046875" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_step_2">
+      <frame cnt="0">
+        <posx val="-0.0009765625" />
+        <posy val="-0.04296875" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

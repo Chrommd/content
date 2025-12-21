@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <base type="WND" name="ranch_address">
+    <Visible val="True" />
+    <Anchor val="Top, Left" />
+    <pos x="5" y="5" />
+    <rect l="0" t="0" r="181" b="104" />
+    <child type="PICTURE" name="img_visitor">
+      <asset type="STATIC">ranch_visitor.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="3" y="52" />
+      <rect l="0" t="0" r="176" b="52" />
+      <center x="0" y="0" />
+    </child>
+    <child type="PICTURE" name="img_add">
+      <asset type="STATIC">ranch_add.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="181" b="57" />
+      <center x="0" y="0" />
+    </child>
+    <child type="LABEL" name="txt_total">
+      <label val="" />
+      <pos x="58" y="76" />
+      <rect l="0" t="0" r="109" b="18" />
+      <Visible val="True" />
+      <Anchor val="None" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#000000" />
+      <color val="#FFFFFF" />
+      <FontName val="나눔고딕" />
+      <halign val="2" />
+      <valign val="0" />
+      <fontname val="2=NtreevSoft" />
+      <fontsize val="13" />
+    </child>
+    <child type="LABEL" name="txt_today">
+      <label val="" />
+      <pos x="58" y="58" />
+      <rect l="0" t="0" r="109" b="18" />
+      <Visible val="True" />
+      <Anchor val="None" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#000000" />
+      <color val="#FFFFFF" />
+      <FontName val="나눔고딕" />
+      <halign val="2" />
+      <valign val="0" />
+      <fontname val="2=NtreevSoft" />
+      <fontsize val="13" />
+    </child>
+    <child type="LABEL" name="txt_add">
+      <label val="" />
+      <pos x="32" y="27" />
+      <rect l="0" t="0" r="138" b="16" />
+      <Visible val="True" />
+      <Anchor val="None" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#000000" />
+      <color val="#FFFFFF" />
+      <FontName val="나눔고딕" />
+      <halign val="0" />
+      <valign val="0" />
+      <fontname val="2=NtreevSoft" />
+      <fontsize val="13" />
+    </child>
+    <child type="LABEL" name="txt_nickname">
+      <label val="" />
+      <pos x="32" y="10" />
+      <rect l="0" t="0" r="136" b="19" />
+      <Visible val="True" />
+      <Anchor val="None" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#000000" />
+      <color val="#FFFFFF" />
+      <style val="1" />
+      <halign val="0" />
+      <valign val="0" />
+      <fontname val="2=NtreevSoft" />
+      <fontsize val="16" />
+    </child>
+  </base>
+</refresh>

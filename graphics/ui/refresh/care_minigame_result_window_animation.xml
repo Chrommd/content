@@ -1,0 +1,1851 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="failed">
+    <asset type="UI" name="asset_bg_care_play_result">
+      <rect l="0" t="0" r="1024" b="174" />
+    </asset>
+    <asset type="UI" name="asset_bg_care_play_result_inner">
+      <rect l="0" t="0" r="375" b="55" />
+    </asset>
+    <asset type="UI" name="asset_txt_play_comment">
+      <rect l="0" t="0" r="470" b="23" />
+    </asset>
+    <asset type="UI" name="asset_care_play_perfect">
+      <rect l="0" t="0" r="453" b="85" />
+    </asset>
+    <asset type="UI" name="asset_care_play_perfect1">
+      <rect l="0" t="0" r="453" b="85" />
+    </asset>
+    <asset type="UI" name="asset_care_play_good">
+      <rect l="0" t="0" r="396" b="85" />
+    </asset>
+    <asset type="UI" name="asset_care_play_failed">
+      <rect l="0" t="0" r="447" b="85" />
+    </asset>
+    <asset type="UI" name="asset_tx_care_play_critical">
+      <rect l="0" t="0" r="154" b="54" />
+    </asset>
+    <object name="bg_care_play_result" ani="ani_bg_care_play_result">
+      <asset type="UI" link="asset_bg_care_play_result" />
+    </object>
+    <object name="bg_care_play_result_inner" ani="ani_bg_care_play_result_inner">
+      <asset type="UI" link="asset_bg_care_play_result_inner" />
+    </object>
+    <object name="txt_play_comment" ani="ani_txt_play_comment">
+      <asset type="UI" link="asset_txt_play_comment" />
+    </object>
+    <object name="care_play_perfect" ani="ani_care_play_perfect">
+      <asset type="UI" link="asset_care_play_perfect" />
+    </object>
+    <object name="care_play_perfect1" ani="ani_care_play_perfect1">
+      <asset type="UI" link="asset_care_play_perfect1" />
+    </object>
+    <object name="care_play_good" ani="ani_care_play_good">
+      <asset type="UI" link="asset_care_play_good" />
+    </object>
+    <object name="care_play_failed" ani="ani_care_play_failed">
+      <asset type="UI" link="asset_care_play_failed" />
+    </object>
+    <object name="tx_care_play_critical" ani="ani_tx_care_play_critical">
+      <asset type="UI" link="asset_tx_care_play_critical" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_bg_care_play_result">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.286458333333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0" easeValue="0.0,1.0,1.0,1.0" />
+        <posy val="0.260416666666667" easeValue="0.0,1.0,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,1.0,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2767">
+        <posx val="0" />
+        <posy val="0.260416666666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="3000">
+        <posx val="0" />
+        <posy val="0.286458333333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_bg_care_play_result_inner">
+      <frame cnt="0">
+        <posx val="0.3164063" />
+        <posy val="0.4166667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.3164063" />
+        <posy val="0.4166667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0.3164063" />
+        <posy val="0.4166667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2767">
+        <posx val="0.3164063" />
+        <posy val="0.4166667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="3000">
+        <posx val="0.3164063" />
+        <posy val="0.4166667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_txt_play_comment">
+      <frame cnt="0">
+        <posx val="0.26953125" />
+        <posy val="0.43359375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.26953125" />
+        <posy val="0.43359375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0.26953125" />
+        <posy val="0.427083333333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2767">
+        <posx val="0.2695313" />
+        <posy val="0.4270833" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="3000">
+        <posx val="0.2695313" />
+        <posy val="0.4270833" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_care_play_perfect">
+      <frame cnt="0">
+        <posx val="0.2734375" />
+        <posy val="0.2942708" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_care_play_perfect1">
+      <frame cnt="0">
+        <posx val="0.2734375" />
+        <posy val="0.2942708" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_care_play_good">
+      <frame cnt="0">
+        <posx val="0.2988281" />
+        <posy val="0.2942708" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_care_play_failed">
+      <frame cnt="0">
+        <posx val="0.283203125" />
+        <posy val="0.299479166666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="133">
+        <posx val="0.283203125" />
+        <posy val="0.299479166666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <sound val="ui_event_play_result" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0.283203125" easeValue="0.0,0.7,1.0,1.0" />
+        <posy val="0.319010416666667" easeValue="0.0,0.7,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,0.7,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <sound val="ranch_crowd_fail_st" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2767">
+        <posx val="0.283203125" />
+        <posy val="0.319010416666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="3000">
+        <posx val="0.283203125" />
+        <posy val="0.338541666666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_tx_care_play_critical">
+      <frame cnt="0">
+        <posx val="0.2412109" />
+        <posy val="0.2304688" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="good">
+    <asset type="UI" name="asset_bg_care_play_result">
+      <rect l="0" t="0" r="1024" b="174" />
+    </asset>
+    <asset type="UI" name="asset_bg_care_play_result_inner">
+      <rect l="0" t="0" r="375" b="55" />
+    </asset>
+    <asset type="UI" name="asset_txt_play_comment">
+      <rect l="0" t="0" r="470" b="23" />
+    </asset>
+    <asset type="UI" name="asset_care_play_perfect">
+      <rect l="0" t="0" r="453" b="85" />
+    </asset>
+    <asset type="UI" name="asset_care_play_perfect1">
+      <rect l="0" t="0" r="453" b="85" />
+    </asset>
+    <asset type="UI" name="asset_care_play_good">
+      <rect l="0" t="0" r="396" b="85" />
+    </asset>
+    <asset type="UI" name="asset_care_play_failed">
+      <rect l="0" t="0" r="447" b="85" />
+    </asset>
+    <asset type="UI" name="asset_tx_care_play_critical">
+      <rect l="0" t="0" r="154" b="54" />
+    </asset>
+    <object name="bg_care_play_result" ani="ani_bg_care_play_result">
+      <asset type="UI" link="asset_bg_care_play_result" />
+    </object>
+    <object name="bg_care_play_result_inner" ani="ani_bg_care_play_result_inner">
+      <asset type="UI" link="asset_bg_care_play_result_inner" />
+    </object>
+    <object name="txt_play_comment" ani="ani_txt_play_comment">
+      <asset type="UI" link="asset_txt_play_comment" />
+    </object>
+    <object name="care_play_perfect" ani="ani_care_play_perfect">
+      <asset type="UI" link="asset_care_play_perfect" />
+    </object>
+    <object name="care_play_perfect1" ani="ani_care_play_perfect1">
+      <asset type="UI" link="asset_care_play_perfect1" />
+    </object>
+    <object name="care_play_good" ani="ani_care_play_good">
+      <asset type="UI" link="asset_care_play_good" />
+    </object>
+    <object name="care_play_failed" ani="ani_care_play_failed">
+      <asset type="UI" link="asset_care_play_failed" />
+    </object>
+    <object name="tx_care_play_critical" ani="ani_tx_care_play_critical">
+      <asset type="UI" link="asset_tx_care_play_critical" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_bg_care_play_result">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.286458333333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0" easeValue="0.0,1.0,1.0,1.0" />
+        <posy val="0.260416666666667" easeValue="0.0,1.0,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,1.0,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2767">
+        <posx val="0" />
+        <posy val="0.260416666666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="3000">
+        <posx val="0" />
+        <posy val="0.286458333333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_bg_care_play_result_inner">
+      <frame cnt="0">
+        <posx val="0.3164063" />
+        <posy val="0.4166667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.3164063" />
+        <posy val="0.4166667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0.3164063" />
+        <posy val="0.4166667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2767">
+        <posx val="0.3164063" />
+        <posy val="0.4166667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="3000">
+        <posx val="0.3164063" />
+        <posy val="0.4166667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_txt_play_comment">
+      <frame cnt="0">
+        <posx val="0.26953125" />
+        <posy val="0.43359375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.26953125" />
+        <posy val="0.43359375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0.26953125" />
+        <posy val="0.427083333333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2767">
+        <posx val="0.2695313" />
+        <posy val="0.4270833" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="3000">
+        <posx val="0.2695313" />
+        <posy val="0.4270833" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_care_play_perfect">
+      <frame cnt="0">
+        <posx val="0.2734375" />
+        <posy val="0.2942708" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_care_play_perfect1">
+      <frame cnt="0">
+        <posx val="0.2734375" />
+        <posy val="0.2942708" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_care_play_good">
+      <frame cnt="0">
+        <posx val="0.298828125" />
+        <posy val="0.299479166666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="133">
+        <posx val="0.298828125" />
+        <posy val="0.299479166666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <sound val="ui_event_play_result" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0.298828125" easeValue="0.0,0.7,1.0,1.0" />
+        <posy val="0.319010416666667" easeValue="0.0,0.7,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,0.7,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <sound val="ranch_crowd_good_st" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2767">
+        <posx val="0.298828125" />
+        <posy val="0.319010416666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="3000">
+        <posx val="0.298828125" />
+        <posy val="0.338541666666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_care_play_failed">
+      <frame cnt="0">
+        <posx val="0.2695313" />
+        <posy val="0.2942708" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_tx_care_play_critical">
+      <frame cnt="0">
+        <posx val="0.2412109" />
+        <posy val="0.2304688" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="perfect">
+    <asset type="UI" name="asset_bg_care_play_result">
+      <rect l="0" t="0" r="1024" b="174" />
+    </asset>
+    <asset type="UI" name="asset_bg_care_play_result_inner">
+      <rect l="0" t="0" r="375" b="55" />
+    </asset>
+    <asset type="UI" name="asset_txt_play_comment">
+      <rect l="0" t="0" r="470" b="23" />
+    </asset>
+    <asset type="UI" name="asset_care_play_perfect">
+      <rect l="0" t="0" r="453" b="85" />
+    </asset>
+    <asset type="UI" name="asset_care_play_perfect1">
+      <rect l="0" t="0" r="453" b="85" />
+    </asset>
+    <asset type="UI" name="asset_care_play_good">
+      <rect l="0" t="0" r="396" b="85" />
+    </asset>
+    <asset type="UI" name="asset_care_play_failed">
+      <rect l="0" t="0" r="447" b="85" />
+    </asset>
+    <asset type="UI" name="asset_tx_care_play_critical">
+      <rect l="0" t="0" r="154" b="54" />
+    </asset>
+    <object name="bg_care_play_result" ani="ani_bg_care_play_result">
+      <asset type="UI" link="asset_bg_care_play_result" />
+    </object>
+    <object name="bg_care_play_result_inner" ani="ani_bg_care_play_result_inner">
+      <asset type="UI" link="asset_bg_care_play_result_inner" />
+    </object>
+    <object name="txt_play_comment" ani="ani_txt_play_comment">
+      <asset type="UI" link="asset_txt_play_comment" />
+    </object>
+    <object name="care_play_perfect" ani="ani_care_play_perfect">
+      <asset type="UI" link="asset_care_play_perfect" />
+    </object>
+    <object name="care_play_perfect1" ani="ani_care_play_perfect1">
+      <asset type="UI" link="asset_care_play_perfect1" />
+    </object>
+    <object name="care_play_good" ani="ani_care_play_good">
+      <asset type="UI" link="asset_care_play_good" />
+    </object>
+    <object name="care_play_failed" ani="ani_care_play_failed">
+      <asset type="UI" link="asset_care_play_failed" />
+    </object>
+    <object name="tx_care_play_critical" ani="ani_tx_care_play_critical">
+      <asset type="UI" link="asset_tx_care_play_critical" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_bg_care_play_result">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.286458333333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0" easeValue="0.0,1.0,1.0,1.0" />
+        <posy val="0.260416666666667" easeValue="0.0,1.0,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,1.0,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2767">
+        <posx val="0" />
+        <posy val="0.260416666666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="3000">
+        <posx val="0" />
+        <posy val="0.286458333333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_bg_care_play_result_inner">
+      <frame cnt="0">
+        <posx val="0.3164063" />
+        <posy val="0.4166667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.3164063" />
+        <posy val="0.4166667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0.3164063" />
+        <posy val="0.4166667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2767">
+        <posx val="0.3164063" />
+        <posy val="0.4166667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="3000">
+        <posx val="0.3164063" />
+        <posy val="0.4166667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_txt_play_comment">
+      <frame cnt="0">
+        <posx val="0.26953125" />
+        <posy val="0.43359375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.26953125" />
+        <posy val="0.43359375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0.26953125" />
+        <posy val="0.427083333333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2767">
+        <posx val="0.2695313" />
+        <posy val="0.4270833" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="3000">
+        <posx val="0.2695313" />
+        <posy val="0.4270833" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_care_play_perfect">
+      <frame cnt="0">
+        <posx val="0.2734375" />
+        <posy val="0.319010416666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="133">
+        <posx val="0.2734375" />
+        <posy val="0.319010416666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <sound val="ui_event_play_result" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="300">
+        <posx val="0.2734375" />
+        <posy val="0.3190104" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.46" />
+        <rotate val="0" />
+        <visible val="1" />
+        <sound val="ranch_crowd_perfect_st" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0.2734375" />
+        <posy val="0.319010416666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2767">
+        <posx val="0.2734375" />
+        <posy val="0.319010416666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="3000">
+        <posx val="0.2734375" />
+        <posy val="0.338541666666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_care_play_perfect1">
+      <frame cnt="0">
+        <posx val="0.1611328125" />
+        <posy val="0.2890625" />
+        <scalex val="1.53200883002208" />
+        <scaley val="1.52941176470588" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="233">
+        <posx val="0.1611328125" />
+        <posy val="0.2890625" />
+        <scalex val="1.532009" />
+        <scaley val="1.529412" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="300">
+        <posx val="0.1611328125" />
+        <posy val="0.2890625" />
+        <scalex val="1.53200883002208" />
+        <scaley val="1.52941176470588" />
+        <alpha val="0.5" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0.2734375" />
+        <posy val="0.319010416666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_care_play_good">
+      <frame cnt="0">
+        <posx val="0.2988281" />
+        <posy val="0.2942708" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_care_play_failed">
+      <frame cnt="0">
+        <posx val="0.2695313" />
+        <posy val="0.2942708" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_tx_care_play_critical">
+      <frame cnt="0">
+        <posx val="0.2412109" />
+        <posy val="0.2304688" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="perfect_c">
+    <asset type="UI" name="asset_bg_care_play_result">
+      <rect l="0" t="0" r="1024" b="174" />
+    </asset>
+    <asset type="UI" name="asset_bg_care_play_result_inner">
+      <rect l="0" t="0" r="375" b="55" />
+    </asset>
+    <asset type="UI" name="asset_txt_play_comment">
+      <rect l="0" t="0" r="470" b="23" />
+    </asset>
+    <asset type="UI" name="asset_care_play_perfect">
+      <rect l="0" t="0" r="453" b="85" />
+    </asset>
+    <asset type="UI" name="asset_care_play_perfect1">
+      <rect l="0" t="0" r="453" b="85" />
+    </asset>
+    <asset type="UI" name="asset_care_play_good">
+      <rect l="0" t="0" r="396" b="85" />
+    </asset>
+    <asset type="UI" name="asset_care_play_failed">
+      <rect l="0" t="0" r="447" b="85" />
+    </asset>
+    <asset type="UI" name="asset_tx_care_play_critical">
+      <rect l="0" t="0" r="154" b="54" />
+    </asset>
+    <object name="bg_care_play_result" ani="ani_bg_care_play_result">
+      <asset type="UI" link="asset_bg_care_play_result" />
+    </object>
+    <object name="bg_care_play_result_inner" ani="ani_bg_care_play_result_inner">
+      <asset type="UI" link="asset_bg_care_play_result_inner" />
+    </object>
+    <object name="txt_play_comment" ani="ani_txt_play_comment">
+      <asset type="UI" link="asset_txt_play_comment" />
+    </object>
+    <object name="care_play_perfect" ani="ani_care_play_perfect">
+      <asset type="UI" link="asset_care_play_perfect" />
+    </object>
+    <object name="care_play_perfect1" ani="ani_care_play_perfect1">
+      <asset type="UI" link="asset_care_play_perfect1" />
+    </object>
+    <object name="care_play_good" ani="ani_care_play_good">
+      <asset type="UI" link="asset_care_play_good" />
+    </object>
+    <object name="care_play_failed" ani="ani_care_play_failed">
+      <asset type="UI" link="asset_care_play_failed" />
+    </object>
+    <object name="tx_care_play_critical" ani="ani_tx_care_play_critical">
+      <asset type="UI" link="asset_tx_care_play_critical" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_bg_care_play_result">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.286458333333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0" easeValue="0.0,1.0,1.0,1.0" />
+        <posy val="0.260416666666667" easeValue="0.0,1.0,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,1.0,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2767">
+        <posx val="0" />
+        <posy val="0.260416666666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="3000">
+        <posx val="0" />
+        <posy val="0.286458333333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_bg_care_play_result_inner">
+      <frame cnt="0">
+        <posx val="0.3164063" />
+        <posy val="0.4166667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.3164063" />
+        <posy val="0.4166667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0.3164063" />
+        <posy val="0.4166667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2767">
+        <posx val="0.3164063" />
+        <posy val="0.4166667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="3000">
+        <posx val="0.3164063" />
+        <posy val="0.4166667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_txt_play_comment">
+      <frame cnt="0">
+        <posx val="0.26953125" />
+        <posy val="0.43359375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.26953125" />
+        <posy val="0.43359375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0.26953125" />
+        <posy val="0.427083333333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2767">
+        <posx val="0.2695313" />
+        <posy val="0.4270833" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="3000">
+        <posx val="0.2695313" />
+        <posy val="0.4270833" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_care_play_perfect">
+      <frame cnt="0">
+        <posx val="0.2734375" />
+        <posy val="0.294270833333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="133">
+        <posx val="0.2734375" />
+        <posy val="0.294270833333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <sound val="ui_event_play_result" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="400">
+        <posx val="0.2734375" />
+        <posy val="0.2942708" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.73" />
+        <rotate val="0" />
+        <visible val="1" />
+        <sound val="ranch_crowd_perfect_st" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0.2734375" />
+        <posy val="0.294270833333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <sound val="gui_magic_critical_st" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2767">
+        <posx val="0.2734375" />
+        <posy val="0.294270833333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="3000">
+        <posx val="0.2734375" />
+        <posy val="0.309895833333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_care_play_perfect1">
+      <frame cnt="0">
+        <posx val="0.1611328125" />
+        <posy val="0.264322916666667" />
+        <scalex val="1.53200883002208" />
+        <scaley val="1.52941176470588" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="233">
+        <posx val="0.1611328125" />
+        <posy val="0.264322916666667" />
+        <scalex val="1.532009" />
+        <scaley val="1.529412" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="300">
+        <posx val="0.1611328125" />
+        <posy val="0.264322916666667" />
+        <scalex val="1.53200883002208" />
+        <scaley val="1.52941176470588" />
+        <alpha val="0.5" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0.2734375" />
+        <posy val="0.294270833333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_care_play_good">
+      <frame cnt="0">
+        <posx val="0.2988281" />
+        <posy val="0.2942708" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_care_play_failed">
+      <frame cnt="0">
+        <posx val="0.2695313" />
+        <posy val="0.2942708" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_tx_care_play_critical">
+      <frame cnt="0">
+        <posx val="0.20703125" />
+        <posy val="0.213541666666667" />
+        <scalex val="1.45454545454545" />
+        <scaley val="1.48148148148148" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="400">
+        <posx val="0.20703125" />
+        <posy val="0.209635416666667" />
+        <scalex val="1.45454545454545" />
+        <scaley val="1.48148148148148" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0.2412109375" />
+        <posy val="0.23046875" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="533">
+        <posx val="0.216796875" />
+        <posy val="0.216145833333333" />
+        <scalex val="1.32467532467532" />
+        <scaley val="1.33333333333333" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="633">
+        <posx val="0.2412109375" />
+        <posy val="0.23046875" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2767">
+        <posx val="0.2412109" />
+        <posy val="0.2304688" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="3000">
+        <posx val="0.2412109" />
+        <posy val="0.2304688" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="good_c">
+    <asset type="UI" name="asset_bg_care_play_result">
+      <rect l="0" t="0" r="1024" b="174" />
+    </asset>
+    <asset type="UI" name="asset_bg_care_play_result_inner">
+      <rect l="0" t="0" r="375" b="55" />
+    </asset>
+    <asset type="UI" name="asset_txt_play_comment">
+      <rect l="0" t="0" r="470" b="23" />
+    </asset>
+    <asset type="UI" name="asset_care_play_perfect">
+      <rect l="0" t="0" r="453" b="85" />
+    </asset>
+    <asset type="UI" name="asset_care_play_perfect1">
+      <rect l="0" t="0" r="453" b="85" />
+    </asset>
+    <asset type="UI" name="asset_care_play_good">
+      <rect l="0" t="0" r="396" b="85" />
+    </asset>
+    <asset type="UI" name="asset_care_play_failed">
+      <rect l="0" t="0" r="447" b="85" />
+    </asset>
+    <asset type="UI" name="asset_tx_care_play_critical">
+      <rect l="0" t="0" r="154" b="54" />
+    </asset>
+    <object name="bg_care_play_result" ani="ani_bg_care_play_result">
+      <asset type="UI" link="asset_bg_care_play_result" />
+    </object>
+    <object name="bg_care_play_result_inner" ani="ani_bg_care_play_result_inner">
+      <asset type="UI" link="asset_bg_care_play_result_inner" />
+    </object>
+    <object name="txt_play_comment" ani="ani_txt_play_comment">
+      <asset type="UI" link="asset_txt_play_comment" />
+    </object>
+    <object name="care_play_perfect" ani="ani_care_play_perfect">
+      <asset type="UI" link="asset_care_play_perfect" />
+    </object>
+    <object name="care_play_perfect1" ani="ani_care_play_perfect1">
+      <asset type="UI" link="asset_care_play_perfect1" />
+    </object>
+    <object name="care_play_good" ani="ani_care_play_good">
+      <asset type="UI" link="asset_care_play_good" />
+    </object>
+    <object name="care_play_failed" ani="ani_care_play_failed">
+      <asset type="UI" link="asset_care_play_failed" />
+    </object>
+    <object name="tx_care_play_critical" ani="ani_tx_care_play_critical">
+      <asset type="UI" link="asset_tx_care_play_critical" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_bg_care_play_result">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.286458333333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0" easeValue="0.0,1.0,1.0,1.0" />
+        <posy val="0.260416666666667" easeValue="0.0,1.0,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,1.0,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2767">
+        <posx val="0" />
+        <posy val="0.260416666666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="3000">
+        <posx val="0" />
+        <posy val="0.286458333333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_bg_care_play_result_inner">
+      <frame cnt="0">
+        <posx val="0.3164063" />
+        <posy val="0.4166667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.3164063" />
+        <posy val="0.4166667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0.3164063" />
+        <posy val="0.4166667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2767">
+        <posx val="0.3164063" />
+        <posy val="0.4166667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="3000">
+        <posx val="0.3164063" />
+        <posy val="0.4166667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_txt_play_comment">
+      <frame cnt="0">
+        <posx val="0.26953125" />
+        <posy val="0.43359375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.26953125" />
+        <posy val="0.43359375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0.26953125" />
+        <posy val="0.427083333333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2767">
+        <posx val="0.2695313" />
+        <posy val="0.4270833" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="3000">
+        <posx val="0.2695313" />
+        <posy val="0.4270833" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_care_play_perfect">
+      <frame cnt="0">
+        <posx val="0.2734375" />
+        <posy val="0.2942708" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_care_play_perfect1">
+      <frame cnt="0">
+        <posx val="0.2734375" />
+        <posy val="0.2942708" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_care_play_good">
+      <frame cnt="0">
+        <posx val="0.298828125" />
+        <posy val="0.274739583333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="133">
+        <posx val="0.298828125" />
+        <posy val="0.274739583333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <sound val="ui_event_play_reslut" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="367">
+        <posx val="0.2988281" />
+        <posy val="0.2916667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.84" />
+        <rotate val="0" />
+        <visible val="1" />
+        <sound val="ui_crowd_good_st" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0.298828125" easeValue="0.0,0.7,1.0,1.0" />
+        <posy val="0.294270833333333" easeValue="0.0,0.7,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,0.7,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <sound val="gui_magic_critical_st" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2767">
+        <posx val="0.298828125" />
+        <posy val="0.294270833333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="3000">
+        <posx val="0.298828125" />
+        <posy val="0.309895833333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_care_play_failed">
+      <frame cnt="0">
+        <posx val="0.2695313" />
+        <posy val="0.2942708" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_tx_care_play_critical">
+      <frame cnt="0">
+        <posx val="0.24609375" />
+        <posy val="0.213541666666667" />
+        <scalex val="1.45454545454545" />
+        <scaley val="1.48148148148148" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="400">
+        <posx val="0.24609375" />
+        <posy val="0.209635416666667" />
+        <scalex val="1.45454545454545" />
+        <scaley val="1.48148148148148" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0.2802734375" />
+        <posy val="0.23046875" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="533">
+        <posx val="0.255859375" />
+        <posy val="0.216145833333333" />
+        <scalex val="1.32467532467532" />
+        <scaley val="1.33333333333333" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="633">
+        <posx val="0.2802734375" />
+        <posy val="0.23046875" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2767">
+        <posx val="0.2802734" />
+        <posy val="0.2304688" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="3000">
+        <posx val="0.2802734" />
+        <posy val="0.2304688" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

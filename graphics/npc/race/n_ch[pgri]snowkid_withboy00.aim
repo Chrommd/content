@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <event animation="">
+        <function>PlaySND($asset, "elem_throw_swish", "dummy_arm", "-var 2")</function>
+        <time>0.5750</time>
+        <freq>100</freq>
+    </event>
+    <event animation="">
+        <function>PlaySND($asset, "elem_throw_swish", "dummy_arm", "-var 2")</function>
+        <time>1.5375</time>
+        <freq>100</freq>
+    </event>
+    <event animation="">
+        <function>PlaySND($asset, "elem_throw_swish", "dummy_arm", "-var 2")</function>
+        <time>2.9708</time>
+        <freq>100</freq>
+    </event>
+    <event animation="">
+        <function>PlaySND($asset, "elem_snow_hit", "dummy_snow", "-var 2")</function>
+        <time>1.1000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="">
+        <function>PlaySND($asset, "elem_snow_hit", "dummy_snow", "-var 2")</function>
+        <time>2.0333</time>
+        <freq>100</freq>
+    </event>
+    <event animation="">
+        <function>PlaySND($asset, "npc_cheer_man_child_b", "dummy_head", "-var 3")</function>
+        <time>1.5250</time>
+        <freq>100</freq>
+    </event>
+    <event animation="">
+        <function>PlaySND($asset, "elem_snow_hit", "dummy_snow", "-var 2")</function>
+        <time>3.3333</time>
+        <freq>100</freq>
+    </event>
+    <dummy name="dummy_head" parent="Bip01 Head" sync="TRUE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.0000</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <dummy name="dummy_snow" parent="Bone_snowball01" sync="TRUE" extra="">
+        <rotationX>0.6797</rotationX>
+        <rotationY>0.4485</rotationY>
+        <rotationZ>-0.4501</rotationZ>
+        <rotationW>0.3665</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.0000</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <dummy name="dummy_arm" parent="Bip01 Spine" sync="TRUE" extra="">
+        <rotationX>0.5107</rotationX>
+        <rotationY>-0.0364</rotationY>
+        <rotationZ>-0.1835</rotationZ>
+        <rotationW>0.8391</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.0000</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <action category="" state="G_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000></main>
+    </action>
+</aim>

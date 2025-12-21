@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <event animation="_initialize_">
+        <function>PlayFX($asset, "ob_chim_smoke_001", "box_001", "")</function>
+        <time>0.0000</time>
+        <type>NORMAL</type>
+    </event>
+    <event animation="_initialize_">
+        <function>PlayFX($asset, "ob_chim_smoke_001", "box_002", "")</function>
+        <time>0.0000</time>
+        <type>NORMAL</type>
+    </event>
+    <event animation="_initialize_">
+        <function>PlayFX($asset, "ob_chim_smoke_001", "box_003", "")</function>
+        <time>0.0000</time>
+        <type>NORMAL</type>
+    </event>
+    <event animation="_initialize_">
+        <function>PlayFX($asset, "ob_chim_smoke_001", "box_004", "")</function>
+        <time>0.0000</time>
+        <type>NORMAL</type>
+    </event>
+    <dummy name="box_001" parent="ri_dorf_vhouse03_01" sync="FALSE">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>16.6071</offsetX>
+        <offsetY>21.9804</offsetY>
+        <offsetZ>0.1033</offsetZ>
+    </dummy>
+    <dummy name="box_002" parent="ri_dorf_vhouse03_01" sync="FALSE">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>6.4014</offsetX>
+        <offsetY>21.9937</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <dummy name="box_003" parent="ri_dorf_vhouse03_01" sync="FALSE">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>-6.4774</offsetX>
+        <offsetY>21.9256</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <dummy name="box_004" parent="ri_dorf_vhouse03_01" sync="FALSE">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>-16.7746</offsetX>
+        <offsetY>21.9880</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <action state="G_IDLE" loop="1" poskey="" rotkey="">
+        <main></main>
+    </action>
+</aim>

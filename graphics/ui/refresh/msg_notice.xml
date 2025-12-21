@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="msg_notice_Animation.xml" />
+  </properties>
+  <base type="WNDEX" subclass="" name="msg_notice">
+    <asset type="BG" path="" tileMode="Stretch">
+      <tex x="14" y="4" />
+      <rect l="14" t="14" r="114" b="35" />
+    </asset>
+    <asset type="EDGE_LT" path="" tileMode="Stretch">
+      <tex x="14" y="14" />
+      <rect l="0" t="0" r="14" b="14" />
+    </asset>
+    <asset type="EDGE_RT" path="" tileMode="Stretch">
+      <tex x="28" y="14" />
+      <rect l="0" t="0" r="28" b="14" />
+    </asset>
+    <asset type="EDGE_LB" path="" tileMode="Stretch">
+      <tex x="14" y="25" />
+      <rect l="0" t="0" r="14" b="25" />
+    </asset>
+    <asset type="EDGE_RB" path="" tileMode="Stretch">
+      <tex x="28" y="25" />
+      <rect l="0" t="0" r="28" b="25" />
+    </asset>
+    <asset type="FRAME_T" path="" tileMode="Stretch">
+      <tex x="14" y="14" />
+      <rect l="14" t="0" r="114" b="14" />
+    </asset>
+    <asset type="FRAME_B" path="" tileMode="Stretch">
+      <tex x="14" y="25" />
+      <rect l="14" t="0" r="114" b="25" />
+    </asset>
+    <asset type="FRAME_L" path="" tileMode="Stretch">
+      <tex x="14" y="4" />
+      <rect l="0" t="14" r="14" b="35" />
+    </asset>
+    <asset type="FRAME_R" path="" tileMode="Stretch">
+      <tex x="28" y="4" />
+      <rect l="0" t="14" r="28" b="35" />
+    </asset>
+    <Visible val="True" />
+    <Anchor val="None" />
+    <pos x="623" y="654" />
+    <rect l="0" t="0" r="156" b="74" />
+    <snd type="SHOW">
+    </snd>
+    <snd type="HIDE">
+    </snd>
+    <Dragable val="False" />
+    <StartPosition val="None" />
+    <EscKeyAction val="None" />
+    <IsHitTestVisible val="True" />
+    <ClipChildren val="False" />
+    <child type="PICTURE" name="btn_msg_notice_n" subclass="">
+      <asset type="STATIC">btn_msg_notice_n.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="156" b="74" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="TEXTAREA" name="txt_msg_notice" subclass="">
+      <asset type="BG" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="8" t="8" r="105" b="21" />
+      </asset>
+      <asset type="EDGE_LT" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_RT" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_LB" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_RB" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="FRAME_T" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="8" t="0" r="105" b="8" />
+      </asset>
+      <asset type="FRAME_B" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="8" t="0" r="105" b="8" />
+      </asset>
+      <asset type="FRAME_L" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="8" r="8" b="21" />
+      </asset>
+      <asset type="FRAME_R" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="8" r="8" b="21" />
+      </asset>
+      <asset type="CARET" path="">
+        <rpos x="0" y="0" />
+        <rect l="0" t="0" r="0" b="0" />
+      </asset>
+      <pos x="18" y="16" />
+      <rect l="0" t="0" r="121" b="37" />
+      <Visible val="True" />
+      <Anchor val="None" />
+      <Editable val="False" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#1D1001" />
+      <SelectionBrush val="#FF0000" />
+      <color val="#F5F5F5" />
+      <style val="32" />
+      <halign val="0" />
+      <padding l="3" t="0" r="2" b="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="13" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="ANIMBUTTON" name="btn_msg_notice" subclass="">
+      <asset type="GROUP">msg_notice_btn_msg_notice.xml</asset>
+      <asset type="NORMAL">
+      </asset>
+      <asset type="DOWN">
+      </asset>
+      <asset type="OVER">
+      </asset>
+      <asset type="DISABLE">
+      </asset>
+      <asset type="ENTER">
+      </asset>
+      <asset type="LEAVE">
+      </asset>
+      <snd type="OVER">
+      </snd>
+      <snd type="DOWN">ui_btn_menu_page</snd>
+      <snd type="RELEASE">
+      </snd>
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="156" b="74" />
+      <Visible val="True" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <Anchor val="Top, Left" />
+      <IsDefaultButton val="False" />
+    </child>
+  </base>
+</refresh>

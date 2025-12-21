@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+  </properties>
+  <base type="WNDEX" subclass="" name="WndEx">
+    <asset type="BG" path="" tileMode="Stretch">
+      <tex x="4" y="4" />
+      <rect l="15" t="18" r="543" b="-8" />
+    </asset>
+    <asset type="EDGE_LT" path="" tileMode="Stretch">
+      <tex x="15" y="18" />
+      <rect l="0" t="0" r="15" b="18" />
+    </asset>
+    <asset type="EDGE_RT" path="" tileMode="Stretch">
+      <tex x="20" y="18" />
+      <rect l="0" t="0" r="20" b="18" />
+    </asset>
+    <asset type="EDGE_LB" path="" tileMode="Stretch">
+      <tex x="15" y="40" />
+      <rect l="0" t="0" r="15" b="40" />
+    </asset>
+    <asset type="EDGE_RB" path="" tileMode="Stretch">
+      <tex x="20" y="40" />
+      <rect l="0" t="0" r="20" b="40" />
+    </asset>
+    <asset type="FRAME_T" path="" tileMode="Stretch">
+      <tex x="4" y="18" />
+      <rect l="15" t="0" r="543" b="18" />
+    </asset>
+    <asset type="FRAME_B" path="" tileMode="Stretch">
+      <tex x="4" y="40" />
+      <rect l="15" t="0" r="543" b="40" />
+    </asset>
+    <asset type="FRAME_L" path="" tileMode="Stretch">
+      <tex x="15" y="4" />
+      <rect l="0" t="18" r="15" b="-8" />
+    </asset>
+    <asset type="FRAME_R" path="" tileMode="Stretch">
+      <tex x="20" y="4" />
+      <rect l="0" t="18" r="20" b="-8" />
+    </asset>
+    <Visible val="True" />
+    <Anchor val="Top, Left" />
+    <pos x="218" y="213" />
+    <rect l="0" t="0" r="578" b="50" />
+    <snd type="SHOW">
+    </snd>
+    <snd type="HIDE">
+    </snd>
+    <Dragable val="False" />
+    <StartPosition val="None" />
+    <EscKeyAction val="None" />
+    <IsHitTestVisible val="True" />
+    <ClipChildren val="False" />
+    <child type="EDIT" name="edit" subclass="">
+      <asset type="BG" path="frm_list_control_04.png" tileMode="Stretch">
+        <tex x="4" y="4" />
+        <rect l="15" t="18" r="558" b="3" />
+      </asset>
+      <asset type="EDGE_LT" path="frm_list_control_00.png" tileMode="Stretch">
+        <tex x="15" y="18" />
+        <rect l="0" t="0" r="15" b="18" />
+      </asset>
+      <asset type="EDGE_RT" path="frm_list_control_02.png" tileMode="Stretch">
+        <tex x="20" y="18" />
+        <rect l="0" t="0" r="20" b="18" />
+      </asset>
+      <asset type="EDGE_LB" path="frm_list_control_06.png" tileMode="Stretch">
+        <tex x="15" y="40" />
+        <rect l="0" t="0" r="15" b="40" />
+      </asset>
+      <asset type="EDGE_RB" path="frm_list_control_08.png" tileMode="Stretch">
+        <tex x="20" y="40" />
+        <rect l="0" t="0" r="20" b="40" />
+      </asset>
+      <asset type="FRAME_T" path="frm_list_control_01.png" tileMode="Stretch">
+        <tex x="4" y="18" />
+        <rect l="15" t="0" r="558" b="18" />
+      </asset>
+      <asset type="FRAME_B" path="frm_list_control_07.png" tileMode="Stretch">
+        <tex x="4" y="40" />
+        <rect l="15" t="0" r="558" b="40" />
+      </asset>
+      <asset type="FRAME_L" path="frm_list_control_03.png" tileMode="Stretch">
+        <tex x="15" y="4" />
+        <rect l="0" t="18" r="15" b="3" />
+      </asset>
+      <asset type="FRAME_R" path="frm_list_control_05.png" tileMode="Stretch">
+        <tex x="20" y="4" />
+        <rect l="0" t="18" r="20" b="3" />
+      </asset>
+      <asset type="CARET" path="caret.png">
+        <rpos x="0" y="0" />
+        <rect l="0" t="0" r="2" b="15" />
+      </asset>
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <pos x="-11" y="-10" />
+      <rect l="0" t="0" r="593" b="61" />
+      <padding l="15" t="10" r="15" b="2" />
+      <passwordchar val="" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#FF0000" />
+      <SelectionBrush val="#FF0000" />
+      <color val="#F4FFFC" />
+      <style val="1" />
+      <halign val="0" />
+      <valign val="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="14" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+  </base>
+</refresh>

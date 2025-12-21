@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+  </properties>
+  <base type="WNDEX" subclass="" name="revenge_open">
+    <asset type="BG" path="frm_depth1_CenterMiddle.png" tileMode="Tile">
+      <tex x="40" y="40" />
+      <rect l="44" t="39" r="364" b="219" />
+    </asset>
+    <asset type="EDGE_LT" path="frm_depth1_LeftTop.png" tileMode="Stretch">
+      <tex x="44" y="39" />
+      <rect l="0" t="0" r="44" b="39" />
+    </asset>
+    <asset type="EDGE_RT" path="frm_depth1_RightTop.png" tileMode="Stretch">
+      <tex x="46" y="39" />
+      <rect l="0" t="0" r="46" b="39" />
+    </asset>
+    <asset type="EDGE_LB" path="frm_depth1_LeftBottom.png" tileMode="Stretch">
+      <tex x="44" y="38" />
+      <rect l="0" t="0" r="44" b="38" />
+    </asset>
+    <asset type="EDGE_RB" path="frm_depth1_RightBottom.png" tileMode="Stretch">
+      <tex x="46" y="38" />
+      <rect l="0" t="0" r="46" b="38" />
+    </asset>
+    <asset type="FRAME_T" path="frm_depth1_CenterTop.png" tileMode="Tile">
+      <tex x="40" y="39" />
+      <rect l="44" t="0" r="364" b="39" />
+    </asset>
+    <asset type="FRAME_B" path="frm_depth1_CenterBottom.png" tileMode="Tile">
+      <tex x="40" y="38" />
+      <rect l="44" t="0" r="364" b="38" />
+    </asset>
+    <asset type="FRAME_L" path="frm_depth1_LeftMiddle.png" tileMode="Tile">
+      <tex x="44" y="40" />
+      <rect l="0" t="39" r="44" b="219" />
+    </asset>
+    <asset type="FRAME_R" path="frm_depth1_RightMiddle.png" tileMode="Tile">
+      <tex x="46" y="40" />
+      <rect l="0" t="39" r="46" b="219" />
+    </asset>
+    <Visible val="True" />
+    <Anchor val="None" />
+    <pos x="285" y="212" />
+    <rect l="0" t="0" r="454" b="296" />
+    <Dragable val="False" />
+    <StartPosition val="CenterScreen" />
+    <EscKeyAction val="None" />
+    <IsHitTestVisible val="True" />
+    <ClipChildren val="False" />
+    <child type="PICTURE" name="bg_revenge_open" subclass="">
+      <asset type="STATIC">bg_care_open.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="42" y="50" />
+      <rect l="0" t="0" r="375" b="177" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <base type="WNDEX" subclass="" name="wndex_courselist_title1">
+      <asset type="BG" path="" tileMode="Stretch">
+        <tex x="4" y="4" />
+        <rect l="130" t="38" r="91" b="16" />
+      </asset>
+      <asset type="EDGE_LT" path="frm_depth1_titlebar_left.png" tileMode="Stretch">
+        <tex x="131" y="38" />
+        <rect l="0" t="0" r="130" b="38" />
+      </asset>
+      <asset type="EDGE_RT" path="frm_depth1_titlebar_right.png" tileMode="Stretch">
+        <tex x="130" y="38" />
+        <rect l="0" t="0" r="130" b="38" />
+      </asset>
+      <asset type="EDGE_LB" path="" tileMode="Stretch">
+        <tex x="5" y="5" />
+        <rect l="0" t="0" r="16" b="16" />
+      </asset>
+      <asset type="EDGE_RB" path="" tileMode="Stretch">
+        <tex x="5" y="5" />
+        <rect l="-114" t="0" r="16" b="16" />
+      </asset>
+      <asset type="FRAME_T" path="frm_depth1_titlebar_center.png" tileMode="Tile">
+        <tex x="31" y="32" />
+        <rect l="130" t="0" r="105" b="38" />
+      </asset>
+      <asset type="FRAME_B" path="" tileMode="Stretch">
+        <tex x="4" y="5" />
+        <rect l="130" t="0" r="91" b="16" />
+      </asset>
+      <asset type="FRAME_L" path="" tileMode="Stretch">
+        <tex x="5" y="4" />
+        <rect l="0" t="38" r="16" b="16" />
+      </asset>
+      <asset type="FRAME_R" path="" tileMode="Stretch">
+        <tex x="5" y="4" />
+        <rect l="-114" t="38" r="16" b="16" />
+      </asset>
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <pos x="43" y="4" />
+      <rect l="0" t="0" r="365" b="70" />
+      <Dragable val="False" />
+      <StartPosition val="None" />
+      <EscKeyAction val="None" />
+      <IsHitTestVisible val="False" />
+      <ClipChildren val="False" />
+      <child type="LABEL" name="lb_revenge_open_title" subclass="">
+        <label val="리벤지 시스템 열림" />
+        <pos x="19" y="10" />
+        <rect l="0" t="0" r="329" b="18" />
+        <Visible val="True" />
+        <Anchor val="Top, Bottom, Left, Right" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#000000FF" />
+        <color val="#FFFFFFFF" />
+        <halign val="1" />
+        <valign val="1" />
+        <FontName val="나눔고딕 ExtraBold" />
+        <FontSize val="16" />
+        <TextTrimming val="None" />
+        <style val="32" />
+        <IsHitTestVisible val="False" />
+        <ClipChildren val="False" />
+        <Padding val="0, 0, 0, 0" />
+      </child>
+    </base>
+    <child type="PANEL" name="panel_text_revenge" subclass="">
+      <Visible val="True" />
+      <Anchor val="None" />
+      <embed src="" />
+      <pos x="0" y="3" />
+      <rect l="0" t="0" r="454" b="286" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <child type="LABEL" name="lb_revenge_opentip5" subclass="">
+        <label val="* 복수의 기회는 흔치 않습니다. 놓치지 마세요!" />
+        <pos x="70" y="166" />
+        <rect l="0" t="0" r="247" b="17" />
+        <Visible val="True" />
+        <Anchor val="None" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#EFE4DD" />
+        <color val="#E18956" />
+        <halign val="0" />
+        <valign val="0" />
+        <FontName val="나눔고딕" />
+        <FontSize val="11" />
+        <TextTrimming val="None" />
+        <style val="1" />
+        <IsHitTestVisible val="False" />
+        <ClipChildren val="False" />
+        <Padding val="0, 0, 0, 0" />
+      </child>
+      <child type="LABEL" name="lb_revenge_opentip4" subclass="">
+        <label val="승리하여 멋지게 복수를 성공하세요." />
+        <pos x="73" y="129" />
+        <rect l="0" t="0" r="209" b="17" />
+        <Visible val="True" />
+        <Anchor val="None" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#D1BFB2" />
+        <color val="#5E361F" />
+        <halign val="0" />
+        <valign val="0" />
+        <FontName val="나눔고딕" />
+        <FontSize val="13" />
+        <TextTrimming val="None" />
+        <style val="1" />
+        <IsHitTestVisible val="False" />
+        <ClipChildren val="False" />
+        <Padding val="0, 0, 0, 0" />
+      </child>
+      <child type="LABEL" name="lb_revenge_opentip3" subclass="">
+        <label val="보여줍니다. 복수 상대에게 게임에서" />
+        <pos x="73" y="113" />
+        <rect l="0" t="0" r="209" b="17" />
+        <Visible val="True" />
+        <Anchor val="None" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#D1BFB2" />
+        <color val="#5E361F" />
+        <halign val="0" />
+        <valign val="0" />
+        <FontName val="나눔고딕" />
+        <FontSize val="13" />
+        <TextTrimming val="None" />
+        <style val="1" />
+        <IsHitTestVisible val="False" />
+        <ClipChildren val="False" />
+        <Padding val="0, 0, 0, 0" />
+      </child>
+      <child type="LABEL" name="lb_revenge_opentip2" subclass="">
+        <label val="최근 나에게 가장 큰 피해를 준 상대를" />
+        <pos x="73" y="97" />
+        <rect l="0" t="0" r="209" b="17" />
+        <Visible val="True" />
+        <Anchor val="None" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#D1BFB2" />
+        <color val="#5E361F" />
+        <halign val="0" />
+        <valign val="0" />
+        <FontName val="나눔고딕" />
+        <FontSize val="13" />
+        <TextTrimming val="None" />
+        <style val="1" />
+        <IsHitTestVisible val="False" />
+        <ClipChildren val="False" />
+        <Padding val="0, 0, 0, 0" />
+      </child>
+      <child type="LABEL" name="lb_revenge_opentip1" subclass="">
+        <label val="리벤지 시스템은," />
+        <pos x="73" y="77" />
+        <rect l="0" t="0" r="194" b="20" />
+        <Visible val="True" />
+        <Anchor val="None" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#D1BFB2" />
+        <color val="#000000FF" />
+        <halign val="0" />
+        <valign val="0" />
+        <FontName val="나눔고딕" />
+        <FontSize val="16" />
+        <TextTrimming val="None" />
+        <style val="1" />
+        <IsHitTestVisible val="False" />
+        <ClipChildren val="False" />
+        <Padding val="0, 0, 0, 0" />
+      </child>
+    </child>
+    <child type="PICTURE" name="icon_revenge_open_shadow" subclass="">
+      <asset type="ANIMATION">revenge_open_dialog_icon_revenge_open_shadow.xml</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="321" y="212" />
+      <rect l="0" t="0" r="40" b="7" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="LABELBUTTON" name="confirm" subclass="">
+      <asset type="NORMAL">btn_common_ok_Normal.png</asset>
+      <asset type="DOWN">btn_common_ok_Push.png</asset>
+      <asset type="OVER">btn_common_ok_Hover.png</asset>
+      <asset type="DISABLE">btn_common_ok_Disable.png</asset>
+      <snd type="OVER">
+      </snd>
+      <snd type="DOWN">
+      </snd>
+      <snd type="RELEASE">
+      </snd>
+      <control type="LABEL" name="confirm_Label">
+        <label val="OK" />
+        <pos x="2" y="0" />
+        <rect l="0" t="0" r="142" b="33" />
+        <Visible val="True" />
+        <Anchor val="Bottom, Left, Right" />
+        <OutlineColor val="#FFFFFF" />
+        <ShadowColor val="#0000004C" />
+        <color val="#6B5D54" />
+        <halign val="1" />
+        <valign val="1" />
+        <FontName val="나눔고딕" />
+        <FontSize val="13" />
+        <TextTrimming val="None" />
+        <style val="1" />
+        <IsHitTestVisible val="False" />
+        <ClipChildren val="False" />
+        <Padding val="0, 0, 0, 0" />
+      </control>
+      <pos x="156" y="239" />
+      <rect l="0" t="0" r="142" b="33" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <NormalColor val="#FFFFFFFF" />
+      <HoverColor val="#FFFFFFFF" />
+      <PushColor val="#FEEF43FF" />
+      <DisableColor val="#998A81FF" />
+      <IsDefaultButton val="False" />
+    </child>
+    <child type="PANEL" name="girl" subclass="">
+      <Visible val="True" />
+      <Anchor val="None" />
+      <embed src="" />
+      <pos x="288" y="94" />
+      <rect l="0" t="0" r="159" b="140" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <child type="PICTURE" name="bg_revenge_girl2" subclass="">
+        <asset type="ANIMATION">revenge_open_dialog_bg_revenge_girl2.xml</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="0" y="0" />
+        <rect l="0" t="0" r="88" b="105" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="PICTURE" name="bg_revenge_boy2" subclass="">
+        <asset type="ANIMATION">revenge_open_dialog_bg_revenge_boy2.xml</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="59" y="-1" />
+        <rect l="0" t="0" r="100" b="140" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+    </child>
+    <child type="PANEL" name="boy" subclass="">
+      <Visible val="True" />
+      <Anchor val="None" />
+      <embed src="" />
+      <pos x="288" y="94" />
+      <rect l="0" t="0" r="159" b="140" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <child type="PICTURE" name="bg_revenge_girl1" subclass="">
+        <asset type="ANIMATION">revenge_open_dialog_bg_revenge_girl1.xml</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="0" y="0" />
+        <rect l="0" t="0" r="88" b="105" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="PICTURE" name="bg_revenge_boy1" subclass="">
+        <asset type="ANIMATION">revenge_open_dialog_bg_revenge_boy1.xml</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="59" y="-1" />
+        <rect l="0" t="0" r="100" b="140" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+    </child>
+    <child type="BUTTON" subclass="" name="btn_close_revenge">
+      <asset type="NORMAL">btn_common_exit_Normal.png</asset>
+      <asset type="DOWN">btn_common_exit_Push.png</asset>
+      <asset type="OVER">btn_common_exit_Hover.png</asset>
+      <asset type="DISABLE">btn_common_exit_Disable.png</asset>
+      <snd type="OVER">
+      </snd>
+      <snd type="DOWN">
+      </snd>
+      <snd type="RELEASE">
+      </snd>
+      <pos x="420" y="7" />
+      <rect l="0" t="0" r="26" b="26" />
+      <Visible val="True" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <Anchor val="Top, Right" />
+      <IsDefaultButton val="False" />
+    </child>
+  </base>
+</refresh>

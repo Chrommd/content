@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2" parent="h000">
+    <action category="" state="IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>g[idle]_00</main>
+    </action>
+    <action category="" state="IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>g[idle]_01</main>
+    </action>
+    <action category="" state="IDLE" prevState="IDLE_EXHAUSTED_LV1" loop="0" weight="1" script="">
+        <begin speed=0.0000>f[idle]tired_00_recover[f]</begin>
+        <main speed=0.0000>g[idle]_01</main>
+    </action>
+    <action category="" state="IDLE" prevState="IDLE_EXHAUSTED_LV2" loop="1" weight="1" script="">
+        <begin speed=0.0000>f[idle]exhausted_00_recover[f]</begin>
+        <main speed=0.0000>g[idle]_01</main>
+    </action>
+    <action category="" state="IDLE" prevState="IDLE_EXHAUSTED_LV2" loop="1" weight="1" script="">
+        <begin speed=0.0000>f[idle]exhausted_00_recover[f]</begin>
+        <main speed=0.0000>g[idle]_00</main>
+    </action>
+    <action category="" state="IDLE_EXHAUSTED_LV1" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>f[idle]tired_00</main>
+    </action>
+    <action category="" state="IDLE_EXHAUSTED_LV1" prevState="IDLE_EXHAUSTED_LV2" loop="1" weight="1" script="">
+        <begin speed=0.0000>f[idle]exhausted_00_recover[s]</begin>
+        <main speed=0.0000>f[idle]tired_00</main>
+    </action>
+    <action category="" state="IDLE_EXHAUSTED_LV2" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>f[idle]exhausted_00</main>
+    </action>
+    <action category="" state="IDLE_INJURY_LV1" prevState="" loop="1" weight="1" script="">
+        <begin speed=0.0000>c[cure]idle_muscle_a00</begin>
+        <main speed=0.0000>c[cure]idle_muscle_a00</main>
+    </action>
+    <action category="" state="IDLE_INJURY_LV2" prevState="" loop="1" weight="1" script="">
+        <begin speed=0.0000>c[cure]idle_muscle_b00</begin>
+        <main speed=0.0000>c[cure]idle_muscle_b00</main>
+    </action>
+</aim>

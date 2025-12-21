@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="img_icon_timeattack_star_4_on_Default">
+    <asset type="IMAGE" name="asset_img_icon_timeattack_star_on" path="img_icon_timeattack_star_on.png">
+      <rect l="0" t="0" r="21" b="20" />
+    </asset>
+    <asset type="IMAGE" name="asset_effect_icon_timeattack_star_on" path="effect_icon_timeattack_star_on.png">
+      <rect l="0" t="0" r="36" b="35" />
+    </asset>
+    <object name="img_icon_timeattack_star_on" ani="ani_img_icon_timeattack_star_on">
+      <asset type="IMAGE" link="asset_img_icon_timeattack_star_on" />
+    </object>
+    <object name="effect_icon_timeattack_star_on" ani="ani_effect_icon_timeattack_star_on">
+      <asset type="IMAGE" link="asset_effect_icon_timeattack_star_on" />
+    </object>
+    <param type="RES" x="21" y="20" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_img_icon_timeattack_star_on">
+      <frame cnt="0">
+        <posx val="0.3809524" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="600">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="767">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_effect_icon_timeattack_star_on">
+      <frame cnt="0">
+        <posx val="0.9047619" />
+        <posy val="1.6" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="600">
+        <posx val="-0.333333333333333" />
+        <posy val="-0.3" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="767">
+        <posx val="-0.3333333" />
+        <posy val="-0.3" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1267">
+        <posx val="-0.3333333" />
+        <posy val="-0.3" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2200">
+        <posx val="-0.3333333" />
+        <posy val="-0.3" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

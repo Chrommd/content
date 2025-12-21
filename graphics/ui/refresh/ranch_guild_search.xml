@@ -1,0 +1,146 @@
+﻿<refresh version="2">
+	<properties>
+		<property name="DPI" val="72" />
+		<property name="UIAnimation" val="ranch_guild_search_Animation.xml" />
+	</properties>
+	<base type="WND" subclass="" name="room_search">
+		<pos x="0" y="0" />
+		<rect l="0" t="0" r="1024" b="165" />
+		<Visible val="True" />
+		<Anchor val="None" />
+		<snd type="SHOW">ui_popup_room_search</snd>
+		<snd type="HIDE">ui_event_open</snd>
+		<IsHitTestVisible val="False" />
+		<ClipChildren val="False" />
+		<child type="PICTURE" name="bg_select_horse2" subclass="">
+			<asset type="STATIC">ranch_party_search_bg.png</asset>
+			<pos x="112" y="0" />
+			<rect l="0" t="0" r="800" b="156" />
+			<Visible val="True" />
+			<Anchor val="Left, Right" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="LABEL" name="lb_wait_reason" subclass="">
+			<pos x="0" y="10" />
+			<rect l="0" t="0" r="1024" b="18" />
+			<Visible val="True" />
+			<Anchor val="Left, Right" />
+			<label val="Searching for a room." />
+			<OutlineColor val="#FFFFFF" />
+			<ShadowColor val="#030200" />
+			<color val="#FFFF00FF" />
+			<halign val="1" />
+			<valign val="0" />
+			<FontName val="나눔고딕 ExtraBold" />
+			<FontSize val="15" />
+			<TextTrimming val="None" />
+			<style val="32" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+			<Padding val="0, 0, 0, 0" />
+			<FitToContent val="False" />
+		</child>
+		<child type="STACKPANEL" name="StackPanel" subclass="">
+			<pos x="0" y="10" />
+			<rect l="0" t="0" r="1024" b="155" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<Orientation val="Vertical" />
+			<HAlign val="Center" />
+			<VAlign val="Center" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<child type="PANEL" name="Panel" subclass="">
+				<pos x="339" y="7" />
+				<rect l="0" t="0" r="345" b="140" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<embed src="" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+				<child type="PICTURE" name="room_search_bg" subclass="">
+					<asset type="STATIC">room_search_bg.png</asset>
+					<pos x="51" y="24" />
+					<rect l="0" t="0" r="249" b="103" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+				</child>
+				<child type="PICTURE" name="room_search_area_e_03" subclass="">
+					<asset type="STATIC">room_search_area_e_03.png</asset>
+					<pos x="42" y="15" />
+					<rect l="0" t="0" r="267" b="119" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+				</child>
+				<child type="PICTURE" name="room_search_area_e_02" subclass="">
+					<asset type="STATIC">room_search_area_e_02.png</asset>
+					<pos x="79" y="38" />
+					<rect l="0" t="0" r="191" b="72" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+				</child>
+				<child type="PICTURE" name="room_search_area_e_01" subclass="">
+					<asset type="STATIC">room_search_area_e_01.png</asset>
+					<pos x="103" y="52" />
+					<rect l="0" t="0" r="144" b="45" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+				</child>
+				<child type="PICTURE" name="room_search_move_01" subclass="">
+					<asset type="STATIC">room_search_move_01.png</asset>
+					<pos x="116" y="67" />
+					<rect l="0" t="0" r="26" b="16" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+				</child>
+				<child type="PICTURE" name="room_search_move_02" subclass="">
+					<asset type="STATIC">room_search_move_02.png</asset>
+					<pos x="209" y="67" />
+					<rect l="0" t="0" r="26" b="16" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+				</child>
+				<child type="PICTURE" name="img_wait_horse_0" subclass="">
+					<asset type="ANIMATION">ranch_guild_search_img_wait_horse_0.xml</asset>
+					<pos x="123" y="40" />
+					<rect l="0" t="0" r="56" b="56" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+				</child>
+				<child type="PICTURE" name="icon_search_room" subclass="">
+					<asset type="ANIMATION">ranch_guild_search_icon_search_room.xml</asset>
+					<pos x="178" y="74" />
+					<rect l="0" t="0" r="34" b="34" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+				</child>
+			</child>
+		</child>
+	</base>
+</refresh>

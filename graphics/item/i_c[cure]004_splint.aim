@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <event animation="r00_cure_00">
+        <function>PlaySND($asset, "cure_item_wood", "", "-var 0")</function>
+        <time>2.7330</time>
+        <freq>100</freq>
+    </event>
+    <event animation="r00_cure_00">
+        <function>PlaySND($asset, "ranch_groom_fabric_end", "", "-var 2")</function>
+        <time>0.0500</time>
+        <freq>100</freq>
+    </event>
+    <event animation="r00_cure_00">
+        <function>PlaySND($asset, "cure_item_bandage", "", "-var 0")</function>
+        <time>8.1359</time>
+        <freq>100</freq>
+    </event>
+    <event animation="r00_cure_00">
+        <function>PlaySND($asset, "cure_item_bandage", "", "-var 0")</function>
+        <time>6.7773</time>
+        <freq>100</freq>
+    </event>
+    <event animation="r00_cure_00">
+        <function>PlaySND($asset, "cure_item_crap", "", "-var 0")</function>
+        <time>4.3918</time>
+        <freq>100</freq>
+    </event>
+    <event animation="r00_cure_00">
+        <function>PlaySND($asset, "cure_item_bandage", "", "-var 0")</function>
+        <time>9.8420</time>
+        <freq>100</freq>
+    </event>
+    <event animation="r00_cure_00">
+        <function>PlaySND($asset, "cure_item_bandage", "", "-var 0")</function>
+        <time>11.5667</time>
+        <freq>100</freq>
+    </event>
+    <event animation="r00_idle_00_trans">
+        <function>PlaySND($asset, "cure_item_wood", "", "-var 0")</function>
+        <time>2.0497</time>
+        <freq>100</freq>
+    </event>
+    <event animation="r00_idle_00_trans">
+        <function>PlaySND($asset, "ranch_basket_move", "", "-var 0")</function>
+        <time>0.4942</time>
+        <freq>100</freq>
+    </event>
+    <event animation="r02_cure_00">
+        <function>PlaySND($asset, "cure_item_wood", "", "-var 0")</function>
+        <time>2.3667</time>
+        <freq>100</freq>
+    </event>
+    <event animation="r02_cure_00">
+        <function>PlaySND($asset, "cure_item_crap", "", "-var 0")</function>
+        <time>4.5167</time>
+        <freq>100</freq>
+    </event>
+    <event animation="r02_cure_00">
+        <function>PlaySND($asset, "cure_item_bandage", "", "-var 0")</function>
+        <time>6.7000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="r02_cure_00">
+        <function>PlaySND($asset, "cure_item_bandage", "", "-var 0")</function>
+        <time>8.2000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="r02_cure_00">
+        <function>PlaySND($asset, "cure_item_bandage", "", "-var 0")</function>
+        <time>11.7167</time>
+        <freq>100</freq>
+    </event>
+    <event animation="r02_cure_00">
+        <function>PlaySND($asset, "cure_item_bandage", "", "-var 0")</function>
+        <time>9.9000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="r02_idle_00_trans">
+        <function>PlaySND($asset, "cure_item_wood", "", "-var 0")</function>
+        <time>2.1252</time>
+        <freq>100</freq>
+    </event>
+    <event animation="r02_idle_00_trans">
+        <function>PlaySND($asset, "ranch_basket_move", "", "-var 0")</function>
+        <time>0.4747</time>
+        <freq>100</freq>
+    </event>
+    <category name="R00" script="-r00" />
+    <category name="R02" script="-r02" />
+    <action category="R00" state="CARE_CURE" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>r00_cure_00</main>
+    </action>
+    <action category="R02" state="CARE_CURE" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>r02_cure_00</main>
+    </action>
+    <action category="R00" state="CARE_CURE_SELECT" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>r00_idle_00_trans</main>
+    </action>
+    <action category="R02" state="CARE_CURE_SELECT" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>r02_idle_00_trans</main>
+    </action>
+    <action category="R02" state="CARE_CURE_SELECT_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>r02_idle_00</main>
+    </action>
+    <action category="R00" state="CARE_CURE_SELECT_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>r00_idle_00</main>
+    </action>
+    <blend sec="0">
+        <name>r00_cure_00</name>
+    </blend>
+    <blend sec="0">
+        <name>r00_idle_00</name>
+    </blend>
+    <blend sec="0">
+        <name>r00_idle_00_trans</name>
+    </blend>
+    <blend sec="0">
+        <name>r02_cure_00</name>
+    </blend>
+    <blend sec="0">
+        <name>r02_idle_00</name>
+    </blend>
+    <blend sec="0">
+        <name>r02_idle_00_trans</name>
+    </blend>
+</aim>

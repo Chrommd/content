@@ -1,0 +1,749 @@
+﻿<refresh version="2">
+	<properties>
+		<property name="DPI" val="72" />
+		<property name="UIAnimation" val="fes_result_success_dialog_Animation.xml" />
+	</properties>
+	<base type="WNDEX" subclass="" name="WndEx">
+		<asset type="BG" path="" tileMode="Tile">
+			<tex x="0" y="0" />
+			<rect l="8" t="8" r="1008" b="752" />
+		</asset>
+		<asset type="EDGE_LT" path="" tileMode="Tile">
+			<tex x="0" y="0" />
+			<rect l="0" t="0" r="8" b="8" />
+		</asset>
+		<asset type="EDGE_RT" path="" tileMode="Tile">
+			<tex x="0" y="0" />
+			<rect l="0" t="0" r="8" b="8" />
+		</asset>
+		<asset type="EDGE_LB" path="" tileMode="Tile">
+			<tex x="0" y="0" />
+			<rect l="0" t="0" r="8" b="8" />
+		</asset>
+		<asset type="EDGE_RB" path="" tileMode="Tile">
+			<tex x="0" y="0" />
+			<rect l="0" t="0" r="8" b="8" />
+		</asset>
+		<asset type="FRAME_T" path="" tileMode="Tile">
+			<tex x="0" y="0" />
+			<rect l="8" t="0" r="1008" b="8" />
+		</asset>
+		<asset type="FRAME_B" path="" tileMode="Tile">
+			<tex x="0" y="0" />
+			<rect l="8" t="0" r="1008" b="8" />
+		</asset>
+		<asset type="FRAME_L" path="" tileMode="Tile">
+			<tex x="0" y="0" />
+			<rect l="0" t="8" r="8" b="752" />
+		</asset>
+		<asset type="FRAME_R" path="" tileMode="Tile">
+			<tex x="0" y="0" />
+			<rect l="0" t="8" r="8" b="752" />
+		</asset>
+		<pos x="0" y="0" />
+		<rect l="0" t="0" r="1024" b="768" />
+		<Visible val="True" />
+		<Anchor val="Top, Bottom, Left, Right" />
+		<snd type="SHOW"></snd>
+		<snd type="HIDE"></snd>
+		<Dragable val="False" />
+		<StartPosition val="CenterScreen" />
+		<EscKeyAction val="None" />
+		<IsHitTestVisible val="True" />
+		<ClipChildren val="False" />
+		<child type="STACKPANEL" name="StackPanel" subclass="">
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="1024" b="768" />
+			<Visible val="True" />
+			<Anchor val="Top, Bottom, Left, Right" />
+			<Orientation val="Vertical" />
+			<HAlign val="Center" />
+			<VAlign val="Center" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<base type="WND" subclass="" name="Anchor">
+				<pos x="0" y="0" />
+				<rect l="0" t="0" r="1024" b="768" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<snd type="SHOW"></snd>
+				<snd type="HIDE"></snd>
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+				<base type="WND" subclass="" name="fes_result_success">
+					<pos x="288" y="-14" />
+					<rect l="0" t="0" r="450" b="379" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<snd type="SHOW"></snd>
+					<snd type="HIDE"></snd>
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+					<child type="PICTURE" name="fes_result_bg" subclass="">
+						<asset type="STATIC">fes_result_bg.png</asset>
+						<pos x="-42" y="18" />
+						<rect l="0" t="0" r="527" b="364" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+					<base type="WND" subclass="" name="fes_result_part">
+						<pos x="-27" y="303" />
+						<rect l="0" t="0" r="497" b="63" />
+						<Visible val="True" />
+						<Anchor val="Top, Left" />
+						<snd type="SHOW"></snd>
+						<snd type="HIDE"></snd>
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</base>
+					<child type="LIST" name="fes_playerlist" subclass="">
+						<asset type="BG" path="" tileMode="Stretch">
+							<tex x="4" y="4" />
+							<rect l="8" t="8" r="483" b="305" />
+						</asset>
+						<asset type="EDGE_LT" path="" tileMode="Stretch">
+							<tex x="8" y="8" />
+							<rect l="0" t="0" r="8" b="8" />
+						</asset>
+						<asset type="EDGE_RT" path="" tileMode="Stretch">
+							<tex x="8" y="8" />
+							<rect l="0" t="0" r="8" b="8" />
+						</asset>
+						<asset type="EDGE_LB" path="" tileMode="Stretch">
+							<tex x="8" y="8" />
+							<rect l="0" t="0" r="8" b="8" />
+						</asset>
+						<asset type="EDGE_RB" path="" tileMode="Stretch">
+							<tex x="8" y="8" />
+							<rect l="0" t="0" r="8" b="8" />
+						</asset>
+						<asset type="FRAME_T" path="" tileMode="Stretch">
+							<tex x="4" y="8" />
+							<rect l="8" t="0" r="483" b="8" />
+						</asset>
+						<asset type="FRAME_B" path="" tileMode="Stretch">
+							<tex x="4" y="8" />
+							<rect l="8" t="0" r="483" b="8" />
+						</asset>
+						<asset type="FRAME_L" path="" tileMode="Stretch">
+							<tex x="8" y="4" />
+							<rect l="0" t="8" r="8" b="305" />
+						</asset>
+						<asset type="FRAME_R" path="" tileMode="Stretch">
+							<tex x="8" y="4" />
+							<rect l="0" t="8" r="8" b="305" />
+						</asset>
+						<pos x="-27" y="57" />
+						<rect l="0" t="0" r="499" b="321" />
+						<Visible val="True" />
+						<Anchor val="Top, Left" />
+						<padding l="0" t="0" r="0" b="0" />
+						<column val="1" />
+						<itemrect l="0" t="0" r="380" b="40" />
+						<selection val="0" />
+						<deselectable val="0" />
+						<rclickaction val="1" />
+						<IsHitTestVisible val="True" />
+						<Orientation val="Vertical" />
+						<ClipChildren val="False" />
+						<child type="PICTURE" name="img_fes_playerselect" subclass="">
+							<asset type="STATIC">Festival_Selectplayer.png</asset>
+							<pos x="-19" y="21" />
+							<rect l="0" t="0" r="534" b="31" />
+							<Visible val="True" />
+							<Anchor val="None" />
+							<center x="0" y="0" />
+							<IsHitTestVisible val="True" />
+							<ClipChildren val="False" />
+						</child>
+						<child type="PICTURE" name="img_fes_selectme" subclass="">
+							<asset type="STATIC">Festival_Selectme.png</asset>
+							<pos x="2" y="22" />
+							<rect l="0" t="0" r="494" b="29" />
+							<Visible val="True" />
+							<Anchor val="None" />
+							<center x="0" y="0" />
+							<IsHitTestVisible val="True" />
+							<ClipChildren val="False" />
+						</child>
+						<child type="PANEL" name="pn_fes_player8" subclass="">
+							<pos x="26" y="211" />
+							<rect l="0" t="0" r="472" b="29" />
+							<Visible val="True" />
+							<Anchor val="Top, Left" />
+							<embed src="" />
+							<IsHitTestVisible val="True" />
+							<ClipChildren val="False" />
+							<child type="PICTURE" name="fes_icon_success8" subclass="">
+								<asset type="STATIC">fes_icon_success.png</asset>
+								<pos x="313" y="-3" />
+								<rect l="0" t="0" r="134" b="36" />
+								<Visible val="True" />
+								<Anchor val="None" />
+								<center x="0" y="0" />
+								<IsHitTestVisible val="True" />
+								<ClipChildren val="False" />
+							</child>
+							<child type="LABEL" name="txt_fes_horse8" subclass="">
+								<pos x="163" y="6" />
+								<rect l="0" t="0" r="140" b="19" />
+								<Visible val="True" />
+								<Anchor val="Top, Left" />
+								<label val="" />
+								<OutlineColor val="#FF0000" />
+								<ShadowColor val="#DCD6CF" />
+								<color val="#51402C" />
+								<halign val="0" />
+								<valign val="1" />
+								<FontName val="나눔고딕" />
+								<FontSize val="13" />
+								<TextTrimming val="CharacterEllipsis" />
+								<style val="1" />
+								<IsHitTestVisible val="False" />
+								<ClipChildren val="False" />
+								<Padding val="0, 0, 0, 0" />
+								<FitToContent val="False" />
+							</child>
+							<child type="LABEL" name="txt_fes_player8" subclass="">
+								<pos x="8" y="6" />
+								<rect l="0" t="0" r="132" b="19" />
+								<Visible val="True" />
+								<Anchor val="Top, Left" />
+								<label val="" />
+								<OutlineColor val="#FF0000" />
+								<ShadowColor val="#DCD6CF" />
+								<color val="#BB7E25" />
+								<halign val="0" />
+								<valign val="1" />
+								<FontName val="나눔고딕" />
+								<FontSize val="13" />
+								<TextTrimming val="CharacterEllipsis" />
+								<style val="1" />
+								<IsHitTestVisible val="False" />
+								<ClipChildren val="False" />
+								<Padding val="0, 0, 0, 0" />
+								<FitToContent val="False" />
+							</child>
+							<child type="PICTURE" name="fes_icon_horsename8" subclass="">
+								<asset type="STATIC">fes_icon_horsename.png</asset>
+								<pos x="142" y="5" />
+								<rect l="0" t="0" r="22" b="21" />
+								<Visible val="True" />
+								<Anchor val="None" />
+								<center x="0" y="0" />
+								<IsHitTestVisible val="True" />
+								<ClipChildren val="False" />
+							</child>
+						</child>
+						<child type="PANEL" name="pn_fes_player7" subclass="">
+							<pos x="26" y="184" />
+							<rect l="0" t="0" r="472" b="29" />
+							<Visible val="True" />
+							<Anchor val="Top, Left" />
+							<embed src="" />
+							<IsHitTestVisible val="True" />
+							<ClipChildren val="False" />
+							<child type="PICTURE" name="fes_icon_success7" subclass="">
+								<asset type="STATIC">fes_icon_success.png</asset>
+								<pos x="313" y="-3" />
+								<rect l="0" t="0" r="134" b="36" />
+								<Visible val="True" />
+								<Anchor val="None" />
+								<center x="0" y="0" />
+								<IsHitTestVisible val="True" />
+								<ClipChildren val="False" />
+							</child>
+							<child type="LABEL" name="txt_fes_horse7" subclass="">
+								<pos x="163" y="6" />
+								<rect l="0" t="0" r="140" b="19" />
+								<Visible val="True" />
+								<Anchor val="Top, Left" />
+								<label val="" />
+								<OutlineColor val="#FF0000" />
+								<ShadowColor val="#DCD6CF" />
+								<color val="#51402C" />
+								<halign val="0" />
+								<valign val="1" />
+								<FontName val="나눔고딕" />
+								<FontSize val="13" />
+								<TextTrimming val="CharacterEllipsis" />
+								<style val="1" />
+								<IsHitTestVisible val="False" />
+								<ClipChildren val="False" />
+								<Padding val="0, 0, 0, 0" />
+								<FitToContent val="False" />
+							</child>
+							<child type="LABEL" name="txt_fes_player7" subclass="">
+								<pos x="8" y="6" />
+								<rect l="0" t="0" r="132" b="19" />
+								<Visible val="True" />
+								<Anchor val="Top, Left" />
+								<label val="" />
+								<OutlineColor val="#FF0000" />
+								<ShadowColor val="#DCD6CF" />
+								<color val="#BB7E25" />
+								<halign val="0" />
+								<valign val="1" />
+								<FontName val="나눔고딕" />
+								<FontSize val="13" />
+								<TextTrimming val="CharacterEllipsis" />
+								<style val="1" />
+								<IsHitTestVisible val="False" />
+								<ClipChildren val="False" />
+								<Padding val="0, 0, 0, 0" />
+								<FitToContent val="False" />
+							</child>
+							<child type="PICTURE" name="fes_icon_horsename7" subclass="">
+								<asset type="STATIC">fes_icon_horsename.png</asset>
+								<pos x="142" y="5" />
+								<rect l="0" t="0" r="22" b="21" />
+								<Visible val="True" />
+								<Anchor val="None" />
+								<center x="0" y="0" />
+								<IsHitTestVisible val="True" />
+								<ClipChildren val="False" />
+							</child>
+						</child>
+						<child type="PANEL" name="pn_fes_player6" subclass="">
+							<pos x="26" y="157" />
+							<rect l="0" t="0" r="472" b="29" />
+							<Visible val="True" />
+							<Anchor val="Top, Left" />
+							<embed src="" />
+							<IsHitTestVisible val="True" />
+							<ClipChildren val="False" />
+							<child type="PICTURE" name="fes_icon_success6" subclass="">
+								<asset type="STATIC">fes_icon_success.png</asset>
+								<pos x="313" y="-3" />
+								<rect l="0" t="0" r="134" b="36" />
+								<Visible val="True" />
+								<Anchor val="None" />
+								<center x="0" y="0" />
+								<IsHitTestVisible val="True" />
+								<ClipChildren val="False" />
+							</child>
+							<child type="LABEL" name="txt_fes_horse6" subclass="">
+								<pos x="163" y="6" />
+								<rect l="0" t="0" r="140" b="19" />
+								<Visible val="True" />
+								<Anchor val="Top, Left" />
+								<label val="" />
+								<OutlineColor val="#FF0000" />
+								<ShadowColor val="#DCD6CF" />
+								<color val="#51402C" />
+								<halign val="0" />
+								<valign val="1" />
+								<FontName val="나눔고딕" />
+								<FontSize val="13" />
+								<TextTrimming val="CharacterEllipsis" />
+								<style val="1" />
+								<IsHitTestVisible val="False" />
+								<ClipChildren val="False" />
+								<Padding val="0, 0, 0, 0" />
+								<FitToContent val="False" />
+							</child>
+							<child type="LABEL" name="txt_fes_player6" subclass="">
+								<pos x="8" y="6" />
+								<rect l="0" t="0" r="132" b="19" />
+								<Visible val="True" />
+								<Anchor val="Top, Left" />
+								<label val="" />
+								<OutlineColor val="#FF0000" />
+								<ShadowColor val="#DCD6CF" />
+								<color val="#BB7E25" />
+								<halign val="0" />
+								<valign val="1" />
+								<FontName val="나눔고딕" />
+								<FontSize val="13" />
+								<TextTrimming val="CharacterEllipsis" />
+								<style val="1" />
+								<IsHitTestVisible val="False" />
+								<ClipChildren val="False" />
+								<Padding val="0, 0, 0, 0" />
+								<FitToContent val="False" />
+							</child>
+							<child type="PICTURE" name="fes_icon_horsename6" subclass="">
+								<asset type="STATIC">fes_icon_horsename.png</asset>
+								<pos x="142" y="5" />
+								<rect l="0" t="0" r="22" b="21" />
+								<Visible val="True" />
+								<Anchor val="None" />
+								<center x="0" y="0" />
+								<IsHitTestVisible val="True" />
+								<ClipChildren val="False" />
+							</child>
+						</child>
+						<child type="PANEL" name="pn_fes_player5" subclass="">
+							<pos x="26" y="130" />
+							<rect l="0" t="0" r="472" b="29" />
+							<Visible val="True" />
+							<Anchor val="Top, Left" />
+							<embed src="" />
+							<IsHitTestVisible val="True" />
+							<ClipChildren val="False" />
+							<child type="PICTURE" name="fes_icon_success5" subclass="">
+								<asset type="STATIC">fes_icon_success.png</asset>
+								<pos x="313" y="-1" />
+								<rect l="0" t="0" r="134" b="36" />
+								<Visible val="True" />
+								<Anchor val="None" />
+								<center x="0" y="0" />
+								<IsHitTestVisible val="True" />
+								<ClipChildren val="False" />
+							</child>
+							<child type="LABEL" name="txt_fes_horse5" subclass="">
+								<pos x="163" y="8" />
+								<rect l="0" t="0" r="140" b="19" />
+								<Visible val="True" />
+								<Anchor val="Top, Left" />
+								<label val="" />
+								<OutlineColor val="#FF0000" />
+								<ShadowColor val="#DCD6CF" />
+								<color val="#51402C" />
+								<halign val="0" />
+								<valign val="1" />
+								<FontName val="나눔고딕" />
+								<FontSize val="13" />
+								<TextTrimming val="CharacterEllipsis" />
+								<style val="1" />
+								<IsHitTestVisible val="False" />
+								<ClipChildren val="False" />
+								<Padding val="0, 0, 0, 0" />
+								<FitToContent val="False" />
+							</child>
+							<child type="LABEL" name="txt_fes_player5" subclass="">
+								<pos x="8" y="8" />
+								<rect l="0" t="0" r="132" b="19" />
+								<Visible val="True" />
+								<Anchor val="Top, Left" />
+								<label val="" />
+								<OutlineColor val="#FF0000" />
+								<ShadowColor val="#DCD6CF" />
+								<color val="#BB7E25" />
+								<halign val="0" />
+								<valign val="1" />
+								<FontName val="나눔고딕" />
+								<FontSize val="13" />
+								<TextTrimming val="CharacterEllipsis" />
+								<style val="1" />
+								<IsHitTestVisible val="False" />
+								<ClipChildren val="False" />
+								<Padding val="0, 0, 0, 0" />
+								<FitToContent val="False" />
+							</child>
+							<child type="PICTURE" name="fes_icon_horsename5" subclass="">
+								<asset type="STATIC">fes_icon_horsename.png</asset>
+								<pos x="142" y="7" />
+								<rect l="0" t="0" r="22" b="21" />
+								<Visible val="True" />
+								<Anchor val="None" />
+								<center x="0" y="0" />
+								<IsHitTestVisible val="True" />
+								<ClipChildren val="False" />
+							</child>
+						</child>
+						<child type="PANEL" name="pn_fes_player4" subclass="">
+							<pos x="26" y="103" />
+							<rect l="0" t="0" r="472" b="29" />
+							<Visible val="True" />
+							<Anchor val="Top, Left" />
+							<embed src="" />
+							<IsHitTestVisible val="True" />
+							<ClipChildren val="False" />
+							<child type="PICTURE" name="fes_icon_success4" subclass="">
+								<asset type="STATIC">fes_icon_success.png</asset>
+								<pos x="313" y="-3" />
+								<rect l="0" t="0" r="134" b="36" />
+								<Visible val="True" />
+								<Anchor val="None" />
+								<center x="0" y="0" />
+								<IsHitTestVisible val="True" />
+								<ClipChildren val="False" />
+							</child>
+							<child type="LABEL" name="txt_fes_horse4" subclass="">
+								<pos x="163" y="6" />
+								<rect l="0" t="0" r="140" b="19" />
+								<Visible val="True" />
+								<Anchor val="Top, Left" />
+								<label val="" />
+								<OutlineColor val="#FF0000" />
+								<ShadowColor val="#DCD6CF" />
+								<color val="#51402C" />
+								<halign val="0" />
+								<valign val="1" />
+								<FontName val="나눔고딕" />
+								<FontSize val="13" />
+								<TextTrimming val="CharacterEllipsis" />
+								<style val="1" />
+								<IsHitTestVisible val="False" />
+								<ClipChildren val="False" />
+								<Padding val="0, 0, 0, 0" />
+								<FitToContent val="False" />
+							</child>
+							<child type="LABEL" name="txt_fes_player4" subclass="">
+								<pos x="8" y="6" />
+								<rect l="0" t="0" r="132" b="19" />
+								<Visible val="True" />
+								<Anchor val="Top, Left" />
+								<label val="" />
+								<OutlineColor val="#FF0000" />
+								<ShadowColor val="#DCD6CF" />
+								<color val="#BB7E25" />
+								<halign val="0" />
+								<valign val="1" />
+								<FontName val="나눔고딕" />
+								<FontSize val="13" />
+								<TextTrimming val="CharacterEllipsis" />
+								<style val="1" />
+								<IsHitTestVisible val="False" />
+								<ClipChildren val="False" />
+								<Padding val="0, 0, 0, 0" />
+								<FitToContent val="False" />
+							</child>
+							<child type="PICTURE" name="fes_icon_horsename4" subclass="">
+								<asset type="STATIC">fes_icon_horsename.png</asset>
+								<pos x="142" y="5" />
+								<rect l="0" t="0" r="22" b="21" />
+								<Visible val="True" />
+								<Anchor val="None" />
+								<center x="0" y="0" />
+								<IsHitTestVisible val="True" />
+								<ClipChildren val="False" />
+							</child>
+						</child>
+						<child type="PANEL" name="pn_fes_player3" subclass="">
+							<pos x="26" y="76" />
+							<rect l="0" t="0" r="472" b="29" />
+							<Visible val="True" />
+							<Anchor val="Top, Left" />
+							<embed src="" />
+							<IsHitTestVisible val="True" />
+							<ClipChildren val="False" />
+							<child type="PICTURE" name="fes_icon_success3" subclass="">
+								<asset type="STATIC">fes_icon_success.png</asset>
+								<pos x="313" y="-3" />
+								<rect l="0" t="0" r="134" b="36" />
+								<Visible val="True" />
+								<Anchor val="None" />
+								<center x="0" y="0" />
+								<IsHitTestVisible val="True" />
+								<ClipChildren val="False" />
+							</child>
+							<child type="LABEL" name="txt_fes_horse3" subclass="">
+								<pos x="163" y="6" />
+								<rect l="0" t="0" r="140" b="19" />
+								<Visible val="True" />
+								<Anchor val="Top, Left" />
+								<label val="" />
+								<OutlineColor val="#FF0000" />
+								<ShadowColor val="#DCD6CF" />
+								<color val="#51402C" />
+								<halign val="0" />
+								<valign val="1" />
+								<FontName val="나눔고딕" />
+								<FontSize val="13" />
+								<TextTrimming val="CharacterEllipsis" />
+								<style val="1" />
+								<IsHitTestVisible val="False" />
+								<ClipChildren val="False" />
+								<Padding val="0, 0, 0, 0" />
+								<FitToContent val="False" />
+							</child>
+							<child type="LABEL" name="txt_fes_player3" subclass="">
+								<pos x="8" y="6" />
+								<rect l="0" t="0" r="132" b="19" />
+								<Visible val="True" />
+								<Anchor val="Top, Left" />
+								<label val="" />
+								<OutlineColor val="#FF0000" />
+								<ShadowColor val="#DCD6CF" />
+								<color val="#BB7E25" />
+								<halign val="0" />
+								<valign val="1" />
+								<FontName val="나눔고딕" />
+								<FontSize val="13" />
+								<TextTrimming val="CharacterEllipsis" />
+								<style val="1" />
+								<IsHitTestVisible val="False" />
+								<ClipChildren val="False" />
+								<Padding val="0, 0, 0, 0" />
+								<FitToContent val="False" />
+							</child>
+							<child type="PICTURE" name="fes_icon_horsename3" subclass="">
+								<asset type="STATIC">fes_icon_horsename.png</asset>
+								<pos x="142" y="5" />
+								<rect l="0" t="0" r="22" b="21" />
+								<Visible val="True" />
+								<Anchor val="None" />
+								<center x="0" y="0" />
+								<IsHitTestVisible val="True" />
+								<ClipChildren val="False" />
+							</child>
+						</child>
+						<child type="PANEL" name="pn_fes_player2" subclass="">
+							<pos x="26" y="49" />
+							<rect l="0" t="0" r="472" b="29" />
+							<Visible val="True" />
+							<Anchor val="Top, Left" />
+							<embed src="" />
+							<IsHitTestVisible val="True" />
+							<ClipChildren val="False" />
+							<child type="PICTURE" name="fes_icon_success2" subclass="">
+								<asset type="STATIC">fes_icon_success.png</asset>
+								<pos x="313" y="-3" />
+								<rect l="0" t="0" r="134" b="36" />
+								<Visible val="True" />
+								<Anchor val="None" />
+								<center x="0" y="0" />
+								<IsHitTestVisible val="True" />
+								<ClipChildren val="False" />
+							</child>
+							<child type="LABEL" name="txt_fes_horse2" subclass="">
+								<pos x="163" y="6" />
+								<rect l="0" t="0" r="140" b="19" />
+								<Visible val="True" />
+								<Anchor val="Top, Left" />
+								<label val="" />
+								<OutlineColor val="#FF0000" />
+								<ShadowColor val="#DCD6CF" />
+								<color val="#51402C" />
+								<halign val="0" />
+								<valign val="1" />
+								<FontName val="나눔고딕" />
+								<FontSize val="13" />
+								<TextTrimming val="CharacterEllipsis" />
+								<style val="1" />
+								<IsHitTestVisible val="False" />
+								<ClipChildren val="False" />
+								<Padding val="0, 0, 0, 0" />
+								<FitToContent val="False" />
+							</child>
+							<child type="LABEL" name="txt_fes_player2" subclass="">
+								<pos x="8" y="6" />
+								<rect l="0" t="0" r="132" b="19" />
+								<Visible val="True" />
+								<Anchor val="Top, Left" />
+								<label val="" />
+								<OutlineColor val="#FF0000" />
+								<ShadowColor val="#DCD6CF" />
+								<color val="#BB7E25" />
+								<halign val="0" />
+								<valign val="1" />
+								<FontName val="나눔고딕" />
+								<FontSize val="13" />
+								<TextTrimming val="CharacterEllipsis" />
+								<style val="1" />
+								<IsHitTestVisible val="False" />
+								<ClipChildren val="False" />
+								<Padding val="0, 0, 0, 0" />
+								<FitToContent val="False" />
+							</child>
+							<child type="PICTURE" name="fes_icon_horsename2" subclass="">
+								<asset type="STATIC">fes_icon_horsename.png</asset>
+								<pos x="142" y="5" />
+								<rect l="0" t="0" r="22" b="21" />
+								<Visible val="True" />
+								<Anchor val="None" />
+								<center x="0" y="0" />
+								<IsHitTestVisible val="True" />
+								<ClipChildren val="False" />
+							</child>
+						</child>
+						<child type="PANEL" name="pn_fes_player1" subclass="">
+							<pos x="26" y="22" />
+							<rect l="0" t="0" r="472" b="29" />
+							<Visible val="True" />
+							<Anchor val="Top, Left" />
+							<embed src="" />
+							<IsHitTestVisible val="True" />
+							<ClipChildren val="False" />
+							<child type="PICTURE" name="fes_icon_success1" subclass="">
+								<asset type="STATIC">fes_icon_success.png</asset>
+								<pos x="313" y="-3" />
+								<rect l="0" t="0" r="134" b="36" />
+								<Visible val="True" />
+								<Anchor val="None" />
+								<center x="0" y="0" />
+								<IsHitTestVisible val="True" />
+								<ClipChildren val="False" />
+							</child>
+							<child type="LABEL" name="txt_fes_horse1" subclass="">
+								<pos x="163" y="6" />
+								<rect l="0" t="0" r="140" b="19" />
+								<Visible val="True" />
+								<Anchor val="Top, Left" />
+								<label val="" />
+								<OutlineColor val="#FF0000" />
+								<ShadowColor val="#DCD6CF" />
+								<color val="#51402C" />
+								<halign val="0" />
+								<valign val="1" />
+								<FontName val="나눔고딕" />
+								<FontSize val="13" />
+								<TextTrimming val="CharacterEllipsis" />
+								<style val="1" />
+								<IsHitTestVisible val="False" />
+								<ClipChildren val="False" />
+								<Padding val="0, 0, 0, 0" />
+								<FitToContent val="False" />
+							</child>
+							<child type="LABEL" name="txt_fes_player1" subclass="">
+								<pos x="8" y="6" />
+								<rect l="0" t="0" r="132" b="19" />
+								<Visible val="True" />
+								<Anchor val="Top, Left" />
+								<label val="" />
+								<OutlineColor val="#FF0000" />
+								<ShadowColor val="#DCD6CF" />
+								<color val="#BB7E25" />
+								<halign val="0" />
+								<valign val="1" />
+								<FontName val="나눔고딕" />
+								<FontSize val="13" />
+								<TextTrimming val="CharacterEllipsis" />
+								<style val="1" />
+								<IsHitTestVisible val="False" />
+								<ClipChildren val="False" />
+								<Padding val="0, 0, 0, 0" />
+								<FitToContent val="False" />
+							</child>
+							<child type="PICTURE" name="fes_icon_horsename1" subclass="">
+								<asset type="STATIC">fes_icon_horsename.png</asset>
+								<pos x="142" y="5" />
+								<rect l="0" t="0" r="22" b="21" />
+								<Visible val="True" />
+								<Anchor val="None" />
+								<center x="0" y="0" />
+								<IsHitTestVisible val="True" />
+								<ClipChildren val="False" />
+							</child>
+						</child>
+					</child>
+					<child type="LABEL" name="lb_fes_missionresult" subclass="">
+						<pos x="99" y="43" />
+						<rect l="0" t="0" r="240" b="30" />
+						<Visible val="True" />
+						<Anchor val="Top, Left" />
+						<label val="카니발 오디션 결과" />
+						<OutlineColor val="#FF0000" />
+						<ShadowColor val="#FF0000" />
+						<color val="#D05312" />
+						<halign val="1" />
+						<valign val="1" />
+						<FontName val="나눔명조" />
+						<FontSize val="22" />
+						<TextTrimming val="None" />
+						<style val="1" />
+						<IsHitTestVisible val="False" />
+						<ClipChildren val="False" />
+						<Padding val="0, 0, 0, 0" />
+						<FitToContent val="False" />
+					</child>
+				</base>
+			</base>
+		</child>
+	</base>
+</refresh>

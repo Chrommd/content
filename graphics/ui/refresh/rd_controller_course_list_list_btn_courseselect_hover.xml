@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="list_btn_courseselect_Hover_Default">
+    <asset type="IMAGE" name="asset_list_btn_courseselect_Hover" path="list_btn_courseselect_Hover.png">
+      <rect l="0" t="0" r="155" b="105" />
+    </asset>
+    <object name="list_btn_courseselect_Hover" ani="ani_list_btn_courseselect_Hover">
+      <asset type="IMAGE" link="asset_list_btn_courseselect_Hover" />
+    </object>
+    <param type="RES" x="155" y="105" />
+    <param type="LOOP" cnt="-1" pendulum="0" />
+    <anim name="ani_list_btn_courseselect_Hover">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.2" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0" easeValue="0.0,0.0,0.7,1.0" />
+        <posy val="0" easeValue="0.0,0.0,0.7,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.8" easeValue="0.0,0.0,0.7,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" easeValue="0.0,0.0,0.7,1.0" />
+        <centery val="0" easeValue="0.0,0.0,0.7,1.0" />
+      </frame>
+      <frame cnt="467">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.9" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="733">
+        <posx val="0" easeValue="0.0,0.0,0.6,1.0" />
+        <posy val="0" easeValue="0.0,0.0,0.6,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,0.0,0.6,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" easeValue="0.0,0.0,0.6,1.0" />
+        <centery val="0" easeValue="0.0,0.0,0.6,1.0" />
+      </frame>
+      <frame cnt="967">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.2" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

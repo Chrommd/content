@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="gui_adv_window_Animation.xml" />
+  </properties>
+  <base type="WND" subclass="" name="gui_adv">
+    <Visible val="True" />
+    <Anchor val="None" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="112" b="43" />
+    <snd type="SHOW">
+    </snd>
+    <snd type="HIDE">
+    </snd>
+    <IsHitTestVisible val="True" />
+    <ClipChildren val="False" />
+    <child type="PICTURE" name="bg_adv2" subclass="">
+      <asset type="ANIMATION">gui_adv_window_bg_adv2.xml</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="112" b="43" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="PICTURE" name="bg_adv1" subclass="">
+      <asset type="ANIMATION">gui_adv_window_bg_adv1.xml</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="112" b="43" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="LABEL" name="Label_txt" subclass="">
+      <label val="" />
+      <pos x="113" y="10" />
+      <rect l="0" t="0" r="493" b="23" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <OutlineColor val="#FFFFFF" />
+      <ShadowColor val="#0000004C" />
+      <color val="#FFFFFFFF" />
+      <halign val="0" />
+      <valign val="1" />
+      <FontName val="나눔고딕 ExtraBold" />
+      <FontSize val="16" />
+      <TextTrimming val="None" />
+      <style val="32" />
+      <IsHitTestVisible val="False" />
+      <ClipChildren val="False" />
+      <Padding val="0, 0, 0, 0" />
+    </child>
+  </base>
+</refresh>

@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+  </properties>
+  <base type="WNDEX" name="ranch_invite_dialog">
+    <asset type="BG" path="">
+      <tex x="50" y="50" />
+      <rect l="50" t="50" r="150" b="60" />
+    </asset>
+    <asset type="EDGE_LT" path="">
+      <tex x="50" y="50" />
+      <rect l="0" t="0" r="50" b="50" />
+    </asset>
+    <asset type="EDGE_RT" path="">
+      <tex x="50" y="50" />
+      <rect l="0" t="0" r="50" b="50" />
+    </asset>
+    <asset type="EDGE_LB" path="">
+      <tex x="50" y="50" />
+      <rect l="0" t="0" r="50" b="50" />
+    </asset>
+    <asset type="EDGE_RB" path="">
+      <tex x="50" y="50" />
+      <rect l="0" t="0" r="50" b="50" />
+    </asset>
+    <asset type="FRAME_T" path="">
+      <tex x="50" y="50" />
+      <rect l="50" t="0" r="150" b="50" />
+    </asset>
+    <asset type="FRAME_B" path="">
+      <tex x="50" y="50" />
+      <rect l="50" t="0" r="150" b="50" />
+    </asset>
+    <asset type="FRAME_L" path="">
+      <tex x="50" y="50" />
+      <rect l="0" t="50" r="50" b="60" />
+    </asset>
+    <asset type="FRAME_R" path="">
+      <tex x="50" y="50" />
+      <rect l="0" t="50" r="50" b="60" />
+    </asset>
+    <Visible val="True" />
+    <Anchor val="None" />
+    <pos x="415" y="303" />
+    <rect l="0" t="0" r="250" b="160" />
+    <Dragable val="True" />
+    <StartPosition val="CenterScreen" />
+    <EscKeyAction val="None" />
+    <child type="LABEL" name="lab_name">
+      <label val="닉네임" />
+      <pos x="30" y="29" />
+      <rect l="0" t="0" r="45" b="16" />
+      <Visible val="True" />
+      <Anchor val="None" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#FF0000" />
+      <color val="#3E2500" />
+      <halign val="1" />
+      <valign val="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="12" />
+      <style val="1" />
+    </child>
+    <child type="LABEL" name="lab_comment">
+      <label val="목장 초대를 하셨습니다." />
+      <pos x="29" y="55" />
+      <rect l="0" t="0" r="195" b="16" />
+      <Visible val="True" />
+      <Anchor val="None" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#FF0000" />
+      <color val="#3E2500" />
+      <halign val="1" />
+      <valign val="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="12" />
+      <style val="1" />
+    </child>
+    <child type="BUTTON" name="btn_yes">
+      <asset type="NORMAL">
+      </asset>
+      <asset type="DOWN">
+      </asset>
+      <asset type="OVER">
+      </asset>
+      <asset type="DISABLE">
+      </asset>
+      <snd type="OVER">ui_btn_menu_over</snd>
+      <snd type="DOWN">ui_btn_menu_click</snd>
+      <pos x="42" y="98" />
+      <rect l="0" t="0" r="75" b="38" />
+      <Visible val="True" />
+      <Anchor val="None" />
+    </child>
+    <child type="BUTTON" name="btn_no">
+      <asset type="NORMAL">
+      </asset>
+      <asset type="DOWN">
+      </asset>
+      <asset type="OVER">
+      </asset>
+      <asset type="DISABLE">
+      </asset>
+      <snd type="OVER">ui_btn_menu_over</snd>
+      <snd type="DOWN">ui_btn_menu_click</snd>
+      <pos x="131" y="98" />
+      <rect l="0" t="0" r="75" b="38" />
+      <Visible val="True" />
+      <Anchor val="None" />
+    </child>
+    <child type="LABEL" name="txt_name">
+      <label val="" />
+      <pos x="73" y="29" />
+      <rect l="0" t="0" r="117" b="16" />
+      <Visible val="True" />
+      <Anchor val="None" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#FF0000" />
+      <color val="#3E2500" />
+      <halign val="0" />
+      <valign val="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="12" />
+      <style val="1" />
+    </child>
+    <child type="LABEL" name="lab_comment1">
+      <label val="초대를 수락하시겠습니까?" />
+      <pos x="27" y="76" />
+      <rect l="0" t="0" r="195" b="16" />
+      <Visible val="True" />
+      <Anchor val="None" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#FF0000" />
+      <color val="#3E2500" />
+      <halign val="1" />
+      <valign val="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="12" />
+      <style val="1" />
+    </child>
+  </base>
+</refresh>

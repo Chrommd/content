@@ -1,0 +1,529 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="_Disabled_">
+    <asset type="UI" name="asset_pet_color_over">
+      <rect l="0" t="0" r="38" b="41" />
+    </asset>
+    <asset type="UI" name="asset_icon_common_select">
+      <rect l="0" t="0" r="40" b="46" />
+    </asset>
+    <object name="pet_color_over" ani="ani_pet_color_over">
+      <asset type="UI" link="asset_pet_color_over" />
+    </object>
+    <object name="icon_common_select" ani="ani_icon_common_select">
+      <asset type="UI" link="asset_icon_common_select" />
+    </object>
+    <param type="RES" x="42" y="46" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_pet_color_over">
+      <frame cnt="0">
+        <posx val="0.02380952" />
+        <posy val="0.04347826" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_common_select">
+      <frame cnt="0">
+        <posx val="-0.02380952" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Normal_">
+    <asset type="UI" name="asset_pet_color_over">
+      <rect l="0" t="0" r="38" b="41" />
+    </asset>
+    <asset type="UI" name="asset_icon_common_select">
+      <rect l="0" t="0" r="40" b="46" />
+    </asset>
+    <asset type="UI" name="asset_pet_color_frame_11">
+      <rect l="0" t="0" r="18" b="19" />
+    </asset>
+    <asset type="UI" name="asset_pet_color_frame_12">
+      <rect l="0" t="0" r="19" b="16" />
+    </asset>
+    <asset type="UI" name="asset_pet_color_frame_13">
+      <rect l="0" t="0" r="17" b="17" />
+    </asset>
+    <asset type="UI" name="asset_pet_color_frame_14">
+      <rect l="0" t="0" r="19" b="19" />
+    </asset>
+    <object name="pet_color_over" ani="ani_pet_color_over">
+      <asset type="UI" link="asset_pet_color_over" />
+    </object>
+    <object name="icon_common_select" ani="ani_icon_common_select">
+      <asset type="UI" link="asset_icon_common_select" />
+    </object>
+    <object name="pet_color_frame_11" ani="ani_pet_color_frame_11">
+      <asset type="UI" link="asset_pet_color_frame_11" />
+    </object>
+    <object name="pet_color_frame_12" ani="ani_pet_color_frame_12">
+      <asset type="UI" link="asset_pet_color_frame_12" />
+    </object>
+    <object name="pet_color_frame_13" ani="ani_pet_color_frame_13">
+      <asset type="UI" link="asset_pet_color_frame_13" />
+    </object>
+    <object name="pet_color_frame_14" ani="ani_pet_color_frame_14">
+      <asset type="UI" link="asset_pet_color_frame_14" />
+    </object>
+    <param type="RES" x="42" y="46" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_pet_color_over">
+      <frame cnt="0">
+        <posx val="0.02380952" />
+        <posy val="0.04347826" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_common_select">
+      <frame cnt="0">
+        <posx val="-0.02380952" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_pet_color_frame_11">
+      <frame cnt="0">
+        <posx val="0.2619048" />
+        <posy val="0.6086956" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_pet_color_frame_12">
+      <frame cnt="0">
+        <posx val="0.452381" />
+        <posy val="0.326087" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_pet_color_frame_13">
+      <frame cnt="0">
+        <posx val="0.0952381" />
+        <posy val="0.3043478" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_pet_color_frame_14">
+      <frame cnt="0">
+        <posx val="0.2619048" />
+        <posy val="-0.02173913" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Over_">
+    <asset type="UI" name="asset_pet_color_over">
+      <rect l="0" t="0" r="38" b="41" />
+    </asset>
+    <asset type="UI" name="asset_icon_common_select">
+      <rect l="0" t="0" r="40" b="46" />
+    </asset>
+    <asset type="UI" name="asset_pet_color_frame_11">
+      <rect l="0" t="0" r="18" b="19" />
+    </asset>
+    <asset type="UI" name="asset_pet_color_frame_12">
+      <rect l="0" t="0" r="19" b="16" />
+    </asset>
+    <asset type="UI" name="asset_pet_color_frame_13">
+      <rect l="0" t="0" r="17" b="17" />
+    </asset>
+    <asset type="UI" name="asset_pet_color_frame_14">
+      <rect l="0" t="0" r="19" b="19" />
+    </asset>
+    <object name="pet_color_over" ani="ani_pet_color_over">
+      <asset type="UI" link="asset_pet_color_over" />
+    </object>
+    <object name="icon_common_select" ani="ani_icon_common_select">
+      <asset type="UI" link="asset_icon_common_select" />
+    </object>
+    <object name="pet_color_frame_11" ani="ani_pet_color_frame_11">
+      <asset type="UI" link="asset_pet_color_frame_11" />
+    </object>
+    <object name="pet_color_frame_12" ani="ani_pet_color_frame_12">
+      <asset type="UI" link="asset_pet_color_frame_12" />
+    </object>
+    <object name="pet_color_frame_13" ani="ani_pet_color_frame_13">
+      <asset type="UI" link="asset_pet_color_frame_13" />
+    </object>
+    <object name="pet_color_frame_14" ani="ani_pet_color_frame_14">
+      <asset type="UI" link="asset_pet_color_frame_14" />
+    </object>
+    <param type="RES" x="42" y="46" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_pet_color_over">
+      <frame cnt="0">
+        <posx val="0.02380952" />
+        <posy val="0.04347826" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.02380952" />
+        <posy val="0.04347826" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.71" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="667">
+        <posx val="0.02380952" />
+        <posy val="0.04347826" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.42" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_common_select">
+      <frame cnt="0">
+        <posx val="-0.02380952" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_pet_color_frame_11">
+      <frame cnt="0">
+        <posx val="0.2619048" />
+        <posy val="0.6086956" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="100">
+        <posx val="0.285714285714286" easeValue="0.0,0.0,0.4,1.0" />
+        <posy val="0.652173913043478" easeValue="0.0,0.0,0.4,1.0" />
+        <scalex val="0.888888888888889" easeValue="0.0,0.0,0.4,1.0" />
+        <scaley val="0.842105263157895" easeValue="0.0,0.0,0.4,1.0" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_pet_color_frame_12">
+      <frame cnt="0">
+        <posx val="0.452381" />
+        <posy val="0.326087" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="100">
+        <posx val="0.5" easeValue="0.0,0.0,0.4,1.0" />
+        <posy val="0.347826086956522" easeValue="0.0,0.0,0.4,1.0" />
+        <scalex val="0.842105263157895" easeValue="0.0,0.0,0.4,1.0" />
+        <scaley val="0.875" easeValue="0.0,0.0,0.4,1.0" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_pet_color_frame_13">
+      <frame cnt="0">
+        <posx val="0.0952381" />
+        <posy val="0.3043478" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="100">
+        <posx val="0.0952380952380952" easeValue="0.0,0.0,0.4,1.0" />
+        <posy val="0.326086956521739" easeValue="0.0,0.0,0.4,1.0" />
+        <scalex val="0.882352941176471" easeValue="0.0,0.0,0.4,1.0" />
+        <scaley val="0.882352941176471" easeValue="0.0,0.0,0.4,1.0" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_pet_color_frame_14">
+      <frame cnt="0">
+        <posx val="0.2619048" />
+        <posy val="-0.02173913" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="100">
+        <posx val="0.285714285714286" easeValue="0.0,0.0,0.4,1.0" />
+        <posy val="0" easeValue="0.0,0.0,0.4,1.0" />
+        <scalex val="0.842105263157895" easeValue="0.0,0.0,0.4,1.0" />
+        <scaley val="0.842105263157895" easeValue="0.0,0.0,0.4,1.0" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Selected_">
+    <asset type="UI" name="asset_pet_color_over">
+      <rect l="0" t="0" r="38" b="41" />
+    </asset>
+    <asset type="UI" name="asset_icon_common_select">
+      <rect l="0" t="0" r="40" b="46" />
+    </asset>
+    <asset type="UI" name="asset_pet_color_frame">
+      <rect l="0" t="0" r="40" b="44" />
+    </asset>
+    <asset type="UI" name="asset_pet_color_frame_11">
+      <rect l="0" t="0" r="18" b="19" />
+    </asset>
+    <asset type="UI" name="asset_pet_color_frame_12">
+      <rect l="0" t="0" r="19" b="16" />
+    </asset>
+    <asset type="UI" name="asset_pet_color_frame_13">
+      <rect l="0" t="0" r="17" b="17" />
+    </asset>
+    <asset type="UI" name="asset_pet_color_frame_14">
+      <rect l="0" t="0" r="19" b="19" />
+    </asset>
+    <object name="pet_color_over" ani="ani_pet_color_over">
+      <asset type="UI" link="asset_pet_color_over" />
+    </object>
+    <object name="icon_common_select" ani="ani_icon_common_select">
+      <asset type="UI" link="asset_icon_common_select" />
+    </object>
+    <object name="pet_color_frame" ani="ani_pet_color_frame">
+      <asset type="UI" link="asset_pet_color_frame" />
+    </object>
+    <object name="pet_color_frame_11" ani="ani_pet_color_frame_11">
+      <asset type="UI" link="asset_pet_color_frame_11" />
+    </object>
+    <object name="pet_color_frame_12" ani="ani_pet_color_frame_12">
+      <asset type="UI" link="asset_pet_color_frame_12" />
+    </object>
+    <object name="pet_color_frame_13" ani="ani_pet_color_frame_13">
+      <asset type="UI" link="asset_pet_color_frame_13" />
+    </object>
+    <object name="pet_color_frame_14" ani="ani_pet_color_frame_14">
+      <asset type="UI" link="asset_pet_color_frame_14" />
+    </object>
+    <param type="RES" x="42" y="46" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_pet_color_over">
+      <frame cnt="0">
+        <posx val="0.02380952" />
+        <posy val="0.04347826" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_common_select">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.0434782608695652" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_pet_color_frame">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <sound val="ui_btn_menu_page" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_pet_color_frame_11">
+      <frame cnt="0">
+        <posx val="0.285714285714286" />
+        <posy val="0.652173913043478" />
+        <scalex val="0.888888888888889" />
+        <scaley val="0.842105263157895" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="267">
+        <posx val="0.357142857142857" easeValue="0.0,0.0,0.4,1.0" />
+        <posy val="0.739130434782609" easeValue="0.0,0.0,0.4,1.0" />
+        <scalex val="0.555555555555556" easeValue="0.0,0.0,0.4,1.0" />
+        <scaley val="0.526315789473684" easeValue="0.0,0.0,0.4,1.0" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_pet_color_frame_12">
+      <frame cnt="0">
+        <posx val="0.5" />
+        <posy val="0.347826086956522" />
+        <scalex val="0.842105263157895" />
+        <scaley val="0.875" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="267">
+        <posx val="0.619047619047619" easeValue="0.0,0.0,0.4,1.0" />
+        <posy val="0.41304347826087" easeValue="0.0,0.0,0.4,1.0" />
+        <scalex val="0.526315789473684" easeValue="0.0,0.0,0.4,1.0" />
+        <scaley val="0.5" easeValue="0.0,0.0,0.4,1.0" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_pet_color_frame_13">
+      <frame cnt="0">
+        <posx val="0.0952380952380952" />
+        <posy val="0.326086956521739" />
+        <scalex val="0.882352941176471" />
+        <scaley val="0.882352941176471" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="267">
+        <posx val="0.142857142857143" easeValue="0.0,0.0,0.4,1.0" />
+        <posy val="0.41304347826087" easeValue="0.0,0.0,0.4,1.0" />
+        <scalex val="0.529411764705882" easeValue="0.0,0.0,0.4,1.0" />
+        <scaley val="0.529411764705882" easeValue="0.0,0.0,0.4,1.0" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_pet_color_frame_14">
+      <frame cnt="0">
+        <posx val="0.285714285714286" />
+        <posy val="0" />
+        <scalex val="0.842105263157895" />
+        <scaley val="0.842105263157895" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="267">
+        <posx val="0.357142857142857" easeValue="0.0,0.0,0.4,1.0" />
+        <posy val="0.0434782608695652" easeValue="0.0,0.0,0.4,1.0" />
+        <scalex val="0.526315789473684" easeValue="0.0,0.0,0.4,1.0" />
+        <scaley val="0.526315789473684" easeValue="0.0,0.0,0.4,1.0" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

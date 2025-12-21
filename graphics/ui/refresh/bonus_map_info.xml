@@ -1,0 +1,146 @@
+﻿<refresh version="2">
+	<properties>
+		<property name="DPI" val="72" />
+		<property name="UIAnimation" val="Bonus_Map_info_Animation.xml" />
+	</properties>
+	<base type="WND" subclass="" name="Wnd_Bonus_Map_info">
+		<pos x="0" y="0" />
+		<rect l="0" t="0" r="1024" b="768" />
+		<Visible val="True" />
+		<Anchor val="Top, Left, Right" />
+		<snd type="SHOW"></snd>
+		<snd type="HIDE"></snd>
+		<IsHitTestVisible val="True" />
+		<ClipChildren val="False" />
+		<child type="STACKPANEL" name="StackPanel" subclass="">
+			<pos x="0" y="21" />
+			<rect l="0" t="0" r="1024" b="161" />
+			<Visible val="True" />
+			<Anchor val="Top, Left, Right" />
+			<Orientation val="Vertical" />
+			<HAlign val="Center" />
+			<VAlign val="Top" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<child type="PANEL" name="Panel" subclass="">
+				<pos x="267" y="0" />
+				<rect l="0" t="0" r="489" b="159" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<embed src="" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+				<child type="PICTURE" name="bonus_frame_01" subclass="">
+					<asset type="STATIC">bonus_frame_01.png</asset>
+					<pos x="71" y="64" />
+					<rect l="0" t="0" r="346" b="88" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+					<child type="TEXTAREA" name="bonus_TextArea" subclass="">
+						<asset type="BG" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="8" t="8" r="284" b="53" />
+						</asset>
+						<asset type="EDGE_LT" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="0" t="0" r="8" b="8" />
+						</asset>
+						<asset type="EDGE_RT" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="0" t="0" r="8" b="8" />
+						</asset>
+						<asset type="EDGE_LB" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="0" t="0" r="8" b="8" />
+						</asset>
+						<asset type="EDGE_RB" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="0" t="0" r="8" b="8" />
+						</asset>
+						<asset type="FRAME_T" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="8" t="0" r="284" b="8" />
+						</asset>
+						<asset type="FRAME_B" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="8" t="0" r="284" b="8" />
+						</asset>
+						<asset type="FRAME_L" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="0" t="8" r="8" b="53" />
+						</asset>
+						<asset type="FRAME_R" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="0" t="8" r="8" b="53" />
+						</asset>
+						<asset type="CARET" path="">
+							<rpos x="0" y="0" />
+							<rect l="0" t="0" r="0" b="0" />
+						</asset>
+						<pos x="24" y="9" />
+						<rect l="0" t="0" r="300" b="69" />
+						<Visible val="True" />
+						<Anchor val="Top, Left" />
+						<Editable val="False" />
+						<OutlineColor val="#442D1AFF" />
+						<ShadowColor val="#0000004C" />
+						<SelectionBrush val="#FF0000" />
+						<color val="#6B5D54" />
+						<style val="17" />
+						<halign val="1" />
+						<padding l="0" t="2" r="0" b="2" />
+						<FontName val="나눔고딕" />
+						<FontSize val="15" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+						<FitToContent val="False" />
+						<Text val="" />
+					</child>
+				</child>
+				<child type="PICTURE" name="bonus_frame" subclass="">
+					<asset type="STATIC">bonus_frame.png</asset>
+					<pos x="39" y="3" />
+					<rect l="0" t="0" r="412" b="67" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+					<child type="PICTURE" name="bonus_map" subclass="">
+						<asset type="STATIC">bonus_map.png</asset>
+						<pos x="126" y="13" />
+						<rect l="0" t="0" r="163" b="22" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+				</child>
+				<child type="PICTURE" name="bonus_title_bg" subclass="">
+					<asset type="STATIC">bonus_line.png</asset>
+					<pos x="83" y="57" />
+					<rect l="0" t="0" r="6" b="21" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+				</child>
+				<child type="PICTURE" name="bonus_title_bg1" subclass="">
+					<asset type="STATIC">bonus_line.png</asset>
+					<pos x="402" y="57" />
+					<rect l="0" t="0" r="6" b="21" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+				</child>
+			</child>
+		</child>
+	</base>
+</refresh>

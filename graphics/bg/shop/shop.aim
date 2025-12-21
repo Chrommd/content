@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <event animation="idle_00">
+        <function>PlaySND($asset, "ob_shop_loop", "roof", "-var 0")</function>
+        <time>0.0000</time>
+        <freq>ONCE</freq>
+    </event>
+    <dummy name="roof" parent="Shop_Ctrl" sync="TRUE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.0000</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <dummy name="item_cam_fullshot" parent="Dummyroot" sync="TRUE" extra="">
+        <rotationX>0.0457</rotationX>
+        <rotationY>-0.7302</rotationY>
+        <rotationZ>0.0270</rotationZ>
+        <rotationW>0.6812</rotationW>
+        <offsetX>7.5467</offsetX>
+        <offsetY>3.1917</offsetY>
+        <offsetZ>-0.1054</offsetZ>
+    </dummy>
+    <action category="" state="G_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>idle_00</main>
+    </action>
+</aim>

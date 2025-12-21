@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="mate_getbaby_titlebg_efc1_Default">
+    <asset type="IMAGE" name="asset_img_wing_glow" path="img_wing_glow.png">
+      <rect l="0" t="0" r="500" b="155" />
+    </asset>
+    <object name="img_wing_glow" ani="ani_img_wing_glow">
+      <asset type="IMAGE" link="asset_img_wing_glow" />
+    </object>
+    <param type="RES" x="500" y="155" />
+    <param type="LOOP" cnt="-1" pendulum="0" />
+    <anim name="ani_img_wing_glow">
+      <frame cnt="0">
+        <posx val="0.5" />
+        <posy val="0.503225806451613" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.3" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="667">
+        <posx val="0.5" easeValue="0.3,0.0,1.0,1.0" />
+        <posy val="0.503225806451613" easeValue="0.3,0.0,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.7" easeValue="0.3,0.0,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="1333">
+        <posx val="0.5" easeValue="0.0,0.3,1.0,1.0" />
+        <posy val="0.503225806451613" easeValue="0.0,0.3,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.3" easeValue="0.0,0.3,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

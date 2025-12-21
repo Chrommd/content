@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="inven_list_item_s_Animation.xml" />
+  </properties>
+  <base type="WND" subclass="" name="ListItem">
+    <Visible val="True" />
+    <Anchor val="Top, Bottom, Left, Right" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="488" b="69" />
+    <IsHitTestVisible val="True" />
+    <child type="PICTURE" name="n_bg" subclass="">
+      <asset type="STATIC">btn_itemlist_n_dummy.png</asset>
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="487" b="69" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="False" />
+    </child>
+    <child type="PICTURE" name="s_bg" subclass="">
+      <asset type="STATIC">btn_itemlist_d_dummy.png</asset>
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="487" b="69" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="False" />
+    </child>
+    <child type="PICTURE" name="o_bg" subclass="">
+      <asset type="STATIC">btn_itemlist_o_dummy.png</asset>
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="487" b="69" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="False" />
+    </child>
+    <child type="PICTURE" name="item_image" subclass="">
+      <asset type="STATIC">
+      </asset>
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <pos x="9" y="3" />
+      <rect l="0" t="0" r="64" b="64" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="False" />
+    </child>
+    <child type="TEXTAREA" name="txt_itemdetail" subclass="">
+      <asset type="BG" path="">
+        <tex x="0" y="0" />
+        <rect l="8" t="8" r="188" b="20" />
+      </asset>
+      <asset type="EDGE_LT" path="">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_RT" path="">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_LB" path="">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_RB" path="">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="FRAME_T" path="">
+        <tex x="0" y="0" />
+        <rect l="8" t="0" r="188" b="8" />
+      </asset>
+      <asset type="FRAME_B" path="">
+        <tex x="0" y="0" />
+        <rect l="8" t="0" r="188" b="8" />
+      </asset>
+      <asset type="FRAME_L" path="">
+        <tex x="0" y="0" />
+        <rect l="0" t="8" r="8" b="20" />
+      </asset>
+      <asset type="FRAME_R" path="">
+        <tex x="0" y="0" />
+        <rect l="0" t="8" r="8" b="20" />
+      </asset>
+      <asset type="CARET" path="">
+        <rpos x="0" y="0" />
+        <rect l="0" t="0" r="0" b="0" />
+      </asset>
+      <pos x="82" y="26" />
+      <rect l="0" t="0" r="204" b="36" />
+      <Visible val="True" />
+      <Anchor val="None" />
+      <Editable val="False" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#E2CFC4" />
+      <SelectionBrush val="#FF0000" />
+      <color val="#44301B" />
+      <style val="32" />
+      <halign val="0" />
+      <padding l="0" t="0" r="0" b="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="13" />
+      <IsHitTestVisible val="False" />
+    </child>
+    <child type="LABEL" name="txt_itemname" subclass="">
+      <label val="" />
+      <pos x="81" y="5" />
+      <rect l="0" t="0" r="270" b="18" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#E2CFC4" />
+      <color val="#322920" />
+      <halign val="0" />
+      <valign val="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="13" />
+      <TextTrimming val="None" />
+      <style val="33" />
+      <IsHitTestVisible val="False" />
+    </child>
+    <base type="WND" subclass="" name="horse">
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <pos x="2" y="3" />
+      <rect l="0" t="0" r="283" b="26" />
+      <IsHitTestVisible val="False" />
+      <child type="LABEL" name="lb_horse_detail" subclass="">
+        <label val="" />
+        <pos x="5" y="3" />
+        <rect l="0" t="0" r="279" b="20" />
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#E2CFC4" />
+        <color val="#556D00" />
+        <halign val="0" />
+        <valign val="0" />
+        <FontName val="나눔고딕" />
+        <FontSize val="13" />
+        <TextTrimming val="None" />
+        <style val="32" />
+        <IsHitTestVisible val="False" />
+      </child>
+    </base>
+    <base type="WND" subclass="" name="char">
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <pos x="303" y="32" />
+      <rect l="0" t="0" r="168" b="25" />
+      <IsHitTestVisible val="False" />
+      <child type="LABEL" name="txt_level" subclass="">
+        <label val="" />
+        <pos x="105" y="4" />
+        <rect l="0" t="0" r="40" b="18" />
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#40291B" />
+        <color val="#556D00" />
+        <halign val="0" />
+        <valign val="0" />
+        <FontName val="나눔고딕" />
+        <FontSize val="13" />
+        <TextTrimming val="None" />
+        <FontName val="나눔고딕" />
+        <IsHitTestVisible val="False" />
+      </child>
+      <child type="LABEL" name="lb_level" subclass="">
+        <label val="레벨제한 : " />
+        <pos x="31" y="4" />
+        <rect l="0" t="0" r="77" b="18" />
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#E2CFC4" />
+        <color val="#556D00" />
+        <halign val="0" />
+        <valign val="0" />
+        <FontName val="나눔고딕" />
+        <FontSize val="13" />
+        <TextTrimming val="None" />
+        <FontName val="나눔고딕" />
+        <IsHitTestVisible val="False" />
+      </child>
+    </base>
+  </base>
+</refresh>

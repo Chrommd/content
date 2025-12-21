@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="UIAnimation" val="mission_target_window_Animation.xml" />
+  </properties>
+  <base type="WND" name="gui_mission_target">
+    <Visible val="True" />
+    <Anchor val="None" />
+    <pos x="300" y="116" />
+    <rect l="0" t="0" r="224" b="224" />
+    <child type="PICTURE" name="target_direct_laying2">
+      <asset type="STATIC">target_direct_laying2.png</asset>
+      <Visible val="True" />
+      <Anchor val="Top, Bottom, Left, Right" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="224" b="224" />
+      <center x="0" y="0" />
+    </child>
+    <child type="PICTURE" name="target_direct_laying1">
+      <asset type="STATIC">target_direct_laying1.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="74" y="77" />
+      <rect l="0" t="0" r="76" b="70" />
+      <center x="0" y="0" />
+    </child>
+    <child type="PICTURE" name="img_target_direct1">
+      <asset type="STATIC">target_direct_shot1.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="224" b="224" />
+      <center x="0" y="0" />
+    </child>
+    <child type="PICTURE" name="img_target_direct2">
+      <asset type="STATIC">target_direct_shot2.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="224" b="224" />
+      <center x="0" y="0" />
+    </child>
+    <child type="PICTURE" name="img_lock_on">
+      <asset type="STATIC">img_lock_on.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="80" y="152" />
+      <rect l="0" t="0" r="65" b="19" />
+      <center x="0" y="0" />
+    </child>
+  </base>
+</refresh>

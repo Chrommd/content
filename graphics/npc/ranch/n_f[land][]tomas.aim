@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <event animation="idle00">
+        <function>PlaySND($asset, "vo_thomas_taunt3", "root", "-var 0")</function>
+        <time>4.9173</time>
+        <freq>5</freq>
+    </event>
+    <event animation="idle01">
+        <function>PlaySND($asset, "npc_thomas_foot", "root", "-var 2")</function>
+        <time>1.7992</time>
+        <freq>100</freq>
+    </event>
+    <event animation="idle01">
+        <function>PlaySND($asset, "npc_thomas_foot", "root", "-var 2")</function>
+        <time>2.8046</time>
+        <freq>100</freq>
+    </event>
+    <event animation="idle01">
+        <function>PlaySND($asset, "npc_thomas_foot", "root", "-var 2")</function>
+        <time>6.5723</time>
+        <freq>100</freq>
+    </event>
+    <event animation="idle01">
+        <function>PlaySND($asset, "vo_thomas_taunt", "root", "-var 5")</function>
+        <time>0.2207</time>
+        <freq>100</freq>
+    </event>
+    <event animation="idle01">
+        <function>PlaySND($asset, "npc_thomas_foot", "root", "-var 2")</function>
+        <time>3.6515</time>
+        <freq>100</freq>
+    </event>
+    <event animation="idle01">
+        <function>PlaySND($asset, "npc_thomas_foot", "root", "-var 2")</function>
+        <time>8.0855</time>
+        <freq>100</freq>
+    </event>
+    <event animation="idle01">
+        <function>PlaySND($asset, "npc_thomas_foot", "root", "-var 2")</function>
+        <time>9.6303</time>
+        <freq>100</freq>
+    </event>
+    <event animation="idle01">
+        <function>PlaySND($asset, "npc_thomas_foot", "root", "-var 2")</function>
+        <time>10.2423</time>
+        <freq>100</freq>
+    </event>
+    <event animation="idle01">
+        <function>PlaySND($asset, "vo_thomas_taunt", "root", "-var 5")</function>
+        <time>3.6114</time>
+        <freq>50</freq>
+    </event>
+    <event animation="idle01">
+        <function>PlaySND($asset, "vo_thomas_taunt", "root", "-var 5")</function>
+        <time>6.5908</time>
+        <freq>100</freq>
+    </event>
+    <event animation="idle01">
+        <function>PlaySND($asset, "npc_thomas_whoosh", "root", "-var 2")</function>
+        <time>1.7145</time>
+        <freq>100</freq>
+    </event>
+    <event animation="idle01">
+        <function>PlaySND($asset, "npc_thomas_whoosh", "root", "-var 2")</function>
+        <time>7.8317</time>
+        <freq>100</freq>
+    </event>
+    <event animation="idle01">
+        <function>PlaySND($asset, "npc_thomas_whoosh", "root", "-var 2")</function>
+        <time>4.3392</time>
+        <freq>100</freq>
+    </event>
+    <event animation="idle01">
+        <function>PlaySND($asset, "npc_thomas_whoosh", "root", "-var 2")</function>
+        <time>4.8895</time>
+        <freq>100</freq>
+    </event>
+    <event animation="idle01">
+        <function>PlaySND($asset, "npc_thomas_whoosh", "root", "-var 2")</function>
+        <time>2.8046</time>
+        <freq>100</freq>
+    </event>
+    <event animation="idle01">
+        <function>PlaySND($asset, "npc_thomas_whoosh", "root", "-var 2")</function>
+        <time>5.3658</time>
+        <freq>100</freq>
+    </event>
+    <event animation="idle01">
+        <function>PlaySND($asset, "npc_thomas_whoosh", "root", "-var 2")</function>
+        <time>7.6140</time>
+        <freq>100</freq>
+    </event>
+    <event animation="move00">
+        <function>PlaySND($asset, "npc_thomas_foot", "root", "-var 2")</function>
+        <time>0.6219</time>
+        <freq>100</freq>
+    </event>
+    <event animation="move00">
+        <function>PlaySND($asset, "npc_thomas_foot", "root", "-var 2")</function>
+        <time>0.1469</time>
+        <freq>100</freq>
+    </event>
+    <event animation="move00">
+        <function>PlayFX($asset, "npc_impala_dust", "al", "")</function>
+        <time>0.1168</time>
+        <freq>100</freq>
+    </event>
+    <event animation="move00">
+        <function>PlayFX($asset, "npc_impala_dust", "ar", "")</function>
+        <time>0.5910</time>
+        <freq>100</freq>
+    </event>
+    <dummy name="root" parent="Dummyroot" sync="FALSE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.0000</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <dummy name="col_2_1.0" parent="Dummyroot" sync="FALSE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>1.1585</offsetY>
+        <offsetZ>-0.9236</offsetZ>
+    </dummy>
+    <dummy name="cam_0" parent="Dummyroot" sync="TRUE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>-0.0258</offsetX>
+        <offsetY>2.3527</offsetY>
+        <offsetZ>-7.8362</offsetZ>
+    </dummy>
+    <dummy name="cam_1" parent="Dummyroot" sync="TRUE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>-0.0201</offsetX>
+        <offsetY>2.9900</offsetY>
+        <offsetZ>-7.4678</offsetZ>
+    </dummy>
+    <dummy name="cam_2" parent="Dummyroot" sync="TRUE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>5.6200</offsetY>
+        <offsetZ>-8.2512</offsetZ>
+    </dummy>
+    <dummy name="npc_cam_front" parent="Dummyroot" sync="TRUE" extra="">
+        <rotationX>0.0004</rotationX>
+        <rotationY>0.9999</rotationY>
+        <rotationZ>-0.0148</rotationZ>
+        <rotationW>-0.0006</rotationW>
+        <offsetX>0.1003</offsetX>
+        <offsetY>1.2705</offsetY>
+        <offsetZ>4.0082</offsetZ>
+    </dummy>
+    <action category="" state="GREETING" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>greeting00</main>
+    </action>
+    <action category="" state="G_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>idle00</main>
+    </action>
+    <action category="" state="JUMP" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>move00</main>
+    </action>
+    <action category="" state="MONANI_01" prevState="" loop="0" weight="1" script="">
+    </action>
+    <action category="" state="MOVE_1ST" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>move00</main>
+    </action>
+    <action category="" state="MOVE_2ND" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>move00</main>
+    </action>
+    <action category="" state="MOVE_3RD" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>move00</main>
+    </action>
+    <action category="" state="MOVE_4TH" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>move00</main>
+    </action>
+    <action category="" state="MOVE_ZERO" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>move00</main>
+    </action>
+</aim>

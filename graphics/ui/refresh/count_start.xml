@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="count_start_Animation.xml" />
+  </properties>
+  <base type="WNDEX" name="WndEx">
+    <asset type="BG" path="">
+      <tex x="0" y="0" />
+      <rect l="8" t="8" r="1008" b="752" />
+    </asset>
+    <asset type="EDGE_LT" path="">
+      <tex x="0" y="0" />
+      <rect l="0" t="0" r="8" b="8" />
+    </asset>
+    <asset type="EDGE_RT" path="">
+      <tex x="0" y="0" />
+      <rect l="0" t="0" r="8" b="8" />
+    </asset>
+    <asset type="EDGE_LB" path="">
+      <tex x="0" y="0" />
+      <rect l="0" t="0" r="8" b="8" />
+    </asset>
+    <asset type="EDGE_RB" path="">
+      <tex x="0" y="0" />
+      <rect l="0" t="0" r="8" b="8" />
+    </asset>
+    <asset type="FRAME_T" path="">
+      <tex x="0" y="0" />
+      <rect l="8" t="0" r="1008" b="8" />
+    </asset>
+    <asset type="FRAME_B" path="">
+      <tex x="0" y="0" />
+      <rect l="8" t="0" r="1008" b="8" />
+    </asset>
+    <asset type="FRAME_L" path="">
+      <tex x="0" y="0" />
+      <rect l="0" t="8" r="8" b="752" />
+    </asset>
+    <asset type="FRAME_R" path="">
+      <tex x="0" y="0" />
+      <rect l="0" t="8" r="8" b="752" />
+    </asset>
+    <Visible val="True" />
+    <Anchor val="Top, Bottom, Left, Right" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="1024" b="768" />
+    <Dragable val="False" />
+    <StartPosition val="None" />
+    <EscKeyAction val="None" />
+    <child type="STACKPANEL" name="StackPanel">
+      <Visible val="True" />
+      <Anchor val="Top, Bottom, Left, Right" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="1024" b="768" />
+      <Orientation val="" />
+      <HAlign val="Center" />
+      <VAlign val="Center" />
+      <base type="WNDEX" name="count_test">
+        <asset type="BG" path="">
+          <tex x="0" y="0" />
+          <rect l="8" t="8" r="1008" b="752" />
+        </asset>
+        <asset type="EDGE_LT" path="">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="EDGE_RT" path="">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="EDGE_LB" path="">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="EDGE_RB" path="">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="FRAME_T" path="">
+          <tex x="0" y="0" />
+          <rect l="8" t="0" r="1008" b="8" />
+        </asset>
+        <asset type="FRAME_B" path="">
+          <tex x="0" y="0" />
+          <rect l="8" t="0" r="1008" b="8" />
+        </asset>
+        <asset type="FRAME_L" path="">
+          <tex x="0" y="0" />
+          <rect l="0" t="8" r="8" b="752" />
+        </asset>
+        <asset type="FRAME_R" path="">
+          <tex x="0" y="0" />
+          <rect l="0" t="8" r="8" b="752" />
+        </asset>
+        <Visible val="True" />
+        <Anchor val="Top, Bottom, Left, Right" />
+        <pos x="0" y="0" />
+        <rect l="0" t="0" r="1024" b="768" />
+        <Dragable val="False" />
+        <StartPosition val="None" />
+        <EscKeyAction val="None" />
+        <child type="PICTURE" name="3">
+          <asset type="STATIC">count_txt_3.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="459" y="287" />
+          <rect l="0" t="0" r="100" b="136" />
+          <center x="0" y="0" />
+        </child>
+        <child type="PICTURE" name="3-1">
+          <asset type="STATIC">count_txt_3.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="459" y="287" />
+          <rect l="0" t="0" r="100" b="136" />
+          <center x="0" y="0" />
+        </child>
+        <child type="PICTURE" name="2">
+          <asset type="STATIC">count_txt_2.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="459" y="287" />
+          <rect l="0" t="0" r="100" b="136" />
+          <center x="0" y="0" />
+        </child>
+        <child type="PICTURE" name="2-1">
+          <asset type="STATIC">count_txt_2.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="459" y="287" />
+          <rect l="0" t="0" r="100" b="136" />
+          <center x="0" y="0" />
+        </child>
+        <child type="PICTURE" name="1">
+          <asset type="STATIC">count_txt_1.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="459" y="287" />
+          <rect l="0" t="0" r="100" b="136" />
+          <center x="0" y="0" />
+        </child>
+        <child type="PICTURE" name="1-1">
+          <asset type="STATIC">count_txt_1.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="459" y="287" />
+          <rect l="0" t="0" r="100" b="136" />
+          <center x="0" y="0" />
+        </child>
+        <child type="PANEL" name="R_Panel">
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <pos x="489" y="260" />
+          <rect l="0" t="0" r="400" b="200" />
+          <child type="PICTURE" name="R_ef">
+            <asset type="STATIC">pattern_01.png</asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="16" y="118" />
+            <rect l="0" t="0" r="300" b="84" />
+            <center x="0" y="0" />
+          </child>
+          <child type="PICTURE" name="R_ft_1">
+            <asset type="STATIC">pattern_02.png</asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="151" y="112" />
+            <rect l="0" t="0" r="52" b="40" />
+            <center x="0" y="0" />
+          </child>
+          <child type="PICTURE" name="R_ft_2">
+            <asset type="STATIC">pattern_03.png</asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="178" y="117" />
+            <rect l="0" t="0" r="30" b="24" />
+            <center x="0" y="0" />
+          </child>
+          <child type="PICTURE" name="R_ft_3">
+            <asset type="STATIC">pattern_04.png</asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="188" y="93" />
+            <rect l="0" t="0" r="44" b="34" />
+            <center x="0" y="0" />
+          </child>
+          <child type="PICTURE" name="R_ft_4">
+            <asset type="STATIC">pattern_05.png</asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="206" y="104" />
+            <rect l="0" t="0" r="46" b="30" />
+            <center x="0" y="0" />
+          </child>
+          <child type="PICTURE" name="R_ft_5">
+            <asset type="STATIC">pattern_07.png</asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="246" y="121" />
+            <rect l="0" t="0" r="54" b="28" />
+            <center x="0" y="0" />
+          </child>
+        </child>
+        <child type="PANEL" name="L_Panel">
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <pos x="109" y="260" />
+          <rect l="0" t="0" r="400" b="200" />
+          <child type="PICTURE" name="L_ef">
+            <asset type="STATIC">pattern_01_l.png</asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="161" y="118" />
+            <rect l="0" t="0" r="300" b="84" />
+            <center x="0" y="0" />
+          </child>
+          <child type="PICTURE" name="L_ft_1">
+            <asset type="STATIC">pattern_02_l.png</asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="232" y="112" />
+            <rect l="0" t="0" r="52" b="40" />
+            <center x="0" y="0" />
+          </child>
+          <child type="PICTURE" name="L_ft_2">
+            <asset type="STATIC">pattern_03_l.png</asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="213" y="117" />
+            <rect l="0" t="0" r="30" b="24" />
+            <center x="0" y="0" />
+          </child>
+          <child type="PICTURE" name="L_ft_3">
+            <asset type="STATIC">pattern_04_l.png</asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="200" y="93" />
+            <rect l="0" t="0" r="44" b="34" />
+            <center x="0" y="0" />
+          </child>
+          <child type="PICTURE" name="L_ft_4">
+            <asset type="STATIC">pattern_05_l.png</asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="176" y="104" />
+            <rect l="0" t="0" r="46" b="30" />
+            <center x="0" y="0" />
+          </child>
+          <child type="PICTURE" name="L_ft_5">
+            <asset type="STATIC">pattern_07_l.png</asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="128" y="121" />
+            <rect l="0" t="0" r="54" b="28" />
+            <center x="0" y="0" />
+          </child>
+        </child>
+        <child type="PICTURE" name="start_txt">
+          <asset type="STATIC">count_start2.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="291" y="301" />
+          <rect l="0" t="0" r="436" b="122" />
+          <center x="0" y="0" />
+        </child>
+        <child type="PICTURE" name="start_txt1">
+          <asset type="STATIC">count_start2.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="291" y="301" />
+          <rect l="0" t="0" r="436" b="122" />
+          <center x="0" y="0" />
+        </child>
+        <child type="PICTURE" name="start_hl">
+          <asset type="STATIC">count_start2_hl.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="289" y="297" />
+          <rect l="0" t="0" r="440" b="126" />
+          <center x="0" y="0" />
+        </child>
+        <child type="PICTURE" name="ready_txt1">
+          <asset type="STATIC">count_txt_ready.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="276" y="301" />
+          <rect l="0" t="0" r="466" b="122" />
+          <center x="0" y="0" />
+        </child>
+      </base>
+    </child>
+  </base>
+</refresh>

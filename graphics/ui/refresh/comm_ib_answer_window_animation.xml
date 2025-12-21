@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="_Opening_">
+    <asset type="UI" name="asset_icon_horse_answer2">
+      <rect l="0" t="0" r="37" b="41" />
+    </asset>
+    <asset type="UI" name="asset_icon_horse_answer1">
+      <rect l="0" t="0" r="26" b="26" />
+    </asset>
+    <object name="icon_horse_answer2" ani="ani_icon_horse_answer2">
+      <asset type="UI" link="asset_icon_horse_answer2" />
+    </object>
+    <object name="icon_horse_answer1" ani="ani_icon_horse_answer1">
+      <asset type="UI" link="asset_icon_horse_answer1" />
+    </object>
+    <param type="RES" x="37" y="41" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_icon_horse_answer2">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.24390243902439" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="100">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="967">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1200">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_horse_answer1">
+      <frame cnt="0">
+        <posx val="0.135135135135135" />
+        <posy val="0.365853658536585" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="100">
+        <posx val="0.135135135135135" />
+        <posy val="0.121951219512195" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <sound val="ranch_horse_look_st" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="967">
+        <posx val="0.135135135135135" />
+        <posy val="0.121951219512195" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1200">
+        <posx val="0.135135135135135" />
+        <posy val="0.121951219512195" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Closing_">
+    <asset type="UI" name="asset_icon_horse_answer2">
+      <rect l="0" t="0" r="37" b="41" />
+    </asset>
+    <asset type="UI" name="asset_icon_horse_answer1">
+      <rect l="0" t="0" r="26" b="26" />
+    </asset>
+    <object name="icon_horse_answer2" ani="ani_icon_horse_answer2">
+      <asset type="UI" link="asset_icon_horse_answer2" />
+    </object>
+    <object name="icon_horse_answer1" ani="ani_icon_horse_answer1">
+      <asset type="UI" link="asset_icon_horse_answer1" />
+    </object>
+    <param type="RES" x="37" y="41" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_icon_horse_answer2">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_horse_answer1">
+      <frame cnt="0">
+        <posx val="0.1351351" />
+        <posy val="0.1219512" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

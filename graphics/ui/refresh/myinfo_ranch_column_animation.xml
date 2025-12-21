@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="_Normal_">
+    <param type="RES" x="399" y="89" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+  </scene>
+  <scene name="_Over_">
+    <param type="RES" x="399" y="89" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+  </scene>
+  <scene name="_Selected_">
+    <param type="RES" x="399" y="89" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+  </scene>
+  <scene name="_Disabled_">
+    <asset type="UI" name="asset_btn_myinfo_ranch_list_Normal">
+      <rect l="0" t="0" r="399" b="96" />
+    </asset>
+    <asset type="UI" name="asset_pic_myinfo_ranch_img_dummy">
+      <rect l="0" t="0" r="120" b="76" />
+    </asset>
+    <asset type="UI" name="asset_pic_myinfo_ranch_atttr_1">
+      <rect l="0" t="0" r="40" b="40" />
+    </asset>
+    <asset type="UI" name="asset_lb_myinfo_ranch_list_name">
+      <rect l="0" t="0" r="239" b="21" />
+    </asset>
+    <asset type="UI" name="asset_lb_myinfo_ranch_list_name1">
+      <rect l="0" t="0" r="239" b="17" />
+    </asset>
+    <asset type="UI" name="asset_wnd_myinfo_ranch_list_on">
+      <rect l="0" t="0" r="399" b="96" />
+    </asset>
+    <asset type="UI" name="asset_wnd_myinfo_ranch_list_off">
+      <rect l="0" t="0" r="399" b="96" />
+    </asset>
+    <asset type="UI" name="asset_wnd_myinfo_ranch_list_effect">
+      <rect l="0" t="0" r="399" b="96" />
+    </asset>
+    <object name="btn_myinfo_ranch_list_Normal" ani="ani_btn_myinfo_ranch_list_Normal">
+      <asset type="UI" link="asset_btn_myinfo_ranch_list_Normal" />
+    </object>
+    <object name="pic_myinfo_ranch_img_dummy" ani="ani_pic_myinfo_ranch_img_dummy">
+      <asset type="UI" link="asset_pic_myinfo_ranch_img_dummy" />
+    </object>
+    <object name="pic_myinfo_ranch_atttr_1" ani="ani_pic_myinfo_ranch_atttr_1">
+      <asset type="UI" link="asset_pic_myinfo_ranch_atttr_1" />
+    </object>
+    <object name="lb_myinfo_ranch_list_name" ani="ani_lb_myinfo_ranch_list_name">
+      <asset type="UI" link="asset_lb_myinfo_ranch_list_name" />
+    </object>
+    <object name="lb_myinfo_ranch_list_name1" ani="ani_lb_myinfo_ranch_list_name1">
+      <asset type="UI" link="asset_lb_myinfo_ranch_list_name1" />
+    </object>
+    <object name="wnd_myinfo_ranch_list_on" ani="ani_wnd_myinfo_ranch_list_on">
+      <asset type="UI" link="asset_wnd_myinfo_ranch_list_on" />
+    </object>
+    <object name="wnd_myinfo_ranch_list_off" ani="ani_wnd_myinfo_ranch_list_off">
+      <asset type="UI" link="asset_wnd_myinfo_ranch_list_off" />
+    </object>
+    <object name="wnd_myinfo_ranch_list_effect" ani="ani_wnd_myinfo_ranch_list_effect">
+      <asset type="UI" link="asset_wnd_myinfo_ranch_list_effect" />
+    </object>
+    <param type="RES" x="399" y="89" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_btn_myinfo_ranch_list_Normal">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_pic_myinfo_ranch_img_dummy">
+      <frame cnt="0">
+        <posx val="0.01754386" />
+        <posy val="0.1573034" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_pic_myinfo_ranch_atttr_1">
+      <frame cnt="0">
+        <posx val="0.007518797" />
+        <posy val="0.04494382" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_lb_myinfo_ranch_list_name">
+      <frame cnt="0">
+        <posx val="0.3408521" />
+        <posy val="0.06741573" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_lb_myinfo_ranch_list_name1">
+      <frame cnt="0">
+        <posx val="0.3408521" />
+        <posy val="0.5280899" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_wnd_myinfo_ranch_list_on">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.01123596" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_wnd_myinfo_ranch_list_off">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.01123596" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_wnd_myinfo_ranch_list_effect">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="_Opening_">
+    <asset type="UI" name="asset_StackPanel">
+      <rect l="0" t="0" r="1024" b="161" />
+    </asset>
+    <asset type="UI" name="asset_Panel">
+      <rect l="0" t="0" r="489" b="159" />
+    </asset>
+    <asset type="UI" name="asset_bonus_frame_01">
+      <rect l="0" t="0" r="346" b="88" />
+    </asset>
+    <object name="StackPanel" ani="ani_StackPanel">
+      <asset type="UI" link="asset_StackPanel" />
+    </object>
+    <object name="Panel" ani="ani_Panel">
+      <asset type="UI" link="asset_Panel" />
+    </object>
+    <object name="bonus_frame_01" ani="ani_bonus_frame_01">
+      <asset type="UI" link="asset_bonus_frame_01" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_StackPanel">
+      <frame cnt="33">
+        <posx val="0" />
+        <posy val="0.02734375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <sound val="result_stamp_clear_st" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_Panel">
+      <frame cnt="0">
+        <posx val="0.2587890625" />
+        <posy val="-0.0260416666666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="567">
+        <posx val="0.2587890625" easeValue="0.0,0.0,0.4,1.0" />
+        <posy val="0" easeValue="0.0,0.0,0.4,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,0.0,0.4,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_bonus_frame_01">
+      <frame cnt="0">
+        <posx val="0.0693359375" />
+        <posy val="0.08203125" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="400">
+        <posx val="0.0693359375" />
+        <posy val="0.0559895833333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="800">
+        <posx val="0.0693359375" easeValue="0.0,0.0,0.4,1.0" />
+        <posy val="0.08203125" easeValue="0.0,0.0,0.4,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,0.0,0.4,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Closing_">
+    <asset type="UI" name="asset_Panel">
+      <rect l="0" t="0" r="489" b="159" />
+    </asset>
+    <object name="Panel" ani="ani_Panel">
+      <asset type="UI" link="asset_Panel" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_Panel">
+      <frame cnt="0">
+        <posx val="0.2587890625" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="667">
+        <posx val="0.2587890625" easeValue="0.0,0.0,0.4,1.0" />
+        <posy val="-0.0260416666666667" easeValue="0.0,0.0,0.4,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

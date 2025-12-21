@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="notice_msg_window_Animation.xml" />
+  </properties>
+  <base type="WND" name="notice_msg_window">
+    <Visible val="True" />
+    <Anchor val="Left, Right" />
+    <pos x="0" y="177" />
+    <rect l="0" t="0" r="1024" b="121" />
+    <child type="STACKPANEL" name="anchor">
+      <Visible val="True" />
+      <Anchor val="Left, Right" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="1024" b="121" />
+      <Orientation val="" />
+      <HAlign val="Center" />
+      <VAlign val="Center" />
+      <base type="WNDEX" name="notice_msg">
+        <asset type="BG" path="frm_system_msg_b_04.png">
+          <tex x="10" y="28" />
+          <rect l="30" t="65" r="328" b="28" />
+        </asset>
+        <asset type="EDGE_LT" path="frm_system_msg_b_00.png">
+          <tex x="30" y="65" />
+          <rect l="0" t="0" r="30" b="65" />
+        </asset>
+        <asset type="EDGE_RT" path="frm_system_msg_b_02.png">
+          <tex x="30" y="65" />
+          <rect l="0" t="0" r="30" b="65" />
+        </asset>
+        <asset type="EDGE_LB" path="frm_system_msg_b_06.png">
+          <tex x="30" y="28" />
+          <rect l="0" t="0" r="30" b="28" />
+        </asset>
+        <asset type="EDGE_RB" path="frm_system_msg_b_08.png">
+          <tex x="30" y="28" />
+          <rect l="0" t="0" r="30" b="28" />
+        </asset>
+        <asset type="FRAME_T" path="frm_system_msg_b_01.png">
+          <tex x="10" y="65" />
+          <rect l="30" t="0" r="328" b="65" />
+        </asset>
+        <asset type="FRAME_B" path="frm_system_msg_b_07.png">
+          <tex x="10" y="28" />
+          <rect l="30" t="0" r="328" b="28" />
+        </asset>
+        <asset type="FRAME_L" path="frm_system_msg_b_03.png">
+          <tex x="30" y="28" />
+          <rect l="0" t="65" r="30" b="28" />
+        </asset>
+        <asset type="FRAME_R" path="frm_system_msg_b_05.png">
+          <tex x="30" y="28" />
+          <rect l="0" t="65" r="30" b="28" />
+        </asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="318" y="0" />
+        <rect l="0" t="0" r="388" b="121" />
+        <Dragable val="False" />
+        <StartPosition val="CenterScreen" />
+        <EscKeyAction val="None" />
+        <child type="TEXTAREA" name="txt_msg">
+          <asset type="BG" path="">
+            <tex x="0" y="0" />
+            <rect l="8" t="8" r="372" b="21" />
+          </asset>
+          <asset type="EDGE_LT" path="">
+            <tex x="0" y="0" />
+            <rect l="0" t="0" r="8" b="8" />
+          </asset>
+          <asset type="EDGE_RT" path="">
+            <tex x="0" y="0" />
+            <rect l="0" t="0" r="8" b="8" />
+          </asset>
+          <asset type="EDGE_LB" path="">
+            <tex x="0" y="0" />
+            <rect l="0" t="0" r="8" b="8" />
+          </asset>
+          <asset type="EDGE_RB" path="">
+            <tex x="0" y="0" />
+            <rect l="0" t="0" r="8" b="8" />
+          </asset>
+          <asset type="FRAME_T" path="">
+            <tex x="0" y="0" />
+            <rect l="8" t="0" r="372" b="8" />
+          </asset>
+          <asset type="FRAME_B" path="">
+            <tex x="0" y="0" />
+            <rect l="8" t="0" r="372" b="8" />
+          </asset>
+          <asset type="FRAME_L" path="">
+            <tex x="0" y="0" />
+            <rect l="0" t="8" r="8" b="21" />
+          </asset>
+          <asset type="FRAME_R" path="">
+            <tex x="0" y="0" />
+            <rect l="0" t="8" r="8" b="21" />
+          </asset>
+          <asset type="CARET" path="">
+            <rpos x="0" y="0" />
+            <rect l="0" t="0" r="0" b="0" />
+          </asset>
+          <pos x="0" y="42" />
+          <rect l="0" t="0" r="388" b="37" />
+          <Visible val="True" />
+          <Anchor val="None" />
+          <Editable val="False" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#030200" />
+          <color val="#FFFFFF" />
+          <style val="32" />
+          <halign val="1" />
+          <padding l="0" t="0" r="0" b="0" />
+          <FontName val="나눔고딕" />
+          <FontSize val="14" />
+        </child>
+      </base>
+    </child>
+  </base>
+</refresh>

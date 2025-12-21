@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="result_myinfo_lvup_window_Animation.xml" />
+  </properties>
+  <base type="WND" subclass="" name="result_myinfo_lvup_Wnd">
+    <Visible val="True" />
+    <Anchor val="Bottom, Left, Right" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="1024" b="768" />
+    <snd type="SHOW">
+    </snd>
+    <snd type="HIDE">
+    </snd>
+    <IsHitTestVisible val="True" />
+    <ClipChildren val="False" />
+    <child type="STACKPANEL" name="StackPanel" subclass="">
+      <Visible val="True" />
+      <Anchor val="Bottom, Left, Right" />
+      <pos x="135" y="660" />
+      <rect l="0" t="0" r="754" b="96" />
+      <Orientation val="Vertical" />
+      <HAlign val="Center" />
+      <VAlign val="Center" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <base type="WNDEX" subclass="" name="result_myiinfo_lvup">
+        <asset type="BG" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="8" t="8" r="738" b="80" />
+        </asset>
+        <asset type="EDGE_LT" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="EDGE_RT" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="EDGE_LB" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="EDGE_RB" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="FRAME_T" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="8" t="0" r="738" b="8" />
+        </asset>
+        <asset type="FRAME_B" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="8" t="0" r="738" b="8" />
+        </asset>
+        <asset type="FRAME_L" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="0" t="8" r="8" b="80" />
+        </asset>
+        <asset type="FRAME_R" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="0" t="8" r="8" b="80" />
+        </asset>
+        <Visible val="True" />
+        <Anchor val="Top, Bottom, Left, Right" />
+        <pos x="0" y="0" />
+        <rect l="0" t="0" r="754" b="96" />
+        <snd type="SHOW">
+        </snd>
+        <snd type="HIDE">
+        </snd>
+        <Dragable val="False" />
+        <StartPosition val="None" />
+        <EscKeyAction val="None" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <child type="PICTURE" name="img_myinfo_bg_blink" subclass="">
+          <asset type="STATIC">
+          </asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="0" y="0" />
+          <rect l="0" t="0" r="754" b="96" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+          <child type="PICTURE" name="img_icon_Lvup" subclass="">
+            <asset type="STATIC">Result_Icon_LvUp_self.png</asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="293" y="-4" />
+            <rect l="0" t="0" r="105" b="37" />
+            <center x="0" y="0" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+          </child>
+          <child type="PICTURE" name="img_icon_Lvup2" subclass="">
+            <asset type="STATIC">Result_Icon_LvUp_self.png</asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="293" y="-4" />
+            <rect l="0" t="0" r="105" b="37" />
+            <center x="0" y="0" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+          </child>
+        </child>
+      </base>
+    </child>
+  </base>
+</refresh>

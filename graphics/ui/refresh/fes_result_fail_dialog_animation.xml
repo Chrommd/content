@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="_Opening_">
+    <asset type="UI" name="asset_fes_result_fail">
+      <rect l="0" t="0" r="430" b="300" />
+    </asset>
+    <asset type="UI" name="asset_img_ms_failed_innerbox">
+      <rect l="0" t="0" r="300" b="70" />
+    </asset>
+    <asset type="UI" name="asset_txt_ms_failed">
+      <rect l="0" t="0" r="270" b="34" />
+    </asset>
+    <asset type="UI" name="asset_img_ms_failed">
+      <rect l="0" t="0" r="260" b="92" />
+    </asset>
+    <asset type="UI" name="asset_txt_title_fesresult">
+      <rect l="0" t="0" r="250" b="22" />
+    </asset>
+    <object name="fes_result_fail" ani="ani_fes_result_fail">
+      <asset type="UI" link="asset_fes_result_fail" />
+    </object>
+    <object name="img_ms_failed_innerbox" ani="ani_img_ms_failed_innerbox">
+      <asset type="UI" link="asset_img_ms_failed_innerbox" />
+    </object>
+    <object name="txt_ms_failed" ani="ani_txt_ms_failed">
+      <asset type="UI" link="asset_txt_ms_failed" />
+    </object>
+    <object name="img_ms_failed" ani="ani_img_ms_failed">
+      <asset type="UI" link="asset_img_ms_failed" />
+    </object>
+    <object name="txt_title_fesresult" ani="ani_txt_title_fesresult">
+      <asset type="UI" link="asset_txt_title_fesresult" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_fes_result_fail">
+      <frame cnt="0">
+        <posx val="0.2900390625" />
+        <posy val="0.279947916666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.2900390625" easeValue="0.0,0.5,1.0,1.0" />
+        <posy val="0.260416666666667" easeValue="0.0,0.5,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,0.5,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_ms_failed_innerbox">
+      <frame cnt="0">
+        <posx val="0.06347656" />
+        <posy val="0.2395833" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="367">
+        <posx val="0.06347656" />
+        <posy val="0.2395833" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="700">
+        <posx val="0.06347656" />
+        <posy val="0.2395833" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,0.5,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_txt_ms_failed">
+      <frame cnt="0">
+        <posx val="0.01367188" />
+        <posy val="0.0234375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="367">
+        <posx val="0.01367188" />
+        <posy val="0.0234375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="700">
+        <posx val="0.01367188" />
+        <posy val="0.0234375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_ms_failed">
+      <frame cnt="0">
+        <posx val="0.08300781" />
+        <posy val="0.09765625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <sound val="ui_event_open" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="267">
+        <posx val="0.0830078125" />
+        <posy val="0.110677083333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="600">
+        <posx val="0.0830078125" easeValue="0.0,0.5,1.0,1.0" />
+        <posy val="0.09765625" easeValue="0.0,0.5,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,0.5,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_txt_title_fesresult">
+      <frame cnt="0">
+        <posx val="0.08300781" />
+        <posy val="0.02994792" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.08300781" />
+        <posy val="0.02994792" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Closing_">
+    <asset type="UI" name="asset_fes_result_fail">
+      <rect l="0" t="0" r="430" b="300" />
+    </asset>
+    <object name="fes_result_fail" ani="ani_fes_result_fail">
+      <asset type="UI" link="asset_fes_result_fail" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_fes_result_fail">
+      <frame cnt="0">
+        <posx val="0.2900391" />
+        <posy val="0.2604167" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.2900390625" easeValue="0.0,0.5,1.0,1.0" />
+        <posy val="0.279947916666667" easeValue="0.0,0.5,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" easeValue="0.0,0.5,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

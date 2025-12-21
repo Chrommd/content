@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="gui_leave_tooltip_window_Animation.xml" />
+  </properties>
+  <base type="WND" subclass="" name="gui_leave_tooltip">
+    <Visible val="True" />
+    <Anchor val="Top, Left" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="88" b="97" />
+    <child type="PANEL" name="leave_cancel" subclass="">
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="88" b="97" />
+      <child type="PICTURE" name="img_tip_leave_cancel" subclass="">
+        <asset type="ANIMATION">gui_leave_tooltip_window_img_tip_leave_cancel.xml</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="22" y="57" />
+        <rect l="0" t="0" r="54" b="25" />
+        <center x="0" y="0" />
+      </child>
+      <child type="PICTURE" name="img_esc_select" subclass="">
+        <asset type="STATIC">img_esc_select.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="14" y="12" />
+        <rect l="0" t="0" r="70" b="57" />
+        <center x="0" y="0" />
+      </child>
+    </child>
+    <child type="PANEL" name="leave" subclass="">
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="88" b="97" />
+      <child type="PICTURE" name="img_tip_leave" subclass="">
+        <asset type="STATIC">tooltip_leave.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="10" y="55" />
+        <rect l="0" t="0" r="78" b="42" />
+        <center x="0" y="0" />
+      </child>
+      <child type="PICTURE" name="img_esc_unselect" subclass="">
+        <asset type="STATIC">img_esc_unselect.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="14" y="12" />
+        <rect l="0" t="0" r="70" b="57" />
+        <center x="0" y="0" />
+      </child>
+      <child type="PICTURE" name="img_esc_click" subclass="">
+        <asset type="ANIMATION">gui_leave_tooltip_window_img_esc_click.xml</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="40" y="13" />
+        <rect l="0" t="0" r="18" b="21" />
+        <center x="0" y="0" />
+      </child>
+    </child>
+  </base>
+</refresh>

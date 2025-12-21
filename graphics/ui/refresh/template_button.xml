@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+  </properties>
+  <base type="WNDEX" subclass="" name="WndEx">
+    <asset type="BG" path="">
+      <tex x="0" y="0" />
+      <rect l="8" t="8" r="124" b="26" />
+    </asset>
+    <asset type="EDGE_LT" path="">
+      <tex x="0" y="0" />
+      <rect l="0" t="0" r="8" b="8" />
+    </asset>
+    <asset type="EDGE_RT" path="">
+      <tex x="0" y="0" />
+      <rect l="0" t="0" r="8" b="8" />
+    </asset>
+    <asset type="EDGE_LB" path="">
+      <tex x="0" y="0" />
+      <rect l="0" t="0" r="8" b="8" />
+    </asset>
+    <asset type="EDGE_RB" path="">
+      <tex x="0" y="0" />
+      <rect l="0" t="0" r="8" b="8" />
+    </asset>
+    <asset type="FRAME_T" path="">
+      <tex x="0" y="0" />
+      <rect l="8" t="0" r="124" b="8" />
+    </asset>
+    <asset type="FRAME_B" path="">
+      <tex x="0" y="0" />
+      <rect l="8" t="0" r="124" b="8" />
+    </asset>
+    <asset type="FRAME_L" path="">
+      <tex x="0" y="0" />
+      <rect l="0" t="8" r="8" b="26" />
+    </asset>
+    <asset type="FRAME_R" path="">
+      <tex x="0" y="0" />
+      <rect l="0" t="8" r="8" b="26" />
+    </asset>
+    <Visible val="True" />
+    <Anchor val="Top, Left" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="140" b="42" />
+    <Dragable val="False" />
+    <StartPosition val="None" />
+    <EscKeyAction val="None" />
+    <IsHitTestVisible val="True" />
+    <child type="LABEL" name="label" subclass="">
+      <label val="" />
+      <pos x="12" y="10" />
+      <rect l="0" t="0" r="107" b="20" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <OutlineColor val="#F7F7F7" />
+      <ShadowColor val="#FF0000" />
+      <color val="#000000" />
+      <halign val="1" />
+      <valign val="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="14" />
+      <TextTrimming val="None" />
+      <FontName val="나눔고딕" />
+      <IsHitTestVisible val="False" />
+    </child>
+    <child type="BUTTON" subclass="" name="btn">
+      <asset type="NORMAL">help_btn_n.png</asset>
+      <asset type="DOWN">help_btn_d.png</asset>
+      <asset type="OVER">help_btn_o.png</asset>
+      <asset type="DISABLE">help_btn_dis.png</asset>
+      <snd type="OVER">
+      </snd>
+      <snd type="DOWN">
+      </snd>
+      <snd type="RELEASE">
+      </snd>
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="140" b="42" />
+      <Visible val="True" />
+      <IsHitTestVisible val="True" />
+      <Anchor val="Top, Left" />
+    </child>
+  </base>
+</refresh>

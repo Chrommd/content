@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <event animation="_initialize_">
+        <function>PlayFX($asset, "ob_fire_02", "to", "")</function>
+        <time>0.0000</time>
+        <freq>ONCE</freq>
+    </event>
+    <event animation="_initialize_">
+        <function>PlaySND($asset, "fire_loop_small", "to", "-var 0")</function>
+        <time>0.0000</time>
+        <freq>ONCE</freq>
+    </event>
+    <dummy name="to" parent="ri_fore_torchlight01" sync="TRUE">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>-0.5492</offsetX>
+        <offsetY>3.3324</offsetY>
+        <offsetZ>-0.0071</offsetZ>
+    </dummy>
+</aim>

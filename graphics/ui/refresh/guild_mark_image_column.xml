@@ -1,0 +1,165 @@
+﻿<refresh version="2">
+	<properties>
+		<property name="DPI" val="72" />
+		<property name="UIAnimation" val="guild_mark_image_column_Animation.xml" />
+	</properties>
+	<base type="WND" subclass="" name="Wnd_guild_mark_colum">
+		<pos x="0" y="0" />
+		<rect l="0" t="0" r="102" b="102" />
+		<Visible val="True" />
+		<Anchor val="Top, Left" />
+		<snd type="SHOW"></snd>
+		<snd type="HIDE"></snd>
+		<IsHitTestVisible val="True" />
+		<ClipChildren val="False" />
+		<child type="PICTURE" name="slot_b_BG" subclass="">
+			<asset type="STATIC">item_slot_Dis.png</asset>
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="100" b="100" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="slot_b_n" subclass="">
+			<asset type="STATIC">item_slot_Normal.png</asset>
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="100" b="100" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="slot_b_d" subclass="">
+			<asset type="STATIC">item_slot_Hover.png</asset>
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="100" b="100" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="item_slot_Sel" subclass="">
+			<asset type="STATIC">item_slot_Sel.png</asset>
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="100" b="100" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="item_icon" subclass="">
+			<asset type="STATIC"></asset>
+			<pos x="7" y="8" />
+			<rect l="0" t="0" r="85" b="85" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="icon_common_select" subclass="">
+			<asset type="STATIC">icon_common_select.png</asset>
+			<pos x="72" y="7" />
+			<rect l="0" t="0" r="22" b="23" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="img_mark_locked" subclass="">
+			<asset type="STATIC">guild_mark_list_lock_bg.png</asset>
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="100" b="100" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+			<base type="WNDEX" subclass="" name="WndEx">
+				<asset type="BG" path="frm_tooltip_title_CenterMiddle.png" tileMode="Stretch">
+					<tex x="4" y="4" />
+					<rect l="5" t="5" r="88" b="10" />
+				</asset>
+				<asset type="EDGE_LT" path="frm_tooltip_title_LeftTop.png" tileMode="Stretch">
+					<tex x="5" y="5" />
+					<rect l="0" t="0" r="5" b="5" />
+				</asset>
+				<asset type="EDGE_RT" path="frm_tooltip_title_RightTop.png" tileMode="Stretch">
+					<tex x="5" y="5" />
+					<rect l="0" t="0" r="5" b="5" />
+				</asset>
+				<asset type="EDGE_LB" path="frm_tooltip_title_LeftBottom.png" tileMode="Stretch">
+					<tex x="5" y="5" />
+					<rect l="0" t="0" r="5" b="5" />
+				</asset>
+				<asset type="EDGE_RB" path="frm_tooltip_title_RightBottom.png" tileMode="Stretch">
+					<tex x="5" y="5" />
+					<rect l="0" t="0" r="5" b="5" />
+				</asset>
+				<asset type="FRAME_T" path="frm_tooltip_title_CenterTop.png" tileMode="Tile">
+					<tex x="4" y="5" />
+					<rect l="5" t="0" r="88" b="5" />
+				</asset>
+				<asset type="FRAME_B" path="frm_tooltip_title_CenterBottom.png" tileMode="Tile">
+					<tex x="4" y="5" />
+					<rect l="5" t="0" r="88" b="5" />
+				</asset>
+				<asset type="FRAME_L" path="frm_tooltip_title_LeftMiddle.png" tileMode="Tile">
+					<tex x="5" y="4" />
+					<rect l="0" t="5" r="5" b="10" />
+				</asset>
+				<asset type="FRAME_R" path="frm_tooltip_title_RightMiddle.png" tileMode="Tile">
+					<tex x="5" y="4" />
+					<rect l="0" t="5" r="5" b="10" />
+				</asset>
+				<pos x="0" y="78" />
+				<rect l="0" t="0" r="98" b="20" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<snd type="SHOW"></snd>
+				<snd type="HIDE"></snd>
+				<Dragable val="False" />
+				<StartPosition val="None" />
+				<EscKeyAction val="None" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</base>
+			<child type="LABEL" name="Label_condition" subclass="">
+				<pos x="3" y="79" />
+				<rect l="0" t="0" r="92" b="18" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<label val="획득조건:10승" />
+				<OutlineColor val="#FFFFFF" />
+				<ShadowColor val="#0000004C" />
+				<color val="#FFD700FF" />
+				<halign val="1" />
+				<valign val="1" />
+				<FontName val="나눔고딕 ExtraBold" />
+				<FontSize val="12" />
+				<TextTrimming val="None" />
+				<style val="0" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+				<Padding val="0, 0, 0, 0" />
+				<FitToContent val="False" />
+			</child>
+		</child>
+		<child type="PICTURE" name="icon_common_new" subclass="">
+			<asset type="STATIC">icon_common_new.png</asset>
+			<pos x="3" y="0" />
+			<rect l="0" t="0" r="22" b="25" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+	</base>
+</refresh>

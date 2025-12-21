@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <base type="WND" name="slot_column">
+    <Visible val="True" />
+    <Anchor val="None" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="288" b="73" />
+    <child type="BUTTON" name="btn_slot">
+      <asset type="NORMAL">challenge_slot_empty.tga</asset>
+      <asset type="DOWN">challenge_slot_d.tga</asset>
+      <asset type="OVER">challenge_slot_o.tga</asset>
+      <asset type="DISABLE">challenge_slot_n.tga</asset>
+      <snd type="OVER">
+      </snd>
+      <snd type="DOWN">
+      </snd>
+      <pos x="325" y="2" />
+      <rect l="0" t="0" r="245" b="73" />
+      <Visible val="True" />
+      <Anchor val="None" />
+    </child>
+    <child type="PICTURE" name="img_slot_empty">
+      <asset type="STATIC">challenge_slot_empty.tga</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="308" y="0" />
+      <rect l="0" t="0" r="245" b="73" />
+      <center x="0" y="0" />
+    </child>
+    <child type="PICTURE" name="img_icon_empty">
+      <asset type="STATIC">challenge_icon_empty.tga</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="8" y="9" />
+      <rect l="0" t="0" r="53" b="53" />
+      <center x="0" y="0" />
+    </child>
+    <child type="PICTURE" name="img_success">
+      <asset type="STATIC">icon_success.tga</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="36" y="36" />
+      <rect l="0" t="0" r="35" b="35" />
+      <center x="0" y="0" />
+    </child>
+    <child type="LABEL" name="txt_title">
+      <label val="성공적인 점프!" />
+      <pos x="67" y="13" />
+      <rect l="0" t="0" r="140" b="14" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <color val="-14216447" />
+      <style val="1" />
+      <halign val="0" />
+      <valign val="0" />
+      <fontname val="2=NtreevSoft" />
+      <fontsize val="13" />
+    </child>
+    <child type="PICTURE" name="img_inform_icon">
+      <asset type="STATIC">challenge_inform_icon.tga</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="16" y="52" />
+      <rect l="0" t="0" r="38" b="18" />
+      <center x="0" y="0" />
+    </child>
+    <child type="LABEL" name="txt_subtitle">
+      <label val="성공적인 점프!" />
+      <pos x="67" y="29" />
+      <rect l="0" t="0" r="219" b="14" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <color val="-7570079" />
+      <FontName val="나눔고딕" />
+      <halign val="0" />
+      <valign val="0" />
+      <fontname val="2=NtreevSoft" />
+      <fontsize val="11" />
+    </child>
+  </base>
+</refresh>

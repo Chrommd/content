@@ -1,0 +1,262 @@
+﻿<refresh version="2">
+	<properties>
+		<property name="DPI" val="72" />
+		<property name="UIAnimation" val="tutorial_gauge_window_Animation.xml" />
+	</properties>
+	<base type="WNDEX" subclass="" name="gui_gauge_WndEx">
+		<asset type="BG" path="" tileMode="Tile">
+			<tex x="0" y="0" />
+			<rect l="8" t="8" r="214" b="44" />
+		</asset>
+		<asset type="EDGE_LT" path="" tileMode="Tile">
+			<tex x="0" y="0" />
+			<rect l="0" t="0" r="8" b="8" />
+		</asset>
+		<asset type="EDGE_RT" path="" tileMode="Tile">
+			<tex x="0" y="0" />
+			<rect l="0" t="0" r="8" b="8" />
+		</asset>
+		<asset type="EDGE_LB" path="" tileMode="Tile">
+			<tex x="0" y="0" />
+			<rect l="0" t="0" r="8" b="8" />
+		</asset>
+		<asset type="EDGE_RB" path="" tileMode="Tile">
+			<tex x="0" y="0" />
+			<rect l="0" t="0" r="8" b="8" />
+		</asset>
+		<asset type="FRAME_T" path="" tileMode="Tile">
+			<tex x="0" y="0" />
+			<rect l="8" t="0" r="214" b="8" />
+		</asset>
+		<asset type="FRAME_B" path="" tileMode="Tile">
+			<tex x="0" y="0" />
+			<rect l="8" t="0" r="214" b="8" />
+		</asset>
+		<asset type="FRAME_L" path="" tileMode="Tile">
+			<tex x="0" y="0" />
+			<rect l="0" t="8" r="8" b="44" />
+		</asset>
+		<asset type="FRAME_R" path="" tileMode="Tile">
+			<tex x="0" y="0" />
+			<rect l="0" t="8" r="8" b="44" />
+		</asset>
+		<pos x="0" y="0" />
+		<rect l="0" t="0" r="230" b="60" />
+		<Visible val="True" />
+		<Anchor val="Top, Left" />
+		<snd type="SHOW"></snd>
+		<snd type="HIDE"></snd>
+		<Dragable val="False" />
+		<StartPosition val="None" />
+		<EscKeyAction val="None" />
+		<IsHitTestVisible val="True" />
+		<ClipChildren val="False" />
+		<child type="PANEL" name="Panel" subclass="">
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="230" b="60" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<embed src="" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<child type="PICTURE" name="ingame_gauge_sliding_bg" subclass="">
+				<asset type="STATIC">ingame_gauge_sliding_bg.png</asset>
+				<pos x="14" y="28" />
+				<rect l="0" t="0" r="202" b="30" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="ingame_gauge_courbette" subclass="">
+				<asset type="STATIC">ingame_gauge_courbette.png</asset>
+				<pos x="14" y="28" />
+				<rect l="0" t="0" r="202" b="30" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="ingame_gauge_courbette1" subclass="">
+				<asset type="STATIC">ingame_gauge_courbette_0.png</asset>
+				<pos x="23" y="36" />
+				<rect l="0" t="0" r="184" b="10" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="ingame_gauge_dash_bar" subclass="">
+				<asset type="STATIC">ingame_gauge_sliding_bar1.png</asset>
+				<pos x="14" y="28" />
+				<rect l="0" t="0" r="202" b="30" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="ingame_gauge_dash_bar1" subclass="">
+				<asset type="STATIC">ingame_gauge_sliding_bar1_0.png</asset>
+				<pos x="22" y="35" />
+				<rect l="0" t="0" r="184" b="10" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="ingame_gauge_sliding_bg_0" subclass="">
+				<asset type="STATIC">ingame_gauge_sliding_bg_0.png</asset>
+				<pos x="14" y="28" />
+				<rect l="0" t="0" r="202" b="30" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="ingame_gauge_sliding_mark" subclass="">
+				<asset type="STATIC">ingame_gauge_sliding_mark.png</asset>
+				<pos x="13" y="20" />
+				<rect l="0" t="0" r="22" b="20" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="ingame_gauge_courbette_endmark" subclass="">
+				<asset type="ANIMATION">tutorial_gauge_window_ingame_gauge_courbette_endmark.xml</asset>
+				<pos x="184" y="4" />
+				<rect l="0" t="0" r="40" b="32" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="ingame_gauge_dash_endmark" subclass="">
+				<asset type="ANIMATION">tutorial_gauge_window_ingame_gauge_dash_endmark.xml</asset>
+				<pos x="184" y="4" />
+				<rect l="0" t="0" r="40" b="32" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PANEL" name="Panel_dash" subclass="">
+				<pos x="-6" y="-52" />
+				<rect l="0" t="0" r="240" b="118" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<embed src="" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+				<child type="PICTURE" name="option_keyboard_up1" subclass="">
+					<asset type="STATIC">keyboard_up_l.png</asset>
+					<pos x="90" y="-5" />
+					<rect l="0" t="0" r="58" b="50" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+				</child>
+				<child type="PICTURE" name="option_keyboard_up" subclass="">
+					<asset type="STATIC">keyboard_up_l.png</asset>
+					<pos x="90" y="-5" />
+					<rect l="0" t="0" r="58" b="50" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+				</child>
+				<child type="PICTURE" name="horse_mark_damage2" subclass="">
+					<asset type="STATIC">key_press_effect.png</asset>
+					<pos x="78" y="-20" />
+					<rect l="0" t="0" r="81" b="80" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+				</child>
+				<child type="PICTURE" name="txt_infobox_dash" subclass="">
+					<asset type="STATIC">txt_infobox_dash0.png</asset>
+					<pos x="-2" y="38" />
+					<rect l="0" t="0" r="238" b="44" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+				</child>
+			</child>
+			<child type="PANEL" name="Panel_courbette" subclass="">
+				<pos x="-6" y="-52" />
+				<rect l="0" t="0" r="240" b="117" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<embed src="" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+				<child type="PICTURE" name="option_keyboard_Z1" subclass="">
+					<asset type="STATIC">keyboard_Z_l.png</asset>
+					<pos x="90" y="-5" />
+					<rect l="0" t="0" r="58" b="50" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+				</child>
+				<child type="PICTURE" name="option_keyboard_Z" subclass="">
+					<asset type="STATIC">keyboard_Z_l.png</asset>
+					<pos x="90" y="-5" />
+					<rect l="0" t="0" r="58" b="50" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+				</child>
+				<child type="PICTURE" name="horse_mark_damage1" subclass="">
+					<asset type="STATIC">key_press_effect.png</asset>
+					<pos x="78" y="-20" />
+					<rect l="0" t="0" r="81" b="80" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+				</child>
+				<child type="PICTURE" name="txt_infobox_courbette" subclass="">
+					<asset type="STATIC">txt_infobox_courbette.png</asset>
+					<pos x="7" y="37" />
+					<rect l="0" t="0" r="238" b="44" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="False" />
+					<ClipChildren val="False" />
+				</child>
+			</child>
+			<child type="PICTURE" name="ingame_gauge_sliding_highlight" subclass="">
+				<asset type="ANIMATION">tutorial_gauge_window_ingame_gauge_sliding_highlight.xml</asset>
+				<pos x="14" y="28" />
+				<rect l="0" t="0" r="202" b="30" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+		</child>
+	</base>
+</refresh>

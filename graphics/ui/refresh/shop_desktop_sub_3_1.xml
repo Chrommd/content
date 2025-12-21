@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="NORMAL">
+    <asset type="IMAGE" name="asset_sub_tab_a1_n" path="sub_tab_d1_n.png">
+      <rect l="0" t="0" r="91" b="29" />
+    </asset>
+    <object name="sub_tab_a1_n" ani="ani_sub_tab_a1_n">
+      <asset type="IMAGE" link="asset_sub_tab_a1_n" />
+    </object>
+    <param type="RES" x="91" y="29" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_sub_tab_a1_n">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="OVER">
+    <asset type="IMAGE" name="asset_sub_tab_a1_n" path="sub_tab_d1_n.png">
+      <rect l="0" t="0" r="91" b="29" />
+    </asset>
+    <asset type="IMAGE" name="asset_sub_tab_d1_o" path="sub_tab_d1_o.png">
+      <rect l="0" t="0" r="91" b="29" />
+    </asset>
+    <object name="sub_tab_a1_n" ani="ani_sub_tab_a1_n">
+      <asset type="IMAGE" link="asset_sub_tab_a1_n" />
+    </object>
+    <object name="sub_tab_d1_o" ani="ani_sub_tab_d1_o">
+      <asset type="IMAGE" link="asset_sub_tab_d1_o" />
+    </object>
+    <param type="RES" x="91" y="29" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_sub_tab_a1_n">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_sub_tab_d1_o">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.5" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="167">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="DOWN">
+    <asset type="IMAGE" name="asset_sub_tab_d1_d" path="sub_tab_d1_d.png">
+      <rect l="0" t="0" r="91" b="29" />
+    </asset>
+    <object name="sub_tab_d1_d" ani="ani_sub_tab_d1_d">
+      <asset type="IMAGE" link="asset_sub_tab_d1_d" />
+    </object>
+    <param type="RES" x="91" y="29" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_sub_tab_d1_d">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="DISABLE">
+    <param type="RES" x="91" y="29" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+  </scene>
+</rfanimation>

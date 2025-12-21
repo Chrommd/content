@@ -1,0 +1,541 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="img_revenge_effect_attack_Default">
+    <asset type="IMAGE" name="asset_img_revenge_effect_attack" path="img_revenge_effect_attack.png">
+      <rect l="0" t="0" r="329" b="168" />
+    </asset>
+    <asset type="IMAGE" name="asset_img_revenge_txt_attack" path="img_revenge_txt_attack.png">
+      <rect l="0" t="0" r="140" b="38" />
+    </asset>
+    <asset type="IMAGE" name="asset_img_revenge_txt_revenge" path="img_revenge_txt_revenge.png">
+      <rect l="0" t="0" r="138" b="44" />
+    </asset>
+    <asset type="IMAGE" name="asset_img_revenge_effect_attack_2" path="img_revenge_effect_attack_2.png">
+      <rect l="0" t="0" r="17" b="17" />
+    </asset>
+    <asset type="IMAGE" name="asset_img_revenge_effect_attack_3" path="img_revenge_effect_attack_2.png">
+      <rect l="0" t="0" r="17" b="17" />
+    </asset>
+    <asset type="IMAGE" name="asset_img_revenge_effect_attack_4" path="img_revenge_effect_attack_2.png">
+      <rect l="0" t="0" r="17" b="17" />
+    </asset>
+    <asset type="IMAGE" name="asset_img_revenge_effect_attack_5" path="img_revenge_effect_attack_2.png">
+      <rect l="0" t="0" r="17" b="17" />
+    </asset>
+    <asset type="IMAGE" name="asset_img_revenge_effect_attack_6" path="img_revenge_effect_attack_2.png">
+      <rect l="0" t="0" r="17" b="17" />
+    </asset>
+    <asset type="IMAGE" name="asset_img_revenge_effect_attack_7" path="img_revenge_effect_attack_2.png">
+      <rect l="0" t="0" r="17" b="17" />
+    </asset>
+    <object name="img_revenge_effect_attack" ani="ani_img_revenge_effect_attack">
+      <asset type="IMAGE" link="asset_img_revenge_effect_attack" />
+    </object>
+    <object name="img_revenge_txt_attack" ani="ani_img_revenge_txt_attack">
+      <asset type="IMAGE" link="asset_img_revenge_txt_attack" />
+    </object>
+    <object name="img_revenge_txt_revenge" ani="ani_img_revenge_txt_revenge">
+      <asset type="IMAGE" link="asset_img_revenge_txt_revenge" />
+    </object>
+    <object name="img_revenge_effect_attack_2" ani="ani_img_revenge_effect_attack_2">
+      <asset type="IMAGE" link="asset_img_revenge_effect_attack_2" />
+    </object>
+    <object name="img_revenge_effect_attack_3" ani="ani_img_revenge_effect_attack_3">
+      <asset type="IMAGE" link="asset_img_revenge_effect_attack_3" />
+    </object>
+    <object name="img_revenge_effect_attack_4" ani="ani_img_revenge_effect_attack_4">
+      <asset type="IMAGE" link="asset_img_revenge_effect_attack_4" />
+    </object>
+    <object name="img_revenge_effect_attack_5" ani="ani_img_revenge_effect_attack_5">
+      <asset type="IMAGE" link="asset_img_revenge_effect_attack_5" />
+    </object>
+    <object name="img_revenge_effect_attack_6" ani="ani_img_revenge_effect_attack_6">
+      <asset type="IMAGE" link="asset_img_revenge_effect_attack_6" />
+    </object>
+    <object name="img_revenge_effect_attack_7" ani="ani_img_revenge_effect_attack_7">
+      <asset type="IMAGE" link="asset_img_revenge_effect_attack_7" />
+    </object>
+    <param type="RES" x="150" y="80" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_img_revenge_effect_attack">
+      <frame cnt="0">
+        <posx val="0.5666667" />
+        <posy val="0.5" />
+        <scalex val="0.617021276595745" />
+        <scaley val="0.613095238095238" />
+        <alpha val="0" />
+        <rotate val="48" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="167">
+        <posx val="0.5666667" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,0.0,0.1,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.5666667" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="-9" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="1033">
+        <posx val="0.5666667" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" easeValue="0.0,0.8,1.0,1.0" />
+        <rotate val="-45" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+    <anim name="ani_img_revenge_txt_attack">
+      <frame cnt="0">
+        <posx val="0.52" />
+        <posy val="0.625" />
+        <scalex val="1.94285714285714" />
+        <scaley val="1.92105263157895" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="167">
+        <posx val="0.526666666666667" easeValue="0.0,0.0,0.2,1.0" />
+        <posy val="0.6125" easeValue="0.0,0.0,0.2,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="200">
+        <posx val="0.513333333333333" />
+        <posy val="0.675" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="233">
+        <posx val="0.526666666666667" />
+        <posy val="0.6125" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="267">
+        <posx val="0.513333333333333" />
+        <posy val="0.6" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="300">
+        <posx val="0.533333333333333" />
+        <posy val="0.65" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.513333333333333" />
+        <posy val="0.5875" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="367">
+        <posx val="0.526666666666667" />
+        <posy val="0.6125" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="1033">
+        <posx val="0.526666666666667" />
+        <posy val="0.6125" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="1367">
+        <posx val="-0.06" easeValue="0.0,0.8,1.0,1.0" />
+        <posy val="0.6125" easeValue="0.0,0.8,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" easeValue="0.0,0.8,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+    <anim name="ani_img_revenge_txt_revenge">
+      <frame cnt="0">
+        <posx val="0.52" />
+        <posy val="0.2875" />
+        <scalex val="1" />
+        <scaley val="0.318181818181818" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="167">
+        <posx val="0.52" />
+        <posy val="0.2875" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="1033">
+        <posx val="0.52" />
+        <posy val="0.2875" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="1367">
+        <posx val="0.986666666666667" easeValue="0.0,0.8,1.0,1.0" />
+        <posy val="0.2875" easeValue="0.0,0.8,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" easeValue="0.0,0.8,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+    <anim name="ani_img_revenge_effect_attack_2">
+      <frame cnt="0">
+        <posx val="0.3733333" />
+        <posy val="0.65" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="100">
+        <posx val="0.373333333333333" />
+        <posy val="0.65" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="267">
+        <posx val="-0.2466667" />
+        <posy val="1.3625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="400">
+        <posx val="-0.333333333333333" easeValue="0.0,0.0,0.2,1.0" />
+        <posy val="1.4625" easeValue="0.0,0.0,0.2,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+    <anim name="ani_img_revenge_effect_attack_3">
+      <frame cnt="0">
+        <posx val="0.7333333" />
+        <posy val="0.25" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="100">
+        <posx val="0.733333333333333" />
+        <posy val="0.25" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="267">
+        <posx val="1.28" />
+        <posy val="-0.3625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="400">
+        <posx val="1.36" easeValue="0.0,0.0,0.2,1.0" />
+        <posy val="-0.45" easeValue="0.0,0.0,0.2,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+    <anim name="ani_img_revenge_effect_attack_4">
+      <frame cnt="0">
+        <posx val="0.7133333" />
+        <posy val="0.7" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="100">
+        <posx val="0.713333333333333" />
+        <posy val="0.7" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="267">
+        <posx val="1.193333" />
+        <posy val="1.3875" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="400">
+        <posx val="1.26" easeValue="0.0,0.0,0.2,1.0" />
+        <posy val="1.4875" easeValue="0.0,0.0,0.2,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+    <anim name="ani_img_revenge_effect_attack_5">
+      <frame cnt="0">
+        <posx val="0.32" />
+        <posy val="0.2125" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="100">
+        <posx val="0.32" />
+        <posy val="0.2125" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="267">
+        <posx val="-0.04" />
+        <posy val="-0.3625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="400">
+        <posx val="-0.0933333333333333" easeValue="0.0,0.0,0.2,1.0" />
+        <posy val="-0.4375" easeValue="0.0,0.0,0.2,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+    <anim name="ani_img_revenge_effect_attack_6">
+      <frame cnt="0">
+        <posx val="0.14" />
+        <posy val="0.5375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="100">
+        <posx val="0.14" />
+        <posy val="0.5375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="267">
+        <posx val="-0.4466667" />
+        <posy val="0.4625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="400">
+        <posx val="-0.526666666666667" easeValue="0.0,0.0,0.2,1.0" />
+        <posy val="0.45" easeValue="0.0,0.0,0.2,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+    <anim name="ani_img_revenge_effect_attack_7">
+      <frame cnt="0">
+        <posx val="0.76" />
+        <posy val="0.3875" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="100">
+        <posx val="0.76" />
+        <posy val="0.3875" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="267">
+        <posx val="1.413333" />
+        <posy val="0.475" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="400">
+        <posx val="1.50666666666667" easeValue="0.0,0.0,0.2,1.0" />
+        <posy val="0.4875" easeValue="0.0,0.0,0.2,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

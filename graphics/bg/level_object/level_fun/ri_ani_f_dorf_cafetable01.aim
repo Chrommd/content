@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <AABB animation="1st">
+        <minX>-0.0254</minX>
+        <minY>0.0000</minY>
+        <minZ>-1.1648</minZ>
+        <maxX>0.0000</maxX>
+        <maxY>0.0000</maxY>
+        <maxZ>0.0000</maxZ>
+    </AABB>
+    <AABB animation="2nd">
+        <minX>-0.0254</minX>
+        <minY>0.0000</minY>
+        <minZ>-1.1648</minZ>
+        <maxX>0.0000</maxX>
+        <maxY>0.0000</maxY>
+        <maxZ>0.0000</maxZ>
+    </AABB>
+    <AABB animation="3rd">
+        <minX>-0.0254</minX>
+        <minY>0.0000</minY>
+        <minZ>-1.1648</minZ>
+        <maxX>0.0000</maxX>
+        <maxY>0.0000</maxY>
+        <maxZ>0.0000</maxZ>
+    </AABB>
+    <event animation="1st">
+        <function>PlayFX($asset, "ob_funobj_cafetable_crash_001", "dummy_001", "")</function>
+        <time>0.0000</time>
+        <type>NORMAL</type>
+    </event>
+    <event animation="1st">
+        <function>PlaySND($asset, "crash_cafetable01_", "dummy_002", "-var 3")</function>
+        <time>0.0320</time>
+        <type>NORMAL</type>
+    </event>
+    <event animation="1st">
+        <function>RelayMsg($asset, "FadeOut", "-time 1")</function>
+        <time>0.6680</time>
+        <type>NORMAL</type>
+    </event>
+    <event animation="2nd">
+        <function>PlayFX($asset, "ob_funobj_cafetable_crash_001", "dummy_001", "")</function>
+        <time>0.0000</time>
+        <type>NORMAL</type>
+    </event>
+    <event animation="2nd">
+        <function>PlayFX($asset, "ob_2nd_collision_001", "dummy_002", "")</function>
+        <time>0.6000</time>
+        <type>NORMAL</type>
+    </event>
+    <event animation="2nd">
+        <function>PlaySND($asset, "crash_cafetable01_", "dummy_002", "-var 3")</function>
+        <time>0.0333</time>
+        <type>NORMAL</type>
+    </event>
+    <event animation="2nd">
+        <function>RelayMsg($asset, "FadeOut", "-time 1")</function>
+        <time>0.6507</time>
+        <type>NORMAL</type>
+    </event>
+    <event animation="3rd">
+        <function>PlayFX($asset, "ob_funobj_cafetable_crash_001", "dummy_001", "")</function>
+        <time>0.0000</time>
+        <type>NORMAL</type>
+    </event>
+    <event animation="3rd">
+        <function>PlayFX($asset, "ob_2nd_collision_001", "dummy_002", "")</function>
+        <time>1.2767</time>
+        <type>NORMAL</type>
+    </event>
+    <event animation="3rd">
+        <function>PlaySND($asset, "crash_cafetable01_", "dummy_002", "-var 3")</function>
+        <time>0.0000</time>
+        <type>NORMAL</type>
+    </event>
+    <event animation="3rd">
+        <function>RelayMsg($asset, "FadeOut", "-time 1")</function>
+        <time>1.3300</time>
+        <type>NORMAL</type>
+    </event>
+    <dummy name="dummy_001" parent="Dummyroot" sync="FALSE">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.0000</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <dummy name="dummy_002" parent="ri_ani_f_dorf_cafetable01" sync="FALSE">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.0000</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <action state="BROKEN_1ST" loop="0" poskey="" rotkey="">
+        <main>1st</main>
+    </action>
+    <action state="BROKEN_2ND" loop="0" poskey="" rotkey="">
+        <main>2nd</main>
+    </action>
+    <action state="BROKEN_3RD" loop="0" poskey="" rotkey="">
+        <main>3rd</main>
+    </action>
+</aim>

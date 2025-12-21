@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <event animation="[a]air[2]00_trans">
+        <function>PlaySND($asset, "", "snd", "-var 3 -my[pet_penguin_run]")</function>
+        <time>0.1939</time>
+        <freq>25</freq>
+    </event>
+    <event animation="[a]air[2]00_trans">
+        <function>PlaySND($asset, "pet_vo_penguin_high", "snd", "-var 3")</function>
+        <time>0.1484</time>
+        <freq>25</freq>
+    </event>
+    <event animation="[a]glide00_trans">
+        <function>PlaySND($asset, "pet_vo_penguin_jump", "snd", "-var 2")</function>
+        <time>0.3285</time>
+        <freq>2</freq>
+    </event>
+    <event animation="[a]land00">
+        <function>PlaySND($asset, "pet_vo_penguin_high", "snd", "-var 3")</function>
+        <time>0.0924</time>
+        <freq>50</freq>
+    </event>
+    <event animation="[a]land00">
+        <function>PlaySND($asset, "", "snd", "-var 3 -my[pet_penguin_run]")</function>
+        <time>0.2397</time>
+        <freq>20</freq>
+    </event>
+    <event animation="[a]move3rd_00">
+        <function>PlaySND($asset, "pet_vo_penguin", "snd", "-var 3")</function>
+        <time>0.1298</time>
+        <freq>3</freq>
+    </event>
+    <event animation="[a]move4th_00_trans">
+        <function>PlaySND($asset, "pet_vo_penguin_jump", "snd", "-var 2")</function>
+        <time>0.4324</time>
+        <freq>10</freq>
+    </event>
+    <event animation="[h]idle00">
+        <function>PlaySND($asset, "pet_vo_penguin_high", "snd", "-var 3")</function>
+        <time>0.5933</time>
+        <freq>2</freq>
+    </event>
+    <event animation="attach00">
+        <function>PlaySND($asset, "pet_vo_penguin_jump2", "snd", "-var 0")</function>
+        <time>0.4485</time>
+        <freq>50</freq>
+    </event>
+    <event animation="attach00">
+        <function>PlaySND($asset, "", "snd", "-var 0 -my[pet_penguin_sfx1]")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="detach00">
+        <function>PlaySND($asset, "pet_vo_penguin_jump1", "snd", "-var 0")</function>
+        <time>0.0000</time>
+        <freq>50</freq>
+    </event>
+    <event animation="detach00">
+        <function>PlaySND($asset, "", "snd", "-var 0 -my[pet_penguin_sfx1]")</function>
+        <time>0.2805</time>
+        <freq>100</freq>
+    </event>
+    <event animation="idle00">
+        <function>PlaySND($asset, "pet_vo_penguin_high", "snd", "-var 3")</function>
+        <time>0.5233</time>
+        <freq>2</freq>
+    </event>
+    <event animation="idle01">
+        <function>PlaySND($asset, "pet_vo_penguin_high", "snd", "-var 3")</function>
+        <time>0.5400</time>
+        <freq>2</freq>
+    </event>
+    <event animation="land00">
+        <function>PlaySND($asset, "", "snd", "-var 3 -my[pet_seal_sfx2]")</function>
+        <time>0.1534</time>
+        <freq>100</freq>
+    </event>
+    <event animation="move00_00">
+        <function>PlaySND($asset, "", "snd", "-var 3 -my[pet_penguin_run]")</function>
+        <time>0.4308</time>
+        <freq>100</freq>
+    </event>
+    <event animation="move00_00">
+        <function>PlaySND($asset, "pet_vo_penguin", "snd", "-var 2")</function>
+        <time>0.3133</time>
+        <freq>2</freq>
+    </event>
+    <event animation="move00_00">
+        <function>PlaySND($asset, "", "snd", "-var 3 -my[pet_penguin_run]")</function>
+        <time>0.0042</time>
+        <freq>100</freq>
+    </event>
+    <event animation="move01_00">
+        <function>PlaySND($asset, "", "snd", "-var 3 -my[pet_penguin_run]")</function>
+        <time>0.2179</time>
+        <freq>100</freq>
+    </event>
+    <event animation="move01_00">
+        <function>PlaySND($asset, "", "snd", "-var 3 -my[pet_penguin_run]")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="move01_00">
+        <function>PlaySND($asset, "pet_vo_penguin_high", "snd", "-var 3")</function>
+        <time>0.0847</time>
+        <freq>2</freq>
+    </event>
+    <dummy name="name" parent="Dummy_penguin" sync="FALSE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.6254</offsetY>
+        <offsetZ>-0.0171</offsetZ>
+    </dummy>
+    <dummy name="snd" parent="bip_peng00 Head" sync="FALSE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.0000</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <action category="" state="IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>idle00</main>
+    </action>
+    <action category="" state="MOVE_2ND" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>move00_00</main>
+    </action>
+    <action category="" state="MOVE_3RD" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>move01_00</main>
+    </action>
+    <action category="" state="PET_ATTACH" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>attach00</main>
+    </action>
+    <action category="" state="PET_ATTACH_AIR" prevState="" loop="1" weight="1" script="">
+        <begin speed=0.0000>[a]air00_trans</begin>
+        <main speed=0.0000>[a]air00</main>
+    </action>
+    <action category="" state="PET_ATTACH_GLIDE" prevState="" loop="1" weight="1" script="">
+        <begin speed=0.0000>[a]glide00_trans</begin>
+        <main speed=0.0000>[a]glide00</main>
+    </action>
+    <action category="" state="PET_ATTACH_GLIDE_SPUR" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>[a]glide[s]00</main>
+    </action>
+    <action category="" state="PET_ATTACH_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>[a]idle_00</main>
+    </action>
+    <action category="" state="PET_ATTACH_JUMP" prevState="" loop="0" weight="1" script="">
+        <begin speed=0.0000>[a]jump00_trans</begin>
+        <main speed=0.0000>[a]leap00</main>
+    </action>
+    <action category="" state="PET_ATTACH_JUMP2" prevState="" loop="0" weight="1" script="">
+        <begin speed=0.0000>[a]jump[2]00_trans</begin>
+        <main speed=0.0000>[a]leap[2]00</main>
+    </action>
+    <action category="" state="PET_ATTACH_LAND" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>[a]land00</main>
+    </action>
+    <action category="" state="PET_ATTACH_MOVE_2ND" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>[a]move2nd_00</main>
+    </action>
+    <action category="" state="PET_ATTACH_MOVE_3RD" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>[a]move3rd_00</main>
+    </action>
+    <action category="" state="PET_ATTACH_MOVE_4TH" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>[a]move4th_00</main>
+    </action>
+    <action category="" state="PET_ATTACH_MOVE_SPUR" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>[a]move4th_00_trans</main>
+    </action>
+    <action category="" state="PET_BORN_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>[h]idle00</main>
+    </action>
+    <action category="" state="PET_DETACH" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>detach00</main>
+    </action>
+    <action category="" state="PET_LAND" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>land00</main>
+    </action>
+    <blend sec="0.05">
+        <name>[a]jump00_trans</name>
+    </blend>
+    <blend sec="0.05">
+        <name>[a]jump[2]00_trans</name>
+    </blend>
+    <blend sec="0.05">
+        <name>[a]land00</name>
+    </blend>
+    <blend sec="0.00">
+        <name>[a]leap00</name>
+        <name2>[a]air00_trans</name2>
+    </blend>
+    <blend sec="0.00">
+        <name>[a]leap[2]00</name>
+        <name2>[a]air[2]00_trans</name2>
+    </blend>
+</aim>

@@ -1,0 +1,281 @@
+<AreaList>
+    <Area>
+        <ID>1</ID>
+        <NAME>Wind01</NAME>
+        <SHOW>1</SHOW>
+        <POS>134.621536 25.276852 -223.152405</POS>
+        <ROT>0.000000 0.043619 0.000000 0.999048</ROT>
+        <SCALE>2.000000 16.000000 2.000000</SCALE>
+    </Area>
+    <Area>
+        <ID>2</ID>
+        <NAME>Windy Valley</NAME>
+        <SHOW>1</SHOW>
+        <POS>-99.359138 27.680786 93.901276</POS>
+        <ROT>0.000000 -0.675590 0.000000 0.737278</ROT>
+        <SCALE>52.000000 30.650000 32.000000</SCALE>
+    </Area>
+    <Area>
+        <ID>3</ID>
+        <NAME>Hard Windy Valley</NAME>
+        <SHOW>1</SHOW>
+        <POS>-88.606415 31.613094 201.718384</POS>
+        <ROT>0.000000 -0.642787 0.000000 0.766045</ROT>
+        <SCALE>31.000000 32.000000 30.000000</SCALE>
+    </Area>    
+</AreaList>
+<TriggerList>
+    <Trigger>
+        <ID>1</ID>
+        <NAME>Wind Trigger On</NAME>
+        <MODE>1</MODE>
+        <ENABLE>0</ENABLE>
+        <TYPE>0</TYPE>
+        <CATEGORY>Whirl Wind</CATEGORY>
+        <EventList>
+            <Event>
+                <ID>2</ID>
+                <NAME>Enter Wind</NAME>
+                <TYPE>0</TYPE>
+                <ARGUMENT>1</ARGUMENT>
+            </Event>
+        </EventList>
+        <ConditionList>
+            <Condition>
+                <ID>3</ID>
+                <NAME>only for me</NAME>
+                <TYPE>5</TYPE>
+                <ARGUMENT>$INVOKER == $MYID</ARGUMENT>
+            </Condition>
+        </ConditionList>
+        <ActionList>
+            <Action>
+                <ID>4</ID>
+                <NAME>Up!!!</NAME>
+                <TYPE>8</TYPE>
+                <ARGUMENT>-myHorse -thrustVec 0 18 0 -thrust 0 -18 0 -thrustTime 1</ARGUMENT>
+            </Action>
+            <Action>
+                <ID>13</ID>
+                <NAME>Incident</NAME>
+                <TYPE>15</TYPE>
+                <ARGUMENT>-type 15 -invoker</ARGUMENT>
+            </Action>
+        </ActionList>
+    </Trigger>
+    <Trigger>
+        <ID>5</ID>
+        <NAME>Wind Trigger Off</NAME>
+        <MODE>1</MODE>
+        <ENABLE>0</ENABLE>
+        <TYPE>0</TYPE>
+        <CATEGORY>Whirl Wind</CATEGORY>
+        <EventList>
+            <Event>
+                <ID>6</ID>
+                <NAME>Leave Wind</NAME>
+                <TYPE>2</TYPE>
+                <ARGUMENT>1</ARGUMENT>
+            </Event>
+        </EventList>
+        <ConditionList>
+            <Condition>
+                <ID>7</ID>
+                <NAME>only for me</NAME>
+                <TYPE>5</TYPE>
+                <ARGUMENT>$INVOKER == $MYID</ARGUMENT>
+            </Condition>
+        </ConditionList>
+        <ActionList>
+            <Action>
+                <ID>8</ID>
+                <NAME>End!!!</NAME>
+                <TYPE>8</TYPE>
+                <ARGUMENT>-myHorse -thrustTime 0.1</ARGUMENT>
+            </Action>
+        </ActionList>
+    </Trigger>
+    <Trigger>
+        <ID>9</ID>
+        <NAME>Make a Wind</NAME>
+        <MODE>1</MODE>
+        <TYPE>1</TYPE>
+        <CATEGORY>Whirl Wind</CATEGORY>
+        <EventList>
+            <Event>
+                <ID>12</ID>
+                <NAME>Switch On</NAME>
+                <TYPE>5</TYPE>
+                <ARGUMENT>470</ARGUMENT>
+            </Event>
+        </EventList>
+        <ConditionList>
+            <Condition>
+                <ID>10</ID>
+                <NAME>need effect</NAME>
+                <TYPE>2</TYPE>
+                <ARGUMENT>$VAR(1) == $INT(-1)</ARGUMENT>
+            </Condition>
+        </ConditionList>
+        <ActionList>
+            <Action>
+                <ID>11</ID>
+                <NAME>I will give u something</NAME>
+                <TYPE>12</TYPE>
+                <ARGUMENT>-fxname[level_upwind] -area 1 -scale 1.25 0.08 1.25 -offset 0 -13 0</ARGUMENT>
+            </Action>
+            <Action>
+                <ID>41</ID>
+                <NAME>Activate Wind</NAME>
+                <TYPE>5</TYPE>
+                <ARGUMENT>1</ARGUMENT>
+            </Action>
+            <Action>
+                <ID>42</ID>
+                <NAME>Activate Wind</NAME>
+                <TYPE>5</TYPE>
+                <ARGUMENT>5</ARGUMENT>
+            </Action>
+            <Action>
+                <ID>44</ID>
+                <NAME>Send Packet</NAME>
+                <TYPE>11</TYPE>
+                <ARGUMENT>9</ARGUMENT>
+            </Action>
+            <Action>
+                <ID>45</ID>
+                <NAME>Turn Off</NAME>
+                <TYPE>4</TYPE>
+                <ARGUMENT>9</ARGUMENT>
+            </Action>
+        </ActionList>
+    </Trigger>
+    <Trigger>
+        <ID>14</ID>
+        <NAME>Valley Wind On</NAME>
+        <TYPE>0</TYPE>
+        <CATEGORY>Valley Thrust</CATEGORY>
+        <EventList>
+            <Event>
+                <ID>15</ID>
+                <NAME>Enter Valley</NAME>
+                <TYPE>0</TYPE>
+                <ARGUMENT>2</ARGUMENT>
+            </Event>
+        </EventList>
+        <ConditionList>
+            <Condition>
+                <ID>19</ID>
+                <NAME>only myself</NAME>
+                <TYPE>5</TYPE>
+                <ARGUMENT>$INVOKER == $MYID</ARGUMENT>
+            </Condition>
+        </ConditionList>
+        <ActionList>
+            <Action>
+                <ID>20</ID>
+                <NAME>Thrust Begin</NAME>
+                <TYPE>8</TYPE>
+                <ARGUMENT>-myHorse -thrustArea 2 -thrustScale 3 -thrustTime 9999</ARGUMENT>
+            </Action>
+        </ActionList>
+    </Trigger>
+    <Trigger>
+        <ID>16</ID>
+        <NAME>Valley Wind Off</NAME>
+        <TYPE>0</TYPE>
+        <CATEGORY>Valley Thrust</CATEGORY>
+        <EventList>
+            <Event>
+                <ID>17</ID>
+                <NAME>Leave Valley</NAME>
+                <TYPE>2</TYPE>
+                <ARGUMENT>2</ARGUMENT>
+            </Event>
+        </EventList>
+        <ConditionList>
+            <Condition>
+                <ID>21</ID>
+                <NAME>only myself</NAME>
+                <TYPE>5</TYPE>
+                <ARGUMENT>$INVOKER == $MYID</ARGUMENT>
+            </Condition>
+        </ConditionList>
+        <ActionList>
+            <Action>
+                <ID>22</ID>
+                <NAME>Thrust End</NAME>
+                <TYPE>8</TYPE>
+                <ARGUMENT>-myHorse -thrustTime 0</ARGUMENT>
+            </Action>
+        </ActionList>
+    </Trigger>
+    <Trigger>
+        <ID>23</ID>
+        <NAME>Valley Wind On</NAME>
+        <TYPE>0</TYPE>
+        <CATEGORY>Valley Thrust</CATEGORY>
+        <EventList>
+            <Event>
+                <ID>25</ID>
+                <NAME>Enter Valley</NAME>
+                <TYPE>0</TYPE>
+                <ARGUMENT>3</ARGUMENT>
+            </Event>
+        </EventList>
+        <ConditionList>
+            <Condition>
+                <ID>26</ID>
+                <NAME>only myself</NAME>
+                <TYPE>5</TYPE>
+                <ARGUMENT>$INVOKER == $MYID</ARGUMENT>
+            </Condition>
+        </ConditionList>
+        <ActionList>
+            <Action>
+                <ID>27</ID>
+                <NAME>Thrust Begin</NAME>
+                <TYPE>8</TYPE>
+                <ARGUMENT>-myHorse -thrustArea 3 -thrustScale 4 -thrustTime 9999</ARGUMENT>
+            </Action>
+        </ActionList>
+    </Trigger>
+    <Trigger>
+        <ID>24</ID>
+        <NAME>Valley Wind Off</NAME>
+        <TYPE>0</TYPE>
+        <CATEGORY>Valley Thrust</CATEGORY>
+        <EventList>
+            <Event>
+                <ID>28</ID>
+                <NAME>Leave Valley</NAME>
+                <TYPE>2</TYPE>
+                <ARGUMENT>3</ARGUMENT>
+            </Event>
+        </EventList>
+        <ConditionList>
+            <Condition>
+                <ID>29</ID>
+                <NAME>only myself</NAME>
+                <TYPE>5</TYPE>
+                <ARGUMENT>$INVOKER == $MYID</ARGUMENT>
+            </Condition>
+        </ConditionList>
+        <ActionList>
+            <Action>
+                <ID>30</ID>
+                <NAME>Thrust End</NAME>
+                <TYPE>8</TYPE>
+                <ARGUMENT>-myHorse -thrustTime 0</ARGUMENT>
+            </Action>
+        </ActionList>
+    </Trigger>    
+</TriggerList>
+<VariableList>
+    <Variable>
+        <ID>1</ID>
+        <NAME>WindEffectHandle</NAME>
+        <TYPE>2</TYPE>
+        <ARGUMENT>-1</ARGUMENT>
+    </Variable>
+</VariableList>

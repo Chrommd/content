@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="_Opening_">
+    <asset type="UI" name="asset_event_result_frame_effect_1">
+      <rect l="0" t="0" r="98" b="98" />
+    </asset>
+    <asset type="UI" name="asset_item_over_img">
+      <rect l="0" t="0" r="98" b="98" />
+    </asset>
+    <asset type="UI" name="asset_item_get_num_1">
+      <rect l="0" t="0" r="53" b="28" />
+    </asset>
+    <object name="event_result_frame_effect_1" ani="ani_event_result_frame_effect_1">
+      <asset type="UI" link="asset_event_result_frame_effect_1" />
+    </object>
+    <object name="item_over_img" ani="ani_item_over_img">
+      <asset type="UI" link="asset_item_over_img" />
+    </object>
+    <object name="item_get_num_1" ani="ani_item_get_num_1">
+      <asset type="UI" link="asset_item_get_num_1" />
+    </object>
+    <param type="RES" x="98" y="98" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_event_result_frame_effect_1">
+      <frame cnt="0">
+        <posx val="0.224489795918367" />
+        <posy val="0.244897959183673" />
+        <scalex val="0.561224489795918" />
+        <scaley val="0.561224489795918" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="433">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.5" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_item_over_img">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_item_get_num_1">
+      <frame cnt="0">
+        <posx val="0.0510204081632653" />
+        <posy val="0.714285714285714" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.0510204081632653" />
+        <posy val="0.714285714285714" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="600">
+        <posx val="0.0510204081632653" />
+        <posy val="0.612244897959184" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Closing_">
+    <param type="RES" x="98" y="98" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+  </scene>
+</rfanimation>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="cursor_horselect_window_Animation.xml" />
+  </properties>
+  <base type="WND" subclass="" name="cursor_horselect">
+    <Visible val="True" />
+    <Anchor val="Top, Left" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="49" b="59" />
+    <child type="PICTURE" name="cursor_horse_select" subclass="">
+      <asset type="STATIC">cursor_horse_select.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="17" y="24" />
+      <rect l="0" t="0" r="32" b="35" />
+      <center x="0" y="0" />
+    </child>
+    <child type="PICTURE" name="cursor_click" subclass="">
+      <asset type="STATIC">cursor_click.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="25" b="26" />
+      <center x="0" y="0" />
+    </child>
+  </base>
+</refresh>

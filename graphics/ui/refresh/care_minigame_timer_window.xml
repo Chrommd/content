@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+  </properties>
+  <base type="WND" subclass="" name="Wnd">
+    <Visible val="True" />
+    <Anchor val="Top, Left" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="210" b="33" />
+    <IsHitTestVisible val="True" />
+    <ClipChildren val="False" />
+    <child type="PICTURE" name="guage_care_play_timer_bg" subclass="">
+      <asset type="STATIC">guage_care_play_timer_bg.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="210" b="33" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="PROGRESS" name="guage_care_play_timer" subclass="">
+      <asset type="BAR">guage_care_play_timer.png</asset>
+      <tex x="170" y="8" />
+      <pos x="28" y="12" />
+      <rect l="0" t="0" r="170" b="8" />
+      <Visible val="True" />
+      <Anchor val="None" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+  </base>
+</refresh>

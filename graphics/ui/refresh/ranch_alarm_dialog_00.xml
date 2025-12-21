@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+  </properties>
+  <base type="WNDEX" name="ranch_alarm_dialog_00">
+    <asset type="BG" path="">
+      <tex x="50" y="50" />
+      <rect l="50" t="50" r="150" b="60" />
+    </asset>
+    <asset type="EDGE_LT" path="">
+      <tex x="50" y="50" />
+      <rect l="0" t="0" r="50" b="50" />
+    </asset>
+    <asset type="EDGE_RT" path="">
+      <tex x="50" y="50" />
+      <rect l="0" t="0" r="50" b="50" />
+    </asset>
+    <asset type="EDGE_LB" path="">
+      <tex x="50" y="50" />
+      <rect l="0" t="0" r="50" b="50" />
+    </asset>
+    <asset type="EDGE_RB" path="">
+      <tex x="50" y="50" />
+      <rect l="0" t="0" r="50" b="50" />
+    </asset>
+    <asset type="FRAME_T" path="">
+      <tex x="50" y="50" />
+      <rect l="50" t="0" r="150" b="50" />
+    </asset>
+    <asset type="FRAME_B" path="">
+      <tex x="50" y="50" />
+      <rect l="50" t="0" r="150" b="50" />
+    </asset>
+    <asset type="FRAME_L" path="">
+      <tex x="50" y="50" />
+      <rect l="0" t="50" r="50" b="60" />
+    </asset>
+    <asset type="FRAME_R" path="">
+      <tex x="50" y="50" />
+      <rect l="0" t="50" r="50" b="60" />
+    </asset>
+    <Visible val="True" />
+    <Anchor val="None" />
+    <pos x="345" y="269" />
+    <rect l="0" t="0" r="250" b="160" />
+    <Dragable val="True" />
+    <StartPosition val="CenterScreen" />
+    <EscKeyAction val="None" />
+    <child type="LABEL" name="txt_dialog_messege">
+      <label val="" />
+      <pos x="18" y="65" />
+      <rect l="0" t="0" r="214" b="16" />
+      <Visible val="True" />
+      <Anchor val="None" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#FF0000" />
+      <color val="#3E2500" />
+      <halign val="1" />
+      <valign val="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="12" />
+      <style val="1" />
+    </child>
+    <child type="LABEL" name="lab_name">
+      <label val="닉네임" />
+      <pos x="44" y="35" />
+      <rect l="0" t="0" r="45" b="16" />
+      <Visible val="True" />
+      <Anchor val="None" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#FF0000" />
+      <color val="#3E2500" />
+      <halign val="1" />
+      <valign val="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="12" />
+      <style val="1" />
+    </child>
+    <child type="LABEL" name="txt_name">
+      <label val="" />
+      <pos x="87" y="35" />
+      <rect l="0" t="0" r="117" b="16" />
+      <Visible val="True" />
+      <Anchor val="None" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#FF0000" />
+      <color val="#3E2500" />
+      <halign val="0" />
+      <valign val="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="12" />
+      <style val="1" />
+    </child>
+    <child type="BUTTON" name="yes">
+      <asset type="NORMAL">
+      </asset>
+      <asset type="DOWN">
+      </asset>
+      <asset type="OVER">
+      </asset>
+      <asset type="DISABLE">
+      </asset>
+      <snd type="OVER">ui_alt_over</snd>
+      <snd type="DOWN">ui_alt_click</snd>
+      <pos x="90" y="101" />
+      <rect l="0" t="0" r="75" b="38" />
+      <Visible val="True" />
+      <Anchor val="None" />
+    </child>
+  </base>
+</refresh>

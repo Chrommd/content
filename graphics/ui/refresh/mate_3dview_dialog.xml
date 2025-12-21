@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+  </properties>
+  <base type="WND" subclass="" name="anchor_mate_3dview">
+    <Visible val="True" />
+    <Anchor val="Top, Bottom, Left, Right" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="1024" b="768" />
+    <IsHitTestVisible val="True" />
+    <ClipChildren val="False" />
+    <child type="STACKPANEL" name="StackPanel" subclass="">
+      <Visible val="True" />
+      <Anchor val="Top, Bottom, Left, Right" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="1024" b="768" />
+      <Orientation val="Vertical" />
+      <HAlign val="Center" />
+      <VAlign val="Center" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <base type="WND" subclass="" name="Wnd">
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <pos x="0" y="0" />
+        <rect l="0" t="0" r="1024" b="768" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <base type="WNDEX" subclass="" name="mate_horseoption_3dview">
+          <asset type="BG" path="frm_system_b_04.png" tileMode="Stretch">
+            <tex x="13" y="4" />
+            <rect l="13" t="13" r="425" b="335" />
+          </asset>
+          <asset type="EDGE_LT" path="frm_system_b_00.png" tileMode="Stretch">
+            <tex x="13" y="13" />
+            <rect l="0" t="0" r="13" b="13" />
+          </asset>
+          <asset type="EDGE_RT" path="frm_system_b_02.png" tileMode="Stretch">
+            <tex x="19" y="13" />
+            <rect l="0" t="0" r="19" b="13" />
+          </asset>
+          <asset type="EDGE_LB" path="frm_system_b_06.png" tileMode="Stretch">
+            <tex x="13" y="16" />
+            <rect l="0" t="0" r="13" b="16" />
+          </asset>
+          <asset type="EDGE_RB" path="frm_system_b_08.png" tileMode="Stretch">
+            <tex x="19" y="16" />
+            <rect l="0" t="0" r="19" b="16" />
+          </asset>
+          <asset type="FRAME_T" path="frm_system_b_01.png" tileMode="Stretch">
+            <tex x="13" y="13" />
+            <rect l="13" t="0" r="425" b="13" />
+          </asset>
+          <asset type="FRAME_B" path="frm_system_b_07.png" tileMode="Stretch">
+            <tex x="13" y="16" />
+            <rect l="13" t="0" r="425" b="16" />
+          </asset>
+          <asset type="FRAME_L" path="frm_system_b_03.png" tileMode="Stretch">
+            <tex x="13" y="4" />
+            <rect l="0" t="13" r="13" b="335" />
+          </asset>
+          <asset type="FRAME_R" path="frm_system_b_05.png" tileMode="Stretch">
+            <tex x="19" y="4" />
+            <rect l="0" t="13" r="19" b="335" />
+          </asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="532" y="51" />
+          <rect l="0" t="0" r="457" b="364" />
+          <Dragable val="False" />
+          <StartPosition val="None" />
+          <EscKeyAction val="None" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+          <child type="PICTURE" name="bg_3dview" subclass="">
+            <asset type="STATIC">bg_3d_view.png</asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="84" y="3" />
+            <rect l="0" t="0" r="288" b="31" />
+            <center x="0" y="0" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+          </child>
+          <child type="LABEL" name="lb_3dview" subclass="">
+            <label val="3D 전체보기" />
+            <pos x="164" y="3" />
+            <rect l="0" t="0" r="127" b="20" />
+            <Visible val="True" />
+            <Anchor val="None" />
+            <OutlineColor val="#FF0000" />
+            <ShadowColor val="#030200" />
+            <color val="#FFFFFF" />
+            <halign val="1" />
+            <valign val="0" />
+            <FontName val="나눔고딕" />
+            <FontSize val="13" />
+            <TextTrimming val="None" />
+            <style val="1" />
+            <IsHitTestVisible val="False" />
+            <ClipChildren val="False" />
+            <Padding val="0, 0, 0, 0" />
+          </child>
+          <child type="ANIMBUTTON" name="btn_close" subclass="">
+            <asset type="GROUP">mate_3dview_dialog_btn_close.xml</asset>
+            <asset type="NORMAL">
+            </asset>
+            <asset type="DOWN">
+            </asset>
+            <asset type="OVER">
+            </asset>
+            <asset type="DISABLE">
+            </asset>
+            <asset type="ENTER">
+            </asset>
+            <asset type="LEAVE">
+            </asset>
+            <snd type="OVER">
+            </snd>
+            <snd type="DOWN">ui_btn_menu_click</snd>
+            <snd type="RELEASE">ui_btn_menu_close</snd>
+            <pos x="416" y="-1" />
+            <rect l="0" t="0" r="35" b="35" />
+            <Visible val="True" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+            <Anchor val="None" />
+            <IsDefaultButton val="False" />
+          </child>
+          <child type="PICTURE" name="mouse_rect" subclass="">
+            <asset type="STATIC">
+            </asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="15" y="39" />
+            <rect l="0" t="0" r="420" b="300" />
+            <center x="0" y="0" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+          </child>
+        </base>
+      </base>
+    </child>
+  </base>
+</refresh>

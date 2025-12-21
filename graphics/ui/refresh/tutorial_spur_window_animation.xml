@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="tuto_spur_open">
+    <asset type="UI" name="asset_tuto_spur">
+      <rect l="0" t="0" r="235" b="67" />
+    </asset>
+    <asset type="UI" name="asset_lb_start1">
+      <rect l="0" t="0" r="210" b="19" />
+    </asset>
+    <asset type="UI" name="asset_lb_start2">
+      <rect l="0" t="0" r="210" b="19" />
+    </asset>
+    <object name="tuto_spur" ani="ani_tuto_spur">
+      <asset type="UI" link="asset_tuto_spur" />
+    </object>
+    <object name="lb_start1" ani="ani_lb_start1">
+      <asset type="UI" link="asset_lb_start1" />
+    </object>
+    <object name="lb_start2" ani="ani_lb_start2">
+      <asset type="UI" link="asset_lb_start2" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_tuto_spur">
+      <frame cnt="0">
+        <posx val="0.34375" />
+        <posy val="0.794270833333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <sound val="ui_event_fadein" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0.34375" easeValue="0.0,0.5,1.0,1.0" />
+        <posy val="0.78125" easeValue="0.0,0.5,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,0.5,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_lb_start1">
+      <frame cnt="0">
+        <posx val="0.0087890625" />
+        <posy val="0.0182291666666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="400">
+        <posx val="0.0087890625" />
+        <posy val="0.0182291666666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="600">
+        <posx val="0.0087890625" easeValue="0.0,0.5,1.0,1.0" />
+        <posy val="0.01171875" easeValue="0.0,0.5,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,0.5,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_lb_start2">
+      <frame cnt="0">
+        <posx val="0.0087890625" />
+        <posy val="0.0416666666666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="400">
+        <posx val="0.0087890625" />
+        <posy val="0.0416666666666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="600">
+        <posx val="0.0087890625" easeValue="0.0,0.5,1.0,1.0" />
+        <posy val="0.03515625" easeValue="0.0,0.5,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,0.5,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="tuto_spur_close">
+    <asset type="UI" name="asset_tuto_spur">
+      <rect l="0" t="0" r="235" b="67" />
+    </asset>
+    <asset type="UI" name="asset_lb_start1">
+      <rect l="0" t="0" r="210" b="19" />
+    </asset>
+    <asset type="UI" name="asset_lb_start2">
+      <rect l="0" t="0" r="210" b="19" />
+    </asset>
+    <object name="tuto_spur" ani="ani_tuto_spur">
+      <asset type="UI" link="asset_tuto_spur" />
+    </object>
+    <object name="lb_start1" ani="ani_lb_start1">
+      <asset type="UI" link="asset_lb_start1" />
+    </object>
+    <object name="lb_start2" ani="ani_lb_start2">
+      <asset type="UI" link="asset_lb_start2" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_tuto_spur">
+      <frame cnt="0">
+        <posx val="0.34375" />
+        <posy val="0.78125" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <sound val="ui_event_fadeout" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.34375" easeValue="0.0,0.5,1.0,1.0" />
+        <posy val="0.794270833333333" easeValue="0.0,0.5,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" easeValue="0.0,0.5,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_lb_start1">
+      <frame cnt="133">
+        <posx val="0.008789063" />
+        <posy val="0.015625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.0087890625" easeValue="0.0,0.5,1.0,1.0" />
+        <posy val="0.0182291666666667" easeValue="0.0,0.5,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" easeValue="0.0,0.5,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_lb_start2">
+      <frame cnt="133">
+        <posx val="0.008789063" />
+        <posy val="0.0390625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.0087890625" easeValue="0.0,0.5,1.0,1.0" />
+        <posy val="0.0416666666666667" easeValue="0.0,0.5,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" easeValue="0.0,0.5,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="btn_grazing_Default">
+    <asset type="IMAGE" name="asset_bg_challenge" path="bg_challenge.png">
+      <rect l="0" t="0" r="311" b="74" />
+    </asset>
+    <object name="bg_challenge" ani="ani_bg_challenge">
+      <asset type="IMAGE" link="asset_bg_challenge" />
+    </object>
+    <param type="RES" x="302" y="64" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_bg_challenge">
+      <frame cnt="0">
+        <posx val="0.503311258278146" />
+        <posy val="0.53125" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

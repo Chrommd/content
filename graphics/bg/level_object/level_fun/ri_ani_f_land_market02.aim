@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <event animation="1st">
+        <function>PlaySND($asset, "crash_box01_", "", "-var 2")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="3rd">
+        <function>PlaySND($asset, "crash_box01_", "", "-var 2")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <action state="BROKEN_1ST" prevState="" loop="0">
+        <main speed=0.0000>1st</main>
+    </action>
+    <action state="BROKEN_2ND" prevState="" loop="0">
+        <main speed=0.0000>3rd</main>
+    </action>
+    <action state="BROKEN_3RD" prevState="" loop="0">
+        <main speed=0.0000>3rd</main>
+    </action>
+</aim>

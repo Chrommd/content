@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="rd_wait_window_Animation.xml" />
+  </properties>
+  <base type="WND" name="wait">
+    <Visible val="True" />
+    <Anchor val="Top, Bottom, Left, Right" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="1024" b="768" />
+    <child type="PICTURE" name="bg_waite_black">
+      <asset type="STATIC">bg_wait_black.png</asset>
+      <Visible val="True" />
+      <Anchor val="Top, Bottom, Left, Right" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="1024" b="768" />
+      <center x="0" y="0" />
+    </child>
+    <child type="PICTURE" name="bg_wait_under">
+      <asset type="STATIC">bg_wait_under.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="0" y="637" />
+      <rect l="0" t="0" r="1024" b="131" />
+      <center x="0" y="0" />
+    </child>
+    <child type="PICTURE" name="bg_wait_over">
+      <asset type="STATIC">bg_wait_over.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="1024" b="34" />
+      <center x="0" y="0" />
+    </child>
+    <base type="WNDEX" name="bg_frm">
+      <asset type="BG" path="frm_system_msg_04.png">
+        <tex x="4" y="4" />
+        <rect l="155" t="90" r="58" b="100" />
+      </asset>
+      <asset type="EDGE_LT" path="frm_system_msg_00.png">
+        <tex x="155" y="90" />
+        <rect l="0" t="0" r="155" b="90" />
+      </asset>
+      <asset type="EDGE_RT" path="frm_system_msg_02.png">
+        <tex x="155" y="90" />
+        <rect l="0" t="0" r="155" b="90" />
+      </asset>
+      <asset type="EDGE_LB" path="frm_system_msg_06.png">
+        <tex x="155" y="25" />
+        <rect l="0" t="0" r="155" b="25" />
+      </asset>
+      <asset type="EDGE_RB" path="frm_system_msg_08.png">
+        <tex x="155" y="25" />
+        <rect l="0" t="0" r="155" b="25" />
+      </asset>
+      <asset type="FRAME_T" path="frm_system_msg_01.png">
+        <tex x="4" y="90" />
+        <rect l="155" t="0" r="58" b="90" />
+      </asset>
+      <asset type="FRAME_B" path="frm_system_msg_07.png">
+        <tex x="4" y="25" />
+        <rect l="155" t="0" r="58" b="25" />
+      </asset>
+      <asset type="FRAME_L" path="frm_system_msg_03.png">
+        <tex x="155" y="4" />
+        <rect l="0" t="90" r="155" b="100" />
+      </asset>
+      <asset type="FRAME_R" path="frm_system_msg_05.png">
+        <tex x="155" y="4" />
+        <rect l="0" t="90" r="155" b="100" />
+      </asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="328" y="229" />
+      <rect l="0" t="0" r="368" b="215" />
+      <Dragable val="False" />
+      <StartPosition val="CenterScreen" />
+      <EscKeyAction val="None" />
+      <child type="PICTURE" name="bg_wait">
+        <asset type="STATIC">bg_loading.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="148" y="31" />
+        <rect l="0" t="0" r="71" b="71" />
+        <center x="0" y="0" />
+      </child>
+      <child type="PICTURE" name="wait_bar">
+        <asset type="ANIMATION">rd_wait_window_wait_bar.xml</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="148" y="31" />
+        <rect l="0" t="0" r="71" b="71" />
+        <center x="0" y="0" />
+      </child>
+      <child type="PICTURE" name="icon_wait_room1">
+        <asset type="STATIC">icon_wait_room1.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="173" y="55" />
+        <rect l="0" t="0" r="22" b="22" />
+        <center x="0" y="0" />
+      </child>
+      <child type="PICTURE" name="icon_wait_room2">
+        <asset type="ANIMATION">rd_wait_window_icon_wait_room2.xml</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="183" y="67" />
+        <rect l="0" t="0" r="15" b="15" />
+        <center x="0" y="0" />
+      </child>
+      <child type="LABEL" name="lb_wait_reason">
+        <label val="입장할 대기방을 검색 중입니다" />
+        <pos x="15" y="105" />
+        <rect l="0" t="0" r="337" b="18" />
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <OutlineColor val="#FFFFFF" />
+        <ShadowColor val="#030200" />
+        <color val="#FFFFFE" />
+        <halign val="1" />
+        <valign val="0" />
+        <FontName val="나눔고딕" />
+        <FontSize val="13" />
+        <style val="33" />
+      </child>
+      <child type="BUTTON" name="cancel">
+        <asset type="NORMAL">btn_b3_n.png</asset>
+        <asset type="DOWN">btn_b3_d.png</asset>
+        <asset type="OVER">btn_b3_o.png</asset>
+        <asset type="DISABLE">btn_b3_dis.png</asset>
+        <snd type="OVER">
+        </snd>
+        <snd type="DOWN">
+        </snd>
+        <snd type="RELEASE">
+        </snd>
+        <pos x="270" y="157" />
+        <rect l="0" t="0" r="72" b="34" />
+        <Visible val="True" />
+        <Anchor val="None" />
+        <child type="LABEL" name="lb_cancel">
+          <label val="Cancel" />
+          <pos x="5" y="6" />
+          <rect l="0" t="0" r="60" b="19" />
+          <Visible val="True" />
+          <Anchor val="None" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#030200" />
+          <color val="#FFFFFF" />
+          <halign val="1" />
+          <valign val="0" />
+          <FontName val="나눔고딕" />
+          <FontSize val="14" />
+          <style val="33" />
+        </child>
+      </child>
+    </base>
+  </base>
+</refresh>

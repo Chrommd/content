@@ -1,0 +1,945 @@
+﻿<refresh version="2">
+	<properties>
+		<property name="DPI" val="72" />
+		<property name="UIAnimation" val="gnb_menu_window_Animation.xml" />
+	</properties>
+	<base type="WND" subclass="" name="anchor">
+		<pos x="0" y="713" />
+		<rect l="0" t="0" r="1024" b="56" />
+		<Visible val="True" />
+		<Anchor val="Bottom, Left, Right" />
+		<snd type="SHOW"></snd>
+		<snd type="HIDE"></snd>
+		<IsHitTestVisible val="True" />
+		<ClipChildren val="False" />
+		<child type="STACKPANEL" name="StackPanel" subclass="">
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="1024" b="57" />
+			<Visible val="True" />
+			<Anchor val="Bottom, Left, Right" />
+			<Orientation val="Vertical" />
+			<HAlign val="Center" />
+			<VAlign val="Bottom" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<base type="WND" subclass="" name="global_navigation">
+				<pos x="0" y="-85" />
+				<rect l="0" t="0" r="1024" b="142" />
+				<Visible val="True" />
+				<Anchor val="Bottom" />
+				<snd type="SHOW"></snd>
+				<snd type="HIDE"></snd>
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+				<base type="WND" subclass="" name="wnd_global_navigation_ani">
+					<pos x="0" y="0" />
+					<rect l="0" t="0" r="1024" b="142" />
+					<Visible val="True" />
+					<Anchor val="Top, Left" />
+					<snd type="SHOW"></snd>
+					<snd type="HIDE"></snd>
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+					<child type="PICTURE" name="img_navigation_bar" subclass="">
+						<asset type="STATIC">gnb_bg_main.png</asset>
+						<pos x="13" y="41" />
+						<rect l="0" t="0" r="1024" b="100" />
+						<Visible val="True" />
+						<Anchor val="Bottom" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="PICTURE" name="theme_frame" subclass="">
+						<asset type="STATIC"></asset>
+						<pos x="13" y="41" />
+						<rect l="0" t="0" r="1024" b="100" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="PANEL" name="btn_mymenu" subclass="">
+						<pos x="635" y="105" />
+						<rect l="0" t="0" r="388" b="37" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<embed src="" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+						<child type="ANIMBUTTON" name="btn_exit" subclass="">
+							<asset type="GROUP">gnb_menu_window_btn_exit.xml</asset>
+							<asset type="NORMAL"></asset>
+							<asset type="DOWN"></asset>
+							<asset type="OVER"></asset>
+							<asset type="DISABLE"></asset>
+							<asset type="ENTER"></asset>
+							<asset type="LEAVE"></asset>
+							<pos x="341" y="93" />
+							<rect l="0" t="0" r="37" b="34" />
+							<Visible val="True" />
+							<snd type="OVER"></snd>
+							<snd type="DOWN">ui_btn_menu_click</snd>
+							<snd type="RELEASE">ui_btn_menu_release;ui_btn_menu_close</snd>
+							<IsHitTestVisible val="True" />
+							<ClipChildren val="False" />
+							<Anchor val="None" />
+							<IsDefaultButton val="False" />
+						</child>
+						<child type="ANIMBUTTON" name="btn_quest" subclass="">
+							<asset type="GROUP">gnb_menu_window_btn_quest.xml</asset>
+							<asset type="NORMAL"></asset>
+							<asset type="DOWN"></asset>
+							<asset type="OVER"></asset>
+							<asset type="DISABLE"></asset>
+							<asset type="ENTER"></asset>
+							<asset type="LEAVE"></asset>
+							<pos x="187" y="4" />
+							<rect l="0" t="0" r="37" b="34" />
+							<Visible val="True" />
+							<snd type="OVER"></snd>
+							<snd type="DOWN">ui_btn_menu_click</snd>
+							<snd type="RELEASE">ui_btn_menu_release;ui_btn_menu_close</snd>
+							<IsHitTestVisible val="True" />
+							<ClipChildren val="False" />
+							<Anchor val="None" />
+							<IsDefaultButton val="False" />
+						</child>
+						<child type="ANIMBUTTON" name="btn_mymenu_option" subclass="">
+							<asset type="GROUP">gnb_menu_window_btn_mymenu_option.xml</asset>
+							<asset type="NORMAL"></asset>
+							<asset type="DOWN"></asset>
+							<asset type="OVER"></asset>
+							<asset type="DISABLE"></asset>
+							<asset type="ENTER"></asset>
+							<asset type="LEAVE"></asset>
+							<pos x="310" y="3" />
+							<rect l="0" t="0" r="37" b="34" />
+							<Visible val="True" />
+							<snd type="OVER"></snd>
+							<snd type="DOWN">ui_btn_menu_click</snd>
+							<snd type="RELEASE">ui_btn_menu_release;ui_btn_menu_close</snd>
+							<IsHitTestVisible val="True" />
+							<ClipChildren val="False" />
+							<Anchor val="None" />
+							<IsDefaultButton val="False" />
+						</child>
+						<child type="ANIMBUTTON" name="btn_mymenu_book" subclass="">
+							<asset type="GROUP">gnb_menu_window_btn_mymenu_book.xml</asset>
+							<asset type="NORMAL"></asset>
+							<asset type="DOWN"></asset>
+							<asset type="OVER"></asset>
+							<asset type="DISABLE"></asset>
+							<asset type="ENTER"></asset>
+							<asset type="LEAVE"></asset>
+							<pos x="267" y="3" />
+							<rect l="0" t="0" r="37" b="34" />
+							<Visible val="True" />
+							<snd type="OVER"></snd>
+							<snd type="DOWN">ui_btn_menu_click</snd>
+							<snd type="RELEASE">ui_btn_menu_release;ui_btn_menu_close</snd>
+							<IsHitTestVisible val="True" />
+							<ClipChildren val="False" />
+							<Anchor val="None" />
+							<IsDefaultButton val="False" />
+						</child>
+						<child type="ANIMBUTTON" name="btn_mymenu_ranking" subclass="">
+							<asset type="GROUP">gnb_menu_window_btn_mymenu_ranking.xml</asset>
+							<asset type="NORMAL"></asset>
+							<asset type="DOWN"></asset>
+							<asset type="OVER"></asset>
+							<asset type="DISABLE"></asset>
+							<asset type="ENTER"></asset>
+							<asset type="LEAVE"></asset>
+							<pos x="226" y="4" />
+							<rect l="0" t="0" r="37" b="34" />
+							<Visible val="True" />
+							<snd type="OVER"></snd>
+							<snd type="DOWN">ui_btn_menu_click</snd>
+							<snd type="RELEASE">ui_btn_menu_release;ui_btn_menu_close</snd>
+							<IsHitTestVisible val="True" />
+							<ClipChildren val="False" />
+							<Anchor val="None" />
+							<IsDefaultButton val="False" />
+						</child>
+						<child type="ANIMBUTTON" name="btn_mymenu_cubbyhole" subclass="">
+							<asset type="GROUP">gnb_menu_window_btn_mymenu_cubbyhole.xml</asset>
+							<asset type="NORMAL"></asset>
+							<asset type="DOWN"></asset>
+							<asset type="OVER"></asset>
+							<asset type="DISABLE"></asset>
+							<asset type="ENTER"></asset>
+							<asset type="LEAVE"></asset>
+							<pos x="185" y="94" />
+							<rect l="0" t="0" r="38" b="34" />
+							<Visible val="True" />
+							<snd type="OVER"></snd>
+							<snd type="DOWN">ui_btn_menu_click</snd>
+							<snd type="RELEASE">ui_btn_menu_release;ui_btn_menu_close</snd>
+							<IsHitTestVisible val="True" />
+							<ClipChildren val="False" />
+							<Anchor val="None" />
+							<IsDefaultButton val="False" />
+						</child>
+						<child type="ANIMBUTTON" name="btn_mymenu_cubbyhole1" subclass="">
+							<asset type="GROUP">gnb_menu_window_btn_mymenu_cubbyhole1.xml</asset>
+							<asset type="NORMAL"></asset>
+							<asset type="DOWN"></asset>
+							<asset type="OVER"></asset>
+							<asset type="DISABLE"></asset>
+							<asset type="ENTER"></asset>
+							<asset type="LEAVE"></asset>
+							<pos x="185" y="93" />
+							<rect l="0" t="0" r="37" b="34" />
+							<Visible val="True" />
+							<snd type="OVER"></snd>
+							<snd type="DOWN">ui_btn_menu_click</snd>
+							<snd type="RELEASE">ui_btn_menu_release;ui_btn_menu_close</snd>
+							<IsHitTestVisible val="True" />
+							<ClipChildren val="False" />
+							<Anchor val="None" />
+							<IsDefaultButton val="False" />
+						</child>
+						<child type="ANIMBUTTON" name="btn_mymenu_post" subclass="">
+							<asset type="GROUP">gnb_menu_window_btn_mymenu_post.xml</asset>
+							<asset type="NORMAL"></asset>
+							<asset type="DOWN"></asset>
+							<asset type="OVER"></asset>
+							<asset type="DISABLE"></asset>
+							<asset type="ENTER"></asset>
+							<asset type="LEAVE"></asset>
+							<pos x="138" y="4" />
+							<rect l="0" t="0" r="37" b="34" />
+							<Visible val="True" />
+							<snd type="OVER"></snd>
+							<snd type="DOWN">ui_btn_menu_click</snd>
+							<snd type="RELEASE">ui_btn_menu_release;ui_btn_menu_close</snd>
+							<IsHitTestVisible val="True" />
+							<ClipChildren val="False" />
+							<Anchor val="None" />
+							<IsDefaultButton val="False" />
+						</child>
+						<child type="ANIMBUTTON" name="btn_mymenu_post1" subclass="">
+							<asset type="GROUP">gnb_menu_window_btn_mymenu_post1.xml</asset>
+							<asset type="NORMAL"></asset>
+							<asset type="DOWN"></asset>
+							<asset type="OVER"></asset>
+							<asset type="DISABLE"></asset>
+							<asset type="ENTER"></asset>
+							<asset type="LEAVE"></asset>
+							<pos x="141" y="3" />
+							<rect l="0" t="0" r="37" b="34" />
+							<Visible val="True" />
+							<snd type="OVER"></snd>
+							<snd type="DOWN">ui_btn_menu_click</snd>
+							<snd type="RELEASE">ui_btn_menu_release;ui_btn_menu_close</snd>
+							<IsHitTestVisible val="True" />
+							<ClipChildren val="False" />
+							<Anchor val="None" />
+							<IsDefaultButton val="False" />
+						</child>
+						<child type="ANIMBUTTON" name="btn_mymenu_chat" subclass="">
+							<asset type="GROUP">gnb_menu_window_btn_mymenu_chat.xml</asset>
+							<asset type="NORMAL"></asset>
+							<asset type="DOWN"></asset>
+							<asset type="OVER"></asset>
+							<asset type="DISABLE"></asset>
+							<asset type="ENTER"></asset>
+							<asset type="LEAVE"></asset>
+							<pos x="94" y="2" />
+							<rect l="0" t="0" r="37" b="34" />
+							<Visible val="True" />
+							<snd type="OVER"></snd>
+							<snd type="DOWN">ui_btn_menu_click</snd>
+							<snd type="RELEASE">ui_btn_menu_release;ui_btn_menu_close</snd>
+							<IsHitTestVisible val="True" />
+							<ClipChildren val="False" />
+							<Anchor val="None" />
+							<IsDefaultButton val="False" />
+						</child>
+						<child type="ANIMBUTTON" name="btn_mymenu_info" subclass="">
+							<asset type="GROUP">gnb_menu_window_btn_mymenu_info.xml</asset>
+							<asset type="NORMAL"></asset>
+							<asset type="DOWN"></asset>
+							<asset type="OVER"></asset>
+							<asset type="DISABLE"></asset>
+							<asset type="ENTER"></asset>
+							<asset type="LEAVE"></asset>
+							<pos x="52" y="3" />
+							<rect l="0" t="0" r="37" b="34" />
+							<Visible val="True" />
+							<snd type="OVER"></snd>
+							<snd type="DOWN">ui_btn_menu_click</snd>
+							<snd type="RELEASE">ui_btn_menu_release;ui_btn_menu_close</snd>
+							<IsHitTestVisible val="True" />
+							<ClipChildren val="False" />
+							<Anchor val="None" />
+							<IsDefaultButton val="False" />
+						</child>
+						<child type="ANIMBUTTON" name="btn_mymenu_horse_info" subclass="">
+							<asset type="GROUP">gnb_menu_window_btn_mymenu_horse_info.xml</asset>
+							<asset type="NORMAL"></asset>
+							<asset type="DOWN"></asset>
+							<asset type="OVER"></asset>
+							<asset type="DISABLE"></asset>
+							<asset type="ENTER"></asset>
+							<asset type="LEAVE"></asset>
+							<pos x="14" y="4" />
+							<rect l="0" t="0" r="37" b="34" />
+							<Visible val="True" />
+							<snd type="OVER"></snd>
+							<snd type="DOWN">ui_btn_menu_click</snd>
+							<snd type="RELEASE">ui_btn_menu_release;ui_btn_menu_close</snd>
+							<IsHitTestVisible val="True" />
+							<ClipChildren val="False" />
+							<Anchor val="None" />
+							<IsDefaultButton val="False" />
+						</child>
+						<child type="PICTURE" name="menu_main_tab_line" subclass="">
+							<asset type="STATIC">menu_main_tab_line.png</asset>
+							<pos x="305" y="8" />
+							<rect l="0" t="0" r="6" b="29" />
+							<Visible val="True" />
+							<Anchor val="None" />
+							<center x="0" y="0" />
+							<IsHitTestVisible val="True" />
+							<ClipChildren val="False" />
+						</child>
+						<child type="PICTURE" name="menu_main_tab_line1" subclass="">
+							<asset type="STATIC">menu_main_tab_line.png</asset>
+							<pos x="3" y="8" />
+							<rect l="0" t="0" r="6" b="29" />
+							<Visible val="True" />
+							<Anchor val="None" />
+							<center x="0" y="0" />
+							<IsHitTestVisible val="True" />
+							<ClipChildren val="False" />
+						</child>
+						<child type="ANIMBUTTON" name="btn_notice1" subclass="">
+							<asset type="GROUP">gnb_menu_window_btn_notice1.xml</asset>
+							<asset type="NORMAL"></asset>
+							<asset type="DOWN"></asset>
+							<asset type="OVER"></asset>
+							<asset type="DISABLE"></asset>
+							<asset type="ENTER"></asset>
+							<asset type="LEAVE"></asset>
+							<pos x="233" y="95" />
+							<rect l="0" t="0" r="37" b="34" />
+							<Visible val="True" />
+							<snd type="OVER"></snd>
+							<snd type="DOWN">ui_btn_menu_click</snd>
+							<snd type="RELEASE">ui_btn_menu_release;ui_btn_menu_close</snd>
+							<IsHitTestVisible val="True" />
+							<ClipChildren val="False" />
+							<Anchor val="None" />
+							<IsDefaultButton val="False" />
+						</child>
+					</child>
+					<child type="PANEL" name="btn_game_menu" subclass="">
+						<pos x="127" y="106" />
+						<rect l="0" t="0" r="504" b="39" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<embed src="" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+						<child type="PANEL" name="Panel" subclass="">
+							<pos x="14" y="-1" />
+							<rect l="0" t="0" r="504" b="39" />
+							<Visible val="True" />
+							<Anchor val="Top, Left" />
+							<embed src="" />
+							<IsHitTestVisible val="True" />
+							<ClipChildren val="False" />
+							<child type="PICTURE" name="gnb_menu_blank" subclass="">
+								<asset type="STATIC">gnb_menu_blank.png</asset>
+								<pos x="13" y="-3" />
+								<rect l="0" t="0" r="94" b="39" />
+								<Visible val="True" />
+								<Anchor val="None" />
+								<center x="0" y="0" />
+								<IsHitTestVisible val="True" />
+								<ClipChildren val="False" />
+							</child>
+							<child type="ANIMBUTTON" name="btn_quick_manage" subclass="">
+								<asset type="GROUP">gnb_menu_window_btn_quick_manage.xml</asset>
+								<asset type="NORMAL"></asset>
+								<asset type="DOWN"></asset>
+								<asset type="OVER"></asset>
+								<asset type="DISABLE"></asset>
+								<asset type="ENTER"></asset>
+								<asset type="LEAVE"></asset>
+								<pos x="13" y="-4" />
+								<rect l="0" t="0" r="95" b="41" />
+								<Visible val="True" />
+								<snd type="OVER"></snd>
+								<snd type="DOWN">ui_btn_menu_click</snd>
+								<snd type="RELEASE">ui_btn_menu_release</snd>
+								<IsHitTestVisible val="True" />
+								<ClipChildren val="False" />
+								<Anchor val="None" />
+								<IsDefaultButton val="False" />
+							</child>
+							<child type="ANIMBUTTON" name="btn_quick_inven" subclass="">
+								<asset type="GROUP">gnb_menu_window_btn_quick_inven.xml</asset>
+								<asset type="NORMAL"></asset>
+								<asset type="DOWN"></asset>
+								<asset type="OVER"></asset>
+								<asset type="DISABLE"></asset>
+								<asset type="ENTER"></asset>
+								<asset type="LEAVE"></asset>
+								<pos x="298" y="-3" />
+								<rect l="0" t="0" r="95" b="41" />
+								<Visible val="True" />
+								<snd type="OVER"></snd>
+								<snd type="DOWN">ui_btn_menu_click</snd>
+								<snd type="RELEASE">ui_btn_menu_release;ui_btn_menu_confirm</snd>
+								<IsHitTestVisible val="True" />
+								<ClipChildren val="False" />
+								<Anchor val="None" />
+								<IsDefaultButton val="False" />
+							</child>
+							<child type="ANIMBUTTON" name="btn_quick_shop" subclass="">
+								<asset type="GROUP">gnb_menu_window_btn_quick_shop.xml</asset>
+								<asset type="NORMAL"></asset>
+								<asset type="DOWN"></asset>
+								<asset type="OVER"></asset>
+								<asset type="DISABLE"></asset>
+								<asset type="ENTER"></asset>
+								<asset type="LEAVE"></asset>
+								<pos x="203" y="-4" />
+								<rect l="0" t="0" r="95" b="41" />
+								<Visible val="True" />
+								<snd type="OVER"></snd>
+								<snd type="DOWN">ui_btn_menu_click</snd>
+								<snd type="RELEASE">ui_btn_menu_release;ui_btn_menu_confirm</snd>
+								<IsHitTestVisible val="True" />
+								<ClipChildren val="False" />
+								<Anchor val="None" />
+								<IsDefaultButton val="False" />
+							</child>
+							<child type="ANIMBUTTON" name="btn_quick_game" subclass="">
+								<asset type="GROUP">gnb_menu_window_btn_quick_game.xml</asset>
+								<asset type="NORMAL"></asset>
+								<asset type="DOWN"></asset>
+								<asset type="OVER"></asset>
+								<asset type="DISABLE"></asset>
+								<asset type="ENTER"></asset>
+								<asset type="LEAVE"></asset>
+								<pos x="108" y="-2" />
+								<rect l="0" t="0" r="95" b="41" />
+								<Visible val="True" />
+								<snd type="OVER"></snd>
+								<snd type="DOWN">ui_btn_menu_click</snd>
+								<snd type="RELEASE">ui_btn_menu_release</snd>
+								<IsHitTestVisible val="True" />
+								<ClipChildren val="False" />
+								<Anchor val="None" />
+								<IsDefaultButton val="False" />
+							</child>
+							<child type="ANIMBUTTON" name="btn_quick_ranch" subclass="">
+								<asset type="GROUP">gnb_menu_window_btn_quick_ranch.xml</asset>
+								<asset type="NORMAL"></asset>
+								<asset type="DOWN"></asset>
+								<asset type="OVER"></asset>
+								<asset type="DISABLE"></asset>
+								<asset type="ENTER"></asset>
+								<asset type="LEAVE"></asset>
+								<pos x="393" y="-5" />
+								<rect l="0" t="0" r="95" b="41" />
+								<Visible val="True" />
+								<snd type="OVER"></snd>
+								<snd type="DOWN">ui_btn_menu_click</snd>
+								<snd type="RELEASE">ui_btn_menu_release</snd>
+								<IsHitTestVisible val="True" />
+								<ClipChildren val="False" />
+								<Anchor val="None" />
+								<IsDefaultButton val="False" />
+							</child>
+						</child>
+						<child type="PICTURE" name="icon_menu_new_3" subclass="">
+							<asset type="ANIMATION">gnb_menu_window_icon_menu_new_3.xml</asset>
+							<pos x="22" y="-9" />
+							<rect l="0" t="0" r="104" b="49" />
+							<Visible val="True" />
+							<Anchor val="None" />
+							<center x="0" y="0" />
+							<IsHitTestVisible val="False" />
+							<ClipChildren val="False" />
+						</child>
+						<child type="PICTURE" name="icon_menu_new_2" subclass="">
+							<asset type="ANIMATION">gnb_menu_window_icon_menu_new_2.xml</asset>
+							<pos x="118" y="-9" />
+							<rect l="0" t="0" r="104" b="49" />
+							<Visible val="True" />
+							<Anchor val="None" />
+							<center x="0" y="0" />
+							<IsHitTestVisible val="False" />
+							<ClipChildren val="False" />
+						</child>
+						<child type="PICTURE" name="icon_menu_new_1" subclass="">
+							<asset type="ANIMATION">gnb_menu_window_icon_menu_new_1.xml</asset>
+							<pos x="402" y="-9" />
+							<rect l="0" t="0" r="104" b="49" />
+							<Visible val="True" />
+							<Anchor val="None" />
+							<center x="0" y="0" />
+							<IsHitTestVisible val="False" />
+							<ClipChildren val="False" />
+						</child>
+						<child type="STACKPANEL" name="StackPanel_cubbyhole" subclass="">
+							<pos x="369" y="-68" />
+							<rect l="0" t="0" r="11" b="67" />
+							<Visible val="True" />
+							<Anchor val="Bottom" />
+							<Orientation val="Vertical" />
+							<HAlign val="Center" />
+							<VAlign val="Bottom" />
+							<IsHitTestVisible val="False" />
+							<ClipChildren val="False" />
+							<child type="TEXTAREA" name="txt_inven_cubbyhole" subclass="">
+								<asset type="BG" path="tooltip_CenterMiddle_00.png" tileMode="Stretch">
+									<tex x="4" y="4" />
+									<rect l="105" t="19" r="7" b="14" />
+								</asset>
+								<asset type="EDGE_LT" path="tooltip_LeftTop_00.png" tileMode="Stretch">
+									<tex x="105" y="19" />
+									<rect l="0" t="0" r="105" b="19" />
+								</asset>
+								<asset type="EDGE_RT" path="tooltip_RightTop_00.png" tileMode="Stretch">
+									<tex x="105" y="19" />
+									<rect l="0" t="0" r="105" b="19" />
+								</asset>
+								<asset type="EDGE_LB" path="tooltip_LeftBottom_00.png" tileMode="Stretch">
+									<tex x="105" y="19" />
+									<rect l="0" t="0" r="105" b="19" />
+								</asset>
+								<asset type="EDGE_RB" path="tooltip_RightBottom_00.png" tileMode="Stretch">
+									<tex x="105" y="19" />
+									<rect l="0" t="0" r="105" b="19" />
+								</asset>
+								<asset type="FRAME_T" path="tooltip_CenterTop_00.png" tileMode="Tile">
+									<tex x="4" y="19" />
+									<rect l="105" t="0" r="7" b="19" />
+								</asset>
+								<asset type="FRAME_B" path="tooltip_CenterBottom_00.png" tileMode="Tile">
+									<tex x="4" y="19" />
+									<rect l="105" t="0" r="7" b="19" />
+								</asset>
+								<asset type="FRAME_L" path="tooltip_LeftMiddle_00.png" tileMode="Tile">
+									<tex x="105" y="4" />
+									<rect l="0" t="19" r="105" b="14" />
+								</asset>
+								<asset type="FRAME_R" path="tooltip_RightMiddle_00.png" tileMode="Tile">
+									<tex x="105" y="4" />
+									<rect l="0" t="19" r="105" b="14" />
+								</asset>
+								<asset type="CARET" path="">
+									<rpos x="0" y="0" />
+									<rect l="0" t="0" r="0" b="0" />
+								</asset>
+								<pos x="-103" y="15" />
+								<rect l="0" t="0" r="217" b="52" />
+								<Visible val="True" />
+								<Anchor val="Top" />
+								<Editable val="False" />
+								<OutlineColor val="#825E17FF" />
+								<ShadowColor val="#0000004C" />
+								<SelectionBrush val="#FF0000" />
+								<color val="#FFFFFFFF" />
+								<style val="16" />
+								<halign val="0" />
+								<padding l="38" t="19" r="32" b="16" />
+								<FontName val="나눔고딕 ExtraBold" />
+								<FontSize val="13" />
+								<IsHitTestVisible val="False" />
+								<ClipChildren val="False" />
+								<FitToContent val="True" />
+								<Text val="" />
+								<child type="PICTURE" name="icon_frame_mymenu_myequipmen" subclass="">
+									<asset type="STATIC">qnb_btn_cubbyhole_n.png</asset>
+									<pos x="3" y="9" />
+									<rect l="0" t="0" r="38" b="34" />
+									<Visible val="True" />
+									<Anchor val="Top, Left" />
+									<center x="0" y="0" />
+									<IsHitTestVisible val="True" />
+									<ClipChildren val="False" />
+								</child>
+							</child>
+						</child>
+					</child>
+					<child type="PICTURE" name="horse_thumbnail" subclass="">
+						<asset type="STATIC">hwidget_img_smpl.png</asset>
+						<pos x="45" y="39" />
+						<rect l="0" t="0" r="100" b="102" />
+						<Visible val="True" />
+						<Anchor val="Top, Left" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="PICTURE" name="gnb_bg_main_deco" subclass="">
+						<asset type="STATIC">gnb_bg_main_deco.png</asset>
+						<pos x="35" y="71" />
+						<rect l="0" t="0" r="50" b="70" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="PICTURE" name="gnb_parts_main" subclass="">
+						<asset type="STATIC">gnb_parts_main.png</asset>
+						<pos x="10" y="108" />
+						<rect l="0" t="0" r="46" b="33" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="PICTURE" name="horseinfo_condition_bg" subclass="">
+						<asset type="ANIMATION">gnb_menu_window_horseinfo_condition_bg.xml</asset>
+						<pos x="9" y="104" />
+						<rect l="0" t="0" r="30" b="30" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="PICTURE" name="icon_condition" subclass="">
+						<asset type="STATIC"></asset>
+						<pos x="15" y="111" />
+						<rect l="0" t="0" r="30" b="30" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="PICTURE" name="gnb_btn_shop_alram" subclass="">
+						<asset type="ANIMATION">gnb_menu_window_gnb_btn_shop_alram.xml</asset>
+						<pos x="386" y="200" />
+						<rect l="0" t="0" r="33" b="18" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+					<base type="WND" subclass="" name="myinfo">
+						<pos x="640" y="88" />
+						<rect l="0" t="0" r="352" b="21" />
+						<Visible val="True" />
+						<Anchor val="Top, Right" />
+						<snd type="SHOW"></snd>
+						<snd type="HIDE"></snd>
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+						<child type="LABEL" name="txt_my_level" subclass="">
+							<pos x="-2" y="2" />
+							<rect l="0" t="0" r="27" b="16" />
+							<Visible val="True" />
+							<Anchor val="Top, Left" />
+							<label val="000" />
+							<OutlineColor val="#FF0000" />
+							<ShadowColor val="#0000007F" />
+							<color val="#FFFFFFFF" />
+							<halign val="2" />
+							<valign val="1" />
+							<FontName val="나눔고딕 ExtraBold" />
+							<FontSize val="14" />
+							<TextTrimming val="None" />
+							<style val="32" />
+							<IsHitTestVisible val="False" />
+							<ClipChildren val="False" />
+							<Padding val="0, 0, 0, 0" />
+							<FitToContent val="False" />
+						</child>
+						<child type="LABEL" name="txt_my_cash" subclass="">
+							<pos x="89" y="2" />
+							<rect l="0" t="0" r="75" b="16" />
+							<Visible val="True" />
+							<Anchor val="Top, Left" />
+							<label val="00,000,000" />
+							<OutlineColor val="#FF0000" />
+							<ShadowColor val="#0000007F" />
+							<color val="#95FF3CFF" />
+							<halign val="2" />
+							<valign val="1" />
+							<FontName val="나눔고딕 ExtraBold" />
+							<FontSize val="14" />
+							<TextTrimming val="None" />
+							<style val="32" />
+							<IsHitTestVisible val="False" />
+							<ClipChildren val="False" />
+							<Padding val="0, 0, 0, 0" />
+							<FitToContent val="False" />
+						</child>
+						<child type="LABEL" name="txt_my_gamemoney" subclass="">
+							<pos x="207" y="2" />
+							<rect l="0" t="0" r="84" b="16" />
+							<Visible val="True" />
+							<Anchor val="Top, Left" />
+							<label val="000,000,000" />
+							<OutlineColor val="#FF0000" />
+							<ShadowColor val="#0000007F" />
+							<color val="#FFE400FF" />
+							<halign val="2" />
+							<valign val="1" />
+							<FontName val="나눔고딕 ExtraBold" />
+							<FontSize val="14" />
+							<TextTrimming val="None" />
+							<style val="32" />
+							<IsHitTestVisible val="False" />
+							<ClipChildren val="False" />
+							<Padding val="0, 0, 0, 0" />
+							<FitToContent val="False" />
+						</child>
+						<child type="LABEL" name="lb_my_gamemoney" subclass="">
+							<pos x="290" y="4" />
+							<rect l="0" t="0" r="60" b="13" />
+							<Visible val="True" />
+							<Anchor val="None" />
+							<label val="Carrots" />
+							<OutlineColor val="#FF0000" />
+							<ShadowColor val="#5B2111FF" />
+							<color val="#FFFFFFFF" />
+							<halign val="1" />
+							<valign val="1" />
+							<FontName val="나눔고딕 ExtraBold" />
+							<FontSize val="13" />
+							<TextTrimming val="None" />
+							<style val="32" />
+							<IsHitTestVisible val="False" />
+							<ClipChildren val="False" />
+							<Padding val="0, 0, 0, 0" />
+							<FitToContent val="False" />
+						</child>
+						<child type="LABEL" name="lb_my_cash" subclass="">
+							<pos x="169" y="4" />
+							<rect l="0" t="0" r="40" b="13" />
+							<Visible val="True" />
+							<Anchor val="None" />
+							<label val="Cash" />
+							<OutlineColor val="#FF0000" />
+							<ShadowColor val="#5B2111FF" />
+							<color val="#FFFFFFFF" />
+							<halign val="1" />
+							<valign val="1" />
+							<FontName val="나눔고딕 ExtraBold" />
+							<FontSize val="13" />
+							<TextTrimming val="None" />
+							<style val="32" />
+							<IsHitTestVisible val="False" />
+							<ClipChildren val="False" />
+							<Padding val="0, 0, 0, 0" />
+							<FitToContent val="False" />
+						</child>
+						<child type="LABEL" name="lb_my_level" subclass="">
+							<pos x="29" y="4" />
+							<rect l="0" t="0" r="36" b="13" />
+							<Visible val="True" />
+							<Anchor val="None" />
+							<label val="Level" />
+							<OutlineColor val="#FF0000" />
+							<ShadowColor val="#5B2111FF" />
+							<color val="#FFFFFFFF" />
+							<halign val="1" />
+							<valign val="1" />
+							<FontName val="나눔고딕 ExtraBold" />
+							<FontSize val="13" />
+							<TextTrimming val="None" />
+							<style val="32" />
+							<IsHitTestVisible val="False" />
+							<ClipChildren val="False" />
+							<Padding val="0, 0, 0, 0" />
+							<FitToContent val="False" />
+						</child>
+					</base>
+				</base>
+				<base type="WND" subclass="" name="Wnd_horse_info">
+					<pos x="-1" y="45" />
+					<rect l="0" t="0" r="139" b="96" />
+					<Visible val="True" />
+					<Anchor val="Top, Left" />
+					<snd type="SHOW"></snd>
+					<snd type="HIDE"></snd>
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+					<child type="PANEL" name="Panel_health" subclass="">
+						<pos x="44" y="65" />
+						<rect l="0" t="0" r="87" b="36" />
+						<Visible val="True" />
+						<Anchor val="Top, Left" />
+						<embed src="" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+						<child type="ANIMBUTTON" name="btn_health" subclass="">
+							<asset type="GROUP">gnb_menu_window_btn_health.xml</asset>
+							<asset type="NORMAL"></asset>
+							<asset type="DOWN"></asset>
+							<asset type="OVER"></asset>
+							<asset type="DISABLE"></asset>
+							<asset type="ENTER"></asset>
+							<asset type="LEAVE"></asset>
+							<pos x="-1" y="-3" />
+							<rect l="0" t="0" r="92" b="38" />
+							<Visible val="True" />
+							<snd type="OVER"></snd>
+							<snd type="DOWN"></snd>
+							<snd type="RELEASE"></snd>
+							<IsHitTestVisible val="True" />
+							<ClipChildren val="False" />
+							<Anchor val="Top, Left" />
+							<IsDefaultButton val="False" />
+						</child>
+					</child>
+					<child type="PANEL" name="Panel_classup" subclass="">
+						<pos x="11" y="34" />
+						<rect l="0" t="0" r="47" b="41" />
+						<Visible val="True" />
+						<Anchor val="Top, Left" />
+						<embed src="" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+						<child type="ANIMBUTTON" name="btn_classup" subclass="">
+							<asset type="GROUP">gnb_menu_window_btn_classup.xml</asset>
+							<asset type="NORMAL"></asset>
+							<asset type="DOWN"></asset>
+							<asset type="OVER"></asset>
+							<asset type="DISABLE"></asset>
+							<asset type="ENTER"></asset>
+							<asset type="LEAVE"></asset>
+							<pos x="0" y="4" />
+							<rect l="0" t="0" r="42" b="38" />
+							<Visible val="True" />
+							<snd type="OVER"></snd>
+							<snd type="DOWN">ui_btn_menu_click</snd>
+							<snd type="RELEASE">ui_btn_menu_release</snd>
+							<IsHitTestVisible val="True" />
+							<ClipChildren val="False" />
+							<Anchor val="Top, Left" />
+							<IsDefaultButton val="False" />
+						</child>
+					</child>
+					<child type="STACKPANEL" name="StackPanel_stat" subclass="">
+						<pos x="73" y="137" />
+						<rect l="0" t="0" r="54" b="26" />
+						<Visible val="True" />
+						<Anchor val="Top, Left" />
+						<Orientation val="Horizontal" />
+						<HAlign val="Center" />
+						<VAlign val="Center" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+						<child type="PICTURE" name="horse_stat_1" subclass="">
+							<asset type="STATIC"></asset>
+							<pos x="27" y="0" />
+							<rect l="0" t="0" r="22" b="26" />
+							<Visible val="True" />
+							<Anchor val="None" />
+							<center x="0" y="0" />
+							<IsHitTestVisible val="True" />
+							<ClipChildren val="False" />
+						</child>
+						<child type="PICTURE" name="horse_stat_0" subclass="">
+							<asset type="STATIC"></asset>
+							<pos x="5" y="0" />
+							<rect l="0" t="0" r="22" b="26" />
+							<Visible val="True" />
+							<Anchor val="None" />
+							<center x="0" y="0" />
+							<IsHitTestVisible val="True" />
+							<ClipChildren val="False" />
+						</child>
+					</child>
+					<child type="PICTURE" name="classup_msg" subclass="">
+						<asset type="STATIC">classup_msg_bg.png</asset>
+						<pos x="2" y="-21" />
+						<rect l="0" t="0" r="218" b="86" />
+						<Visible val="True" />
+						<Anchor val="Top, Left" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="False" />
+						<ClipChildren val="False" />
+						<child type="STACKPANEL" name="StackPanel1" subclass="">
+							<pos x="13" y="12" />
+							<rect l="0" t="0" r="191" b="50" />
+							<Visible val="True" />
+							<Anchor val="Top, Left" />
+							<Orientation val="Vertical" />
+							<HAlign val="Center" />
+							<VAlign val="Center" />
+							<IsHitTestVisible val="True" />
+							<ClipChildren val="False" />
+						</child>
+						<child type="TEXTAREA" name="classup_msg_text" subclass="">
+							<asset type="BG" path="" tileMode="Tile">
+								<tex x="0" y="0" />
+								<rect l="8" t="8" r="177" b="0" />
+							</asset>
+							<asset type="EDGE_LT" path="" tileMode="Tile">
+								<tex x="0" y="0" />
+								<rect l="0" t="0" r="8" b="8" />
+							</asset>
+							<asset type="EDGE_RT" path="" tileMode="Tile">
+								<tex x="0" y="0" />
+								<rect l="0" t="0" r="8" b="8" />
+							</asset>
+							<asset type="EDGE_LB" path="" tileMode="Tile">
+								<tex x="0" y="0" />
+								<rect l="0" t="0" r="8" b="8" />
+							</asset>
+							<asset type="EDGE_RB" path="" tileMode="Tile">
+								<tex x="0" y="0" />
+								<rect l="0" t="0" r="8" b="8" />
+							</asset>
+							<asset type="FRAME_T" path="" tileMode="Tile">
+								<tex x="0" y="0" />
+								<rect l="8" t="0" r="177" b="8" />
+							</asset>
+							<asset type="FRAME_B" path="" tileMode="Tile">
+								<tex x="0" y="0" />
+								<rect l="8" t="0" r="177" b="8" />
+							</asset>
+							<asset type="FRAME_L" path="" tileMode="Tile">
+								<tex x="0" y="0" />
+								<rect l="0" t="8" r="8" b="0" />
+							</asset>
+							<asset type="FRAME_R" path="" tileMode="Tile">
+								<tex x="0" y="0" />
+								<rect l="0" t="8" r="8" b="0" />
+							</asset>
+							<asset type="CARET" path="">
+								<rpos x="0" y="0" />
+								<rect l="0" t="0" r="0" b="0" />
+							</asset>
+							<pos x="12" y="29" />
+							<rect l="0" t="0" r="193" b="16" />
+							<Visible val="True" />
+							<Anchor val="Top, Left" />
+							<Editable val="False" />
+							<OutlineColor val="#FFFFFF" />
+							<ShadowColor val="#0000004C" />
+							<SelectionBrush val="#FF0000" />
+							<color val="#6B5D54" />
+							<style val="1" />
+							<halign val="0" />
+							<padding l="3" t="2" r="3" b="2" />
+							<FontName val="나눔고딕" />
+							<FontSize val="13" />
+							<IsHitTestVisible val="True" />
+							<ClipChildren val="False" />
+							<FitToContent val="False" />
+							<Text val="" />
+						</child>
+					</child>
+				</base>
+			</base>
+		</child>
+	</base>
+</refresh>

@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <event animation="_initialize_">
+        <function>PlayFX($asset, "ob_funobj_box_crash_001", "root", "-attach ")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="1st">
+        <function>PlayFX($asset, "ob_sgdust_crash_a", "root", "-attach ")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="1st">
+        <function>RelayMsg($asset, "FadeOut", "-time 1")</function>
+        <time>1.0333</time>
+        <freq>100</freq>
+    </event>
+    <event animation="1st">
+        <function>PlaySND($asset, "crash_sign01_", "", "-var 3")</function>
+        <time>0.0100</time>
+        <freq>100</freq>
+    </event>
+    <event animation="2nd">
+        <function>PlayFX($asset, "ob_sgdust_crash_b", "root", "-attach ")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="2nd">
+        <function>RelayMsg($asset, "FadeOut", "-time 1")</function>
+        <time>1.2433</time>
+        <freq>100</freq>
+    </event>
+    <event animation="2nd">
+        <function>PlaySND($asset, "crash_sign01_", "", "-var 3")</function>
+        <time>0.0133</time>
+        <freq>100</freq>
+    </event>
+    <event animation="3rd">
+        <function>RelayMsg($asset, "FadeOut", "-time 1")</function>
+        <time>1.1867</time>
+        <freq>100</freq>
+    </event>
+    <event animation="3rd">
+        <function>PlayFX($asset, "ob_sgdust_crash_c", "root", "-attach ")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="3rd">
+        <function>PlaySND($asset, "crash_sign01_", "", "-var 3")</function>
+        <time>0.0167</time>
+        <freq>100</freq>
+    </event>
+    <action category="" state="BROKEN_1ST" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>1st</main>
+    </action>
+    <action category="" state="BROKEN_2ND" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>2nd</main>
+    </action>
+    <action category="" state="BROKEN_3RD" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>3rd</main>
+    </action>
+</aim>

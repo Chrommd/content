@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+  </properties>
+  <base type="WNDEX" name="rd_tooltip">
+    <asset type="BG" path="tooltip_b_04.png">
+      <tex x="14" y="14" />
+      <rect l="14" t="14" r="122" b="35" />
+    </asset>
+    <asset type="EDGE_LT" path="tooltip_b_00.png">
+      <tex x="14" y="14" />
+      <rect l="0" t="0" r="14" b="14" />
+    </asset>
+    <asset type="EDGE_RT" path="tooltip_b_02.png">
+      <tex x="17" y="14" />
+      <rect l="0" t="0" r="17" b="14" />
+    </asset>
+    <asset type="EDGE_LB" path="tooltip_b_06.png">
+      <tex x="14" y="18" />
+      <rect l="0" t="0" r="14" b="18" />
+    </asset>
+    <asset type="EDGE_RB" path="tooltip_b_08.png">
+      <tex x="17" y="18" />
+      <rect l="0" t="0" r="17" b="18" />
+    </asset>
+    <asset type="FRAME_T" path="tooltip_b_01.png">
+      <tex x="14" y="14" />
+      <rect l="14" t="0" r="122" b="14" />
+    </asset>
+    <asset type="FRAME_B" path="tooltip_b_07.png">
+      <tex x="14" y="18" />
+      <rect l="14" t="0" r="122" b="18" />
+    </asset>
+    <asset type="FRAME_L" path="tooltip_b_03.png">
+      <tex x="14" y="14" />
+      <rect l="0" t="14" r="14" b="35" />
+    </asset>
+    <asset type="FRAME_R" path="tooltip_b_05.png">
+      <tex x="17" y="14" />
+      <rect l="0" t="14" r="17" b="35" />
+    </asset>
+    <Visible val="True" />
+    <Anchor val="None" />
+    <pos x="289" y="585" />
+    <rect l="0" t="0" r="153" b="67" />
+    <Dragable val="False" />
+    <StartPosition val="None" />
+    <EscKeyAction val="None" />
+    <child type="LABEL" name="lb_tooltip_d2">
+      <label val="시작해주세요" />
+      <pos x="16" y="30" />
+      <rect l="0" t="0" r="118" b="20" />
+      <Visible val="True" />
+      <Anchor val="None" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#030200" />
+      <color val="#FFFFFF" />
+      <halign val="0" />
+      <valign val="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="13" />
+      <FontName val="나눔고딕" />
+    </child>
+    <child type="LABEL" name="lb_tooltip_d1">
+      <label val="모두 준비를 완료한 후" />
+      <pos x="16" y="13" />
+      <rect l="0" t="0" r="118" b="20" />
+      <Visible val="True" />
+      <Anchor val="None" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#030200" />
+      <color val="#FFFFFF" />
+      <halign val="0" />
+      <valign val="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="13" />
+      <FontName val="나눔고딕" />
+    </child>
+  </base>
+</refresh>

@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+  </properties>
+  <base type="WND" subclass="" name="Wnd_Magic">
+    <Visible val="True" />
+    <Anchor val="Top, Right" />
+    <pos x="671" y="93" />
+    <rect l="0" t="0" r="347" b="473" />
+    <snd type="SHOW">
+    </snd>
+    <snd type="HIDE">
+    </snd>
+    <IsHitTestVisible val="False" />
+    <ClipChildren val="False" />
+    <child type="PANEL" name="Panel_PIP" subclass="">
+      <Visible val="True" />
+      <Anchor val="Right" />
+      <embed src="" />
+      <pos x="18" y="275" />
+      <rect l="0" t="0" r="328" b="165" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="LIST" name="Used_Info_ListControl" subclass="">
+      <asset type="BG" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="8" t="8" r="314" b="236" />
+      </asset>
+      <asset type="EDGE_LT" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_RT" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_LB" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_RB" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="FRAME_T" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="8" t="0" r="314" b="8" />
+      </asset>
+      <asset type="FRAME_B" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="8" t="0" r="314" b="8" />
+      </asset>
+      <asset type="FRAME_L" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="8" r="8" b="236" />
+      </asset>
+      <asset type="FRAME_R" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="8" r="8" b="236" />
+      </asset>
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <pos x="17" y="1" />
+      <rect l="0" t="0" r="330" b="252" />
+      <padding l="0" t="0" r="0" b="0" />
+      <column val="1" />
+      <itemrect l="0" t="0" r="100" b="20" />
+      <selection val="0" />
+      <deselectable val="0" />
+      <rclickaction val="1" />
+      <IsHitTestVisible val="True" />
+      <Orientation val="Vertical" />
+      <ClipChildren val="False" />
+    </child>
+  </base>
+</refresh>

@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="bg_alicia_logo_Default">
+    <asset type="IMAGE" name="asset_logo_wing_2" path="logo_wing_2.png">
+      <rect l="0" t="0" r="308" b="260" />
+    </asset>
+    <asset type="IMAGE" name="asset_logo_wing_1" path="logo_wing_1.png">
+      <rect l="0" t="0" r="308" b="260" />
+    </asset>
+    <asset type="IMAGE" name="asset_logo_alicia" path="logo_alicia.png">
+      <rect l="0" t="0" r="265" b="136" />
+    </asset>
+    <object name="logo_wing_2" ani="ani_logo_wing_2">
+      <asset type="IMAGE" link="asset_logo_wing_2" />
+    </object>
+    <object name="logo_wing_1" ani="ani_logo_wing_1">
+      <asset type="IMAGE" link="asset_logo_wing_1" />
+    </object>
+    <object name="logo_alicia" ani="ani_logo_alicia">
+      <asset type="IMAGE" link="asset_logo_alicia" />
+    </object>
+    <param type="RES" x="265" y="136" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_logo_wing_2">
+      <frame cnt="0">
+        <posx val="0.00377358490566038" />
+        <posy val="1.16176470588235" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="35" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="1" />
+      </frame>
+      <frame cnt="2167">
+        <posx val="0.00377358490566038" />
+        <posy val="1.16176470588235" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="25" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="1" />
+      </frame>
+      <frame cnt="2800">
+        <posx val="0.00377358490566038" />
+        <posy val="1.16176470588235" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="-3" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="1" />
+      </frame>
+      <frame cnt="3000">
+        <posx val="0.00377358490566038" />
+        <posy val="1.16176470588235" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="1" />
+      </frame>
+    </anim>
+    <anim name="ani_logo_wing_1">
+      <frame cnt="0">
+        <posx val="0.00754716981132075" />
+        <posy val="1.15441176470588" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="31" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="1" />
+      </frame>
+      <frame cnt="2167">
+        <posx val="0.00754716981132075" />
+        <posy val="1.15441176470588" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="15" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="1" />
+      </frame>
+      <frame cnt="2800">
+        <posx val="0.00754716981132075" />
+        <posy val="1.15441176470588" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="-3" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="1" />
+      </frame>
+      <frame cnt="3000">
+        <posx val="0.00754716981132075" />
+        <posy val="1.15441176470588" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="1" />
+      </frame>
+    </anim>
+    <anim name="ani_logo_alicia">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

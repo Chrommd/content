@@ -1,0 +1,371 @@
+﻿<refresh version="2">
+	<properties>
+		<property name="DPI" val="72" />
+		<property name="UIAnimation" val="fes_result_part_dialog_Animation.xml" />
+	</properties>
+	<base type="WNDEX" subclass="" name="fes_result_part_WndEx">
+		<asset type="BG" path="" tileMode="Tile">
+			<tex x="0" y="0" />
+			<rect l="8" t="8" r="481" b="47" />
+		</asset>
+		<asset type="EDGE_LT" path="" tileMode="Tile">
+			<tex x="0" y="0" />
+			<rect l="0" t="0" r="8" b="8" />
+		</asset>
+		<asset type="EDGE_RT" path="" tileMode="Tile">
+			<tex x="0" y="0" />
+			<rect l="0" t="0" r="8" b="8" />
+		</asset>
+		<asset type="EDGE_LB" path="" tileMode="Tile">
+			<tex x="0" y="0" />
+			<rect l="0" t="0" r="8" b="8" />
+		</asset>
+		<asset type="EDGE_RB" path="" tileMode="Tile">
+			<tex x="0" y="0" />
+			<rect l="0" t="0" r="8" b="8" />
+		</asset>
+		<asset type="FRAME_T" path="" tileMode="Tile">
+			<tex x="0" y="0" />
+			<rect l="8" t="0" r="481" b="8" />
+		</asset>
+		<asset type="FRAME_B" path="" tileMode="Tile">
+			<tex x="0" y="0" />
+			<rect l="8" t="0" r="481" b="8" />
+		</asset>
+		<asset type="FRAME_L" path="" tileMode="Tile">
+			<tex x="0" y="0" />
+			<rect l="0" t="8" r="8" b="47" />
+		</asset>
+		<asset type="FRAME_R" path="" tileMode="Tile">
+			<tex x="0" y="0" />
+			<rect l="0" t="8" r="8" b="47" />
+		</asset>
+		<pos x="0" y="0" />
+		<rect l="0" t="0" r="497" b="63" />
+		<Visible val="True" />
+		<Anchor val="Top, Left" />
+		<snd type="SHOW"></snd>
+		<snd type="HIDE"></snd>
+		<Dragable val="False" />
+		<StartPosition val="None" />
+		<EscKeyAction val="None" />
+		<IsHitTestVisible val="True" />
+		<ClipChildren val="False" />
+		<child type="PANEL" name="Panel_fes_result3" subclass="">
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="497" b="63" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<embed src="" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<child type="PICTURE" name="fes_result_bottom_bg2" subclass="">
+				<asset type="STATIC">fes_result_bottom_bg2.png</asset>
+				<pos x="0" y="0" />
+				<rect l="0" t="0" r="497" b="63" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="LABEL" name="lb_fes_winmessage1" subclass="">
+				<pos x="207" y="19" />
+				<rect l="0" t="0" r="284" b="27" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<label val="오늘 밤 열릴 카니발에 진출하였습니다. " />
+				<OutlineColor val="#FF0000" />
+				<ShadowColor val="#FF0000" />
+				<color val="#D05312" />
+				<halign val="0" />
+				<valign val="1" />
+				<FontName val="나눔명조" />
+				<FontSize val="13" />
+				<TextTrimming val="None" />
+				<style val="1" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+				<Padding val="0, 0, 0, 0" />
+				<FitToContent val="False" />
+			</child>
+			<child type="LABEL" name="lb_fes_congra1" subclass="">
+				<pos x="207" y="6" />
+				<rect l="0" t="0" r="267" b="18" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<label val="축하합니다!" />
+				<OutlineColor val="#FF0000" />
+				<ShadowColor val="#FF0000" />
+				<color val="#A23500" />
+				<halign val="0" />
+				<valign val="1" />
+				<FontName val="나눔명조" />
+				<FontSize val="16" />
+				<TextTrimming val="None" />
+				<style val="1" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+				<Padding val="0, 0, 0, 0" />
+				<FitToContent val="False" />
+			</child>
+			<child type="LABEL" name="txt_fes_playerlist2" subclass="">
+				<pos x="19" y="13" />
+				<rect l="0" t="0" r="125" b="20" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<label val="카니발 진출마" />
+				<OutlineColor val="#FF0000" />
+				<ShadowColor val="#000000" />
+				<color val="#BA712A" />
+				<halign val="0" />
+				<valign val="1" />
+				<FontName val="나눔고딕" />
+				<FontSize val="14" />
+				<TextTrimming val="None" />
+				<style val="1" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+				<Padding val="0, 0, 0, 0" />
+				<FitToContent val="False" />
+			</child>
+			<child type="LABEL" name="txt_fes_winner1" subclass="">
+				<pos x="18" y="31" />
+				<rect l="0" t="0" r="179" b="19" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<label val="" />
+				<OutlineColor val="#FF0000" />
+				<ShadowColor val="#DCD6CF" />
+				<color val="#51402C" />
+				<halign val="0" />
+				<valign val="1" />
+				<FontName val="나눔고딕" />
+				<FontSize val="13" />
+				<TextTrimming val="CharacterEllipsis" />
+				<style val="1" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+				<Padding val="0, 0, 0, 0" />
+				<FitToContent val="False" />
+			</child>
+			<child type="LABEL" name="lb_fes_winmessage2" subclass="">
+				<pos x="208" y="37" />
+				<rect l="0" t="0" r="281" b="22" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<label val="카니발 결과는 내일 편지를 통해 알려드리겠습니다." />
+				<OutlineColor val="#FF0000" />
+				<ShadowColor val="#FF0000" />
+				<color val="#D05312" />
+				<halign val="0" />
+				<valign val="1" />
+				<FontName val="나눔명조" />
+				<FontSize val="13" />
+				<TextTrimming val="None" />
+				<style val="1" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+				<Padding val="0, 0, 0, 0" />
+				<FitToContent val="False" />
+			</child>
+		</child>
+		<child type="PANEL" name="Panel_fes_result2" subclass="">
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="497" b="63" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<embed src="" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<child type="PICTURE" name="fes_result_bottom_bg1" subclass="">
+				<asset type="STATIC">fes_result_bottom_bg1.png</asset>
+				<pos x="0" y="0" />
+				<rect l="0" t="0" r="497" b="63" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="LABEL" name="lb_fes_deselect1" subclass="">
+				<pos x="212" y="30" />
+				<rect l="0" t="0" r="267" b="22" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<label val="다음 기회에 도전하세요." />
+				<OutlineColor val="#FF0000" />
+				<ShadowColor val="#CCC7C1" />
+				<color val="#51402C" />
+				<halign val="0" />
+				<valign val="1" />
+				<FontName val="나눔명조" />
+				<FontSize val="13" />
+				<TextTrimming val="None" />
+				<style val="33" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+				<Padding val="0, 0, 0, 0" />
+				<FitToContent val="False" />
+			</child>
+			<child type="LABEL" name="lb_fes_deselect" subclass="">
+				<pos x="212" y="12" />
+				<rect l="0" t="0" r="277" b="22" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<label val="아쉽게도 카니발에 진출하지 못하였습니다." />
+				<OutlineColor val="#FF0000" />
+				<ShadowColor val="#CCC7C1" />
+				<color val="#51402C" />
+				<halign val="0" />
+				<valign val="1" />
+				<FontName val="나눔명조" />
+				<FontSize val="13" />
+				<TextTrimming val="CharacterEllipsis" />
+				<style val="33" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+				<Padding val="0, 0, 0, 0" />
+				<FitToContent val="False" />
+			</child>
+			<child type="LABEL" name="txt_fes_playerlist" subclass="">
+				<pos x="19" y="13" />
+				<rect l="0" t="0" r="160" b="20" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<label val="카니발 진출마" />
+				<OutlineColor val="#FF0000" />
+				<ShadowColor val="#000000" />
+				<color val="#BA712A" />
+				<halign val="0" />
+				<valign val="1" />
+				<FontName val="나눔고딕" />
+				<FontSize val="14" />
+				<TextTrimming val="None" />
+				<style val="1" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+				<Padding val="0, 0, 0, 0" />
+				<FitToContent val="False" />
+			</child>
+			<child type="LABEL" name="txt_fes_winner" subclass="">
+				<pos x="18" y="31" />
+				<rect l="0" t="0" r="179" b="19" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<label val="" />
+				<OutlineColor val="#FF0000" />
+				<ShadowColor val="#DCD6CF" />
+				<color val="#51402C" />
+				<halign val="0" />
+				<valign val="1" />
+				<FontName val="나눔고딕" />
+				<FontSize val="13" />
+				<TextTrimming val="CharacterEllipsis" />
+				<style val="1" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+				<Padding val="0, 0, 0, 0" />
+				<FitToContent val="False" />
+			</child>
+		</child>
+		<child type="PANEL" name="Panel_fes_result1" subclass="">
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="497" b="63" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<embed src="" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<base type="WNDEX" subclass="" name="fes_result_inner1">
+				<asset type="BG" path="frm_std_innerbox_04.png" tileMode="Stretch">
+					<tex x="4" y="4" />
+					<rect l="8" t="8" r="469" b="35" />
+				</asset>
+				<asset type="EDGE_LT" path="frm_std_innerbox_00.png" tileMode="Stretch">
+					<tex x="8" y="8" />
+					<rect l="0" t="0" r="8" b="8" />
+				</asset>
+				<asset type="EDGE_RT" path="frm_std_innerbox_02.png" tileMode="Stretch">
+					<tex x="8" y="8" />
+					<rect l="0" t="0" r="8" b="8" />
+				</asset>
+				<asset type="EDGE_LB" path="frm_std_innerbox_06.png" tileMode="Stretch">
+					<tex x="8" y="8" />
+					<rect l="0" t="0" r="8" b="8" />
+				</asset>
+				<asset type="EDGE_RB" path="frm_std_innerbox_08.png" tileMode="Stretch">
+					<tex x="8" y="8" />
+					<rect l="0" t="0" r="8" b="8" />
+				</asset>
+				<asset type="FRAME_T" path="frm_std_innerbox_01.png" tileMode="Stretch">
+					<tex x="4" y="8" />
+					<rect l="8" t="0" r="469" b="8" />
+				</asset>
+				<asset type="FRAME_B" path="frm_std_innerbox_07.png" tileMode="Stretch">
+					<tex x="4" y="8" />
+					<rect l="8" t="0" r="469" b="8" />
+				</asset>
+				<asset type="FRAME_L" path="frm_std_innerbox_03.png" tileMode="Stretch">
+					<tex x="8" y="4" />
+					<rect l="0" t="8" r="8" b="35" />
+				</asset>
+				<asset type="FRAME_R" path="frm_std_innerbox_05.png" tileMode="Stretch">
+					<tex x="8" y="4" />
+					<rect l="0" t="8" r="8" b="35" />
+				</asset>
+				<pos x="6" y="6" />
+				<rect l="0" t="0" r="485" b="51" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<snd type="SHOW"></snd>
+				<snd type="HIDE"></snd>
+				<Dragable val="False" />
+				<StartPosition val="None" />
+				<EscKeyAction val="None" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</base>
+			<child type="LABEL" name="lb_fes_failed" subclass="">
+				<pos x="96" y="30" />
+				<rect l="0" t="0" r="320" b="22" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<label val="다음 기회에 도전하세요." />
+				<OutlineColor val="#FF0000" />
+				<ShadowColor val="#CCC7C1" />
+				<color val="#51402C" />
+				<halign val="1" />
+				<valign val="1" />
+				<FontName val="나눔명조" />
+				<FontSize val="13" />
+				<TextTrimming val="None" />
+				<style val="33" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+				<Padding val="0, 0, 0, 0" />
+				<FitToContent val="False" />
+			</child>
+			<child type="LABEL" name="lb_fes_failed2" subclass="">
+				<pos x="112" y="10" />
+				<rect l="0" t="0" r="286" b="22" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<label val="카니발 오디션을 완료하지  못하였습니다." />
+				<OutlineColor val="#FF0000" />
+				<ShadowColor val="#CCC7C1" />
+				<color val="#51402C" />
+				<halign val="1" />
+				<valign val="1" />
+				<FontName val="나눔명조" />
+				<FontSize val="13" />
+				<TextTrimming val="None" />
+				<style val="33" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+				<Padding val="0, 0, 0, 0" />
+				<FitToContent val="False" />
+			</child>
+		</child>
+	</base>
+</refresh>

@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="icon_revenge_girl1_Default">
+    <asset type="IMAGE" name="asset_icon_revenge_girl2" path="icon_revenge_boy2_2.png">
+      <rect l="0" t="0" r="76" b="92" />
+    </asset>
+    <asset type="IMAGE" name="asset_icon_revenge_girl1" path="icon_revenge_boy2_1.png">
+      <rect l="0" t="0" r="76" b="92" />
+    </asset>
+    <object name="icon_revenge_girl2" ani="ani_icon_revenge_girl2">
+      <asset type="IMAGE" link="asset_icon_revenge_girl2" />
+    </object>
+    <object name="icon_revenge_girl1" ani="ani_icon_revenge_girl1">
+      <asset type="IMAGE" link="asset_icon_revenge_girl1" />
+    </object>
+    <param type="RES" x="76" y="92" />
+    <param type="LOOP" cnt="-1" pendulum="0" />
+    <anim name="ani_icon_revenge_girl2">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.108695652173913" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0" />
+        <posy val="0.108695652173913" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1667">
+        <posx val="0" />
+        <posy val="-0.108695652173913" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1800">
+        <posx val="0" />
+        <posy val="0.108695652173913" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="4333">
+        <posx val="0" />
+        <posy val="0.108695652173913" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_revenge_girl1">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.108695652173913" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0" />
+        <posy val="0.108695652173913" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1333">
+        <posx val="0" />
+        <posy val="-0.108695652173913" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1667">
+        <posx val="0" easeValue="0.0,1.0,1.0,1.0" />
+        <posy val="-0.108695652173913" easeValue="0.0,1.0,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,1.0,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" easeValue="0.0,1.0,1.0,1.0" />
+        <centery val="0" easeValue="0.0,1.0,1.0,1.0" />
+      </frame>
+      <frame cnt="1833">
+        <posx val="0" />
+        <posy val="-0.0543478260869565" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

@@ -1,0 +1,86 @@
+﻿<refresh version="2">
+	<properties>
+		<property name="DPI" val="72" />
+		<property name="UIAnimation" val="friend_user_list_category_column_Animation.xml" />
+	</properties>
+	<base type="WND" subclass="" name="Wnd_friend_list_category">
+		<pos x="0" y="0" />
+		<rect l="0" t="0" r="270" b="27" />
+		<Visible val="True" />
+		<Anchor val="Top, Left" />
+		<snd type="SHOW"></snd>
+		<snd type="HIDE"></snd>
+		<IsHitTestVisible val="True" />
+		<ClipChildren val="False" />
+		<child type="PICTURE" name="focus_normal" subclass="">
+			<asset type="STATIC">btn_letter_more_Normal.png</asset>
+			<pos x="0" y="2" />
+			<rect l="0" t="0" r="270" b="24" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="focus_over" subclass="">
+			<asset type="STATIC">btn_letter_more_Hover.png</asset>
+			<pos x="0" y="2" />
+			<rect l="0" t="0" r="270" b="24" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="focus_select" subclass="">
+			<asset type="STATIC">btn_letter_more_Push.png</asset>
+			<pos x="0" y="2" />
+			<rect l="0" t="0" r="270" b="24" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="LABEL" name="nickname" subclass="">
+			<pos x="27" y="4" />
+			<rect l="0" t="0" r="240" b="19" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<label val="" />
+			<OutlineColor val="#FF0000" />
+			<ShadowColor val="#FF0000" />
+			<color val="#796456FF" />
+			<halign val="0" />
+			<valign val="1" />
+			<FontName val="나눔고딕" />
+			<FontSize val="13" />
+			<TextTrimming val="CharacterEllipsis" />
+			<style val="1" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+			<Padding val="0, 0, 0, 0" />
+			<FitToContent val="False" />
+		</child>
+		<child type="PICTURE" name="group_on" subclass="">
+			<asset type="STATIC">group_on.png</asset>
+			<pos x="4" y="5" />
+			<rect l="0" t="0" r="21" b="20" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="group_off" subclass="">
+			<asset type="STATIC">group_off.png</asset>
+			<pos x="4" y="5" />
+			<rect l="0" t="0" r="21" b="20" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+	</base>
+</refresh>

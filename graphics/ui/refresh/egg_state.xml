@@ -1,0 +1,243 @@
+﻿<refresh version="2">
+	<properties>
+		<property name="DPI" val="72" />
+	</properties>
+	<base type="WND" subclass="" name="Wnd_egg_stat">
+		<pos x="0" y="0" />
+		<rect l="0" t="0" r="60" b="60" />
+		<Visible val="True" />
+		<Anchor val="Top, Left" />
+		<snd type="SHOW"></snd>
+		<snd type="HIDE"></snd>
+		<IsHitTestVisible val="True" />
+		<ClipChildren val="False" />
+		<child type="ANIMBUTTON" name="blank_incubator0" subclass="">
+			<asset type="GROUP">egg_state_blank_incubator0.xml</asset>
+			<asset type="NORMAL"></asset>
+			<asset type="DOWN"></asset>
+			<asset type="OVER"></asset>
+			<asset type="DISABLE"></asset>
+			<asset type="ENTER"></asset>
+			<asset type="LEAVE"></asset>
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="60" b="60" />
+			<Visible val="True" />
+			<snd type="OVER"></snd>
+			<snd type="DOWN">ui_btn_menu_click</snd>
+			<snd type="RELEASE">ui_btn_menu_close;ui_btn_item_click</snd>
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<Anchor val="Top, Left" />
+			<IsDefaultButton val="False" />
+		</child>
+		<child type="ANIMBUTTON" name="incubation_item0" subclass="">
+			<asset type="GROUP">egg_state_incubation_item0.xml</asset>
+			<asset type="NORMAL"></asset>
+			<asset type="DOWN"></asset>
+			<asset type="OVER"></asset>
+			<asset type="DISABLE"></asset>
+			<asset type="ENTER"></asset>
+			<asset type="LEAVE"></asset>
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="60" b="60" />
+			<Visible val="True" />
+			<snd type="OVER"></snd>
+			<snd type="DOWN">ui_btn_menu_click</snd>
+			<snd type="RELEASE">ui_btn_menu_close;ui_btn_item_click</snd>
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<Anchor val="Top, Left" />
+			<IsDefaultButton val="False" />
+		</child>
+		<child type="ANIMBUTTON" name="incubation_item1" subclass="">
+			<asset type="GROUP">egg_state_incubation_item1.xml</asset>
+			<asset type="NORMAL"></asset>
+			<asset type="DOWN"></asset>
+			<asset type="OVER"></asset>
+			<asset type="DISABLE"></asset>
+			<asset type="ENTER"></asset>
+			<asset type="LEAVE"></asset>
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="60" b="60" />
+			<Visible val="True" />
+			<snd type="OVER"></snd>
+			<snd type="DOWN">ui_btn_menu_click</snd>
+			<snd type="RELEASE">ui_btn_menu_close;ui_btn_item_click</snd>
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<Anchor val="Top, Left" />
+			<IsDefaultButton val="False" />
+		</child>
+		<child type="ANIMBUTTON" name="incubation_friend0" subclass="">
+			<asset type="GROUP">egg_state_incubation_friend0.xml</asset>
+			<asset type="NORMAL"></asset>
+			<asset type="DOWN"></asset>
+			<asset type="OVER"></asset>
+			<asset type="DISABLE"></asset>
+			<asset type="ENTER"></asset>
+			<asset type="LEAVE"></asset>
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="60" b="60" />
+			<Visible val="True" />
+			<snd type="OVER"></snd>
+			<snd type="DOWN">ui_btn_menu_click</snd>
+			<snd type="RELEASE">ui_btn_menu_close;ui_btn_item_click</snd>
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<Anchor val="Top, Left" />
+			<IsDefaultButton val="False" />
+		</child>
+		<child type="ANIMBUTTON" name="incubation_friend1" subclass="">
+			<asset type="GROUP">egg_state_incubation_friend1.xml</asset>
+			<asset type="NORMAL"></asset>
+			<asset type="DOWN"></asset>
+			<asset type="OVER"></asset>
+			<asset type="DISABLE"></asset>
+			<asset type="ENTER"></asset>
+			<asset type="LEAVE"></asset>
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="60" b="60" />
+			<Visible val="True" />
+			<snd type="OVER"></snd>
+			<snd type="DOWN">ui_btn_menu_click</snd>
+			<snd type="RELEASE">ui_btn_menu_close;ui_btn_item_click</snd>
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<Anchor val="Top, Left" />
+			<IsDefaultButton val="False" />
+		</child>
+		<child type="ANIMBUTTON" name="incubation_friend2" subclass="">
+			<asset type="GROUP">egg_state_incubation_friend2.xml</asset>
+			<asset type="NORMAL"></asset>
+			<asset type="DOWN"></asset>
+			<asset type="OVER"></asset>
+			<asset type="DISABLE"></asset>
+			<asset type="ENTER"></asset>
+			<asset type="LEAVE"></asset>
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="60" b="60" />
+			<Visible val="True" />
+			<snd type="OVER"></snd>
+			<snd type="DOWN">ui_btn_menu_click</snd>
+			<snd type="RELEASE">ui_btn_menu_close;ui_btn_item_click</snd>
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<Anchor val="Top, Left" />
+			<IsDefaultButton val="False" />
+		</child>
+		<child type="ANIMBUTTON" name="incubation_full_gauge0" subclass="">
+			<asset type="GROUP">egg_state_incubation_full_gauge0.xml</asset>
+			<asset type="NORMAL"></asset>
+			<asset type="DOWN"></asset>
+			<asset type="OVER"></asset>
+			<asset type="DISABLE"></asset>
+			<asset type="ENTER"></asset>
+			<asset type="LEAVE"></asset>
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="60" b="60" />
+			<Visible val="True" />
+			<snd type="OVER"></snd>
+			<snd type="DOWN">ui_btn_menu_click</snd>
+			<snd type="RELEASE">ui_btn_menu_close;ui_btn_item_click</snd>
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<Anchor val="Top, Left" />
+			<IsDefaultButton val="False" />
+		</child>
+		<child type="ANIMBUTTON" name="incubation_full_gauge1" subclass="">
+			<asset type="GROUP">egg_state_incubation_full_gauge1.xml</asset>
+			<asset type="NORMAL"></asset>
+			<asset type="DOWN"></asset>
+			<asset type="OVER"></asset>
+			<asset type="DISABLE"></asset>
+			<asset type="ENTER"></asset>
+			<asset type="LEAVE"></asset>
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="60" b="60" />
+			<Visible val="True" />
+			<snd type="OVER"></snd>
+			<snd type="DOWN">ui_btn_menu_click</snd>
+			<snd type="RELEASE">ui_btn_menu_close;ui_btn_item_click</snd>
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<Anchor val="Top, Left" />
+			<IsDefaultButton val="False" />
+		</child>
+		<child type="ANIMBUTTON" name="incubation_full_gauge2" subclass="">
+			<asset type="GROUP">egg_state_incubation_full_gauge2.xml</asset>
+			<asset type="NORMAL"></asset>
+			<asset type="DOWN"></asset>
+			<asset type="OVER"></asset>
+			<asset type="DISABLE"></asset>
+			<asset type="ENTER"></asset>
+			<asset type="LEAVE"></asset>
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="60" b="60" />
+			<Visible val="True" />
+			<snd type="OVER"></snd>
+			<snd type="DOWN">ui_btn_menu_click</snd>
+			<snd type="RELEASE">ui_btn_menu_close;ui_btn_item_click</snd>
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<Anchor val="Top, Left" />
+			<IsDefaultButton val="False" />
+		</child>
+		<child type="ANIMBUTTON" name="incubation_complete0" subclass="">
+			<asset type="GROUP">egg_state_incubation_complete0.xml</asset>
+			<asset type="NORMAL"></asset>
+			<asset type="DOWN"></asset>
+			<asset type="OVER"></asset>
+			<asset type="DISABLE"></asset>
+			<asset type="ENTER"></asset>
+			<asset type="LEAVE"></asset>
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="60" b="60" />
+			<Visible val="True" />
+			<snd type="OVER"></snd>
+			<snd type="DOWN">ui_btn_menu_click</snd>
+			<snd type="RELEASE">ui_btn_menu_close;ui_btn_item_click</snd>
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<Anchor val="Top, Left" />
+			<IsDefaultButton val="False" />
+		</child>
+		<child type="ANIMBUTTON" name="incubation_complete1" subclass="">
+			<asset type="GROUP">egg_state_incubation_complete1.xml</asset>
+			<asset type="NORMAL"></asset>
+			<asset type="DOWN"></asset>
+			<asset type="OVER"></asset>
+			<asset type="DISABLE"></asset>
+			<asset type="ENTER"></asset>
+			<asset type="LEAVE"></asset>
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="60" b="60" />
+			<Visible val="True" />
+			<snd type="OVER"></snd>
+			<snd type="DOWN">ui_btn_menu_click</snd>
+			<snd type="RELEASE">ui_btn_menu_close;ui_btn_item_click</snd>
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<Anchor val="Top, Left" />
+			<IsDefaultButton val="False" />
+		</child>
+		<child type="ANIMBUTTON" name="incubation_theme0" subclass="">
+			<asset type="GROUP">egg_state_incubation_theme0.xml</asset>
+			<asset type="NORMAL"></asset>
+			<asset type="DOWN"></asset>
+			<asset type="OVER"></asset>
+			<asset type="DISABLE"></asset>
+			<asset type="ENTER"></asset>
+			<asset type="LEAVE"></asset>
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="60" b="60" />
+			<Visible val="True" />
+			<snd type="OVER"></snd>
+			<snd type="DOWN">ui_btn_menu_click</snd>
+			<snd type="RELEASE">ui_btn_menu_close;ui_btn_item_click</snd>
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<Anchor val="Top, Left" />
+			<IsDefaultButton val="False" />
+		</child>
+	</base>
+</refresh>

@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2" parent="h000">
+    <category name="A_GREEDY_MOVE" script="-Greedy" />
+    <category name="B_VIGOROUS_MOVE" script="-Vigorous" />
+    <category name="C_TIMID_MOVE" script="-Timid" />
+    <category name="D_KINDNESS_MOVE" script="-Kindness" />
+    <category name="E_CURIOSITY_MOVE" script="-Curiosity" />
+    <category name="F_CLEAN_MOVE" script="-Clean" />
+    <category name="NORMAL_MOVE" script="-Normal" />
+    <action category="NORMAL_MOVE" state="CARE_AMENDS_IDLE" prevState="" loop="1" weight="1" script="">
+        <begin speed=0.0000>g[idle]sympathize_00_trans</begin>
+        <main speed=0.0000>g[idle]sympathize_00</main>
+    </action>
+    <action category="" state="COURBETTE" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>g[courbt]_00</main>
+    </action>
+    <action category="" state="DISPLEASED" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>f[feedback]displeased_00</main>
+    </action>
+    <action category="" state="EAT_FOOD" prevState="" loop="1" weight="1" script="">
+        <begin speed=0.0000>f[idle]feed_00_trans</begin>
+        <main speed=0.0000>f[idle]feed_00</main>
+    </action>
+    <action category="" state="EAT_FOOD_END" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>f[idle]feed_00_end</main>
+    </action>
+    <action category="" state="GRAZE_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>g[idle]_00</main>
+    </action>
+    <action category="" state="GRAZE_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>g[idle]_01</main>
+    </action>
+    <action category="" state="GRAZE_IDLE" prevState="MOVE_ZERO" loop="1" weight="1" script="">
+        <begin speed=0.0000>g[move]0_idle_00_trans</begin>
+        <main speed=0.0000>g[idle]_00</main>
+    </action>
+    <action category="" state="JUMP" prevState="" loop="0" weight="1" script="">
+        <begin speed=0.0000>g[jump]_00_trans</begin>
+        <main speed=0.0000>g[jump]_00_leap</main>
+    </action>
+    <action category="" state="JUMP2" prevState="" loop="0" weight="1" script="">
+        <begin speed=0.0000>g[jump]_00_trans</begin>
+        <main speed=0.0000>g[jump2]_00_leap</main>
+    </action>
+    <action category="" state="JUMP2_AIR" prevState="" loop="1" weight="1" script="">
+        <begin speed=0.0000>g[jump2]air_00_trans</begin>
+        <main speed=0.0000>g[jump2]air_00</main>
+    </action>
+    <action category="" state="JUMP2_AIR" prevState="GLIDE_SPUR" loop="1" weight="1" script="">
+        <main speed=0.0000>g[jump2]air_00</main>
+    </action>
+    <action category="" state="JUMP_AIR" prevState="" loop="1" weight="1" script="">
+        <begin speed=0.0000>g[jump]air_00_trans</begin>
+        <main speed=0.0000>g[jump]air_00</main>
+    </action>
+    <action category="" state="JUMP_AIR" prevState="GLIDE_SPUR" loop="1" weight="1" script="">
+        <main speed=0.0000>g[jump]air_00</main>
+    </action>
+    <action category="" state="LAND_HIGH" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>g[landing]dmg_00</main>
+    </action>
+    <action category="" state="LAND_NORMAL" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>g[landing]_00</main>
+    </action>
+    <action category="" state="LOOK_HEAD" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>f[layer]lookat_00</main>
+    </action>
+    <action category="NORMAL_MOVE" state="MOVE_1ST" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>g[move]1_00</main>
+    </action>
+    <action category="A_GREEDY_MOVE" state="MOVE_1ST" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>g[move]1_00a</main>
+    </action>
+    <action category="B_VIGOROUS_MOVE" state="MOVE_1ST" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>g[move]1_00b</main>
+    </action>
+    <action category="C_TIMID_MOVE" state="MOVE_1ST" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>g[move]1_00c</main>
+    </action>
+    <action category="E_CURIOSITY_MOVE" state="MOVE_1ST" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>g[move]1_00e</main>
+    </action>
+    <action category="D_KINDNESS_MOVE" state="MOVE_1ST" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>g[move]1_00d</main>
+    </action>
+    <action category="F_CLEAN_MOVE" state="MOVE_1ST" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>g[move]1_00</main>
+    </action>
+    <action category="NORMAL_MOVE" state="MOVE_2ND" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>g[move]2_00</main>
+    </action>
+    <action category="A_GREEDY_MOVE" state="MOVE_2ND" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>g[move]2_00</main>
+    </action>
+    <action category="B_VIGOROUS_MOVE" state="MOVE_2ND" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>g[move]2_00</main>
+    </action>
+    <action category="C_TIMID_MOVE" state="MOVE_2ND" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>g[move]2_00</main>
+    </action>
+    <action category="E_CURIOSITY_MOVE" state="MOVE_2ND" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>g[move]2_00</main>
+    </action>
+    <action category="D_KINDNESS_MOVE" state="MOVE_2ND" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>g[move]2_00</main>
+    </action>
+    <action category="F_CLEAN_MOVE" state="MOVE_2ND" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>g[move]2_00</main>
+    </action>
+    <action category="NORMAL_MOVE" state="MOVE_3RD" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>g[move]3_00</main>
+    </action>
+    <action category="A_GREEDY_MOVE" state="MOVE_3RD" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>g[move]3_00</main>
+    </action>
+    <action category="B_VIGOROUS_MOVE" state="MOVE_3RD" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>g[move]3_00</main>
+    </action>
+    <action category="C_TIMID_MOVE" state="MOVE_3RD" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>g[move]3_00</main>
+    </action>
+    <action category="E_CURIOSITY_MOVE" state="MOVE_3RD" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>g[move]3_00</main>
+    </action>
+    <action category="D_KINDNESS_MOVE" state="MOVE_3RD" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>g[move]3_00</main>
+    </action>
+    <action category="F_CLEAN_MOVE" state="MOVE_3RD" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>g[move]3_00</main>
+    </action>
+    <action category="" state="MOVE_INJURY" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>g[move]0_injured_00</main>
+    </action>
+    <action category="NORMAL_MOVE" state="MOVE_ZERO" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>g[move]0_00</main>
+    </action>
+    <action category="A_GREEDY_MOVE" state="MOVE_ZERO" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>g[move]0_00a</main>
+    </action>
+    <action category="B_VIGOROUS_MOVE" state="MOVE_ZERO" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>g[move]0_00b</main>
+    </action>
+    <action category="C_TIMID_MOVE" state="MOVE_ZERO" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>g[move]0_00c</main>
+    </action>
+    <action category="E_CURIOSITY_MOVE" state="MOVE_ZERO" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>g[move]0_00e</main>
+    </action>
+    <action category="D_KINDNESS_MOVE" state="MOVE_ZERO" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>g[move]0_00d</main>
+    </action>
+    <action category="F_CLEAN_MOVE" state="MOVE_ZERO" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>g[move]0_00</main>
+    </action>
+    <action category="NORMAL_MOVE" state="MOVE_ZERO" prevState="GRAZE_IDLE" loop="1" weight="1" script="">
+        <begin speed=0.0000>g[move]0_00_trans</begin>
+        <main speed=0.0000>g[move]0_00</main>
+    </action>
+    <action category="F_CLEAN_MOVE" state="MOVE_ZERO" prevState="GRAZE_IDLE" loop="1" weight="1" script="">
+        <begin speed=0.0000>g[move]0_00_trans</begin>
+        <main speed=0.0000>g[move]0_00</main>
+    </action>
+    <action category="E_CURIOSITY_MOVE" state="MOVE_ZERO" prevState="GRAZE_IDLE" loop="1" weight="1" script="">
+        <begin speed=0.0000>g[move]0_00e_trans</begin>
+        <main speed=0.0000>g[move]0_00e</main>
+    </action>
+    <action category="D_KINDNESS_MOVE" state="MOVE_ZERO" prevState="GRAZE_IDLE" loop="1" weight="1" script="">
+        <begin speed=0.0000>g[move]0_00d_trans</begin>
+        <main speed=0.0000>g[move]0_00d</main>
+    </action>
+    <action category="C_TIMID_MOVE" state="MOVE_ZERO" prevState="GRAZE_IDLE" loop="1" weight="1" script="">
+        <begin speed=0.0000>g[move]0_00c_trans</begin>
+        <main speed=0.0000>g[move]0_00c</main>
+    </action>
+    <action category="B_VIGOROUS_MOVE" state="MOVE_ZERO" prevState="GRAZE_IDLE" loop="1" weight="1" script="">
+        <begin speed=0.0000>g[move]0_00b_trans</begin>
+        <main speed=0.0000>g[move]0_00b</main>
+    </action>
+    <action category="A_GREEDY_MOVE" state="MOVE_ZERO" prevState="GRAZE_IDLE" loop="1" weight="1" script="">
+        <begin speed=0.0000>g[move]0_00a_trans</begin>
+        <main speed=0.0000>g[move]0_00a</main>
+    </action>
+    <action category="" state="ROTATE_L" prevState="" loop="1" weight="1" script="">
+        <begin speed=0.0000>f[turn]trans_00_l</begin>
+        <main speed=0.0000>f[turn]loop_00_l</main>
+    </action>
+    <action category="" state="ROTATE_R" prevState="" loop="1" weight="1" script="">
+        <begin speed=0.0000>f[turn]trans_00_r</begin>
+        <main speed=0.0000>f[turn]loop_00_r</main>
+    </action>
+    <action category="" state="SYMPATHIZE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>g[idle]sympathize_00</main>
+    </action>
+    <action category="" state="WAY_LOST" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>f[call]lost_00</main>
+    </action>
+    <layer state="BRAKE" loop="0" basis="0.00">
+        <main>g[layer]brake_00</main>
+    </layer>
+    <layer state="BREATHE" loop="1" basis="0.00">
+        <main>f[iayer]idle_00</main>
+    </layer>
+    <layer state="LAYER_DAMAGE" loop="0" basis="0.00">
+        <main>g[layer]dmg_00</main>
+    </layer>
+    <layer state="SLIDE_AL" loop="0" basis="0.00">
+        <main>g[layer]slide_00_al</main>
+    </layer>
+    <layer state="SLIDE_AR" loop="0" basis="0.00">
+        <main>g[layer]slide_00_ar</main>
+    </layer>
+    <layer state="SLIDE_BL" loop="0" basis="0.00">
+        <main>g[layer]slide_00_bl</main>
+    </layer>
+    <layer state="SLIDE_BR" loop="0" basis="0.00">
+        <main>g[layer]slide_00_br</main>
+    </layer>
+    <layer state="SLIDE_CL" loop="0" basis="0.00">
+    </layer>
+    <layer state="SLIDE_CR" loop="0" basis="0.00">
+    </layer>
+    <layer state="STEER_COURBT_L" loop="0" basis="0.00">
+        <main>g[layer]steer_courbt_00_l</main>
+    </layer>
+    <layer state="STEER_COURBT_R" loop="0" basis="0.00">
+        <main>g[layer]steer_courbt_00_r</main>
+    </layer>
+    <layer state="STEER_GLIDE_L" loop="0" basis="0.00">
+        <main>g[layer]steer_glide_00_l</main>
+    </layer>
+    <layer state="STEER_GLIDE_R" loop="0" basis="0.00">
+        <main>g[layer]steer_glide_00_r</main>
+    </layer>
+    <layer state="STEER_L" loop="0" basis="0.00">
+        <main>g[layer]steer_00_l</main>
+    </layer>
+    <layer state="STEER_R" loop="0" basis="0.00">
+        <main>g[layer]steer_00_r</main>
+    </layer>
+    <layer state="TEST" loop="0" basis="0.50">
+        <main>g[layer]pose_00</main>
+    </layer>
+</aim>

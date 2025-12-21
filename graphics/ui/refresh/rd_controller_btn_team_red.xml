@@ -1,0 +1,506 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="NORMAL">
+    <asset type="IMAGE" name="asset_btn_team_n" path="btn_team_n.png">
+      <rect l="0" t="0" r="68" b="70" />
+    </asset>
+    <asset type="IMAGE" name="asset_icon_blue_2" path="icon_blue_2.png">
+      <rect l="0" t="0" r="19" b="20" />
+    </asset>
+    <asset type="IMAGE" name="asset_icon_red_1" path="icon_red_1.png">
+      <rect l="0" t="0" r="21" b="22" />
+    </asset>
+    <asset type="IMAGE" name="asset_icon_change_2" path="icon_change_2.png">
+      <rect l="0" t="0" r="15" b="17" />
+    </asset>
+    <asset type="IMAGE" name="asset_icon_change_1" path="icon_change_1.png">
+      <rect l="0" t="0" r="15" b="16" />
+    </asset>
+    <object name="btn_team_n" ani="ani_btn_team_n">
+      <asset type="IMAGE" link="asset_btn_team_n" />
+    </object>
+    <object name="icon_blue_2" ani="ani_icon_blue_2">
+      <asset type="IMAGE" link="asset_icon_blue_2" />
+    </object>
+    <object name="icon_red_1" ani="ani_icon_red_1">
+      <asset type="IMAGE" link="asset_icon_red_1" />
+    </object>
+    <object name="icon_change_2" ani="ani_icon_change_2">
+      <asset type="IMAGE" link="asset_icon_change_2" />
+    </object>
+    <object name="icon_change_1" ani="ani_icon_change_1">
+      <asset type="IMAGE" link="asset_icon_change_1" />
+    </object>
+    <param type="RES" x="68" y="70" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_btn_team_n">
+      <frame cnt="0">
+        <posx val="0.5" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_blue_2">
+      <frame cnt="0">
+        <posx val="0.3676471" />
+        <posy val="0.2714286" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_red_1">
+      <frame cnt="0">
+        <posx val="0.25" />
+        <posy val="0.4" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_change_2">
+      <frame cnt="0">
+        <posx val="0.6029412" />
+        <posy val="0.4714286" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_change_1">
+      <frame cnt="0">
+        <posx val="0.6029412" />
+        <posy val="0.3" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="OVER">
+    <asset type="IMAGE" name="asset_btn_team_o" path="btn_team_o.png">
+      <rect l="0" t="0" r="68" b="70" />
+    </asset>
+    <asset type="IMAGE" name="asset_btn_team_over" path="btn_team_over.png">
+      <rect l="0" t="0" r="68" b="70" />
+    </asset>
+    <asset type="IMAGE" name="asset_icon_blue_2" path="icon_blue_2.png">
+      <rect l="0" t="0" r="19" b="20" />
+    </asset>
+    <asset type="IMAGE" name="asset_icon_red_1" path="icon_red_1.png">
+      <rect l="0" t="0" r="21" b="22" />
+    </asset>
+    <asset type="IMAGE" name="asset_icon_change_2" path="icon_change_2.png">
+      <rect l="0" t="0" r="15" b="17" />
+    </asset>
+    <asset type="IMAGE" name="asset_icon_change_1" path="icon_change_1.png">
+      <rect l="0" t="0" r="15" b="16" />
+    </asset>
+    <object name="btn_team_o" ani="ani_btn_team_o">
+      <asset type="IMAGE" link="asset_btn_team_o" />
+    </object>
+    <object name="btn_team_over" ani="ani_btn_team_over">
+      <asset type="IMAGE" link="asset_btn_team_over" />
+    </object>
+    <object name="icon_blue_2" ani="ani_icon_blue_2">
+      <asset type="IMAGE" link="asset_icon_blue_2" />
+    </object>
+    <object name="icon_red_1" ani="ani_icon_red_1">
+      <asset type="IMAGE" link="asset_icon_red_1" />
+    </object>
+    <object name="icon_change_2" ani="ani_icon_change_2">
+      <asset type="IMAGE" link="asset_icon_change_2" />
+    </object>
+    <object name="icon_change_1" ani="ani_icon_change_1">
+      <asset type="IMAGE" link="asset_icon_change_1" />
+    </object>
+    <param type="RES" x="68" y="70" />
+    <param type="LOOP" cnt="-1" pendulum="1" />
+    <anim name="ani_btn_team_o">
+      <frame cnt="0">
+        <posx val="0.5" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+    <anim name="ani_btn_team_over">
+      <frame cnt="0">
+        <posx val="0.5" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.5" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="167">
+        <posx val="0.5" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_blue_2">
+      <frame cnt="0">
+        <posx val="0.3676471" />
+        <posy val="0.2714286" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_red_1">
+      <frame cnt="0">
+        <posx val="0.25" />
+        <posy val="0.4" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_change_2">
+      <frame cnt="0">
+        <posx val="0.602941176470588" />
+        <posy val="0.614285714285714" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.602941176470588" easeValue="0.0,1.0,1.0,1.0" />
+        <posy val="0.471428571428571" easeValue="0.0,1.0,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_change_1">
+      <frame cnt="0">
+        <posx val="0.602941176470588" />
+        <posy val="0.157142857142857" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.602941176470588" easeValue="0.0,1.0,1.0,1.0" />
+        <posy val="0.3" easeValue="0.0,1.0,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="DOWN">
+    <asset type="IMAGE" name="asset_btn_team_d" path="btn_team_d.png">
+      <rect l="0" t="0" r="68" b="70" />
+    </asset>
+    <asset type="IMAGE" name="asset_icon_blue_2" path="icon_blue_2.png">
+      <rect l="0" t="0" r="19" b="20" />
+    </asset>
+    <asset type="IMAGE" name="asset_icon_red_1" path="icon_red_1.png">
+      <rect l="0" t="0" r="21" b="22" />
+    </asset>
+    <asset type="IMAGE" name="asset_icon_change_2" path="icon_change_2.png">
+      <rect l="0" t="0" r="15" b="17" />
+    </asset>
+    <asset type="IMAGE" name="asset_icon_change_1" path="icon_change_1.png">
+      <rect l="0" t="0" r="15" b="16" />
+    </asset>
+    <object name="btn_team_d" ani="ani_btn_team_d">
+      <asset type="IMAGE" link="asset_btn_team_d" />
+    </object>
+    <object name="icon_blue_2" ani="ani_icon_blue_2">
+      <asset type="IMAGE" link="asset_icon_blue_2" />
+    </object>
+    <object name="icon_red_1" ani="ani_icon_red_1">
+      <asset type="IMAGE" link="asset_icon_red_1" />
+    </object>
+    <object name="icon_change_2" ani="ani_icon_change_2">
+      <asset type="IMAGE" link="asset_icon_change_2" />
+    </object>
+    <object name="icon_change_1" ani="ani_icon_change_1">
+      <asset type="IMAGE" link="asset_icon_change_1" />
+    </object>
+    <param type="RES" x="68" y="70" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_btn_team_d">
+      <frame cnt="0">
+        <posx val="0.5" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.5" easeValue="0.5,0.0,0.5,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="167">
+        <posx val="0.5" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.5" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_blue_2">
+      <frame cnt="0">
+        <posx val="0.3676471" />
+        <posy val="0.2714286" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.5" easeValue="0.5,0.0,0.5,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="167">
+        <posx val="0.3676471" />
+        <posy val="0.2714286" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.5" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_red_1">
+      <frame cnt="0">
+        <posx val="0.25" />
+        <posy val="0.4" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.5" easeValue="0.5,0.0,0.5,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="167">
+        <posx val="0.25" />
+        <posy val="0.4" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.5" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_change_2">
+      <frame cnt="0">
+        <posx val="0.6029412" />
+        <posy val="0.4714286" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.5" easeValue="0.5,0.0,0.5,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="167">
+        <posx val="0.6029412" />
+        <posy val="0.4714286" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.5" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_change_1">
+      <frame cnt="0">
+        <posx val="0.6029412" />
+        <posy val="0.3" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.5" easeValue="0.5,0.0,0.5,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="167">
+        <posx val="0.6029412" />
+        <posy val="0.3" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.5" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="DISABLE">
+    <asset type="IMAGE" name="asset_btn_team_dis" path="btn_team_dis.png">
+      <rect l="0" t="0" r="68" b="70" />
+    </asset>
+    <asset type="IMAGE" name="asset_icon_blue_2" path="icon_blue_2.png">
+      <rect l="0" t="0" r="19" b="20" />
+    </asset>
+    <asset type="IMAGE" name="asset_icon_red_1" path="icon_red_1.png">
+      <rect l="0" t="0" r="21" b="22" />
+    </asset>
+    <asset type="IMAGE" name="asset_icon_change_2" path="icon_change_2.png">
+      <rect l="0" t="0" r="15" b="17" />
+    </asset>
+    <asset type="IMAGE" name="asset_icon_change_1" path="icon_change_1.png">
+      <rect l="0" t="0" r="15" b="16" />
+    </asset>
+    <object name="btn_team_dis" ani="ani_btn_team_dis">
+      <asset type="IMAGE" link="asset_btn_team_dis" />
+    </object>
+    <object name="icon_blue_2" ani="ani_icon_blue_2">
+      <asset type="IMAGE" link="asset_icon_blue_2" />
+    </object>
+    <object name="icon_red_1" ani="ani_icon_red_1">
+      <asset type="IMAGE" link="asset_icon_red_1" />
+    </object>
+    <object name="icon_change_2" ani="ani_icon_change_2">
+      <asset type="IMAGE" link="asset_icon_change_2" />
+    </object>
+    <object name="icon_change_1" ani="ani_icon_change_1">
+      <asset type="IMAGE" link="asset_icon_change_1" />
+    </object>
+    <param type="RES" x="68" y="70" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_btn_team_dis">
+      <frame cnt="0">
+        <posx val="0.5" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.4" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_blue_2">
+      <frame cnt="0">
+        <posx val="0.3676471" />
+        <posy val="0.2714286" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.4" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_red_1">
+      <frame cnt="0">
+        <posx val="0.25" />
+        <posy val="0.4" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.4" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_change_2">
+      <frame cnt="0">
+        <posx val="0.6029412" />
+        <posy val="0.4714286" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.4" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_change_1">
+      <frame cnt="0">
+        <posx val="0.6029412" />
+        <posy val="0.3" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.4" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

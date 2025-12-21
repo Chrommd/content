@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="mate_prograss_efc2_Default">
+    <asset type="IMAGE" name="asset_mate_prograss_efc2" path="mate_prograss_efc2.png">
+      <rect l="0" t="0" r="256" b="256" />
+    </asset>
+    <object name="mate_prograss_efc2" ani="ani_mate_prograss_efc2">
+      <asset type="IMAGE" link="asset_mate_prograss_efc2" />
+    </object>
+    <param type="RES" x="256" y="256" />
+    <param type="LOOP" cnt="-1" pendulum="0" />
+    <anim name="ani_mate_prograss_efc2">
+      <frame cnt="0">
+        <posx val="0.5" />
+        <posy val="0.5" />
+        <scalex val="0.8984375" />
+        <scaley val="0.8984375" />
+        <alpha val="0.5" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="633">
+        <posx val="0.5" easeValue="0.0,0.6,1.0,1.0" />
+        <posy val="0.5" easeValue="0.0,0.6,1.0,1.0" />
+        <scalex val="1.09375" easeValue="0.0,0.6,1.0,1.0" />
+        <scaley val="1.09375" easeValue="0.0,0.6,1.0,1.0" />
+        <alpha val="1" easeValue="0.0,0.6,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="967">
+        <posx val="0.5" easeValue="0.5,0.0,1.0,1.0" />
+        <posy val="0.5" easeValue="0.5,0.0,1.0,1.0" />
+        <scalex val="1" easeValue="0.5,0.0,1.0,1.0" />
+        <scaley val="1" easeValue="0.5,0.0,1.0,1.0" />
+        <alpha val="0.5" easeValue="0.5,0.0,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

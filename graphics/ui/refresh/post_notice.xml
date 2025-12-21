@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="post_notice_Animation.xml" />
+  </properties>
+  <base type="WNDEX" subclass="" name="post_notice">
+    <asset type="BG" path="" tileMode="Stretch">
+      <tex x="4" y="4" />
+      <rect l="27" t="26" r="94" b="23" />
+    </asset>
+    <asset type="EDGE_LT" path="" tileMode="Stretch">
+      <tex x="27" y="26" />
+      <rect l="0" t="0" r="27" b="26" />
+    </asset>
+    <asset type="EDGE_RT" path="" tileMode="Stretch">
+      <tex x="18" y="26" />
+      <rect l="0" t="0" r="18" b="26" />
+    </asset>
+    <asset type="EDGE_LB" path="" tileMode="Stretch">
+      <tex x="27" y="23" />
+      <rect l="0" t="0" r="27" b="23" />
+    </asset>
+    <asset type="EDGE_RB" path="" tileMode="Stretch">
+      <tex x="18" y="23" />
+      <rect l="0" t="0" r="18" b="23" />
+    </asset>
+    <asset type="FRAME_T" path="" tileMode="Stretch">
+      <tex x="4" y="26" />
+      <rect l="27" t="0" r="94" b="26" />
+    </asset>
+    <asset type="FRAME_B" path="" tileMode="Stretch">
+      <tex x="4" y="23" />
+      <rect l="27" t="0" r="94" b="23" />
+    </asset>
+    <asset type="FRAME_L" path="" tileMode="Stretch">
+      <tex x="27" y="4" />
+      <rect l="0" t="26" r="27" b="23" />
+    </asset>
+    <asset type="FRAME_R" path="" tileMode="Stretch">
+      <tex x="18" y="4" />
+      <rect l="0" t="26" r="18" b="23" />
+    </asset>
+    <Visible val="True" />
+    <Anchor val="None" />
+    <pos x="765" y="629" />
+    <rect l="0" t="0" r="139" b="72" />
+    <snd type="SHOW">
+    </snd>
+    <snd type="HIDE">
+    </snd>
+    <Dragable val="False" />
+    <StartPosition val="None" />
+    <EscKeyAction val="None" />
+    <IsHitTestVisible val="True" />
+    <ClipChildren val="False" />
+    <child type="BUTTON" subclass="" name="btn_msg_notice">
+      <asset type="NORMAL">btn_post_notice_n.png</asset>
+      <asset type="DOWN">btn_post_notice_d.png</asset>
+      <asset type="OVER">btn_post_notice_o.png</asset>
+      <asset type="DISABLE">
+      </asset>
+      <snd type="OVER">
+      </snd>
+      <snd type="DOWN">ui_btn_menu_page</snd>
+      <snd type="RELEASE">
+      </snd>
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="139" b="72" />
+      <Visible val="True" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <Anchor val="None" />
+      <IsDefaultButton val="False" />
+      <child type="LABEL" name="txt_post_contents" subclass="">
+        <label val="안녕하세요. 오늘 만난" />
+        <pos x="18" y="32" />
+        <rect l="0" t="0" r="103" b="18" />
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#45210D" />
+        <color val="#FFFFFF" />
+        <halign val="0" />
+        <valign val="0" />
+        <FontName val="나눔고딕" />
+        <FontSize val="13" />
+        <TextTrimming val="CharacterEllipsis" />
+        <style val="32" />
+        <IsHitTestVisible val="False" />
+        <ClipChildren val="False" />
+        <Padding val="0, 0, 0, 0" />
+      </child>
+      <child type="LABEL" name="txt_username" subclass="">
+        <label val="한글아이디" />
+        <pos x="18" y="15" />
+        <rect l="0" t="0" r="103" b="18" />
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#45210D" />
+        <color val="#FFFFFF" />
+        <halign val="0" />
+        <valign val="0" />
+        <FontName val="나눔고딕" />
+        <FontSize val="13" />
+        <TextTrimming val="CharacterEllipsis" />
+        <style val="33" />
+        <IsHitTestVisible val="False" />
+        <ClipChildren val="False" />
+        <Padding val="0, 0, 0, 0" />
+      </child>
+    </child>
+  </base>
+</refresh>

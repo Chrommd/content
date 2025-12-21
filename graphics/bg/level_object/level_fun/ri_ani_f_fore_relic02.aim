@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <AABB animation="1st">
+        <minX>0.0000</minX>
+        <minY>0.0000</minY>
+        <minZ>-7.0999</minZ>
+        <maxX>0.5789</maxX>
+        <maxY>0.0000</maxY>
+        <maxZ>0.0000</maxZ>
+    </AABB>
+    <AABB animation="3rd">
+        <minX>0.0000</minX>
+        <minY>0.0000</minY>
+        <minZ>-7.0999</minZ>
+        <maxX>0.5789</maxX>
+        <maxY>0.0000</maxY>
+        <maxZ>0.0000</maxZ>
+    </AABB>
+    <event animation="1st">
+        <function>PlayFX($asset, "ob_funobj_relic_crash_01", "dum1", "-attach ")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="1st">
+        <function>PlaySND($asset, "crash_pot01_", "dum1", "-var 3")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="3rd">
+        <function>PlayFX($asset, "ob_funobj_relic_crash_02", "dum1", "-attach ")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="3rd">
+        <function>PlaySND($asset, "crash_pot01_", "dum1", "-var 3")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <dummy name="dum1" parent="NODE_0" sync="TRUE">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.0000</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <action state="BROKEN_1ST" prevState="" loop="0">
+        <main speed=0.0000>1st</main>
+    </action>
+    <action state="BROKEN_2ND" prevState="" loop="0">
+        <main speed=0.0000>3rd</main>
+    </action>
+    <action state="BROKEN_3RD" prevState="" loop="0">
+        <main speed=0.0000>3rd</main>
+    </action>
+</aim>

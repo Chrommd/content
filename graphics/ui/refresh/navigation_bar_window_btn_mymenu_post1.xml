@@ -1,0 +1,426 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="NORMAL">
+    <asset type="IMAGE" name="asset_btn_mymenu_n" path="btn_mymenu_n.png">
+      <rect l="0" t="0" r="38" b="38" />
+    </asset>
+    <asset type="IMAGE" name="asset_icon_mymenu_post_effect" path="icon_mymenu_post_effect.png">
+      <rect l="0" t="0" r="35" b="35" />
+    </asset>
+    <asset type="IMAGE" name="asset_icon_mymenu_post" path="icon_mymenu_post_arrive.png">
+      <rect l="0" t="0" r="35" b="35" />
+    </asset>
+    <object name="btn_mymenu_n" ani="ani_btn_mymenu_n">
+      <asset type="IMAGE" link="asset_btn_mymenu_n" />
+    </object>
+    <object name="icon_mymenu_post_effect" ani="ani_icon_mymenu_post_effect">
+      <asset type="IMAGE" link="asset_icon_mymenu_post_effect" />
+    </object>
+    <object name="icon_mymenu_post" ani="ani_icon_mymenu_post">
+      <asset type="IMAGE" link="asset_icon_mymenu_post" />
+    </object>
+    <param type="RES" x="38" y="38" />
+    <param type="LOOP" cnt="-1" pendulum="0" />
+    <anim name="ani_btn_mymenu_n">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_mymenu_post_effect">
+      <frame cnt="0">
+        <posx val="0.0263157894736842" />
+        <posy val="0.0263157894736842" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1000">
+        <posx val="0.0263157894736842" />
+        <posy val="0.0263157894736842" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2000">
+        <posx val="0.0263157894736842" />
+        <posy val="0.0263157894736842" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_mymenu_post">
+      <frame cnt="0">
+        <posx val="0.5" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="-35" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="300">
+        <posx val="0.5" easeValue="1.0,0.0,1.0,1.0" />
+        <posy val="0.5" easeValue="1.0,0.0,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="1.0,0.0,1.0,1.0" />
+        <rotate val="0" easeValue="1.0,0.0,1.0,1.0" />
+        <visible val="1" />
+        <centerx val="0.5" easeValue="1.0,0.0,1.0,1.0" />
+        <centery val="0.5" easeValue="1.0,0.0,1.0,1.0" />
+      </frame>
+      <frame cnt="600">
+        <posx val="0.5" easeValue="0.0,1.0,1.0,1.0" />
+        <posy val="0.5" easeValue="0.0,1.0,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,1.0,1.0,1.0" />
+        <rotate val="35" easeValue="0.0,1.0,1.0,1.0" />
+        <visible val="1" />
+        <centerx val="0.5" easeValue="0.0,1.0,1.0,1.0" />
+        <centery val="0.5" easeValue="0.0,1.0,1.0,1.0" />
+      </frame>
+      <frame cnt="800">
+        <posx val="0.5" easeValue="1.0,0.0,1.0,1.0" />
+        <posy val="0.5" easeValue="1.0,0.0,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="1.0,0.0,1.0,1.0" />
+        <rotate val="0" easeValue="1.0,0.0,1.0,1.0" />
+        <visible val="1" />
+        <centerx val="0.5" easeValue="1.0,0.0,1.0,1.0" />
+        <centery val="0.5" easeValue="1.0,0.0,1.0,1.0" />
+      </frame>
+      <frame cnt="967">
+        <posx val="0.5" easeValue="0.0,1.0,1.0,1.0" />
+        <posy val="0.5" easeValue="0.0,1.0,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,1.0,1.0,1.0" />
+        <rotate val="-25" easeValue="0.0,1.0,1.0,1.0" />
+        <visible val="1" />
+        <centerx val="0.5" easeValue="0.0,1.0,1.0,1.0" />
+        <centery val="0.5" easeValue="0.0,1.0,1.0,1.0" />
+      </frame>
+      <frame cnt="1100">
+        <posx val="0.5" easeValue="1.0,0.0,1.0,1.0" />
+        <posy val="0.5" easeValue="1.0,0.0,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="1.0,0.0,1.0,1.0" />
+        <rotate val="0" easeValue="1.0,0.0,1.0,1.0" />
+        <visible val="1" />
+        <centerx val="0.5" easeValue="1.0,0.0,1.0,1.0" />
+        <centery val="0.5" easeValue="1.0,0.0,1.0,1.0" />
+      </frame>
+      <frame cnt="1233">
+        <posx val="0.5" easeValue="0.0,1.0,1.0,1.0" />
+        <posy val="0.5" easeValue="0.0,1.0,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,1.0,1.0,1.0" />
+        <rotate val="25" easeValue="0.0,1.0,1.0,1.0" />
+        <visible val="1" />
+        <centerx val="0.5" easeValue="0.0,1.0,1.0,1.0" />
+        <centery val="0.5" easeValue="0.0,1.0,1.0,1.0" />
+      </frame>
+      <frame cnt="1333">
+        <posx val="0.5" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="1433">
+        <posx val="0.5" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="-15" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="1533">
+        <posx val="0.5" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="1633">
+        <posx val="0.5" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="15" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="1733">
+        <posx val="0.5" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="2400">
+        <posx val="0.5" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="OVER">
+    <asset type="IMAGE" name="asset_btn_mymenu_n" path="btn_mymenu_n.png">
+      <rect l="0" t="0" r="38" b="38" />
+    </asset>
+    <asset type="IMAGE" name="asset_icon_mymenu_post_effect" path="icon_mymenu_post_effect.png">
+      <rect l="0" t="0" r="35" b="35" />
+    </asset>
+    <asset type="IMAGE" name="asset_btn_mymenu_o" path="btn_mymenu_o.png">
+      <rect l="0" t="0" r="51" b="51" />
+    </asset>
+    <asset type="IMAGE" name="asset_btn_mymenu_post_b2" path="icon_mymenu_post_o2.png">
+      <rect l="0" t="0" r="35" b="35" />
+    </asset>
+    <asset type="IMAGE" name="asset_btn_mymenu_post_b1" path="icon_mymenu_post_o1.png">
+      <rect l="0" t="0" r="35" b="35" />
+    </asset>
+    <object name="btn_mymenu_n" ani="ani_btn_mymenu_n">
+      <asset type="IMAGE" link="asset_btn_mymenu_n" />
+    </object>
+    <object name="icon_mymenu_post_effect" ani="ani_icon_mymenu_post_effect">
+      <asset type="IMAGE" link="asset_icon_mymenu_post_effect" />
+    </object>
+    <object name="btn_mymenu_o" ani="ani_btn_mymenu_o">
+      <asset type="IMAGE" link="asset_btn_mymenu_o" />
+    </object>
+    <object name="btn_mymenu_post_b2" ani="ani_btn_mymenu_post_b2">
+      <asset type="IMAGE" link="asset_btn_mymenu_post_b2" />
+    </object>
+    <object name="btn_mymenu_post_b1" ani="ani_btn_mymenu_post_b1">
+      <asset type="IMAGE" link="asset_btn_mymenu_post_b1" />
+    </object>
+    <param type="RES" x="38" y="38" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_btn_mymenu_n">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_mymenu_post_effect">
+      <frame cnt="0">
+        <posx val="0.02631579" />
+        <posy val="0.02631579" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_btn_mymenu_o">
+      <frame cnt="0">
+        <posx val="-0.1842105" />
+        <posy val="-0.1842105" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.8" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="167">
+        <posx val="-0.1842105" />
+        <posy val="-0.1842105" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_btn_mymenu_post_b2">
+      <frame cnt="0">
+        <posx val="0.0263157894736842" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_btn_mymenu_post_b1">
+      <frame cnt="0">
+        <posx val="0.02631579" />
+        <posy val="0.02631579" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="DOWN">
+    <asset type="IMAGE" name="asset_btn_mymenu_post_d" path="btn_mymenu_d.png">
+      <rect l="0" t="0" r="51" b="51" />
+    </asset>
+    <asset type="IMAGE" name="asset_btn_mymenu_post_b2" path="icon_mymenu_post_o2.png">
+      <rect l="0" t="0" r="35" b="35" />
+    </asset>
+    <asset type="IMAGE" name="asset_btn_mymenu_post_b1" path="icon_mymenu_post_o1.png">
+      <rect l="0" t="0" r="35" b="35" />
+    </asset>
+    <object name="btn_mymenu_post_d" ani="ani_btn_mymenu_post_d">
+      <asset type="IMAGE" link="asset_btn_mymenu_post_d" />
+    </object>
+    <object name="btn_mymenu_post_b2" ani="ani_btn_mymenu_post_b2">
+      <asset type="IMAGE" link="asset_btn_mymenu_post_b2" />
+    </object>
+    <object name="btn_mymenu_post_b1" ani="ani_btn_mymenu_post_b1">
+      <asset type="IMAGE" link="asset_btn_mymenu_post_b1" />
+    </object>
+    <param type="RES" x="38" y="38" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_btn_mymenu_post_d">
+      <frame cnt="0">
+        <posx val="-0.184210526315789" />
+        <posy val="-0.184210526315789" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="167">
+        <posx val="-0.184210526315789" />
+        <posy val="-0.184210526315789" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_btn_mymenu_post_b2">
+      <frame cnt="0">
+        <posx val="0.0263157894736842" />
+        <posy val="0.0263157894736842" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.55" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="167">
+        <posx val="0.0263157894736842" />
+        <posy val="0.0263157894736842" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.55" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_btn_mymenu_post_b1">
+      <frame cnt="0">
+        <posx val="0.02631579" />
+        <posy val="0.02631579" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.55" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="167">
+        <posx val="0.02631579" />
+        <posy val="0.02631579" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.55" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="DISABLE">
+    <param type="RES" x="38" y="38" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+  </scene>
+</rfanimation>

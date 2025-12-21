@@ -1,0 +1,125 @@
+﻿<refresh version="2">
+	<properties>
+		<property name="DPI" val="72" />
+	</properties>
+	<base type="WND" subclass="" name="Wnd">
+		<pos x="0" y="0" />
+		<rect l="0" t="0" r="186" b="41" />
+		<Visible val="True" />
+		<Anchor val="Top, Left" />
+		<snd type="SHOW"></snd>
+		<snd type="HIDE"></snd>
+		<IsHitTestVisible val="True" />
+		<ClipChildren val="False" />
+		<child type="PICTURE" name="quest_list_slot" subclass="">
+			<asset type="STATIC">quest_list_frame_slot.png</asset>
+			<pos x="107" y="3" />
+			<rect l="0" t="0" r="80" b="16" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="quest_list_complete3" subclass="">
+			<asset type="STATIC">quest_list_complete.png</asset>
+			<pos x="103" y="3" />
+			<rect l="0" t="0" r="80" b="16" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="LABEL" name="quest_0_9" subclass="">
+			<pos x="109" y="3" />
+			<rect l="0" t="0" r="71" b="16" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<label val="완료" />
+			<OutlineColor val="#FFFFFF" />
+			<ShadowColor val="#0000004C" />
+			<color val="#FFFFFFFF" />
+			<halign val="1" />
+			<valign val="1" />
+			<FontName val="나눔고딕 ExtraBold" />
+			<FontSize val="12" />
+			<TextTrimming val="CharacterEllipsis" />
+			<style val="32" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+			<Padding val="0, 0, 0, 0" />
+			<FitToContent val="False" />
+		</child>
+		<child type="LABEL" name="quest_0_11" subclass="">
+			<pos x="18" y="4" />
+			<rect l="0" t="0" r="87" b="17" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<label val="퀘스트타이틀1" />
+			<OutlineColor val="#FFFFFF" />
+			<ShadowColor val="#0000004C" />
+			<color val="#F4F0EAFF" />
+			<halign val="0" />
+			<valign val="1" />
+			<FontName val="나눔고딕 ExtraBold" />
+			<FontSize val="12" />
+			<TextTrimming val="CharacterEllipsis" />
+			<style val="32" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+			<Padding val="0, 0, 0, 0" />
+			<FitToContent val="False" />
+		</child>
+		<child type="LABEL" name="quest_0_10" subclass="">
+			<pos x="1" y="22" />
+			<rect l="0" t="0" r="176" b="16" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<label val="퀘스트내용입니다." />
+			<OutlineColor val="#FFFFFF" />
+			<ShadowColor val="#0000004C" />
+			<color val="#E0D9CEFF" />
+			<halign val="0" />
+			<valign val="1" />
+			<FontName val="나눔고딕" />
+			<FontSize val="12" />
+			<TextTrimming val="CharacterEllipsis" />
+			<style val="1" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+			<Padding val="0, 0, 0, 0" />
+			<FitToContent val="False" />
+		</child>
+		<child type="PICTURE" name="img_list_normal" subclass="">
+			<asset type="STATIC">quest_icon_info_3.png</asset>
+			<pos x="2" y="3" />
+			<rect l="0" t="0" r="19" b="19" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="icon_common_select" subclass="">
+			<asset type="STATIC">quest_icon_info_1.png</asset>
+			<pos x="0" y="3" />
+			<rect l="0" t="0" r="19" b="19" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="img_common_lineHorizontal_02" subclass="">
+			<asset type="STATIC">img_common_lineHorizontal_02.png</asset>
+			<pos x="3" y="37" />
+			<rect l="0" t="0" r="178" b="4" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+	</base>
+</refresh>

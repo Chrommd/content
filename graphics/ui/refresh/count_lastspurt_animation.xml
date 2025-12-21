@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="last_spurt">
+    <asset type="UI" name="asset_wave">
+      <rect l="0" t="0" r="340" b="30" />
+    </asset>
+    <asset type="UI" name="asset_lastspurt_txt2">
+      <rect l="0" t="0" r="121" b="29" />
+    </asset>
+    <asset type="UI" name="asset_lastspurt_txt">
+      <rect l="0" t="0" r="250" b="62" />
+    </asset>
+    <object name="wave" ani="ani_wave">
+      <asset type="UI" link="asset_wave" />
+    </object>
+    <object name="lastspurt_txt2" ani="ani_lastspurt_txt2">
+      <asset type="UI" link="asset_lastspurt_txt2" />
+    </object>
+    <object name="lastspurt_txt" ani="ani_lastspurt_txt">
+      <asset type="UI" link="asset_lastspurt_txt" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_wave">
+      <frame cnt="0">
+        <posx val="0.318359375" />
+        <posy val="0.373697916666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="300">
+        <posx val="0.337890625" easeValue="0.6,0.0,1.0,1.0" />
+        <posy val="0.373697916666667" easeValue="0.6,0.0,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.6,0.0,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1200">
+        <posx val="0.3427734375" />
+        <posy val="0.373697916666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1500">
+        <posx val="0.3623046875" easeValue="0.0,0.6,1.0,1.0" />
+        <posy val="0.373697916666667" easeValue="0.0,0.6,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" easeValue="0.0,0.6,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_lastspurt_txt2">
+      <frame cnt="0">
+        <posx val="0.48046875" />
+        <posy val="0.404947916666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="300">
+        <posx val="0.509765625" easeValue="0.6,0.0,1.0,1.0" />
+        <posy val="0.404947916666667" easeValue="0.6,0.0,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.6,0.0,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1200">
+        <posx val="0.5146484375" />
+        <posy val="0.404947916666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1500">
+        <posx val="0.56640625" easeValue="0.0,0.6,1.0,1.0" />
+        <posy val="0.404947916666667" easeValue="0.0,0.6,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" easeValue="0.0,0.6,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_lastspurt_txt">
+      <frame cnt="0">
+        <posx val="0.4296875" />
+        <posy val="0.333333333333333" />
+        <scalex val="1" />
+        <scaley val="0.935483870967742" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="300">
+        <posx val="0.380859375" easeValue="0.6,0.0,1.0,1.0" />
+        <posy val="0.333333333333333" easeValue="0.6,0.0,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="0.9354839" />
+        <alpha val="1" easeValue="0.6,0.0,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1200">
+        <posx val="0.3759765625" />
+        <posy val="0.333333333333333" />
+        <scalex val="1" />
+        <scaley val="0.9354839" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1500">
+        <posx val="0.33203125" easeValue="0.0,0.6,1.0,1.0" />
+        <posy val="0.333333333333333" easeValue="0.0,0.6,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="0.9354839" />
+        <alpha val="0" easeValue="0.0,0.6,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

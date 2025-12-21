@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="result_speed8_window_Animation.xml" />
+  </properties>
+  <base type="WNDEX" name="WndEx">
+    <asset type="BG" path="">
+      <tex x="0" y="0" />
+      <rect l="8" t="8" r="1008" b="110" />
+    </asset>
+    <asset type="EDGE_LT" path="">
+      <tex x="0" y="0" />
+      <rect l="0" t="0" r="8" b="8" />
+    </asset>
+    <asset type="EDGE_RT" path="">
+      <tex x="0" y="0" />
+      <rect l="0" t="0" r="8" b="8" />
+    </asset>
+    <asset type="EDGE_LB" path="">
+      <tex x="0" y="0" />
+      <rect l="0" t="0" r="8" b="8" />
+    </asset>
+    <asset type="EDGE_RB" path="">
+      <tex x="0" y="0" />
+      <rect l="0" t="0" r="8" b="8" />
+    </asset>
+    <asset type="FRAME_T" path="">
+      <tex x="0" y="0" />
+      <rect l="8" t="0" r="1008" b="8" />
+    </asset>
+    <asset type="FRAME_B" path="">
+      <tex x="0" y="0" />
+      <rect l="8" t="0" r="1008" b="8" />
+    </asset>
+    <asset type="FRAME_L" path="">
+      <tex x="0" y="0" />
+      <rect l="0" t="8" r="8" b="110" />
+    </asset>
+    <asset type="FRAME_R" path="">
+      <tex x="0" y="0" />
+      <rect l="0" t="8" r="8" b="110" />
+    </asset>
+    <Visible val="True" />
+    <Anchor val="Bottom, Left, Right" />
+    <pos x="0" y="642" />
+    <rect l="0" t="0" r="1024" b="126" />
+    <Dragable val="False" />
+    <StartPosition val="None" />
+    <EscKeyAction val="None" />
+    <child type="STACKPANEL" name="StackPanel">
+      <Visible val="True" />
+      <Anchor val="Bottom, Left, Right" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="1024" b="126" />
+      <Orientation val="" />
+      <HAlign val="Center" />
+      <VAlign val="Center" />
+      <base type="WNDEX" name="result_speed8th">
+        <asset type="BG" path="">
+          <tex x="0" y="0" />
+          <rect l="8" t="8" r="1008" b="110" />
+        </asset>
+        <asset type="EDGE_LT" path="">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="EDGE_RT" path="">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="EDGE_LB" path="">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="EDGE_RB" path="">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="FRAME_T" path="">
+          <tex x="0" y="0" />
+          <rect l="8" t="0" r="1008" b="8" />
+        </asset>
+        <asset type="FRAME_B" path="">
+          <tex x="0" y="0" />
+          <rect l="8" t="0" r="1008" b="8" />
+        </asset>
+        <asset type="FRAME_L" path="">
+          <tex x="0" y="0" />
+          <rect l="0" t="8" r="8" b="110" />
+        </asset>
+        <asset type="FRAME_R" path="">
+          <tex x="0" y="0" />
+          <rect l="0" t="8" r="8" b="110" />
+        </asset>
+        <Visible val="True" />
+        <Anchor val="Bottom, Left, Right" />
+        <pos x="-512" y="-63" />
+        <rect l="0" t="0" r="1024" b="126" />
+        <Dragable val="False" />
+        <StartPosition val="None" />
+        <EscKeyAction val="None" />
+        <child type="PANEL" name="8th">
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="896" y="0" />
+          <rect l="0" t="0" r="144" b="126" />
+          <child type="PICTURE" name="img_rank_base_8th">
+            <asset type="STATIC">result_rank_base.png</asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="0" y="0" />
+            <rect l="0" t="0" r="144" b="126" />
+            <center x="0" y="0" />
+          </child>
+          <child type="PICTURE" name="img_8th">
+            <asset type="STATIC">8th.png</asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="75" y="6" />
+            <rect l="0" t="0" r="50" b="32" />
+            <center x="0" y="0" />
+          </child>
+          <child type="PICTURE" name="result_arrow8">
+            <asset type="STATIC">result_arrow.png</asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="128" y="24" />
+            <rect l="0" t="0" r="16" b="40" />
+            <center x="0" y="0" />
+          </child>
+        </child>
+      </base>
+    </child>
+  </base>
+</refresh>

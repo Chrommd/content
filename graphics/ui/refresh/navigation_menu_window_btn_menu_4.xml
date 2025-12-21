@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="NORMAL">
+    <asset type="IMAGE" name="asset_navigation_menu_n" path="navigation_menu_n.png">
+      <rect l="0" t="0" r="150" b="45" />
+    </asset>
+    <asset type="IMAGE" name="asset_btn_end" path="icon_mate.png">
+      <rect l="0" t="0" r="51" b="45" />
+    </asset>
+    <object name="navigation_menu_n" ani="ani_navigation_menu_n">
+      <asset type="IMAGE" link="asset_navigation_menu_n" />
+    </object>
+    <object name="btn_end" ani="ani_btn_end">
+      <asset type="IMAGE" link="asset_btn_end" />
+    </object>
+    <param type="RES" x="150" y="45" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_navigation_menu_n">
+      <frame cnt="0">
+        <posx val="0.5" />
+        <posy val="0.511111111111111" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+    <anim name="ani_btn_end">
+      <frame cnt="0">
+        <posx val="0.173333333333333" />
+        <posy val="0.511111111111111" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="OVER">
+    <asset type="IMAGE" name="asset_navigation_menu_n" path="navigation_menu_n.png">
+      <rect l="0" t="0" r="150" b="45" />
+    </asset>
+    <asset type="IMAGE" name="asset_navigation_menu_o" path="navigation_menu_o.png">
+      <rect l="0" t="0" r="150" b="45" />
+    </asset>
+    <asset type="IMAGE" name="asset_btn_end" path="icon_mate.png">
+      <rect l="0" t="0" r="51" b="45" />
+    </asset>
+    <object name="navigation_menu_n" ani="ani_navigation_menu_n">
+      <asset type="IMAGE" link="asset_navigation_menu_n" />
+    </object>
+    <object name="navigation_menu_o" ani="ani_navigation_menu_o">
+      <asset type="IMAGE" link="asset_navigation_menu_o" />
+    </object>
+    <object name="btn_end" ani="ani_btn_end">
+      <asset type="IMAGE" link="asset_btn_end" />
+    </object>
+    <param type="RES" x="150" y="45" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_navigation_menu_n">
+      <frame cnt="0">
+        <posx val="0.5" />
+        <posy val="0.511111111111111" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+    <anim name="ani_navigation_menu_o">
+      <frame cnt="0">
+        <posx val="0.5" />
+        <posy val="0.511111111111111" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.5" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="133">
+        <posx val="0.5" />
+        <posy val="0.511111111111111" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+    <anim name="ani_btn_end">
+      <frame cnt="0">
+        <posx val="0.1733333" />
+        <posy val="0.5111111" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.5,0.0,0.5,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="133">
+        <posx val="0.1733333" />
+        <posy val="0.5111111" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="DOWN">
+    <asset type="IMAGE" name="asset_navigation_menu_d" path="navigation_menu_d.png">
+      <rect l="0" t="0" r="150" b="45" />
+    </asset>
+    <asset type="IMAGE" name="asset_btn_end" path="icon_mate.png">
+      <rect l="0" t="0" r="51" b="45" />
+    </asset>
+    <object name="navigation_menu_d" ani="ani_navigation_menu_d">
+      <asset type="IMAGE" link="asset_navigation_menu_d" />
+    </object>
+    <object name="btn_end" ani="ani_btn_end">
+      <asset type="IMAGE" link="asset_btn_end" />
+    </object>
+    <param type="RES" x="150" y="45" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_navigation_menu_d">
+      <frame cnt="0">
+        <posx val="0.5" />
+        <posy val="0.511111111111111" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.5" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="267">
+        <posx val="0.5" />
+        <posy val="0.511111111111111" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.5" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+    <anim name="ani_btn_end">
+      <frame cnt="0">
+        <posx val="0.1733333" />
+        <posy val="0.5111111" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.8" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="100">
+        <posx val="0.1733333" />
+        <posy val="0.5111111" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.4" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="DISABLE">
+    <asset type="IMAGE" name="asset_navigation_menu_dis" path="navigation_menu_dis.png">
+      <rect l="0" t="0" r="150" b="45" />
+    </asset>
+    <asset type="IMAGE" name="asset_btn_end" path="icon_mate.png">
+      <rect l="0" t="0" r="51" b="45" />
+    </asset>
+    <object name="navigation_menu_dis" ani="ani_navigation_menu_dis">
+      <asset type="IMAGE" link="asset_navigation_menu_dis" />
+    </object>
+    <object name="btn_end" ani="ani_btn_end">
+      <asset type="IMAGE" link="asset_btn_end" />
+    </object>
+    <param type="RES" x="150" y="45" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_navigation_menu_dis">
+      <frame cnt="0">
+        <posx val="0.5" />
+        <posy val="0.511111111111111" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+    <anim name="ani_btn_end">
+      <frame cnt="0">
+        <posx val="0.1733333" />
+        <posy val="0.5111111" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.3" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="ENTER">
+    <param type="RES" x="150" y="45" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+  </scene>
+</rfanimation>

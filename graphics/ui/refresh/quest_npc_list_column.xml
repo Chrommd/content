@@ -1,0 +1,66 @@
+﻿<refresh version="2">
+	<properties>
+		<property name="DPI" val="72" />
+		<property name="UIAnimation" val="quest_npc_list_column_Animation.xml" />
+	</properties>
+	<base type="WND" subclass="" name="Wnd">
+		<pos x="0" y="0" />
+		<rect l="0" t="0" r="400" b="26" />
+		<Visible val="True" />
+		<Anchor val="Top, Left" />
+		<snd type="SHOW"></snd>
+		<snd type="HIDE"></snd>
+		<IsHitTestVisible val="True" />
+		<ClipChildren val="False" />
+		<child type="PICTURE" name="quest_list_Over" subclass="">
+			<asset type="STATIC">quest_select.png</asset>
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="409" b="26" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="img_list_normal" subclass="">
+			<asset type="STATIC">quest_icon_info_3.png</asset>
+			<pos x="8" y="3" />
+			<rect l="0" t="0" r="19" b="19" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="icon_common_select" subclass="">
+			<asset type="STATIC">quest_icon_info_1.png</asset>
+			<pos x="7" y="4" />
+			<rect l="0" t="0" r="19" b="19" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="LABEL" name="Label_quest_title" subclass="">
+			<pos x="25" y="3" />
+			<rect l="0" t="0" r="373" b="21" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<label val="퀘스트내용 타이틀" />
+			<OutlineColor val="#FFFFFF" />
+			<ShadowColor val="#0000004C" />
+			<color val="#6B5D54" />
+			<halign val="0" />
+			<valign val="1" />
+			<FontName val="나눔고딕" />
+			<FontSize val="14" />
+			<TextTrimming val="CharacterEllipsis" />
+			<style val="1" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+			<Padding val="0, 0, 0, 0" />
+			<FitToContent val="False" />
+		</child>
+	</base>
+</refresh>

@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="effect_ingame_skillback_icon_loop_3_Default">
+    <asset type="IMAGE" name="asset_effect_ingame_skillback_txt_loop_1" path="effect_ingame_skillback_icon_loop_1.png">
+      <rect l="0" t="0" r="62" b="62" />
+    </asset>
+    <asset type="IMAGE" name="asset_effect_ingame_skillback_icon_loop_1" path="effect_ingame_skillback_icon_loop_1.png">
+      <rect l="0" t="0" r="62" b="62" />
+    </asset>
+    <asset type="IMAGE" name="asset_effect_ingame_skillback_icon_loop_2" path="effect_ingame_skillback_icon_loop_1.png">
+      <rect l="0" t="0" r="62" b="62" />
+    </asset>
+    <object name="effect_ingame_skillback_txt_loop_1" ani="ani_effect_ingame_skillback_txt_loop_1">
+      <asset type="IMAGE" link="asset_effect_ingame_skillback_txt_loop_1" />
+    </object>
+    <object name="effect_ingame_skillback_icon_loop_1" ani="ani_effect_ingame_skillback_icon_loop_1">
+      <asset type="IMAGE" link="asset_effect_ingame_skillback_icon_loop_1" />
+    </object>
+    <object name="effect_ingame_skillback_icon_loop_2" ani="ani_effect_ingame_skillback_icon_loop_2">
+      <asset type="IMAGE" link="asset_effect_ingame_skillback_icon_loop_2" />
+    </object>
+    <param type="RES" x="56" y="56" />
+    <param type="LOOP" cnt="-1" pendulum="0" />
+    <anim name="ani_effect_ingame_skillback_txt_loop_1">
+      <frame cnt="0">
+        <posx val="-0.0357142857142857" />
+        <posy val="-0.0357142857142857" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_effect_ingame_skillback_icon_loop_1">
+      <frame cnt="0">
+        <posx val="0.517857142857143" />
+        <posy val="0.517857142857143" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="200">
+        <posx val="0.517857142857143" />
+        <posy val="0.517857142857143" />
+        <scalex val="0.887096774193548" />
+        <scaley val="0.887096774193548" />
+        <alpha val="0.5" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="633">
+        <posx val="0.517857142857143" />
+        <posy val="0.517857142857143" />
+        <scalex val="0.612903225806452" />
+        <scaley val="0.612903225806452" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+    <anim name="ani_effect_ingame_skillback_icon_loop_2">
+      <frame cnt="0">
+        <posx val="0.5178571" />
+        <posy val="0.5178571" />
+        <scalex val="0.6612903" />
+        <scaley val="0.6612903" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="200">
+        <posx val="0.517857142857143" />
+        <posy val="0.517857142857143" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="567">
+        <posx val="0.517857142857143" />
+        <posy val="0.517857142857143" />
+        <scalex val="0.887096774193548" />
+        <scaley val="0.887096774193548" />
+        <alpha val="0.5" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="1000">
+        <posx val="0.517857142857143" />
+        <posy val="0.517857142857143" />
+        <scalex val="0.612903225806452" />
+        <scaley val="0.612903225806452" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="reward_opening">
+    <asset type="UI" name="asset_reward_caret">
+      <rect l="0" t="0" r="217" b="35" />
+    </asset>
+    <asset type="UI" name="asset_reward_horse_exp">
+      <rect l="0" t="0" r="217" b="35" />
+    </asset>
+    <asset type="UI" name="asset_reward_horse_cmt">
+      <rect l="0" t="0" r="217" b="35" />
+    </asset>
+    <object name="reward_caret" ani="ani_reward_caret">
+      <asset type="UI" link="asset_reward_caret" />
+    </object>
+    <object name="reward_horse_exp" ani="ani_reward_horse_exp">
+      <asset type="UI" link="asset_reward_horse_exp" />
+    </object>
+    <object name="reward_horse_cmt" ani="ani_reward_horse_cmt">
+      <asset type="UI" link="asset_reward_horse_cmt" />
+    </object>
+    <param type="RES" x="230" y="323" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_reward_caret">
+      <frame cnt="0">
+        <posx val="0.0652173913043478" />
+        <posy val="0.0309597523219814" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="667">
+        <posx val="0.0652173913043478" />
+        <posy val="0.0309597523219814" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1033">
+        <posx val="0.0652173913043478" easeValue="0.0,1.0,1.0,1.0" />
+        <posy val="0" easeValue="0.0,1.0,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,1.0,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_reward_horse_exp">
+      <frame cnt="0">
+        <posx val="0.0652173913043478" />
+        <posy val="0.145510835913313" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="667">
+        <posx val="0.0652173913043478" />
+        <posy val="0.145510835913313" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1033">
+        <posx val="0.0652173913043478" easeValue="0.0,1.0,1.0,1.0" />
+        <posy val="0.114551083591331" easeValue="0.0,1.0,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,1.0,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_reward_horse_cmt">
+      <frame cnt="0">
+        <posx val="0.0652173913043478" />
+        <posy val="-0.0959752321981424" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="667">
+        <posx val="0.0652173913043478" />
+        <posy val="-0.0959752321981424" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1033">
+        <posx val="0.0652173913043478" easeValue="0.0,1.0,1.0,1.0" />
+        <posy val="-0.126934984520124" easeValue="0.0,1.0,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,1.0,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="reward_closing">
+    <asset type="UI" name="asset_reward_caret">
+      <rect l="0" t="0" r="217" b="35" />
+    </asset>
+    <asset type="UI" name="asset_reward_horse_exp">
+      <rect l="0" t="0" r="217" b="35" />
+    </asset>
+    <asset type="UI" name="asset_reward_horse_cmt">
+      <rect l="0" t="0" r="217" b="35" />
+    </asset>
+    <object name="reward_caret" ani="ani_reward_caret">
+      <asset type="UI" link="asset_reward_caret" />
+    </object>
+    <object name="reward_horse_exp" ani="ani_reward_horse_exp">
+      <asset type="UI" link="asset_reward_horse_exp" />
+    </object>
+    <object name="reward_horse_cmt" ani="ani_reward_horse_cmt">
+      <asset type="UI" link="asset_reward_horse_cmt" />
+    </object>
+    <param type="RES" x="230" y="323" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_reward_caret">
+      <frame cnt="0">
+        <posx val="0.0652173913043478" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.0652173913043478" />
+        <posy val="0.0309597523219814" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_reward_horse_exp">
+      <frame cnt="0">
+        <posx val="0.0652173913043478" />
+        <posy val="0.114551083591331" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.0652173913043478" />
+        <posy val="0.145510835913313" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_reward_horse_cmt">
+      <frame cnt="0">
+        <posx val="0.0565217391304348" />
+        <posy val="-0.120743034055728" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.0565217391304348" />
+        <posy val="-0.0897832817337461" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="failure1_opening">
+    <asset type="UI" name="asset_failure1_cmt1">
+      <rect l="0" t="0" r="217" b="35" />
+    </asset>
+    <object name="failure1_cmt1" ani="ani_failure1_cmt1">
+      <asset type="UI" link="asset_failure1_cmt1" />
+    </object>
+    <param type="RES" x="230" y="323" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_failure1_cmt1">
+      <frame cnt="0">
+        <posx val="0.0347826086956522" />
+        <posy val="0.201238390092879" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="667">
+        <posx val="0.0347826086956522" />
+        <posy val="0.201238390092879" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1100">
+        <posx val="0.0347826086956522" easeValue="0.0,0.0,0.0,1.0" />
+        <posy val="0.173374613003096" easeValue="0.0,0.0,0.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,0.0,0.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="failure1_closing">
+    <asset type="UI" name="asset_failure1_cmt1">
+      <rect l="0" t="0" r="217" b="35" />
+    </asset>
+    <object name="failure1_cmt1" ani="ani_failure1_cmt1">
+      <asset type="UI" link="asset_failure1_cmt1" />
+    </object>
+    <param type="RES" x="230" y="323" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_failure1_cmt1">
+      <frame cnt="0">
+        <posx val="0.0347826086956522" />
+        <posy val="0.18266253869969" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.0347826086956522" />
+        <posy val="0.210526315789474" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

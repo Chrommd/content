@@ -1,0 +1,187 @@
+﻿<refresh version="2">
+	<properties>
+		<property name="DPI" val="72" />
+		<property name="UIAnimation" val="event_result_window_Animation.xml" />
+	</properties>
+	<base type="WND" subclass="" name="event_result">
+		<pos x="0" y="0" />
+		<rect l="0" t="0" r="1024" b="768" />
+		<Visible val="True" />
+		<Anchor val="Top, Bottom, Left, Right" />
+		<snd type="SHOW"></snd>
+		<snd type="HIDE"></snd>
+		<IsHitTestVisible val="True" />
+		<ClipChildren val="False" />
+		<child type="STACKPANEL" name="StackPanel" subclass="">
+			<pos x="0" y="480" />
+			<rect l="0" t="0" r="1024" b="160" />
+			<Visible val="True" />
+			<Anchor val="Bottom, Left, Right" />
+			<Orientation val="Vertical" />
+			<HAlign val="Center" />
+			<VAlign val="Center" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<base type="WND" subclass="" name="wnd">
+				<pos x="267" y="20" />
+				<rect l="0" t="0" r="490" b="120" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<snd type="SHOW"></snd>
+				<snd type="HIDE"></snd>
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+				<child type="PICTURE" name="img_bg1" subclass="">
+					<asset type="STATIC">event_result_frame_bg.png</asset>
+					<pos x="0" y="0" />
+					<rect l="0" t="0" r="490" b="120" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+					<child type="LABEL" name="Label" subclass="">
+						<pos x="131" y="12" />
+						<rect l="0" t="0" r="278" b="19" />
+						<Visible val="True" />
+						<Anchor val="Top, Left" />
+						<label val="재료를 다 모아오셨네요! 일단 답례는 해야겠군요." />
+						<OutlineColor val="#FFFFFF" />
+						<ShadowColor val="#0000004C" />
+						<color val="#6B5D54" />
+						<halign val="0" />
+						<valign val="1" />
+						<FontName val="나눔고딕" />
+						<FontSize val="13" />
+						<TextTrimming val="None" />
+						<style val="1" />
+						<IsHitTestVisible val="False" />
+						<ClipChildren val="False" />
+						<Padding val="0, 0, 0, 0" />
+						<FitToContent val="False" />
+					</child>
+					<child type="LABEL" name="Label1" subclass="">
+						<pos x="131" y="29" />
+						<rect l="0" t="0" r="275" b="19" />
+						<Visible val="True" />
+						<Anchor val="Top, Left" />
+						<label val="저는 송편 만들러 가봐야 해서 그럼 이만" />
+						<OutlineColor val="#FFFFFF" />
+						<ShadowColor val="#0000004C" />
+						<color val="#6B5D54" />
+						<halign val="0" />
+						<valign val="1" />
+						<FontName val="나눔고딕" />
+						<FontSize val="13" />
+						<TextTrimming val="None" />
+						<style val="1" />
+						<IsHitTestVisible val="False" />
+						<ClipChildren val="False" />
+						<Padding val="0, 0, 0, 0" />
+						<FitToContent val="False" />
+					</child>
+				</child>
+				<child type="PICTURE" name="event_result_frame_effect" subclass="">
+					<asset type="STATIC">event_result_frame_effect.png</asset>
+					<pos x="15" y="6" />
+					<rect l="0" t="0" r="106" b="111" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+				</child>
+				<child type="PICTURE" name="event_item" subclass="">
+					<asset type="STATIC">icon_i_[etc]003_nknchange.png</asset>
+					<pos x="32" y="25" />
+					<rect l="0" t="0" r="71" b="71" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+				</child>
+				<child type="LABEL" name="Label_item_name" subclass="">
+					<pos x="131" y="46" />
+					<rect l="0" t="0" r="257" b="25" />
+					<Visible val="True" />
+					<Anchor val="Top, Left" />
+					<label val="아이템이름" />
+					<OutlineColor val="#FFFFFF" />
+					<ShadowColor val="#0000004C" />
+					<color val="#FF7200FF" />
+					<halign val="0" />
+					<valign val="1" />
+					<FontName val="나눔고딕 ExtraBold" />
+					<FontSize val="18" />
+					<TextTrimming val="None" />
+					<style val="0" />
+					<IsHitTestVisible val="False" />
+					<ClipChildren val="False" />
+					<Padding val="0, 0, 0, 0" />
+					<FitToContent val="False" />
+				</child>
+				<child type="LABEL" name="Label_script" subclass="">
+					<pos x="131" y="81" />
+					<rect l="0" t="0" r="259" b="14" />
+					<Visible val="True" />
+					<Anchor val="Top, Left" />
+					<label val="받은 아이템(캐롯제외)은 목장의 '내 장비'에서" />
+					<OutlineColor val="#FFFFFF" />
+					<ShadowColor val="#0000004C" />
+					<color val="#99857AFF" />
+					<halign val="0" />
+					<valign val="1" />
+					<FontName val="나눔고딕" />
+					<FontSize val="12" />
+					<TextTrimming val="None" />
+					<style val="1" />
+					<IsHitTestVisible val="False" />
+					<ClipChildren val="False" />
+					<Padding val="0, 0, 0, 0" />
+					<FitToContent val="False" />
+				</child>
+				<child type="PICTURE" name="event_result_frame_npc" subclass="">
+					<asset type="STATIC">event_result_frame_npc.png</asset>
+					<pos x="341" y="-140" />
+					<rect l="0" t="0" r="186" b="252" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+				</child>
+				<child type="PICTURE" name="event_effect_0" subclass="">
+					<asset type="ANIMATION">event_result_window_event_effect_0.xml</asset>
+					<pos x="20" y="13" />
+					<rect l="0" t="0" r="95" b="95" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+				</child>
+				<child type="LABEL" name="Label_script1" subclass="">
+					<pos x="131" y="95" />
+					<rect l="0" t="0" r="259" b="14" />
+					<Visible val="True" />
+					<Anchor val="Top, Left" />
+					<label val="확인할 수 있습니다." />
+					<OutlineColor val="#FFFFFF" />
+					<ShadowColor val="#0000004C" />
+					<color val="#99857AFF" />
+					<halign val="0" />
+					<valign val="1" />
+					<FontName val="나눔고딕" />
+					<FontSize val="12" />
+					<TextTrimming val="None" />
+					<style val="1" />
+					<IsHitTestVisible val="False" />
+					<ClipChildren val="False" />
+					<Padding val="0, 0, 0, 0" />
+					<FitToContent val="False" />
+				</child>
+			</base>
+		</child>
+	</base>
+</refresh>

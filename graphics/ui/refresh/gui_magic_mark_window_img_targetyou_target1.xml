@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="img_targetyou_target1_Default">
+    <asset type="IMAGE" name="asset_img_targetyou_target" path="img_targetyou_summon_target.png">
+      <rect l="0" t="0" r="45" b="45" />
+    </asset>
+    <object name="img_targetyou_target" ani="ani_img_targetyou_target">
+      <asset type="IMAGE" link="asset_img_targetyou_target" />
+    </object>
+    <param type="RES" x="45" y="45" />
+    <param type="LOOP" cnt="-1" pendulum="0" />
+    <anim name="ani_img_targetyou_target">
+      <frame cnt="0">
+        <posx val="0.488888888888889" />
+        <posy val="0.488888888888889" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="967">
+        <posx val="0.488888888888889" />
+        <posy val="0.488888888888889" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="348" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

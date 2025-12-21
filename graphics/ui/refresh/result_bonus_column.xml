@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+  </properties>
+  <base type="WND" subclass="" name="Wnd">
+    <Visible val="True" />
+    <Anchor val="Top, Left" />
+    <pos x="2" y="2" />
+    <rect l="0" t="0" r="159" b="23" />
+    <snd type="SHOW">
+    </snd>
+    <snd type="HIDE">
+    </snd>
+    <IsHitTestVisible val="True" />
+    <ClipChildren val="False" />
+    <child type="STACKPANEL" name="StackPanel_bonus0" subclass="">
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <pos x="3" y="1" />
+      <rect l="0" t="0" r="150" b="21" />
+      <Orientation val="Horizontal" />
+      <HAlign val="Left" />
+      <VAlign val="Center" />
+      <IsHitTestVisible val="False" />
+      <ClipChildren val="False" />
+      <child type="TEXTAREA" name="TextArea0" subclass="">
+        <asset type="BG" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="8" t="8" r="62" b="3" />
+        </asset>
+        <asset type="EDGE_LT" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="EDGE_RT" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="EDGE_LB" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="EDGE_RB" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="FRAME_T" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="8" t="0" r="62" b="8" />
+        </asset>
+        <asset type="FRAME_B" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="8" t="0" r="62" b="8" />
+        </asset>
+        <asset type="FRAME_L" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="0" t="8" r="8" b="3" />
+        </asset>
+        <asset type="FRAME_R" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="0" t="8" r="8" b="3" />
+        </asset>
+        <asset type="CARET" path="">
+          <rpos x="0" y="0" />
+          <rect l="0" t="0" r="0" b="0" />
+        </asset>
+        <pos x="72" y="0" />
+        <rect l="0" t="0" r="78" b="19" />
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <Editable val="False" />
+        <OutlineColor val="#FFFFFF" />
+        <ShadowColor val="#0000004C" />
+        <SelectionBrush val="#FF0000" />
+        <color val="#6B5D54" />
+        <style val="1" />
+        <halign val="0" />
+        <padding l="3" t="2" r="3" b="2" />
+        <FontName val="나눔고딕" />
+        <FontSize val="13" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="LABEL" name="Label0" subclass="">
+        <label val="Level" />
+        <pos x="22" y="1" />
+        <rect l="0" t="0" r="50" b="15" />
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <OutlineColor val="#FFFFFFFF" />
+        <ShadowColor val="#0000004C" />
+        <color val="#FFFFFFFF" />
+        <halign val="0" />
+        <valign val="0" />
+        <FontName val="나눔고딕" />
+        <FontSize val="13" />
+        <TextTrimming val="None" />
+        <style val="1" />
+        <IsHitTestVisible val="False" />
+        <ClipChildren val="False" />
+        <Padding val="1, 0, 0, 0" />
+      </child>
+      <child type="PICTURE" name="icon_bonus0" subclass="">
+        <asset type="STATIC">
+        </asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="0" y="1" />
+        <rect l="0" t="0" r="22" b="18" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+    </child>
+  </base>
+</refresh>

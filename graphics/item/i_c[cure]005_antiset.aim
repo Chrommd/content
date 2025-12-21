@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <category name="R00" script="-r00" />
+    <category name="R02" script="-r02" />
+    <action category="R00" state="CARE_CURE" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>r00_cure_00</main>
+    </action>
+    <action category="R02" state="CARE_CURE" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>r02_cure_00</main>
+    </action>
+    <action category="R00" state="CARE_CURE_SELECT" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>r00_idle_00_trans</main>
+    </action>
+    <action category="R02" state="CARE_CURE_SELECT" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>r02_idle_00_trans</main>
+    </action>
+    <action category="R00" state="CARE_CURE_SELECT_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>r00_idle_00</main>
+    </action>
+    <action category="R02" state="CARE_CURE_SELECT_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>r02_idle_00</main>
+    </action>
+    <blend sec="0">
+        <name>r00_cure_00</name>
+    </blend>
+    <blend sec="0">
+        <name>r00_idle_00</name>
+    </blend>
+    <blend sec="0">
+        <name>r00_idle_00_trans</name>
+    </blend>
+    <blend sec="0">
+        <name>r02_cure_00</name>
+    </blend>
+    <blend sec="0">
+        <name>r02_idle_00</name>
+    </blend>
+    <blend sec="0">
+        <name>r02_idle_00_trans</name>
+    </blend>
+</aim>

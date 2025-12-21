@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="count_finish_Animation.xml" />
+  </properties>
+  <base type="WNDEX" name="WndEx1">
+    <asset type="BG" path="">
+      <tex x="0" y="0" />
+      <rect l="8" t="8" r="1008" b="752" />
+    </asset>
+    <asset type="EDGE_LT" path="">
+      <tex x="0" y="0" />
+      <rect l="0" t="0" r="8" b="8" />
+    </asset>
+    <asset type="EDGE_RT" path="">
+      <tex x="0" y="0" />
+      <rect l="0" t="0" r="8" b="8" />
+    </asset>
+    <asset type="EDGE_LB" path="">
+      <tex x="0" y="0" />
+      <rect l="0" t="0" r="8" b="8" />
+    </asset>
+    <asset type="EDGE_RB" path="">
+      <tex x="0" y="0" />
+      <rect l="0" t="0" r="8" b="8" />
+    </asset>
+    <asset type="FRAME_T" path="">
+      <tex x="0" y="0" />
+      <rect l="8" t="0" r="1008" b="8" />
+    </asset>
+    <asset type="FRAME_B" path="">
+      <tex x="0" y="0" />
+      <rect l="8" t="0" r="1008" b="8" />
+    </asset>
+    <asset type="FRAME_L" path="">
+      <tex x="0" y="0" />
+      <rect l="0" t="8" r="8" b="752" />
+    </asset>
+    <asset type="FRAME_R" path="">
+      <tex x="0" y="0" />
+      <rect l="0" t="8" r="8" b="752" />
+    </asset>
+    <Visible val="True" />
+    <Anchor val="Top, Bottom, Left, Right" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="1024" b="768" />
+    <Dragable val="False" />
+    <StartPosition val="None" />
+    <EscKeyAction val="None" />
+    <child type="STACKPANEL" name="StackPanel">
+      <Visible val="True" />
+      <Anchor val="Top, Bottom, Left, Right" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="1024" b="768" />
+      <Orientation val="" />
+      <HAlign val="Center" />
+      <VAlign val="Center" />
+      <base type="WNDEX" name="WndEx">
+        <asset type="BG" path="">
+          <tex x="0" y="0" />
+          <rect l="8" t="8" r="1008" b="752" />
+        </asset>
+        <asset type="EDGE_LT" path="">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="EDGE_RT" path="">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="EDGE_LB" path="">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="EDGE_RB" path="">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="FRAME_T" path="">
+          <tex x="0" y="0" />
+          <rect l="8" t="0" r="1008" b="8" />
+        </asset>
+        <asset type="FRAME_B" path="">
+          <tex x="0" y="0" />
+          <rect l="8" t="0" r="1008" b="8" />
+        </asset>
+        <asset type="FRAME_L" path="">
+          <tex x="0" y="0" />
+          <rect l="0" t="8" r="8" b="752" />
+        </asset>
+        <asset type="FRAME_R" path="">
+          <tex x="0" y="0" />
+          <rect l="0" t="8" r="8" b="752" />
+        </asset>
+        <Visible val="True" />
+        <Anchor val="Top, Bottom, Left, Right" />
+        <pos x="0" y="0" />
+        <rect l="0" t="0" r="1024" b="768" />
+        <Dragable val="False" />
+        <StartPosition val="None" />
+        <EscKeyAction val="None" />
+        <child type="PICTURE" name="r_ef">
+          <asset type="STATIC">pattern_01.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="450" y="285" />
+          <rect l="0" t="0" r="300" b="84" />
+          <center x="0" y="0" />
+        </child>
+        <child type="PICTURE" name="l_ef">
+          <asset type="STATIC">pattern_01_l.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="212" y="285" />
+          <rect l="0" t="0" r="300" b="84" />
+          <center x="0" y="0" />
+        </child>
+        <child type="PICTURE" name="timeover">
+          <asset type="STATIC">count_txt_timeover.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="153" y="210" />
+          <rect l="0" t="0" r="718" b="122" />
+          <center x="0" y="0" />
+        </child>
+        <child type="PICTURE" name="raceover">
+          <asset type="STATIC">count_txt_raceover.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="140" y="210" />
+          <rect l="0" t="0" r="744" b="122" />
+          <center x="0" y="0" />
+        </child>
+        <child type="PICTURE" name="goal">
+          <asset type="STATIC">count_txt_goal.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="321" y="210" />
+          <rect l="0" t="0" r="382" b="122" />
+          <center x="0" y="0" />
+        </child>
+        <child type="PICTURE" name="finish">
+          <asset type="STATIC">count_txt_finish.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="286" y="210" />
+          <rect l="0" t="0" r="452" b="122" />
+          <center x="0" y="0" />
+        </child>
+      </base>
+    </child>
+  </base>
+</refresh>

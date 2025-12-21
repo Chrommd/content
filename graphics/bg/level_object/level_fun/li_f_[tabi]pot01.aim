@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <event animation="1st">
+        <function>PlayFX($asset, "ob_funobj_relic_crash_01", "dum1", "")</function>
+        <time>0</time>
+        <freq>100</freq>
+    </event>
+    <event animation="1st">
+        <function>PlaySND($asset, "crash_pot01_", "dum1", "-var 3")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="1st">
+        <function>PlaySND($asset, "crash_wood_solid1", "dum1", "-var 0")</function>
+        <time>0.2237</time>
+        <freq>100</freq>
+    </event>
+    <event animation="3rd">
+        <function>PlayFX($asset, "ob_funobj_relic_crash_02", "dum1", "")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="3rd">
+        <function>PlaySND($asset, "crash_pot01_", "dum1", "-var 3")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="3rd">
+        <function>PlaySND($asset, "crash_wood_solid2", "dum1", "-var 0")</function>
+        <time>0.2667</time>
+        <freq>100</freq>
+    </event>
+    <dummy name="dum1" parent="Box01" sync="TRUE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>1.2333</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <action category="" state="BROKEN_1ST" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>1st</main>
+    </action>
+    <action category="" state="BROKEN_2ND" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>3rd</main>
+    </action>
+    <action category="" state="BROKEN_3RD" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>3rd</main>
+    </action>
+</aim>

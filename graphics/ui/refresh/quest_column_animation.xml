@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="_Normal_">
+    <asset type="UI" name="asset_quest_list_Normal">
+      <rect l="0" t="0" r="290" b="70" />
+    </asset>
+    <asset type="UI" name="asset_quest_list_Over">
+      <rect l="0" t="0" r="290" b="70" />
+    </asset>
+    <asset type="UI" name="asset_quest_list_Selected">
+      <rect l="0" t="0" r="290" b="70" />
+    </asset>
+    <asset type="UI" name="asset_icon_common_select">
+      <rect l="0" t="0" r="22" b="23" />
+    </asset>
+    <object name="quest_list_Normal" ani="ani_quest_list_Normal">
+      <asset type="UI" link="asset_quest_list_Normal" />
+    </object>
+    <object name="quest_list_Over" ani="ani_quest_list_Over">
+      <asset type="UI" link="asset_quest_list_Over" />
+    </object>
+    <object name="quest_list_Selected" ani="ani_quest_list_Selected">
+      <asset type="UI" link="asset_quest_list_Selected" />
+    </object>
+    <object name="icon_common_select" ani="ani_icon_common_select">
+      <asset type="UI" link="asset_icon_common_select" />
+    </object>
+    <param type="RES" x="290" y="70" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_quest_list_Normal">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_quest_list_Over">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_quest_list_Selected">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_common_select">
+      <frame cnt="0">
+        <posx val="0.9" />
+        <posy val="0.05714286" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Over_">
+    <asset type="UI" name="asset_quest_list_Normal">
+      <rect l="0" t="0" r="290" b="70" />
+    </asset>
+    <asset type="UI" name="asset_quest_list_Over">
+      <rect l="0" t="0" r="290" b="70" />
+    </asset>
+    <asset type="UI" name="asset_quest_list_Selected">
+      <rect l="0" t="0" r="290" b="70" />
+    </asset>
+    <asset type="UI" name="asset_icon_common_select">
+      <rect l="0" t="0" r="22" b="23" />
+    </asset>
+    <object name="quest_list_Normal" ani="ani_quest_list_Normal">
+      <asset type="UI" link="asset_quest_list_Normal" />
+    </object>
+    <object name="quest_list_Over" ani="ani_quest_list_Over">
+      <asset type="UI" link="asset_quest_list_Over" />
+    </object>
+    <object name="quest_list_Selected" ani="ani_quest_list_Selected">
+      <asset type="UI" link="asset_quest_list_Selected" />
+    </object>
+    <object name="icon_common_select" ani="ani_icon_common_select">
+      <asset type="UI" link="asset_icon_common_select" />
+    </object>
+    <param type="RES" x="290" y="70" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_quest_list_Normal">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_quest_list_Over">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_quest_list_Selected">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_common_select">
+      <frame cnt="0">
+        <posx val="0.9" />
+        <posy val="0.05714286" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Selected_">
+    <asset type="UI" name="asset_quest_list_Normal">
+      <rect l="0" t="0" r="290" b="70" />
+    </asset>
+    <asset type="UI" name="asset_quest_list_Over">
+      <rect l="0" t="0" r="290" b="70" />
+    </asset>
+    <asset type="UI" name="asset_quest_list_Selected">
+      <rect l="0" t="0" r="290" b="70" />
+    </asset>
+    <asset type="UI" name="asset_icon_common_select">
+      <rect l="0" t="0" r="22" b="23" />
+    </asset>
+    <object name="quest_list_Normal" ani="ani_quest_list_Normal">
+      <asset type="UI" link="asset_quest_list_Normal" />
+    </object>
+    <object name="quest_list_Over" ani="ani_quest_list_Over">
+      <asset type="UI" link="asset_quest_list_Over" />
+    </object>
+    <object name="quest_list_Selected" ani="ani_quest_list_Selected">
+      <asset type="UI" link="asset_quest_list_Selected" />
+    </object>
+    <object name="icon_common_select" ani="ani_icon_common_select">
+      <asset type="UI" link="asset_icon_common_select" />
+    </object>
+    <param type="RES" x="290" y="70" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_quest_list_Normal">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_quest_list_Over">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_quest_list_Selected">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <sound val="ui_btn_menu_page" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_common_select">
+      <frame cnt="0">
+        <posx val="0.9" />
+        <posy val="0.05714286" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Disabled_">
+    <asset type="UI" name="asset_quest_list_Disable">
+      <rect l="0" t="0" r="290" b="70" />
+    </asset>
+    <asset type="UI" name="asset_quest_list_Normal">
+      <rect l="0" t="0" r="290" b="70" />
+    </asset>
+    <asset type="UI" name="asset_quest_list_Over">
+      <rect l="0" t="0" r="290" b="70" />
+    </asset>
+    <asset type="UI" name="asset_quest_list_Selected">
+      <rect l="0" t="0" r="290" b="70" />
+    </asset>
+    <asset type="UI" name="asset_icon_common_select">
+      <rect l="0" t="0" r="22" b="23" />
+    </asset>
+    <object name="quest_list_Disable" ani="ani_quest_list_Disable">
+      <asset type="UI" link="asset_quest_list_Disable" />
+    </object>
+    <object name="quest_list_Normal" ani="ani_quest_list_Normal">
+      <asset type="UI" link="asset_quest_list_Normal" />
+    </object>
+    <object name="quest_list_Over" ani="ani_quest_list_Over">
+      <asset type="UI" link="asset_quest_list_Over" />
+    </object>
+    <object name="quest_list_Selected" ani="ani_quest_list_Selected">
+      <asset type="UI" link="asset_quest_list_Selected" />
+    </object>
+    <object name="icon_common_select" ani="ani_icon_common_select">
+      <asset type="UI" link="asset_icon_common_select" />
+    </object>
+    <param type="RES" x="290" y="70" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_quest_list_Disable">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_quest_list_Normal">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_quest_list_Over">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_quest_list_Selected">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_common_select">
+      <frame cnt="0">
+        <posx val="0.9" />
+        <posy val="0.05714286" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

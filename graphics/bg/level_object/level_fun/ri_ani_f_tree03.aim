@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <AABB animation="ri_ani_f_tree03">
+        <minX>-0.5588</minX>
+        <minY>-9.0492</minY>
+        <minZ>-18.3597</minZ>
+        <maxX>0.1659</maxX>
+        <maxY>37.5167</maxY>
+        <maxZ>0.0846</maxZ>
+    </AABB>
+    <event animation="">
+        <function>EventAreaStart( $asset, "-jump 1 -crash 0")</function>
+        <time>1.3230</time>
+        <type>ONCE</type>
+    </event>
+    <event animation="">
+        <function>PlayFX($asset, "ob_tree_crash_b", "smoke", "")</function>
+        <time>0.0000</time>
+        <type>NORMAL</type>
+    </event>
+    <event animation="">
+        <function>PlayFX($asset, "ob_tree_crash_c", "smoke", "-attach ")</function>
+        <time>0.1587</time>
+        <type>NORMAL</type>
+    </event>
+    <event animation="">
+        <function>PlayFX($asset, "ob_tree_crash_b", "smoke", "")</function>
+        <time>1.2461</time>
+        <type>NORMAL</type>
+    </event>
+    <event animation="">
+        <function>PlaySND($asset, "object_tree03", "SFXbox", "-var 0")</function>
+        <time>1.1550</time>
+        <type>NORMAL</type>
+    </event>
+    <dummy name="smoke" parent="rel_ani_breaktree03_jump" sync="TRUE">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.0000</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <dummy name="SFXbox" parent="Dummyroot" sync="FALSE">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>-0.4824</offsetX>
+        <offsetY>1.0000</offsetY>
+        <offsetZ>-16.9937</offsetZ>
+    </dummy>
+    <action state="BROKEN" loop="0" poskey="" rotkey="">
+        <main></main>
+    </action>
+</aim>

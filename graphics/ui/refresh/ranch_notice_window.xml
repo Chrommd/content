@@ -1,0 +1,208 @@
+﻿<refresh version="2">
+	<properties>
+		<property name="DPI" val="72" />
+		<property name="UIAnimation" val="ranch_notice_window_Animation.xml" />
+	</properties>
+	<base type="WND" subclass="" name="ranch_notice">
+		<pos x="0" y="67" />
+		<rect l="0" t="0" r="1024" b="125" />
+		<Visible val="True" />
+		<Anchor val="Top, Left, Right" />
+		<snd type="SHOW"></snd>
+		<snd type="HIDE"></snd>
+		<IsHitTestVisible val="True" />
+		<ClipChildren val="False" />
+		<child type="STACKPANEL" name="StackPanel" subclass="">
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="1024" b="125" />
+			<Visible val="True" />
+			<Anchor val="Left, Right" />
+			<Orientation val="Vertical" />
+			<HAlign val="Center" />
+			<VAlign val="Top" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<base type="WND" subclass="" name="notice">
+				<pos x="369" y="0" />
+				<rect l="0" t="0" r="286" b="125" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<snd type="SHOW"></snd>
+				<snd type="HIDE"></snd>
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+				<base type="WND" subclass="" name="notice1">
+					<pos x="0" y="0" />
+					<rect l="0" t="0" r="286" b="125" />
+					<Visible val="True" />
+					<Anchor val="Top, Left" />
+					<snd type="SHOW"></snd>
+					<snd type="HIDE"></snd>
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+					<child type="PICTURE" name="img_ranch_introment_bg6" subclass="">
+						<asset type="STATIC">img_ranch_introment_bg02.png</asset>
+						<pos x="0" y="0" />
+						<rect l="0" t="0" r="286" b="29" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="PICTURE" name="img_ranch_introment_bg5" subclass="">
+						<asset type="STATIC">img_ranch_introment_bg01.png</asset>
+						<pos x="1" y="24" />
+						<rect l="0" t="0" r="284" b="29" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="PICTURE" name="img_ranch_introment_bg8" subclass="">
+						<asset type="STATIC">img_ranch_introment_bg02.png</asset>
+						<pos x="0" y="48" />
+						<rect l="0" t="0" r="286" b="29" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="PICTURE" name="img_ranch_introment_bg7" subclass="">
+						<asset type="STATIC">img_ranch_introment_bg01.png</asset>
+						<pos x="1" y="72" />
+						<rect l="0" t="0" r="284" b="29" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="PICTURE" name="img_ranch_introment_bg9" subclass="">
+						<asset type="STATIC">img_ranch_introment_bg01.png</asset>
+						<pos x="1" y="96" />
+						<rect l="0" t="0" r="284" b="29" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="PICTURE" name="bg_enter_notice" subclass="">
+						<asset type="STATIC">bg_enter_notice.png</asset>
+						<pos x="46" y="1" />
+						<rect l="0" t="0" r="197" b="53" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="PICTURE" name="icon_frame_mymenu_farm1" subclass="">
+						<asset type="STATIC">icon_frame_mymenu_farm.png</asset>
+						<pos x="126" y="10" />
+						<rect l="0" t="0" r="33" b="28" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="PICTURE" name="league_mark" subclass="">
+						<asset type="STATIC">league_emblem_small_4_1.png</asset>
+						<pos x="123" y="4" />
+						<rect l="0" t="0" r="40" b="40" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+				
+					<child type="LABEL" name="txt_ranchman" subclass="">
+						<pos x="14" y="51" />
+						<rect l="0" t="0" r="255" b="22" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<label val="" />
+						<OutlineColor val="#4E3A1BFF" />
+						<ShadowColor val="#0000007F" />
+						<color val="#FFB400FF" />
+						<halign val="1" />
+						<valign val="1" />
+						<FontName val="나눔고딕 ExtraBold" />
+						<FontSize val="16" />
+						<TextTrimming val="None" />
+						<style val="48" />
+						<IsHitTestVisible val="False" />
+						<ClipChildren val="False" />
+						<Padding val="0, 0, 0, 0" />
+						<FitToContent val="False" />
+					</child>
+					<child type="TEXTAREA" name="txt_notice" subclass="">
+						<asset type="BG" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="8" t="8" r="239" b="3" />
+						</asset>
+						<asset type="EDGE_LT" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="0" t="0" r="8" b="8" />
+						</asset>
+						<asset type="EDGE_RT" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="0" t="0" r="8" b="8" />
+						</asset>
+						<asset type="EDGE_LB" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="0" t="0" r="8" b="8" />
+						</asset>
+						<asset type="EDGE_RB" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="0" t="0" r="8" b="8" />
+						</asset>
+						<asset type="FRAME_T" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="8" t="0" r="239" b="8" />
+						</asset>
+						<asset type="FRAME_B" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="8" t="0" r="239" b="8" />
+						</asset>
+						<asset type="FRAME_L" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="0" t="8" r="8" b="3" />
+						</asset>
+						<asset type="FRAME_R" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="0" t="8" r="8" b="3" />
+						</asset>
+						<asset type="CARET" path="">
+							<rpos x="0" y="0" />
+							<rect l="0" t="0" r="0" b="0" />
+						</asset>
+						<pos x="14" y="76" />
+						<rect l="0" t="0" r="255" b="19" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<Editable val="False" />
+						<OutlineColor val="#574329FF" />
+						<ShadowColor val="#0000007F" />
+						<SelectionBrush val="#FF0000" />
+						<color val="#FFFFFFFF" />
+						<style val="48" />
+						<halign val="1" />
+						<padding l="0" t="0" r="0" b="0" />
+						<FontName val="나눔고딕 ExtraBold" />
+						<FontSize val="15" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+						<FitToContent val="False" />
+						<Text val="" />
+					</child>
+				</base>
+			</base>
+		</child>
+	</base>
+</refresh>

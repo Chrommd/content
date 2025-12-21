@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <event animation="_initialize_">
+        <function>PlayFX($asset, "ob_magwood", "dum", "-attach ")</function>
+        <time>0.0000</time>
+        <freq>ONCE</freq>
+    </event>
+    <event animation="crash">
+        <function>PlaySND($asset, "crash_wall_stone", "icon", "-var 2")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <dummy name="icon" parent="Dummy01" sync="FALSE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>2.2047</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <dummy name="dum" parent="Box03" sync="TRUE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.7237</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>0.6902</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.0000</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <action category="" state="BROKEN" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>crash</main>
+    </action>
+    <action category="" state="G_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>idle</main>
+    </action>
+</aim>

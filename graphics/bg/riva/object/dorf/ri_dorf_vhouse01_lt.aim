@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <event animation="_initialize_">
+        <function>PlayFX($asset, "ob_chim_smoke_002", "dum", "")</function>
+        <time>0.0000</time>
+        <freq>ONCE</freq>
+    </event>
+    <event animation="_initialize_">
+        <function>PlayFX($asset, "ob_chim_smoke_003", "dum3", "")</function>
+        <time>0.0000</time>
+        <freq>ONCE</freq>
+    </event>
+    <event animation="_initialize_">
+        <function>PlayFX($asset, "ob_chim_smoke_003", "dum2", "")</function>
+        <time>0.0000</time>
+        <freq>ONCE</freq>
+    </event>
+    <dummy name="dum" parent="ri_dorf_vhouse01_lt" sync="FALSE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>-6.6405</offsetX>
+        <offsetY>21.4016</offsetY>
+        <offsetZ>-1.5917</offsetZ>
+    </dummy>
+    <dummy name="dum2" parent="ri_dorf_vhouse01_lt" sync="FALSE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>11.4737</offsetX>
+        <offsetY>12.4392</offsetY>
+        <offsetZ>-0.2998</offsetZ>
+    </dummy>
+    <dummy name="dum3" parent="ri_dorf_vhouse01_lt" sync="FALSE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>11.6375</offsetX>
+        <offsetY>12.4397</offsetY>
+        <offsetZ>-2.0033</offsetZ>
+    </dummy>
+</aim>

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="NORMAL">
+    <asset type="IMAGE" name="asset_readyroom_btn_setslot_n" path="readyroom_btn_setslot_n.png">
+      <rect l="0" t="0" r="254" b="74" />
+    </asset>
+    <object name="readyroom_btn_setslot_n" ani="ani_readyroom_btn_setslot_n">
+      <asset type="IMAGE" link="asset_readyroom_btn_setslot_n" />
+    </object>
+    <param type="RES" x="254" y="74" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_readyroom_btn_setslot_n">
+      <frame cnt="0">
+        <posx val="0.5" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="OVER">
+    <asset type="IMAGE" name="asset_readyroom_btn_setslot_o" path="readyroom_btn_setslot_o.png">
+      <rect l="0" t="0" r="254" b="74" />
+    </asset>
+    <object name="readyroom_btn_setslot_o" ani="ani_readyroom_btn_setslot_o">
+      <asset type="IMAGE" link="asset_readyroom_btn_setslot_o" />
+    </object>
+    <param type="RES" x="254" y="74" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_readyroom_btn_setslot_o">
+      <frame cnt="0">
+        <posx val="0.5" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="DOWN">
+    <asset type="IMAGE" name="asset_readyroom_btn_setslot_d" path="readyroom_btn_setslot_d.png">
+      <rect l="0" t="0" r="254" b="74" />
+    </asset>
+    <object name="readyroom_btn_setslot_d" ani="ani_readyroom_btn_setslot_d">
+      <asset type="IMAGE" link="asset_readyroom_btn_setslot_d" />
+    </object>
+    <param type="RES" x="254" y="74" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_readyroom_btn_setslot_d">
+      <frame cnt="0">
+        <posx val="0.5" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

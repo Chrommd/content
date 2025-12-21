@@ -1,0 +1,525 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="result_1">
+    <asset type="UI" name="asset_Panel_fes_result3">
+      <rect l="0" t="0" r="497" b="63" />
+    </asset>
+    <asset type="UI" name="asset_Panel_fes_result2">
+      <rect l="0" t="0" r="497" b="63" />
+    </asset>
+    <asset type="UI" name="asset_Panel_fes_result1">
+      <rect l="0" t="0" r="497" b="63" />
+    </asset>
+    <object name="Panel_fes_result3" ani="ani_Panel_fes_result3">
+      <asset type="UI" link="asset_Panel_fes_result3" />
+    </object>
+    <object name="Panel_fes_result2" ani="ani_Panel_fes_result2">
+      <asset type="UI" link="asset_Panel_fes_result2" />
+    </object>
+    <object name="Panel_fes_result1" ani="ani_Panel_fes_result1">
+      <asset type="UI" link="asset_Panel_fes_result1" />
+    </object>
+    <param type="RES" x="497" y="63" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_Panel_fes_result3">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_Panel_fes_result2">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_Panel_fes_result1">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="167">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="result_2">
+    <asset type="UI" name="asset_Panel_fes_result3">
+      <rect l="0" t="0" r="497" b="63" />
+    </asset>
+    <asset type="UI" name="asset_Panel_fes_result2">
+      <rect l="0" t="0" r="497" b="63" />
+    </asset>
+    <asset type="UI" name="asset_fes_result_bottom_bg1">
+      <rect l="0" t="0" r="497" b="63" />
+    </asset>
+    <asset type="UI" name="asset_lb_fes_deselect1">
+      <rect l="0" t="0" r="267" b="22" />
+    </asset>
+    <asset type="UI" name="asset_lb_fes_deselect">
+      <rect l="0" t="0" r="277" b="22" />
+    </asset>
+    <asset type="UI" name="asset_txt_fes_playerlist">
+      <rect l="0" t="0" r="160" b="20" />
+    </asset>
+    <asset type="UI" name="asset_txt_fes_winner">
+      <rect l="0" t="0" r="179" b="19" />
+    </asset>
+    <asset type="UI" name="asset_Panel_fes_result1">
+      <rect l="0" t="0" r="497" b="63" />
+    </asset>
+    <object name="Panel_fes_result3" ani="ani_Panel_fes_result3">
+      <asset type="UI" link="asset_Panel_fes_result3" />
+    </object>
+    <object name="Panel_fes_result2" ani="ani_Panel_fes_result2">
+      <asset type="UI" link="asset_Panel_fes_result2" />
+    </object>
+    <object name="fes_result_bottom_bg1" ani="ani_fes_result_bottom_bg1">
+      <asset type="UI" link="asset_fes_result_bottom_bg1" />
+    </object>
+    <object name="lb_fes_deselect1" ani="ani_lb_fes_deselect1">
+      <asset type="UI" link="asset_lb_fes_deselect1" />
+    </object>
+    <object name="lb_fes_deselect" ani="ani_lb_fes_deselect">
+      <asset type="UI" link="asset_lb_fes_deselect" />
+    </object>
+    <object name="txt_fes_playerlist" ani="ani_txt_fes_playerlist">
+      <asset type="UI" link="asset_txt_fes_playerlist" />
+    </object>
+    <object name="txt_fes_winner" ani="ani_txt_fes_winner">
+      <asset type="UI" link="asset_txt_fes_winner" />
+    </object>
+    <object name="Panel_fes_result1" ani="ani_Panel_fes_result1">
+      <asset type="UI" link="asset_Panel_fes_result1" />
+    </object>
+    <param type="RES" x="497" y="63" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_Panel_fes_result3">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <sound val="gui_end_raceover_st" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_Panel_fes_result2">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="167">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_fes_result_bottom_bg1">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <sound val="gui_end_raceover_st" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_lb_fes_deselect1">
+      <frame cnt="0">
+        <posx val="0.4265594" />
+        <posy val="0.4761905" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="367">
+        <posx val="0.4265594" />
+        <posy val="0.4761905" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="533">
+        <posx val="0.4265594" />
+        <posy val="0.4761905" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_lb_fes_deselect">
+      <frame cnt="0">
+        <posx val="0.4265594" />
+        <posy val="0.1904762" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="367">
+        <posx val="0.4265594" />
+        <posy val="0.1904762" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="533">
+        <posx val="0.4265594" />
+        <posy val="0.1904762" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_txt_fes_playerlist">
+      <frame cnt="0">
+        <posx val="0.0382293762575453" />
+        <posy val="0.349206349206349" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.0382293762575453" />
+        <posy val="0.206349206349206" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_txt_fes_winner">
+      <frame cnt="0">
+        <posx val="0.0362173038229376" />
+        <posy val="0.634920634920635" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.0362173038229376" />
+        <posy val="0.492063492063492" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_Panel_fes_result1">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="result_3">
+    <asset type="UI" name="asset_Panel_fes_result3">
+      <rect l="0" t="0" r="497" b="63" />
+    </asset>
+    <asset type="UI" name="asset_lb_fes_winmessage1">
+      <rect l="0" t="0" r="284" b="27" />
+    </asset>
+    <asset type="UI" name="asset_lb_fes_congra1">
+      <rect l="0" t="0" r="267" b="18" />
+    </asset>
+    <asset type="UI" name="asset_txt_fes_playerlist2">
+      <rect l="0" t="0" r="125" b="20" />
+    </asset>
+    <asset type="UI" name="asset_txt_fes_winner1">
+      <rect l="0" t="0" r="179" b="19" />
+    </asset>
+    <asset type="UI" name="asset_Panel_fes_result2">
+      <rect l="0" t="0" r="497" b="63" />
+    </asset>
+    <asset type="UI" name="asset_Panel_fes_result1">
+      <rect l="0" t="0" r="497" b="63" />
+    </asset>
+    <object name="Panel_fes_result3" ani="ani_Panel_fes_result3">
+      <asset type="UI" link="asset_Panel_fes_result3" />
+    </object>
+    <object name="lb_fes_winmessage1" ani="ani_lb_fes_winmessage1">
+      <asset type="UI" link="asset_lb_fes_winmessage1" />
+    </object>
+    <object name="lb_fes_congra1" ani="ani_lb_fes_congra1">
+      <asset type="UI" link="asset_lb_fes_congra1" />
+    </object>
+    <object name="txt_fes_playerlist2" ani="ani_txt_fes_playerlist2">
+      <asset type="UI" link="asset_txt_fes_playerlist2" />
+    </object>
+    <object name="txt_fes_winner1" ani="ani_txt_fes_winner1">
+      <asset type="UI" link="asset_txt_fes_winner1" />
+    </object>
+    <object name="Panel_fes_result2" ani="ani_Panel_fes_result2">
+      <asset type="UI" link="asset_Panel_fes_result2" />
+    </object>
+    <object name="Panel_fes_result1" ani="ani_Panel_fes_result1">
+      <asset type="UI" link="asset_Panel_fes_result1" />
+    </object>
+    <param type="RES" x="497" y="63" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_Panel_fes_result3">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <sound val="result_audition_lucky_st" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="167">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_lb_fes_winmessage1">
+      <frame cnt="0">
+        <posx val="0.416499" />
+        <posy val="0.3015873" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="367">
+        <posx val="0.416499" />
+        <posy val="0.3015873" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="533">
+        <posx val="0.416499" />
+        <posy val="0.3015873" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_lb_fes_congra1">
+      <frame cnt="0">
+        <posx val="0.416499" />
+        <posy val="0.0952381" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="367">
+        <posx val="0.416499" />
+        <posy val="0.0952381" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="533">
+        <posx val="0.416499" />
+        <posy val="0.0952381" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_txt_fes_playerlist2">
+      <frame cnt="0">
+        <posx val="0.0382293762575453" />
+        <posy val="0.349206349206349" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="367">
+        <posx val="0.0382293762575453" />
+        <posy val="0.19047619047619" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_txt_fes_winner1">
+      <frame cnt="0">
+        <posx val="0.0362173038229376" />
+        <posy val="0.634920634920635" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="367">
+        <posx val="0.0362173038229376" />
+        <posy val="0.476190476190476" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_Panel_fes_result2">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_Panel_fes_result1">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

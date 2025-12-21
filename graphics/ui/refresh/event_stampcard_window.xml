@@ -1,0 +1,405 @@
+﻿<refresh version="2">
+	<properties>
+		<property name="DPI" val="72" />
+		<property name="UIAnimation" val="event_stampcard_window_Animation.xml" />
+	</properties>
+	<base type="WND" subclass="" name="event_stampcard">
+		<pos x="0" y="0" />
+		<rect l="0" t="0" r="1024" b="768" />
+		<Visible val="True" />
+		<Anchor val="Top, Bottom, Left, Right" />
+		<snd type="SHOW"></snd>
+		<snd type="HIDE"></snd>
+		<IsHitTestVisible val="False" />
+		<ClipChildren val="False" />
+		<child type="STACKPANEL" name="StackPanel" subclass="">
+			<pos x="0" y="462" />
+			<rect l="0" t="0" r="1024" b="183" />
+			<Visible val="True" />
+			<Anchor val="Bottom, Left, Right" />
+			<Orientation val="Vertical" />
+			<HAlign val="Center" />
+			<VAlign val="Center" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+			<base type="WND" subclass="" name="wnd_care">
+				<pos x="240" y="4" />
+				<rect l="0" t="0" r="543" b="175" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<snd type="SHOW"></snd>
+				<snd type="HIDE"></snd>
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+				<child type="PICTURE" name="img_bg1" subclass="">
+					<asset type="STATIC">event_common_bg_01.png</asset>
+					<pos x="-17" y="-16" />
+					<rect l="0" t="0" r="598" b="188" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+					<child type="LABEL" name="Label_title" subclass="">
+						<pos x="120" y="59" />
+						<rect l="0" t="0" r="341" b="27" />
+						<Visible val="True" />
+						<Anchor val="Top, Left" />
+						<label val="신년 스템프 이벤트" />
+						<OutlineColor val="#80756AFF" />
+						<ShadowColor val="#0000004C" />
+						<color val="#A43209FF" />
+						<halign val="1" />
+						<valign val="1" />
+						<FontName val="나눔명조 ExtraBold" />
+						<FontSize val="22" />
+						<TextTrimming val="None" />
+						<style val="0" />
+						<IsHitTestVisible val="False" />
+						<ClipChildren val="False" />
+						<Padding val="0, 0, 0, 0" />
+						<FitToContent val="False" />
+					</child>
+					<child type="LABEL" name="Label2" subclass="">
+						<pos x="70" y="113" />
+						<rect l="0" t="0" r="59" b="40" />
+						<Visible val="True" />
+						<Anchor val="Top, Left" />
+						<label val="1" />
+						<OutlineColor val="#3F2C06FF" />
+						<ShadowColor val="#0000004C" />
+						<color val="#8F7C56FF" />
+						<halign val="1" />
+						<valign val="1" />
+						<FontName val="나눔고딕 ExtraBold" />
+						<FontSize val="36" />
+						<TextTrimming val="None" />
+						<style val="0" />
+						<IsHitTestVisible val="False" />
+						<ClipChildren val="False" />
+						<Padding val="0, 0, 0, 0" />
+						<FitToContent val="False" />
+					</child>
+					<child type="LABEL" name="Label3" subclass="">
+						<pos x="167" y="113" />
+						<rect l="0" t="0" r="59" b="40" />
+						<Visible val="True" />
+						<Anchor val="Top, Left" />
+						<label val="2" />
+						<OutlineColor val="#3F2C06FF" />
+						<ShadowColor val="#0000004C" />
+						<color val="#8F7C56FF" />
+						<halign val="1" />
+						<valign val="1" />
+						<FontName val="나눔고딕 ExtraBold" />
+						<FontSize val="36" />
+						<TextTrimming val="None" />
+						<style val="0" />
+						<IsHitTestVisible val="False" />
+						<ClipChildren val="False" />
+						<Padding val="0, 0, 0, 0" />
+						<FitToContent val="False" />
+					</child>
+					<child type="LABEL" name="Label4" subclass="">
+						<pos x="359" y="113" />
+						<rect l="0" t="0" r="59" b="40" />
+						<Visible val="True" />
+						<Anchor val="Top, Left" />
+						<label val="4" />
+						<OutlineColor val="#3F2C06FF" />
+						<ShadowColor val="#0000004C" />
+						<color val="#8F7C56FF" />
+						<halign val="1" />
+						<valign val="1" />
+						<FontName val="나눔고딕 ExtraBold" />
+						<FontSize val="36" />
+						<TextTrimming val="None" />
+						<style val="0" />
+						<IsHitTestVisible val="False" />
+						<ClipChildren val="False" />
+						<Padding val="0, 0, 0, 0" />
+						<FitToContent val="False" />
+					</child>
+				</child>
+				<child type="PANEL" name="Panel_bonus" subclass="">
+					<pos x="81" y="47" />
+					<rect l="0" t="0" r="404" b="97" />
+					<Visible val="True" />
+					<Anchor val="Top, Left" />
+					<embed src="" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+					<child type="PICTURE" name="event_item_02" subclass="">
+						<asset type="STATIC">icon_i_[event]_newyears_0.png</asset>
+						<pos x="351" y="33" />
+						<rect l="0" t="0" r="71" b="71" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+						<child type="LABEL" name="Label1" subclass="">
+							<pos x="6" y="47" />
+							<rect l="0" t="0" r="59" b="17" />
+							<Visible val="True" />
+							<Anchor val="Top, Left" />
+							<label val="복주머니" />
+							<OutlineColor val="#3F2C06FF" />
+							<ShadowColor val="#0000004C" />
+							<color val="#FFEE00FF" />
+							<halign val="1" />
+							<valign val="1" />
+							<FontName val="나눔고딕 ExtraBold" />
+							<FontSize val="12" />
+							<TextTrimming val="None" />
+							<style val="48" />
+							<IsHitTestVisible val="False" />
+							<ClipChildren val="False" />
+							<Padding val="0, 0, 0, 0" />
+							<FitToContent val="False" />
+						</child>
+					</child>
+					<child type="PICTURE" name="event_item_01" subclass="">
+						<asset type="STATIC">icon_i_[event]_newyears_1.png</asset>
+						<pos x="159" y="33" />
+						<rect l="0" t="0" r="71" b="71" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+						<child type="LABEL" name="Label" subclass="">
+							<pos x="7" y="47" />
+							<rect l="0" t="0" r="59" b="17" />
+							<Visible val="True" />
+							<Anchor val="Top, Left" />
+							<label val="세뱃돈 봉투" />
+							<OutlineColor val="#3F2C06FF" />
+							<ShadowColor val="#0000004C" />
+							<color val="#FFEE00FF" />
+							<halign val="1" />
+							<valign val="1" />
+							<FontName val="나눔고딕 ExtraBold" />
+							<FontSize val="12" />
+							<TextTrimming val="None" />
+							<style val="48" />
+							<IsHitTestVisible val="False" />
+							<ClipChildren val="False" />
+							<Padding val="0, 0, 0, 0" />
+							<FitToContent val="False" />
+						</child>
+					</child>
+					<child type="PANEL" name="Panel_stamp_image" subclass="">
+						<pos x="13" y="4" />
+						<rect l="0" t="0" r="399" b="117" />
+						<Visible val="True" />
+						<Anchor val="Top, Left" />
+						<embed src="" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+						<child type="PICTURE" name="stamp_0" subclass="">
+							<asset type="STATIC">event_common_stamp_02.png</asset>
+							<pos x="-52" y="21" />
+							<rect l="0" t="0" r="90" b="90" />
+							<Visible val="True" />
+							<Anchor val="None" />
+							<center x="0" y="0" />
+							<IsHitTestVisible val="True" />
+							<ClipChildren val="False" />
+						</child>
+						<child type="PICTURE" name="stamp_1" subclass="">
+							<asset type="STATIC">event_common_stamp_01.png</asset>
+							<pos x="43" y="21" />
+							<rect l="0" t="0" r="90" b="90" />
+							<Visible val="True" />
+							<Anchor val="None" />
+							<center x="0" y="0" />
+							<IsHitTestVisible val="True" />
+							<ClipChildren val="False" />
+						</child>
+						<child type="PICTURE" name="stamp_2" subclass="">
+							<asset type="STATIC">event_common_stamp_01.png</asset>
+							<pos x="143" y="17" />
+							<rect l="0" t="0" r="90" b="90" />
+							<Visible val="True" />
+							<Anchor val="None" />
+							<center x="0" y="0" />
+							<IsHitTestVisible val="True" />
+							<ClipChildren val="False" />
+						</child>
+						<child type="PICTURE" name="stamp_3" subclass="">
+							<asset type="STATIC">event_common_stamp_02.png</asset>
+							<pos x="238" y="21" />
+							<rect l="0" t="0" r="90" b="90" />
+							<Visible val="True" />
+							<Anchor val="None" />
+							<center x="0" y="0" />
+							<IsHitTestVisible val="True" />
+							<ClipChildren val="False" />
+						</child>
+						<child type="PICTURE" name="stamp_4" subclass="">
+							<asset type="STATIC">event_common_stamp_01.png</asset>
+							<pos x="331" y="19" />
+							<rect l="0" t="0" r="90" b="90" />
+							<Visible val="True" />
+							<Anchor val="None" />
+							<center x="0" y="0" />
+							<IsHitTestVisible val="True" />
+							<ClipChildren val="False" />
+						</child>
+					</child>
+					<child type="PICTURE" name="event_stamp_img_0" subclass="">
+						<asset type="ANIMATION">event_stampcard_window_event_stamp_img_0.xml</asset>
+						<pos x="-39" y="25" />
+						<rect l="0" t="0" r="90" b="90" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="PICTURE" name="event_stamp_img_1" subclass="">
+						<asset type="ANIMATION">event_stampcard_window_event_stamp_img_1.xml</asset>
+						<pos x="56" y="25" />
+						<rect l="0" t="0" r="90" b="90" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="PICTURE" name="event_stamp_bg_2" subclass="">
+						<asset type="ANIMATION">event_stampcard_window_event_stamp_bg_2.xml</asset>
+						<pos x="151" y="22" />
+						<rect l="0" t="0" r="95" b="95" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="PICTURE" name="event_item_2" subclass="">
+						<asset type="STATIC">icon_i_[etc]003_nknchange.png</asset>
+						<pos x="164" y="31" />
+						<rect l="0" t="0" r="71" b="71" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="PICTURE" name="event_stamp_img_2" subclass="">
+						<asset type="ANIMATION">event_stampcard_window_event_stamp_img_2.xml</asset>
+						<pos x="156" y="21" />
+						<rect l="0" t="0" r="90" b="90" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="PICTURE" name="event_stamp_img_3" subclass="">
+						<asset type="ANIMATION">event_stampcard_window_event_stamp_img_3.xml</asset>
+						<pos x="251" y="25" />
+						<rect l="0" t="0" r="90" b="90" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="PICTURE" name="event_stamp_bg_4" subclass="">
+						<asset type="ANIMATION">event_stampcard_window_event_stamp_bg_4.xml</asset>
+						<pos x="338" y="23" />
+						<rect l="0" t="0" r="95" b="95" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="PICTURE" name="event_item_4" subclass="">
+						<asset type="STATIC">icon_i_[etc]003_nknchange.png</asset>
+						<pos x="349" y="31" />
+						<rect l="0" t="0" r="71" b="71" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="PICTURE" name="event_stamp_img_4" subclass="">
+						<asset type="ANIMATION">event_stampcard_window_event_stamp_img_4.xml</asset>
+						<pos x="344" y="23" />
+						<rect l="0" t="0" r="90" b="90" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="PICTURE" name="event_itemname_bg" subclass="">
+						<asset type="STATIC">event_itemname_bg.png</asset>
+						<pos x="-20" y="63" />
+						<rect l="0" t="0" r="443" b="47" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+						<child type="LABEL" name="item_name" subclass="">
+							<pos x="83" y="2" />
+							<rect l="0" t="0" r="286" b="24" />
+							<Visible val="True" />
+							<Anchor val="Top, Left" />
+							<label val="아이템이름" />
+							<OutlineColor val="#000000FF" />
+							<ShadowColor val="#0000004C" />
+							<color val="#FFF600FF" />
+							<halign val="1" />
+							<valign val="1" />
+							<FontName val="나눔고딕 ExtraBold" />
+							<FontSize val="14" />
+							<TextTrimming val="None" />
+							<style val="16" />
+							<IsHitTestVisible val="False" />
+							<ClipChildren val="False" />
+							<Padding val="0, 0, 0, 0" />
+							<FitToContent val="False" />
+						</child>
+						<child type="LABEL" name="item_script" subclass="">
+							<pos x="26" y="26" />
+							<rect l="0" t="0" r="391" b="16" />
+							<Visible val="True" />
+							<Anchor val="Top, Left" />
+							<label val="받은 아이템(캐롯제외)은 목장의 '내 장비'에서 확인할 수 있습니다." />
+							<OutlineColor val="#000000FF" />
+							<ShadowColor val="#0000004C" />
+							<color val="#FFFFFFFF" />
+							<halign val="1" />
+							<valign val="1" />
+							<FontName val="나눔고딕 ExtraBold" />
+							<FontSize val="12" />
+							<TextTrimming val="None" />
+							<style val="0" />
+							<IsHitTestVisible val="False" />
+							<ClipChildren val="False" />
+							<Padding val="0, 0, 0, 0" />
+							<FitToContent val="False" />
+						</child>
+						<child type="PICTURE" name="sound_dummy" subclass="">
+							<asset type="ANIMATION">event_stampcard_window_sound_dummy.xml</asset>
+							<pos x="217" y="308" />
+							<rect l="0" t="0" r="122" b="21" />
+							<Visible val="True" />
+							<Anchor val="Top, Left" />
+							<center x="0" y="0" />
+							<IsHitTestVisible val="True" />
+							<ClipChildren val="False" />
+						</child>
+					</child>
+				</child>
+			</base>
+		</child>
+	</base>
+</refresh>

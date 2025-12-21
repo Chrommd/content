@@ -1,0 +1,1015 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="mate_fail_dialog_Animation.xml" />
+  </properties>
+  <base type="WND" subclass="" name="mate_fail_wnd">
+    <Visible val="True" />
+    <Anchor val="Top, Bottom, Left, Right" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="1024" b="768" />
+    <snd type="SHOW">
+    </snd>
+    <snd type="HIDE">
+    </snd>
+    <IsHitTestVisible val="True" />
+    <ClipChildren val="False" />
+    <child type="STACKPANEL" name="StackPanel1" subclass="">
+      <Visible val="True" />
+      <Anchor val="Top, Bottom, Left, Right" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="1024" b="768" />
+      <Orientation val="Vertical" />
+      <HAlign val="Center" />
+      <VAlign val="Center" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <base type="WND" subclass="" name="Wnd">
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <pos x="109" y="0" />
+        <rect l="0" t="0" r="806" b="768" />
+        <snd type="SHOW">
+        </snd>
+        <snd type="HIDE">
+        </snd>
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <child type="PICTURE" name="img_mate_bg_shadow" subclass="">
+          <asset type="STATIC">img_mate_bg_shadow.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="23" y="640" />
+          <rect l="0" t="0" r="751" b="66" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <base type="WNDEX" subclass="" name="img_fail_bg">
+          <asset type="BG" path="" tileMode="Stretch">
+            <tex x="4" y="4" />
+            <rect l="12" t="12" r="780" b="653" />
+          </asset>
+          <asset type="EDGE_LT" path="" tileMode="Stretch">
+            <tex x="12" y="12" />
+            <rect l="0" t="0" r="12" b="12" />
+          </asset>
+          <asset type="EDGE_RT" path="" tileMode="Stretch">
+            <tex x="14" y="12" />
+            <rect l="0" t="0" r="14" b="12" />
+          </asset>
+          <asset type="EDGE_LB" path="" tileMode="Stretch">
+            <tex x="12" y="14" />
+            <rect l="0" t="0" r="12" b="14" />
+          </asset>
+          <asset type="EDGE_RB" path="" tileMode="Stretch">
+            <tex x="14" y="14" />
+            <rect l="0" t="0" r="14" b="14" />
+          </asset>
+          <asset type="FRAME_T" path="" tileMode="Stretch">
+            <tex x="4" y="12" />
+            <rect l="12" t="0" r="780" b="12" />
+          </asset>
+          <asset type="FRAME_B" path="" tileMode="Stretch">
+            <tex x="4" y="14" />
+            <rect l="12" t="0" r="780" b="14" />
+          </asset>
+          <asset type="FRAME_L" path="" tileMode="Stretch">
+            <tex x="12" y="4" />
+            <rect l="0" t="12" r="12" b="653" />
+          </asset>
+          <asset type="FRAME_R" path="" tileMode="Stretch">
+            <tex x="14" y="4" />
+            <rect l="0" t="12" r="14" b="653" />
+          </asset>
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <pos x="0" y="0" />
+          <rect l="0" t="0" r="806" b="679" />
+          <snd type="SHOW">
+          </snd>
+          <snd type="HIDE">
+          </snd>
+          <Dragable val="False" />
+          <StartPosition val="None" />
+          <EscKeyAction val="None" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+          <child type="PICTURE" name="img_mate_bg" subclass="">
+            <asset type="STATIC">img_mate_bg.png</asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="50" y="0" />
+            <rect l="0" t="0" r="745" b="595" />
+            <center x="0" y="0" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+            <child type="STACKPANEL" name="StackPanel" subclass="">
+              <Visible val="True" />
+              <Anchor val="Top, Left" />
+              <pos x="150" y="425" />
+              <rect l="0" t="0" r="506" b="127" />
+              <Orientation val="Vertical" />
+              <HAlign val="Center" />
+              <VAlign val="Center" />
+              <IsHitTestVisible val="True" />
+              <ClipChildren val="False" />
+              <child type="TEXTAREA" name="ta_mate_fail_contents" subclass="">
+                <asset type="BG" path="" tileMode="Tile">
+                  <tex x="0" y="0" />
+                  <rect l="8" t="8" r="490" b="38" />
+                </asset>
+                <asset type="EDGE_LT" path="" tileMode="Tile">
+                  <tex x="0" y="0" />
+                  <rect l="0" t="0" r="8" b="8" />
+                </asset>
+                <asset type="EDGE_RT" path="" tileMode="Tile">
+                  <tex x="0" y="0" />
+                  <rect l="0" t="0" r="8" b="8" />
+                </asset>
+                <asset type="EDGE_LB" path="" tileMode="Tile">
+                  <tex x="0" y="0" />
+                  <rect l="0" t="0" r="8" b="8" />
+                </asset>
+                <asset type="EDGE_RB" path="" tileMode="Tile">
+                  <tex x="0" y="0" />
+                  <rect l="0" t="0" r="8" b="8" />
+                </asset>
+                <asset type="FRAME_T" path="" tileMode="Tile">
+                  <tex x="0" y="0" />
+                  <rect l="8" t="0" r="490" b="8" />
+                </asset>
+                <asset type="FRAME_B" path="" tileMode="Tile">
+                  <tex x="0" y="0" />
+                  <rect l="8" t="0" r="490" b="8" />
+                </asset>
+                <asset type="FRAME_L" path="" tileMode="Tile">
+                  <tex x="0" y="0" />
+                  <rect l="0" t="8" r="8" b="38" />
+                </asset>
+                <asset type="FRAME_R" path="" tileMode="Tile">
+                  <tex x="0" y="0" />
+                  <rect l="0" t="8" r="8" b="38" />
+                </asset>
+                <asset type="CARET" path="">
+                  <rpos x="0" y="0" />
+                  <rect l="0" t="0" r="0" b="0" />
+                </asset>
+                <pos x="0" y="36" />
+                <rect l="0" t="0" r="506" b="54" />
+                <Visible val="True" />
+                <Anchor val="Top, Left, Right" />
+                <Editable val="False" />
+                <OutlineColor val="#FFFFFF" />
+                <ShadowColor val="#0000004C" />
+                <SelectionBrush val="#FF0000" />
+                <color val="#F1E4DBFF" />
+                <style val="0" />
+                <halign val="1" />
+                <padding l="0" t="0" r="0" b="0" />
+                <FontName val="나눔고딕 ExtraBold" />
+                <FontSize val="16" />
+                <IsHitTestVisible val="True" />
+                <ClipChildren val="False" />
+              </child>
+            </child>
+            <child type="LABEL" name="lb_mate_fail_title" subclass="">
+              <label val="교배 상품" />
+              <pos x="149" y="53" />
+              <rect l="0" t="0" r="449" b="34" />
+              <Visible val="True" />
+              <Anchor val="Top, Left" />
+              <OutlineColor val="#FFFFFF" />
+              <ShadowColor val="#0000004C" />
+              <color val="#F1E4DBFF" />
+              <halign val="1" />
+              <valign val="1" />
+              <FontName val="나눔고딕 ExtraBold" />
+              <FontSize val="25" />
+              <TextTrimming val="None" />
+              <style val="0" />
+              <IsHitTestVisible val="False" />
+              <ClipChildren val="False" />
+              <Padding val="0, 0, 0, 0" />
+            </child>
+          </child>
+          <child type="PICTURE" name="img_mate_starto" subclass="">
+            <asset type="STATIC">img_mate_starto.png</asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="8" y="312" />
+            <rect l="0" t="0" r="234" b="377" />
+            <center x="0" y="0" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+          </child>
+          <child type="PANEL" name="panel_normal_set" subclass="">
+            <Visible val="True" />
+            <Anchor val="Top, Left" />
+            <embed src="" />
+            <pos x="95" y="107" />
+            <rect l="0" t="0" r="648" b="292" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+            <child type="PICTURE" name="img_breed_card_b1" subclass="">
+              <asset type="STATIC">img_mate_card_nomal_f.png</asset>
+              <Visible val="False" />
+              <Anchor val="None" />
+              <pos x="8" y="1" />
+              <rect l="0" t="0" r="219" b="297" />
+              <center x="0" y="0" />
+              <IsHitTestVisible val="True" />
+              <ClipChildren val="False" />
+              <child type="LABEL" name="label_breed_card_b1" subclass="">
+                <label val="이히히히힉" />
+                <pos x="23" y="39" />
+                <rect l="0" t="0" r="168" b="23" />
+                <Visible val="True" />
+                <Anchor val="Top, Left" />
+                <OutlineColor val="#FF0000" />
+                <ShadowColor val="#FF0000" />
+                <color val="#392518FF" />
+                <halign val="1" />
+                <valign val="1" />
+                <FontName val="나눔고딕 ExtraBold" />
+                <FontSize val="13" />
+                <TextTrimming val="None" />
+                <style val="0" />
+                <IsHitTestVisible val="False" />
+                <ClipChildren val="False" />
+                <Padding val="0, 0, 0, 0" />
+              </child>
+              <child type="LABEL" name="lb_breed_card_carot_b1" subclass="">
+                <label val="2,000" />
+                <pos x="49" y="234" />
+                <rect l="0" t="0" r="120" b="23" />
+                <Visible val="True" />
+                <Anchor val="Top, Left" />
+                <OutlineColor val="#FF0000" />
+                <ShadowColor val="#FF0000" />
+                <color val="#392518FF" />
+                <halign val="1" />
+                <valign val="1" />
+                <FontName val="나눔고딕 ExtraBold" />
+                <FontSize val="13" />
+                <TextTrimming val="None" />
+                <style val="0" />
+                <IsHitTestVisible val="False" />
+                <ClipChildren val="False" />
+                <Padding val="0, 0, 0, 0" />
+              </child>
+              <child type="PICTURE" name="icon_breed_card_present_b1" subclass="">
+                <asset type="STATIC">
+                </asset>
+                <Visible val="True" />
+                <Anchor val="Top, Left" />
+                <pos x="73" y="86" />
+                <rect l="0" t="0" r="71" b="71" />
+                <center x="0" y="0" />
+                <IsHitTestVisible val="True" />
+                <ClipChildren val="False" />
+              </child>
+              <child type="LABEL" name="lb_breed_card_carot_count_b1" subclass="">
+                <label val="X2" />
+                <pos x="87" y="191" />
+                <rect l="0" t="0" r="43" b="23" />
+                <Visible val="True" />
+                <Anchor val="Top, Left" />
+                <OutlineColor val="#FF0000" />
+                <ShadowColor val="#FF0000" />
+                <color val="#392518FF" />
+                <halign val="1" />
+                <valign val="1" />
+                <FontName val="나눔고딕 ExtraBold" />
+                <FontSize val="16" />
+                <TextTrimming val="None" />
+                <style val="0" />
+                <IsHitTestVisible val="False" />
+                <ClipChildren val="False" />
+                <Padding val="0, 0, 0, 0" />
+              </child>
+            </child>
+            <child type="PICTURE" name="img_breed_card_b2" subclass="">
+              <asset type="STATIC">img_mate_card_nomal_f.png</asset>
+              <Visible val="False" />
+              <Anchor val="None" />
+              <pos x="217" y="1" />
+              <rect l="0" t="0" r="219" b="297" />
+              <center x="0" y="0" />
+              <IsHitTestVisible val="True" />
+              <ClipChildren val="False" />
+              <child type="LABEL" name="label_breed_card_b2" subclass="">
+                <label val="이히히히히힉" />
+                <pos x="23" y="39" />
+                <rect l="0" t="0" r="168" b="23" />
+                <Visible val="True" />
+                <Anchor val="Top, Left" />
+                <OutlineColor val="#FF0000" />
+                <ShadowColor val="#FF0000" />
+                <color val="#392518FF" />
+                <halign val="1" />
+                <valign val="1" />
+                <FontName val="나눔고딕 ExtraBold" />
+                <FontSize val="13" />
+                <TextTrimming val="None" />
+                <style val="0" />
+                <IsHitTestVisible val="False" />
+                <ClipChildren val="False" />
+                <Padding val="0, 0, 0, 0" />
+              </child>
+              <child type="LABEL" name="lb_breed_card_carot_b2" subclass="">
+                <label val="2,000" />
+                <pos x="42" y="234" />
+                <rect l="0" t="0" r="131" b="23" />
+                <Visible val="True" />
+                <Anchor val="Top, Left" />
+                <OutlineColor val="#FF0000" />
+                <ShadowColor val="#FF0000" />
+                <color val="#392518FF" />
+                <halign val="1" />
+                <valign val="1" />
+                <FontName val="나눔고딕 ExtraBold" />
+                <FontSize val="13" />
+                <TextTrimming val="None" />
+                <style val="0" />
+                <IsHitTestVisible val="False" />
+                <ClipChildren val="False" />
+                <Padding val="0, 0, 0, 0" />
+              </child>
+              <child type="PICTURE" name="icon_breed_card_present_b2" subclass="">
+                <asset type="STATIC">
+                </asset>
+                <Visible val="True" />
+                <Anchor val="Top, Left" />
+                <pos x="73" y="86" />
+                <rect l="0" t="0" r="71" b="71" />
+                <center x="0" y="0" />
+                <IsHitTestVisible val="True" />
+                <ClipChildren val="False" />
+              </child>
+              <child type="LABEL" name="lb_breed_card_carot_count_b2" subclass="">
+                <label val="X2" />
+                <pos x="87" y="191" />
+                <rect l="0" t="0" r="43" b="23" />
+                <Visible val="True" />
+                <Anchor val="Top, Left" />
+                <OutlineColor val="#FF0000" />
+                <ShadowColor val="#FF0000" />
+                <color val="#392518FF" />
+                <halign val="1" />
+                <valign val="1" />
+                <FontName val="나눔고딕 ExtraBold" />
+                <FontSize val="16" />
+                <TextTrimming val="None" />
+                <style val="0" />
+                <IsHitTestVisible val="False" />
+                <ClipChildren val="False" />
+                <Padding val="0, 0, 0, 0" />
+              </child>
+            </child>
+            <child type="PICTURE" name="img_breed_card_b3" subclass="">
+              <asset type="STATIC">img_mate_card_nomal_f.png</asset>
+              <Visible val="False" />
+              <Anchor val="None" />
+              <pos x="426" y="1" />
+              <rect l="0" t="0" r="219" b="297" />
+              <center x="0" y="0" />
+              <IsHitTestVisible val="True" />
+              <ClipChildren val="False" />
+              <child type="LABEL" name="label_breed_card_b3" subclass="">
+                <label val="이히히히히힉" />
+                <pos x="23" y="39" />
+                <rect l="0" t="0" r="168" b="23" />
+                <Visible val="True" />
+                <Anchor val="Top, Left" />
+                <OutlineColor val="#FF0000" />
+                <ShadowColor val="#FF0000" />
+                <color val="#392518FF" />
+                <halign val="1" />
+                <valign val="1" />
+                <FontName val="나눔고딕 ExtraBold" />
+                <FontSize val="13" />
+                <TextTrimming val="None" />
+                <style val="0" />
+                <IsHitTestVisible val="False" />
+                <ClipChildren val="False" />
+                <Padding val="0, 0, 0, 0" />
+              </child>
+              <child type="LABEL" name="lb_breed_card_carot_b3" subclass="">
+                <label val="2,000" />
+                <pos x="42" y="234" />
+                <rect l="0" t="0" r="132" b="23" />
+                <Visible val="True" />
+                <Anchor val="Top, Left" />
+                <OutlineColor val="#FF0000" />
+                <ShadowColor val="#FF0000" />
+                <color val="#392518FF" />
+                <halign val="1" />
+                <valign val="1" />
+                <FontName val="나눔고딕 ExtraBold" />
+                <FontSize val="13" />
+                <TextTrimming val="None" />
+                <style val="0" />
+                <IsHitTestVisible val="False" />
+                <ClipChildren val="False" />
+                <Padding val="0, 0, 0, 0" />
+              </child>
+              <child type="PICTURE" name="icon_breed_card_present_b3" subclass="">
+                <asset type="STATIC">
+                </asset>
+                <Visible val="True" />
+                <Anchor val="Top, Left" />
+                <pos x="73" y="86" />
+                <rect l="0" t="0" r="71" b="71" />
+                <center x="0" y="0" />
+                <IsHitTestVisible val="True" />
+                <ClipChildren val="False" />
+              </child>
+              <child type="LABEL" name="lb_breed_card_carot_count_b3" subclass="">
+                <label val="X2" />
+                <pos x="87" y="191" />
+                <rect l="0" t="0" r="43" b="23" />
+                <Visible val="True" />
+                <Anchor val="Top, Left" />
+                <OutlineColor val="#FF0000" />
+                <ShadowColor val="#FF0000" />
+                <color val="#392518FF" />
+                <halign val="1" />
+                <valign val="1" />
+                <FontName val="나눔고딕 ExtraBold" />
+                <FontSize val="16" />
+                <TextTrimming val="None" />
+                <style val="0" />
+                <IsHitTestVisible val="False" />
+                <ClipChildren val="False" />
+                <Padding val="0, 0, 0, 0" />
+              </child>
+            </child>
+            <child type="PANEL" name="panel_normal" subclass="">
+              <Visible val="True" />
+              <Anchor val="Top, Left" />
+              <embed src="" />
+              <pos x="1" y="0" />
+              <rect l="0" t="0" r="642" b="301" />
+              <IsHitTestVisible val="True" />
+              <ClipChildren val="False" />
+              <child type="ANIMBUTTON" name="btn_breed_card_f1" subclass="">
+                <asset type="GROUP">mate_fail_dialog_btn_breed_card_f1.xml</asset>
+                <asset type="NORMAL">
+                </asset>
+                <asset type="DOWN">
+                </asset>
+                <asset type="OVER">
+                </asset>
+                <asset type="DISABLE">
+                </asset>
+                <asset type="ENTER">
+                </asset>
+                <asset type="LEAVE">
+                </asset>
+                <snd type="OVER">ui_btn_menu_over</snd>
+                <snd type="DOWN">ui_btn_menu_click</snd>
+                <snd type="RELEASE">ui_btn_menu_release;ui_btn_menu_confirm</snd>
+                <pos x="8" y="1" />
+                <rect l="0" t="0" r="219" b="297" />
+                <Visible val="True" />
+                <IsHitTestVisible val="True" />
+                <ClipChildren val="False" />
+                <Anchor val="Top, Left" />
+                <IsDefaultButton val="False" />
+              </child>
+              <child type="ANIMBUTTON" name="btn_breed_card_f2" subclass="">
+                <asset type="GROUP">mate_fail_dialog_btn_breed_card_f2.xml</asset>
+                <asset type="NORMAL">
+                </asset>
+                <asset type="DOWN">
+                </asset>
+                <asset type="OVER">
+                </asset>
+                <asset type="DISABLE">
+                </asset>
+                <asset type="ENTER">
+                </asset>
+                <asset type="LEAVE">
+                </asset>
+                <snd type="OVER">ui_btn_menu_over</snd>
+                <snd type="DOWN">ui_btn_menu_click</snd>
+                <snd type="RELEASE">ui_btn_menu_release;ui_btn_menu_confirm</snd>
+                <pos x="217" y="1" />
+                <rect l="0" t="0" r="219" b="297" />
+                <Visible val="True" />
+                <IsHitTestVisible val="True" />
+                <ClipChildren val="False" />
+                <Anchor val="Top, Left" />
+                <IsDefaultButton val="False" />
+              </child>
+              <child type="ANIMBUTTON" name="btn_breed_card_f3" subclass="">
+                <asset type="GROUP">mate_fail_dialog_btn_breed_card_f3.xml</asset>
+                <asset type="NORMAL">
+                </asset>
+                <asset type="DOWN">
+                </asset>
+                <asset type="OVER">
+                </asset>
+                <asset type="DISABLE">
+                </asset>
+                <asset type="ENTER">
+                </asset>
+                <asset type="LEAVE">
+                </asset>
+                <snd type="OVER">ui_btn_menu_over</snd>
+                <snd type="DOWN">ui_btn_menu_click</snd>
+                <snd type="RELEASE">ui_btn_menu_release;ui_btn_menu_confirm</snd>
+                <pos x="426" y="1" />
+                <rect l="0" t="0" r="219" b="297" />
+                <Visible val="True" />
+                <IsHitTestVisible val="True" />
+                <ClipChildren val="False" />
+                <Anchor val="Top, Left" />
+                <IsDefaultButton val="False" />
+              </child>
+            </child>
+            <child type="PICTURE" name="effect_mate_card_get_1" subclass="">
+              <asset type="ANIMATION">mate_fail_dialog_effect_mate_card_get_1.xml</asset>
+              <Visible val="False" />
+              <Anchor val="None" />
+              <pos x="8" y="1" />
+              <rect l="0" t="0" r="219" b="297" />
+              <center x="0" y="0" />
+              <IsHitTestVisible val="False" />
+              <ClipChildren val="False" />
+            </child>
+            <child type="PICTURE" name="effect_mate_card_get_2" subclass="">
+              <asset type="ANIMATION">mate_fail_dialog_effect_mate_card_get_2.xml</asset>
+              <Visible val="False" />
+              <Anchor val="None" />
+              <pos x="217" y="1" />
+              <rect l="0" t="0" r="219" b="297" />
+              <center x="0" y="0" />
+              <IsHitTestVisible val="False" />
+              <ClipChildren val="False" />
+            </child>
+            <child type="PICTURE" name="effect_mate_card_get_3" subclass="">
+              <asset type="ANIMATION">mate_fail_dialog_effect_mate_card_get_3.xml</asset>
+              <Visible val="False" />
+              <Anchor val="None" />
+              <pos x="426" y="1" />
+              <rect l="0" t="0" r="219" b="297" />
+              <center x="0" y="0" />
+              <IsHitTestVisible val="False" />
+              <ClipChildren val="False" />
+            </child>
+            <child type="PICTURE" name="effect_mate_card_get_other_1" subclass="">
+              <asset type="ANIMATION">mate_fail_dialog_effect_mate_card_get_other_1.xml</asset>
+              <Visible val="False" />
+              <Anchor val="None" />
+              <pos x="8" y="1" />
+              <rect l="0" t="0" r="219" b="297" />
+              <center x="0" y="0" />
+              <IsHitTestVisible val="False" />
+              <ClipChildren val="False" />
+            </child>
+            <child type="PICTURE" name="effect_mate_card_get_other_2" subclass="">
+              <asset type="ANIMATION">mate_fail_dialog_effect_mate_card_get_other_2.xml</asset>
+              <Visible val="False" />
+              <Anchor val="None" />
+              <pos x="217" y="1" />
+              <rect l="0" t="0" r="219" b="297" />
+              <center x="0" y="0" />
+              <IsHitTestVisible val="False" />
+              <ClipChildren val="False" />
+            </child>
+            <child type="PICTURE" name="effect_mate_card_get_other_3" subclass="">
+              <asset type="ANIMATION">mate_fail_dialog_effect_mate_card_get_other_3.xml</asset>
+              <Visible val="False" />
+              <Anchor val="None" />
+              <pos x="426" y="1" />
+              <rect l="0" t="0" r="219" b="297" />
+              <center x="0" y="0" />
+              <IsHitTestVisible val="False" />
+              <ClipChildren val="False" />
+            </child>
+          </child>
+          <child type="PANEL" name="panel_normal_rareset" subclass="">
+            <Visible val="True" />
+            <Anchor val="Top, Left" />
+            <embed src="" />
+            <pos x="95" y="107" />
+            <rect l="0" t="0" r="648" b="292" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+            <child type="PICTURE" name="img_breed_card_rare_b1" subclass="">
+              <asset type="STATIC">img_mate_card_chance_f.png</asset>
+              <Visible val="False" />
+              <Anchor val="None" />
+              <pos x="8" y="1" />
+              <rect l="0" t="0" r="219" b="297" />
+              <center x="0" y="0" />
+              <IsHitTestVisible val="True" />
+              <ClipChildren val="False" />
+              <child type="LABEL" name="label_breed_card_rare_b1" subclass="">
+                <label val="이히히히힉" />
+                <pos x="23" y="38" />
+                <rect l="0" t="0" r="168" b="23" />
+                <Visible val="True" />
+                <Anchor val="Top, Left" />
+                <OutlineColor val="#FF0000" />
+                <ShadowColor val="#FF0000" />
+                <color val="#392518FF" />
+                <halign val="1" />
+                <valign val="1" />
+                <FontName val="나눔고딕" />
+                <FontSize val="13" />
+                <TextTrimming val="None" />
+                <style val="1" />
+                <IsHitTestVisible val="False" />
+                <ClipChildren val="False" />
+                <Padding val="0, 0, 0, 0" />
+              </child>
+              <child type="LABEL" name="lb_breed_card_carot_rare_b1" subclass="">
+                <label val="2,000캐롯" />
+                <pos x="23" y="234" />
+                <rect l="0" t="0" r="168" b="23" />
+                <Visible val="True" />
+                <Anchor val="Top, Left" />
+                <OutlineColor val="#FF0000" />
+                <ShadowColor val="#FF0000" />
+                <color val="#392518FF" />
+                <halign val="1" />
+                <valign val="1" />
+                <FontName val="나눔고딕" />
+                <FontSize val="13" />
+                <TextTrimming val="None" />
+                <style val="1" />
+                <IsHitTestVisible val="False" />
+                <ClipChildren val="False" />
+                <Padding val="0, 0, 0, 0" />
+              </child>
+              <child type="PICTURE" name="icon_breed_card_present_rare_b1" subclass="">
+                <asset type="STATIC">
+                </asset>
+                <Visible val="True" />
+                <Anchor val="Top, Left" />
+                <pos x="73" y="86" />
+                <rect l="0" t="0" r="71" b="71" />
+                <center x="0" y="0" />
+                <IsHitTestVisible val="True" />
+                <ClipChildren val="False" />
+              </child>
+              <child type="LABEL" name="lb_breed_card_carot_count_rare_b1" subclass="">
+                <label val="X2" />
+                <pos x="87" y="191" />
+                <rect l="0" t="0" r="43" b="23" />
+                <Visible val="True" />
+                <Anchor val="Top, Left" />
+                <OutlineColor val="#FF0000" />
+                <ShadowColor val="#FF0000" />
+                <color val="#392518FF" />
+                <halign val="1" />
+                <valign val="1" />
+                <FontName val="나눔고딕" />
+                <FontSize val="16" />
+                <TextTrimming val="None" />
+                <style val="1" />
+                <IsHitTestVisible val="False" />
+                <ClipChildren val="False" />
+                <Padding val="0, 0, 0, 0" />
+              </child>
+            </child>
+            <child type="PICTURE" name="img_breed_card_rare_b2" subclass="">
+              <asset type="STATIC">img_mate_card_chance_f.png</asset>
+              <Visible val="False" />
+              <Anchor val="None" />
+              <pos x="217" y="1" />
+              <rect l="0" t="0" r="219" b="297" />
+              <center x="0" y="0" />
+              <IsHitTestVisible val="True" />
+              <ClipChildren val="False" />
+              <child type="LABEL" name="label_breed_card_rare_b2" subclass="">
+                <label val="이히히히히힉" />
+                <pos x="23" y="38" />
+                <rect l="0" t="0" r="168" b="23" />
+                <Visible val="True" />
+                <Anchor val="Top, Left" />
+                <OutlineColor val="#FF0000" />
+                <ShadowColor val="#FF0000" />
+                <color val="#392518FF" />
+                <halign val="1" />
+                <valign val="1" />
+                <FontName val="나눔고딕" />
+                <FontSize val="13" />
+                <TextTrimming val="None" />
+                <style val="1" />
+                <IsHitTestVisible val="False" />
+                <ClipChildren val="False" />
+                <Padding val="0, 0, 0, 0" />
+              </child>
+              <child type="LABEL" name="lb_breed_card_carot_rare_b2" subclass="">
+                <label val="2,000캐롯" />
+                <pos x="23" y="234" />
+                <rect l="0" t="0" r="168" b="23" />
+                <Visible val="True" />
+                <Anchor val="Top, Left" />
+                <OutlineColor val="#FF0000" />
+                <ShadowColor val="#FF0000" />
+                <color val="#392518FF" />
+                <halign val="1" />
+                <valign val="1" />
+                <FontName val="나눔고딕" />
+                <FontSize val="13" />
+                <TextTrimming val="None" />
+                <style val="1" />
+                <IsHitTestVisible val="False" />
+                <ClipChildren val="False" />
+                <Padding val="0, 0, 0, 0" />
+              </child>
+              <child type="PICTURE" name="icon_breed_card_present_rare_b2" subclass="">
+                <asset type="STATIC">
+                </asset>
+                <Visible val="True" />
+                <Anchor val="Top, Left" />
+                <pos x="73" y="86" />
+                <rect l="0" t="0" r="71" b="71" />
+                <center x="0" y="0" />
+                <IsHitTestVisible val="True" />
+                <ClipChildren val="False" />
+              </child>
+              <child type="LABEL" name="lb_breed_card_carot_count_rare_b2" subclass="">
+                <label val="X2" />
+                <pos x="87" y="191" />
+                <rect l="0" t="0" r="43" b="23" />
+                <Visible val="True" />
+                <Anchor val="Top, Left" />
+                <OutlineColor val="#FF0000" />
+                <ShadowColor val="#FF0000" />
+                <color val="#392518FF" />
+                <halign val="1" />
+                <valign val="1" />
+                <FontName val="나눔고딕" />
+                <FontSize val="16" />
+                <TextTrimming val="None" />
+                <style val="1" />
+                <IsHitTestVisible val="False" />
+                <ClipChildren val="False" />
+                <Padding val="0, 0, 0, 0" />
+              </child>
+            </child>
+            <child type="PICTURE" name="img_breed_card_rare_b3" subclass="">
+              <asset type="STATIC">img_mate_card_chance_f.png</asset>
+              <Visible val="False" />
+              <Anchor val="None" />
+              <pos x="426" y="1" />
+              <rect l="0" t="0" r="219" b="297" />
+              <center x="0" y="0" />
+              <IsHitTestVisible val="True" />
+              <ClipChildren val="False" />
+              <child type="LABEL" name="label_breed_card_rare_b3" subclass="">
+                <label val="이히히히히힉" />
+                <pos x="23" y="38" />
+                <rect l="0" t="0" r="168" b="23" />
+                <Visible val="True" />
+                <Anchor val="Top, Left" />
+                <OutlineColor val="#FF0000" />
+                <ShadowColor val="#FF0000" />
+                <color val="#392518FF" />
+                <halign val="1" />
+                <valign val="1" />
+                <FontName val="나눔고딕" />
+                <FontSize val="13" />
+                <TextTrimming val="None" />
+                <style val="1" />
+                <IsHitTestVisible val="False" />
+                <ClipChildren val="False" />
+                <Padding val="0, 0, 0, 0" />
+              </child>
+              <child type="LABEL" name="lb_breed_card_carot_rare_b3" subclass="">
+                <label val="2,000캐롯" />
+                <pos x="23" y="234" />
+                <rect l="0" t="0" r="168" b="23" />
+                <Visible val="True" />
+                <Anchor val="Top, Left" />
+                <OutlineColor val="#FF0000" />
+                <ShadowColor val="#FF0000" />
+                <color val="#392518FF" />
+                <halign val="1" />
+                <valign val="1" />
+                <FontName val="나눔고딕" />
+                <FontSize val="13" />
+                <TextTrimming val="None" />
+                <style val="1" />
+                <IsHitTestVisible val="False" />
+                <ClipChildren val="False" />
+                <Padding val="0, 0, 0, 0" />
+              </child>
+              <child type="PICTURE" name="icon_breed_card_present_rare_b3" subclass="">
+                <asset type="STATIC">
+                </asset>
+                <Visible val="True" />
+                <Anchor val="Top, Left" />
+                <pos x="73" y="86" />
+                <rect l="0" t="0" r="71" b="71" />
+                <center x="0" y="0" />
+                <IsHitTestVisible val="True" />
+                <ClipChildren val="False" />
+              </child>
+              <child type="LABEL" name="lb_breed_card_carot_count_rare_b3" subclass="">
+                <label val="X2" />
+                <pos x="87" y="191" />
+                <rect l="0" t="0" r="43" b="23" />
+                <Visible val="True" />
+                <Anchor val="Top, Left" />
+                <OutlineColor val="#FF0000" />
+                <ShadowColor val="#FF0000" />
+                <color val="#392518FF" />
+                <halign val="1" />
+                <valign val="1" />
+                <FontName val="나눔고딕" />
+                <FontSize val="16" />
+                <TextTrimming val="None" />
+                <style val="1" />
+                <IsHitTestVisible val="False" />
+                <ClipChildren val="False" />
+                <Padding val="0, 0, 0, 0" />
+              </child>
+            </child>
+            <child type="PANEL" name="panel_rare" subclass="">
+              <Visible val="True" />
+              <Anchor val="Top, Left" />
+              <embed src="" />
+              <pos x="1" y="0" />
+              <rect l="0" t="0" r="642" b="301" />
+              <IsHitTestVisible val="True" />
+              <ClipChildren val="False" />
+              <child type="ANIMBUTTON" name="btn_breed_card_rare_f1" subclass="">
+                <asset type="GROUP">mate_fail_dialog_btn_breed_card_rare_f1.xml</asset>
+                <asset type="NORMAL">
+                </asset>
+                <asset type="DOWN">
+                </asset>
+                <asset type="OVER">
+                </asset>
+                <asset type="DISABLE">
+                </asset>
+                <asset type="ENTER">
+                </asset>
+                <asset type="LEAVE">
+                </asset>
+                <snd type="OVER">ui_btn_menu_over</snd>
+                <snd type="DOWN">ui_btn_menu_click</snd>
+                <snd type="RELEASE">ui_btn_menu_release;ui_btn_menu_confirm</snd>
+                <pos x="8" y="1" />
+                <rect l="0" t="0" r="219" b="297" />
+                <Visible val="True" />
+                <IsHitTestVisible val="True" />
+                <ClipChildren val="False" />
+                <Anchor val="Top, Left" />
+                <IsDefaultButton val="False" />
+              </child>
+              <child type="ANIMBUTTON" name="btn_breed_card_rare_f2" subclass="">
+                <asset type="GROUP">mate_fail_dialog_btn_breed_card_rare_f2.xml</asset>
+                <asset type="NORMAL">
+                </asset>
+                <asset type="DOWN">
+                </asset>
+                <asset type="OVER">
+                </asset>
+                <asset type="DISABLE">
+                </asset>
+                <asset type="ENTER">
+                </asset>
+                <asset type="LEAVE">
+                </asset>
+                <snd type="OVER">ui_btn_menu_over</snd>
+                <snd type="DOWN">ui_btn_menu_click</snd>
+                <snd type="RELEASE">ui_btn_menu_release;ui_btn_menu_confirm</snd>
+                <pos x="217" y="1" />
+                <rect l="0" t="0" r="219" b="297" />
+                <Visible val="True" />
+                <IsHitTestVisible val="True" />
+                <ClipChildren val="False" />
+                <Anchor val="Top, Left" />
+                <IsDefaultButton val="False" />
+              </child>
+              <child type="ANIMBUTTON" name="btn_breed_card_rare_f3" subclass="">
+                <asset type="GROUP">mate_fail_dialog_btn_breed_card_rare_f3.xml</asset>
+                <asset type="NORMAL">
+                </asset>
+                <asset type="DOWN">
+                </asset>
+                <asset type="OVER">
+                </asset>
+                <asset type="DISABLE">
+                </asset>
+                <asset type="ENTER">
+                </asset>
+                <asset type="LEAVE">
+                </asset>
+                <snd type="OVER">ui_btn_menu_over</snd>
+                <snd type="DOWN">ui_btn_menu_click</snd>
+                <snd type="RELEASE">ui_btn_menu_release;ui_btn_menu_confirm</snd>
+                <pos x="426" y="1" />
+                <rect l="0" t="0" r="219" b="297" />
+                <Visible val="True" />
+                <IsHitTestVisible val="True" />
+                <ClipChildren val="False" />
+                <Anchor val="Top, Left" />
+                <IsDefaultButton val="False" />
+              </child>
+            </child>
+            <child type="PICTURE" name="effect_mate_card_rare_get_1" subclass="">
+              <asset type="ANIMATION">mate_fail_dialog_effect_mate_card_rare_get_1.xml</asset>
+              <Visible val="False" />
+              <Anchor val="None" />
+              <pos x="8" y="1" />
+              <rect l="0" t="0" r="219" b="297" />
+              <center x="0" y="0" />
+              <IsHitTestVisible val="False" />
+              <ClipChildren val="False" />
+            </child>
+            <child type="PICTURE" name="effect_mate_card_rare_get_2" subclass="">
+              <asset type="ANIMATION">mate_fail_dialog_effect_mate_card_rare_get_2.xml</asset>
+              <Visible val="False" />
+              <Anchor val="None" />
+              <pos x="217" y="1" />
+              <rect l="0" t="0" r="219" b="297" />
+              <center x="0" y="0" />
+              <IsHitTestVisible val="False" />
+              <ClipChildren val="False" />
+            </child>
+            <child type="PICTURE" name="effect_mate_card_rare_get_3" subclass="">
+              <asset type="ANIMATION">mate_fail_dialog_effect_mate_card_rare_get_3.xml</asset>
+              <Visible val="False" />
+              <Anchor val="None" />
+              <pos x="426" y="1" />
+              <rect l="0" t="0" r="219" b="297" />
+              <center x="0" y="0" />
+              <IsHitTestVisible val="False" />
+              <ClipChildren val="False" />
+            </child>
+            <child type="PICTURE" name="effect_mate_card_rare_get_other_1" subclass="">
+              <asset type="ANIMATION">mate_fail_dialog_effect_mate_card_rare_get_other_1.xml</asset>
+              <Visible val="False" />
+              <Anchor val="None" />
+              <pos x="8" y="1" />
+              <rect l="0" t="0" r="219" b="297" />
+              <center x="0" y="0" />
+              <IsHitTestVisible val="False" />
+              <ClipChildren val="False" />
+            </child>
+            <child type="PICTURE" name="effect_mate_card_rare_get_other_2" subclass="">
+              <asset type="ANIMATION">mate_fail_dialog_effect_mate_card_rare_get_other_2.xml</asset>
+              <Visible val="False" />
+              <Anchor val="None" />
+              <pos x="217" y="1" />
+              <rect l="0" t="0" r="219" b="297" />
+              <center x="0" y="0" />
+              <IsHitTestVisible val="False" />
+              <ClipChildren val="False" />
+            </child>
+            <child type="PICTURE" name="effect_mate_card_rare_get_other_3" subclass="">
+              <asset type="ANIMATION">mate_fail_dialog_effect_mate_card_rare_get_other_3.xml</asset>
+              <Visible val="False" />
+              <Anchor val="None" />
+              <pos x="426" y="1" />
+              <rect l="0" t="0" r="219" b="297" />
+              <center x="0" y="0" />
+              <IsHitTestVisible val="False" />
+              <ClipChildren val="False" />
+            </child>
+          </child>
+          <child type="PICTURE" name="img_breed_card_rare_lget_light_1" subclass="">
+            <asset type="ANIMATION">mate_fail_dialog_img_breed_card_rare_lget_light_1.xml</asset>
+            <Visible val="False" />
+            <Anchor val="None" />
+            <pos x="103" y="108" />
+            <rect l="0" t="0" r="219" b="297" />
+            <center x="0" y="0" />
+            <IsHitTestVisible val="False" />
+            <ClipChildren val="False" />
+          </child>
+          <child type="PICTURE" name="img_breed_card_rare_lget_light_2" subclass="">
+            <asset type="ANIMATION">mate_fail_dialog_img_breed_card_rare_lget_light_2.xml</asset>
+            <Visible val="False" />
+            <Anchor val="None" />
+            <pos x="312" y="108" />
+            <rect l="0" t="0" r="219" b="297" />
+            <center x="0" y="0" />
+            <IsHitTestVisible val="False" />
+            <ClipChildren val="False" />
+          </child>
+          <child type="PICTURE" name="img_breed_card_rare_lget_light_3" subclass="">
+            <asset type="ANIMATION">mate_fail_dialog_img_breed_card_rare_lget_light_3.xml</asset>
+            <Visible val="False" />
+            <Anchor val="None" />
+            <pos x="521" y="108" />
+            <rect l="0" t="0" r="219" b="297" />
+            <center x="0" y="0" />
+            <IsHitTestVisible val="False" />
+            <ClipChildren val="False" />
+          </child>
+        </base>
+      </base>
+    </child>
+  </base>
+</refresh>

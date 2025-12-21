@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <event animation="">
+        <function>PlaySND($asset, "ob_dorf_bridge_creak1", "dummyroot_sound", "-var 0")</function>
+        <time>2.6066</time>
+        <freq>100</freq>
+    </event>
+    <event animation="">
+        <function>PlaySND($asset, "ob_dorf_bridge_fall1", "dummyroot_sound", "-var 0")</function>
+        <time>7.2499</time>
+        <freq>100</freq>
+    </event>
+    <dummy name="dummyroot_sound" parent="Dummyroot" sync="FALSE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.0000</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <action category="" state="G_IDLE" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000></main>
+    </action>
+</aim>

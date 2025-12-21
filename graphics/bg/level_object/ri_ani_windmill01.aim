@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <AABB animation="ri_ani_windmill01">
+        <minX>0.0000</minX>
+        <minY>-0.0006</minY>
+        <minZ>0.0000</minZ>
+        <maxX>0.0000</maxX>
+        <maxY>38.9434</maxY>
+        <maxZ>0.0000</maxZ>
+    </AABB>
+    <event animation="_initialize_">
+        <function>PlayFX($asset, "ob_windmill_trace", "wing", "-attach ")</function>
+        <time>0.0000</time>
+        <freq>ONCE</freq>
+    </event>
+    <event animation="_initialize_">
+        <function>PlaySND($asset, "ob_windmill_loop", "root", "-var 0")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <dummy name="wing" parent="ri_ani_windmill01_wing" sync="FALSE">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.0000</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <dummy name="root" parent="Dummyroot" sync="FALSE">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.0000</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <action state="G_IDLE" loop="1" poskey="" rotkey="">
+        <main speed=0.0000></main>
+    </action>
+</aim>

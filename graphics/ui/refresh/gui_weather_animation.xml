@@ -1,0 +1,2002 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="serenity">
+    <asset type="UI" name="asset_weather_rain">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <asset type="UI" name="asset_weather_rain1">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <asset type="UI" name="asset_weather_snow">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <asset type="UI" name="asset_weather_snow1">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <asset type="UI" name="asset_weather_snow2">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <asset type="UI" name="asset_weather_snow3">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <asset type="UI" name="asset_weather_cloud1">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <asset type="UI" name="asset_weather_cloud">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <asset type="UI" name="asset_weather_sun">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <object name="weather_rain" ani="ani_weather_rain">
+      <asset type="UI" link="asset_weather_rain" />
+    </object>
+    <object name="weather_rain1" ani="ani_weather_rain1">
+      <asset type="UI" link="asset_weather_rain1" />
+    </object>
+    <object name="weather_snow" ani="ani_weather_snow">
+      <asset type="UI" link="asset_weather_snow" />
+    </object>
+    <object name="weather_snow1" ani="ani_weather_snow1">
+      <asset type="UI" link="asset_weather_snow1" />
+    </object>
+    <object name="weather_snow2" ani="ani_weather_snow2">
+      <asset type="UI" link="asset_weather_snow2" />
+    </object>
+    <object name="weather_snow3" ani="ani_weather_snow3">
+      <asset type="UI" link="asset_weather_snow3" />
+    </object>
+    <object name="weather_cloud1" ani="ani_weather_cloud1">
+      <asset type="UI" link="asset_weather_cloud1" />
+    </object>
+    <object name="weather_cloud" ani="ani_weather_cloud">
+      <asset type="UI" link="asset_weather_cloud" />
+    </object>
+    <object name="weather_sun" ani="ani_weather_sun">
+      <asset type="UI" link="asset_weather_sun" />
+    </object>
+    <param type="RES" x="76" y="76" />
+    <param type="LOOP" cnt="-1" pendulum="0" />
+    <anim name="ani_weather_rain">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_weather_rain1">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_weather_snow">
+      <frame cnt="0">
+        <posx val="0.01315789" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_weather_snow1">
+      <frame cnt="0">
+        <posx val="0.01315789" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_weather_snow2">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_weather_snow3">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_weather_cloud1">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_weather_cloud">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_weather_sun">
+      <frame cnt="367">
+        <posx val="0" />
+        <posy val="0.03947368" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="snow">
+    <asset type="UI" name="asset_weather_rain">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <asset type="UI" name="asset_weather_rain1">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <asset type="UI" name="asset_weather_snow">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <asset type="UI" name="asset_weather_snow1">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <asset type="UI" name="asset_weather_snow2">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <asset type="UI" name="asset_weather_snow3">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <asset type="UI" name="asset_weather_cloud">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <asset type="UI" name="asset_weather_sun">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <object name="weather_rain" ani="ani_weather_rain">
+      <asset type="UI" link="asset_weather_rain" />
+    </object>
+    <object name="weather_rain1" ani="ani_weather_rain1">
+      <asset type="UI" link="asset_weather_rain1" />
+    </object>
+    <object name="weather_snow" ani="ani_weather_snow">
+      <asset type="UI" link="asset_weather_snow" />
+    </object>
+    <object name="weather_snow1" ani="ani_weather_snow1">
+      <asset type="UI" link="asset_weather_snow1" />
+    </object>
+    <object name="weather_snow2" ani="ani_weather_snow2">
+      <asset type="UI" link="asset_weather_snow2" />
+    </object>
+    <object name="weather_snow3" ani="ani_weather_snow3">
+      <asset type="UI" link="asset_weather_snow3" />
+    </object>
+    <object name="weather_cloud" ani="ani_weather_cloud">
+      <asset type="UI" link="asset_weather_cloud" />
+    </object>
+    <object name="weather_sun" ani="ani_weather_sun">
+      <asset type="UI" link="asset_weather_sun" />
+    </object>
+    <param type="RES" x="76" y="76" />
+    <param type="LOOP" cnt="-1" pendulum="0" />
+    <anim name="ani_weather_rain">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_weather_rain1">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_weather_snow">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="-0.0263157894736842" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="367">
+        <posx val="0" />
+        <posy val="0.0526315789473684" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="867">
+        <posx val="0" />
+        <posy val="0.171052631578947" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_weather_snow1">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="-0.0526315789473684" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="200">
+        <posx val="0" />
+        <posy val="-0.0394736842105263" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0" />
+        <posy val="0.0263157894736842" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1067">
+        <posx val="0" />
+        <posy val="0.171052631578947" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_weather_snow2">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_weather_snow3">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_weather_cloud">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_weather_sun">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.03947368" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="rain">
+    <asset type="UI" name="asset_weather_rain">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <asset type="UI" name="asset_weather_rain1">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <asset type="UI" name="asset_weather_snow">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <asset type="UI" name="asset_weather_snow1">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <asset type="UI" name="asset_weather_snow2">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <asset type="UI" name="asset_weather_snow3">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <asset type="UI" name="asset_weather_cloud1">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <asset type="UI" name="asset_weather_sun">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <object name="weather_rain" ani="ani_weather_rain">
+      <asset type="UI" link="asset_weather_rain" />
+    </object>
+    <object name="weather_rain1" ani="ani_weather_rain1">
+      <asset type="UI" link="asset_weather_rain1" />
+    </object>
+    <object name="weather_snow" ani="ani_weather_snow">
+      <asset type="UI" link="asset_weather_snow" />
+    </object>
+    <object name="weather_snow1" ani="ani_weather_snow1">
+      <asset type="UI" link="asset_weather_snow1" />
+    </object>
+    <object name="weather_snow2" ani="ani_weather_snow2">
+      <asset type="UI" link="asset_weather_snow2" />
+    </object>
+    <object name="weather_snow3" ani="ani_weather_snow3">
+      <asset type="UI" link="asset_weather_snow3" />
+    </object>
+    <object name="weather_cloud1" ani="ani_weather_cloud1">
+      <asset type="UI" link="asset_weather_cloud1" />
+    </object>
+    <object name="weather_sun" ani="ani_weather_sun">
+      <asset type="UI" link="asset_weather_sun" />
+    </object>
+    <param type="RES" x="76" y="76" />
+    <param type="LOOP" cnt="-1" pendulum="0" />
+    <anim name="ani_weather_rain">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="200">
+        <posx val="-0.0131578947368421" />
+        <posy val="0.0394736842105263" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="533">
+        <posx val="-0.0394736842105263" />
+        <posy val="0.118421052631579" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.64" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="700">
+        <posx val="-0.0526315789473684" />
+        <posy val="0.157894736842105" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_weather_rain1">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="200">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="400">
+        <posx val="-0.0131578947368421" />
+        <posy val="0.0394736842105263" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="733">
+        <posx val="-0.0394736842105263" />
+        <posy val="0.118421052631579" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.64" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="900">
+        <posx val="-0.0526315789473684" />
+        <posy val="0.157894736842105" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_weather_snow">
+      <frame cnt="0">
+        <posx val="0.01315789" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_weather_snow1">
+      <frame cnt="0">
+        <posx val="0.01315789" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_weather_snow2">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_weather_snow3">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_weather_cloud1">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_weather_sun">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.03947368" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="lightning">
+    <param type="RES" x="76" y="76" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+  </scene>
+  <scene name="snow1">
+    <asset type="UI" name="asset_weather_rain">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <asset type="UI" name="asset_weather_rain1">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <asset type="UI" name="asset_weather_snow">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <asset type="UI" name="asset_weather_snow1">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <asset type="UI" name="asset_weather_snow2">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <asset type="UI" name="asset_weather_snow3">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <asset type="UI" name="asset_weather_cloud">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <asset type="UI" name="asset_weather_sun">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <object name="weather_rain" ani="ani_weather_rain">
+      <asset type="UI" link="asset_weather_rain" />
+    </object>
+    <object name="weather_rain1" ani="ani_weather_rain1">
+      <asset type="UI" link="asset_weather_rain1" />
+    </object>
+    <object name="weather_snow" ani="ani_weather_snow">
+      <asset type="UI" link="asset_weather_snow" />
+    </object>
+    <object name="weather_snow1" ani="ani_weather_snow1">
+      <asset type="UI" link="asset_weather_snow1" />
+    </object>
+    <object name="weather_snow2" ani="ani_weather_snow2">
+      <asset type="UI" link="asset_weather_snow2" />
+    </object>
+    <object name="weather_snow3" ani="ani_weather_snow3">
+      <asset type="UI" link="asset_weather_snow3" />
+    </object>
+    <object name="weather_cloud" ani="ani_weather_cloud">
+      <asset type="UI" link="asset_weather_cloud" />
+    </object>
+    <object name="weather_sun" ani="ani_weather_sun">
+      <asset type="UI" link="asset_weather_sun" />
+    </object>
+    <param type="RES" x="76" y="76" />
+    <param type="LOOP" cnt="-1" pendulum="0" />
+    <anim name="ani_weather_rain">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_weather_rain1">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_weather_snow">
+      <frame cnt="0">
+        <posx val="0.0131578947368421" />
+        <posy val="-0.0263157894736842" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="367">
+        <posx val="0.0131578947368421" />
+        <posy val="0.0657894736842105" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="867">
+        <posx val="0.0131578947368421" />
+        <posy val="0.171052631578947" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_weather_snow1">
+      <frame cnt="0">
+        <posx val="0.0131578947368421" />
+        <posy val="-0.0526315789473684" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="200">
+        <posx val="0.0131578947368421" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="533">
+        <posx val="0.0131578947368421" />
+        <posy val="0.0921052631578947" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1033">
+        <posx val="0.0131578947368421" />
+        <posy val="0.236842105263158" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_weather_snow2">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_weather_snow3">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_weather_cloud">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_weather_sun">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.03947368" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="snow2">
+    <asset type="UI" name="asset_weather_rain">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <asset type="UI" name="asset_weather_rain1">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <asset type="UI" name="asset_weather_snow">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <asset type="UI" name="asset_weather_snow1">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <asset type="UI" name="asset_weather_snow2">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <asset type="UI" name="asset_weather_snow3">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <asset type="UI" name="asset_weather_cloud">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <asset type="UI" name="asset_weather_sun">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <object name="weather_rain" ani="ani_weather_rain">
+      <asset type="UI" link="asset_weather_rain" />
+    </object>
+    <object name="weather_rain1" ani="ani_weather_rain1">
+      <asset type="UI" link="asset_weather_rain1" />
+    </object>
+    <object name="weather_snow" ani="ani_weather_snow">
+      <asset type="UI" link="asset_weather_snow" />
+    </object>
+    <object name="weather_snow1" ani="ani_weather_snow1">
+      <asset type="UI" link="asset_weather_snow1" />
+    </object>
+    <object name="weather_snow2" ani="ani_weather_snow2">
+      <asset type="UI" link="asset_weather_snow2" />
+    </object>
+    <object name="weather_snow3" ani="ani_weather_snow3">
+      <asset type="UI" link="asset_weather_snow3" />
+    </object>
+    <object name="weather_cloud" ani="ani_weather_cloud">
+      <asset type="UI" link="asset_weather_cloud" />
+    </object>
+    <object name="weather_sun" ani="ani_weather_sun">
+      <asset type="UI" link="asset_weather_sun" />
+    </object>
+    <param type="RES" x="76" y="76" />
+    <param type="LOOP" cnt="-1" pendulum="0" />
+    <anim name="ani_weather_rain">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_weather_rain1">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_weather_snow">
+      <frame cnt="0">
+        <posx val="-0.0394736842105263" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="133">
+        <posx val="0.0789473684210526" />
+        <posy val="-0.0263157894736842" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="600">
+        <posx val="-0.0263157894736842" />
+        <posy val="0.144736842105263" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.64" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="767">
+        <posx val="-0.0789473684210526" />
+        <posy val="0.210526315789474" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_weather_snow1">
+      <frame cnt="0">
+        <posx val="0.0131578947368421" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="100">
+        <posx val="0.0789473684210526" />
+        <posy val="-0.0657894736842105" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="-0.0526315789473684" />
+        <posy val="0.157894736842105" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="767">
+        <posx val="-0.131578947368421" />
+        <posy val="0.276315789473684" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_weather_snow2">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_weather_snow3">
+      <frame cnt="0">
+        <posx val="0.0657894736842105" />
+        <posy val="-0.0526315789473684" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="233">
+        <posx val="-0.0131578947368421" />
+        <posy val="0.105263157894737" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.9" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="433">
+        <posx val="-0.0526315789473684" />
+        <posy val="0.184210526315789" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.38" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="533">
+        <posx val="-0.0657894736842105" />
+        <posy val="0.210526315789474" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="733">
+        <posx val="-0.0526315789473684" />
+        <posy val="0.197368421052632" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_weather_cloud">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_weather_sun">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.03947368" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="snow0">
+    <asset type="UI" name="asset_weather_rain">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <asset type="UI" name="asset_weather_rain1">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <asset type="UI" name="asset_weather_snow">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <asset type="UI" name="asset_weather_snow1">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <asset type="UI" name="asset_weather_snow2">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <asset type="UI" name="asset_weather_snow3">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <asset type="UI" name="asset_weather_cloud">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <asset type="UI" name="asset_weather_sun">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <object name="weather_rain" ani="ani_weather_rain">
+      <asset type="UI" link="asset_weather_rain" />
+    </object>
+    <object name="weather_rain1" ani="ani_weather_rain1">
+      <asset type="UI" link="asset_weather_rain1" />
+    </object>
+    <object name="weather_snow" ani="ani_weather_snow">
+      <asset type="UI" link="asset_weather_snow" />
+    </object>
+    <object name="weather_snow1" ani="ani_weather_snow1">
+      <asset type="UI" link="asset_weather_snow1" />
+    </object>
+    <object name="weather_snow2" ani="ani_weather_snow2">
+      <asset type="UI" link="asset_weather_snow2" />
+    </object>
+    <object name="weather_snow3" ani="ani_weather_snow3">
+      <asset type="UI" link="asset_weather_snow3" />
+    </object>
+    <object name="weather_cloud" ani="ani_weather_cloud">
+      <asset type="UI" link="asset_weather_cloud" />
+    </object>
+    <object name="weather_sun" ani="ani_weather_sun">
+      <asset type="UI" link="asset_weather_sun" />
+    </object>
+    <param type="RES" x="76" y="76" />
+    <param type="LOOP" cnt="-1" pendulum="0" />
+    <anim name="ani_weather_rain">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_weather_rain1">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_weather_snow">
+      <frame cnt="0">
+        <posx val="0.01315789" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_weather_snow1">
+      <frame cnt="0">
+        <posx val="0.01315789" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_weather_snow2">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="567">
+        <posx val="0" />
+        <posy val="0.0526315789473684" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.9" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="900">
+        <posx val="0" />
+        <posy val="0.118421052631579" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.8" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1267">
+        <posx val="0" />
+        <posy val="0.171052631578947" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1933">
+        <posx val="0" />
+        <posy val="0.131578947368421" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_weather_snow3">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_weather_cloud">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_weather_sun">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.03947368" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="rain0">
+    <asset type="UI" name="asset_weather_rain">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <asset type="UI" name="asset_weather_rain1">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <asset type="UI" name="asset_weather_snow">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <asset type="UI" name="asset_weather_snow1">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <asset type="UI" name="asset_weather_snow2">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <asset type="UI" name="asset_weather_snow3">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <asset type="UI" name="asset_weather_cloud1">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <asset type="UI" name="asset_weather_sun">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <object name="weather_rain" ani="ani_weather_rain">
+      <asset type="UI" link="asset_weather_rain" />
+    </object>
+    <object name="weather_rain1" ani="ani_weather_rain1">
+      <asset type="UI" link="asset_weather_rain1" />
+    </object>
+    <object name="weather_snow" ani="ani_weather_snow">
+      <asset type="UI" link="asset_weather_snow" />
+    </object>
+    <object name="weather_snow1" ani="ani_weather_snow1">
+      <asset type="UI" link="asset_weather_snow1" />
+    </object>
+    <object name="weather_snow2" ani="ani_weather_snow2">
+      <asset type="UI" link="asset_weather_snow2" />
+    </object>
+    <object name="weather_snow3" ani="ani_weather_snow3">
+      <asset type="UI" link="asset_weather_snow3" />
+    </object>
+    <object name="weather_cloud1" ani="ani_weather_cloud1">
+      <asset type="UI" link="asset_weather_cloud1" />
+    </object>
+    <object name="weather_sun" ani="ani_weather_sun">
+      <asset type="UI" link="asset_weather_sun" />
+    </object>
+    <param type="RES" x="76" y="76" />
+    <param type="LOOP" cnt="-1" pendulum="0" />
+    <anim name="ani_weather_rain">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="200">
+        <posx val="-0.0131578947368421" />
+        <posy val="0.0394736842105263" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="533">
+        <posx val="-0.0394736842105263" />
+        <posy val="0.118421052631579" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.64" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="700">
+        <posx val="-0.0526315789473684" />
+        <posy val="0.157894736842105" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_weather_rain1">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="200">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="400">
+        <posx val="-0.0131578947368421" />
+        <posy val="0.0394736842105263" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="733">
+        <posx val="-0.0394736842105263" />
+        <posy val="0.118421052631579" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.64" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="900">
+        <posx val="-0.0526315789473684" />
+        <posy val="0.157894736842105" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_weather_snow">
+      <frame cnt="0">
+        <posx val="0.01315789" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_weather_snow1">
+      <frame cnt="0">
+        <posx val="0.01315789" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_weather_snow2">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_weather_snow3">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_weather_cloud1">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_weather_sun">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.03947368" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="rain1">
+    <asset type="UI" name="asset_weather_rain">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <asset type="UI" name="asset_weather_rain1">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <asset type="UI" name="asset_weather_snow">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <asset type="UI" name="asset_weather_snow1">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <asset type="UI" name="asset_weather_snow2">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <asset type="UI" name="asset_weather_snow3">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <asset type="UI" name="asset_weather_cloud1">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <asset type="UI" name="asset_weather_sun">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <object name="weather_rain" ani="ani_weather_rain">
+      <asset type="UI" link="asset_weather_rain" />
+    </object>
+    <object name="weather_rain1" ani="ani_weather_rain1">
+      <asset type="UI" link="asset_weather_rain1" />
+    </object>
+    <object name="weather_snow" ani="ani_weather_snow">
+      <asset type="UI" link="asset_weather_snow" />
+    </object>
+    <object name="weather_snow1" ani="ani_weather_snow1">
+      <asset type="UI" link="asset_weather_snow1" />
+    </object>
+    <object name="weather_snow2" ani="ani_weather_snow2">
+      <asset type="UI" link="asset_weather_snow2" />
+    </object>
+    <object name="weather_snow3" ani="ani_weather_snow3">
+      <asset type="UI" link="asset_weather_snow3" />
+    </object>
+    <object name="weather_cloud1" ani="ani_weather_cloud1">
+      <asset type="UI" link="asset_weather_cloud1" />
+    </object>
+    <object name="weather_sun" ani="ani_weather_sun">
+      <asset type="UI" link="asset_weather_sun" />
+    </object>
+    <param type="RES" x="76" y="76" />
+    <param type="LOOP" cnt="-1" pendulum="0" />
+    <anim name="ani_weather_rain">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="200">
+        <posx val="-0.0131578947368421" />
+        <posy val="0.0394736842105263" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="533">
+        <posx val="-0.0394736842105263" />
+        <posy val="0.118421052631579" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.64" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="700">
+        <posx val="-0.0526315789473684" />
+        <posy val="0.157894736842105" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_weather_rain1">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="200">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="400">
+        <posx val="-0.0131578947368421" />
+        <posy val="0.0394736842105263" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="733">
+        <posx val="-0.0394736842105263" />
+        <posy val="0.118421052631579" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.64" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="900">
+        <posx val="-0.0526315789473684" />
+        <posy val="0.157894736842105" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_weather_snow">
+      <frame cnt="0">
+        <posx val="0.01315789" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_weather_snow1">
+      <frame cnt="0">
+        <posx val="0.01315789" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_weather_snow2">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_weather_snow3">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_weather_cloud1">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_weather_sun">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.03947368" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="rain2">
+    <asset type="UI" name="asset_weather_rain">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <asset type="UI" name="asset_weather_rain1">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <asset type="UI" name="asset_weather_snow">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <asset type="UI" name="asset_weather_snow1">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <asset type="UI" name="asset_weather_snow2">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <asset type="UI" name="asset_weather_snow3">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <asset type="UI" name="asset_weather_cloud1">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <asset type="UI" name="asset_weather_sun">
+      <rect l="0" t="0" r="76" b="76" />
+    </asset>
+    <object name="weather_rain" ani="ani_weather_rain">
+      <asset type="UI" link="asset_weather_rain" />
+    </object>
+    <object name="weather_rain1" ani="ani_weather_rain1">
+      <asset type="UI" link="asset_weather_rain1" />
+    </object>
+    <object name="weather_snow" ani="ani_weather_snow">
+      <asset type="UI" link="asset_weather_snow" />
+    </object>
+    <object name="weather_snow1" ani="ani_weather_snow1">
+      <asset type="UI" link="asset_weather_snow1" />
+    </object>
+    <object name="weather_snow2" ani="ani_weather_snow2">
+      <asset type="UI" link="asset_weather_snow2" />
+    </object>
+    <object name="weather_snow3" ani="ani_weather_snow3">
+      <asset type="UI" link="asset_weather_snow3" />
+    </object>
+    <object name="weather_cloud1" ani="ani_weather_cloud1">
+      <asset type="UI" link="asset_weather_cloud1" />
+    </object>
+    <object name="weather_sun" ani="ani_weather_sun">
+      <asset type="UI" link="asset_weather_sun" />
+    </object>
+    <param type="RES" x="76" y="76" />
+    <param type="LOOP" cnt="-1" pendulum="0" />
+    <anim name="ani_weather_rain">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="200">
+        <posx val="-0.0131578947368421" />
+        <posy val="0.0394736842105263" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="533">
+        <posx val="-0.0394736842105263" />
+        <posy val="0.118421052631579" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.64" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="700">
+        <posx val="-0.0526315789473684" />
+        <posy val="0.157894736842105" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_weather_rain1">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="200">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="400">
+        <posx val="-0.0131578947368421" />
+        <posy val="0.0394736842105263" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="733">
+        <posx val="-0.0394736842105263" />
+        <posy val="0.118421052631579" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.64" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="900">
+        <posx val="-0.0526315789473684" />
+        <posy val="0.157894736842105" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_weather_snow">
+      <frame cnt="0">
+        <posx val="0.01315789" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_weather_snow1">
+      <frame cnt="0">
+        <posx val="0.01315789" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_weather_snow2">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_weather_snow3">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_weather_cloud1">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_weather_sun">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.03947368" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

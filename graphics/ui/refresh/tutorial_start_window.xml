@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="tutorial_start_window_Animation.xml" />
+  </properties>
+  <base type="WNDEX" name="tuto_start_WndEx">
+    <asset type="BG" path="">
+      <tex x="0" y="0" />
+      <rect l="8" t="8" r="-15" b="-15" />
+    </asset>
+    <asset type="EDGE_LT" path="">
+      <tex x="0" y="0" />
+      <rect l="0" t="0" r="8" b="8" />
+    </asset>
+    <asset type="EDGE_RT" path="">
+      <tex x="0" y="0" />
+      <rect l="0" t="0" r="8" b="8" />
+    </asset>
+    <asset type="EDGE_LB" path="">
+      <tex x="0" y="0" />
+      <rect l="0" t="0" r="8" b="8" />
+    </asset>
+    <asset type="EDGE_RB" path="">
+      <tex x="0" y="0" />
+      <rect l="0" t="0" r="8" b="8" />
+    </asset>
+    <asset type="FRAME_T" path="">
+      <tex x="0" y="0" />
+      <rect l="8" t="0" r="-15" b="8" />
+    </asset>
+    <asset type="FRAME_B" path="">
+      <tex x="0" y="0" />
+      <rect l="8" t="0" r="-15" b="8" />
+    </asset>
+    <asset type="FRAME_L" path="">
+      <tex x="0" y="0" />
+      <rect l="0" t="8" r="8" b="-15" />
+    </asset>
+    <asset type="FRAME_R" path="">
+      <tex x="0" y="0" />
+      <rect l="0" t="8" r="8" b="-15" />
+    </asset>
+    <Visible val="True" />
+    <Anchor val="None" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="1" b="1" />
+    <Dragable val="False" />
+    <StartPosition val="None" />
+    <EscKeyAction val="None" />
+    <child type="PICTURE" name="tuto_start">
+      <asset type="STATIC">tuto_tip_balloon.png</asset>
+      <Visible val="True" />
+      <Anchor val="Bottom" />
+      <pos x="70" y="661" />
+      <rect l="0" t="0" r="235" b="67" />
+      <center x="0" y="0" />
+      <child type="PICTURE" name="bg_select_horse21">
+        <asset type="STATIC">bg_select_horse2.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="4" y="26" />
+        <rect l="0" t="0" r="224" b="31" />
+        <center x="0" y="0" />
+      </child>
+      <child type="LABEL" name="lb_start1">
+        <label val="게임하기" />
+        <pos x="12" y="9" />
+        <rect l="0" t="0" r="210" b="19" />
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#FF0000" />
+        <color val="#FFE626" />
+        <halign val="0" />
+        <valign val="0" />
+        <FontName val="나눔고딕" />
+        <FontSize val="14" />
+        <FontName val="나눔고딕" />
+      </child>
+      <child type="LABEL" name="lb_start2">
+        <label val="버튼을 눌러 게임에 참가하십시오." />
+        <pos x="12" y="31" />
+        <rect l="0" t="0" r="210" b="19" />
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#FF0000" />
+        <color val="#FFFFFF" />
+        <halign val="0" />
+        <valign val="0" />
+        <FontName val="나눔고딕" />
+        <FontSize val="13" />
+        <FontName val="나눔고딕" />
+      </child>
+    </child>
+  </base>
+</refresh>

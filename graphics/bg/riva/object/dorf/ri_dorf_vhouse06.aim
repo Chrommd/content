@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <event animation="_initialize_">
+        <function>PlayFX($asset, "ob_lamp04", "d03", "-attach ")</function>
+        <time>0.0000</time>
+        <freq>ONCE</freq>
+    </event>
+    <event animation="_initialize_">
+        <function>PlayFX($asset, "ob_lamp04", "d02", "-attach ")</function>
+        <time>0.0000</time>
+        <freq>ONCE</freq>
+    </event>
+    <event animation="_initialize_">
+        <function>PlayFX($asset, "ob_lamp04", "d01", "-attach ")</function>
+        <time>0.0000</time>
+        <freq>ONCE</freq>
+    </event>
+    <dummy name="d01" parent="Box02" sync="TRUE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>3.1186</offsetX>
+        <offsetY>-11.9420</offsetY>
+        <offsetZ>-5.3664</offsetZ>
+    </dummy>
+    <dummy name="d02" parent="Box02" sync="TRUE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>-2.0304</offsetX>
+        <offsetY>-11.9966</offsetY>
+        <offsetZ>-5.4279</offsetZ>
+    </dummy>
+    <dummy name="d03" parent="Box02" sync="TRUE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>-10.0318</offsetX>
+        <offsetY>8.9039</offsetY>
+        <offsetZ>-14.5862</offsetZ>
+    </dummy>
+    <action category="" state="G_IDLE" prevState="" loop="0" weight="1">
+    </action>
+</aim>

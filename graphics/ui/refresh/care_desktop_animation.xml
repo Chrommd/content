@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="_Opening_">
+    <asset type="UI" name="asset_list_care">
+      <rect l="0" t="0" r="349" b="529" />
+    </asset>
+    <asset type="UI" name="asset_lb_care_start">
+      <rect l="0" t="0" r="108" b="18" />
+    </asset>
+    <asset type="UI" name="asset_horse_info">
+      <rect l="0" t="0" r="525" b="110" />
+    </asset>
+    <object name="list_care" ani="ani_list_care">
+      <asset type="UI" link="asset_list_care" />
+    </object>
+    <object name="lb_care_start" ani="ani_lb_care_start">
+      <asset type="UI" link="asset_lb_care_start" />
+    </object>
+    <object name="horse_info" ani="ani_horse_info">
+      <asset type="UI" link="asset_horse_info" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_list_care">
+      <frame cnt="0">
+        <posx val="0.6572265625" />
+        <posy val="0.18359375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="833">
+        <posx val="0.6572265625" easeValue="0.0,1.0,1.0,1.0" />
+        <posy val="0.157552083333333" easeValue="0.0,1.0,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,1.0,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_lb_care_start">
+      <frame cnt="1100">
+        <posx val="0.0029296875" />
+        <posy val="0.00911458333333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_horse_info">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.0260416666666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="833">
+        <posx val="0" easeValue="0.0,1.0,1.0,1.0" />
+        <posy val="0" easeValue="0.0,1.0,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,1.0,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Closing_">
+    <asset type="UI" name="asset_list_care">
+      <rect l="0" t="0" r="349" b="529" />
+    </asset>
+    <asset type="UI" name="asset_horse_info">
+      <rect l="0" t="0" r="525" b="110" />
+    </asset>
+    <object name="list_care" ani="ani_list_care">
+      <asset type="UI" link="asset_list_care" />
+    </object>
+    <object name="horse_info" ani="ani_horse_info">
+      <asset type="UI" link="asset_horse_info" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_list_care">
+      <frame cnt="0">
+        <posx val="0.6572266" />
+        <posy val="0.1575521" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0.6572266" />
+        <posy val="0.1575521" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_horse_info">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

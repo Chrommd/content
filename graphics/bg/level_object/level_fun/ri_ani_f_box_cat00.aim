@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <event animation="1st_00">
+        <function>PlaySND($asset, "crash_box01_", "root", "-var 2")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="1st_00">
+        <function>PlaySND($asset, "npc_cat_surprise2", "root", "-var 0")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="2nd_00">
+        <function>PlaySND($asset, "crash_box02_", "root", "-var 3")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="2nd_00">
+        <function>PlaySND($asset, "npc_cat_scream1", "root", "-var 0")</function>
+        <time>0.0060</time>
+        <freq>100</freq>
+    </event>
+    <event animation="3rd_00">
+        <function>PlaySND($asset, "crash_box02_", "root", "-var 3")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="3rd_00">
+        <function>PlaySND($asset, "npc_cat_scream1", "root", "-var 0")</function>
+        <time>0.0067</time>
+        <freq>100</freq>
+    </event>
+    <dummy name="root" parent="NODE_0" sync="FALSE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.0000</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <action category="" state="BROKEN_1ST" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>1st_00</main>
+    </action>
+    <action category="" state="BROKEN_2ND" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>2nd_00</main>
+    </action>
+    <action category="" state="BROKEN_3RD" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>3rd_00</main>
+    </action>
+    <action category="" state="G_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>idle_00</main>
+    </action>
+</aim>

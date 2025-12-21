@@ -1,0 +1,253 @@
+﻿<refresh version="2">
+	<properties>
+		<property name="DPI" val="72" />
+	</properties>
+	<base type="WND" subclass="" name="comm_lb_nickname_Wnd">
+		<pos x="0" y="0" />
+		<rect l="0" t="0" r="225" b="59" />
+		<Visible val="True" />
+		<Anchor val="Bottom" />
+		<snd type="SHOW"></snd>
+		<snd type="HIDE"></snd>
+		<IsHitTestVisible val="True" />
+		<ClipChildren val="False" />
+		<child type="LABEL" name="txt_horsename" subclass="">
+			<pos x="0" y="43" />
+			<rect l="0" t="0" r="225" b="18" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<label val="" />
+			<OutlineColor val="#FF0000" />
+			<ShadowColor val="#030200" />
+			<color val="#E9FE38" />
+			<halign val="1" />
+			<valign val="0" />
+			<FontName val="나눔고딕 ExtraBold" />
+			<FontSize val="12" />
+			<TextTrimming val="None" />
+			<style val="32" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+			<Padding val="0, 0, 0, 0" />
+			<FitToContent val="False" />
+		</child>
+		<base type="WNDEX" subclass="" name="bg_nickname_blue">
+			<asset type="BG" path="nametag_blue_bg_centermiddle.png" tileMode="Tile">
+				<tex x="4" y="4" />
+				<rect l="10" t="8" r="4" b="4" />
+			</asset>
+			<asset type="EDGE_LT" path="nametag_blue_bg_lefttop.png" tileMode="Tile">
+				<tex x="10" y="8" />
+				<rect l="0" t="0" r="10" b="8" />
+			</asset>
+			<asset type="EDGE_RT" path="nametag_blue_bg_righttop.png" tileMode="Tile">
+				<tex x="10" y="8" />
+				<rect l="0" t="0" r="10" b="8" />
+			</asset>
+			<asset type="EDGE_LB" path="nametag_blue_bg_leftbottom.png" tileMode="Tile">
+				<tex x="10" y="9" />
+				<rect l="0" t="0" r="10" b="9" />
+			</asset>
+			<asset type="EDGE_RB" path="nametag_blue_bg_rightbottom.png" tileMode="Tile">
+				<tex x="10" y="9" />
+				<rect l="0" t="0" r="10" b="9" />
+			</asset>
+			<asset type="FRAME_T" path="nametag_blue_bg_centertop.png" tileMode="Tile">
+				<tex x="4" y="8" />
+				<rect l="10" t="0" r="4" b="8" />
+			</asset>
+			<asset type="FRAME_B" path="nametag_blue_bg_centerbottom.png" tileMode="Tile">
+				<tex x="4" y="9" />
+				<rect l="10" t="0" r="4" b="9" />
+			</asset>
+			<asset type="FRAME_L" path="nametag_blue_bg_leftmiddle.png" tileMode="Tile">
+				<tex x="10" y="4" />
+				<rect l="0" t="8" r="10" b="4" />
+			</asset>
+			<asset type="FRAME_R" path="nametag_blue_bg_rightmiddle.png" tileMode="Tile">
+				<tex x="10" y="4" />
+				<rect l="0" t="8" r="10" b="4" />
+			</asset>
+			<pos x="100" y="20" />
+			<rect l="0" t="0" r="24" b="21" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<snd type="SHOW"></snd>
+			<snd type="HIDE"></snd>
+			<Dragable val="False" />
+			<StartPosition val="None" />
+			<EscKeyAction val="None" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</base>
+		<base type="WNDEX" subclass="" name="bg_nickname_red">
+			<asset type="BG" path="nametag_reb_bg_centermiddle.png" tileMode="Tile">
+				<tex x="4" y="4" />
+				<rect l="10" t="8" r="4" b="4" />
+			</asset>
+			<asset type="EDGE_LT" path="nametag_red_bg_lefttop.png" tileMode="Tile">
+				<tex x="10" y="8" />
+				<rect l="0" t="0" r="10" b="8" />
+			</asset>
+			<asset type="EDGE_RT" path="nametag_red_bg_righttop.png" tileMode="Tile">
+				<tex x="10" y="8" />
+				<rect l="0" t="0" r="10" b="8" />
+			</asset>
+			<asset type="EDGE_LB" path="nametag_red_bg_leftbottom.png" tileMode="Tile">
+				<tex x="10" y="9" />
+				<rect l="0" t="0" r="10" b="9" />
+			</asset>
+			<asset type="EDGE_RB" path="nametag_red_bg_rightbottom.png" tileMode="Tile">
+				<tex x="10" y="9" />
+				<rect l="0" t="0" r="10" b="9" />
+			</asset>
+			<asset type="FRAME_T" path="nametag_red_bg_centertop.png" tileMode="Tile">
+				<tex x="4" y="8" />
+				<rect l="10" t="0" r="4" b="8" />
+			</asset>
+			<asset type="FRAME_B" path="nametag_red_bg_centerbottom.png" tileMode="Tile">
+				<tex x="4" y="9" />
+				<rect l="10" t="0" r="4" b="9" />
+			</asset>
+			<asset type="FRAME_L" path="nametag_red_bg_leftmiddle.png" tileMode="Tile">
+				<tex x="10" y="4" />
+				<rect l="0" t="8" r="10" b="4" />
+			</asset>
+			<asset type="FRAME_R" path="nametag_red_bg_rightmiddle.png" tileMode="Tile">
+				<tex x="10" y="4" />
+				<rect l="0" t="8" r="10" b="4" />
+			</asset>
+			<pos x="100" y="20" />
+			<rect l="0" t="0" r="24" b="21" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<snd type="SHOW"></snd>
+			<snd type="HIDE"></snd>
+			<Dragable val="False" />
+			<StartPosition val="None" />
+			<EscKeyAction val="None" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</base>
+		<base type="WNDEX" subclass="" name="bg_nickname">
+			<asset type="BG" path="nametag_bg_centermiddle.png" tileMode="Tile">
+				<tex x="4" y="4" />
+				<rect l="10" t="8" r="4" b="4" />
+			</asset>
+			<asset type="EDGE_LT" path="nametag_bg_lefttop.png" tileMode="Tile">
+				<tex x="10" y="8" />
+				<rect l="0" t="0" r="10" b="8" />
+			</asset>
+			<asset type="EDGE_RT" path="nametag_bg_righttop.png" tileMode="Tile">
+				<tex x="10" y="8" />
+				<rect l="0" t="0" r="10" b="8" />
+			</asset>
+			<asset type="EDGE_LB" path="nametag_bg_leftbottom.png" tileMode="Tile">
+				<tex x="10" y="9" />
+				<rect l="0" t="0" r="10" b="9" />
+			</asset>
+			<asset type="EDGE_RB" path="nametag_bg_rightbottom.png" tileMode="Tile">
+				<tex x="10" y="9" />
+				<rect l="0" t="0" r="10" b="9" />
+			</asset>
+			<asset type="FRAME_T" path="nametag_bg_centertop.png" tileMode="Tile">
+				<tex x="4" y="8" />
+				<rect l="10" t="0" r="4" b="8" />
+			</asset>
+			<asset type="FRAME_B" path="nametag_bg_centerbottom.png" tileMode="Tile">
+				<tex x="4" y="9" />
+				<rect l="10" t="0" r="4" b="9" />
+			</asset>
+			<asset type="FRAME_L" path="nametag_bg_leftmiddle.png" tileMode="Tile">
+				<tex x="10" y="4" />
+				<rect l="0" t="8" r="10" b="4" />
+			</asset>
+			<asset type="FRAME_R" path="nametag_bg_rightmiddle.png" tileMode="Tile">
+				<tex x="10" y="4" />
+				<rect l="0" t="8" r="10" b="4" />
+			</asset>
+			<pos x="100" y="20" />
+			<rect l="0" t="0" r="24" b="21" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<snd type="SHOW"></snd>
+			<snd type="HIDE"></snd>
+			<Dragable val="False" />
+			<StartPosition val="None" />
+			<EscKeyAction val="None" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</base>
+		<child type="LABEL" name="comm_lb_nickname" subclass="">
+			<pos x="0" y="21" />
+			<rect l="0" t="0" r="225" b="18" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<label val="오예스" />
+			<OutlineColor val="#FF0000" />
+			<ShadowColor val="#030200" />
+			<color val="#FFA837" />
+			<halign val="1" />
+			<valign val="1" />
+			<FontName val="나눔고딕 ExtraBold" />
+			<FontSize val="14" />
+			<TextTrimming val="None" />
+			<style val="32" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+			<Padding val="0, 0, 0, 0" />
+			<FitToContent val="False" />
+		</child>
+		<child type="LABEL" name="txt_guild_name" subclass="">
+			<pos x="0" y="3" />
+			<rect l="0" t="0" r="225" b="18" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<label val="" />
+			<OutlineColor val="#FF0000" />
+			<ShadowColor val="#030200" />
+			<color val="#FFFFFFFF" />
+			<halign val="1" />
+			<valign val="1" />
+			<FontName val="나눔고딕 ExtraBold" />
+			<FontSize val="12" />
+			<TextTrimming val="None" />
+			<style val="32" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+			<Padding val="0, 0, 0, 0" />
+			<FitToContent val="False" />
+		</child>
+		<child type="STACKPANEL" name="emblem" subclass="">
+			<pos x="36" y="-36" />
+			<rect l="0" t="0" r="155" b="40" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<Orientation val="Horizontal" />
+			<HAlign val="Center" />
+			<VAlign val="Bottom" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+			<child type="PICTURE" name="img_emblem_dummy" subclass="">
+				<asset type="STATIC"></asset>
+				<pos x="77" y="0" />
+				<rect l="0" t="0" r="40" b="40" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="img_emblem_rank" subclass="">
+				<asset type="STATIC">league_emblem_small_4_2.png</asset>
+				<pos x="37" y="0" />
+				<rect l="0" t="0" r="40" b="40" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+		</child>
+	</base>
+</refresh>

@@ -1,0 +1,166 @@
+﻿<refresh version="2">
+	<properties>
+		<property name="DPI" val="72" />
+		<property name="UIAnimation" val="collection_pet_column_Animation.xml" />
+	</properties>
+	<base type="WND" subclass="" name="Wnd_pet_column">
+		<pos x="0" y="0" />
+		<rect l="0" t="0" r="104" b="115" />
+		<Visible val="True" />
+		<Anchor val="Top, Left" />
+		<snd type="SHOW"></snd>
+		<snd type="HIDE"></snd>
+		<IsHitTestVisible val="True" />
+		<ClipChildren val="False" />
+		<base type="WND" subclass="" name="Wnd_pet">
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="103" b="115" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<snd type="SHOW"></snd>
+			<snd type="HIDE"></snd>
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+			<child type="PICTURE" name="btn_emblem_list_Normal" subclass="">
+				<asset type="STATIC">collectionbook_list_Normal.png</asset>
+				<pos x="0" y="0" />
+				<rect l="0" t="0" r="103" b="113" />
+				<Visible val="False" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="btn_emblem_list_Hover" subclass="">
+				<asset type="STATIC">collectionbook_list_Hover.png</asset>
+				<pos x="0" y="0" />
+				<rect l="0" t="0" r="103" b="113" />
+				<Visible val="False" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="btn_emblem_list_Push" subclass="">
+				<asset type="STATIC">collectionbook_list_Push.png</asset>
+				<pos x="0" y="0" />
+				<rect l="0" t="0" r="103" b="113" />
+				<Visible val="False" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="btn_emblem_list_Dis" subclass="">
+				<asset type="STATIC">collectionbook_list_Normal.png</asset>
+				<pos x="0" y="0" />
+				<rect l="0" t="0" r="103" b="113" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="btn_emblem_list_theme" subclass="">
+				<asset type="STATIC">img_myinfo_emblem_blank.png</asset>
+				<pos x="-84" y="7" />
+				<rect l="0" t="0" r="74" b="88" />
+				<Visible val="False" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="img_emblem" subclass="">
+				<asset type="STATIC"></asset>
+				<pos x="4" y="0" />
+				<rect l="0" t="0" r="95" b="105" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="img_common_emblem_ribbon" subclass="">
+				<asset type="STATIC">img_common_emblem_ribbon_s_01.png</asset>
+				<pos x="4" y="80" />
+				<rect l="0" t="0" r="97" b="31" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="img_emblem_rare" subclass="">
+				<asset type="STATIC">icon_common_star_emblem_4.png</asset>
+				<pos x="21" y="88" />
+				<rect l="0" t="0" r="63" b="16" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="recall_flag" subclass="">
+				<asset type="STATIC">book_frame_deco_s_01.png</asset>
+				<pos x="0" y="0" />
+				<rect l="0" t="0" r="56" b="57" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+				<child type="LABEL" name="recall_1" subclass="">
+					<pos x="6" y="12" />
+					<rect l="0" t="0" r="42" b="22" />
+					<Visible val="True" />
+					<Anchor val="Left, Right" />
+					<label val="소환중" />
+					<OutlineColor val="#FFFFFF" />
+					<ShadowColor val="#0000004C" />
+					<color val="#FFFFFFFF" />
+					<halign val="1" />
+					<valign val="1" />
+					<FontName val="나눔고딕 ExtraBold" />
+					<FontSize val="13" />
+					<TextTrimming val="None" />
+					<style val="0" />
+					<IsHitTestVisible val="False" />
+					<ClipChildren val="False" />
+					<Padding val="0, 0, 0, 0" />
+					<FitToContent val="False" />
+				</child>
+			</child>
+			<child type="PICTURE" name="shop_icon_new" subclass="">
+				<asset type="STATIC">shop_icon_new.png</asset>
+				<pos x="0" y="0" />
+				<rect l="0" t="0" r="120" b="104" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="img_emblem_list_Select" subclass="">
+				<asset type="STATIC">collectionbook_list_select.png</asset>
+				<pos x="0" y="0" />
+				<rect l="0" t="0" r="103" b="113" />
+				<Visible val="False" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="img_emblem_icon_select" subclass="">
+				<asset type="STATIC">icon_common_select.png</asset>
+				<pos x="78" y="5" />
+				<rect l="0" t="0" r="22" b="23" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+		</base>
+	</base>
+</refresh>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <event animation="_initialize_">
+        <function>PlayFX($asset, "ob_warpgate_magiccircle_a", "d_01", "-attach ")</function>
+        <time>0.0000</time>
+        <freq>ONCE</freq>
+    </event>
+    <event animation="_initialize_">
+        <function>PlayFX($asset, "ob_warpgate_magiccircle_b", "d_01", "-attach ")</function>
+        <time>0.0000</time>
+        <freq>ONCE</freq>
+    </event>
+    <event animation="_initialize_">
+        <function>PlaySND($asset, "ranch_gate_loop", "d_02", "-var 0")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <dummy name="d_02" parent="NODE_0" sync="TRUE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>-3.0096</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <action state="G_IDLE" prevState="" loop="1">
+        <main speed=0.0000>ani1</main>
+    </action>
+    <action state="G_IDLE" prevState="" loop="0">
+        <main speed=0.0000>ani2</main>
+    </action>
+    <action state="G_IDLE" prevState="" loop="0">
+        <main speed=0.0000>ani</main>
+    </action>
+</aim>

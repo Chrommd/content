@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="_Opening_">
+    <asset type="UI" name="asset_StackPanel">
+      <rect l="0" t="0" r="1024" b="160" />
+    </asset>
+    <asset type="UI" name="asset_event_result_frame_effect">
+      <rect l="0" t="0" r="106" b="111" />
+    </asset>
+    <asset type="UI" name="asset_event_item">
+      <rect l="0" t="0" r="71" b="71" />
+    </asset>
+    <object name="StackPanel" ani="ani_StackPanel">
+      <asset type="UI" link="asset_StackPanel" />
+    </object>
+    <object name="event_result_frame_effect" ani="ani_event_result_frame_effect">
+      <asset type="UI" link="asset_event_result_frame_effect" />
+    </object>
+    <object name="event_item" ani="ani_event_item">
+      <asset type="UI" link="asset_event_item" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_StackPanel">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.638020833333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="533">
+        <posx val="0" />
+        <posy val="0.6640625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_event_result_frame_effect">
+      <frame cnt="0">
+        <posx val="0.0576171875" />
+        <posy val="0.0260416666666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1867">
+        <posx val="0.0458984375" />
+        <posy val="0.05078125" />
+        <scalex val="0.386792452830189" />
+        <scaley val="0.378378378378378" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2233">
+        <posx val="0.015625" />
+        <posy val="0.00520833333333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_event_item">
+      <frame cnt="0">
+        <posx val="0.03125" />
+        <posy val="0.03255208" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1400">
+        <posx val="0.03125" />
+        <posy val="0.03255208" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1767">
+        <posx val="0.03125" />
+        <posy val="0.03255208" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Closing_">
+    <asset type="UI" name="asset_StackPanel">
+      <rect l="0" t="0" r="1024" b="160" />
+    </asset>
+    <object name="StackPanel" ani="ani_StackPanel">
+      <asset type="UI" link="asset_StackPanel" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_StackPanel">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.6640625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="300">
+        <posx val="0" easeValue="0.0,0.0,0.4,1.0" />
+        <posy val="0.677083333333333" easeValue="0.0,0.0,0.4,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" easeValue="0.0,0.0,0.4,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

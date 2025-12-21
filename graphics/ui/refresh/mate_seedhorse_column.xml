@@ -1,0 +1,342 @@
+﻿<refresh version="2">
+	<properties>
+		<property name="DPI" val="72" />
+	</properties>
+	<base type="WND" subclass="" name="seedhorse_Wnd">
+		<pos x="0" y="0" />
+		<rect l="0" t="0" r="0" b="0" />
+		<Visible val="True" />
+		<Anchor val="Top, Left" />
+		<snd type="SHOW"></snd>
+		<snd type="HIDE"></snd>
+		<IsHitTestVisible val="True" />
+		<ClipChildren val="False" />
+		<child type="BUTTON" subclass="" name="btn_seedhorse_list">
+			<asset type="NORMAL"></asset>
+			<asset type="DOWN">mate_horse_list_d.png</asset>
+			<asset type="OVER">mate_horse_list_o.png</asset>
+			<asset type="DISABLE">mate_horse_list_dis.png</asset>
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="621" b="28" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<snd type="OVER"></snd>
+			<snd type="DOWN"></snd>
+			<snd type="RELEASE"></snd>
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<IsDefaultButton val="False" />
+			<child type="LABEL" name="txt_horsename" subclass="">
+				<pos x="14" y="4" />
+				<rect l="0" t="0" r="124" b="19" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<label val="" />
+				<OutlineColor val="#FF0000FF" />
+				<ShadowColor val="#FF0000" />
+				<color val="#796456FF" />
+				<halign val="0" />
+				<valign val="1" />
+				<FontName val="나눔고딕" />
+				<FontSize val="13" />
+				<TextTrimming val="CharacterEllipsis" />
+				<style val="1" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+				<Padding val="0, 0, 0, 0" />
+				<FitToContent val="False" />
+			</child>
+			<child type="LABEL" name="txt_horsename1" subclass="">
+				<pos x="27" y="4" />
+				<rect l="0" t="0" r="113" b="19" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<label val="" />
+				<OutlineColor val="#FF0000FF" />
+				<ShadowColor val="#FF0000" />
+				<color val="#796456FF" />
+				<halign val="0" />
+				<valign val="1" />
+				<FontName val="나눔고딕" />
+				<FontSize val="13" />
+				<TextTrimming val="CharacterEllipsis" />
+				<style val="1" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+				<Padding val="0, 0, 0, 0" />
+				<FitToContent val="False" />
+			</child>
+			<child type="LABEL" name="txt_matesuccess" subclass="">
+				<pos x="207" y="4" />
+				<rect l="0" t="0" r="60" b="19" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<label val="" />
+				<OutlineColor val="#FF0000FF" />
+				<ShadowColor val="#FF0000" />
+				<color val="#796456FF" />
+				<halign val="1" />
+				<valign val="1" />
+				<FontName val="나눔고딕" />
+				<FontSize val="13" />
+				<TextTrimming val="None" />
+				<style val="1" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+				<Padding val="0, 0, 0, 0" />
+				<FitToContent val="False" />
+			</child>
+			<child type="PICTURE" name="icon_txt_matesuccess1" subclass="">
+				<asset type="STATIC"></asset>
+				<pos x="569" y="3" />
+				<rect l="0" t="0" r="21" b="21" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="icon_txt_matesuccess" subclass="">
+				<asset type="STATIC"></asset>
+				<pos x="224" y="3" />
+				<rect l="0" t="0" r="21" b="21" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="LABEL" name="txt_commission" subclass="">
+				<pos x="278" y="4" />
+				<rect l="0" t="0" r="59" b="19" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<label val="" />
+				<OutlineColor val="#FF0000FF" />
+				<ShadowColor val="#FF0000" />
+				<color val="#796456FF" />
+				<halign val="2" />
+				<valign val="1" />
+				<FontName val="나눔고딕" />
+				<FontSize val="13" />
+				<TextTrimming val="None" />
+				<style val="1" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+				<Padding val="0, 0, 0, 0" />
+				<FitToContent val="False" />
+			</child>
+			<child type="LABEL" name="lb_carrot" subclass="">
+				<pos x="339" y="4" />
+				<rect l="0" t="0" r="28" b="19" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<label val="캐롯" />
+				<OutlineColor val="#FF0000FF" />
+				<ShadowColor val="#FF0000" />
+				<color val="#796456FF" />
+				<halign val="0" />
+				<valign val="1" />
+				<FontName val="나눔고딕" />
+				<FontSize val="13" />
+				<TextTrimming val="None" />
+				<style val="1" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+				<Padding val="0, 0, 0, 0" />
+				<FitToContent val="False" />
+			</child>
+			<child type="PICTURE" name="mate_icon_gauge_bg" subclass="">
+				<asset type="STATIC">mate_icon_gauge_bg.png</asset>
+				<pos x="375" y="5" />
+				<rect l="0" t="0" r="100" b="17" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PROGRESS" name="mate_icon_gauge" subclass="">
+				<asset type="BAR" tileMode="Stretch">mate_icon_gauge.png</asset>
+				<tex x="100" y="17" />
+				<pos x="376" y="6" />
+				<rect l="0" t="0" r="100" b="17" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="mate_icon_top" subclass="">
+				<asset type="STATIC">mate_icon_top.png</asset>
+				<pos x="372" y="3" />
+				<rect l="0" t="0" r="107" b="21" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="LABEL" name="txt_timeout" subclass="">
+				<pos x="488" y="4" />
+				<rect l="0" t="0" r="56" b="19" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<label val="" />
+				<OutlineColor val="#FF0000FF" />
+				<ShadowColor val="#FF0000" />
+				<color val="#796456FF" />
+				<halign val="1" />
+				<valign val="1" />
+				<FontName val="나눔고딕" />
+				<FontSize val="13" />
+				<TextTrimming val="None" />
+				<style val="1" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+				<Padding val="0, 0, 0, 0" />
+				<FitToContent val="False" />
+			</child>
+			<child type="LABEL" name="txt_blood_pt" subclass="">
+				<pos x="175" y="4" />
+				<rect l="0" t="0" r="31" b="19" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<label val="" />
+				<OutlineColor val="#FF0000FF" />
+				<ShadowColor val="#FF0000" />
+				<color val="#796456FF" />
+				<halign val="1" />
+				<valign val="1" />
+				<FontName val="나눔고딕" />
+				<FontSize val="13" />
+				<TextTrimming val="None" />
+				<style val="1" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+				<Padding val="0, 0, 0, 0" />
+				<FitToContent val="False" />
+			</child>
+			<child type="PICTURE" name="img_icon_skin" subclass="">
+				<asset type="STATIC"></asset>
+				<pos x="146" y="2" />
+				<rect l="0" t="0" r="30" b="24" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="LABEL" name="txt_success" subclass="">
+				<pos x="547" y="4" />
+				<rect l="0" t="0" r="56" b="19" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<label val="" />
+				<OutlineColor val="#FF0000FF" />
+				<ShadowColor val="#FF0000" />
+				<color val="#796456FF" />
+				<halign val="1" />
+				<valign val="1" />
+				<FontName val="나눔고딕" />
+				<FontSize val="13" />
+				<TextTrimming val="None" />
+				<style val="1" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+				<Padding val="0, 0, 0, 0" />
+				<FitToContent val="False" />
+			</child>
+		</child>
+		<child type="CHECK" name="cb_favorite" subclass="">
+			<asset type="NORMAL">checkbox_n.png</asset>
+			<asset type="CHECK">checkbox_d.png</asset>
+			<pos x="0" y="-1" />
+			<rect l="0" t="0" r="28" b="28" />
+			<Visible val="True" />
+			<PushSound val="ui_btn_menu_close" />
+			<Anchor val="Top, Left" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="LABELBUTTON" name="btn_seedhorse_deselect" subclass="">
+			<asset type="NORMAL">mate_btn_deselect_n.png</asset>
+			<asset type="DOWN">mate_btn_deselect_d.png</asset>
+			<asset type="OVER">mate_btn_deselect_o.png</asset>
+			<asset type="DISABLE">mate_btn_deselect_dis.png</asset>
+			<control type="LABEL" name="btn_seedhorse_deselect_Label">
+				<pos x="-1" y="0" />
+				<rect l="0" t="0" r="69" b="19" />
+				<Visible val="True" />
+				<Anchor val="Bottom, Left, Right" />
+				<label val="해제하기" />
+				<OutlineColor val="#FF0000" />
+				<ShadowColor val="#FF0000" />
+				<color val="#1C0F00" />
+				<halign val="1" />
+				<valign val="1" />
+				<FontName val="나눔고딕" />
+				<FontSize val="12" />
+				<TextTrimming val="None" />
+				<style val="1" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+				<Padding val="0, 0, 0, 0" />
+				<FitToContent val="False" />
+			</control>
+			<pos x="546" y="4" />
+			<rect l="0" t="0" r="70" b="21" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<snd type="OVER"></snd>
+			<snd type="DOWN">ui_btn_menu_close</snd>
+			<snd type="RELEASE"></snd>
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<NormalColor val="#46280EFF" />
+			<HoverColor val="#796456FF" />
+			<PushColor val="#46280EFF" />
+			<DisableColor val="#46280EFF" />
+			<IsDefaultButton val="False" />
+		</child>
+		<child type="LABELBUTTON" name="btn_seedhorse_select" subclass="">
+			<asset type="NORMAL">mate_btn_select_n.png</asset>
+			<asset type="DOWN">mate_btn_select_d.png</asset>
+			<asset type="OVER">mate_btn_select_o.png</asset>
+			<asset type="DISABLE">mate_btn_select_dis.png</asset>
+			<control type="LABEL" name="btn_seedhorse_select_Label">
+				<pos x="0" y="0" />
+				<rect l="0" t="0" r="70" b="19" />
+				<Visible val="True" />
+				<Anchor val="Bottom, Left, Right" />
+				<label val="Select" />
+				<OutlineColor val="#FF0000" />
+				<ShadowColor val="#FF0000" />
+				<color val="#46280E" />
+				<halign val="1" />
+				<valign val="1" />
+				<FontName val="나눔고딕" />
+				<FontSize val="12" />
+				<TextTrimming val="None" />
+				<style val="1" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+				<Padding val="0, 0, 0, 0" />
+				<FitToContent val="False" />
+			</control>
+			<pos x="546" y="4" />
+			<rect l="0" t="0" r="70" b="21" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<snd type="OVER"></snd>
+			<snd type="DOWN">ui_btn_menu_close</snd>
+			<snd type="RELEASE"></snd>
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<NormalColor val="#46280EFF" />
+			<HoverColor val="#796456FF" />
+			<PushColor val="#46280EFF" />
+			<DisableColor val="#46280E" />
+			<IsDefaultButton val="False" />
+		</child>
+	</base>
+</refresh>

@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2" parent="r00">
+    <category name="CARE" script="" />
+    <category name="CURE_ANTISET_A" script="-antiset_a" />
+    <category name="CURE_ANTISET_B" script="-antiset_b" />
+    <category name="CURE_HEALTHY" script="-healthy" />
+    <category name="CURE_MUSCLE_A" script="-muscle_a" />
+    <category name="CURE_MUSCLE_B" script="-muscle_b" />
+    <category name="CURE_SPLINT_A" script="-splint_a" />
+    <category name="CURE_SPLINT_B" script="-splint_b" />
+    <action category="CURE_ANTISET_A" state="CARE_CURE" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>c[cure]antiset_a00</main>
+    </action>
+    <action category="CURE_ANTISET_B" state="CARE_CURE" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>c[cure]antiset_b00</main>
+    </action>
+    <action category="CURE_MUSCLE_A" state="CARE_CURE" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>c[cure]muscle_a00</main>
+    </action>
+    <action category="CURE_MUSCLE_B" state="CARE_CURE" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>c[cure]muscle_b00</main>
+    </action>
+    <action category="CURE_SPLINT_A" state="CARE_CURE" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>c[cure]splint_a00</main>
+    </action>
+    <action category="CURE_SPLINT_B" state="CARE_CURE" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>c[cure]splint_b00</main>
+    </action>
+    <action category="CURE_ANTISET_A" state="CARE_CURE_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>c[cure]idle_00</main>
+    </action>
+    <action category="CURE_ANTISET_B" state="CARE_CURE_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>c[cure]idle_00</main>
+    </action>
+    <action category="CURE_MUSCLE_A" state="CARE_CURE_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>c[cure]idle_00</main>
+    </action>
+    <action category="CURE_MUSCLE_B" state="CARE_CURE_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>c[cure]idle_00</main>
+    </action>
+    <action category="CURE_SPLINT_A" state="CARE_CURE_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>c[cure]idle_00</main>
+    </action>
+    <action category="CURE_SPLINT_B" state="CARE_CURE_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>c[cure]idle_00</main>
+    </action>
+    <action category="CURE_HEALTHY" state="CARE_CURE_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>c[idle]_00</main>
+    </action>
+    <action category="CARE" state="CARE_CURE_IDLE_NORMAL" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>c[idle]_00</main>
+    </action>
+    <action category="CURE_ANTISET_A" state="CARE_CURE_SELECT" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>c[cure]idle_antiset_a00_trans</main>
+    </action>
+    <action category="CURE_ANTISET_B" state="CARE_CURE_SELECT" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>c[cure]idle_antiset_b00_trans</main>
+    </action>
+    <action category="CURE_MUSCLE_A" state="CARE_CURE_SELECT" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>c[cure]idle_muscle_a00_trans</main>
+    </action>
+    <action category="CURE_MUSCLE_B" state="CARE_CURE_SELECT" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>c[cure]idle_muscle_b00_trans</main>
+    </action>
+    <action category="CURE_SPLINT_A" state="CARE_CURE_SELECT" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>c[cure]idle_splint_a00_trans</main>
+    </action>
+    <action category="CURE_SPLINT_B" state="CARE_CURE_SELECT" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>c[cure]idle_splint_b00_trans</main>
+    </action>
+    <action category="CURE_ANTISET_A" state="CARE_CURE_SELECT_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>c[cure]idle_antiset_a00</main>
+    </action>
+    <action category="CURE_ANTISET_B" state="CARE_CURE_SELECT_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>c[cure]idle_antiset_b00</main>
+    </action>
+    <action category="CURE_MUSCLE_A" state="CARE_CURE_SELECT_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>c[cure]idle_muscle_a00</main>
+    </action>
+    <action category="CURE_MUSCLE_B" state="CARE_CURE_SELECT_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>c[cure]idle_muscle_b00</main>
+    </action>
+    <action category="CURE_SPLINT_A" state="CARE_CURE_SELECT_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>c[cure]idle_splint_a00</main>
+    </action>
+    <action category="CURE_SPLINT_B" state="CARE_CURE_SELECT_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>c[cure]idle_splint_b00</main>
+    </action>
+    <action category="CARE" state="CARE_FEED_HAND" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>c[feed]hand_00</main>
+    </action>
+    <action category="CARE" state="CARE_FEED_HAND_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>c[feed]idle_hand_00</main>
+    </action>
+    <action category="CARE" state="CARE_FEED_HAND_IGNORE" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>c[feed]hand_00_ignore</main>
+    </action>
+    <action category="CARE" state="CARE_FEED_HAND_SELECT" prevState="CARE_FEED_HAND_SELECT" loop="0" weight="1" script="">
+        <main speed=0.0000>c[feed]change_hand_00</main>
+    </action>
+    <action category="CARE" state="CARE_FEED_HAND_SELECT" prevState="CARE_FEED_HAND_IDLE" loop="0" weight="1" script="">
+        <main speed=0.0000>c[feed]change_hand_00</main>
+    </action>
+    <action category="CARE" state="CARE_FEED_HAND_SELECT" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>c[feed]idle_hand_00_trans</main>
+    </action>
+    <action category="CARE" state="CARE_FEED_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>c[feed]idle_00</main>
+    </action>
+    <action category="CARE" state="CARE_FEED_TROUGH" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>c[feed]manger_00</main>
+    </action>
+    <action category="CARE" state="CARE_FEED_TROUGH_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>c[feed]idle_manger_00</main>
+    </action>
+    <action category="CARE" state="CARE_FEED_TROUGH_IGNORE" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>c[feed]manger_00_ignore</main>
+    </action>
+    <action category="CARE" state="CARE_FEED_TROUGH_SELECT" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>c[feed]idle_manger_00_trans</main>
+    </action>
+    <action category="CARE" state="CARE_FEED_TROUGH_SELECT" prevState="CARE_FEED_TROUGH_IDLE" loop="0" weight="1" script="">
+        <main speed=0.0000>c[feed]change_manger_00</main>
+    </action>
+    <action category="CARE" state="CARE_FEED_TROUGH_SELECT" prevState="CARE_FEED_TROUGH_SELECT" loop="0" weight="1" script="">
+        <main speed=0.0000>c[feed]change_manger_00</main>
+    </action>
+    <action category="CARE" state="CARE_PLAY_BOW_ATTACH_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>c[train]idle_bow_00</main>
+    </action>
+    <action category="CARE" state="CARE_PLAY_BOW_FAILURE" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>c[train]bow_fail_00</main>
+    </action>
+    <action category="CARE" state="CARE_PLAY_BOW_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>c[train]bow_idle_00</main>
+    </action>
+    <action category="CARE" state="CARE_PLAY_BOW_INTRO" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>c[train]bow_idle_00_trans</main>
+    </action>
+    <action category="CARE" state="CARE_PLAY_BOW_LOOP" prevState="" loop="1" weight="1" script="">
+        <begin speed=0.0000>c[train]bow_loop_00_trans</begin>
+        <main speed=0.0000>c[train]bow_loop_00</main>
+    </action>
+    <action category="CARE" state="CARE_PLAY_BOW_SELECT" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>c[train]idle_bow_00_trans</main>
+    </action>
+    <action category="CARE" state="CARE_PLAY_BOW_SUCCESS" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>c[train]bow_cool_00</main>
+    </action>
+    <action category="CARE" state="CARE_PLAY_CARROT_ATTACH_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>c[train]idle_carrot_00</main>
+    </action>
+    <action category="CARE" state="CARE_PLAY_CARROT_FAILURE" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>c[train]carrot_fail_00</main>
+    </action>
+    <action category="CARE" state="CARE_PLAY_CARROT_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>c[train]carrot_idle_00</main>
+    </action>
+    <action category="CARE" state="CARE_PLAY_CARROT_INTRO" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>c[train]carrot_idle_00_trans</main>
+    </action>
+    <action category="CARE" state="CARE_PLAY_CARROT_LOOP" prevState="" loop="1" weight="1" script="">
+        <begin speed=0.0000>c[train]carrot_loop_00_trans</begin>
+        <main speed=0.0000>c[train]carrot_loop_00</main>
+    </action>
+    <action category="CARE" state="CARE_PLAY_CARROT_SELECT" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>c[train]idle_carrot_00_trans</main>
+    </action>
+    <action category="CARE" state="CARE_PLAY_CARROT_SUCCESS" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>c[train]carrot_cool_00</main>
+    </action>
+    <action category="CARE" state="CARE_PLAY_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>c[train]idle_00</main>
+    </action>
+    <action category="CARE" state="CARE_WASH_BODY_ATTACH_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>c[clean]idle_stain_00</main>
+    </action>
+    <action category="CARE" state="CARE_WASH_BODY_A_DOWN" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>c[clean]stain_00_a0</main>
+    </action>
+    <action category="CARE" state="CARE_WASH_BODY_A_UP" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>c[clean]stain_00_a1</main>
+    </action>
+    <action category="CARE" state="CARE_WASH_BODY_B_DOWN" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>c[clean]stain_00_b0</main>
+    </action>
+    <action category="CARE" state="CARE_WASH_BODY_B_UP" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>c[clean]stain_00_b1</main>
+    </action>
+    <action category="CARE" state="CARE_WASH_BODY_C_DOWN" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>c[clean]stain_00_c0</main>
+    </action>
+    <action category="CARE" state="CARE_WASH_BODY_C_UP" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>c[clean]stain_00_c1</main>
+    </action>
+    <action category="CARE" state="CARE_WASH_BODY_NEUTRAL" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>c[clean]stain_idle_00</main>
+    </action>
+    <action category="CARE" state="CARE_WASH_BODY_SELECT" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>c[clean]idle_stain_00_trans</main>
+    </action>
+    <action category="CARE" state="CARE_WASH_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>c[clean]idle_00</main>
+    </action>
+    <action category="CARE" state="CARE_WASH_MANE" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>c[clean]mane_00</main>
+    </action>
+    <action category="CARE" state="CARE_WASH_MANE_ATTACH_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>c[clean]idle_mane_00</main>
+    </action>
+    <action category="CARE" state="CARE_WASH_MANE_SELECT" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>c[clean]idle_mane_00_trans</main>
+    </action>
+    <action category="CARE" state="CARE_WASH_TAIL" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>c[clean]tail_00</main>
+    </action>
+    <action category="CARE" state="CARE_WASH_TAIL_ATTACH_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>c[clean]idle_tail_00</main>
+    </action>
+    <action category="CARE" state="CARE_WASH_TAIL_SELECT" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>c[clean]idle_tail_00_trans</main>
+    </action>
+    <layer state="BRAKE" loop="0" basis="0.00">
+        <main>g[layer]brake_00</main>
+    </layer>
+    <layer state="IDLE" loop="1" basis="0.00">
+        <main>c[layer]idle_00</main>
+    </layer>
+    <layer state="LAYER_DAMAGE" loop="0" basis="0.00">
+        <main>g[layer]dmg_00</main>
+    </layer>
+    <layer state="SLIDE_AL" loop="0" basis="0.00">
+        <main>g[layer]slide_00_al</main>
+    </layer>
+    <layer state="SLIDE_AR" loop="0" basis="0.00">
+        <main>g[layer]slide_00_ar</main>
+    </layer>
+    <layer state="SLIDE_BL" loop="0" basis="0.00">
+        <main>g[layer]slide_00_bl</main>
+    </layer>
+    <layer state="SLIDE_BR" loop="0" basis="0.00">
+        <main>g[layer]slide_00_br</main>
+    </layer>
+    <layer state="STEER_COURBT_L" loop="0" basis="0.00">
+        <main>g[layer]steer_courbt_00_l</main>
+    </layer>
+    <layer state="STEER_COURBT_R" loop="0" basis="0.00">
+        <main>g[layer]steer_courbt_00_r</main>
+    </layer>
+    <layer state="STEER_L" loop="0" basis="0.00">
+        <main>g[layer]steer_00_l</main>
+    </layer>
+    <layer state="STEER_R" loop="0" basis="0.00">
+        <main>g[layer]steer_00_r</main>
+    </layer>
+    <layer state="STEER_SPUR_L" loop="0" basis="0.00">
+        <main>g[layer]steer_spur_00_l</main>
+    </layer>
+    <layer state="STEER_SPUR_R" loop="0" basis="0.00">
+        <main>g[layer]steer_spur_00_r</main>
+    </layer>
+    <layer state="TEST" loop="0" basis="0.50">
+        <main>g[layer]pose_00</main>
+    </layer>
+</aim>

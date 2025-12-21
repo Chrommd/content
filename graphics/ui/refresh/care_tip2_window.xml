@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="care_tip2_window_Animation.xml" />
+  </properties>
+  <base type="WND" subclass="" name="care_tip2">
+    <Visible val="True" />
+    <Anchor val="None" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="153" b="37" />
+    <IsHitTestVisible val="True" />
+    <ClipChildren val="False" />
+    <base type="WNDEX" subclass="" name="bg_care_tip">
+      <asset type="BG" path="tooltip_d_04.png">
+        <tex x="11" y="4" />
+        <rect l="11" t="11" r="128" b="5" />
+      </asset>
+      <asset type="EDGE_LT" path="tooltip_d_00.png">
+        <tex x="11" y="11" />
+        <rect l="0" t="0" r="11" b="11" />
+      </asset>
+      <asset type="EDGE_RT" path="tooltip_d_02.png">
+        <tex x="14" y="11" />
+        <rect l="0" t="0" r="14" b="11" />
+      </asset>
+      <asset type="EDGE_LB" path="tooltip_d_06.png">
+        <tex x="11" y="20" />
+        <rect l="0" t="0" r="11" b="20" />
+      </asset>
+      <asset type="EDGE_RB" path="tooltip_d_08.png">
+        <tex x="14" y="20" />
+        <rect l="0" t="0" r="14" b="20" />
+      </asset>
+      <asset type="FRAME_T" path="tooltip_d_01.png">
+        <tex x="11" y="11" />
+        <rect l="11" t="0" r="128" b="11" />
+      </asset>
+      <asset type="FRAME_B" path="tooltip_d_07.png">
+        <tex x="11" y="20" />
+        <rect l="11" t="0" r="128" b="20" />
+      </asset>
+      <asset type="FRAME_L" path="tooltip_d_03.png">
+        <tex x="11" y="4" />
+        <rect l="0" t="11" r="11" b="5" />
+      </asset>
+      <asset type="FRAME_R" path="tooltip_d_05.png">
+        <tex x="14" y="4" />
+        <rect l="0" t="11" r="14" b="5" />
+      </asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="153" b="36" />
+      <Dragable val="False" />
+      <StartPosition val="None" />
+      <EscKeyAction val="None" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </base>
+    <child type="PICTURE" name="bg_tip_line" subclass="">
+      <asset type="STATIC">tooltip_d_line.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="73" y="30" />
+      <rect l="0" t="0" r="8" b="16" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="TEXTAREA" name="txt_care_tip2" subclass="">
+      <asset type="BG" path="">
+        <tex x="0" y="0" />
+        <rect l="8" t="8" r="97" b="3" />
+      </asset>
+      <asset type="EDGE_LT" path="">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_RT" path="">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_LB" path="">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_RB" path="">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="FRAME_T" path="">
+        <tex x="0" y="0" />
+        <rect l="8" t="0" r="97" b="8" />
+      </asset>
+      <asset type="FRAME_B" path="">
+        <tex x="0" y="0" />
+        <rect l="8" t="0" r="97" b="8" />
+      </asset>
+      <asset type="FRAME_L" path="">
+        <tex x="0" y="0" />
+        <rect l="0" t="8" r="8" b="3" />
+      </asset>
+      <asset type="FRAME_R" path="">
+        <tex x="0" y="0" />
+        <rect l="0" t="8" r="8" b="3" />
+      </asset>
+      <asset type="CARET" path="">
+        <rpos x="0" y="0" />
+        <rect l="0" t="0" r="0" b="0" />
+      </asset>
+      <pos x="19" y="6" />
+      <rect l="0" t="0" r="113" b="19" />
+      <Visible val="True" />
+      <Anchor val="None" />
+      <Editable val="False" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#291205" />
+      <SelectionBrush val="#FF0000" />
+      <color val="#FFFBF9" />
+      <style val="32" />
+      <halign val="0" />
+      <padding l="0" t="0" r="0" b="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="13" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+  </base>
+</refresh>

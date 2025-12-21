@@ -1,0 +1,1755 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="letter_open">
+    <asset type="UI" name="asset_Wnd">
+      <rect l="0" t="0" r="1024" b="768" />
+    </asset>
+    <asset type="UI" name="asset_StackPanel">
+      <rect l="0" t="0" r="1024" b="768" />
+    </asset>
+    <asset type="UI" name="asset_img_intro_movie">
+      <rect l="0" t="0" r="1024" b="768" />
+    </asset>
+    <asset type="UI" name="asset_stack_letter">
+      <rect l="0" t="0" r="1024" b="768" />
+    </asset>
+    <asset type="UI" name="asset_wnd_intro_letter">
+      <rect l="0" t="0" r="593" b="616" />
+    </asset>
+    <asset type="UI" name="asset_img_introletter_cat">
+      <rect l="0" t="0" r="72" b="146" />
+    </asset>
+    <asset type="UI" name="asset_img_introletter_sheep ">
+      <rect l="0" t="0" r="84" b="180" />
+    </asset>
+    <asset type="UI" name="asset_img_introletter_starto">
+      <rect l="0" t="0" r="127" b="189" />
+    </asset>
+    <asset type="UI" name="asset_img_introletter_startohand_back">
+      <rect l="0" t="0" r="31" b="34" />
+    </asset>
+    <asset type="UI" name="asset_wnd_intro_letter_btn">
+      <rect l="0" t="0" r="534" b="690" />
+    </asset>
+    <asset type="UI" name="asset_img_introletter_bg">
+      <rect l="0" t="0" r="490" b="493" />
+    </asset>
+    <asset type="UI" name="asset_img_introletter_bg1">
+      <rect l="0" t="0" r="490" b="493" />
+    </asset>
+    <asset type="UI" name="asset_lb_intro_letter_to">
+      <rect l="0" t="0" r="359" b="34" />
+    </asset>
+    <asset type="UI" name="asset_ta_intro_letter_contents">
+      <rect l="0" t="0" r="379" b="190" />
+    </asset>
+    <asset type="UI" name="asset_btn_intro_letter">
+      <rect l="0" t="0" r="303" b="218" />
+    </asset>
+    <asset type="UI" name="asset_img_introletter_string_top02">
+      <rect l="0" t="0" r="55" b="39" />
+    </asset>
+    <asset type="UI" name="asset_img_introletter_string_botton">
+      <rect l="0" t="0" r="58" b="97" />
+    </asset>
+    <asset type="UI" name="asset_img_introletter_bg_top">
+      <rect l="0" t="0" r="515" b="59" />
+    </asset>
+    <asset type="UI" name="asset_img_introletter_bg_bottom">
+      <rect l="0" t="0" r="506" b="67" />
+    </asset>
+    <asset type="UI" name="asset_img_introletter_string_shadow">
+      <rect l="0" t="0" r="79" b="167" />
+    </asset>
+    <asset type="UI" name="asset_img_introletter_string_top01">
+      <rect l="0" t="0" r="92" b="187" />
+    </asset>
+    <asset type="UI" name="asset_img_introletter_seal">
+      <rect l="0" t="0" r="101" b="94" />
+    </asset>
+    <asset type="UI" name="asset_img_introletter_bg_disable">
+      <rect l="0" t="0" r="539" b="695" />
+    </asset>
+    <asset type="UI" name="asset_img_intro_effect">
+      <rect l="0" t="0" r="478" b="586" />
+    </asset>
+    <asset type="UI" name="asset_img_introletter_startohand_front">
+      <rect l="0" t="0" r="34" b="26" />
+    </asset>
+    <object name="Wnd" ani="ani_Wnd">
+      <asset type="UI" link="asset_Wnd" />
+    </object>
+    <object name="StackPanel" ani="ani_StackPanel">
+      <asset type="UI" link="asset_StackPanel" />
+    </object>
+    <object name="img_intro_movie" ani="ani_img_intro_movie">
+      <asset type="UI" link="asset_img_intro_movie" />
+    </object>
+    <object name="stack_letter" ani="ani_stack_letter">
+      <asset type="UI" link="asset_stack_letter" />
+    </object>
+    <object name="wnd_intro_letter" ani="ani_wnd_intro_letter">
+      <asset type="UI" link="asset_wnd_intro_letter" />
+    </object>
+    <object name="img_introletter_cat" ani="ani_img_introletter_cat">
+      <asset type="UI" link="asset_img_introletter_cat" />
+    </object>
+    <object name="img_introletter_sheep " ani="ani_img_introletter_sheep ">
+      <asset type="UI" link="asset_img_introletter_sheep " />
+    </object>
+    <object name="img_introletter_starto" ani="ani_img_introletter_starto">
+      <asset type="UI" link="asset_img_introletter_starto" />
+    </object>
+    <object name="img_introletter_startohand_back" ani="ani_img_introletter_startohand_back">
+      <asset type="UI" link="asset_img_introletter_startohand_back" />
+    </object>
+    <object name="wnd_intro_letter_btn" ani="ani_wnd_intro_letter_btn">
+      <asset type="UI" link="asset_wnd_intro_letter_btn" />
+    </object>
+    <object name="img_introletter_bg" ani="ani_img_introletter_bg">
+      <asset type="UI" link="asset_img_introletter_bg" />
+    </object>
+    <object name="img_introletter_bg1" ani="ani_img_introletter_bg1">
+      <asset type="UI" link="asset_img_introletter_bg1" />
+    </object>
+    <object name="lb_intro_letter_to" ani="ani_lb_intro_letter_to">
+      <asset type="UI" link="asset_lb_intro_letter_to" />
+    </object>
+    <object name="ta_intro_letter_contents" ani="ani_ta_intro_letter_contents">
+      <asset type="UI" link="asset_ta_intro_letter_contents" />
+    </object>
+    <object name="btn_intro_letter" ani="ani_btn_intro_letter">
+      <asset type="UI" link="asset_btn_intro_letter" />
+    </object>
+    <object name="img_introletter_string_top02" ani="ani_img_introletter_string_top02">
+      <asset type="UI" link="asset_img_introletter_string_top02" />
+    </object>
+    <object name="img_introletter_string_botton" ani="ani_img_introletter_string_botton">
+      <asset type="UI" link="asset_img_introletter_string_botton" />
+    </object>
+    <object name="img_introletter_bg_top" ani="ani_img_introletter_bg_top">
+      <asset type="UI" link="asset_img_introletter_bg_top" />
+    </object>
+    <object name="img_introletter_bg_bottom" ani="ani_img_introletter_bg_bottom">
+      <asset type="UI" link="asset_img_introletter_bg_bottom" />
+    </object>
+    <object name="img_introletter_string_shadow" ani="ani_img_introletter_string_shadow">
+      <asset type="UI" link="asset_img_introletter_string_shadow" />
+    </object>
+    <object name="img_introletter_string_top01" ani="ani_img_introletter_string_top01">
+      <asset type="UI" link="asset_img_introletter_string_top01" />
+    </object>
+    <object name="img_introletter_seal" ani="ani_img_introletter_seal">
+      <asset type="UI" link="asset_img_introletter_seal" />
+    </object>
+    <object name="img_introletter_bg_disable" ani="ani_img_introletter_bg_disable">
+      <asset type="UI" link="asset_img_introletter_bg_disable" />
+    </object>
+    <object name="img_intro_effect" ani="ani_img_intro_effect">
+      <asset type="UI" link="asset_img_intro_effect" />
+    </object>
+    <object name="img_introletter_startohand_front" ani="ani_img_introletter_startohand_front">
+      <asset type="UI" link="asset_img_introletter_startohand_front" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_Wnd">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_StackPanel">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <sound val="ui_event_clear" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_intro_movie">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_stack_letter">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_wnd_intro_letter">
+      <frame cnt="0">
+        <posx val="0.2099609" />
+        <posy val="0.09895834" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_introletter_cat">
+      <frame cnt="0">
+        <posx val="0.5097656" />
+        <posy val="0.59375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1433">
+        <posx val="0.451171875" />
+        <posy val="0.59375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1700">
+        <posx val="0.5068359" />
+        <posy val="0.59375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,0.0,0.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1833">
+        <posx val="0.509765625" easeValue="0.0,0.0,0.0,1.0" />
+        <posy val="0.59375" easeValue="0.0,0.0,0.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_introletter_sheep ">
+      <frame cnt="0">
+        <posx val="-0.01660156" />
+        <posy val="0.5351563" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1100">
+        <posx val="0.0419921875" />
+        <posy val="0.53515625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1367">
+        <posx val="-0.01367188" />
+        <posy val="0.5351563" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,0.0,0.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1500">
+        <posx val="-0.0166015625" easeValue="0.0,0.0,0.0,1.0" />
+        <posy val="0.53515625" easeValue="0.0,0.0,0.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_introletter_starto">
+      <frame cnt="0">
+        <posx val="0.4941406" />
+        <posy val="0.3528646" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1233">
+        <posx val="0.435546875" />
+        <posy val="0.352864583333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1500">
+        <posx val="0.4912109" />
+        <posy val="0.3528646" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,0.0,0.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1633">
+        <posx val="0.494140625" easeValue="0.0,0.0,0.0,1.0" />
+        <posy val="0.352864583333333" easeValue="0.0,0.0,0.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_introletter_startohand_back">
+      <frame cnt="0">
+        <posx val="0.5048828" />
+        <posy val="0.5716146" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="933">
+        <posx val="0.4873047" />
+        <posy val="0.5716146" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1100">
+        <posx val="0.484375" />
+        <posy val="0.571614583333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.5" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1267">
+        <posx val="0.5068359375" />
+        <posy val="0.571614583333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1400">
+        <posx val="0.5048828125" />
+        <posy val="0.571614583333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_wnd_intro_letter_btn">
+      <frame cnt="0">
+        <posx val="0.02148438" />
+        <posy val="-0.002604167" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="300">
+        <posx val="0.021484375" />
+        <posy val="0.180989583333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="700">
+        <posx val="0.021484375" />
+        <posy val="-0.00260416666666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,1.0,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_introletter_bg">
+      <frame cnt="0">
+        <posx val="0.0283203125" />
+        <posy val="0.09375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="300">
+        <posx val="0.0283203125" />
+        <posy val="-0.0768229166666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="700">
+        <posx val="0.0283203125" />
+        <posy val="0.0950520833333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_introletter_bg1">
+      <frame cnt="0">
+        <posx val="0.0283203125" />
+        <posy val="0.09375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="300">
+        <posx val="0.0283203125" />
+        <posy val="-0.0768229166666667" />
+        <scalex val="1" />
+        <scaley val="0.953346855983773" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="700">
+        <posx val="0.0283203125" />
+        <posy val="0.0924479166666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_lb_intro_letter_to">
+      <frame cnt="0">
+        <posx val="0.04980469" />
+        <posy val="0.09114584" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ta_intro_letter_contents">
+      <frame cnt="0">
+        <posx val="0.05078125" />
+        <posy val="0.1367188" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_btn_intro_letter">
+      <frame cnt="0">
+        <posx val="0.2060547" />
+        <posy val="0.453125" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="700">
+        <posx val="0.2060546875" />
+        <posy val="0.490885416666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1133">
+        <posx val="0.2060546875" easeValue="0.0,0.0,0.1,1.0" />
+        <posy val="0.44921875" easeValue="0.0,0.0,0.1,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.76" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1267">
+        <posx val="0.2060546875" />
+        <posy val="0.451822916666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_introletter_string_top02">
+      <frame cnt="0">
+        <posx val="0.3427734" />
+        <posy val="-0.002604167" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="300">
+        <posx val="0.3427734375" />
+        <posy val="0.1484375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="733">
+        <posx val="0.3427734375" easeValue="0.0,1.0,1.0,1.0" />
+        <posy val="-0.0143229166666667" easeValue="0.0,1.0,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,1.0,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="933">
+        <posx val="0.3427734375" />
+        <posy val="-0.00260416666666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_introletter_string_botton">
+      <frame cnt="0">
+        <posx val="0.21875" />
+        <posy val="0.7695313" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="300">
+        <posx val="0.21875" />
+        <posy val="0.6171875" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="733">
+        <posx val="0.21875" easeValue="0.0,0.0,0.0,1.0" />
+        <posy val="0.77734375" easeValue="0.0,0.0,0.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,0.0,0.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="933">
+        <posx val="0.21875" />
+        <posy val="0.76953125" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_introletter_bg_top">
+      <frame cnt="0">
+        <posx val="0.0234375" />
+        <posy val="0.03255208" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="300">
+        <posx val="0.0234375" />
+        <posy val="0.190104166666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="700">
+        <posx val="0.0234375" easeValue="0.0,1.0,1.0,1.0" />
+        <posy val="0.0286458333333333" easeValue="0.0,1.0,1.0,1.0" />
+        <scalex val="1" easeValue="0.0,1.0,1.0,1.0" />
+        <scaley val="1" easeValue="0.0,1.0,1.0,1.0" />
+        <alpha val="1" easeValue="0.0,1.0,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="833">
+        <posx val="0.0234375" />
+        <posy val="0.0325520833333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_introletter_bg_bottom">
+      <frame cnt="0">
+        <posx val="0.05078125" />
+        <posy val="0.7200521" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="300">
+        <posx val="0.05078125" />
+        <posy val="0.528645833333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="700">
+        <posx val="0.05078125" easeValue="0.0,1.0,1.0,1.0" />
+        <posy val="0.723958333333333" easeValue="0.0,1.0,1.0,1.0" />
+        <scalex val="1" easeValue="0.0,1.0,1.0,1.0" />
+        <scaley val="1" easeValue="0.0,1.0,1.0,1.0" />
+        <alpha val="1" easeValue="0.0,1.0,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="833">
+        <posx val="0.05078125" />
+        <posy val="0.720052083333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_introletter_string_shadow">
+      <frame cnt="0">
+        <posx val="0.4130859" />
+        <posy val="0.03776042" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="700">
+        <posx val="0.4130859" />
+        <posy val="0.03776042" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="933">
+        <posx val="0.4130859" />
+        <posy val="0.03776042" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_introletter_string_top01">
+      <frame cnt="0">
+        <posx val="0.3964844" />
+        <posy val="-0.002604167" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="300">
+        <posx val="0.396484375" />
+        <posy val="0.1484375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="733">
+        <posx val="0.396484375" easeValue="0.0,1.0,1.0,1.0" />
+        <posy val="-0.0143229166666667" easeValue="0.0,1.0,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,1.0,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="933">
+        <posx val="0.396484375" />
+        <posy val="-0.00260416666666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_introletter_seal">
+      <frame cnt="0">
+        <posx val="0.3925781" />
+        <posy val="0.0546875" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="300">
+        <posx val="0.392578125" />
+        <posy val="0.141927083333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="733">
+        <posx val="0.392578125" easeValue="0.0,0.0,0.0,1.0" />
+        <posy val="0.046875" easeValue="0.0,0.0,0.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,0.0,0.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="933">
+        <posx val="0.392578125" />
+        <posy val="0.0546875" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_introletter_bg_disable">
+      <frame cnt="0">
+        <posx val="0.02050781" />
+        <posy val="-0.006510417" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_intro_effect">
+      <frame cnt="0">
+        <posx val="0.05371094" />
+        <posy val="0.03515625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_introletter_startohand_front">
+      <frame cnt="0">
+        <posx val="0.5029297" />
+        <posy val="0.5807292" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1233">
+        <posx val="0.5048828" />
+        <posy val="0.5807292" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1267">
+        <posx val="0.5048828125" />
+        <posy val="0.580729166666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.34" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1333">
+        <posx val="0.5039063" />
+        <posy val="0.5807292" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1400">
+        <posx val="0.5029296875" />
+        <posy val="0.580729166666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Closing_">
+    <asset type="UI" name="asset_Wnd">
+      <rect l="0" t="0" r="1024" b="768" />
+    </asset>
+    <asset type="UI" name="asset_StackPanel">
+      <rect l="0" t="0" r="1024" b="768" />
+    </asset>
+    <asset type="UI" name="asset_img_intro_movie">
+      <rect l="0" t="0" r="1024" b="768" />
+    </asset>
+    <asset type="UI" name="asset_stack_letter">
+      <rect l="0" t="0" r="1024" b="768" />
+    </asset>
+    <asset type="UI" name="asset_wnd_intro_letter">
+      <rect l="0" t="0" r="593" b="616" />
+    </asset>
+    <asset type="UI" name="asset_img_introletter_cat">
+      <rect l="0" t="0" r="72" b="146" />
+    </asset>
+    <asset type="UI" name="asset_img_introletter_sheep ">
+      <rect l="0" t="0" r="84" b="180" />
+    </asset>
+    <asset type="UI" name="asset_img_introletter_starto">
+      <rect l="0" t="0" r="127" b="189" />
+    </asset>
+    <asset type="UI" name="asset_img_introletter_startohand_back">
+      <rect l="0" t="0" r="31" b="34" />
+    </asset>
+    <asset type="UI" name="asset_wnd_intro_letter_btn">
+      <rect l="0" t="0" r="534" b="690" />
+    </asset>
+    <asset type="UI" name="asset_img_introletter_bg">
+      <rect l="0" t="0" r="490" b="493" />
+    </asset>
+    <asset type="UI" name="asset_img_introletter_bg1">
+      <rect l="0" t="0" r="490" b="493" />
+    </asset>
+    <asset type="UI" name="asset_lb_intro_letter_to">
+      <rect l="0" t="0" r="359" b="34" />
+    </asset>
+    <asset type="UI" name="asset_ta_intro_letter_contents">
+      <rect l="0" t="0" r="379" b="190" />
+    </asset>
+    <asset type="UI" name="asset_btn_intro_letter">
+      <rect l="0" t="0" r="303" b="218" />
+    </asset>
+    <asset type="UI" name="asset_img_introletter_string_top02">
+      <rect l="0" t="0" r="55" b="39" />
+    </asset>
+    <asset type="UI" name="asset_img_introletter_string_botton">
+      <rect l="0" t="0" r="58" b="97" />
+    </asset>
+    <asset type="UI" name="asset_img_introletter_bg_top">
+      <rect l="0" t="0" r="515" b="59" />
+    </asset>
+    <asset type="UI" name="asset_img_introletter_bg_bottom">
+      <rect l="0" t="0" r="506" b="67" />
+    </asset>
+    <asset type="UI" name="asset_img_introletter_string_shadow">
+      <rect l="0" t="0" r="79" b="167" />
+    </asset>
+    <asset type="UI" name="asset_img_introletter_string_top01">
+      <rect l="0" t="0" r="92" b="187" />
+    </asset>
+    <asset type="UI" name="asset_img_introletter_seal">
+      <rect l="0" t="0" r="101" b="94" />
+    </asset>
+    <asset type="UI" name="asset_img_introletter_bg_disable">
+      <rect l="0" t="0" r="539" b="695" />
+    </asset>
+    <asset type="UI" name="asset_img_intro_effect">
+      <rect l="0" t="0" r="478" b="586" />
+    </asset>
+    <asset type="UI" name="asset_img_introletter_startohand_front">
+      <rect l="0" t="0" r="34" b="26" />
+    </asset>
+    <object name="Wnd" ani="ani_Wnd">
+      <asset type="UI" link="asset_Wnd" />
+    </object>
+    <object name="StackPanel" ani="ani_StackPanel">
+      <asset type="UI" link="asset_StackPanel" />
+    </object>
+    <object name="img_intro_movie" ani="ani_img_intro_movie">
+      <asset type="UI" link="asset_img_intro_movie" />
+    </object>
+    <object name="stack_letter" ani="ani_stack_letter">
+      <asset type="UI" link="asset_stack_letter" />
+    </object>
+    <object name="wnd_intro_letter" ani="ani_wnd_intro_letter">
+      <asset type="UI" link="asset_wnd_intro_letter" />
+    </object>
+    <object name="img_introletter_cat" ani="ani_img_introletter_cat">
+      <asset type="UI" link="asset_img_introletter_cat" />
+    </object>
+    <object name="img_introletter_sheep " ani="ani_img_introletter_sheep ">
+      <asset type="UI" link="asset_img_introletter_sheep " />
+    </object>
+    <object name="img_introletter_starto" ani="ani_img_introletter_starto">
+      <asset type="UI" link="asset_img_introletter_starto" />
+    </object>
+    <object name="img_introletter_startohand_back" ani="ani_img_introletter_startohand_back">
+      <asset type="UI" link="asset_img_introletter_startohand_back" />
+    </object>
+    <object name="wnd_intro_letter_btn" ani="ani_wnd_intro_letter_btn">
+      <asset type="UI" link="asset_wnd_intro_letter_btn" />
+    </object>
+    <object name="img_introletter_bg" ani="ani_img_introletter_bg">
+      <asset type="UI" link="asset_img_introletter_bg" />
+    </object>
+    <object name="img_introletter_bg1" ani="ani_img_introletter_bg1">
+      <asset type="UI" link="asset_img_introletter_bg1" />
+    </object>
+    <object name="lb_intro_letter_to" ani="ani_lb_intro_letter_to">
+      <asset type="UI" link="asset_lb_intro_letter_to" />
+    </object>
+    <object name="ta_intro_letter_contents" ani="ani_ta_intro_letter_contents">
+      <asset type="UI" link="asset_ta_intro_letter_contents" />
+    </object>
+    <object name="btn_intro_letter" ani="ani_btn_intro_letter">
+      <asset type="UI" link="asset_btn_intro_letter" />
+    </object>
+    <object name="img_introletter_string_top02" ani="ani_img_introletter_string_top02">
+      <asset type="UI" link="asset_img_introletter_string_top02" />
+    </object>
+    <object name="img_introletter_string_botton" ani="ani_img_introletter_string_botton">
+      <asset type="UI" link="asset_img_introletter_string_botton" />
+    </object>
+    <object name="img_introletter_bg_top" ani="ani_img_introletter_bg_top">
+      <asset type="UI" link="asset_img_introletter_bg_top" />
+    </object>
+    <object name="img_introletter_bg_bottom" ani="ani_img_introletter_bg_bottom">
+      <asset type="UI" link="asset_img_introletter_bg_bottom" />
+    </object>
+    <object name="img_introletter_string_shadow" ani="ani_img_introletter_string_shadow">
+      <asset type="UI" link="asset_img_introletter_string_shadow" />
+    </object>
+    <object name="img_introletter_string_top01" ani="ani_img_introletter_string_top01">
+      <asset type="UI" link="asset_img_introletter_string_top01" />
+    </object>
+    <object name="img_introletter_seal" ani="ani_img_introletter_seal">
+      <asset type="UI" link="asset_img_introletter_seal" />
+    </object>
+    <object name="img_introletter_bg_disable" ani="ani_img_introletter_bg_disable">
+      <asset type="UI" link="asset_img_introletter_bg_disable" />
+    </object>
+    <object name="img_intro_effect" ani="ani_img_intro_effect">
+      <asset type="UI" link="asset_img_intro_effect" />
+    </object>
+    <object name="img_introletter_startohand_front" ani="ani_img_introletter_startohand_front">
+      <asset type="UI" link="asset_img_introletter_startohand_front" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_Wnd">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_StackPanel">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_intro_movie">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1300">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2200">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_stack_letter">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_wnd_intro_letter">
+      <frame cnt="0">
+        <posx val="0.2099609" />
+        <posy val="0.09895834" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <sound val="ui_fade_out" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_introletter_cat">
+      <frame cnt="0">
+        <posx val="0.509765625" />
+        <posy val="0.59375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="267">
+        <posx val="0.48046875" />
+        <posy val="0.59375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_introletter_sheep ">
+      <frame cnt="0">
+        <posx val="-0.0166015625" />
+        <posy val="0.53515625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="267">
+        <posx val="0.0126953125" />
+        <posy val="0.53515625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_introletter_starto">
+      <frame cnt="0">
+        <posx val="0.494140625" />
+        <posy val="0.352864583333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="267">
+        <posx val="0.46484375" />
+        <posy val="0.352864583333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_introletter_startohand_back">
+      <frame cnt="0">
+        <posx val="0.5048828" />
+        <posy val="0.5716146" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="267">
+        <posx val="0.5048828" />
+        <posy val="0.5716146" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_wnd_intro_letter_btn">
+      <frame cnt="0">
+        <posx val="0.02148438" />
+        <posy val="-0.002604167" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="267">
+        <posx val="0.02148438" />
+        <posy val="-0.002604167" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0.02148438" />
+        <posy val="-0.002604167" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_introletter_bg">
+      <frame cnt="0">
+        <posx val="0.02832031" />
+        <posy val="0.09375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_introletter_bg1">
+      <frame cnt="0">
+        <posx val="0.02832031" />
+        <posy val="0.09244791" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_lb_intro_letter_to">
+      <frame cnt="0">
+        <posx val="0.04980469" />
+        <posy val="0.09114584" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ta_intro_letter_contents">
+      <frame cnt="0">
+        <posx val="0.05078125" />
+        <posy val="0.1367188" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_btn_intro_letter">
+      <frame cnt="0">
+        <posx val="0.2060547" />
+        <posy val="0.453125" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_introletter_string_top02">
+      <frame cnt="0">
+        <posx val="0.3427734" />
+        <posy val="-0.002604167" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="267">
+        <posx val="0.3427734" />
+        <posy val="-0.002604167" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0.3427734" />
+        <posy val="-0.002604167" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_introletter_string_botton">
+      <frame cnt="0">
+        <posx val="0.21875" />
+        <posy val="0.7695313" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="267">
+        <posx val="0.21875" />
+        <posy val="0.7695313" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0.21875" />
+        <posy val="0.7695313" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_introletter_bg_top">
+      <frame cnt="0">
+        <posx val="0.0234375" />
+        <posy val="0.03255208" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="267">
+        <posx val="0.0234375" />
+        <posy val="0.03255208" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0.0234375" />
+        <posy val="0.03255208" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_introletter_bg_bottom">
+      <frame cnt="0">
+        <posx val="0.05078125" />
+        <posy val="0.7200521" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="267">
+        <posx val="0.05078125" />
+        <posy val="0.7200521" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0.05078125" />
+        <posy val="0.7200521" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_introletter_string_shadow">
+      <frame cnt="0">
+        <posx val="0.4130859" />
+        <posy val="0.03776042" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="267">
+        <posx val="0.4130859" />
+        <posy val="0.03776042" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0.4130859" />
+        <posy val="0.03776042" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_introletter_string_top01">
+      <frame cnt="0">
+        <posx val="0.3964844" />
+        <posy val="-0.002604167" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="267">
+        <posx val="0.3964844" />
+        <posy val="-0.002604167" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0.3964844" />
+        <posy val="-0.002604167" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_introletter_seal">
+      <frame cnt="0">
+        <posx val="0.3925781" />
+        <posy val="0.0546875" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="267">
+        <posx val="0.3925781" />
+        <posy val="0.0546875" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0.3925781" />
+        <posy val="0.0546875" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_introletter_bg_disable">
+      <frame cnt="0">
+        <posx val="0.02050781" />
+        <posy val="-0.006510417" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="167">
+        <posx val="0.02050781" />
+        <posy val="-0.006510417" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0.02050781" />
+        <posy val="-0.006510417" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1733">
+        <posx val="0.02050781" />
+        <posy val="-0.006510417" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_intro_effect">
+      <frame cnt="0">
+        <posx val="0.05371094" />
+        <posy val="0.03515625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_introletter_startohand_front">
+      <frame cnt="0">
+        <posx val="0.5029297" />
+        <posy val="0.5807292" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="267">
+        <posx val="0.5029297" />
+        <posy val="0.5807292" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

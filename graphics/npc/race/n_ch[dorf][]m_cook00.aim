@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <event animation="00">
+        <function>PlaySND($asset, "npc_cheer_man_c", "", "-var 2")</function>
+        <time>0.1033</time>
+        <freq>80</freq>
+    </event>
+    <event animation="00">
+        <function>PlaySND($asset, "npc_cheer_wow", "", "-var 2")</function>
+        <time>1.4212</time>
+        <freq>60</freq>
+    </event>
+    <action category="" state="G_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>00</main>
+    </action>
+</aim>

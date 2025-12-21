@@ -1,0 +1,46 @@
+﻿<refresh version="2">
+	<properties>
+		<property name="DPI" val="72" />
+		<property name="UIAnimation" val="make_account_sex_column_Animation.xml" />
+	</properties>
+	<base type="WND" subclass="" name="Wnd_sex">
+		<pos x="0" y="0" />
+		<rect l="0" t="0" r="160" b="75" />
+		<Visible val="True" />
+		<Anchor val="Top, Left" />
+		<snd type="SHOW"></snd>
+		<snd type="HIDE"></snd>
+		<IsHitTestVisible val="True" />
+		<ClipChildren val="False" />
+		<child type="PICTURE" name="make_sex" subclass="">
+			<asset type="STATIC">sex_female.png</asset>
+			<pos x="1" y="1" />
+			<rect l="0" t="0" r="145" b="73" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="slot_b_d0" subclass="">
+			<asset type="STATIC">slot_select_0.png</asset>
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="147" b="75" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="icon_common_select0" subclass="">
+			<asset type="STATIC">icon_common_select.png</asset>
+			<pos x="119" y="6" />
+			<rect l="0" t="0" r="22" b="23" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+		</child>
+	</base>
+</refresh>

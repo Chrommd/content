@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="NORMAL">
+    <asset type="IMAGE" name="asset_btn_d_n" path="mate_btn_breed_n.png">
+      <rect l="0" t="0" r="265" b="61" />
+    </asset>
+    <object name="btn_d_n" ani="ani_btn_d_n">
+      <asset type="IMAGE" link="asset_btn_d_n" />
+    </object>
+    <param type="RES" x="156" y="62" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_btn_d_n">
+      <frame cnt="0">
+        <posx val="0.5" />
+        <posy val="0.5" />
+        <scalex val="0.588679245283019" />
+        <scaley val="1.01639344262295" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="OVER">
+    <asset type="IMAGE" name="asset_btn_d_n" path="mate_btn_breed_n.png">
+      <rect l="0" t="0" r="265" b="61" />
+    </asset>
+    <asset type="IMAGE" name="asset_btn_d_o" path="mate_btn_breed_o.png">
+      <rect l="0" t="0" r="265" b="61" />
+    </asset>
+    <object name="btn_d_n" ani="ani_btn_d_n">
+      <asset type="IMAGE" link="asset_btn_d_n" />
+    </object>
+    <object name="btn_d_o" ani="ani_btn_d_o">
+      <asset type="IMAGE" link="asset_btn_d_o" />
+    </object>
+    <param type="RES" x="156" y="62" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_btn_d_n">
+      <frame cnt="0">
+        <posx val="0.5" />
+        <posy val="0.5" />
+        <scalex val="0.588679245283019" />
+        <scaley val="1.01639344262295" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+    <anim name="ani_btn_d_o">
+      <frame cnt="0">
+        <posx val="0.5" />
+        <posy val="0.5" />
+        <scalex val="0.588679245283019" />
+        <scaley val="1.01639344262295" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="200">
+        <posx val="0.5" easeValue="0.5,0.0,0.5,1.0" />
+        <posy val="0.5" easeValue="0.5,0.0,0.5,1.0" />
+        <scalex val="0.588679245283019" easeValue="0.5,0.0,0.5,1.0" />
+        <scaley val="1.01639344262295" easeValue="0.5,0.0,0.5,1.0" />
+        <alpha val="1" easeValue="0.5,0.0,0.5,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="DOWN">
+    <asset type="IMAGE" name="asset_mate_btn_breed_d" path="mate_btn_breed_d.png">
+      <rect l="0" t="0" r="265" b="61" />
+    </asset>
+    <object name="mate_btn_breed_d" ani="ani_mate_btn_breed_d">
+      <asset type="IMAGE" link="asset_mate_btn_breed_d" />
+    </object>
+    <param type="RES" x="156" y="62" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_mate_btn_breed_d">
+      <frame cnt="0">
+        <posx val="0.5" />
+        <posy val="0.5" />
+        <scalex val="0.5886793" />
+        <scaley val="1.016393" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="DISABLE">
+    <asset type="IMAGE" name="asset_btn_d_dis" path="mate_btn_breed_dis.png">
+      <rect l="0" t="0" r="265" b="61" />
+    </asset>
+    <object name="btn_d_dis" ani="ani_btn_d_dis">
+      <asset type="IMAGE" link="asset_btn_d_dis" />
+    </object>
+    <param type="RES" x="156" y="62" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_btn_d_dis">
+      <frame cnt="0">
+        <posx val="0.5" />
+        <posy val="0.5" />
+        <scalex val="0.588679245283019" />
+        <scaley val="1.01639344262295" />
+        <alpha val="0.5" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

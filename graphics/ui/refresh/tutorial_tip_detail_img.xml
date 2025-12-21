@@ -1,0 +1,26 @@
+﻿<refresh version="2">
+	<properties>
+		<property name="DPI" val="72" />
+		<property name="UIAnimation" val="tutorial_tip_detail_img_Animation.xml" />
+	</properties>
+	<base type="WND" subclass="" name="Wnd_tip_img">
+		<pos x="0" y="0" />
+		<rect l="0" t="0" r="420" b="80" />
+		<Visible val="True" />
+		<Anchor val="Top, Left" />
+		<snd type="SHOW"></snd>
+		<snd type="HIDE"></snd>
+		<IsHitTestVisible val="True" />
+		<ClipChildren val="False" />
+		<child type="PICTURE" name="tip_img" subclass="">
+			<asset type="STATIC"></asset>
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="420" b="80" />
+			<Visible val="True" />
+            <Anchor val="Top, Bottom, Left, Right" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+		</child>
+	</base>
+</refresh>

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <event animation="[beat]extream_00">
+        <function>PlaySND($asset, "ranch_heartbeat_extreme", "", "-var 0 -2d")</function>
+        <time>0.2484</time>
+        <freq>100</freq>
+    </event>
+    <event animation="[beat]extream_00">
+        <function>PlaySND($asset, "ranch_heartbeat_extreme", "", "-var 0 -2d")</function>
+        <time>0.5478</time>
+        <freq>100</freq>
+    </event>
+    <event animation="[beat]high_00">
+        <function>PlaySND($asset, "ranch_heartbeat_fast", "", "-var 0 -2d")</function>
+        <time>0.2207</time>
+        <freq>100</freq>
+    </event>
+    <event animation="[beat]high_00_trans">
+        <function>PlaySND($asset, "ranch_heartbeat_fast", "", "-var 0 -2d")</function>
+        <time>0.2254</time>
+        <freq>100</freq>
+    </event>
+    <event animation="[beat]idle_00">
+        <function>PlaySND($asset, "ranch_heartbeat_slow", "", "-var 0 -2d")</function>
+        <time>0.2760</time>
+        <freq>100</freq>
+    </event>
+    <dummy name="dum" parent="Dummy05" sync="FALSE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.1554</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>0.9878</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.0000</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <action state="IDLE" prevState="" loop="1">
+        <begin speed=0.0000>[beat]idle_01</begin>
+        <main speed=0.0000>[beat]idle_01</main>
+    </action>
+    <action state="IDLE1" prevState="" loop="1">
+        <begin speed=0.0000>[beat]idle_00</begin>
+        <main speed=0.0000>[beat]high_00</main>
+    </action>
+    <action state="IDLE_SPECIAL" prevState="" loop="1">
+        <begin speed=0.0000>[beat]idle_00</begin>
+        <main speed=0.0000>[beat]extream_00</main>
+    </action>
+    <action state="STAND_IDLE" prevState="" loop="1">
+        <begin speed=0.0000>[beat]idle_00</begin>
+        <main speed=0.0000>[beat]idle_00</main>
+    </action>
+    <action state="STAND_RUN" prevState="" loop="1">
+        <begin speed=0.0000>[beat]high_00_trans</begin>
+        <main speed=0.0000>[beat]high_00_trans</main>
+    </action>
+</aim>

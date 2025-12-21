@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <event animation="_initialize_">
+        <function>PlayFX($asset, "ob_lamp_breed01", "ob_lamp_breed01", "-attach ")</function>
+        <time>0.0000</time>
+        <freq>ONCE</freq>
+    </event>
+    <dummy name="ob_lamp_breed01" parent="ranch_breed_lamp01" sync="FALSE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>-0.5125</offsetY>
+        <offsetZ>1.0674</offsetZ>
+    </dummy>
+    <action state="G_IDLE" prevState="" loop="0">
+    </action>
+</aim>

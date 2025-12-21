@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="_Disabled_">
+    <asset type="UI" name="asset_slot_b_n">
+      <rect l="0" t="0" r="100" b="100" />
+    </asset>
+    <asset type="UI" name="asset_slot_b_d">
+      <rect l="0" t="0" r="100" b="100" />
+    </asset>
+    <asset type="UI" name="asset_item_slot_Sel">
+      <rect l="0" t="0" r="100" b="100" />
+    </asset>
+    <object name="slot_b_n" ani="ani_slot_b_n">
+      <asset type="UI" link="asset_slot_b_n" />
+    </object>
+    <object name="slot_b_d" ani="ani_slot_b_d">
+      <asset type="UI" link="asset_slot_b_d" />
+    </object>
+    <object name="item_slot_Sel" ani="ani_item_slot_Sel">
+      <asset type="UI" link="asset_item_slot_Sel" />
+    </object>
+    <param type="RES" x="100" y="100" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_slot_b_n">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_slot_b_d">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_item_slot_Sel">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Normal_">
+    <asset type="UI" name="asset_slot_b_BG">
+      <rect l="0" t="0" r="100" b="100" />
+    </asset>
+    <asset type="UI" name="asset_slot_b_n">
+      <rect l="0" t="0" r="100" b="100" />
+    </asset>
+    <asset type="UI" name="asset_slot_b_d">
+      <rect l="0" t="0" r="100" b="100" />
+    </asset>
+    <asset type="UI" name="asset_item_slot_Sel">
+      <rect l="0" t="0" r="100" b="100" />
+    </asset>
+    <asset type="UI" name="asset_icon_common_select">
+      <rect l="0" t="0" r="22" b="23" />
+    </asset>
+    <object name="slot_b_BG" ani="ani_slot_b_BG">
+      <asset type="UI" link="asset_slot_b_BG" />
+    </object>
+    <object name="slot_b_n" ani="ani_slot_b_n">
+      <asset type="UI" link="asset_slot_b_n" />
+    </object>
+    <object name="slot_b_d" ani="ani_slot_b_d">
+      <asset type="UI" link="asset_slot_b_d" />
+    </object>
+    <object name="item_slot_Sel" ani="ani_item_slot_Sel">
+      <asset type="UI" link="asset_item_slot_Sel" />
+    </object>
+    <object name="icon_common_select" ani="ani_icon_common_select">
+      <asset type="UI" link="asset_icon_common_select" />
+    </object>
+    <param type="RES" x="100" y="100" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_slot_b_BG">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_slot_b_n">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_slot_b_d">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_item_slot_Sel">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_common_select">
+      <frame cnt="0">
+        <posx val="0.72" />
+        <posy val="0.07" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Selected_">
+    <asset type="UI" name="asset_slot_b_BG">
+      <rect l="0" t="0" r="100" b="100" />
+    </asset>
+    <asset type="UI" name="asset_slot_b_n">
+      <rect l="0" t="0" r="100" b="100" />
+    </asset>
+    <asset type="UI" name="asset_slot_b_d">
+      <rect l="0" t="0" r="100" b="100" />
+    </asset>
+    <asset type="UI" name="asset_item_slot_Sel">
+      <rect l="0" t="0" r="100" b="100" />
+    </asset>
+    <asset type="UI" name="asset_icon_common_select">
+      <rect l="0" t="0" r="22" b="23" />
+    </asset>
+    <object name="slot_b_BG" ani="ani_slot_b_BG">
+      <asset type="UI" link="asset_slot_b_BG" />
+    </object>
+    <object name="slot_b_n" ani="ani_slot_b_n">
+      <asset type="UI" link="asset_slot_b_n" />
+    </object>
+    <object name="slot_b_d" ani="ani_slot_b_d">
+      <asset type="UI" link="asset_slot_b_d" />
+    </object>
+    <object name="item_slot_Sel" ani="ani_item_slot_Sel">
+      <asset type="UI" link="asset_item_slot_Sel" />
+    </object>
+    <object name="icon_common_select" ani="ani_icon_common_select">
+      <asset type="UI" link="asset_icon_common_select" />
+    </object>
+    <param type="RES" x="100" y="100" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_slot_b_BG">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_slot_b_n">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_slot_b_d">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_item_slot_Sel">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_common_select">
+      <frame cnt="0">
+        <posx val="0.72" />
+        <posy val="0.07" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <sound val="ui_btn_menu_page" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Over_">
+    <asset type="UI" name="asset_slot_b_BG">
+      <rect l="0" t="0" r="100" b="100" />
+    </asset>
+    <asset type="UI" name="asset_slot_b_n">
+      <rect l="0" t="0" r="100" b="100" />
+    </asset>
+    <asset type="UI" name="asset_slot_b_d">
+      <rect l="0" t="0" r="100" b="100" />
+    </asset>
+    <asset type="UI" name="asset_item_slot_Sel">
+      <rect l="0" t="0" r="100" b="100" />
+    </asset>
+    <asset type="UI" name="asset_icon_common_select">
+      <rect l="0" t="0" r="22" b="23" />
+    </asset>
+    <object name="slot_b_BG" ani="ani_slot_b_BG">
+      <asset type="UI" link="asset_slot_b_BG" />
+    </object>
+    <object name="slot_b_n" ani="ani_slot_b_n">
+      <asset type="UI" link="asset_slot_b_n" />
+    </object>
+    <object name="slot_b_d" ani="ani_slot_b_d">
+      <asset type="UI" link="asset_slot_b_d" />
+    </object>
+    <object name="item_slot_Sel" ani="ani_item_slot_Sel">
+      <asset type="UI" link="asset_item_slot_Sel" />
+    </object>
+    <object name="icon_common_select" ani="ani_icon_common_select">
+      <asset type="UI" link="asset_icon_common_select" />
+    </object>
+    <param type="RES" x="100" y="100" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_slot_b_BG">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_slot_b_n">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_slot_b_d">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_item_slot_Sel">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_common_select">
+      <frame cnt="0">
+        <posx val="0.72" />
+        <posy val="0.07" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

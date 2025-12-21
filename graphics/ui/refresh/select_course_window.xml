@@ -1,0 +1,502 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+  </properties>
+  <base type="WNDEX" subclass="" name="select_course">
+    <asset type="BG" path="frm_std_04.png">
+      <tex x="4" y="4" />
+      <rect l="167" t="70" r="433" b="388" />
+    </asset>
+    <asset type="EDGE_LT" path="frm_std_00.png">
+      <tex x="167" y="70" />
+      <rect l="0" t="0" r="167" b="70" />
+    </asset>
+    <asset type="EDGE_RT" path="frm_std_02.png">
+      <tex x="167" y="70" />
+      <rect l="0" t="0" r="167" b="70" />
+    </asset>
+    <asset type="EDGE_LB" path="frm_std_06.png">
+      <tex x="167" y="33" />
+      <rect l="0" t="0" r="167" b="33" />
+    </asset>
+    <asset type="EDGE_RB" path="frm_std_08.png">
+      <tex x="167" y="33" />
+      <rect l="0" t="0" r="167" b="33" />
+    </asset>
+    <asset type="FRAME_T" path="frm_std_01.png">
+      <tex x="4" y="70" />
+      <rect l="167" t="0" r="433" b="70" />
+    </asset>
+    <asset type="FRAME_B" path="frm_std_07.png">
+      <tex x="4" y="33" />
+      <rect l="167" t="0" r="433" b="33" />
+    </asset>
+    <asset type="FRAME_L" path="frm_std_03.png">
+      <tex x="167" y="4" />
+      <rect l="0" t="70" r="167" b="388" />
+    </asset>
+    <asset type="FRAME_R" path="frm_std_05.png">
+      <tex x="167" y="4" />
+      <rect l="0" t="70" r="167" b="388" />
+    </asset>
+    <Visible val="True" />
+    <Anchor val="None" />
+    <pos x="127" y="139" />
+    <rect l="0" t="0" r="767" b="491" />
+    <Dragable val="True" />
+    <StartPosition val="CenterScreen" />
+    <EscKeyAction val="None" />
+    <child type="ANIMBUTTON" name="btn_close" subclass="">
+      <asset type="GROUP">select_course_window_btn_close.xml</asset>
+      <asset type="NORMAL">
+      </asset>
+      <asset type="DOWN">
+      </asset>
+      <asset type="OVER">
+      </asset>
+      <asset type="DISABLE">
+      </asset>
+      <asset type="ENTER">
+      </asset>
+      <asset type="LEAVE">
+      </asset>
+      <snd type="OVER">ui_btn_menu_over</snd>
+      <snd type="DOWN">ui_btn_close_click</snd>
+      <snd type="RELEASE">
+      </snd>
+      <pos x="721" y="10" />
+      <rect l="0" t="0" r="35" b="35" />
+      <Visible val="True" />
+      <Anchor val="None" />
+    </child>
+    <child type="ANIMBUTTON" name="btn_cancel_n" subclass="">
+      <asset type="GROUP">select_course_window_btn_cancel_n.xml</asset>
+      <asset type="NORMAL">
+      </asset>
+      <asset type="DOWN">
+      </asset>
+      <asset type="OVER">
+      </asset>
+      <asset type="DISABLE">
+      </asset>
+      <asset type="ENTER">
+      </asset>
+      <asset type="LEAVE">
+      </asset>
+      <snd type="OVER">ui_btn_menu_over</snd>
+      <snd type="DOWN">ui_btn_close_click</snd>
+      <snd type="RELEASE">
+      </snd>
+      <pos x="389" y="422" />
+      <rect l="0" t="0" r="70" b="31" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <child type="LABEL" name="lb_cancel" subclass="">
+        <label val="Cancel" />
+        <pos x="0" y="5" />
+        <rect l="0" t="0" r="70" b="19" />
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#927254" />
+        <color val="#030200" />
+        <halign val="1" />
+        <valign val="0" />
+        <FontName val="나눔고딕" />
+        <FontSize val="14" />
+        <style val="1" />
+      </child>
+    </child>
+    <child type="ANIMBUTTON" name="btn_confirm_n" subclass="">
+      <asset type="GROUP">select_course_window_btn_confirm_n.xml</asset>
+      <asset type="NORMAL">
+      </asset>
+      <asset type="DOWN">
+      </asset>
+      <asset type="OVER">
+      </asset>
+      <asset type="DISABLE">
+      </asset>
+      <asset type="ENTER">
+      </asset>
+      <asset type="LEAVE">
+      </asset>
+      <snd type="OVER">ui_btn_menu_over</snd>
+      <snd type="DOWN">ui_btn_menu_click</snd>
+      <snd type="RELEASE">
+      </snd>
+      <pos x="307" y="422" />
+      <rect l="0" t="0" r="70" b="31" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <child type="LABEL" name="lb_confirm" subclass="">
+        <label val="OK" />
+        <pos x="0" y="5" />
+        <rect l="0" t="0" r="70" b="19" />
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#927254" />
+        <color val="#030200" />
+        <halign val="1" />
+        <valign val="0" />
+        <FontName val="나눔고딕" />
+        <FontSize val="14" />
+        <style val="1" />
+      </child>
+    </child>
+    <child type="PICTURE" name="img_frmbg" subclass="">
+      <asset type="STATIC">img_frm_bg.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="38" y="108" />
+      <rect l="0" t="0" r="691" b="10" />
+      <center x="0" y="0" />
+    </child>
+    <child type="PICTURE" name="img_scrollbg" subclass="">
+      <asset type="STATIC">scroll_bg_course.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="713" y="146" />
+      <rect l="0" t="0" r="14" b="219" />
+      <center x="0" y="0" />
+    </child>
+    <child type="PICTURE" name="bg_couse_list2" subclass="">
+      <asset type="STATIC">bg_couse_list2.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="225" y="145" />
+      <rect l="0" t="0" r="470" b="221" />
+      <center x="0" y="0" />
+    </child>
+    <child type="LISTSC" name="couse_list" subclass="">
+      <asset type="BG" path="listbg_a_04.png">
+        <tex x="10" y="10" />
+        <rect l="10" t="10" r="512" b="274" />
+      </asset>
+      <asset type="EDGE_LT" path="">
+        <tex x="10" y="10" />
+        <rect l="0" t="0" r="10" b="10" />
+      </asset>
+      <asset type="EDGE_RT" path="">
+        <tex x="10" y="10" />
+        <rect l="0" t="0" r="10" b="10" />
+      </asset>
+      <asset type="EDGE_LB" path="">
+        <tex x="10" y="10" />
+        <rect l="0" t="0" r="10" b="10" />
+      </asset>
+      <asset type="EDGE_RB" path="listbg_a_08.png">
+        <tex x="10" y="10" />
+        <rect l="0" t="0" r="10" b="10" />
+      </asset>
+      <asset type="FRAME_T" path="">
+        <tex x="10" y="10" />
+        <rect l="10" t="0" r="512" b="10" />
+      </asset>
+      <asset type="FRAME_B" path="listbg_a_07.png">
+        <tex x="10" y="10" />
+        <rect l="10" t="0" r="512" b="10" />
+      </asset>
+      <asset type="FRAME_L" path="">
+        <tex x="10" y="10" />
+        <rect l="0" t="10" r="10" b="274" />
+      </asset>
+      <asset type="FRAME_R" path="listbg_a_05.png">
+        <tex x="10" y="10" />
+        <rect l="0" t="10" r="10" b="274" />
+      </asset>
+      <control type="VSCROLLBAR" name="couse_list_VSlider" horizontal="0">
+        <control type="BUTTON_LT" name="couse_list_VScrollBar_TopButton">
+          <asset type="NORMAL">scroll_up_a_n.png</asset>
+          <asset type="DOWN">scroll_up_a_d.png</asset>
+          <asset type="OVER">scroll_up_a_o.png</asset>
+          <asset type="DISABLE">scroll_up_a_dis.png</asset>
+          <snd type="OVER">ui_alt_over</snd>
+          <snd type="DOWN">ui_alt_click</snd>
+          <snd type="RELEASE">
+          </snd>
+          <pos x="1" y="0" />
+          <rect l="0" t="0" r="14" b="17" />
+          <Visible val="True" />
+          <Anchor val="Top, Left, Right" />
+        </control>
+        <control type="THUMB" name="couse_list_VScrollBar_Thumb">
+          <asset type="NORMAL">scroll_bar_a_n.png</asset>
+          <asset type="DOWN">scroll_bar_a_d.png</asset>
+          <asset type="OVER">scroll_bar_a_o.png</asset>
+          <asset type="DISABLE">scroll_bar_a_d.png</asset>
+          <snd type="OVER">
+          </snd>
+          <snd type="DOWN">
+          </snd>
+          <snd type="RELEASE">
+          </snd>
+          <pos x="1" y="30" />
+          <rect l="0" t="0" r="14" b="62" />
+          <Visible val="True" />
+          <Anchor val="Top, Left, Right" />
+        </control>
+        <control type="BUTTON_RB" name="couse_list_VScrollBar_BottomButton">
+          <asset type="NORMAL">scroll_down_a_n.png</asset>
+          <asset type="DOWN">scroll_down_a_d.png</asset>
+          <asset type="OVER">scroll_down_a_o.png</asset>
+          <asset type="DISABLE">scroll_down_a_dis.png</asset>
+          <snd type="OVER">ui_alt_over</snd>
+          <snd type="DOWN">ui_alt_click</snd>
+          <snd type="RELEASE">
+          </snd>
+          <pos x="1" y="203" />
+          <rect l="0" t="0" r="14" b="17" />
+          <Visible val="True" />
+          <Anchor val="Bottom, Left, Right" />
+        </control>
+        <scrollrect l="0" t="17" r="16" b="202" />
+        <Visible val="True" />
+        <Anchor val="Top, Bottom, Right" />
+        <pos x="516" y="38" />
+        <rect l="0" t="0" r="16" b="219" />
+      </control>
+      <pos x="197" y="108" />
+      <rect l="0" t="0" r="532" b="294" />
+      <Visible val="True" />
+      <Anchor val="None" />
+      <padding l="26" t="35" r="32" b="25" />
+      <column val="3" />
+      <itemrect l="0" t="0" r="158" b="117" />
+      <selection val="0" />
+      <deselectable val="0" />
+      <rclickaction val="0" />
+    </child>
+    <child type="PICTURE" name="img_coursebg1" subclass="">
+      <asset type="STATIC">img_frm_bg2.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="38" y="118" />
+      <rect l="0" t="0" r="169" b="284" />
+      <center x="0" y="0" />
+    </child>
+    <child type="PICTURE" name="img_coursebg" subclass="">
+      <asset type="STATIC">img_course_bg.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="184" y="148" />
+      <rect l="0" t="0" r="24" b="208" />
+      <center x="0" y="0" />
+    </child>
+    <child type="LABEL" name="lb_select_course" subclass="">
+      <label val="코스선택" />
+      <pos x="249" y="23" />
+      <rect l="0" t="0" r="270" b="20" />
+      <Visible val="True" />
+      <Anchor val="Top" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#181818" />
+      <color val="#FFFFFF" />
+      <halign val="1" />
+      <valign val="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="15" />
+      <style val="1" />
+    </child>
+    <child type="PICTURE" name="map0" subclass="">
+      <asset type="STATIC">
+      </asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="38" y="140" />
+      <rect l="0" t="0" r="172" b="201" />
+      <center x="0" y="0" />
+    </child>
+    <child type="LABELBUTTON" name="tab_map1" subclass="">
+      <asset type="NORMAL">tab_a1_n.png</asset>
+      <asset type="DOWN">tab_a1_d.png</asset>
+      <asset type="OVER">tab_a1_o.png</asset>
+      <asset type="DISABLE">tab_a1_dis.png</asset>
+      <snd type="OVER">ui_btn_paper_over</snd>
+      <snd type="DOWN">ui_btn_paper_click</snd>
+      <control type="LABEL" name="tab_map1_Label">
+        <label val="Overall" />
+        <pos x="0" y="6" />
+        <rect l="0" t="0" r="76" b="19" />
+        <Visible val="True" />
+        <Anchor val="None" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#D1BFB2" />
+        <color val="#322920" />
+        <halign val="1" />
+        <valign val="0" />
+        <FontName val="나눔고딕" />
+        <FontSize val="13" />
+        <FontName val="나눔고딕" />
+      </control>
+      <pos x="197" y="79" />
+      <rect l="0" t="0" r="74" b="33" />
+      <Visible val="True" />
+      <Anchor val="None" />
+    </child>
+    <child type="LABELBUTTON" name="tab_map2" subclass="">
+      <asset type="NORMAL">tab_a1_n.png</asset>
+      <asset type="DOWN">tab_a1_d.png</asset>
+      <asset type="OVER">tab_a1_o.png</asset>
+      <asset type="DISABLE">tab_a1_dis.png</asset>
+      <snd type="OVER">ui_btn_paper_over</snd>
+      <snd type="DOWN">ui_btn_paper_click</snd>
+      <control type="LABEL" name="tab_map2_Label">
+        <label val="드랜" />
+        <pos x="0" y="6" />
+        <rect l="0" t="0" r="76" b="19" />
+        <Visible val="True" />
+        <Anchor val="None" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#D1BFB2" />
+        <color val="#322920" />
+        <halign val="1" />
+        <valign val="0" />
+        <FontName val="나눔고딕" />
+        <FontSize val="13" />
+        <FontName val="나눔고딕" />
+      </control>
+      <pos x="272" y="79" />
+      <rect l="0" t="0" r="74" b="33" />
+      <Visible val="True" />
+      <Anchor val="None" />
+    </child>
+    <child type="LABELBUTTON" name="tab_map3" subclass="">
+      <asset type="NORMAL">tab_a1_n.png</asset>
+      <asset type="DOWN">tab_a1_d.png</asset>
+      <asset type="OVER">tab_a1_o.png</asset>
+      <asset type="DISABLE">tab_a1_dis.png</asset>
+      <snd type="OVER">ui_btn_paper_over</snd>
+      <snd type="DOWN">ui_btn_paper_click</snd>
+      <control type="LABEL" name="tab_map3_Label">
+        <label val="포레" />
+        <pos x="0" y="6" />
+        <rect l="0" t="0" r="76" b="19" />
+        <Visible val="True" />
+        <Anchor val="None" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#D1BFB2" />
+        <color val="#322920" />
+        <halign val="1" />
+        <valign val="0" />
+        <FontName val="나눔고딕" />
+        <FontSize val="13" />
+        <FontName val="나눔고딕" />
+      </control>
+      <pos x="347" y="79" />
+      <rect l="0" t="0" r="74" b="33" />
+      <Visible val="True" />
+      <Anchor val="None" />
+    </child>
+    <child type="LABELBUTTON" name="tab_map4" subclass="">
+      <asset type="NORMAL">tab_a1_n.png</asset>
+      <asset type="DOWN">tab_a1_d.png</asset>
+      <asset type="OVER">tab_a1_o.png</asset>
+      <asset type="DISABLE">tab_a1_dis.png</asset>
+      <snd type="OVER">ui_btn_paper_over</snd>
+      <snd type="DOWN">ui_btn_paper_click</snd>
+      <control type="LABEL" name="tab_map4_Label">
+        <label val="도르프" />
+        <pos x="0" y="6" />
+        <rect l="0" t="0" r="76" b="19" />
+        <Visible val="True" />
+        <Anchor val="None" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#D1BFB2" />
+        <color val="#322920" />
+        <halign val="1" />
+        <valign val="0" />
+        <FontName val="나눔고딕" />
+        <FontSize val="13" />
+        <FontName val="나눔고딕" />
+      </control>
+      <pos x="421" y="79" />
+      <rect l="0" t="0" r="74" b="33" />
+      <Visible val="True" />
+      <Anchor val="None" />
+    </child>
+    <child type="LABELBUTTON" name="tab_map5" subclass="">
+      <asset type="NORMAL">tab_a1_n.png</asset>
+      <asset type="DOWN">tab_a1_d.png</asset>
+      <asset type="OVER">tab_a1_o.png</asset>
+      <asset type="DISABLE">tab_a1_dis.png</asset>
+      <snd type="OVER">ui_btn_paper_over</snd>
+      <snd type="DOWN">ui_btn_paper_click</snd>
+      <control type="LABEL" name="tab_map5_Label">
+        <label val="툰드라" />
+        <pos x="0" y="6" />
+        <rect l="0" t="0" r="76" b="19" />
+        <Visible val="True" />
+        <Anchor val="None" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#D1BFB2" />
+        <color val="#322920" />
+        <halign val="1" />
+        <valign val="0" />
+        <FontName val="나눔고딕" />
+        <FontSize val="13" />
+        <FontName val="나눔고딕" />
+      </control>
+      <pos x="495" y="79" />
+      <rect l="0" t="0" r="74" b="33" />
+      <Visible val="True" />
+      <Anchor val="None" />
+    </child>
+    <child type="LABELBUTTON" name="tab_map6" subclass="">
+      <asset type="NORMAL">tab_a1_n.png</asset>
+      <asset type="DOWN">tab_a1_d.png</asset>
+      <asset type="OVER">tab_a1_o.png</asset>
+      <asset type="DISABLE">tab_a1_dis.png</asset>
+      <snd type="OVER">ui_btn_paper_over</snd>
+      <snd type="DOWN">ui_btn_paper_click</snd>
+      <control type="LABEL" name="tab_map6_Label">
+        <label val="타오스" />
+        <pos x="0" y="6" />
+        <rect l="0" t="0" r="76" b="19" />
+        <Visible val="True" />
+        <Anchor val="None" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#D1BFB2" />
+        <color val="#322920" />
+        <halign val="1" />
+        <valign val="0" />
+        <FontName val="나눔고딕" />
+        <FontSize val="13" />
+        <FontName val="나눔고딕" />
+      </control>
+      <pos x="951" y="86" />
+      <rect l="0" t="0" r="74" b="33" />
+      <Visible val="True" />
+      <Anchor val="None" />
+    </child>
+    <child type="LABELBUTTON" name="tab_map7" subclass="">
+      <asset type="NORMAL">tab_a1_n.png</asset>
+      <asset type="DOWN">tab_a1_d.png</asset>
+      <asset type="OVER">tab_a1_o.png</asset>
+      <asset type="DISABLE">tab_a1_dis.png</asset>
+      <snd type="OVER">ui_btn_paper_over</snd>
+      <snd type="DOWN">ui_btn_paper_click</snd>
+      <control type="LABEL" name="tab_map7_Label">
+        <label val="아이리스" />
+        <pos x="0" y="6" />
+        <rect l="0" t="0" r="76" b="19" />
+        <Visible val="True" />
+        <Anchor val="None" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#D1BFB2" />
+        <color val="#322920" />
+        <halign val="1" />
+        <valign val="0" />
+        <FontName val="나눔고딕" />
+        <FontSize val="13" />
+        <FontName val="나눔고딕" />
+      </control>
+      <pos x="1025" y="86" />
+      <rect l="0" t="0" r="74" b="33" />
+      <Visible val="True" />
+      <Anchor val="None" />
+    </child>
+  </base>
+</refresh>

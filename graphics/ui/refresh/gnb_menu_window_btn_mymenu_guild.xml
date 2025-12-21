@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="NORMAL">
+    <asset type="IMAGE" name="asset_qnb_btn_guild_n" path="qnb_btn_guild_n.png">
+      <rect l="0" t="0" r="44" b="33" />
+    </asset>
+    <object name="qnb_btn_guild_n" ani="ani_qnb_btn_guild_n">
+      <asset type="IMAGE" link="asset_qnb_btn_guild_n" />
+    </object>
+    <param type="RES" x="44" y="33" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_qnb_btn_guild_n">
+      <frame cnt="0">
+        <posx val="0.5" />
+        <posy val="0.484848484848485" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="OVER">
+    <asset type="IMAGE" name="asset_qnb_btn_guild_o" path="qnb_btn_guild_o.png">
+      <rect l="0" t="0" r="44" b="33" />
+    </asset>
+    <object name="qnb_btn_guild_o" ani="ani_qnb_btn_guild_o">
+      <asset type="IMAGE" link="asset_qnb_btn_guild_o" />
+    </object>
+    <param type="RES" x="44" y="33" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_qnb_btn_guild_o">
+      <frame cnt="0">
+        <posx val="0.5" />
+        <posy val="0.484848484848485" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="DOWN">
+    <asset type="IMAGE" name="asset_qnb_btn_guild_d" path="qnb_btn_guild_d.png">
+      <rect l="0" t="0" r="44" b="33" />
+    </asset>
+    <object name="qnb_btn_guild_d" ani="ani_qnb_btn_guild_d">
+      <asset type="IMAGE" link="asset_qnb_btn_guild_d" />
+    </object>
+    <param type="RES" x="44" y="33" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_qnb_btn_guild_d">
+      <frame cnt="0">
+        <posx val="0.5" />
+        <posy val="0.484848484848485" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="DISABLE">
+    <param type="RES" x="44" y="33" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+  </scene>
+</rfanimation>

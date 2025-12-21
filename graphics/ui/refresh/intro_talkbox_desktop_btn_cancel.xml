@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="NORMAL">
+    <asset type="IMAGE" name="asset_btn_b1_n" path="btn_b1_n.png">
+      <rect l="0" t="0" r="70" b="31" />
+    </asset>
+    <object name="btn_b1_n" ani="ani_btn_b1_n">
+      <asset type="IMAGE" link="asset_btn_b1_n" />
+    </object>
+    <param type="RES" x="70" y="31" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_btn_b1_n">
+      <frame cnt="0">
+        <posx val="0.5" />
+        <posy val="0.483870967741936" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="OVER">
+    <asset type="IMAGE" name="asset_btn_b1_n" path="btn_b1_n.png">
+      <rect l="0" t="0" r="70" b="31" />
+    </asset>
+    <asset type="IMAGE" name="asset_btn_b1_o2" path="btn_b1_o2.png">
+      <rect l="0" t="0" r="70" b="31" />
+    </asset>
+    <asset type="IMAGE" name="asset_btn_b1_o" path="btn_b1_o.png">
+      <rect l="0" t="0" r="70" b="31" />
+    </asset>
+    <object name="btn_b1_n" ani="ani_btn_b1_n">
+      <asset type="IMAGE" link="asset_btn_b1_n" />
+    </object>
+    <object name="btn_b1_o2" ani="ani_btn_b1_o2">
+      <asset type="IMAGE" link="asset_btn_b1_o2" />
+    </object>
+    <object name="btn_b1_o" ani="ani_btn_b1_o">
+      <asset type="IMAGE" link="asset_btn_b1_o" />
+    </object>
+    <param type="RES" x="70" y="31" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_btn_b1_n">
+      <frame cnt="0">
+        <posx val="0.5" />
+        <posy val="0.483870967741936" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+    <anim name="ani_btn_b1_o2">
+      <frame cnt="0">
+        <posx val="0.5" />
+        <posy val="0.483870967741936" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.5" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="167">
+        <posx val="0.5" />
+        <posy val="0.483870967741936" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+    <anim name="ani_btn_b1_o">
+      <frame cnt="0">
+        <posx val="0.5" easeValue="0.5,0.0,0.5,1.0" />
+        <posy val="0.483870967741936" easeValue="0.5,0.0,0.5,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.5" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="167">
+        <posx val="0.5" />
+        <posy val="0.483870967741936" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="DOWN">
+    <asset type="IMAGE" name="asset_btn_b1_d" path="btn_b1_d.png">
+      <rect l="0" t="0" r="70" b="31" />
+    </asset>
+    <object name="btn_b1_d" ani="ani_btn_b1_d">
+      <asset type="IMAGE" link="asset_btn_b1_d" />
+    </object>
+    <param type="RES" x="70" y="31" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_btn_b1_d">
+      <frame cnt="0">
+        <posx val="0.5" />
+        <posy val="0.483870967741936" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="DISABLE">
+    <asset type="IMAGE" name="asset_btn_b1_dis" path="btn_b1_dis.png">
+      <rect l="0" t="0" r="70" b="31" />
+    </asset>
+    <object name="btn_b1_dis" ani="ani_btn_b1_dis">
+      <asset type="IMAGE" link="asset_btn_b1_dis" />
+    </object>
+    <param type="RES" x="70" y="31" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_btn_b1_dis">
+      <frame cnt="0">
+        <posx val="0.5" />
+        <posy val="0.483870967741936" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

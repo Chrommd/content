@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <base type="WND" name="mycash">
+    <Visible val="True" />
+    <Anchor val="Top, Right" />
+    <pos x="783" y="14" />
+    <rect l="0" t="0" r="230" b="23" />
+    <child type="PICTURE" name="img_mycash">
+      <asset type="STATIC">img_mycash.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="230" b="23" />
+      <center x="0" y="0" />
+    </child>
+    <child type="PICTURE" name="img_level">
+      <asset type="STATIC">
+      </asset>
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <pos x="54" y="5" />
+      <rect l="0" t="0" r="15" b="10" />
+      <center x="0" y="0" />
+    </child>
+    <child type="LABEL" name="txt_level">
+      <label val="" />
+      <pos x="8" y="1" />
+      <rect l="0" t="0" r="41" b="17" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#030201" />
+      <color val="#F2F0E5" />
+      <style val="1" />
+      <halign val="2" />
+      <valign val="0" />
+      <fontname val="2=NtreevSoft" />
+      <fontsize val="13" />
+    </child>
+    <child type="LABEL" name="txt_cash">
+      <label val="" />
+      <pos x="95" y="1" />
+      <rect l="0" t="0" r="109" b="17" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#030201" />
+      <color val="#F2F0E5" />
+      <style val="1" />
+      <halign val="2" />
+      <valign val="0" />
+      <fontname val="2=NtreevSoft" />
+      <fontsize val="13" />
+    </child>
+  </base>
+</refresh>

@@ -1,0 +1,842 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="tuto_jump">
+    <asset type="UI" name="asset_lb_jump2">
+      <rect l="0" t="0" r="206" b="19" />
+    </asset>
+    <asset type="UI" name="asset_lb_jump1">
+      <rect l="0" t="0" r="206" b="19" />
+    </asset>
+    <asset type="UI" name="asset_img_jump3">
+      <rect l="0" t="0" r="206" b="138" />
+    </asset>
+    <asset type="UI" name="asset_img_jump2">
+      <rect l="0" t="0" r="206" b="138" />
+    </asset>
+    <asset type="UI" name="asset_img_jump1">
+      <rect l="0" t="0" r="206" b="138" />
+    </asset>
+    <asset type="UI" name="asset_tuto_sliding">
+      <rect l="0" t="0" r="206" b="138" />
+    </asset>
+    <asset type="UI" name="asset_tuto_start">
+      <rect l="0" t="0" r="235" b="67" />
+    </asset>
+    <object name="lb_jump2" ani="ani_lb_jump2">
+      <asset type="UI" link="asset_lb_jump2" />
+    </object>
+    <object name="lb_jump1" ani="ani_lb_jump1">
+      <asset type="UI" link="asset_lb_jump1" />
+    </object>
+    <object name="img_jump3" ani="ani_img_jump3">
+      <asset type="UI" link="asset_img_jump3" />
+    </object>
+    <object name="img_jump2" ani="ani_img_jump2">
+      <asset type="UI" link="asset_img_jump2" />
+    </object>
+    <object name="img_jump1" ani="ani_img_jump1">
+      <asset type="UI" link="asset_img_jump1" />
+    </object>
+    <object name="tuto_sliding" ani="ani_tuto_sliding">
+      <asset type="UI" link="asset_tuto_sliding" />
+    </object>
+    <object name="tuto_start" ani="ani_tuto_start">
+      <asset type="UI" link="asset_tuto_start" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="-1" pendulum="0" />
+    <anim name="ani_lb_jump2">
+      <frame cnt="0">
+        <posx val="-0.0009765625" />
+        <posy val="0.2096354" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="-0.0009765625" />
+        <posy val="0.2096354" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_lb_jump1">
+      <frame cnt="0">
+        <posx val="-0.0009765625" />
+        <posy val="0.1861979" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="-0.0009765625" />
+        <posy val="0.1861979" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_jump3">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2000">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2300">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="4000">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_jump2">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1000">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1333">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2000">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2300">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_jump1">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1000">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1333">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_tuto_sliding">
+      <frame cnt="0">
+        <posx val="0.01269531" />
+        <posy val="0.015625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_tuto_start">
+      <frame cnt="0">
+        <posx val="0.06933594" />
+        <posy val="0.8489583" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="tuto_roof_open">
+    <asset type="UI" name="asset_rooftip">
+      <rect l="0" t="0" r="235" b="210" />
+    </asset>
+    <asset type="UI" name="asset_tuto_jump">
+      <rect l="0" t="0" r="206" b="138" />
+    </asset>
+    <asset type="UI" name="asset_tuto_start">
+      <rect l="0" t="0" r="235" b="67" />
+    </asset>
+    <object name="rooftip" ani="ani_rooftip">
+      <asset type="UI" link="asset_rooftip" />
+    </object>
+    <object name="tuto_jump" ani="ani_tuto_jump">
+      <asset type="UI" link="asset_tuto_jump" />
+    </object>
+    <object name="tuto_start" ani="ani_tuto_start">
+      <asset type="UI" link="asset_tuto_start" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_rooftip">
+      <frame cnt="0">
+        <posx val="0.794921875" />
+        <posy val="0.442708333333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.765625" easeValue="0.0,0.5,1.0,1.0" />
+        <posy val="0.442708333333333" easeValue="0.0,0.5,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,0.5,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_tuto_jump">
+      <frame cnt="0">
+        <posx val="0.01269531" />
+        <posy val="0.015625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_tuto_start">
+      <frame cnt="0">
+        <posx val="0.06933594" />
+        <posy val="0.8489583" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="tuto_roof_close">
+    <asset type="UI" name="asset_rooftip">
+      <rect l="0" t="0" r="235" b="210" />
+    </asset>
+    <asset type="UI" name="asset_tuto_jump">
+      <rect l="0" t="0" r="206" b="138" />
+    </asset>
+    <asset type="UI" name="asset_tuto_start">
+      <rect l="0" t="0" r="235" b="67" />
+    </asset>
+    <object name="rooftip" ani="ani_rooftip">
+      <asset type="UI" link="asset_rooftip" />
+    </object>
+    <object name="tuto_jump" ani="ani_tuto_jump">
+      <asset type="UI" link="asset_tuto_jump" />
+    </object>
+    <object name="tuto_start" ani="ani_tuto_start">
+      <asset type="UI" link="asset_tuto_start" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_rooftip">
+      <frame cnt="0">
+        <posx val="0.765625" />
+        <posy val="0.4427083" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.794921875" easeValue="0.0,0.5,1.0,1.0" />
+        <posy val="0.442708333333333" easeValue="0.0,0.5,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" easeValue="0.0,0.5,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_tuto_jump">
+      <frame cnt="0">
+        <posx val="0.01269531" />
+        <posy val="0.015625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_tuto_start">
+      <frame cnt="0">
+        <posx val="0.06933594" />
+        <posy val="0.8489583" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="tuto_sliding">
+    <asset type="UI" name="asset_tuto_jump">
+      <rect l="0" t="0" r="206" b="138" />
+    </asset>
+    <asset type="UI" name="asset_lb_sliding2">
+      <rect l="0" t="0" r="206" b="19" />
+    </asset>
+    <asset type="UI" name="asset_lb_sliding1">
+      <rect l="0" t="0" r="206" b="19" />
+    </asset>
+    <asset type="UI" name="asset_img_sliding3">
+      <rect l="0" t="0" r="206" b="138" />
+    </asset>
+    <asset type="UI" name="asset_img_sliding2">
+      <rect l="0" t="0" r="206" b="138" />
+    </asset>
+    <asset type="UI" name="asset_img_sliding1">
+      <rect l="0" t="0" r="206" b="138" />
+    </asset>
+    <asset type="UI" name="asset_tuto_start">
+      <rect l="0" t="0" r="235" b="67" />
+    </asset>
+    <object name="tuto_jump" ani="ani_tuto_jump">
+      <asset type="UI" link="asset_tuto_jump" />
+    </object>
+    <object name="lb_sliding2" ani="ani_lb_sliding2">
+      <asset type="UI" link="asset_lb_sliding2" />
+    </object>
+    <object name="lb_sliding1" ani="ani_lb_sliding1">
+      <asset type="UI" link="asset_lb_sliding1" />
+    </object>
+    <object name="img_sliding3" ani="ani_img_sliding3">
+      <asset type="UI" link="asset_img_sliding3" />
+    </object>
+    <object name="img_sliding2" ani="ani_img_sliding2">
+      <asset type="UI" link="asset_img_sliding2" />
+    </object>
+    <object name="img_sliding1" ani="ani_img_sliding1">
+      <asset type="UI" link="asset_img_sliding1" />
+    </object>
+    <object name="tuto_start" ani="ani_tuto_start">
+      <asset type="UI" link="asset_tuto_start" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="-1" pendulum="0" />
+    <anim name="ani_tuto_jump">
+      <frame cnt="0">
+        <posx val="0.01269531" />
+        <posy val="0.015625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_lb_sliding2">
+      <frame cnt="0">
+        <posx val="-0.0009765625" />
+        <posy val="0.2096354" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="-0.0009765625" />
+        <posy val="0.2096354" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_lb_sliding1">
+      <frame cnt="0">
+        <posx val="-0.0009765625" />
+        <posy val="0.1861979" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="-0.0009765625" />
+        <posy val="0.1861979" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_sliding3">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2000">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2300">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="4000">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_sliding2">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1000">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1333">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2000">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2300">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_sliding1">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1000">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1333">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_tuto_start">
+      <frame cnt="0">
+        <posx val="0.06933594" />
+        <posy val="0.8489583" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="tuto_start">
+    <asset type="UI" name="asset_rooftip">
+      <rect l="0" t="0" r="235" b="210" />
+    </asset>
+    <asset type="UI" name="asset_tuto_start">
+      <rect l="0" t="0" r="235" b="67" />
+    </asset>
+    <asset type="UI" name="asset_lb_start1">
+      <rect l="0" t="0" r="210" b="19" />
+    </asset>
+    <asset type="UI" name="asset_lb_start2">
+      <rect l="0" t="0" r="210" b="19" />
+    </asset>
+    <object name="rooftip" ani="ani_rooftip">
+      <asset type="UI" link="asset_rooftip" />
+    </object>
+    <object name="tuto_start" ani="ani_tuto_start">
+      <asset type="UI" link="asset_tuto_start" />
+    </object>
+    <object name="lb_start1" ani="ani_lb_start1">
+      <asset type="UI" link="asset_lb_start1" />
+    </object>
+    <object name="lb_start2" ani="ani_lb_start2">
+      <asset type="UI" link="asset_lb_start2" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_rooftip">
+      <frame cnt="0">
+        <posx val="0.765625" />
+        <posy val="0.4427083" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_tuto_start">
+      <frame cnt="0">
+        <posx val="0.0693359375" />
+        <posy val="0.875" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0.0693359375" easeValue="0.0,0.5,1.0,1.0" />
+        <posy val="0.848958333333333" easeValue="0.0,0.5,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,0.5,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_lb_start1">
+      <frame cnt="0">
+        <posx val="0.01171875" />
+        <posy val="0.0182291666666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.01171875" />
+        <posy val="0.0182291666666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="567">
+        <posx val="0.01171875" />
+        <posy val="0.01171875" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,0.5,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_lb_start2">
+      <frame cnt="0">
+        <posx val="0.01171875" />
+        <posy val="0.0403645833333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.01171875" />
+        <posy val="0.0403645833333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="567">
+        <posx val="0.01171875" />
+        <posy val="0.0338541666666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,0.5,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

@@ -1,0 +1,146 @@
+﻿<refresh version="2">
+	<properties>
+		<property name="DPI" val="72" />
+		<property name="UIAnimation" val="letter_list_column_Animation.xml" />
+	</properties>
+	<base type="WND" subclass="" name="Wnd_letter_list">
+		<pos x="0" y="0" />
+		<rect l="0" t="0" r="447" b="24" />
+		<Visible val="True" />
+		<Anchor val="Top, Left" />
+		<snd type="SHOW"></snd>
+		<snd type="HIDE"></snd>
+		<IsHitTestVisible val="True" />
+		<ClipChildren val="False" />
+		<child type="PICTURE" name="mail_img_mailbox_underline" subclass="">
+			<asset type="STATIC">mail_img_mailbox_underline.png</asset>
+			<pos x="0" y="22" />
+			<rect l="0" t="0" r="447" b="2" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="letter_focus_over" subclass="">
+			<asset type="STATIC">letter_focus_over.png</asset>
+			<pos x="0" y="1" />
+			<rect l="0" t="0" r="447" b="20" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="letter_focus_select" subclass="">
+			<asset type="STATIC">letter_focus_select.png</asset>
+			<pos x="0" y="1" />
+			<rect l="0" t="0" r="447" b="20" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="ANIMBUTTON" name="btn_garbage" subclass="">
+			<asset type="GROUP">letter_list_column_btn_garbage.xml</asset>
+			<asset type="NORMAL"></asset>
+			<asset type="DOWN"></asset>
+			<asset type="OVER"></asset>
+			<asset type="DISABLE"></asset>
+			<asset type="ENTER"></asset>
+			<asset type="LEAVE"></asset>
+			<pos x="426" y="0" />
+			<rect l="0" t="0" r="22" b="22" />
+			<Visible val="True" />
+			<snd type="OVER"></snd>
+			<snd type="DOWN">ui_btn_menu_close</snd>
+			<snd type="RELEASE"></snd>
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<Anchor val="None" />
+			<IsDefaultButton val="False" />
+		</child>
+		<child type="LABEL" name="tx_letter_nickname" subclass="">
+			<pos x="20" y="3" />
+			<rect l="0" t="0" r="93" b="19" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<label val="" />
+			<OutlineColor val="#FF0000" />
+			<ShadowColor val="#FF0000" />
+			<color val="#796456FF" />
+			<halign val="0" />
+			<valign val="1" />
+			<FontName val="나눔고딕" />
+			<FontSize val="13" />
+			<TextTrimming val="CharacterEllipsis" />
+			<style val="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+			<Padding val="0, 0, 0, 0" />
+			<FitToContent val="False" />
+		</child>
+		<child type="LABEL" name="tx_letter_title" subclass="">
+			<pos x="116" y="3" />
+			<rect l="0" t="0" r="200" b="19" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<label val="" />
+			<OutlineColor val="#FF0000" />
+			<ShadowColor val="#FF0000" />
+			<color val="#796456FF" />
+			<halign val="0" />
+			<valign val="1" />
+			<FontName val="나눔고딕" />
+			<FontSize val="13" />
+			<TextTrimming val="CharacterEllipsis" />
+			<style val="1" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+			<Padding val="0, 0, 0, 0" />
+			<FitToContent val="False" />
+		</child>
+		<child type="LABEL" name="tx_letter_date" subclass="">
+			<pos x="316" y="2" />
+			<rect l="0" t="0" r="114" b="19" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<label val="2010-10-21 21:00" />
+			<OutlineColor val="#FF0000" />
+			<ShadowColor val="#FF0000" />
+			<color val="#9D887AFF" />
+			<halign val="0" />
+			<valign val="1" />
+			<FontName val="나눔고딕" />
+			<FontSize val="13" />
+			<TextTrimming val="None" />
+			<style val="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+			<Padding val="0, 0, 0, 0" />
+			<FitToContent val="False" />
+		</child>
+		<child type="CHECK" name="cb_system_msg" subclass="">
+			<asset type="NORMAL">checkbox_n.png</asset>
+			<asset type="CHECK">checkbox_d.png</asset>
+			<pos x="-2" y="-1" />
+			<rect l="0" t="0" r="24" b="24" />
+			<Visible val="True" />
+			<PushSound val="ui_btn_menu_close" />
+			<Anchor val="Top, Left" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="icon_carrot" subclass="">
+			<asset type="STATIC">icon_carrot_small.png</asset>
+			<pos x="0" y="1" />
+			<rect l="0" t="0" r="20" b="20" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+	</base>
+</refresh>

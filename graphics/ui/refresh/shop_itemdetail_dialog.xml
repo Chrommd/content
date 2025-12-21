@@ -1,0 +1,384 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <base type="WNDEX" name="shop_itemdetail_dialog">
+    <asset type="BG" path="bg_frm_04.tga">
+      <tex x="100" y="100" />
+      <rect l="100" t="100" r="235" b="162" />
+    </asset>
+    <asset type="EDGE_LT" path="bg_frm_00.tga">
+      <tex x="100" y="100" />
+      <rect l="0" t="0" r="100" b="100" />
+    </asset>
+    <asset type="EDGE_RT" path="bg_frm_02.tga">
+      <tex x="100" y="100" />
+      <rect l="0" t="0" r="100" b="100" />
+    </asset>
+    <asset type="EDGE_LB" path="bg_frm_06.tga">
+      <tex x="100" y="100" />
+      <rect l="0" t="0" r="100" b="100" />
+    </asset>
+    <asset type="EDGE_RB" path="bg_frm_08.tga">
+      <tex x="100" y="100" />
+      <rect l="0" t="0" r="100" b="100" />
+    </asset>
+    <asset type="FRAME_T" path="bg_frm_01.tga">
+      <tex x="100" y="100" />
+      <rect l="100" t="0" r="235" b="100" />
+    </asset>
+    <asset type="FRAME_B" path="bg_frm_07.tga">
+      <tex x="100" y="100" />
+      <rect l="100" t="0" r="235" b="100" />
+    </asset>
+    <asset type="FRAME_L" path="bg_frm_03.tga">
+      <tex x="100" y="100" />
+      <rect l="0" t="100" r="100" b="162" />
+    </asset>
+    <asset type="FRAME_R" path="bg_frm_05.tga">
+      <tex x="100" y="100" />
+      <rect l="0" t="100" r="100" b="162" />
+    </asset>
+    <Visible val="True" />
+    <Anchor val="None" />
+    <pos x="295" y="180" />
+    <rect l="0" t="0" r="435" b="362" />
+    <Dragable val="False" />
+    <StartPosition val="None" />
+    <EscKeyAction val="Close" />
+    <child type="BUTTON" name="btn_buy">
+      <asset type="NORMAL">btn_buy_n.tga</asset>
+      <asset type="DOWN">btn_buy_d.tga</asset>
+      <asset type="OVER">btn_buy_o.tga</asset>
+      <asset type="DISABLE">btn_buy_d.tga</asset>
+      <snd type="OVER">ui_alt_over</snd>
+      <snd type="DOWN">ui_alt_click</snd>
+      <pos x="140" y="290" />
+      <rect l="0" t="0" r="75" b="38" />
+      <Visible val="True" />
+      <Anchor val="None" />
+    </child>
+    <child type="BUTTON" name="btn_cancel">
+      <asset type="NORMAL">btn_cancel_n.tga</asset>
+      <asset type="DOWN">btn_cancel_d.tga</asset>
+      <asset type="OVER">btn_cancel_o.tga</asset>
+      <asset type="DISABLE">btn_cancel_d.tga</asset>
+      <snd type="OVER">ui_alt_over</snd>
+      <snd type="DOWN">ui_close_board</snd>
+      <pos x="220" y="290" />
+      <rect l="0" t="0" r="75" b="38" />
+      <Visible val="True" />
+      <Anchor val="None" />
+    </child>
+    <child type="BUTTON" name="btn_close">
+      <asset type="NORMAL">btn_close_n.tga</asset>
+      <asset type="DOWN">btn_close_d.tga</asset>
+      <asset type="OVER">btn_close_o.tga</asset>
+      <asset type="DISABLE">btn_close_d.tga</asset>
+      <snd type="OVER">ui_alt_over</snd>
+      <snd type="DOWN">ui_close_board</snd>
+      <pos x="350" y="15" />
+      <rect l="0" t="0" r="70" b="24" />
+      <Visible val="True" />
+      <Anchor val="None" />
+    </child>
+    <child type="PICTURE" name="img_string_bg">
+      <asset type="STATIC">img_string.tga</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="204" y="14" />
+      <rect l="0" t="0" r="40" b="9" />
+      <center x="0" y="0" />
+    </child>
+    <child type="PICTURE" name="img_ability_bg">
+      <asset type="STATIC">img_ex_2.tga</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="42" y="175" />
+      <rect l="0" t="0" r="100" b="86" />
+      <center x="0" y="0" />
+    </child>
+    <child type="PICTURE" name="img_stamp_bg">
+      <asset type="STATIC">img_ex_1.tga</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="175" y="136" />
+      <rect l="0" t="0" r="247" b="37" />
+      <center x="0" y="0" />
+    </child>
+    <child type="LABEL" name="txt_stat">
+      <label val="" />
+      <pos x="58" y="180" />
+      <rect l="0" t="0" r="74" b="75" />
+      <Visible val="True" />
+      <Anchor val="None" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#FF0000" />
+      <color val="#3E2500" />
+      <FontName val="나눔고딕" />
+      <halign val="0" />
+      <valign val="0" />
+      <fontname val="2=NtreevSoft" />
+      <fontsize val="12" />
+    </child>
+    <child type="LABEL" name="txt_desc_bg">
+      <label val="설명 :" />
+      <pos x="177" y="157" />
+      <rect l="0" t="0" r="33" b="14" />
+      <Visible val="True" />
+      <Anchor val="None" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#FF0000" />
+      <color val="#6B5638" />
+      <FontName val="나눔고딕" />
+      <halign val="0" />
+      <valign val="0" />
+      <fontname val="2=NtreevSoft" />
+      <fontsize val="12" />
+    </child>
+    <child type="TEXTAREA" name="txt_desc">
+      <asset type="BG" path="">
+        <tex x="0" y="0" />
+        <rect l="8" t="8" r="174" b="74" />
+      </asset>
+      <asset type="EDGE_LT" path="">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_RT" path="">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_LB" path="">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_RB" path="">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="FRAME_T" path="">
+        <tex x="0" y="0" />
+        <rect l="8" t="0" r="174" b="8" />
+      </asset>
+      <asset type="FRAME_B" path="">
+        <tex x="0" y="0" />
+        <rect l="8" t="0" r="174" b="8" />
+      </asset>
+      <asset type="FRAME_L" path="">
+        <tex x="0" y="0" />
+        <rect l="0" t="8" r="8" b="74" />
+      </asset>
+      <asset type="FRAME_R" path="">
+        <tex x="0" y="0" />
+        <rect l="0" t="8" r="8" b="74" />
+      </asset>
+      <pos x="176" y="174" />
+      <rect l="0" t="0" r="190" b="90" />
+      <Visible val="True" />
+      <Anchor val="None" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#FF0000" />
+      <color val="#6B5638" />
+      <FontName val="나눔고딕" />
+      <halign val="0" />
+      <padding l="4" t="4" r="4" b="4" />
+      <fontname val="2=NtreevSoft" />
+      <fontsize val="12" />
+    </child>
+    <child type="LABEL" name="txt_num_bg">
+      <label val="갯수 :" />
+      <pos x="801" y="219" />
+      <rect l="0" t="0" r="33" b="14" />
+      <Visible val="True" />
+      <Anchor val="None" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#FF0000" />
+      <color val="#6B5638" />
+      <FontName val="나눔고딕" />
+      <halign val="0" />
+      <valign val="0" />
+      <fontname val="2=NtreevSoft" />
+      <fontsize val="12" />
+    </child>
+    <child type="LABEL" name="txt_num">
+      <label val="" />
+      <pos x="843" y="219" />
+      <rect l="0" t="0" r="112" b="14" />
+      <Visible val="True" />
+      <Anchor val="None" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#FF0000" />
+      <color val="#6B5638" />
+      <FontName val="나눔고딕" />
+      <halign val="0" />
+      <valign val="0" />
+      <fontname val="2=NtreevSoft" />
+      <fontsize val="12" />
+    </child>
+    <child type="LABEL" name="txt_period_bg">
+      <label val="기간 :" />
+      <pos x="801" y="202" />
+      <rect l="0" t="0" r="55" b="14" />
+      <Visible val="True" />
+      <Anchor val="None" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#FF0000" />
+      <color val="#6B5638" />
+      <FontName val="나눔고딕" />
+      <halign val="0" />
+      <valign val="0" />
+      <fontname val="2=NtreevSoft" />
+      <fontsize val="12" />
+    </child>
+    <child type="LABEL" name="txt_period">
+      <label val="" />
+      <pos x="843" y="202" />
+      <rect l="0" t="0" r="112" b="14" />
+      <Visible val="True" />
+      <Anchor val="None" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#FF0000" />
+      <color val="#6B5638" />
+      <FontName val="나눔고딕" />
+      <halign val="0" />
+      <valign val="0" />
+      <fontname val="2=NtreevSoft" />
+      <fontsize val="12" />
+    </child>
+    <child type="LABEL" name="txt_ability_bg">
+      <label val="능력 :" />
+      <pos x="801" y="185" />
+      <rect l="0" t="0" r="55" b="14" />
+      <Visible val="True" />
+      <Anchor val="None" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#FF0000" />
+      <color val="#312103" />
+      <FontName val="나눔고딕" />
+      <halign val="0" />
+      <valign val="0" />
+      <fontname val="2=NtreevSoft" />
+      <fontsize val="12" />
+    </child>
+    <child type="LABEL" name="txt_ability">
+      <label val="" />
+      <pos x="843" y="185" />
+      <rect l="0" t="0" r="112" b="14" />
+      <Visible val="True" />
+      <Anchor val="None" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#FF0000" />
+      <color val="#312103" />
+      <FontName val="나눔고딕" />
+      <halign val="0" />
+      <valign val="0" />
+      <fontname val="2=NtreevSoft" />
+      <fontsize val="12" />
+    </child>
+    <child type="LABEL" name="txt_price_bg">
+      <label val="가      격  :  " />
+      <pos x="152" y="99" />
+      <rect l="0" t="0" r="64" b="14" />
+      <Visible val="True" />
+      <Anchor val="None" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#FF0000" />
+      <color val="#312103" />
+      <FontName val="나눔고딕" />
+      <halign val="0" />
+      <valign val="0" />
+      <fontname val="2=NtreevSoft" />
+      <fontsize val="13" />
+    </child>
+    <child type="LABEL" name="txt_price">
+      <label val="" />
+      <pos x="218" y="99" />
+      <rect l="0" t="0" r="134" b="14" />
+      <Visible val="True" />
+      <Anchor val="None" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#FF0000" />
+      <color val="#312103" />
+      <FontName val="나눔고딕" />
+      <halign val="0" />
+      <valign val="0" />
+      <fontname val="2=NtreevSoft" />
+      <fontsize val="13" />
+    </child>
+    <child type="LABEL" name="txt_name">
+      <label val="" />
+      <pos x="218" y="65" />
+      <rect l="0" t="0" r="105" b="14" />
+      <Visible val="True" />
+      <Anchor val="None" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#FF0000" />
+      <color val="#312103" />
+      <FontName val="나눔고딕" />
+      <halign val="0" />
+      <valign val="0" />
+      <fontname val="2=NtreevSoft" />
+      <fontsize val="13" />
+    </child>
+    <child type="LABEL" name="txt_name_bg">
+      <label val="이      름  :  " />
+      <pos x="153" y="65" />
+      <rect l="0" t="0" r="64" b="14" />
+      <Visible val="True" />
+      <Anchor val="None" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#FF0000" />
+      <color val="#312103" />
+      <FontName val="나눔고딕" />
+      <halign val="0" />
+      <valign val="0" />
+      <fontname val="2=NtreevSoft" />
+      <fontsize val="13" />
+    </child>
+    <child type="LABEL" name="txt_level">
+      <label val="" />
+      <pos x="218" y="82" />
+      <rect l="0" t="0" r="81" b="14" />
+      <Visible val="True" />
+      <Anchor val="None" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#FF0000" />
+      <color val="#312103" />
+      <FontName val="나눔고딕" />
+      <halign val="0" />
+      <valign val="0" />
+      <fontname val="2=NtreevSoft" />
+      <fontsize val="13" />
+    </child>
+    <child type="LABEL" name="txt_level_bg">
+      <label val="사용레벨  :  " />
+      <pos x="153" y="81" />
+      <rect l="0" t="0" r="63" b="14" />
+      <Visible val="True" />
+      <Anchor val="None" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#FF0000" />
+      <color val="#312103" />
+      <FontName val="나눔고딕" />
+      <halign val="0" />
+      <valign val="0" />
+      <fontname val="2=NtreevSoft" />
+      <fontsize val="13" />
+    </child>
+    <child type="PICTURE" name="img_item_icon_bg">
+      <asset type="STATIC">shop_item_bg.tga</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="51" y="57" />
+      <rect l="0" t="0" r="84" b="85" />
+      <center x="0" y="0" />
+    </child>
+    <child type="PICTURE" name="img_item_icon">
+      <asset type="STATIC">r00_pt02_00.tga</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="53" y="59" />
+      <rect l="0" t="0" r="80" b="81" />
+      <center x="0" y="0" />
+    </child>
+  </base>
+</refresh>

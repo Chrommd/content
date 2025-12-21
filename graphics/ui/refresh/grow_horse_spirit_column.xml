@@ -1,0 +1,265 @@
+﻿<refresh version="2">
+	<properties>
+		<property name="DPI" val="72" />
+		<property name="UIAnimation" val="grow_horse_spirit_column_Animation.xml" />
+	</properties>
+	<base type="WND" subclass="" name="Wnd">
+		<pos x="0" y="0" />
+		<rect l="0" t="0" r="478" b="75" />
+		<Visible val="True" />
+		<Anchor val="Top, Left" />
+		<snd type="SHOW"></snd>
+		<snd type="HIDE"></snd>
+		<IsHitTestVisible val="True" />
+		<ClipChildren val="False" />
+		<child type="PICTURE" name="list_btn_horseinfo_spirit_Disable" subclass="">
+			<asset type="STATIC">list_btn_horseinfo_spirit_Disable.png</asset>
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="478" b="75" />
+			<Visible val="False" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<child type="LABEL" name="lb_horseinfo_spirit_none" subclass="">
+				<pos x="1" y="-1" />
+				<rect l="0" t="0" r="474" b="71" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<label val="기세없음" />
+				<OutlineColor val="#FFFFFF" />
+				<ShadowColor val="#0000004C" />
+				<color val="#9D887A7F" />
+				<halign val="1" />
+				<valign val="1" />
+				<FontName val="나눔고딕" />
+				<FontSize val="16" />
+				<TextTrimming val="None" />
+				<style val="1" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+				<Padding val="0, 0, 0, 0" />
+				<FitToContent val="False" />
+			</child>
+		</child>
+		<child type="PICTURE" name="list_btn_horseinfo_spirit_Push" subclass="">
+			<asset type="STATIC">list_btn_horseinfo_spirit_Push.png</asset>
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="478" b="75" />
+			<Visible val="False" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="list_btn_horseinfo_spirit_Hover" subclass="">
+			<asset type="STATIC">list_btn_horseinfo_spirit_Hover.png</asset>
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="478" b="75" />
+			<Visible val="False" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="list_btn_horseinfo_spirit_Normal" subclass="">
+			<asset type="STATIC">list_btn_horseinfo_spirit_Normal.png</asset>
+			<pos x="1" y="1" />
+			<rect l="0" t="0" r="475" b="75" />
+			<Visible val="False" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="icon_common_select" subclass="">
+			<asset type="STATIC">icon_common_select.png</asset>
+			<pos x="453" y="3" />
+			<rect l="0" t="0" r="22" b="23" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="list_btn_horseinfo_spirit_frame" subclass="">
+			<asset type="STATIC">list_btn_horseinfo_spirit_frame.png</asset>
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="476" b="73" />
+			<Visible val="False" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="LABEL" name="lb_horseinfo_spirit_name" subclass="">
+			<pos x="13" y="6" />
+			<rect l="0" t="0" r="449" b="24" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<label val="배고파 기세" />
+			<OutlineColor val="#FFFFFF" />
+			<ShadowColor val="#0000004C" />
+			<color val="#796456FF" />
+			<halign val="0" />
+			<valign val="1" />
+			<FontName val="나눔고딕 ExtraBold" />
+			<FontSize val="16" />
+			<TextTrimming val="None" />
+			<style val="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+			<Padding val="0, 0, 0, 0" />
+			<FitToContent val="False" />
+		</child>
+		<child type="TEXTAREA" name="ta_horseinfo_spirit_contents" subclass="">
+			<asset type="BG" path="" tileMode="Tile">
+				<tex x="0" y="0" />
+				<rect l="8" t="8" r="435" b="26" />
+			</asset>
+			<asset type="EDGE_LT" path="" tileMode="Tile">
+				<tex x="0" y="0" />
+				<rect l="0" t="0" r="8" b="8" />
+			</asset>
+			<asset type="EDGE_RT" path="" tileMode="Tile">
+				<tex x="0" y="0" />
+				<rect l="0" t="0" r="8" b="8" />
+			</asset>
+			<asset type="EDGE_LB" path="" tileMode="Tile">
+				<tex x="0" y="0" />
+				<rect l="0" t="0" r="8" b="8" />
+			</asset>
+			<asset type="EDGE_RB" path="" tileMode="Tile">
+				<tex x="0" y="0" />
+				<rect l="0" t="0" r="8" b="8" />
+			</asset>
+			<asset type="FRAME_T" path="" tileMode="Tile">
+				<tex x="0" y="0" />
+				<rect l="8" t="0" r="435" b="8" />
+			</asset>
+			<asset type="FRAME_B" path="" tileMode="Tile">
+				<tex x="0" y="0" />
+				<rect l="8" t="0" r="435" b="8" />
+			</asset>
+			<asset type="FRAME_L" path="" tileMode="Tile">
+				<tex x="0" y="0" />
+				<rect l="0" t="8" r="8" b="26" />
+			</asset>
+			<asset type="FRAME_R" path="" tileMode="Tile">
+				<tex x="0" y="0" />
+				<rect l="0" t="8" r="8" b="26" />
+			</asset>
+			<asset type="CARET" path="">
+				<rpos x="0" y="0" />
+				<rect l="0" t="0" r="0" b="0" />
+			</asset>
+			<pos x="12" y="33" />
+			<rect l="0" t="0" r="451" b="42" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<Editable val="False" />
+			<OutlineColor val="#FFFFFF" />
+			<ShadowColor val="#0000004C" />
+			<SelectionBrush val="#FF0000" />
+			<color val="#796456FF" />
+			<style val="1" />
+			<halign val="0" />
+			<padding l="0" t="0" r="0" b="0" />
+			<FontName val="나눔고딕" />
+			<FontSize val="13" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+			<FitToContent val="False" />
+			<Text val="" />
+		</child>
+		<child type="PICTURE" name="icon_horseinfo_spirit" subclass="">
+			<asset type="STATIC"></asset>
+			<pos x="-68" y="6" />
+			<rect l="0" t="0" r="61" b="61" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="icon_horseinfo_spirit_none" subclass="">
+			<asset type="STATIC">icon_horseinfo_spirit_none.png</asset>
+			<pos x="-68" y="6" />
+			<rect l="0" t="0" r="61" b="61" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<base type="WNDEX" subclass="" name="WndEx_lock">
+			<asset type="BG" path="frm_lock_CenterMiddle.png" tileMode="Stretch">
+				<tex x="4" y="4" />
+				<rect l="4" t="4" r="468" b="66" />
+			</asset>
+			<asset type="EDGE_LT" path="frm_lock_LeftTop.png" tileMode="Stretch">
+				<tex x="4" y="4" />
+				<rect l="0" t="0" r="4" b="4" />
+			</asset>
+			<asset type="EDGE_RT" path="frm_lock_RightTop.png" tileMode="Stretch">
+				<tex x="4" y="4" />
+				<rect l="0" t="0" r="4" b="4" />
+			</asset>
+			<asset type="EDGE_LB" path="frm_lock_LeftBottom.png" tileMode="Stretch">
+				<tex x="4" y="4" />
+				<rect l="0" t="0" r="4" b="4" />
+			</asset>
+			<asset type="EDGE_RB" path="frm_lock_RightBottom.png" tileMode="Stretch">
+				<tex x="4" y="4" />
+				<rect l="0" t="0" r="4" b="4" />
+			</asset>
+			<asset type="FRAME_T" path="frm_lock_CenterTop.png" tileMode="Tile">
+				<tex x="4" y="4" />
+				<rect l="4" t="0" r="468" b="4" />
+			</asset>
+			<asset type="FRAME_B" path="frm_lock_CenterBottom.png" tileMode="Tile">
+				<tex x="4" y="4" />
+				<rect l="4" t="0" r="468" b="4" />
+			</asset>
+			<asset type="FRAME_L" path="frm_lock_LeftMiddle.png" tileMode="Tile">
+				<tex x="4" y="4" />
+				<rect l="0" t="4" r="4" b="66" />
+			</asset>
+			<asset type="FRAME_R" path="frm_lock_RightMiddle.png" tileMode="Tile">
+				<tex x="4" y="4" />
+				<rect l="0" t="4" r="4" b="66" />
+			</asset>
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="476" b="74" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<snd type="SHOW"></snd>
+			<snd type="HIDE"></snd>
+			<Dragable val="False" />
+			<StartPosition val="None" />
+			<EscKeyAction val="None" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<child type="PICTURE" name="img_common_lock_01_back" subclass="">
+				<asset type="STATIC">img_common_lock_01_back.png</asset>
+				<pos x="447" y="-1" />
+				<rect l="0" t="0" r="29" b="23" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="icon_common_lock" subclass="">
+				<asset type="STATIC">icon_common_lock.png</asset>
+				<pos x="456" y="3" />
+				<rect l="0" t="0" r="11" b="13" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+		</base>
+	</base>
+</refresh>

@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+  </properties>
+  <base type="WNDEX" subclass="" name="make_account">
+    <asset type="BG" path="" tileMode="Tile">
+      <tex x="0" y="0" />
+      <rect l="8" t="8" r="584" b="284" />
+    </asset>
+    <asset type="EDGE_LT" path="" tileMode="Tile">
+      <tex x="0" y="0" />
+      <rect l="0" t="0" r="8" b="8" />
+    </asset>
+    <asset type="EDGE_RT" path="" tileMode="Tile">
+      <tex x="0" y="0" />
+      <rect l="0" t="0" r="8" b="8" />
+    </asset>
+    <asset type="EDGE_LB" path="" tileMode="Tile">
+      <tex x="0" y="0" />
+      <rect l="0" t="0" r="8" b="8" />
+    </asset>
+    <asset type="EDGE_RB" path="" tileMode="Tile">
+      <tex x="0" y="0" />
+      <rect l="0" t="0" r="8" b="8" />
+    </asset>
+    <asset type="FRAME_T" path="" tileMode="Tile">
+      <tex x="0" y="0" />
+      <rect l="8" t="0" r="584" b="8" />
+    </asset>
+    <asset type="FRAME_B" path="" tileMode="Tile">
+      <tex x="0" y="0" />
+      <rect l="8" t="0" r="584" b="8" />
+    </asset>
+    <asset type="FRAME_L" path="" tileMode="Tile">
+      <tex x="0" y="0" />
+      <rect l="0" t="8" r="8" b="284" />
+    </asset>
+    <asset type="FRAME_R" path="" tileMode="Tile">
+      <tex x="0" y="0" />
+      <rect l="0" t="8" r="8" b="284" />
+    </asset>
+    <Visible val="True" />
+    <Anchor val="Bottom, Right" />
+    <pos x="490" y="520" />
+    <rect l="0" t="0" r="600" b="300" />
+    <Dragable val="False" />
+    <StartPosition val="None" />
+    <EscKeyAction val="None" />
+    <IsHitTestVisible val="True" />
+    <ClipChildren val="False" />
+    <child type="PICTURE" name="img_back" subclass="">
+      <asset type="STATIC">test_make01.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="513" b="243" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="TEXTAREA" name="txt_account" subclass="">
+      <asset type="BG" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="8" t="8" r="322" b="86" />
+      </asset>
+      <asset type="EDGE_LT" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_RT" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_LB" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_RB" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="FRAME_T" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="8" t="0" r="322" b="8" />
+      </asset>
+      <asset type="FRAME_B" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="8" t="0" r="322" b="8" />
+      </asset>
+      <asset type="FRAME_L" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="8" r="8" b="86" />
+      </asset>
+      <asset type="FRAME_R" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="8" r="8" b="86" />
+      </asset>
+      <asset type="CARET" path="">
+        <rpos x="0" y="0" />
+        <rect l="0" t="0" r="0" b="0" />
+      </asset>
+      <pos x="25" y="75" />
+      <rect l="0" t="0" r="338" b="102" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <Editable val="False" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#FF0000" />
+      <SelectionBrush val="#FF0000" />
+      <color val="#482715" />
+      <style val="1" />
+      <halign val="0" />
+      <padding l="0" t="0" r="0" b="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="13" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="ANIMBUTTON" name="btn_confirm" subclass="">
+      <asset type="GROUP">make_account_dialog_btn_confirm.xml</asset>
+      <asset type="NORMAL">
+      </asset>
+      <asset type="DOWN">
+      </asset>
+      <asset type="OVER">
+      </asset>
+      <asset type="DISABLE">
+      </asset>
+      <asset type="ENTER">
+      </asset>
+      <asset type="LEAVE">
+      </asset>
+      <snd type="OVER">
+      </snd>
+      <snd type="DOWN">ui_btn_menu_click</snd>
+      <snd type="RELEASE">ui_btn_menu_release</snd>
+      <pos x="198" y="188" />
+      <rect l="0" t="0" r="70" b="30" />
+      <Visible val="True" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <Anchor val="Top, Left" />
+      <IsDefaultButton val="False" />
+      <child type="LABEL" name="lb_yes1" subclass="">
+        <label val="OK" />
+        <pos x="0" y="5" />
+        <rect l="0" t="0" r="70" b="19" />
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#927254" />
+        <color val="#030200" />
+        <halign val="1" />
+        <valign val="0" />
+        <FontName val="나눔고딕" />
+        <FontSize val="14" />
+        <TextTrimming val="None" />
+        <style val="1" />
+        <IsHitTestVisible val="False" />
+        <ClipChildren val="False" />
+        <Padding val="0, 0, 0, 0" />
+      </child>
+    </child>
+  </base>
+</refresh>

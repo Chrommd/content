@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="rm_list_confirm_Animation.xml" />
+  </properties>
+  <base type="WND" subclass="" name="Wnd_rm_list_confirm">
+    <Visible val="True" />
+    <Anchor val="Top, Left" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="483" b="158" />
+    <IsHitTestVisible val="True" />
+    <child type="PICTURE" name="img_rm_list_confirm_back" subclass="">
+      <asset type="STATIC">img_rm_confirm_back.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="149" y="89" />
+      <rect l="0" t="0" r="330" b="66" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <child type="ANIMBUTTON" name="btn_rm_list_confirm_yes" subclass="">
+        <asset type="GROUP">rm_list_confirm_btn_rm_list_confirm_yes.xml</asset>
+        <asset type="NORMAL">
+        </asset>
+        <asset type="DOWN">
+        </asset>
+        <asset type="OVER">
+        </asset>
+        <asset type="DISABLE">
+        </asset>
+        <asset type="ENTER">
+        </asset>
+        <asset type="LEAVE">
+        </asset>
+        <snd type="OVER">0</snd>
+        <snd type="DOWN">0</snd>
+        <snd type="RELEASE">
+        </snd>
+        <pos x="188" y="18" />
+        <rect l="0" t="0" r="63" b="28" />
+        <Visible val="True" />
+        <IsHitTestVisible val="True" />
+        <Anchor val="Top, Left" />
+        <child type="LABEL" name="label_rm_list_confirm_yes" subclass="">
+          <label val="Yes" />
+          <pos x="0" y="0" />
+          <rect l="0" t="0" r="63" b="28" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#FF0000" />
+          <color val="#FF0000" />
+          <halign val="1" />
+          <valign val="1" />
+          <FontName val="나눔고딕" />
+          <FontSize val="12" />
+          <TextTrimming val="None" />
+          <FontName val="나눔고딕" />
+          <IsHitTestVisible val="False" />
+        </child>
+      </child>
+      <child type="ANIMBUTTON" name="btn_rm_list_confirm_no" subclass="">
+        <asset type="GROUP">rm_list_confirm_btn_rm_list_confirm_no.xml</asset>
+        <asset type="NORMAL">
+        </asset>
+        <asset type="DOWN">
+        </asset>
+        <asset type="OVER">
+        </asset>
+        <asset type="DISABLE">
+        </asset>
+        <asset type="ENTER">
+        </asset>
+        <asset type="LEAVE">
+        </asset>
+        <snd type="OVER">0</snd>
+        <snd type="DOWN">0</snd>
+        <snd type="RELEASE">
+        </snd>
+        <pos x="254" y="18" />
+        <rect l="0" t="0" r="63" b="28" />
+        <Visible val="True" />
+        <IsHitTestVisible val="True" />
+        <Anchor val="Top, Left" />
+        <child type="LABEL" name="Label5" subclass="">
+          <label val="No" />
+          <pos x="0" y="0" />
+          <rect l="0" t="0" r="63" b="28" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#FF0000" />
+          <color val="#FF0000" />
+          <halign val="1" />
+          <valign val="1" />
+          <FontName val="나눔고딕" />
+          <FontSize val="12" />
+          <TextTrimming val="None" />
+          <FontName val="나눔고딕" />
+          <IsHitTestVisible val="False" />
+        </child>
+      </child>
+      <child type="TEXTAREA" name="ta_rm_list_confirm_explain" subclass="">
+        <asset type="BG" path="">
+          <tex x="0" y="0" />
+          <rect l="8" t="8" r="153" b="32" />
+        </asset>
+        <asset type="EDGE_LT" path="">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="EDGE_RT" path="">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="EDGE_LB" path="">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="EDGE_RB" path="">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="FRAME_T" path="">
+          <tex x="0" y="0" />
+          <rect l="8" t="0" r="153" b="8" />
+        </asset>
+        <asset type="FRAME_B" path="">
+          <tex x="0" y="0" />
+          <rect l="8" t="0" r="153" b="8" />
+        </asset>
+        <asset type="FRAME_L" path="">
+          <tex x="0" y="0" />
+          <rect l="0" t="8" r="8" b="32" />
+        </asset>
+        <asset type="FRAME_R" path="">
+          <tex x="0" y="0" />
+          <rect l="0" t="8" r="8" b="32" />
+        </asset>
+        <asset type="CARET" path="">
+          <rpos x="0" y="0" />
+          <rect l="0" t="0" r="0" b="0" />
+        </asset>
+        <pos x="7" y="8" />
+        <rect l="0" t="0" r="169" b="48" />
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <Editable val="False" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#FF0000" />
+        <SelectionBrush val="#FF0000" />
+        <color val="#FFFFFF" />
+        <FontName val="나눔고딕" />
+        <halign val="0" />
+        <padding l="3" t="2" r="3" b="2" />
+        <FontName val="나눔고딕" />
+        <FontSize val="12" />
+        <IsHitTestVisible val="True" />
+      </child>
+      <child type="TEXTAREA" name="ta_rm_list_repair_explain" subclass="">
+        <asset type="BG" path="">
+          <tex x="0" y="0" />
+          <rect l="8" t="8" r="153" b="32" />
+        </asset>
+        <asset type="EDGE_LT" path="">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="EDGE_RT" path="">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="EDGE_LB" path="">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="EDGE_RB" path="">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="FRAME_T" path="">
+          <tex x="0" y="0" />
+          <rect l="8" t="0" r="153" b="8" />
+        </asset>
+        <asset type="FRAME_B" path="">
+          <tex x="0" y="0" />
+          <rect l="8" t="0" r="153" b="8" />
+        </asset>
+        <asset type="FRAME_L" path="">
+          <tex x="0" y="0" />
+          <rect l="0" t="8" r="8" b="32" />
+        </asset>
+        <asset type="FRAME_R" path="">
+          <tex x="0" y="0" />
+          <rect l="0" t="8" r="8" b="32" />
+        </asset>
+        <asset type="CARET" path="">
+          <rpos x="0" y="0" />
+          <rect l="0" t="0" r="0" b="0" />
+        </asset>
+        <pos x="7" y="8" />
+        <rect l="0" t="0" r="169" b="48" />
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <Editable val="False" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#FF0000" />
+        <SelectionBrush val="#FF0000" />
+        <color val="#FFFFFF" />
+        <FontName val="나눔고딕" />
+        <halign val="0" />
+        <padding l="3" t="2" r="3" b="2" />
+        <FontName val="나눔고딕" />
+        <FontSize val="12" />
+        <IsHitTestVisible val="True" />
+      </child>
+    </child>
+  </base>
+</refresh>

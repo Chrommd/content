@@ -1,0 +1,951 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="_Normal_">
+    <asset type="UI" name="asset_img_grow_status_Normal">
+      <rect l="0" t="0" r="67" b="87" />
+    </asset>
+    <asset type="UI" name="asset_img_grow_status_Over">
+      <rect l="0" t="0" r="67" b="87" />
+    </asset>
+    <asset type="UI" name="asset_img_grow_status_Selected">
+      <rect l="0" t="0" r="67" b="87" />
+    </asset>
+    <asset type="UI" name="asset_img_grow_status_empty">
+      <rect l="0" t="0" r="67" b="87" />
+    </asset>
+    <asset type="UI" name="asset_img_grow_status_choose">
+      <rect l="0" t="0" r="67" b="87" />
+    </asset>
+    <asset type="UI" name="asset_icon_horseinfo_spirit_none">
+      <rect l="0" t="0" r="66" b="86" />
+    </asset>
+    <asset type="UI" name="asset_img_grow_status_empty_new">
+      <rect l="0" t="0" r="67" b="87" />
+    </asset>
+    <object name="img_grow_status_Normal" ani="ani_img_grow_status_Normal">
+      <asset type="UI" link="asset_img_grow_status_Normal" />
+    </object>
+    <object name="img_grow_status_Over" ani="ani_img_grow_status_Over">
+      <asset type="UI" link="asset_img_grow_status_Over" />
+    </object>
+    <object name="img_grow_status_Selected" ani="ani_img_grow_status_Selected">
+      <asset type="UI" link="asset_img_grow_status_Selected" />
+    </object>
+    <object name="img_grow_status_empty" ani="ani_img_grow_status_empty">
+      <asset type="UI" link="asset_img_grow_status_empty" />
+    </object>
+    <object name="img_grow_status_choose" ani="ani_img_grow_status_choose">
+      <asset type="UI" link="asset_img_grow_status_choose" />
+    </object>
+    <object name="icon_horseinfo_spirit_none" ani="ani_icon_horseinfo_spirit_none">
+      <asset type="UI" link="asset_icon_horseinfo_spirit_none" />
+    </object>
+    <object name="img_grow_status_empty_new" ani="ani_img_grow_status_empty_new">
+      <asset type="UI" link="asset_img_grow_status_empty_new" />
+    </object>
+    <param type="RES" x="67" y="82" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_img_grow_status_Normal">
+      <frame cnt="0">
+        <posx val="0.01492537" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_grow_status_Over">
+      <frame cnt="0">
+        <posx val="0.01492537" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_grow_status_Selected">
+      <frame cnt="0">
+        <posx val="0.01492537" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_grow_status_empty">
+      <frame cnt="0">
+        <posx val="0.01492537" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_grow_status_choose">
+      <frame cnt="0">
+        <posx val="0.01492537" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_horseinfo_spirit_none">
+      <frame cnt="0">
+        <posx val="0.01492537" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_grow_status_empty_new">
+      <frame cnt="0">
+        <posx val="0.01492537" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Over_">
+    <asset type="UI" name="asset_img_grow_status_Hover">
+      <rect l="0" t="0" r="67" b="87" />
+    </asset>
+    <asset type="UI" name="asset_img_grow_status_Normal">
+      <rect l="0" t="0" r="67" b="87" />
+    </asset>
+    <asset type="UI" name="asset_img_grow_status_Over">
+      <rect l="0" t="0" r="67" b="87" />
+    </asset>
+    <asset type="UI" name="asset_img_grow_status_Selected">
+      <rect l="0" t="0" r="67" b="87" />
+    </asset>
+    <asset type="UI" name="asset_img_grow_status_empty">
+      <rect l="0" t="0" r="67" b="87" />
+    </asset>
+    <asset type="UI" name="asset_img_grow_status_choose">
+      <rect l="0" t="0" r="67" b="87" />
+    </asset>
+    <asset type="UI" name="asset_icon_horseinfo_spirit_none">
+      <rect l="0" t="0" r="66" b="86" />
+    </asset>
+    <asset type="UI" name="asset_img_grow_status_empty_new">
+      <rect l="0" t="0" r="67" b="87" />
+    </asset>
+    <object name="img_grow_status_Hover" ani="ani_img_grow_status_Hover">
+      <asset type="UI" link="asset_img_grow_status_Hover" />
+    </object>
+    <object name="img_grow_status_Normal" ani="ani_img_grow_status_Normal">
+      <asset type="UI" link="asset_img_grow_status_Normal" />
+    </object>
+    <object name="img_grow_status_Over" ani="ani_img_grow_status_Over">
+      <asset type="UI" link="asset_img_grow_status_Over" />
+    </object>
+    <object name="img_grow_status_Selected" ani="ani_img_grow_status_Selected">
+      <asset type="UI" link="asset_img_grow_status_Selected" />
+    </object>
+    <object name="img_grow_status_empty" ani="ani_img_grow_status_empty">
+      <asset type="UI" link="asset_img_grow_status_empty" />
+    </object>
+    <object name="img_grow_status_choose" ani="ani_img_grow_status_choose">
+      <asset type="UI" link="asset_img_grow_status_choose" />
+    </object>
+    <object name="icon_horseinfo_spirit_none" ani="ani_icon_horseinfo_spirit_none">
+      <asset type="UI" link="asset_icon_horseinfo_spirit_none" />
+    </object>
+    <object name="img_grow_status_empty_new" ani="ani_img_grow_status_empty_new">
+      <asset type="UI" link="asset_img_grow_status_empty_new" />
+    </object>
+    <param type="RES" x="67" y="82" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_img_grow_status_Hover">
+      <frame cnt="0">
+        <posx val="0.01492537" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_grow_status_Normal">
+      <frame cnt="0">
+        <posx val="0.01492537" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_grow_status_Over">
+      <frame cnt="0">
+        <posx val="0.01492537" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_grow_status_Selected">
+      <frame cnt="0">
+        <posx val="0.01492537" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_grow_status_empty">
+      <frame cnt="0">
+        <posx val="0.01492537" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_grow_status_choose">
+      <frame cnt="0">
+        <posx val="0.01492537" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_horseinfo_spirit_none">
+      <frame cnt="0">
+        <posx val="0.01492537" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_grow_status_empty_new">
+      <frame cnt="0">
+        <posx val="0.01492537" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Selected_">
+    <asset type="UI" name="asset_img_grow_status_Normal">
+      <rect l="0" t="0" r="67" b="87" />
+    </asset>
+    <asset type="UI" name="asset_img_grow_status_Over">
+      <rect l="0" t="0" r="67" b="87" />
+    </asset>
+    <asset type="UI" name="asset_img_grow_status_Selected">
+      <rect l="0" t="0" r="67" b="87" />
+    </asset>
+    <asset type="UI" name="asset_img_grow_status_empty">
+      <rect l="0" t="0" r="67" b="87" />
+    </asset>
+    <asset type="UI" name="asset_img_grow_status_choose">
+      <rect l="0" t="0" r="67" b="87" />
+    </asset>
+    <asset type="UI" name="asset_icon_horseinfo_spirit_none">
+      <rect l="0" t="0" r="66" b="86" />
+    </asset>
+    <asset type="UI" name="asset_img_grow_status_empty_new">
+      <rect l="0" t="0" r="67" b="87" />
+    </asset>
+    <object name="img_grow_status_Normal" ani="ani_img_grow_status_Normal">
+      <asset type="UI" link="asset_img_grow_status_Normal" />
+    </object>
+    <object name="img_grow_status_Over" ani="ani_img_grow_status_Over">
+      <asset type="UI" link="asset_img_grow_status_Over" />
+    </object>
+    <object name="img_grow_status_Selected" ani="ani_img_grow_status_Selected">
+      <asset type="UI" link="asset_img_grow_status_Selected" />
+    </object>
+    <object name="img_grow_status_empty" ani="ani_img_grow_status_empty">
+      <asset type="UI" link="asset_img_grow_status_empty" />
+    </object>
+    <object name="img_grow_status_choose" ani="ani_img_grow_status_choose">
+      <asset type="UI" link="asset_img_grow_status_choose" />
+    </object>
+    <object name="icon_horseinfo_spirit_none" ani="ani_icon_horseinfo_spirit_none">
+      <asset type="UI" link="asset_icon_horseinfo_spirit_none" />
+    </object>
+    <object name="img_grow_status_empty_new" ani="ani_img_grow_status_empty_new">
+      <asset type="UI" link="asset_img_grow_status_empty_new" />
+    </object>
+    <param type="RES" x="67" y="82" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_img_grow_status_Normal">
+      <frame cnt="0">
+        <posx val="0.01492537" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_grow_status_Over">
+      <frame cnt="0">
+        <posx val="0.01492537" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_grow_status_Selected">
+      <frame cnt="0">
+        <posx val="0.01492537" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <sound val="ui_btn_menu_page" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_grow_status_empty">
+      <frame cnt="0">
+        <posx val="0.01492537" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_grow_status_choose">
+      <frame cnt="0">
+        <posx val="0.01492537" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_horseinfo_spirit_none">
+      <frame cnt="0">
+        <posx val="0.01492537" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_grow_status_empty_new">
+      <frame cnt="0">
+        <posx val="0.01492537" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Disabled_">
+    <asset type="UI" name="asset_Wnd_grow_horselist">
+      <rect l="0" t="0" r="68" b="88" />
+    </asset>
+    <asset type="UI" name="asset_wnd_img_set">
+      <rect l="0" t="0" r="68" b="88" />
+    </asset>
+    <asset type="UI" name="asset_img_grow_status_Hover">
+      <rect l="0" t="0" r="67" b="87" />
+    </asset>
+    <asset type="UI" name="asset_img_grow_status_Normal">
+      <rect l="0" t="0" r="67" b="87" />
+    </asset>
+    <asset type="UI" name="asset_img_grow_status_Over">
+      <rect l="0" t="0" r="67" b="87" />
+    </asset>
+    <asset type="UI" name="asset_img_grow_status_Selected">
+      <rect l="0" t="0" r="67" b="87" />
+    </asset>
+    <asset type="UI" name="asset_img_grow_status_empty">
+      <rect l="0" t="0" r="67" b="87" />
+    </asset>
+    <asset type="UI" name="asset_img_grow_status_horse">
+      <rect l="0" t="0" r="74" b="74" />
+    </asset>
+    <asset type="UI" name="asset_img_grow_status_health_tired">
+      <rect l="0" t="0" r="70" b="70" />
+    </asset>
+    <asset type="UI" name="asset_img_grow_status_tired1">
+      <rect l="0" t="0" r="70" b="22" />
+    </asset>
+    <asset type="UI" name="asset_img_grow_status_health1">
+      <rect l="0" t="0" r="70" b="22" />
+    </asset>
+    <asset type="UI" name="asset_img_grow_status_heal">
+      <rect l="0" t="0" r="67" b="67" />
+    </asset>
+    <asset type="UI" name="asset_img_grow_status_select">
+      <rect l="0" t="0" r="16" b="15" />
+    </asset>
+    <asset type="UI" name="asset_img_grow_status_choose">
+      <rect l="0" t="0" r="67" b="87" />
+    </asset>
+    <asset type="UI" name="asset_img_grow_status_select1">
+      <rect l="0" t="0" r="22" b="23" />
+    </asset>
+    <asset type="UI" name="asset_icon_horseinfo_spirit_none">
+      <rect l="0" t="0" r="66" b="86" />
+    </asset>
+    <asset type="UI" name="asset_img_grow_status_empty_new">
+      <rect l="0" t="0" r="67" b="87" />
+    </asset>
+    <asset type="UI" name="asset_img_grow_status_spirit">
+      <rect l="0" t="0" r="67" b="87" />
+    </asset>
+    <asset type="UI" name="asset_img_grow_status_tired">
+      <rect l="0" t="0" r="70" b="22" />
+    </asset>
+    <asset type="UI" name="asset_img_grow_status_health">
+      <rect l="0" t="0" r="70" b="22" />
+    </asset>
+    <asset type="UI" name="asset_img_grow_status_injury">
+      <rect l="0" t="0" r="23" b="22" />
+    </asset>
+    <asset type="UI" name="asset_img_grow_status_breed">
+      <rect l="0" t="0" r="23" b="20" />
+    </asset>
+    <asset type="UI" name="asset_img_grow_status_baby">
+      <rect l="0" t="0" r="18" b="20" />
+    </asset>
+    <asset type="UI" name="asset_img_grow_status_PC">
+      <rect l="0" t="0" r="22" b="18" />
+    </asset>
+    <asset type="UI" name="asset_img_grow_status_lvup">
+      <rect l="0" t="0" r="31" b="26" />
+    </asset>
+    <asset type="UI" name="asset_wnd_btn_set">
+      <rect l="0" t="0" r="68" b="88" />
+    </asset>
+    <asset type="UI" name="asset_btn_grow_addslot">
+      <rect l="0" t="0" r="67" b="87" />
+    </asset>
+    <object name="Wnd_grow_horselist" ani="ani_Wnd_grow_horselist">
+      <asset type="UI" link="asset_Wnd_grow_horselist" />
+    </object>
+    <object name="wnd_img_set" ani="ani_wnd_img_set">
+      <asset type="UI" link="asset_wnd_img_set" />
+    </object>
+    <object name="img_grow_status_Hover" ani="ani_img_grow_status_Hover">
+      <asset type="UI" link="asset_img_grow_status_Hover" />
+    </object>
+    <object name="img_grow_status_Normal" ani="ani_img_grow_status_Normal">
+      <asset type="UI" link="asset_img_grow_status_Normal" />
+    </object>
+    <object name="img_grow_status_Over" ani="ani_img_grow_status_Over">
+      <asset type="UI" link="asset_img_grow_status_Over" />
+    </object>
+    <object name="img_grow_status_Selected" ani="ani_img_grow_status_Selected">
+      <asset type="UI" link="asset_img_grow_status_Selected" />
+    </object>
+    <object name="img_grow_status_empty" ani="ani_img_grow_status_empty">
+      <asset type="UI" link="asset_img_grow_status_empty" />
+    </object>
+    <object name="img_grow_status_horse" ani="ani_img_grow_status_horse">
+      <asset type="UI" link="asset_img_grow_status_horse" />
+    </object>
+    <object name="img_grow_status_health_tired" ani="ani_img_grow_status_health_tired">
+      <asset type="UI" link="asset_img_grow_status_health_tired" />
+    </object>
+    <object name="img_grow_status_tired1" ani="ani_img_grow_status_tired1">
+      <asset type="UI" link="asset_img_grow_status_tired1" />
+    </object>
+    <object name="img_grow_status_health1" ani="ani_img_grow_status_health1">
+      <asset type="UI" link="asset_img_grow_status_health1" />
+    </object>
+    <object name="img_grow_status_heal" ani="ani_img_grow_status_heal">
+      <asset type="UI" link="asset_img_grow_status_heal" />
+    </object>
+    <object name="img_grow_status_select" ani="ani_img_grow_status_select">
+      <asset type="UI" link="asset_img_grow_status_select" />
+    </object>
+    <object name="img_grow_status_choose" ani="ani_img_grow_status_choose">
+      <asset type="UI" link="asset_img_grow_status_choose" />
+    </object>
+    <object name="img_grow_status_select1" ani="ani_img_grow_status_select1">
+      <asset type="UI" link="asset_img_grow_status_select1" />
+    </object>
+    <object name="icon_horseinfo_spirit_none" ani="ani_icon_horseinfo_spirit_none">
+      <asset type="UI" link="asset_icon_horseinfo_spirit_none" />
+    </object>
+    <object name="img_grow_status_empty_new" ani="ani_img_grow_status_empty_new">
+      <asset type="UI" link="asset_img_grow_status_empty_new" />
+    </object>
+    <object name="img_grow_status_spirit" ani="ani_img_grow_status_spirit">
+      <asset type="UI" link="asset_img_grow_status_spirit" />
+    </object>
+    <object name="img_grow_status_tired" ani="ani_img_grow_status_tired">
+      <asset type="UI" link="asset_img_grow_status_tired" />
+    </object>
+    <object name="img_grow_status_health" ani="ani_img_grow_status_health">
+      <asset type="UI" link="asset_img_grow_status_health" />
+    </object>
+    <object name="img_grow_status_injury" ani="ani_img_grow_status_injury">
+      <asset type="UI" link="asset_img_grow_status_injury" />
+    </object>
+    <object name="img_grow_status_breed" ani="ani_img_grow_status_breed">
+      <asset type="UI" link="asset_img_grow_status_breed" />
+    </object>
+    <object name="img_grow_status_baby" ani="ani_img_grow_status_baby">
+      <asset type="UI" link="asset_img_grow_status_baby" />
+    </object>
+    <object name="img_grow_status_PC" ani="ani_img_grow_status_PC">
+      <asset type="UI" link="asset_img_grow_status_PC" />
+    </object>
+    <object name="img_grow_status_lvup" ani="ani_img_grow_status_lvup">
+      <asset type="UI" link="asset_img_grow_status_lvup" />
+    </object>
+    <object name="wnd_btn_set" ani="ani_wnd_btn_set">
+      <asset type="UI" link="asset_wnd_btn_set" />
+    </object>
+    <object name="btn_grow_addslot" ani="ani_btn_grow_addslot">
+      <asset type="UI" link="asset_btn_grow_addslot" />
+    </object>
+    <param type="RES" x="67" y="82" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_Wnd_grow_horselist">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_wnd_img_set">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_grow_status_Hover">
+      <frame cnt="0">
+        <posx val="0.01492537" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_grow_status_Normal">
+      <frame cnt="0">
+        <posx val="0.01492537" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_grow_status_Over">
+      <frame cnt="0">
+        <posx val="0.01492537" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_grow_status_Selected">
+      <frame cnt="0">
+        <posx val="0.01492537" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_grow_status_empty">
+      <frame cnt="0">
+        <posx val="0.01492537" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_grow_status_horse">
+      <frame cnt="0">
+        <posx val="0.02985075" />
+        <posy val="0.2073171" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_grow_status_health_tired">
+      <frame cnt="0">
+        <posx val="-1.925373" />
+        <posy val="1.085366" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_grow_status_tired1">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.3048781" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_grow_status_health1">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.5731707" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_grow_status_heal">
+      <frame cnt="0">
+        <posx val="-2.776119" />
+        <posy val="-0.2560976" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_grow_status_select">
+      <frame cnt="0">
+        <posx val="0.7462686" />
+        <posy val="0.06097561" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_grow_status_choose">
+      <frame cnt="0">
+        <posx val="0.01492537" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_grow_status_select1">
+      <frame cnt="0">
+        <posx val="0.641791" />
+        <posy val="0.04878049" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_horseinfo_spirit_none">
+      <frame cnt="0">
+        <posx val="0.01492537" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_grow_status_empty_new">
+      <frame cnt="0">
+        <posx val="0.01492537" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_grow_status_spirit">
+      <frame cnt="0">
+        <posx val="0.01492537" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_grow_status_tired">
+      <frame cnt="0">
+        <posx val="-2.462687" />
+        <posy val="0.8658537" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_grow_status_health">
+      <frame cnt="0">
+        <posx val="-3" />
+        <posy val="1.292683" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_grow_status_injury">
+      <frame cnt="0">
+        <posx val="0.641791" />
+        <posy val="0.5243902" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_grow_status_breed">
+      <frame cnt="0">
+        <posx val="0.6567164" />
+        <posy val="0.7926829" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_grow_status_baby">
+      <frame cnt="0">
+        <posx val="0.6865672" />
+        <posy val="0.7682927" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_grow_status_PC">
+      <frame cnt="0">
+        <posx val="0.6567164" />
+        <posy val="0.8170732" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_grow_status_lvup">
+      <frame cnt="0">
+        <posx val="0.05970149" />
+        <posy val="0.03658536" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_wnd_btn_set">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_btn_grow_addslot">
+      <frame cnt="0">
+        <posx val="0.01492537" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

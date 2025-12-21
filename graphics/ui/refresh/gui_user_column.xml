@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="gui_user_column_Animation.xml" />
+  </properties>
+  <base type="WND" subclass="" name="Wnd">
+    <Visible val="True" />
+    <Anchor val="Top, Left" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="300" b="23" />
+    <snd type="SHOW">
+    </snd>
+    <snd type="HIDE">
+    </snd>
+    <IsHitTestVisible val="True" />
+    <ClipChildren val="False" />
+    <child type="LABEL" name="Label_name_me" subclass="">
+      <label val="" />
+      <pos x="23" y="2" />
+      <rect l="0" t="0" r="276" b="23" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <OutlineColor val="#000000BF" />
+      <ShadowColor val="#0000004C" />
+      <color val="#FFA837FF" />
+      <halign val="0" />
+      <valign val="1" />
+      <FontName val="나눔고딕" />
+      <FontSize val="17" />
+      <TextTrimming val="None" />
+      <style val="17" />
+      <IsHitTestVisible val="False" />
+      <ClipChildren val="False" />
+      <Padding val="0, 0, 0, 0" />
+    </child>
+    <child type="LABEL" name="Label_name" subclass="">
+      <label val="" />
+      <pos x="23" y="1" />
+      <rect l="0" t="0" r="276" b="23" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <OutlineColor val="#000000BF" />
+      <ShadowColor val="#0000004C" />
+      <color val="#FFFFFFFF" />
+      <halign val="0" />
+      <valign val="1" />
+      <FontName val="나눔고딕" />
+      <FontSize val="15" />
+      <TextTrimming val="None" />
+      <style val="17" />
+      <IsHitTestVisible val="False" />
+      <ClipChildren val="False" />
+      <Padding val="0, 0, 0, 0" />
+    </child>
+    <child type="PICTURE" name="ingame_list_off" subclass="">
+      <asset type="ANIMATION">gui_user_column_ingame_list_off.xml</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="1" y="1" />
+      <rect l="0" t="0" r="23" b="23" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="PICTURE" name="ingame_list_on" subclass="">
+      <asset type="STATIC">ingame_list_on.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="23" b="23" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+  </base>
+</refresh>

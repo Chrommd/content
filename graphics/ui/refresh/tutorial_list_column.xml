@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="tutorial_list_column_Animation.xml" />
+  </properties>
+  <base type="WND" subclass="" name="Wnd">
+    <Visible val="True" />
+    <Anchor val="Top, Left" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="260" b="80" />
+    <snd type="SHOW">
+    </snd>
+    <snd type="HIDE">
+    </snd>
+    <IsHitTestVisible val="True" />
+    <ClipChildren val="False" />
+    <child type="PICTURE" name="tuto_img_list_n" subclass="">
+      <asset type="STATIC">tuto_img_list_n.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="260" b="80" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="False" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="PICTURE" name="tuto_icon_jump" subclass="">
+      <asset type="STATIC">tuto_icon_step1_01.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="260" b="80" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="False" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="PICTURE" name="tuto_img_list_o" subclass="">
+      <asset type="STATIC">tuto_img_list_o.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="260" b="80" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="False" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="PICTURE" name="tuto_img_list_d" subclass="">
+      <asset type="STATIC">tuto_img_list_d.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="260" b="80" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="False" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="PICTURE" name="tuto_img_new" subclass="">
+      <asset type="STATIC">tuto_img_new.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="156" y="18" />
+      <rect l="0" t="0" r="104" b="59" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+  </base>
+</refresh>

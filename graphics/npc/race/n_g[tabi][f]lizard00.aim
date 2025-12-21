@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <event animation="run_00">
+        <function>PlayFX($asset, "npc_impala_dust", "lf", "")</function>
+        <time>0.1420</time>
+        <freq>100</freq>
+    </event>
+    <event animation="run_00">
+        <function>PlayFX($asset, "npc_impala_dust", "rf", "")</function>
+        <time>0.3348</time>
+        <freq>100</freq>
+    </event>
+    <event animation="run_00">
+        <function>PlaySND($asset, "reptilia_foot", "rf", "-var 3")</function>
+        <time>0.1410</time>
+        <freq>100</freq>
+    </event>
+    <event animation="run_00">
+        <function>PlaySND($asset, "reptilia_foot", "lf", "-var 3")</function>
+        <time>0.3348</time>
+        <freq>100</freq>
+    </event>
+    <event animation="run_00">
+        <function>PlaySND($asset, "desertlizard_voice", "lf", "-var 2")</function>
+        <time>0.0000</time>
+        <freq>20</freq>
+    </event>
+    <dummy name="rf" parent="Bip01 R Toe0" sync="FALSE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.0000</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <dummy name="lf" parent="Bip01 L Toe0" sync="FALSE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.0000</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <action category="" state="G_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>run_00</main>
+    </action>
+</aim>

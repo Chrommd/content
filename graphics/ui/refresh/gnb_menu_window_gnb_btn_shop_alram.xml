@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="gnb_btn_shop_alram_Default">
+    <asset type="IMAGE" name="asset_gnb_btn_shop_alram" path="gnb_btn_shop_alram.png">
+      <rect l="0" t="0" r="33" b="18" />
+    </asset>
+    <object name="gnb_btn_shop_alram" ani="ani_gnb_btn_shop_alram">
+      <asset type="IMAGE" link="asset_gnb_btn_shop_alram" />
+    </object>
+    <param type="RES" x="33" y="18" />
+    <param type="LOOP" cnt="-1" pendulum="0" />
+    <anim name="ani_gnb_btn_shop_alram">
+      <frame cnt="0">
+        <posx val="0.454545454545455" />
+        <posy val="0.444444444444444" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2000">
+        <posx val="0.454545454545455" />
+        <posy val="0.444444444444444" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2233">
+        <posx val="0.454545454545455" />
+        <posy val="0.611111111111111" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2433">
+        <posx val="0.454545454545455" />
+        <posy val="0.444444444444444" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

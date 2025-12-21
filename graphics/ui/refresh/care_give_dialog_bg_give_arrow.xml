@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="bg_give_arrow_Default">
+    <asset type="IMAGE" name="asset_icon_give_arrow" path="icon_give_arrow.png">
+      <rect l="0" t="0" r="24" b="32" />
+    </asset>
+    <object name="icon_give_arrow" ani="ani_icon_give_arrow">
+      <asset type="IMAGE" link="asset_icon_give_arrow" />
+    </object>
+    <param type="RES" x="24" y="32" />
+    <param type="LOOP" cnt="-1" pendulum="1" />
+    <anim name="ani_icon_give_arrow">
+      <frame cnt="0">
+        <posx val="0.5" />
+        <posy val="0.34375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="400">
+        <posx val="0.5" easeValue="1.0,0.0,1.0,1.0" />
+        <posy val="0.5" easeValue="1.0,0.0,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

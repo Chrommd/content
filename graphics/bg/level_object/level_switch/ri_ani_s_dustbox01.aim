@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <event animation="1st">
+        <function>PlayFX($asset, "ob_funobj_dustbox_crash_001", "dust", "-attach ")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="1st">
+        <function>RelayMsg($asset, "FadeOut", "-time 1")</function>
+        <time>2.8594</time>
+        <freq>100</freq>
+    </event>
+    <event animation="1st">
+        <function>PlaySND($asset, "crash_box01_", "dust", "-var 2")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="1st">
+        <function>PlaySND($asset, "crash_bundle01_", "dust", "-var 3")</function>
+        <time>1.1534</time>
+        <freq>100</freq>
+    </event>
+    <event animation="2nd">
+        <function>PlayFX($asset, "ob_funobj_dustbox_crash_002", "dust", "-attach ")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="2nd">
+        <function>RelayMsg($asset, "FadeOut", "-time 1")</function>
+        <time>1.8034</time>
+        <freq>100</freq>
+    </event>
+    <event animation="2nd">
+        <function>PlaySND($asset, "crash_box02_", "dust", "-var 2")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="3rd">
+        <function>PlayFX($asset, "ob_funobj_dustbox_crash_003", "dust", "-attach ")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="3rd">
+        <function>RelayMsg($asset, "FadeOut", "-time 1")</function>
+        <time>1.8217</time>
+        <freq>100</freq>
+    </event>
+    <event animation="3rd">
+        <function>PlaySND($asset, "crash_box02_2", "dust", "-var 0")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <dummy name="dust" parent="Dummyroot" sync="TRUE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>1.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>0.0027</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>-0.3392</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <action category="" state="BROKEN_1ST" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>1st</main>
+    </action>
+    <action category="" state="BROKEN_2ND" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>2nd</main>
+    </action>
+    <action category="" state="BROKEN_3RD" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>3rd</main>
+    </action>
+</aim>

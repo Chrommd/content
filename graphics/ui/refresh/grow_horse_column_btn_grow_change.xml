@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="NORMAL">
+    <asset type="IMAGE" name="asset_img_grow_status_dimmed" path="img_grow_status_dimmed.png">
+      <rect l="0" t="0" r="70" b="70" />
+    </asset>
+    <asset type="IMAGE" name="asset_btn_grow_change_Normal" path="btn_grow_change_Normal.png">
+      <rect l="0" t="0" r="50" b="45" />
+    </asset>
+    <asset type="IMAGE" name="asset_img_grow_status_choose" path="img_grow_status_choose.png">
+      <rect l="0" t="0" r="70" b="70" />
+    </asset>
+    <object name="img_grow_status_dimmed" ani="ani_img_grow_status_dimmed">
+      <asset type="IMAGE" link="asset_img_grow_status_dimmed" />
+    </object>
+    <object name="btn_grow_change_Normal" ani="ani_btn_grow_change_Normal">
+      <asset type="IMAGE" link="asset_btn_grow_change_Normal" />
+    </object>
+    <object name="img_grow_status_choose" ani="ani_img_grow_status_choose">
+      <asset type="IMAGE" link="asset_img_grow_status_choose" />
+    </object>
+    <param type="RES" x="70" y="70" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_img_grow_status_dimmed">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_btn_grow_change_Normal">
+      <frame cnt="0">
+        <posx val="0.1428571" />
+        <posy val="0.1857143" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_grow_status_choose">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="OVER">
+    <asset type="IMAGE" name="asset_img_grow_status_dimmed" path="img_grow_status_dimmed.png">
+      <rect l="0" t="0" r="70" b="70" />
+    </asset>
+    <asset type="IMAGE" name="asset_btn_grow_change_Normal" path="btn_grow_change_Hover.png">
+      <rect l="0" t="0" r="50" b="45" />
+    </asset>
+    <asset type="IMAGE" name="asset_img_grow_status_choose" path="img_grow_status_choose.png">
+      <rect l="0" t="0" r="70" b="70" />
+    </asset>
+    <object name="img_grow_status_dimmed" ani="ani_img_grow_status_dimmed">
+      <asset type="IMAGE" link="asset_img_grow_status_dimmed" />
+    </object>
+    <object name="btn_grow_change_Normal" ani="ani_btn_grow_change_Normal">
+      <asset type="IMAGE" link="asset_btn_grow_change_Normal" />
+    </object>
+    <object name="img_grow_status_choose" ani="ani_img_grow_status_choose">
+      <asset type="IMAGE" link="asset_img_grow_status_choose" />
+    </object>
+    <param type="RES" x="70" y="70" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_img_grow_status_dimmed">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_btn_grow_change_Normal">
+      <frame cnt="0">
+        <posx val="0.1428571" />
+        <posy val="0.1857143" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_grow_status_choose">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="DOWN">
+    <asset type="IMAGE" name="asset_img_grow_status_dimmed" path="img_grow_status_dimmed.png">
+      <rect l="0" t="0" r="70" b="70" />
+    </asset>
+    <asset type="IMAGE" name="asset_btn_grow_change_Normal" path="btn_grow_change_Normal.png">
+      <rect l="0" t="0" r="50" b="45" />
+    </asset>
+    <asset type="IMAGE" name="asset_img_grow_status_choose" path="img_grow_status_choose.png">
+      <rect l="0" t="0" r="70" b="70" />
+    </asset>
+    <object name="img_grow_status_dimmed" ani="ani_img_grow_status_dimmed">
+      <asset type="IMAGE" link="asset_img_grow_status_dimmed" />
+    </object>
+    <object name="btn_grow_change_Normal" ani="ani_btn_grow_change_Normal">
+      <asset type="IMAGE" link="asset_btn_grow_change_Normal" />
+    </object>
+    <object name="img_grow_status_choose" ani="ani_img_grow_status_choose">
+      <asset type="IMAGE" link="asset_img_grow_status_choose" />
+    </object>
+    <param type="RES" x="70" y="70" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_img_grow_status_dimmed">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_btn_grow_change_Normal">
+      <frame cnt="0">
+        <posx val="0.1428571" />
+        <posy val="0.1857143" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_grow_status_choose">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

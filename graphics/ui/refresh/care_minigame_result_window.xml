@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="care_minigame_result_window_Animation.xml" />
+  </properties>
+  <base type="WND" subclass="" name="Wnd">
+    <Visible val="True" />
+    <Anchor val="Top, Bottom, Left, Right" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="1024" b="768" />
+    <IsHitTestVisible val="True" />
+    <ClipChildren val="False" />
+    <child type="PICTURE" name="bg_care_play_result" subclass="">
+      <asset type="STATIC">bg_care_play_result.png</asset>
+      <Visible val="True" />
+      <Anchor val="Top, Left, Right" />
+      <pos x="0" y="200" />
+      <rect l="0" t="0" r="1024" b="174" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="STACKPANEL" name="StackPanel" subclass="">
+      <Visible val="True" />
+      <Anchor val="Left, Right" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="1024" b="400" />
+      <Orientation val="Vertical" />
+      <HAlign val="Center" />
+      <VAlign val="Center" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <base type="WNDEX" subclass="" name="anchor">
+        <asset type="BG" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="8" t="8" r="1008" b="384" />
+        </asset>
+        <asset type="EDGE_LT" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="EDGE_RT" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="EDGE_LB" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="EDGE_RB" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="FRAME_T" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="8" t="0" r="1008" b="8" />
+        </asset>
+        <asset type="FRAME_B" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="8" t="0" r="1008" b="8" />
+        </asset>
+        <asset type="FRAME_L" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="0" t="8" r="8" b="384" />
+        </asset>
+        <asset type="FRAME_R" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="0" t="8" r="8" b="384" />
+        </asset>
+        <Visible val="True" />
+        <Anchor val="Left, Right" />
+        <pos x="0" y="0" />
+        <rect l="0" t="0" r="1024" b="400" />
+        <Dragable val="False" />
+        <StartPosition val="None" />
+        <EscKeyAction val="None" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <child type="PICTURE" name="bg_care_play_result_inner" subclass="">
+          <asset type="STATIC">bg_care_play_result_inner.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="324" y="320" />
+          <rect l="0" t="0" r="375" b="55" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="LABEL" name="txt_play_comment" subclass="">
+          <label val="" />
+          <pos x="276" y="328" />
+          <rect l="0" t="0" r="470" b="23" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#000000B2" />
+          <color val="#FFFFFFFF" />
+          <halign val="1" />
+          <valign val="1" />
+          <FontName val="나눔고딕" />
+          <FontSize val="15" />
+          <TextTrimming val="None" />
+          <style val="32" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+        <child type="PICTURE" name="care_play_perfect" subclass="">
+          <asset type="STATIC">tx_care_play_perfect.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="280" y="226" />
+          <rect l="0" t="0" r="453" b="85" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="care_play_perfect1" subclass="">
+          <asset type="STATIC">tx_care_play_perfect.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="280" y="226" />
+          <rect l="0" t="0" r="453" b="85" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="care_play_good" subclass="">
+          <asset type="STATIC">tx_care_play_good.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="306" y="226" />
+          <rect l="0" t="0" r="396" b="85" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="care_play_failed" subclass="">
+          <asset type="STATIC">tx_care_play_failed.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="276" y="226" />
+          <rect l="0" t="0" r="447" b="85" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="tx_care_play_critical" subclass="">
+          <asset type="STATIC">tx_care_play_critical.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="247" y="177" />
+          <rect l="0" t="0" r="154" b="54" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+      </base>
+    </child>
+  </base>
+</refresh>

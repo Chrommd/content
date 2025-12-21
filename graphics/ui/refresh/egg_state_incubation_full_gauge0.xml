@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="NORMAL">
+    <asset type="IMAGE" name="asset_egg_state_11" path="egg_state_11.png">
+      <rect l="0" t="0" r="60" b="60" />
+    </asset>
+    <asset type="IMAGE" name="asset_egg_state_check" path="egg_state_41.png">
+      <rect l="0" t="0" r="60" b="60" />
+    </asset>
+    <object name="egg_state_11" ani="ani_egg_state_11">
+      <asset type="IMAGE" link="asset_egg_state_11" />
+    </object>
+    <object name="egg_state_check" ani="ani_egg_state_check">
+      <asset type="IMAGE" link="asset_egg_state_check" />
+    </object>
+    <param type="RES" x="60" y="60" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_egg_state_11">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_egg_state_check">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="OVER">
+    <asset type="IMAGE" name="asset_egg_state_11" path="egg_state_11.png">
+      <rect l="0" t="0" r="60" b="60" />
+    </asset>
+    <asset type="IMAGE" name="asset_egg_state_check" path="egg_state_41.png">
+      <rect l="0" t="0" r="60" b="60" />
+    </asset>
+    <object name="egg_state_11" ani="ani_egg_state_11">
+      <asset type="IMAGE" link="asset_egg_state_11" />
+    </object>
+    <object name="egg_state_check" ani="ani_egg_state_check">
+      <asset type="IMAGE" link="asset_egg_state_check" />
+    </object>
+    <param type="RES" x="60" y="60" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_egg_state_11">
+      <frame cnt="0">
+        <posx val="-0.166666666666667" />
+        <posy val="-0.166666666666667" />
+        <scalex val="1.33333333333333" />
+        <scaley val="1.33333333333333" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_egg_state_check">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="DOWN">
+    <asset type="IMAGE" name="asset_egg_state_11" path="egg_state_11.png">
+      <rect l="0" t="0" r="60" b="60" />
+    </asset>
+    <asset type="IMAGE" name="asset_egg_state_check" path="egg_state_41.png">
+      <rect l="0" t="0" r="60" b="60" />
+    </asset>
+    <object name="egg_state_11" ani="ani_egg_state_11">
+      <asset type="IMAGE" link="asset_egg_state_11" />
+    </object>
+    <object name="egg_state_check" ani="ani_egg_state_check">
+      <asset type="IMAGE" link="asset_egg_state_check" />
+    </object>
+    <param type="RES" x="60" y="60" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_egg_state_11">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_egg_state_check">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

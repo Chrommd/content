@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <event animation="[a]air[2]00_trans">
+        <function>PlaySND($asset, "pet_vo_monkey_jump2", "sound", "-var 0")</function>
+        <time>0.3052</time>
+        <freq>15</freq>
+    </event>
+    <event animation="[a]glide00_trans">
+        <function>PlaySND($asset, "pet_vo_monkey_jump", "sound", "-var 2")</function>
+        <time>0.4972</time>
+        <freq>15</freq>
+    </event>
+    <event animation="[a]land00">
+        <function>PlaySND($asset, "pet_vo_monkey3", "sound", "-var 0")</function>
+        <time>0.1305</time>
+        <freq>2</freq>
+    </event>
+    <event animation="[a]move3rd_00">
+        <function>PlaySND($asset, "pet_vo_monkey", "sound", "-var 3")</function>
+        <time>0.3193</time>
+        <freq>4</freq>
+    </event>
+    <event animation="[a]move4th_00_trans">
+        <function>PlaySND($asset, "pet_vo_monkey_dance1", "sound", "-var 0")</function>
+        <time>0.3048</time>
+        <freq>7</freq>
+    </event>
+    <event animation="[h]idle00">
+        <function>PlaySND($asset, "npc_cat_foot", "sound", "-var 3")</function>
+        <time>0.3210</time>
+        <freq>100</freq>
+    </event>
+    <event animation="[h]idle00">
+        <function>PlaySND($asset, "npc_cat_foot", "sound", "-var 3")</function>
+        <time>0.9430</time>
+        <freq>100</freq>
+    </event>
+    <event animation="[h]idle01">
+        <function>PlaySND($asset, "pet_monkey_clap", "sound", "-var 2")</function>
+        <time>0.4543</time>
+        <freq>100</freq>
+    </event>
+    <event animation="[h]idle01">
+        <function>PlaySND($asset, "pet_monkey_clap", "sound", "-var 2")</function>
+        <time>0.9522</time>
+        <freq>100</freq>
+    </event>
+    <event animation="[h]idle01">
+        <function>PlaySND($asset, "pet_vo_monkey_dance", "sound", "-var 2")</function>
+        <time>1.3437</time>
+        <freq>100</freq>
+    </event>
+    <event animation="[h]idle01">
+        <function>PlaySND($asset, "", "sound", "-var 0 -my[pet_monkey_sfx1]")</function>
+        <time>3.1078</time>
+        <freq>100</freq>
+    </event>
+    <event animation="attach00">
+        <function>PlaySND($asset, "", "sound", "-var 0 -my[pet_monkey_sfx1]")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="attach00">
+        <function>PlaySND($asset, "pet_vo_monkey_jump", "sound", "-var 2")</function>
+        <time>0.0000</time>
+        <freq>50</freq>
+    </event>
+    <event animation="attach00">
+        <function>PlaySND($asset, "", "sound", "-var 0 -my[pet_monkey_sfx2]")</function>
+        <time>0.9053</time>
+        <freq>100</freq>
+    </event>
+    <event animation="detach00">
+        <function>PlaySND($asset, "", "sound", "-var 0 -my[pet_monkey_sfx1]")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="detach00">
+        <function>PlaySND($asset, "pet_vo_monkey", "sound", "-var 3")</function>
+        <time>0.0000</time>
+        <freq>50</freq>
+    </event>
+    <event animation="idle00">
+        <function>PlaySND($asset, "npc_cat_foot", "sound", "-var 3")</function>
+        <time>0.3070</time>
+        <freq>100</freq>
+    </event>
+    <event animation="idle00">
+        <function>PlaySND($asset, "npc_cat_foot", "sound", "-var 3")</function>
+        <time>0.8870</time>
+        <freq>100</freq>
+    </event>
+    <event animation="idle01">
+        <function>PlaySND($asset, "pet_monkey_clap", "sound", "-var 2")</function>
+        <time>0.4447</time>
+        <freq>100</freq>
+    </event>
+    <event animation="idle01">
+        <function>PlaySND($asset, "pet_monkey_clap", "sound", "-var 2")</function>
+        <time>0.9522</time>
+        <freq>100</freq>
+    </event>
+    <event animation="idle01">
+        <function>PlaySND($asset, "pet_vo_monkey_dance", "sound", "-var 2")</function>
+        <time>1.3243</time>
+        <freq>100</freq>
+    </event>
+    <event animation="idle01">
+        <function>PlaySND($asset, "", "sound", "-var 0 -my[pet_monkey_sfx1]")</function>
+        <time>3.1272</time>
+        <freq>100</freq>
+    </event>
+    <event animation="move00">
+        <function>PlaySND($asset, "npc_cat_foot", "sound", "-var 3")</function>
+        <time>0.5853</time>
+        <freq>100</freq>
+    </event>
+    <event animation="move00">
+        <function>PlaySND($asset, "npc_cat_foot", "sound", "-var 3")</function>
+        <time>1.2907</time>
+        <freq>100</freq>
+    </event>
+    <event animation="move01">
+        <function>PlaySND($asset, "npc_cat_foot", "sound", "-var 3")</function>
+        <time>0.1615</time>
+        <freq>100</freq>
+    </event>
+    <event animation="move01">
+        <function>PlaySND($asset, "npc_cat_foot", "sound", "-var 3")</function>
+        <time>0.3875</time>
+        <freq>100</freq>
+    </event>
+    <event animation="move01">
+        <function>PlaySND($asset, "npc_cat_foot", "sound", "-var 3")</function>
+        <time>0.5000</time>
+        <freq>100</freq>
+    </event>
+    <dummy name="name" parent="DummyRoot_monkey" sync="FALSE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.7205</offsetY>
+        <offsetZ>-0.0543</offsetZ>
+    </dummy>
+    <dummy name="sound" parent="Bip01 Head" sync="TRUE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.0000</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <action category="" state="IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>idle00</main>
+    </action>
+    <action category="" state="IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>idle01</main>
+    </action>
+    <action category="" state="MOVE_2ND" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>move00</main>
+    </action>
+    <action category="" state="MOVE_3RD" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>move01</main>
+    </action>
+    <action category="" state="PET_ATTACH" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>attach00</main>
+    </action>
+    <action category="" state="PET_ATTACH_AIR" prevState="" loop="1" weight="1" script="">
+        <begin speed=0.0000>[a]air00_trans</begin>
+        <main speed=0.0000>[a]air00</main>
+    </action>
+    <action category="" state="PET_ATTACH_GLIDE" prevState="" loop="1" weight="1" script="">
+        <begin speed=0.0000>[a]glide00_trans</begin>
+        <main speed=0.0000>[a]glide00</main>
+    </action>
+    <action category="" state="PET_ATTACH_GLIDE_SPUR" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>[a]glide[s]00</main>
+    </action>
+    <action category="" state="PET_ATTACH_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>[a]idle_00</main>
+    </action>
+    <action category="" state="PET_ATTACH_JUMP" prevState="" loop="0" weight="1" script="">
+        <begin speed=0.0000>[a]jump00_trans</begin>
+        <main speed=0.0000>[a]leap00</main>
+    </action>
+    <action category="" state="PET_ATTACH_JUMP2" prevState="" loop="0" weight="1" script="">
+        <begin speed=0.0000>[a]jump[2]00_trans</begin>
+        <main speed=0.0000>[a]leap[2]00</main>
+    </action>
+    <action category="" state="PET_ATTACH_LAND" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>[a]land00</main>
+    </action>
+    <action category="" state="PET_ATTACH_MOVE_2ND" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>[a]move2nd_00</main>
+    </action>
+    <action category="" state="PET_ATTACH_MOVE_3RD" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>[a]move3rd_00</main>
+    </action>
+    <action category="" state="PET_ATTACH_MOVE_4TH" prevState="" loop="1" weight="1" script="">
+        <begin speed=0.0000>[a]move4th_00_trans</begin>
+        <main speed=0.0000>[a]move4th_00</main>
+    </action>
+    <action category="" state="PET_ATTACH_MOVE_SPUR" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>[a]move4th_00_trans</main>
+    </action>
+    <action category="" state="PET_BORN_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>[h]idle00</main>
+    </action>
+    <action category="" state="PET_BORN_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>[h]idle01</main>
+    </action>
+    <action category="" state="PET_DETACH" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>detach00</main>
+    </action>
+    <action category="" state="PET_LAND" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>land00</main>
+    </action>
+    <blend sec="0.05">
+        <name>[a]jump00_trans</name>
+    </blend>
+    <blend sec="0.05">
+        <name>[a]jump[2]00_trans</name>
+    </blend>
+    <blend sec="0.05">
+        <name>[a]land00</name>
+    </blend>
+    <blend sec="0.00">
+        <name>[a]leap00</name>
+        <name2>[a]air00_trans</name2>
+    </blend>
+    <blend sec="0.00">
+        <name>[a]leap[2]00</name>
+        <name2>[a]air[2]00_trans</name2>
+    </blend>
+</aim>

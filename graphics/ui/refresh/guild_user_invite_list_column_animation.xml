@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="_Disable_">
+    <asset type="UI" name="asset_over">
+      <rect l="0" t="0" r="240" b="20" />
+    </asset>
+    <asset type="UI" name="asset_select">
+      <rect l="0" t="0" r="240" b="20" />
+    </asset>
+    <object name="over" ani="ani_over">
+      <asset type="UI" link="asset_over" />
+    </object>
+    <object name="select" ani="ani_select">
+      <asset type="UI" link="asset_select" />
+    </object>
+    <param type="RES" x="240" y="26" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_over">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.03846154" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_select">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.03846154" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Normal_">
+    <asset type="UI" name="asset_over">
+      <rect l="0" t="0" r="240" b="20" />
+    </asset>
+    <asset type="UI" name="asset_select">
+      <rect l="0" t="0" r="240" b="20" />
+    </asset>
+    <object name="over" ani="ani_over">
+      <asset type="UI" link="asset_over" />
+    </object>
+    <object name="select" ani="ani_select">
+      <asset type="UI" link="asset_select" />
+    </object>
+    <param type="RES" x="240" y="26" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_over">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.03846154" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_select">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.03846154" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Over_">
+    <asset type="UI" name="asset_select">
+      <rect l="0" t="0" r="240" b="20" />
+    </asset>
+    <object name="select" ani="ani_select">
+      <asset type="UI" link="asset_select" />
+    </object>
+    <param type="RES" x="240" y="26" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_select">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.03846154" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Seleted_">
+    <param type="RES" x="240" y="26" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+  </scene>
+</rfanimation>

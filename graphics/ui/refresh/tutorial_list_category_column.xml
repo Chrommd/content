@@ -1,0 +1,85 @@
+﻿<refresh version="2">
+	<properties>
+		<property name="DPI" val="72" />
+		<property name="UIAnimation" val="tutorial_list_category_column_Animation.xml" />
+	</properties>
+	<base type="WND" subclass="" name="Wnd">
+		<pos x="0" y="0" />
+		<rect l="0" t="0" r="260" b="35" />
+		<Visible val="True" />
+		<Anchor val="Top, Left" />
+		<snd type="SHOW"></snd>
+		<snd type="HIDE"></snd>
+		<IsHitTestVisible val="True" />
+		<ClipChildren val="False" />
+		<base type="WNDEX" subclass="" name="wndex_category">
+			<asset type="BG" path="frm_subtitle_CenterMiddle.png" tileMode="Stretch">
+				<tex x="4" y="4" />
+				<rect l="5" t="5" r="249" b="20" />
+			</asset>
+			<asset type="EDGE_LT" path="frm_subtitle_LeftTop.png" tileMode="Stretch">
+				<tex x="5" y="5" />
+				<rect l="0" t="0" r="5" b="5" />
+			</asset>
+			<asset type="EDGE_RT" path="frm_subtitle_RightTop.png" tileMode="Stretch">
+				<tex x="5" y="5" />
+				<rect l="0" t="0" r="5" b="5" />
+			</asset>
+			<asset type="EDGE_LB" path="frm_subtitle_LeftBottom.png" tileMode="Stretch">
+				<tex x="5" y="5" />
+				<rect l="0" t="0" r="5" b="5" />
+			</asset>
+			<asset type="EDGE_RB" path="frm_subtitle_RightBottom.png" tileMode="Stretch">
+				<tex x="5" y="5" />
+				<rect l="0" t="0" r="5" b="5" />
+			</asset>
+			<asset type="FRAME_T" path="frm_subtitle_CenterTop.png" tileMode="Stretch">
+				<tex x="4" y="5" />
+				<rect l="5" t="0" r="249" b="5" />
+			</asset>
+			<asset type="FRAME_B" path="frm_subtitle_CenterBottom.png" tileMode="Stretch">
+				<tex x="4" y="5" />
+				<rect l="5" t="0" r="249" b="5" />
+			</asset>
+			<asset type="FRAME_L" path="frm_subtitle_LeftMiddle.png" tileMode="Stretch">
+				<tex x="5" y="4" />
+				<rect l="0" t="5" r="5" b="20" />
+			</asset>
+			<asset type="FRAME_R" path="frm_subtitle_RightMiddle.png" tileMode="Stretch">
+				<tex x="5" y="4" />
+				<rect l="0" t="5" r="5" b="20" />
+			</asset>
+			<pos x="0" y="4" />
+			<rect l="0" t="0" r="259" b="30" />
+			<Visible val="True" />
+			<Anchor val="Top, Left, Right" />
+			<snd type="SHOW"></snd>
+			<snd type="HIDE"></snd>
+			<Dragable val="False" />
+			<StartPosition val="None" />
+			<EscKeyAction val="None" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<child type="LABEL" name="Label_category" subclass="">
+				<pos x="7" y="7" />
+				<rect l="0" t="0" r="246" b="17" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<label val="카테고리" />
+				<OutlineColor val="#FFFFFF" />
+				<ShadowColor val="#0000004C" />
+				<color val="#6B5D54" />
+				<halign val="0" />
+				<valign val="1" />
+				<FontName val="나눔고딕" />
+				<FontSize val="16" />
+				<TextTrimming val="None" />
+				<style val="1" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+				<Padding val="0, 0, 0, 0" />
+				<FitToContent val="True" />
+			</child>
+		</base>
+	</base>
+</refresh>

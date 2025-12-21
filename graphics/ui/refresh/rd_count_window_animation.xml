@@ -1,0 +1,402 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="_Opening_">
+    <asset type="UI" name="asset_icon_ready_count1">
+      <rect l="0" t="0" r="1024" b="120" />
+    </asset>
+    <asset type="UI" name="asset_blackbar_top">
+      <rect l="0" t="0" r="1024" b="3" />
+    </asset>
+    <asset type="UI" name="asset_blackbar_top1">
+      <rect l="0" t="0" r="1024" b="3" />
+    </asset>
+    <asset type="UI" name="asset_lb_ready2">
+      <rect l="0" t="0" r="1024" b="33" />
+    </asset>
+    <asset type="UI" name="asset_txt_ingame_front_tip">
+      <rect l="0" t="0" r="1024" b="26" />
+    </asset>
+    <asset type="UI" name="asset_StackPanel">
+      <rect l="0" t="0" r="1024" b="63" />
+    </asset>
+    <asset type="UI" name="asset_txt_count">
+      <rect l="0" t="0" r="75" b="62" />
+    </asset>
+    <object name="icon_ready_count1" ani="ani_icon_ready_count1">
+      <asset type="UI" link="asset_icon_ready_count1" />
+    </object>
+    <object name="blackbar_top" ani="ani_blackbar_top">
+      <asset type="UI" link="asset_blackbar_top" />
+    </object>
+    <object name="blackbar_top1" ani="ani_blackbar_top1">
+      <asset type="UI" link="asset_blackbar_top1" />
+    </object>
+    <object name="lb_ready2" ani="ani_lb_ready2">
+      <asset type="UI" link="asset_lb_ready2" />
+    </object>
+    <object name="txt_ingame_front_tip" ani="ani_txt_ingame_front_tip">
+      <asset type="UI" link="asset_txt_ingame_front_tip" />
+    </object>
+    <object name="StackPanel" ani="ani_StackPanel">
+      <asset type="UI" link="asset_StackPanel" />
+    </object>
+    <object name="txt_count" ani="ani_txt_count">
+      <asset type="UI" link="asset_txt_count" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_icon_ready_count1">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.122395833333333" />
+        <scalex val="1" />
+        <scaley val="0.025" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0" easeValue="0.0,0.0,0.2,1.0" />
+        <posy val="0.0403645833333333" easeValue="0.0,0.0,0.2,1.0" />
+        <scalex val="1" easeValue="0.0,0.0,0.2,1.0" />
+        <scaley val="1" easeValue="0.0,0.0,0.2,1.0" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_blackbar_top">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.118489583333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0" easeValue="0.0,0.0,0.2,1.0" />
+        <posy val="0.0377604166666667" easeValue="0.0,0.0,0.2,1.0" />
+        <scalex val="1" easeValue="0.0,0.0,0.2,1.0" />
+        <scaley val="1" easeValue="0.0,0.0,0.2,1.0" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_blackbar_top1">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.126302083333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0" easeValue="0.0,0.0,0.2,1.0" />
+        <posy val="0.192708333333333" easeValue="0.0,0.0,0.2,1.0" />
+        <scalex val="1" easeValue="0.0,0.0,0.2,1.0" />
+        <scaley val="1" easeValue="0.0,0.0,0.2,1.0" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_lb_ready2">
+      <frame cnt="167">
+        <posx val="0" />
+        <posy val="0.09375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="433">
+        <posx val="0" />
+        <posy val="0.1015625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_txt_ingame_front_tip">
+      <frame cnt="167">
+        <posx val="0" />
+        <posy val="0.1276042" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="433">
+        <posx val="0" />
+        <posy val="0.135416666666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_StackPanel">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.0677083333333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <sound val="ui_event_open" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0" easeValue="0.0,0.0,0.2,1.0" />
+        <posy val="-0.0104166666666667" easeValue="0.0,0.0,0.2,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_txt_count">
+      <frame cnt="167">
+        <posx val="0.08691406" />
+        <posy val="0.005208333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="433">
+        <posx val="0.08691406" />
+        <posy val="0.005208333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Closing_">
+    <asset type="UI" name="asset_icon_ready_count1">
+      <rect l="0" t="0" r="1024" b="120" />
+    </asset>
+    <asset type="UI" name="asset_blackbar_top">
+      <rect l="0" t="0" r="1024" b="3" />
+    </asset>
+    <asset type="UI" name="asset_blackbar_top1">
+      <rect l="0" t="0" r="1024" b="3" />
+    </asset>
+    <asset type="UI" name="asset_lb_ready2">
+      <rect l="0" t="0" r="1024" b="33" />
+    </asset>
+    <asset type="UI" name="asset_txt_ingame_front_tip">
+      <rect l="0" t="0" r="1024" b="26" />
+    </asset>
+    <asset type="UI" name="asset_StackPanel">
+      <rect l="0" t="0" r="1024" b="63" />
+    </asset>
+    <object name="icon_ready_count1" ani="ani_icon_ready_count1">
+      <asset type="UI" link="asset_icon_ready_count1" />
+    </object>
+    <object name="blackbar_top" ani="ani_blackbar_top">
+      <asset type="UI" link="asset_blackbar_top" />
+    </object>
+    <object name="blackbar_top1" ani="ani_blackbar_top1">
+      <asset type="UI" link="asset_blackbar_top1" />
+    </object>
+    <object name="lb_ready2" ani="ani_lb_ready2">
+      <asset type="UI" link="asset_lb_ready2" />
+    </object>
+    <object name="txt_ingame_front_tip" ani="ani_txt_ingame_front_tip">
+      <asset type="UI" link="asset_txt_ingame_front_tip" />
+    </object>
+    <object name="StackPanel" ani="ani_StackPanel">
+      <asset type="UI" link="asset_StackPanel" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_icon_ready_count1">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.0377604166666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0" />
+        <posy val="0.03776042" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_blackbar_top">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.0364583333333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0" />
+        <posy val="0.03645833" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_blackbar_top1">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.192708333333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0" />
+        <posy val="0.192708333333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_lb_ready2">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.1015625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0" />
+        <posy val="0.1015625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_txt_ingame_front_tip">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.140625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0" />
+        <posy val="0.140625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_StackPanel">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="-0.0104166666666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0" />
+        <posy val="-0.0104166666666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

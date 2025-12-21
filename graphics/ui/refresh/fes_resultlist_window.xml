@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="fes_resultlist_window_Animation.xml" />
+  </properties>
+  <base type="WND" name="fes_resultlist">
+    <Visible val="True" />
+    <Anchor val="Top, Left" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="236" b="318" />
+    <child type="PICTURE" name="img_resultlist_finalmatch">
+      <asset type="STATIC">Festival_panel_bg.PNG</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="236" b="318" />
+      <center x="0" y="0" />
+      <child type="LABEL" name="txt_title_finalmatch">
+        <label val=" 결승전" />
+        <pos x="58" y="5" />
+        <rect l="0" t="0" r="120" b="19" />
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#000000" />
+        <color val="#FFFFFF" />
+        <halign val="1" />
+        <valign val="1" />
+        <FontName val="나눔고딕" />
+        <FontSize val="13" />
+        <FontName val="나눔고딕" />
+      </child>
+      <child type="PICTURE" name="img_finalmatch">
+        <asset type="STATIC">Festival_txt_finalmatch.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="1" y="34" />
+        <rect l="0" t="0" r="234" b="209" />
+        <center x="0" y="0" />
+      </child>
+      <child type="ANIMBUTTON" name="btn_view">
+        <asset type="GROUP">fes_resultlist_window_btn_view.xml</asset>
+        <asset type="NORMAL">
+        </asset>
+        <asset type="DOWN">
+        </asset>
+        <asset type="OVER">
+        </asset>
+        <asset type="DISABLE">
+        </asset>
+        <asset type="ENTER">
+        </asset>
+        <asset type="LEAVE">
+        </asset>
+        <snd type="OVER">
+        </snd>
+        <snd type="DOWN">ui_btn_confirm</snd>
+        <pos x="80" y="226" />
+        <rect l="0" t="0" r="70" b="30" />
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <child type="LABEL" name="lb_view">
+          <label val="결과보기" />
+          <pos x="1" y="5" />
+          <rect l="0" t="0" r="70" b="19" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#927254" />
+          <color val="#030200" />
+          <halign val="1" />
+          <valign val="0" />
+          <FontName val="나눔고딕" />
+          <FontSize val="14" />
+          <style val="1" />
+        </child>
+      </child>
+    </child>
+    <child type="PICTURE" name="img_resultlist">
+      <asset type="STATIC">Festival_panel_bg.PNG</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="236" b="318" />
+      <center x="0" y="0" />
+      <child type="PICTURE" name="img_smallarrow_3">
+        <asset type="STATIC">Festival_smallarrow.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="105" y="234" />
+        <rect l="0" t="0" r="28" b="15" />
+        <center x="0" y="0" />
+      </child>
+      <child type="PICTURE" name="img_smallarrow_2">
+        <asset type="STATIC">Festival_smallarrow.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="105" y="166" />
+        <rect l="0" t="0" r="28" b="15" />
+        <center x="0" y="0" />
+      </child>
+      <child type="PICTURE" name="img_smallarrow_1">
+        <asset type="STATIC">Festival_smallarrow.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="105" y="98" />
+        <rect l="0" t="0" r="28" b="15" />
+        <center x="0" y="0" />
+      </child>
+      <child type="PANEL" name="Panel_list_4">
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <pos x="44" y="251" />
+        <rect l="0" t="0" r="148" b="50" />
+      </child>
+      <child type="PANEL" name="Panel_list_3">
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <pos x="44" y="182" />
+        <rect l="0" t="0" r="148" b="50" />
+      </child>
+      <child type="PANEL" name="Panel_list_2">
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <pos x="44" y="113" />
+        <rect l="0" t="0" r="148" b="50" />
+      </child>
+      <child type="PANEL" name="Panel_list_1">
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <pos x="44" y="44" />
+        <rect l="0" t="0" r="148" b="50" />
+      </child>
+      <child type="LABEL" name="txt_levelgroup">
+        <label val="" />
+        <pos x="58" y="5" />
+        <rect l="0" t="0" r="120" b="19" />
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#000000" />
+        <color val="#FFFFFF" />
+        <halign val="1" />
+        <valign val="1" />
+        <FontName val="나눔고딕" />
+        <FontSize val="13" />
+        <FontName val="나눔고딕" />
+      </child>
+    </child>
+  </base>
+</refresh>

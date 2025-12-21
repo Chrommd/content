@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <event animation="_initialize_">
+        <function>PlayFX($asset, "ITM_LEVEL_JUMPSTUN_new", "dum1", "-attach ")</function>
+        <time>0.0000</time>
+        <freq>ONCE</freq>
+    </event>
+    <event animation="_initialize_">
+        <function>PlayFX($asset, "ITM_LEVEL_JUMPSTUN_new", "dum2", "-attach ")</function>
+        <time>0.0000</time>
+        <freq>ONCE</freq>
+    </event>
+    <event animation="_initialize_">
+        <function>PlayFX($asset, "ITM_LEVEL_JUMPSTUN_center", "dum3", "-attach")</function>
+        <time>0.0000</time>
+        <freq>ONCE</freq>
+    </event>
+    <dummy name="dum1" parent="Dummy01" sync="TRUE" extra="">
+        <rotationX>-0.1003</rotationX>
+        <rotationY>0.0051</rotationY>
+        <rotationZ>-0.0505</rotationZ>
+        <rotationW>0.9936</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>-0.0262</offsetY>
+        <offsetZ>-0.1785</offsetZ>
+    </dummy>
+    <dummy name="dum2" parent="Dummy02" sync="TRUE" extra="">
+        <rotationX>-0.0475</rotationX>
+        <rotationY>0.0070</rotationY>
+        <rotationZ>0.0866</rotationZ>
+        <rotationW>0.9951</rotationW>
+        <offsetX>-0.0156</offsetX>
+        <offsetY>-0.0263</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <dummy name="dum3" parent="DummyRoot" sync="FALSE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.7599</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <action category="" state="G_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000></main>
+    </action>
+</aim>

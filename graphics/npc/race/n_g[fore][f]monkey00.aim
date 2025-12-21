@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <action state="G_IDLE" prevState="" loop="1" weight="1">
+        <main speed=0.0000>idle00</main>
+    </action>
+    <action state="G_IDLE" prevState="" loop="1" weight="1">
+        <main speed=0.0000>idle01</main>
+    </action>
+    <action state="JUMP" prevState="" loop="0" weight="1">
+        <main speed=0.0000>surprise00</main>
+    </action>
+    <action state="LAND_HIGH" prevState="" loop="1" weight="1">
+        <main speed=0.0000>run00</main>
+    </action>
+    <action state="LAND_NORMAL" prevState="" loop="1" weight="1">
+        <main speed=0.0000>run00</main>
+    </action>
+    <action state="MOVE_1ST" prevState="" loop="1" weight="1">
+        <main speed=0.0000>run00</main>
+    </action>
+</aim>

@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <event animation="crash00">
+        <function>PlaySND($asset, "npc_sheep_scream", "root", "-var 3")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="crash00">
+        <function>PlaySND($asset, "npc_pig_falldown", "root", "-var 0")</function>
+        <time>0.3447</time>
+        <freq>100</freq>
+    </event>
+    <event animation="crash00">
+        <function>PlayFX($asset, "npc_sheep_dust", "root", "")</function>
+        <time>0.3532</time>
+        <freq>100</freq>
+    </event>
+    <event animation="fastwalk00">
+        <function>PlaySND($asset, "npc_sheep_foot", "root", "-var 3")</function>
+        <time>0.3336</time>
+        <freq>100</freq>
+    </event>
+    <event animation="fastwalk00">
+        <function>PlaySND($asset, "npc_sheep_foot", "root", "-var 3")</function>
+        <time>0.6667</time>
+        <freq>100</freq>
+    </event>
+    <event animation="run00">
+        <function>PlaySND($asset, "npc_sheep_foot", "root", "-var 3")</function>
+        <time>0.2823</time>
+        <freq>100</freq>
+    </event>
+    <event animation="run00">
+        <function>PlaySND($asset, "npc_sheep_foot", "root", "-var 3")</function>
+        <time>0.4667</time>
+        <freq>100</freq>
+    </event>
+    <event animation="run00">
+        <function>PlayFX($asset, "npc_impala_dust", "root", "")</function>
+        <time>0.2581</time>
+        <freq>100</freq>
+    </event>
+    <event animation="surprise00">
+        <function>PlaySND($asset, "npc_sheep_foot", "root", "-var 3")</function>
+        <time>0.5587</time>
+        <freq>100</freq>
+    </event>
+    <event animation="surprise00">
+        <function>PlaySND($asset, "npc_sheep_foot", "root", "-var 3")</function>
+        <time>1.1267</time>
+        <freq>100</freq>
+    </event>
+    <event animation="surprise00">
+        <function>PlaySND($asset, "npc_sheep_foot", "root", "-var 3")</function>
+        <time>1.3333</time>
+        <freq>100</freq>
+    </event>
+    <event animation="surprise00">
+        <function>PlaySND($asset, "npc_sheep_lamb", "root", "-var 3")</function>
+        <time>0.0880</time>
+        <freq>22</freq>
+    </event>
+    <event animation="surprise00">
+        <function>PlayFX($asset, "npc_impala_dust", "root", "")</function>
+        <time>1.1071</time>
+        <freq>100</freq>
+    </event>
+    <event animation="walk00">
+        <function>PlaySND($asset, "npc_sheep_foot", "root", "-var 3")</function>
+        <time>0.4130</time>
+        <freq>100</freq>
+    </event>
+    <event animation="walk00">
+        <function>PlaySND($asset, "npc_sheep_foot", "root", "-var 3")</function>
+        <time>0.8980</time>
+        <freq>100</freq>
+    </event>
+    <event animation="walk00">
+        <function>PlaySND($asset, "npc_sheep_lamb", "root", "-var 3")</function>
+        <time>0.0000</time>
+        <freq>5</freq>
+    </event>
+    <event animation="walk01">
+        <function>PlaySND($asset, "npc_sheep_foot", "root", "-var 3")</function>
+        <time>1.3700</time>
+        <freq>100</freq>
+    </event>
+    <event animation="walk01">
+        <function>PlaySND($asset, "npc_sheep_foot", "root", "-var 3")</function>
+        <time>0.5656</time>
+        <freq>100</freq>
+    </event>
+    <dummy name="root" parent="DummyRoot" sync="TRUE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.0000</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <dummy name="cam_0" parent="DummyRoot" sync="TRUE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>-0.0192</offsetX>
+        <offsetY>1.3000</offsetY>
+        <offsetZ>-3.3534</offsetZ>
+    </dummy>
+    <dummy name="cam_1" parent="DummyRoot" sync="TRUE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>2.0400</offsetY>
+        <offsetZ>-3.4053</offsetZ>
+    </dummy>
+    <dummy name="cam_2" parent="DummyRoot" sync="TRUE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>2.6900</offsetY>
+        <offsetZ>-3.3194</offsetZ>
+    </dummy>
+    <dummy name="sit" parent="SheepPelvis" sync="TRUE" extra="">
+        <rotationX>-0.0161</rotationX>
+        <rotationY>0.7405</rotationY>
+        <rotationZ>0.6712</rotationZ>
+        <rotationW>0.0293</rotationW>
+        <offsetX>-0.0019</offsetX>
+        <offsetY>0.1187</offsetY>
+        <offsetZ>0.1606</offsetZ>
+    </dummy>
+    <action category="" state="G_COLLISION" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>crash00</main>
+    </action>
+    <action category="" state="G_COLLISION_END" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>crash00_end</main>
+    </action>
+    <action category="" state="IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>idle00</main>
+    </action>
+    <action category="" state="IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>idle01</main>
+    </action>
+    <action category="" state="JUMP" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>surprise00</main>
+    </action>
+    <action category="" state="LAND_HIGH" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>fastwalk00</main>
+    </action>
+    <action category="" state="LAND_NORMAL" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>fastwalk00</main>
+    </action>
+    <action category="" state="MOVE_1ST" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>walk00</main>
+    </action>
+    <action category="" state="MOVE_2ND" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>fastwalk00</main>
+    </action>
+    <action category="" state="MOVE_3RD" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>run00</main>
+    </action>
+    <action category="" state="MOVE_4TH" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>run00</main>
+    </action>
+    <action category="" state="MOVE_ZERO" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>walk01</main>
+    </action>
+    <blend sec="0.0">
+        <name2>crash00</name2>
+    </blend>
+    <blend sec="0.0">
+        <name>crash00</name>
+        <name2>crash00_end</name2>
+    </blend>
+    <blend sec="0.0">
+        <name>crash00</name>
+    </blend>
+    <blend sec="0.0">
+        <name>crash00_end</name>
+    </blend>
+    <boneScaleInfo type="C_Face" name="Opt_Rig_Bone_L_Arm_Twist" min_x=100 min_y=100 min_z=100 max_x=100 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Face" name="Opt_Rig_Bone_R_Arm_Twist" min_x=100 min_y=100 min_z=100 max_x=100 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Shape" name="Opt_Bip01_L_Forearm" min_x=91 min_y=100 min_z=100 max_x=101 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Shape" name="Opt_Bip01_L_Hand" min_x=79 min_y=100 min_z=100 max_x=101 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Shape" name="Opt_Bip01_L_UpperArm" min_x=79 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Shape" name="Opt_Bip01_R_Forearm" min_x=91 min_y=100 min_z=100 max_x=101 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Shape" name="Opt_Bip01_R_Hand" min_x=79 min_y=100 min_z=100 max_x=101 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Shape" name="Opt_Bip01_R_UpperArm" min_x=79 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Shape" name="Opt_Bip01_Spine" min_x=100 min_y=100 min_z=100 max_x=100 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Shape" name="Opt_Bip01_Spine1" min_x=83 min_y=100 min_z=100 max_x=101 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Shape" name="Opt_Bip01_Spine2" min_x=91 min_y=100 min_z=100 max_x=101 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Shape" name="Opt_Rig_Bone_L_Arm_Twist" min_x=85 min_y=100 min_z=100 max_x=101 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Shape" name="Opt_Rig_Bone_L_Arm_Twist01" min_x=84 min_y=100 min_z=100 max_x=102 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Shape" name="Opt_Rig_Bone_L_Shoulder_Mid" min_x=79 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Shape" name="Opt_Rig_Bone_R_Arm_Twist" min_x=85 min_y=100 min_z=100 max_x=101 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Shape" name="Opt_Rig_Bone_R_Arm_Twist01" min_x=84 min_y=100 min_z=100 max_x=102 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Shape" name="Opt_Rig_Bone_R_Shoulder_Mid" min_x=79 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+</aim>

@@ -1,0 +1,126 @@
+﻿<refresh version="2">
+	<properties>
+		<property name="DPI" val="72" />
+		<property name="UIAnimation" val="field_makeroom_course_column_Animation.xml" />
+	</properties>
+	<base type="WND" subclass="" name="Wnd_makeroom_course">
+		<pos x="0" y="0" />
+		<rect l="0" t="0" r="200" b="52" />
+		<Visible val="True" />
+		<Anchor val="Top, Left" />
+		<snd type="SHOW"></snd>
+		<snd type="HIDE"></snd>
+		<IsHitTestVisible val="True" />
+		<ClipChildren val="False" />
+		<child type="PICTURE" name="list_btn_courseselect_Normal" subclass="">
+			<asset type="STATIC">makeroom_course_change_Normal.png</asset>
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="200" b="51" />
+			<Visible val="False" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="list_btn_courseselect_Hover" subclass="">
+			<asset type="STATIC">makeroom_course_change_Hover.png</asset>
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="200" b="51" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="img_mapthumbnail" subclass="">
+			<asset type="STATIC"></asset>
+			<pos x="4" y="4" />
+			<rect l="0" t="0" r="66" b="42" />
+			<Visible val="False" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="icon_common_adv" subclass="">
+			<asset type="STATIC">icon_common_adv.png</asset>
+			<pos x="145" y="29" />
+			<rect l="0" t="0" r="44" b="18" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="icon_common_star_empty" subclass="">
+			<asset type="STATIC"></asset>
+			<pos x="73" y="30" />
+			<rect l="0" t="0" r="68" b="15" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+			<child type="PICTURE" name="img_course_level" subclass="">
+				<asset type="STATIC">course_level_5.png</asset>
+				<pos x="0" y="0" />
+				<rect l="0" t="0" r="68" b="15" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+			</child>
+		</child>
+		<child type="LABEL" name="tx_challengebook_title" subclass="">
+			<pos x="73" y="6" />
+			<rect l="0" t="0" r="119" b="19" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<label val="" />
+			<OutlineColor val="#FF0000" />
+			<ShadowColor val="#FF0000" />
+			<color val="#624938FF" />
+			<halign val="0" />
+			<valign val="1" />
+			<FontName val="나눔고딕" />
+			<FontSize val="13" />
+			<TextTrimming val="None" />
+			<style val="1" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+			<Padding val="0, 0, 0, 0" />
+			<FitToContent val="False" />
+		</child>
+		<child type="PICTURE" name="common_column_badge" subclass="">
+			<asset type="STATIC">common_column_badge_new.png</asset>
+			<pos x="222" y="0" />
+			<rect l="0" t="0" r="50" b="50" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="list_btn_courseselect_Push" subclass="">
+			<asset type="STATIC">makeroom_course_change_Select.png</asset>
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="200" b="51" />
+			<Visible val="False" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<child type="PICTURE" name="icon_common_select" subclass="">
+				<asset type="STATIC">icon_common_select.png</asset>
+				<pos x="176" y="4" />
+				<rect l="0" t="0" r="22" b="23" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+		</child>
+	</base>
+</refresh>

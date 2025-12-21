@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="img_mate_abilityeffect_02_Default">
+    <asset type="IMAGE" name="asset_img_mate_abilityeffect_02" path="img_mate_abilityeffect_02.png">
+      <rect l="0" t="0" r="130" b="132" />
+    </asset>
+    <asset type="IMAGE" name="asset_img_mate_abilityeffect_01" path="img_mate_abilityeffect_01.png">
+      <rect l="0" t="0" r="94" b="94" />
+    </asset>
+    <object name="img_mate_abilityeffect_02" ani="ani_img_mate_abilityeffect_02">
+      <asset type="IMAGE" link="asset_img_mate_abilityeffect_02" />
+    </object>
+    <object name="img_mate_abilityeffect_01" ani="ani_img_mate_abilityeffect_01">
+      <asset type="IMAGE" link="asset_img_mate_abilityeffect_01" />
+    </object>
+    <param type="RES" x="130" y="132" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_img_mate_abilityeffect_02">
+      <frame cnt="0">
+        <posx val="0.5" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="833">
+        <posx val="0.5" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="-60" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="1433">
+        <posx val="0.5" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="-41" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="1700">
+        <posx val="0.5" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="-33" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="2733">
+        <posx val="0.5" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+    <anim name="ani_img_mate_abilityeffect_01">
+      <frame cnt="0">
+        <posx val="0.4769231" />
+        <posy val="0.719697" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0.484615384615385" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="1033">
+        <posx val="0.4846154" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

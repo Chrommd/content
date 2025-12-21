@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="msg_popup_menu_Animation.xml" />
+  </properties>
+  <base type="WNDEX" subclass="" name="WndEx">
+    <asset type="BG" path="">
+      <tex x="0" y="0" />
+      <rect l="8" t="8" r="113" b="57" />
+    </asset>
+    <asset type="EDGE_LT" path="">
+      <tex x="0" y="0" />
+      <rect l="0" t="0" r="8" b="8" />
+    </asset>
+    <asset type="EDGE_RT" path="">
+      <tex x="0" y="0" />
+      <rect l="0" t="0" r="8" b="8" />
+    </asset>
+    <asset type="EDGE_LB" path="">
+      <tex x="0" y="0" />
+      <rect l="0" t="0" r="8" b="8" />
+    </asset>
+    <asset type="EDGE_RB" path="">
+      <tex x="0" y="0" />
+      <rect l="0" t="0" r="8" b="8" />
+    </asset>
+    <asset type="FRAME_T" path="">
+      <tex x="0" y="0" />
+      <rect l="8" t="0" r="113" b="8" />
+    </asset>
+    <asset type="FRAME_B" path="">
+      <tex x="0" y="0" />
+      <rect l="8" t="0" r="113" b="8" />
+    </asset>
+    <asset type="FRAME_L" path="">
+      <tex x="0" y="0" />
+      <rect l="0" t="8" r="8" b="57" />
+    </asset>
+    <asset type="FRAME_R" path="">
+      <tex x="0" y="0" />
+      <rect l="0" t="8" r="8" b="57" />
+    </asset>
+    <Visible val="True" />
+    <Anchor val="None" />
+    <pos x="783" y="375" />
+    <rect l="0" t="0" r="129" b="73" />
+    <Dragable val="False" />
+    <StartPosition val="None" />
+    <EscKeyAction val="None" />
+    <child type="LIST" name="list_msg_popupmenu" subclass="">
+      <asset type="BG" path="dropmenu_04.png">
+        <tex x="25" y="4" />
+        <rect l="25" t="30" r="67" b="4" />
+      </asset>
+      <asset type="EDGE_LT" path="dropmenu_00.png">
+        <tex x="25" y="30" />
+        <rect l="0" t="0" r="25" b="30" />
+      </asset>
+      <asset type="EDGE_RT" path="dropmenu_02.png">
+        <tex x="37" y="30" />
+        <rect l="0" t="0" r="37" b="30" />
+      </asset>
+      <asset type="EDGE_LB" path="dropmenu_06.png">
+        <tex x="25" y="39" />
+        <rect l="0" t="0" r="25" b="39" />
+      </asset>
+      <asset type="EDGE_RB" path="dropmenu_08.png">
+        <tex x="37" y="39" />
+        <rect l="0" t="0" r="37" b="39" />
+      </asset>
+      <asset type="FRAME_T" path="dropmenu_01.png">
+        <tex x="25" y="30" />
+        <rect l="25" t="0" r="67" b="30" />
+      </asset>
+      <asset type="FRAME_B" path="dropmenu_07.png">
+        <tex x="25" y="39" />
+        <rect l="25" t="0" r="67" b="39" />
+      </asset>
+      <asset type="FRAME_L" path="dropmenu_03.png">
+        <tex x="25" y="4" />
+        <rect l="0" t="30" r="25" b="4" />
+      </asset>
+      <asset type="FRAME_R" path="dropmenu_05.png">
+        <tex x="37" y="4" />
+        <rect l="0" t="30" r="37" b="4" />
+      </asset>
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <pos x="-10" y="-10" />
+      <rect l="0" t="0" r="129" b="73" />
+      <padding l="17" t="24" r="17" b="29" />
+      <column val="1" />
+      <itemrect l="0" t="0" r="95" b="20" />
+      <selection val="0" />
+      <deselectable val="0" />
+      <rclickaction val="0" />
+    </child>
+  </base>
+</refresh>

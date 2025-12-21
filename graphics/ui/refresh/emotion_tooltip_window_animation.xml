@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="_Opening_">
+    <asset type="UI" name="asset_bg_care_tip">
+      <rect l="0" t="0" r="63" b="41" />
+    </asset>
+    <asset type="UI" name="asset_bg_tip_line">
+      <rect l="0" t="0" r="8" b="16" />
+    </asset>
+    <asset type="UI" name="asset_txt_care_tip2">
+      <rect l="0" t="0" r="11" b="18" />
+    </asset>
+    <asset type="UI" name="asset_icon_detail_emotion">
+      <rect l="0" t="0" r="31" b="31" />
+    </asset>
+    <object name="bg_care_tip" ani="ani_bg_care_tip">
+      <asset type="UI" link="asset_bg_care_tip" />
+    </object>
+    <object name="bg_tip_line" ani="ani_bg_tip_line">
+      <asset type="UI" link="asset_bg_tip_line" />
+    </object>
+    <object name="txt_care_tip2" ani="ani_txt_care_tip2">
+      <asset type="UI" link="asset_txt_care_tip2" />
+    </object>
+    <object name="icon_detail_emotion" ani="ani_icon_detail_emotion">
+      <asset type="UI" link="asset_icon_detail_emotion" />
+    </object>
+    <param type="RES" x="63" y="50" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_bg_care_tip">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.12" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.8" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="133">
+        <posx val="0" />
+        <posy val="0.08" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_bg_tip_line">
+      <frame cnt="0">
+        <posx val="0.444444444444444" />
+        <posy val="0.82" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.8" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="133">
+        <posx val="0.444444444444444" />
+        <posy val="0.78" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_txt_care_tip2">
+      <frame cnt="0">
+        <posx val="0.650793650793651" />
+        <posy val="0.28" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.8" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="133">
+        <posx val="0.650793650793651" />
+        <posy val="0.24" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_detail_emotion">
+      <frame cnt="0">
+        <posx val="0.0317460317460317" />
+        <posy val="0.16" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.8" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="133">
+        <posx val="0.0317460317460317" />
+        <posy val="0.12" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Closing_">
+    <asset type="UI" name="asset_bg_care_tip">
+      <rect l="0" t="0" r="63" b="41" />
+    </asset>
+    <asset type="UI" name="asset_bg_tip_line">
+      <rect l="0" t="0" r="8" b="16" />
+    </asset>
+    <asset type="UI" name="asset_txt_care_tip2">
+      <rect l="0" t="0" r="11" b="18" />
+    </asset>
+    <asset type="UI" name="asset_icon_detail_emotion">
+      <rect l="0" t="0" r="31" b="31" />
+    </asset>
+    <object name="bg_care_tip" ani="ani_bg_care_tip">
+      <asset type="UI" link="asset_bg_care_tip" />
+    </object>
+    <object name="bg_tip_line" ani="ani_bg_tip_line">
+      <asset type="UI" link="asset_bg_tip_line" />
+    </object>
+    <object name="txt_care_tip2" ani="ani_txt_care_tip2">
+      <asset type="UI" link="asset_txt_care_tip2" />
+    </object>
+    <object name="icon_detail_emotion" ani="ani_icon_detail_emotion">
+      <asset type="UI" link="asset_icon_detail_emotion" />
+    </object>
+    <param type="RES" x="63" y="50" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_bg_care_tip">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.08" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="133">
+        <posx val="0" />
+        <posy val="0.12" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.8" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_bg_tip_line">
+      <frame cnt="0">
+        <posx val="0.444444444444444" />
+        <posy val="0.78" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="133">
+        <posx val="0.444444444444444" />
+        <posy val="0.82" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.8" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_txt_care_tip2">
+      <frame cnt="0">
+        <posx val="0.650793650793651" />
+        <posy val="0.24" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="133">
+        <posx val="0.650793650793651" />
+        <posy val="0.28" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_detail_emotion">
+      <frame cnt="0">
+        <posx val="0.0317460317460317" />
+        <posy val="0.12" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="133">
+        <posx val="0.0317460317460317" />
+        <posy val="0.16" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.8" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

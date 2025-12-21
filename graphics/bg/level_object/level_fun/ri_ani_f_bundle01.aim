@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <AABB animation="1st_00">
+        <minX>-1.0838</minX>
+        <minY>0.0000</minY>
+        <minZ>-0.6561</minZ>
+        <maxX>0.7597</maxX>
+        <maxY>1.9214</maxY>
+        <maxZ>1.1917</maxZ>
+    </AABB>
+    <AABB animation="2nd_00">
+        <minX>-1.0838</minX>
+        <minY>0.0000</minY>
+        <minZ>-0.6561</minZ>
+        <maxX>0.7597</maxX>
+        <maxY>1.9214</maxY>
+        <maxZ>1.1917</maxZ>
+    </AABB>
+    <AABB animation="3rd_00">
+        <minX>-1.0838</minX>
+        <minY>0.0000</minY>
+        <minZ>-0.6561</minZ>
+        <maxX>0.7597</maxX>
+        <maxY>1.9214</maxY>
+        <maxZ>1.1917</maxZ>
+    </AABB>
+    <event animation="1st_00">
+        <function>PlayFX($asset, "ob_straw_crash", "root", "")</function>
+        <time>0.0000</time>
+        <type>NORMAL</type>
+    </event>
+    <event animation="1st_00">
+        <function>PlayFX($asset, "ob_straw_dust", "root", "")</function>
+        <time>0.1500</time>
+        <type>NORMAL</type>
+    </event>
+    <event animation="1st_00">
+        <function>RelayMsg($asset, "FadeOut", "-time 1")</function>
+        <time>1.5660</time>
+        <type>NORMAL</type>
+    </event>
+    <event animation="1st_00">
+        <function>PlaySND($asset, "crash_bundle01_", "root", "-var 3")</function>
+        <time>0.0030</time>
+        <type>NORMAL</type>
+    </event>
+    <event animation="2nd_00">
+        <function>PlayFX($asset, "ob_straw_crash", "root", "")</function>
+        <time>0.0000</time>
+        <type>NORMAL</type>
+    </event>
+    <event animation="2nd_00">
+        <function>PlayFX($asset, "ob_straw_dust", "root", "")</function>
+        <time>0.1200</time>
+        <type>NORMAL</type>
+    </event>
+    <event animation="2nd_00">
+        <function>RelayMsg($asset, "FadeOut", "-time 1")</function>
+        <time>1.1000</time>
+        <type>NORMAL</type>
+    </event>
+    <event animation="2nd_00">
+        <function>PlaySND($asset, "crash_bundle01_", "root", "-var 3")</function>
+        <time>0.0060</time>
+        <type>NORMAL</type>
+    </event>
+    <event animation="3rd_00">
+        <function>PlayFX($asset, "ob_straw_crash", "root", "")</function>
+        <time>0.0000</time>
+        <type>NORMAL</type>
+    </event>
+    <event animation="3rd_00">
+        <function>PlayFX($asset, "ob_straw_dust", "root", "")</function>
+        <time>0.0433</time>
+        <type>NORMAL</type>
+    </event>
+    <event animation="3rd_00">
+        <function>RelayMsg($asset, "FadeOut", "-time 1")</function>
+        <time>1.4300</time>
+        <type>NORMAL</type>
+    </event>
+    <event animation="3rd_00">
+        <function>PlaySND($asset, "crash_bundle01_", "root", "-var 3")</function>
+        <time>0.0000</time>
+        <type>NORMAL</type>
+    </event>
+    <dummy name="root" parent="Dummyroot" sync="FALSE">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.0000</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <action state="BROKEN_1ST" loop="0" poskey="" rotkey="">
+        <main>1st_00</main>
+    </action>
+    <action state="BROKEN_2ND" loop="0" poskey="" rotkey="">
+        <main>2nd_00</main>
+    </action>
+    <action state="BROKEN_3RD" loop="0" poskey="" rotkey="">
+        <main>3rd_00</main>
+    </action>
+</aim>

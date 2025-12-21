@@ -1,0 +1,4727 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="perfectjump">
+    <asset type="UI" name="asset_ingame_infobox_perfectbooster">
+      <rect l="0" t="0" r="400" b="65" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_booster">
+      <rect l="0" t="0" r="400" b="50" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_getu">
+      <rect l="0" t="0" r="400" b="42" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_slipstream">
+      <rect l="0" t="0" r="400" b="56" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_rush">
+      <rect l="0" t="0" r="400" b="51" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_perfectjump">
+      <rect l="0" t="0" r="400" b="45" />
+    </asset>
+    <asset type="UI" name="asset_img_perfectjump_cc_cph2_1">
+      <rect l="0" t="0" r="28" b="44" />
+    </asset>
+    <asset type="UI" name="asset_img_perfectjump_cc_cph2_2">
+      <rect l="0" t="0" r="28" b="44" />
+    </asset>
+    <asset type="UI" name="asset_img_perfectjump_cc_cph1_1">
+      <rect l="0" t="0" r="28" b="44" />
+    </asset>
+    <asset type="UI" name="asset_img_perfectjump_cc_cph1_2">
+      <rect l="0" t="0" r="28" b="44" />
+    </asset>
+    <asset type="UI" name="asset_img_perfectjump_1">
+      <rect l="0" t="0" r="238" b="44" />
+    </asset>
+    <asset type="UI" name="asset_img_perfectjump_2">
+      <rect l="0" t="0" r="238" b="44" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_perfectstart">
+      <rect l="0" t="0" r="400" b="43" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_auto_perfectstart">
+      <rect l="0" t="0" r="400" b="63" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_refare">
+      <rect l="0" t="0" r="400" b="68" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_goodstart">
+      <rect l="0" t="0" r="400" b="40" />
+    </asset>
+    <object name="ingame_infobox_perfectbooster" ani="ani_ingame_infobox_perfectbooster">
+      <asset type="UI" link="asset_ingame_infobox_perfectbooster" />
+    </object>
+    <object name="ingame_infobox_booster" ani="ani_ingame_infobox_booster">
+      <asset type="UI" link="asset_ingame_infobox_booster" />
+    </object>
+    <object name="ingame_infobox_getu" ani="ani_ingame_infobox_getu">
+      <asset type="UI" link="asset_ingame_infobox_getu" />
+    </object>
+    <object name="ingame_infobox_slipstream" ani="ani_ingame_infobox_slipstream">
+      <asset type="UI" link="asset_ingame_infobox_slipstream" />
+    </object>
+    <object name="ingame_infobox_rush" ani="ani_ingame_infobox_rush">
+      <asset type="UI" link="asset_ingame_infobox_rush" />
+    </object>
+    <object name="ingame_infobox_perfectjump" ani="ani_ingame_infobox_perfectjump">
+      <asset type="UI" link="asset_ingame_infobox_perfectjump" />
+    </object>
+    <object name="img_perfectjump_cc_cph2_1" ani="ani_img_perfectjump_cc_cph2_1">
+      <asset type="UI" link="asset_img_perfectjump_cc_cph2_1" />
+    </object>
+    <object name="img_perfectjump_cc_cph2_2" ani="ani_img_perfectjump_cc_cph2_2">
+      <asset type="UI" link="asset_img_perfectjump_cc_cph2_2" />
+    </object>
+    <object name="img_perfectjump_cc_cph1_1" ani="ani_img_perfectjump_cc_cph1_1">
+      <asset type="UI" link="asset_img_perfectjump_cc_cph1_1" />
+    </object>
+    <object name="img_perfectjump_cc_cph1_2" ani="ani_img_perfectjump_cc_cph1_2">
+      <asset type="UI" link="asset_img_perfectjump_cc_cph1_2" />
+    </object>
+    <object name="img_perfectjump_1" ani="ani_img_perfectjump_1">
+      <asset type="UI" link="asset_img_perfectjump_1" />
+    </object>
+    <object name="img_perfectjump_2" ani="ani_img_perfectjump_2">
+      <asset type="UI" link="asset_img_perfectjump_2" />
+    </object>
+    <object name="ingame_infobox_perfectstart" ani="ani_ingame_infobox_perfectstart">
+      <asset type="UI" link="asset_ingame_infobox_perfectstart" />
+    </object>
+    <object name="ingame_infobox_auto_perfectstart" ani="ani_ingame_infobox_auto_perfectstart">
+      <asset type="UI" link="asset_ingame_infobox_auto_perfectstart" />
+    </object>
+    <object name="ingame_infobox_refare" ani="ani_ingame_infobox_refare">
+      <asset type="UI" link="asset_ingame_infobox_refare" />
+    </object>
+    <object name="ingame_infobox_goodstart" ani="ani_ingame_infobox_goodstart">
+      <asset type="UI" link="asset_ingame_infobox_goodstart" />
+    </object>
+    <param type="RES" x="400" y="100" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_ingame_infobox_perfectbooster">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.06" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_booster">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.22" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_getu">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.26" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_slipstream">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.22" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_rush">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.28" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_perfectjump">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.28" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_perfectjump_cc_cph2_1">
+      <frame cnt="0">
+        <posx val="0.7125" />
+        <posy val="0.02" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="200">
+        <posx val="0.7125" />
+        <posy val="0.27" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="367">
+        <posx val="0.7125" />
+        <posy val="0.02" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2767">
+        <posx val="0.7125" />
+        <posy val="0.02" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="3000">
+        <posx val="0.6125" easeValue="0.0,0.7,1.0,1.0" />
+        <posy val="0.02" easeValue="0.0,0.7,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" easeValue="0.0,0.7,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_perfectjump_cc_cph2_2">
+      <frame cnt="0">
+        <posx val="0.7125" />
+        <posy val="-0.03" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="300">
+        <posx val="0.7125" />
+        <posy val="-0.03" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.7125" />
+        <posy val="-0.03" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.7" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="533">
+        <posx val="0.6825" />
+        <posy val="-0.28" />
+        <scalex val="1.85714285714286" />
+        <scaley val="1.81818181818182" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_perfectjump_cc_cph1_1">
+      <frame cnt="0">
+        <posx val="0.65" />
+        <posy val="0.02" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="200">
+        <posx val="0.65" />
+        <posy val="0.27" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="367">
+        <posx val="0.65" />
+        <posy val="0.02" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2767">
+        <posx val="0.65" />
+        <posy val="0.02" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="3000">
+        <posx val="0.55" easeValue="0.0,0.7,1.0,1.0" />
+        <posy val="0.02" easeValue="0.0,0.7,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" easeValue="0.0,0.7,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_perfectjump_cc_cph1_2">
+      <frame cnt="0">
+        <posx val="0.65" />
+        <posy val="-0.03" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="200">
+        <posx val="0.65" />
+        <posy val="-0.03" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="233">
+        <posx val="0.65" />
+        <posy val="-0.03" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.7" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="433">
+        <posx val="0.62" />
+        <posy val="-0.23" />
+        <scalex val="1.85714285714286" />
+        <scaley val="1.81818181818182" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_perfectjump_1">
+      <frame cnt="0">
+        <posx val="-0.05" />
+        <posy val="0.03" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="233">
+        <posx val="0.05" easeValue="0.0,0.7,1.0,1.0" />
+        <posy val="0.03" easeValue="0.0,0.7,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,0.7,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2767">
+        <posx val="0.05" />
+        <posy val="0.03" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="3000">
+        <posx val="-0.05" easeValue="0.0,0.7,1.0,1.0" />
+        <posy val="0.03" easeValue="0.0,0.7,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" easeValue="0.0,0.7,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_perfectjump_2">
+      <frame cnt="0">
+        <posx val="0.05" />
+        <posy val="0.03" />
+        <scalex val="0.949579831932773" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="200">
+        <posx val="0.05" />
+        <posy val="0.03" />
+        <scalex val="0.949579831932773" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="233">
+        <posx val="0.05" />
+        <posy val="0.03" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.9" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="400">
+        <posx val="-0.1" />
+        <posy val="-0.12" />
+        <scalex val="1.44117647058824" />
+        <scaley val="1.5" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_perfectstart">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.28" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_auto_perfectstart">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.16" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_refare">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.15" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_goodstart">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.31" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="goodstart">
+    <asset type="UI" name="asset_ingame_infobox_perfectbooster">
+      <rect l="0" t="0" r="400" b="65" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_booster">
+      <rect l="0" t="0" r="400" b="50" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_getu">
+      <rect l="0" t="0" r="400" b="42" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_slipstream">
+      <rect l="0" t="0" r="400" b="56" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_rush">
+      <rect l="0" t="0" r="400" b="51" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_perfectjump">
+      <rect l="0" t="0" r="400" b="45" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_perfectstart">
+      <rect l="0" t="0" r="400" b="43" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_auto_perfectstart">
+      <rect l="0" t="0" r="400" b="63" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_refare">
+      <rect l="0" t="0" r="400" b="68" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_goodstart">
+      <rect l="0" t="0" r="400" b="40" />
+    </asset>
+    <asset type="UI" name="asset_img_goodstart">
+      <rect l="0" t="0" r="200" b="44" />
+    </asset>
+    <object name="ingame_infobox_perfectbooster" ani="ani_ingame_infobox_perfectbooster">
+      <asset type="UI" link="asset_ingame_infobox_perfectbooster" />
+    </object>
+    <object name="ingame_infobox_booster" ani="ani_ingame_infobox_booster">
+      <asset type="UI" link="asset_ingame_infobox_booster" />
+    </object>
+    <object name="ingame_infobox_getu" ani="ani_ingame_infobox_getu">
+      <asset type="UI" link="asset_ingame_infobox_getu" />
+    </object>
+    <object name="ingame_infobox_slipstream" ani="ani_ingame_infobox_slipstream">
+      <asset type="UI" link="asset_ingame_infobox_slipstream" />
+    </object>
+    <object name="ingame_infobox_rush" ani="ani_ingame_infobox_rush">
+      <asset type="UI" link="asset_ingame_infobox_rush" />
+    </object>
+    <object name="ingame_infobox_perfectjump" ani="ani_ingame_infobox_perfectjump">
+      <asset type="UI" link="asset_ingame_infobox_perfectjump" />
+    </object>
+    <object name="ingame_infobox_perfectstart" ani="ani_ingame_infobox_perfectstart">
+      <asset type="UI" link="asset_ingame_infobox_perfectstart" />
+    </object>
+    <object name="ingame_infobox_auto_perfectstart" ani="ani_ingame_infobox_auto_perfectstart">
+      <asset type="UI" link="asset_ingame_infobox_auto_perfectstart" />
+    </object>
+    <object name="ingame_infobox_refare" ani="ani_ingame_infobox_refare">
+      <asset type="UI" link="asset_ingame_infobox_refare" />
+    </object>
+    <object name="ingame_infobox_goodstart" ani="ani_ingame_infobox_goodstart">
+      <asset type="UI" link="asset_ingame_infobox_goodstart" />
+    </object>
+    <object name="img_goodstart" ani="ani_img_goodstart">
+      <asset type="UI" link="asset_img_goodstart" />
+    </object>
+    <param type="RES" x="400" y="100" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_ingame_infobox_perfectbooster">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.06" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_booster">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.22" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_getu">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.26" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_slipstream">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.22" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_rush">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.28" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_perfectjump">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.28" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_perfectstart">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.28" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_auto_perfectstart">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.16" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_refare">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.15" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_goodstart">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.31" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_goodstart">
+      <frame cnt="0">
+        <posx val="-0.05" />
+        <posy val="0.02" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="233">
+        <posx val="0.05" easeValue="0.0,0.7,1.0,1.0" />
+        <posy val="0.02" easeValue="0.0,0.7,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,0.7,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2667">
+        <posx val="0.05" />
+        <posy val="0.02" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="3000">
+        <posx val="-0.05" easeValue="0.0,0.7,1.0,1.0" />
+        <posy val="0.02" easeValue="0.0,0.7,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" easeValue="0.0,0.7,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="perfectstart">
+    <asset type="UI" name="asset_ingame_infobox_perfectbooster">
+      <rect l="0" t="0" r="400" b="65" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_booster">
+      <rect l="0" t="0" r="400" b="50" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_getu">
+      <rect l="0" t="0" r="400" b="42" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_slipstream">
+      <rect l="0" t="0" r="400" b="56" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_rush">
+      <rect l="0" t="0" r="400" b="51" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_perfectjump">
+      <rect l="0" t="0" r="400" b="45" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_perfectstart">
+      <rect l="0" t="0" r="400" b="43" />
+    </asset>
+    <asset type="UI" name="asset_img_perfectstart_1">
+      <rect l="0" t="0" r="226" b="44" />
+    </asset>
+    <asset type="UI" name="asset_img_perfectstart_2">
+      <rect l="0" t="0" r="226" b="44" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_auto_perfectstart">
+      <rect l="0" t="0" r="400" b="63" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_refare">
+      <rect l="0" t="0" r="400" b="68" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_goodstart">
+      <rect l="0" t="0" r="400" b="40" />
+    </asset>
+    <object name="ingame_infobox_perfectbooster" ani="ani_ingame_infobox_perfectbooster">
+      <asset type="UI" link="asset_ingame_infobox_perfectbooster" />
+    </object>
+    <object name="ingame_infobox_booster" ani="ani_ingame_infobox_booster">
+      <asset type="UI" link="asset_ingame_infobox_booster" />
+    </object>
+    <object name="ingame_infobox_getu" ani="ani_ingame_infobox_getu">
+      <asset type="UI" link="asset_ingame_infobox_getu" />
+    </object>
+    <object name="ingame_infobox_slipstream" ani="ani_ingame_infobox_slipstream">
+      <asset type="UI" link="asset_ingame_infobox_slipstream" />
+    </object>
+    <object name="ingame_infobox_rush" ani="ani_ingame_infobox_rush">
+      <asset type="UI" link="asset_ingame_infobox_rush" />
+    </object>
+    <object name="ingame_infobox_perfectjump" ani="ani_ingame_infobox_perfectjump">
+      <asset type="UI" link="asset_ingame_infobox_perfectjump" />
+    </object>
+    <object name="ingame_infobox_perfectstart" ani="ani_ingame_infobox_perfectstart">
+      <asset type="UI" link="asset_ingame_infobox_perfectstart" />
+    </object>
+    <object name="img_perfectstart_1" ani="ani_img_perfectstart_1">
+      <asset type="UI" link="asset_img_perfectstart_1" />
+    </object>
+    <object name="img_perfectstart_2" ani="ani_img_perfectstart_2">
+      <asset type="UI" link="asset_img_perfectstart_2" />
+    </object>
+    <object name="ingame_infobox_auto_perfectstart" ani="ani_ingame_infobox_auto_perfectstart">
+      <asset type="UI" link="asset_ingame_infobox_auto_perfectstart" />
+    </object>
+    <object name="ingame_infobox_refare" ani="ani_ingame_infobox_refare">
+      <asset type="UI" link="asset_ingame_infobox_refare" />
+    </object>
+    <object name="ingame_infobox_goodstart" ani="ani_ingame_infobox_goodstart">
+      <asset type="UI" link="asset_ingame_infobox_goodstart" />
+    </object>
+    <param type="RES" x="400" y="100" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_ingame_infobox_perfectbooster">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.06" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_booster">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.22" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_getu">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.26" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_slipstream">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.22" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_rush">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.28" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_perfectjump">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.28" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_perfectstart">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.28" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_perfectstart_1">
+      <frame cnt="0">
+        <posx val="-0.05" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="233">
+        <posx val="0.05" easeValue="0.0,0.7,1.0,1.0" />
+        <posy val="0" easeValue="0.0,0.7,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,0.7,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2767">
+        <posx val="0.05" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2967">
+        <posx val="-0.045" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.05" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="3000">
+        <posx val="-0.05" easeValue="0.0,0.7,1.0,1.0" />
+        <posy val="0.28" easeValue="0.0,0.7,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" easeValue="0.0,0.7,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_perfectstart_2">
+      <frame cnt="0">
+        <posx val="0.05" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="200">
+        <posx val="0.05" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="233">
+        <posx val="0.05" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.9" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="400">
+        <posx val="-0.1" />
+        <posy val="-0.11" />
+        <scalex val="1.51769911504425" />
+        <scaley val="1.5" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_auto_perfectstart">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.16" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_refare">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.15" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_goodstart">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.31" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="slipstream">
+    <asset type="UI" name="asset_ingame_infobox_perfectbooster">
+      <rect l="0" t="0" r="400" b="65" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_booster">
+      <rect l="0" t="0" r="400" b="50" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_getu">
+      <rect l="0" t="0" r="400" b="42" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_slipstream">
+      <rect l="0" t="0" r="400" b="56" />
+    </asset>
+    <asset type="UI" name="asset_img_slipstream_glow2">
+      <rect l="0" t="0" r="334" b="52" />
+    </asset>
+    <asset type="UI" name="asset_img_slipstream_1">
+      <rect l="0" t="0" r="206" b="44" />
+    </asset>
+    <asset type="UI" name="asset_img_slipstream_2">
+      <rect l="0" t="0" r="206" b="44" />
+    </asset>
+    <asset type="UI" name="asset_img_slipstream_glow">
+      <rect l="0" t="0" r="154" b="52" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_rush">
+      <rect l="0" t="0" r="400" b="51" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_perfectjump">
+      <rect l="0" t="0" r="400" b="45" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_perfectstart">
+      <rect l="0" t="0" r="400" b="43" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_auto_perfectstart">
+      <rect l="0" t="0" r="400" b="63" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_refare">
+      <rect l="0" t="0" r="400" b="68" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_goodstart">
+      <rect l="0" t="0" r="400" b="40" />
+    </asset>
+    <object name="ingame_infobox_perfectbooster" ani="ani_ingame_infobox_perfectbooster">
+      <asset type="UI" link="asset_ingame_infobox_perfectbooster" />
+    </object>
+    <object name="ingame_infobox_booster" ani="ani_ingame_infobox_booster">
+      <asset type="UI" link="asset_ingame_infobox_booster" />
+    </object>
+    <object name="ingame_infobox_getu" ani="ani_ingame_infobox_getu">
+      <asset type="UI" link="asset_ingame_infobox_getu" />
+    </object>
+    <object name="ingame_infobox_slipstream" ani="ani_ingame_infobox_slipstream">
+      <asset type="UI" link="asset_ingame_infobox_slipstream" />
+    </object>
+    <object name="img_slipstream_glow2" ani="ani_img_slipstream_glow2">
+      <asset type="UI" link="asset_img_slipstream_glow2" />
+    </object>
+    <object name="img_slipstream_1" ani="ani_img_slipstream_1">
+      <asset type="UI" link="asset_img_slipstream_1" />
+    </object>
+    <object name="img_slipstream_2" ani="ani_img_slipstream_2">
+      <asset type="UI" link="asset_img_slipstream_2" />
+    </object>
+    <object name="img_slipstream_glow" ani="ani_img_slipstream_glow">
+      <asset type="UI" link="asset_img_slipstream_glow" />
+    </object>
+    <object name="ingame_infobox_rush" ani="ani_ingame_infobox_rush">
+      <asset type="UI" link="asset_ingame_infobox_rush" />
+    </object>
+    <object name="ingame_infobox_perfectjump" ani="ani_ingame_infobox_perfectjump">
+      <asset type="UI" link="asset_ingame_infobox_perfectjump" />
+    </object>
+    <object name="ingame_infobox_perfectstart" ani="ani_ingame_infobox_perfectstart">
+      <asset type="UI" link="asset_ingame_infobox_perfectstart" />
+    </object>
+    <object name="ingame_infobox_auto_perfectstart" ani="ani_ingame_infobox_auto_perfectstart">
+      <asset type="UI" link="asset_ingame_infobox_auto_perfectstart" />
+    </object>
+    <object name="ingame_infobox_refare" ani="ani_ingame_infobox_refare">
+      <asset type="UI" link="asset_ingame_infobox_refare" />
+    </object>
+    <object name="ingame_infobox_goodstart" ani="ani_ingame_infobox_goodstart">
+      <asset type="UI" link="asset_ingame_infobox_goodstart" />
+    </object>
+    <param type="RES" x="400" y="100" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_ingame_infobox_perfectbooster">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.06" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_booster">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.22" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_getu">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.26" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_slipstream">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.22" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_slipstream_glow2">
+      <frame cnt="0">
+        <posx val="-0.225" />
+        <posy val="0.03" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="400">
+        <posx val="-0.05" />
+        <posy val="0.03" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.5,0.0,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="767">
+        <posx val="0.125" />
+        <posy val="0.03" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="800">
+        <posx val="0" />
+        <posy val="0.03" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2667">
+        <posx val="0" />
+        <posy val="0.03" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2700">
+        <posx val="-0.11" />
+        <posy val="0.03" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.5" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2967">
+        <posx val="-0.125" easeValue="0.0,0.5,1.0,1.0" />
+        <posy val="0.03" easeValue="0.0,0.5,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" easeValue="0.0,0.5,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_slipstream_1">
+      <frame cnt="0">
+        <posx val="-0.05" />
+        <posy val="0.05" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="200">
+        <posx val="0.05" easeValue="0.0,0.7,1.0,1.0" />
+        <posy val="0.05" easeValue="0.0,0.7,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,0.7,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2667">
+        <posx val="0.05" />
+        <posy val="0.05" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2967">
+        <posx val="-0.05" easeValue="0.0,0.7,1.0,1.0" />
+        <posy val="0.05" easeValue="0.0,0.7,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" easeValue="0.0,0.7,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_slipstream_2">
+      <frame cnt="0">
+        <posx val="-0.2" />
+        <posy val="0.05" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="67">
+        <posx val="-0.2" />
+        <posy val="0.05" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="100">
+        <posx val="-0.2" />
+        <posy val="0.05" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="400">
+        <posx val="0.05" easeValue="0.7,0.0,1.0,1.0" />
+        <posy val="0.05" easeValue="0.7,0.0,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.7" easeValue="0.7,0.0,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="700">
+        <posx val="0.3" easeValue="0.7,0.0,1.0,1.0" />
+        <posy val="0.05" easeValue="0.7,0.0,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" easeValue="0.7,0.0,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_slipstream_glow">
+      <frame cnt="0">
+        <posx val="-0.35" />
+        <posy val="0.01" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="400">
+        <posx val="-0.0275" />
+        <posy val="0.01" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="433">
+        <posx val="0.0375" easeValue="0.6,0.0,1.0,1.0" />
+        <posy val="0.01" easeValue="0.6,0.0,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.8" easeValue="0.6,0.0,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="767">
+        <posx val="0.0375" />
+        <posy val="0.01" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" easeValue="0.0,0.6,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_rush">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.28" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_perfectjump">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.28" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_perfectstart">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.28" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_auto_perfectstart">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.16" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_refare">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.15" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_goodstart">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.31" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="getu">
+    <asset type="UI" name="asset_ingame_infobox_perfectbooster">
+      <rect l="0" t="0" r="400" b="65" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_booster">
+      <rect l="0" t="0" r="400" b="50" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_getu">
+      <rect l="0" t="0" r="400" b="42" />
+    </asset>
+    <asset type="UI" name="asset_img_get_1">
+      <rect l="0" t="0" r="72" b="44" />
+    </asset>
+    <asset type="UI" name="asset_img_get_2">
+      <rect l="0" t="0" r="72" b="44" />
+    </asset>
+    <asset type="UI" name="asset_img_u_1">
+      <rect l="0" t="0" r="46" b="52" />
+    </asset>
+    <asset type="UI" name="asset_img_u_2">
+      <rect l="0" t="0" r="46" b="52" />
+    </asset>
+    <asset type="UI" name="asset_img_u_glow">
+      <rect l="0" t="0" r="54" b="58" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_slipstream">
+      <rect l="0" t="0" r="400" b="56" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_rush">
+      <rect l="0" t="0" r="400" b="51" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_perfectjump">
+      <rect l="0" t="0" r="400" b="45" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_perfectstart">
+      <rect l="0" t="0" r="400" b="43" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_auto_perfectstart">
+      <rect l="0" t="0" r="400" b="63" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_refare">
+      <rect l="0" t="0" r="400" b="68" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_goodstart">
+      <rect l="0" t="0" r="400" b="40" />
+    </asset>
+    <object name="ingame_infobox_perfectbooster" ani="ani_ingame_infobox_perfectbooster">
+      <asset type="UI" link="asset_ingame_infobox_perfectbooster" />
+    </object>
+    <object name="ingame_infobox_booster" ani="ani_ingame_infobox_booster">
+      <asset type="UI" link="asset_ingame_infobox_booster" />
+    </object>
+    <object name="ingame_infobox_getu" ani="ani_ingame_infobox_getu">
+      <asset type="UI" link="asset_ingame_infobox_getu" />
+    </object>
+    <object name="img_get_1" ani="ani_img_get_1">
+      <asset type="UI" link="asset_img_get_1" />
+    </object>
+    <object name="img_get_2" ani="ani_img_get_2">
+      <asset type="UI" link="asset_img_get_2" />
+    </object>
+    <object name="img_u_1" ani="ani_img_u_1">
+      <asset type="UI" link="asset_img_u_1" />
+    </object>
+    <object name="img_u_2" ani="ani_img_u_2">
+      <asset type="UI" link="asset_img_u_2" />
+    </object>
+    <object name="img_u_glow" ani="ani_img_u_glow">
+      <asset type="UI" link="asset_img_u_glow" />
+    </object>
+    <object name="ingame_infobox_slipstream" ani="ani_ingame_infobox_slipstream">
+      <asset type="UI" link="asset_ingame_infobox_slipstream" />
+    </object>
+    <object name="ingame_infobox_rush" ani="ani_ingame_infobox_rush">
+      <asset type="UI" link="asset_ingame_infobox_rush" />
+    </object>
+    <object name="ingame_infobox_perfectjump" ani="ani_ingame_infobox_perfectjump">
+      <asset type="UI" link="asset_ingame_infobox_perfectjump" />
+    </object>
+    <object name="ingame_infobox_perfectstart" ani="ani_ingame_infobox_perfectstart">
+      <asset type="UI" link="asset_ingame_infobox_perfectstart" />
+    </object>
+    <object name="ingame_infobox_auto_perfectstart" ani="ani_ingame_infobox_auto_perfectstart">
+      <asset type="UI" link="asset_ingame_infobox_auto_perfectstart" />
+    </object>
+    <object name="ingame_infobox_refare" ani="ani_ingame_infobox_refare">
+      <asset type="UI" link="asset_ingame_infobox_refare" />
+    </object>
+    <object name="ingame_infobox_goodstart" ani="ani_ingame_infobox_goodstart">
+      <asset type="UI" link="asset_ingame_infobox_goodstart" />
+    </object>
+    <param type="RES" x="400" y="100" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_ingame_infobox_perfectbooster">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.06" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_booster">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.22" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_getu">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.26" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_get_1">
+      <frame cnt="0">
+        <posx val="-0.05" />
+        <posy val="0.14" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="200">
+        <posx val="0.05" easeValue="0.0,0.7,1.0,1.0" />
+        <posy val="0.14" easeValue="0.0,0.7,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,0.7,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="633">
+        <posx val="0.05" />
+        <posy val="0.14" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2667">
+        <posx val="0.05" />
+        <posy val="0.04" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2967">
+        <posx val="-0.05" easeValue="0.0,0.7,1.0,1.0" />
+        <posy val="0.04" easeValue="0.0,0.7,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" easeValue="0.0,0.7,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_get_2">
+      <frame cnt="0">
+        <posx val="-0.05" />
+        <posy val="0.14" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="200">
+        <posx val="-0.05" />
+        <posy val="0.14" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="400">
+        <posx val="0.05" easeValue="0.0,0.7,1.0,1.0" />
+        <posy val="0.14" easeValue="0.0,0.7,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,0.7,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="433">
+        <posx val="-0.05" />
+        <posy val="0.14" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="633">
+        <posx val="0.05" easeValue="0.0,0.7,1.0,1.0" />
+        <posy val="0.14" easeValue="0.0,0.7,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,0.7,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2667">
+        <posx val="0.05" />
+        <posy val="0.04" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2967">
+        <posx val="-0.05" easeValue="0.0,0.7,1.0,1.0" />
+        <posy val="0.04" easeValue="0.0,0.7,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" easeValue="0.0,0.7,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_u_1">
+      <frame cnt="0">
+        <posx val="0.2375" />
+        <posy val="-0.21" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="200">
+        <posx val="0.2375" />
+        <posy val="0.05" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="233">
+        <posx val="0.2375" />
+        <posy val="0.05" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="400">
+        <posx val="0.2375" />
+        <posy val="0.05" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2667">
+        <posx val="0.2375" />
+        <posy val="-0.05" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2967">
+        <posx val="0.1375" easeValue="0.0,0.7,1.0,1.0" />
+        <posy val="-0.02" easeValue="0.0,0.7,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" easeValue="0.0,0.7,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_u_2">
+      <frame cnt="0">
+        <posx val="0.2375" />
+        <posy val="-0.06" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="200">
+        <posx val="0.2375" />
+        <posy val="0.2" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="233">
+        <posx val="0.2375" />
+        <posy val="0.1" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.7" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="467">
+        <posx val="0.1725" />
+        <posy val="-0.14" />
+        <scalex val="2.08695652173913" />
+        <scaley val="1.63461538461538" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_u_glow">
+      <frame cnt="0">
+        <posx val="0.2275" />
+        <posy val="-0.11" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="200">
+        <posx val="0.2275" />
+        <posy val="-0.04" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.2275" />
+        <posy val="0.01" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="467">
+        <posx val="0.2275" />
+        <posy val="-0.01" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_slipstream">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.22" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_rush">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.28" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_perfectjump">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.28" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_perfectstart">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.28" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_auto_perfectstart">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.16" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_refare">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.15" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_goodstart">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.31" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="booster">
+    <asset type="UI" name="asset_ingame_infobox_perfectbooster">
+      <rect l="0" t="0" r="400" b="65" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_booster">
+      <rect l="0" t="0" r="400" b="50" />
+    </asset>
+    <asset type="UI" name="asset_img_booster_cc_cph1_1">
+      <rect l="0" t="0" r="36" b="52" />
+    </asset>
+    <asset type="UI" name="asset_img_booster_cc_cph1_2">
+      <rect l="0" t="0" r="36" b="52" />
+    </asset>
+    <asset type="UI" name="asset_img_booster_cc_eft1">
+      <rect l="0" t="0" r="44" b="60" />
+    </asset>
+    <asset type="UI" name="asset_img_booster_cc_cph2_1">
+      <rect l="0" t="0" r="36" b="52" />
+    </asset>
+    <asset type="UI" name="asset_img_booster_cc_cph2_2">
+      <rect l="0" t="0" r="36" b="52" />
+    </asset>
+    <asset type="UI" name="asset_img_booster_cc_eft2">
+      <rect l="0" t="0" r="44" b="60" />
+    </asset>
+    <asset type="UI" name="asset_img_booster_1">
+      <rect l="0" t="0" r="190" b="44" />
+    </asset>
+    <asset type="UI" name="asset_img_booster_2">
+      <rect l="0" t="0" r="190" b="44" />
+    </asset>
+    <asset type="UI" name="asset_img_booster_eft">
+      <rect l="0" t="0" r="198" b="46" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_getu">
+      <rect l="0" t="0" r="400" b="42" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_slipstream">
+      <rect l="0" t="0" r="400" b="56" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_rush">
+      <rect l="0" t="0" r="400" b="51" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_perfectjump">
+      <rect l="0" t="0" r="400" b="45" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_perfectstart">
+      <rect l="0" t="0" r="400" b="43" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_auto_perfectstart">
+      <rect l="0" t="0" r="400" b="63" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_refare">
+      <rect l="0" t="0" r="400" b="68" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_goodstart">
+      <rect l="0" t="0" r="400" b="40" />
+    </asset>
+    <object name="ingame_infobox_perfectbooster" ani="ani_ingame_infobox_perfectbooster">
+      <asset type="UI" link="asset_ingame_infobox_perfectbooster" />
+    </object>
+    <object name="ingame_infobox_booster" ani="ani_ingame_infobox_booster">
+      <asset type="UI" link="asset_ingame_infobox_booster" />
+    </object>
+    <object name="img_booster_cc_cph1_1" ani="ani_img_booster_cc_cph1_1">
+      <asset type="UI" link="asset_img_booster_cc_cph1_1" />
+    </object>
+    <object name="img_booster_cc_cph1_2" ani="ani_img_booster_cc_cph1_2">
+      <asset type="UI" link="asset_img_booster_cc_cph1_2" />
+    </object>
+    <object name="img_booster_cc_eft1" ani="ani_img_booster_cc_eft1">
+      <asset type="UI" link="asset_img_booster_cc_eft1" />
+    </object>
+    <object name="img_booster_cc_cph2_1" ani="ani_img_booster_cc_cph2_1">
+      <asset type="UI" link="asset_img_booster_cc_cph2_1" />
+    </object>
+    <object name="img_booster_cc_cph2_2" ani="ani_img_booster_cc_cph2_2">
+      <asset type="UI" link="asset_img_booster_cc_cph2_2" />
+    </object>
+    <object name="img_booster_cc_eft2" ani="ani_img_booster_cc_eft2">
+      <asset type="UI" link="asset_img_booster_cc_eft2" />
+    </object>
+    <object name="img_booster_1" ani="ani_img_booster_1">
+      <asset type="UI" link="asset_img_booster_1" />
+    </object>
+    <object name="img_booster_2" ani="ani_img_booster_2">
+      <asset type="UI" link="asset_img_booster_2" />
+    </object>
+    <object name="img_booster_eft" ani="ani_img_booster_eft">
+      <asset type="UI" link="asset_img_booster_eft" />
+    </object>
+    <object name="ingame_infobox_getu" ani="ani_ingame_infobox_getu">
+      <asset type="UI" link="asset_ingame_infobox_getu" />
+    </object>
+    <object name="ingame_infobox_slipstream" ani="ani_ingame_infobox_slipstream">
+      <asset type="UI" link="asset_ingame_infobox_slipstream" />
+    </object>
+    <object name="ingame_infobox_rush" ani="ani_ingame_infobox_rush">
+      <asset type="UI" link="asset_ingame_infobox_rush" />
+    </object>
+    <object name="ingame_infobox_perfectjump" ani="ani_ingame_infobox_perfectjump">
+      <asset type="UI" link="asset_ingame_infobox_perfectjump" />
+    </object>
+    <object name="ingame_infobox_perfectstart" ani="ani_ingame_infobox_perfectstart">
+      <asset type="UI" link="asset_ingame_infobox_perfectstart" />
+    </object>
+    <object name="ingame_infobox_auto_perfectstart" ani="ani_ingame_infobox_auto_perfectstart">
+      <asset type="UI" link="asset_ingame_infobox_auto_perfectstart" />
+    </object>
+    <object name="ingame_infobox_refare" ani="ani_ingame_infobox_refare">
+      <asset type="UI" link="asset_ingame_infobox_refare" />
+    </object>
+    <object name="ingame_infobox_goodstart" ani="ani_ingame_infobox_goodstart">
+      <asset type="UI" link="asset_ingame_infobox_goodstart" />
+    </object>
+    <param type="RES" x="400" y="100" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_ingame_infobox_perfectbooster">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.06" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_booster">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.22" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_booster_cc_cph1_1">
+      <frame cnt="0">
+        <posx val="0.54" />
+        <posy val="0.08" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="167">
+        <posx val="0.54" />
+        <posy val="0.08" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.54" />
+        <posy val="-0.01" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2667">
+        <posx val="0.54" />
+        <posy val="-0.01" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2967">
+        <posx val="0.44" easeValue="0.0,0.7,1.0,1.0" />
+        <posy val="-0.01" easeValue="0.0,0.7,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" easeValue="0.0,0.7,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_booster_cc_cph1_2">
+      <frame cnt="0">
+        <posx val="0.54" />
+        <posy val="0.08" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="167">
+        <posx val="0.54" />
+        <posy val="-0.04" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="200">
+        <posx val="0.54" />
+        <posy val="-0.04" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.7" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="433">
+        <posx val="0.5" />
+        <posy val="-0.17" />
+        <scalex val="1.94444444444444" />
+        <scaley val="1.53846153846154" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_booster_cc_eft1">
+      <frame cnt="0">
+        <posx val="0.53" />
+        <posy val="-0.31" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="167">
+        <posx val="0.53" />
+        <posy val="-0.51" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.53" />
+        <posy val="-0.51" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="433">
+        <posx val="0.53" />
+        <posy val="-0.51" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_booster_cc_cph2_1">
+      <frame cnt="0">
+        <posx val="0.6225" />
+        <posy val="0.08" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="167">
+        <posx val="0.6225" />
+        <posy val="0.08" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.6225" />
+        <posy val="-0.01" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2667">
+        <posx val="0.6225" />
+        <posy val="-0.01" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2967">
+        <posx val="0.5225" easeValue="0.0,0.7,1.0,1.0" />
+        <posy val="-0.01" easeValue="0.0,0.7,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" easeValue="0.0,0.7,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_booster_cc_cph2_2">
+      <frame cnt="0">
+        <posx val="0.6225" />
+        <posy val="0.08" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="267">
+        <posx val="0.6225" />
+        <posy val="-0.04" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="300">
+        <posx val="0.6225" />
+        <posy val="-0.04" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.7" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="533">
+        <posx val="0.5825" />
+        <posy val="-0.17" />
+        <scalex val="1.94444444444444" />
+        <scaley val="1.53846153846154" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_booster_cc_eft2">
+      <frame cnt="0">
+        <posx val="0.6125" />
+        <posy val="-0.09" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="167">
+        <posx val="0.6125" />
+        <posy val="-0.29" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.6125" />
+        <posy val="-0.49" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="433">
+        <posx val="0.6125" />
+        <posy val="-0.49" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_booster_1">
+      <frame cnt="0">
+        <posx val="-0.05" />
+        <posy val="0.08" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="167">
+        <posx val="0.05" />
+        <posy val="0.08" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2667">
+        <posx val="0.05" />
+        <posy val="0.08" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2967">
+        <posx val="-0.05" easeValue="0.0,0.6,1.0,1.0" />
+        <posy val="0.08" easeValue="0.0,0.6,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" easeValue="0.0,0.6,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_booster_2">
+      <frame cnt="0">
+        <posx val="-0.1" />
+        <posy val="0.08" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="133">
+        <posx val="-0.1" />
+        <posy val="0.08" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.4" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.05" />
+        <posy val="0.08" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="400">
+        <posx val="0.05" />
+        <posy val="0.08" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_booster_eft">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.04" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="133">
+        <posx val="0" />
+        <posy val="0.04" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="267">
+        <posx val="0.0375" />
+        <posy val="0.04" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="400">
+        <posx val="0.0375" />
+        <posy val="0.04" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_getu">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.26" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_slipstream">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.22" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_rush">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.28" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_perfectjump">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.28" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_perfectstart">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.28" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_auto_perfectstart">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.16" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_refare">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.15" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_goodstart">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.31" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="perfectbooster">
+    <asset type="UI" name="asset_ingame_infobox_perfectbooster">
+      <rect l="0" t="0" r="400" b="65" />
+    </asset>
+    <asset type="UI" name="asset_img_perfectbooster_cc_cph1_1">
+      <rect l="0" t="0" r="36" b="52" />
+    </asset>
+    <asset type="UI" name="asset_img_perfectbooster_cc_cph1_2">
+      <rect l="0" t="0" r="36" b="52" />
+    </asset>
+    <asset type="UI" name="asset_img_perfectbooster_cc_eft1">
+      <rect l="0" t="0" r="44" b="60" />
+    </asset>
+    <asset type="UI" name="asset_img_perfectbooster_cc_cph2_1">
+      <rect l="0" t="0" r="36" b="52" />
+    </asset>
+    <asset type="UI" name="asset_img_perfectbooster_cc_cph2_2">
+      <rect l="0" t="0" r="36" b="52" />
+    </asset>
+    <asset type="UI" name="asset_img_perfectbooster_cc_eft2">
+      <rect l="0" t="0" r="44" b="60" />
+    </asset>
+    <asset type="UI" name="asset_img_perfectbooster_booster_1">
+      <rect l="0" t="0" r="190" b="44" />
+    </asset>
+    <asset type="UI" name="asset_img_perfectbooster_boosteer_2">
+      <rect l="0" t="0" r="190" b="44" />
+    </asset>
+    <asset type="UI" name="asset_img_perfectbooster_eft">
+      <rect l="0" t="0" r="198" b="46" />
+    </asset>
+    <asset type="UI" name="asset_img_perfectbooster_1">
+      <rect l="0" t="0" r="94" b="28" />
+    </asset>
+    <asset type="UI" name="asset_img_perfectbooster_2">
+      <rect l="0" t="0" r="94" b="28" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_booster">
+      <rect l="0" t="0" r="400" b="50" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_getu">
+      <rect l="0" t="0" r="400" b="42" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_slipstream">
+      <rect l="0" t="0" r="400" b="56" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_rush">
+      <rect l="0" t="0" r="400" b="51" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_perfectjump">
+      <rect l="0" t="0" r="400" b="45" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_perfectstart">
+      <rect l="0" t="0" r="400" b="43" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_auto_perfectstart">
+      <rect l="0" t="0" r="400" b="63" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_refare">
+      <rect l="0" t="0" r="400" b="68" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_goodstart">
+      <rect l="0" t="0" r="400" b="40" />
+    </asset>
+    <object name="ingame_infobox_perfectbooster" ani="ani_ingame_infobox_perfectbooster">
+      <asset type="UI" link="asset_ingame_infobox_perfectbooster" />
+    </object>
+    <object name="img_perfectbooster_cc_cph1_1" ani="ani_img_perfectbooster_cc_cph1_1">
+      <asset type="UI" link="asset_img_perfectbooster_cc_cph1_1" />
+    </object>
+    <object name="img_perfectbooster_cc_cph1_2" ani="ani_img_perfectbooster_cc_cph1_2">
+      <asset type="UI" link="asset_img_perfectbooster_cc_cph1_2" />
+    </object>
+    <object name="img_perfectbooster_cc_eft1" ani="ani_img_perfectbooster_cc_eft1">
+      <asset type="UI" link="asset_img_perfectbooster_cc_eft1" />
+    </object>
+    <object name="img_perfectbooster_cc_cph2_1" ani="ani_img_perfectbooster_cc_cph2_1">
+      <asset type="UI" link="asset_img_perfectbooster_cc_cph2_1" />
+    </object>
+    <object name="img_perfectbooster_cc_cph2_2" ani="ani_img_perfectbooster_cc_cph2_2">
+      <asset type="UI" link="asset_img_perfectbooster_cc_cph2_2" />
+    </object>
+    <object name="img_perfectbooster_cc_eft2" ani="ani_img_perfectbooster_cc_eft2">
+      <asset type="UI" link="asset_img_perfectbooster_cc_eft2" />
+    </object>
+    <object name="img_perfectbooster_booster_1" ani="ani_img_perfectbooster_booster_1">
+      <asset type="UI" link="asset_img_perfectbooster_booster_1" />
+    </object>
+    <object name="img_perfectbooster_boosteer_2" ani="ani_img_perfectbooster_boosteer_2">
+      <asset type="UI" link="asset_img_perfectbooster_boosteer_2" />
+    </object>
+    <object name="img_perfectbooster_eft" ani="ani_img_perfectbooster_eft">
+      <asset type="UI" link="asset_img_perfectbooster_eft" />
+    </object>
+    <object name="img_perfectbooster_1" ani="ani_img_perfectbooster_1">
+      <asset type="UI" link="asset_img_perfectbooster_1" />
+    </object>
+    <object name="img_perfectbooster_2" ani="ani_img_perfectbooster_2">
+      <asset type="UI" link="asset_img_perfectbooster_2" />
+    </object>
+    <object name="ingame_infobox_booster" ani="ani_ingame_infobox_booster">
+      <asset type="UI" link="asset_ingame_infobox_booster" />
+    </object>
+    <object name="ingame_infobox_getu" ani="ani_ingame_infobox_getu">
+      <asset type="UI" link="asset_ingame_infobox_getu" />
+    </object>
+    <object name="ingame_infobox_slipstream" ani="ani_ingame_infobox_slipstream">
+      <asset type="UI" link="asset_ingame_infobox_slipstream" />
+    </object>
+    <object name="ingame_infobox_rush" ani="ani_ingame_infobox_rush">
+      <asset type="UI" link="asset_ingame_infobox_rush" />
+    </object>
+    <object name="ingame_infobox_perfectjump" ani="ani_ingame_infobox_perfectjump">
+      <asset type="UI" link="asset_ingame_infobox_perfectjump" />
+    </object>
+    <object name="ingame_infobox_perfectstart" ani="ani_ingame_infobox_perfectstart">
+      <asset type="UI" link="asset_ingame_infobox_perfectstart" />
+    </object>
+    <object name="ingame_infobox_auto_perfectstart" ani="ani_ingame_infobox_auto_perfectstart">
+      <asset type="UI" link="asset_ingame_infobox_auto_perfectstart" />
+    </object>
+    <object name="ingame_infobox_refare" ani="ani_ingame_infobox_refare">
+      <asset type="UI" link="asset_ingame_infobox_refare" />
+    </object>
+    <object name="ingame_infobox_goodstart" ani="ani_ingame_infobox_goodstart">
+      <asset type="UI" link="asset_ingame_infobox_goodstart" />
+    </object>
+    <param type="RES" x="400" y="100" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_ingame_infobox_perfectbooster">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.06" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_perfectbooster_cc_cph1_1">
+      <frame cnt="0">
+        <posx val="0.54" />
+        <posy val="0.1" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="167">
+        <posx val="0.54" />
+        <posy val="0.1" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.54" />
+        <posy val="0.11" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2667">
+        <posx val="0.54" />
+        <posy val="0.16" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2967">
+        <posx val="0.44" easeValue="0.0,0.6,1.0,1.0" />
+        <posy val="0.16" easeValue="0.0,0.6,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" easeValue="0.0,0.6,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_perfectbooster_cc_cph1_2">
+      <frame cnt="0">
+        <posx val="0.54" />
+        <posy val="0.1" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="167">
+        <posx val="0.54" />
+        <posy val="0.15" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="200">
+        <posx val="0.54" />
+        <posy val="0.16" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.7" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="433">
+        <posx val="0.5" />
+        <posy val="0.03" />
+        <scalex val="1.94444444444444" />
+        <scaley val="1.53846153846154" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_perfectbooster_cc_eft1">
+      <frame cnt="0">
+        <posx val="0.53" />
+        <posy val="0.05" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="167">
+        <posx val="0.53" />
+        <posy val="0.05" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.53" />
+        <posy val="0.05" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="433">
+        <posx val="0.53" />
+        <posy val="0.05" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_perfectbooster_cc_cph2_1">
+      <frame cnt="0">
+        <posx val="0.6225" />
+        <posy val="0.16" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="167">
+        <posx val="0.6225" />
+        <posy val="0.16" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.6225" />
+        <posy val="0.16" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2667">
+        <posx val="0.6225" />
+        <posy val="0.16" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2967">
+        <posx val="0.5225" easeValue="0.0,0.6,1.0,1.0" />
+        <posy val="0.16" easeValue="0.0,0.6,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" easeValue="0.0,0.6,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_perfectbooster_cc_cph2_2">
+      <frame cnt="0">
+        <posx val="0.6225" />
+        <posy val="0.16" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="267">
+        <posx val="0.6225" />
+        <posy val="0.16" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="300">
+        <posx val="0.6225" />
+        <posy val="0.16" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.7" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="533">
+        <posx val="0.5825" />
+        <posy val="0.03" />
+        <scalex val="1.94444444444444" />
+        <scaley val="1.53846153846154" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_perfectbooster_cc_eft2">
+      <frame cnt="0">
+        <posx val="0.53" />
+        <posy val="0.05" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="167">
+        <posx val="0.53" />
+        <posy val="0.05" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.53" />
+        <posy val="0.05" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="433">
+        <posx val="0.53" />
+        <posy val="0.05" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_perfectbooster_booster_1">
+      <frame cnt="0">
+        <posx val="-0.05" />
+        <posy val="0.28" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="167">
+        <posx val="0.05" />
+        <posy val="0.28" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2667">
+        <posx val="0.05" />
+        <posy val="0.28" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2967">
+        <posx val="-0.05" easeValue="0.0,0.6,1.0,1.0" />
+        <posy val="0.28" easeValue="0.0,0.6,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" easeValue="0.0,0.6,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_perfectbooster_boosteer_2">
+      <frame cnt="0">
+        <posx val="-0.1" />
+        <posy val="0.28" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="133">
+        <posx val="-0.1" />
+        <posy val="0.28" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.4" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.05" />
+        <posy val="0.28" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="400">
+        <posx val="0.05" />
+        <posy val="0.28" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_perfectbooster_eft">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.24" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="133">
+        <posx val="0" />
+        <posy val="0.24" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="267">
+        <posx val="0.0375" />
+        <posy val="0.24" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="400">
+        <posx val="0.0375" />
+        <posy val="0.24" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_perfectbooster_1">
+      <frame cnt="0">
+        <posx val="0.02" />
+        <posy val="0.03" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="267">
+        <posx val="0.02" />
+        <posy val="0.03" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="400">
+        <posx val="0.0575" />
+        <posy val="0.03" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2667">
+        <posx val="0.0575" />
+        <posy val="0.03" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2967">
+        <posx val="-0.0425" easeValue="0.0,0.6,1.0,1.0" />
+        <posy val="0.03" easeValue="0.0,0.6,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" easeValue="0.0,0.6,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_perfectbooster_2">
+      <frame cnt="0">
+        <posx val="0.0575" />
+        <posy val="0.03" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="300">
+        <posx val="0.0575" />
+        <posy val="0.03" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.005" />
+        <posy val="-0.02" />
+        <scalex val="1.42553191489362" />
+        <scaley val="1.35714285714286" />
+        <alpha val="0.8" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="467">
+        <posx val="0.0575" />
+        <posy val="0.03" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_booster">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.22" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_getu">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.26" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_slipstream">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.22" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_rush">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.28" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_perfectjump">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.28" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_perfectstart">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.28" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_auto_perfectstart">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.16" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_refare">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.15" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_goodstart">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.31" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="rush">
+    <asset type="UI" name="asset_ingame_infobox_perfectbooster">
+      <rect l="0" t="0" r="400" b="65" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_booster">
+      <rect l="0" t="0" r="400" b="50" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_getu">
+      <rect l="0" t="0" r="400" b="42" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_slipstream">
+      <rect l="0" t="0" r="400" b="56" />
+    </asset>
+    <asset type="UI" name="asset_img_slipstream_glow2">
+      <rect l="0" t="0" r="334" b="52" />
+    </asset>
+    <asset type="UI" name="asset_img_slipstream_1">
+      <rect l="0" t="0" r="206" b="44" />
+    </asset>
+    <asset type="UI" name="asset_img_slipstream_2">
+      <rect l="0" t="0" r="206" b="44" />
+    </asset>
+    <asset type="UI" name="asset_img_slipstream_glow">
+      <rect l="0" t="0" r="154" b="52" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_rush">
+      <rect l="0" t="0" r="400" b="51" />
+    </asset>
+    <asset type="UI" name="asset_img_rush_glow3">
+      <rect l="0" t="0" r="334" b="52" />
+    </asset>
+    <asset type="UI" name="asset_img_rush_3">
+      <rect l="0" t="0" r="145" b="55" />
+    </asset>
+    <asset type="UI" name="asset_img_rush_4">
+      <rect l="0" t="0" r="145" b="55" />
+    </asset>
+    <asset type="UI" name="asset_img_rush_glow1">
+      <rect l="0" t="0" r="145" b="55" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_perfectjump">
+      <rect l="0" t="0" r="400" b="45" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_perfectstart">
+      <rect l="0" t="0" r="400" b="43" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_auto_perfectstart">
+      <rect l="0" t="0" r="400" b="63" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_refare">
+      <rect l="0" t="0" r="400" b="68" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_goodstart">
+      <rect l="0" t="0" r="400" b="40" />
+    </asset>
+    <object name="ingame_infobox_perfectbooster" ani="ani_ingame_infobox_perfectbooster">
+      <asset type="UI" link="asset_ingame_infobox_perfectbooster" />
+    </object>
+    <object name="ingame_infobox_booster" ani="ani_ingame_infobox_booster">
+      <asset type="UI" link="asset_ingame_infobox_booster" />
+    </object>
+    <object name="ingame_infobox_getu" ani="ani_ingame_infobox_getu">
+      <asset type="UI" link="asset_ingame_infobox_getu" />
+    </object>
+    <object name="ingame_infobox_slipstream" ani="ani_ingame_infobox_slipstream">
+      <asset type="UI" link="asset_ingame_infobox_slipstream" />
+    </object>
+    <object name="img_slipstream_glow2" ani="ani_img_slipstream_glow2">
+      <asset type="UI" link="asset_img_slipstream_glow2" />
+    </object>
+    <object name="img_slipstream_1" ani="ani_img_slipstream_1">
+      <asset type="UI" link="asset_img_slipstream_1" />
+    </object>
+    <object name="img_slipstream_2" ani="ani_img_slipstream_2">
+      <asset type="UI" link="asset_img_slipstream_2" />
+    </object>
+    <object name="img_slipstream_glow" ani="ani_img_slipstream_glow">
+      <asset type="UI" link="asset_img_slipstream_glow" />
+    </object>
+    <object name="ingame_infobox_rush" ani="ani_ingame_infobox_rush">
+      <asset type="UI" link="asset_ingame_infobox_rush" />
+    </object>
+    <object name="img_rush_glow3" ani="ani_img_rush_glow3">
+      <asset type="UI" link="asset_img_rush_glow3" />
+    </object>
+    <object name="img_rush_3" ani="ani_img_rush_3">
+      <asset type="UI" link="asset_img_rush_3" />
+    </object>
+    <object name="img_rush_4" ani="ani_img_rush_4">
+      <asset type="UI" link="asset_img_rush_4" />
+    </object>
+    <object name="img_rush_glow1" ani="ani_img_rush_glow1">
+      <asset type="UI" link="asset_img_rush_glow1" />
+    </object>
+    <object name="ingame_infobox_perfectjump" ani="ani_ingame_infobox_perfectjump">
+      <asset type="UI" link="asset_ingame_infobox_perfectjump" />
+    </object>
+    <object name="ingame_infobox_perfectstart" ani="ani_ingame_infobox_perfectstart">
+      <asset type="UI" link="asset_ingame_infobox_perfectstart" />
+    </object>
+    <object name="ingame_infobox_auto_perfectstart" ani="ani_ingame_infobox_auto_perfectstart">
+      <asset type="UI" link="asset_ingame_infobox_auto_perfectstart" />
+    </object>
+    <object name="ingame_infobox_refare" ani="ani_ingame_infobox_refare">
+      <asset type="UI" link="asset_ingame_infobox_refare" />
+    </object>
+    <object name="ingame_infobox_goodstart" ani="ani_ingame_infobox_goodstart">
+      <asset type="UI" link="asset_ingame_infobox_goodstart" />
+    </object>
+    <param type="RES" x="400" y="100" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_ingame_infobox_perfectbooster">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.06" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_booster">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.22" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_getu">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.26" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_slipstream">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.22" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_slipstream_glow2">
+      <frame cnt="0">
+        <posx val="-0.225" />
+        <posy val="0.28" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_slipstream_1">
+      <frame cnt="0">
+        <posx val="-0.05" />
+        <posy val="0.3" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_slipstream_2">
+      <frame cnt="0">
+        <posx val="-0.2" />
+        <posy val="0.3" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_slipstream_glow">
+      <frame cnt="0">
+        <posx val="-0.35" />
+        <posy val="0.26" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_rush">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.28" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_rush_glow3">
+      <frame cnt="0">
+        <posx val="-0.225" />
+        <posy val="0.02" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="367">
+        <posx val="-0.1125" />
+        <posy val="0.02" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.5,0.0,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="767">
+        <posx val="0.0625" />
+        <posy val="0.02" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="800">
+        <posx val="-0.0625" />
+        <posy val="0.02" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2667">
+        <posx val="-0.0625" />
+        <posy val="0.02" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2700">
+        <posx val="-0.16" />
+        <posy val="0.02" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.5" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2967">
+        <posx val="-0.175" easeValue="0.0,0.5,1.0,1.0" />
+        <posy val="0.02" easeValue="0.0,0.5,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" easeValue="0.0,0.5,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_rush_3">
+      <frame cnt="0">
+        <posx val="-0.05" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="200">
+        <posx val="0.05" easeValue="0.0,0.7,1.0,1.0" />
+        <posy val="0" easeValue="0.0,0.7,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,0.7,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2667">
+        <posx val="0.05" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2967">
+        <posx val="-0.05" easeValue="0.0,0.7,1.0,1.0" />
+        <posy val="0" easeValue="0.0,0.7,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" easeValue="0.0,0.7,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_rush_4">
+      <frame cnt="0">
+        <posx val="-0.2" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="100">
+        <posx val="-0.2" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="400">
+        <posx val="0.05" easeValue="0.7,0.0,1.0,1.0" />
+        <posy val="0" easeValue="0.7,0.0,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.7" easeValue="0.7,0.0,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="700">
+        <posx val="0.3" easeValue="0.7,0.0,1.0,1.0" />
+        <posy val="0" easeValue="0.7,0.0,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" easeValue="0.7,0.0,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_rush_glow1">
+      <frame cnt="0">
+        <posx val="-0.35" />
+        <posy val="0" />
+        <scalex val="1.06206896551724" />
+        <scaley val="0.945454545454545" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="400">
+        <posx val="-0.0275" />
+        <posy val="0.03" />
+        <scalex val="1.062069" />
+        <scaley val="0.9454545" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="433">
+        <posx val="0.0375" easeValue="0.6,0.0,1.0,1.0" />
+        <posy val="0" easeValue="0.6,0.0,1.0,1.0" />
+        <scalex val="1.062069" />
+        <scaley val="0.9454545" />
+        <alpha val="0.8" easeValue="0.6,0.0,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="767">
+        <posx val="0.0375" />
+        <posy val="0.04" />
+        <scalex val="1.062069" />
+        <scaley val="0.9454545" />
+        <alpha val="0" easeValue="0.0,0.6,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_perfectjump">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.28" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_perfectstart">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.28" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_auto_perfectstart">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.16" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_refare">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.15" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_goodstart">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.31" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="auto_perfectstart">
+    <asset type="UI" name="asset_ingame_infobox_perfectbooster">
+      <rect l="0" t="0" r="400" b="65" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_booster">
+      <rect l="0" t="0" r="400" b="50" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_getu">
+      <rect l="0" t="0" r="400" b="42" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_slipstream">
+      <rect l="0" t="0" r="400" b="56" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_rush">
+      <rect l="0" t="0" r="400" b="51" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_perfectjump">
+      <rect l="0" t="0" r="400" b="45" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_perfectstart">
+      <rect l="0" t="0" r="400" b="43" />
+    </asset>
+    <asset type="UI" name="asset_txt_infobox_auto_perfectstart_icon">
+      <rect l="0" t="0" r="59" b="56" />
+    </asset>
+    <asset type="UI" name="asset_img_perfectstart_3">
+      <rect l="0" t="0" r="235" b="65" />
+    </asset>
+    <asset type="UI" name="asset_img_perfectstart_4">
+      <rect l="0" t="0" r="235" b="65" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_refare">
+      <rect l="0" t="0" r="400" b="68" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_goodstart">
+      <rect l="0" t="0" r="400" b="40" />
+    </asset>
+    <object name="ingame_infobox_perfectbooster" ani="ani_ingame_infobox_perfectbooster">
+      <asset type="UI" link="asset_ingame_infobox_perfectbooster" />
+    </object>
+    <object name="ingame_infobox_booster" ani="ani_ingame_infobox_booster">
+      <asset type="UI" link="asset_ingame_infobox_booster" />
+    </object>
+    <object name="ingame_infobox_getu" ani="ani_ingame_infobox_getu">
+      <asset type="UI" link="asset_ingame_infobox_getu" />
+    </object>
+    <object name="ingame_infobox_slipstream" ani="ani_ingame_infobox_slipstream">
+      <asset type="UI" link="asset_ingame_infobox_slipstream" />
+    </object>
+    <object name="ingame_infobox_rush" ani="ani_ingame_infobox_rush">
+      <asset type="UI" link="asset_ingame_infobox_rush" />
+    </object>
+    <object name="ingame_infobox_perfectjump" ani="ani_ingame_infobox_perfectjump">
+      <asset type="UI" link="asset_ingame_infobox_perfectjump" />
+    </object>
+    <object name="ingame_infobox_perfectstart" ani="ani_ingame_infobox_perfectstart">
+      <asset type="UI" link="asset_ingame_infobox_perfectstart" />
+    </object>
+    <object name="txt_infobox_auto_perfectstart_icon" ani="ani_txt_infobox_auto_perfectstart_icon">
+      <asset type="UI" link="asset_txt_infobox_auto_perfectstart_icon" />
+    </object>
+    <object name="img_perfectstart_3" ani="ani_img_perfectstart_3">
+      <asset type="UI" link="asset_img_perfectstart_3" />
+    </object>
+    <object name="img_perfectstart_4" ani="ani_img_perfectstart_4">
+      <asset type="UI" link="asset_img_perfectstart_4" />
+    </object>
+    <object name="ingame_infobox_refare" ani="ani_ingame_infobox_refare">
+      <asset type="UI" link="asset_ingame_infobox_refare" />
+    </object>
+    <object name="ingame_infobox_goodstart" ani="ani_ingame_infobox_goodstart">
+      <asset type="UI" link="asset_ingame_infobox_goodstart" />
+    </object>
+    <param type="RES" x="400" y="100" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_ingame_infobox_perfectbooster">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.06" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_booster">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.22" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_getu">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.26" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_slipstream">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.22" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_rush">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.28" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_perfectjump">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.28" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_perfectstart">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.28" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_txt_infobox_auto_perfectstart_icon">
+      <frame cnt="0">
+        <posx val="-0.08" />
+        <posy val="0.02" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="233">
+        <posx val="0.02" />
+        <posy val="0.02" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2800">
+        <posx val="0.02" />
+        <posy val="0.02" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="3033">
+        <posx val="-0.08" />
+        <posy val="0.02" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_perfectstart_3">
+      <frame cnt="0">
+        <posx val="-0.0625" />
+        <posy val="-0.02" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="233">
+        <posx val="0.14" easeValue="0.0,0.7,1.0,1.0" />
+        <posy val="-0.02" easeValue="0.0,0.7,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,0.7,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2800">
+        <posx val="0.14" />
+        <posy val="-0.02" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="3033">
+        <posx val="-0.05" easeValue="0.0,0.7,1.0,1.0" />
+        <posy val="-0.02" easeValue="0.0,0.7,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" easeValue="0.0,0.7,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_perfectstart_4">
+      <frame cnt="0">
+        <posx val="0.05" />
+        <posy val="-0.02" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="200">
+        <posx val="0.05" />
+        <posy val="-0.02" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="233">
+        <posx val="0.14" />
+        <posy val="-0.02" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.9" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="400">
+        <posx val="0.0075" />
+        <posy val="-0.22" />
+        <scalex val="1.45957446808511" />
+        <scaley val="1.50769230769231" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_refare">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.15" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_goodstart">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.31" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="Refare">
+    <asset type="UI" name="asset_ingame_infobox_perfectbooster">
+      <rect l="0" t="0" r="400" b="65" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_booster">
+      <rect l="0" t="0" r="400" b="50" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_getu">
+      <rect l="0" t="0" r="400" b="42" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_slipstream">
+      <rect l="0" t="0" r="400" b="56" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_rush">
+      <rect l="0" t="0" r="400" b="51" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_perfectjump">
+      <rect l="0" t="0" r="400" b="45" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_perfectstart">
+      <rect l="0" t="0" r="400" b="43" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_auto_perfectstart">
+      <rect l="0" t="0" r="400" b="63" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_refare">
+      <rect l="0" t="0" r="400" b="68" />
+    </asset>
+    <asset type="UI" name="asset_txt_infobox_refare_icon">
+      <rect l="0" t="0" r="59" b="60" />
+    </asset>
+    <asset type="UI" name="asset_img_perfectstart_5">
+      <rect l="0" t="0" r="145" b="78" />
+    </asset>
+    <asset type="UI" name="asset_img_perfectstart_6">
+      <rect l="0" t="0" r="145" b="78" />
+    </asset>
+    <asset type="UI" name="asset_ingame_infobox_goodstart">
+      <rect l="0" t="0" r="400" b="40" />
+    </asset>
+    <object name="ingame_infobox_perfectbooster" ani="ani_ingame_infobox_perfectbooster">
+      <asset type="UI" link="asset_ingame_infobox_perfectbooster" />
+    </object>
+    <object name="ingame_infobox_booster" ani="ani_ingame_infobox_booster">
+      <asset type="UI" link="asset_ingame_infobox_booster" />
+    </object>
+    <object name="ingame_infobox_getu" ani="ani_ingame_infobox_getu">
+      <asset type="UI" link="asset_ingame_infobox_getu" />
+    </object>
+    <object name="ingame_infobox_slipstream" ani="ani_ingame_infobox_slipstream">
+      <asset type="UI" link="asset_ingame_infobox_slipstream" />
+    </object>
+    <object name="ingame_infobox_rush" ani="ani_ingame_infobox_rush">
+      <asset type="UI" link="asset_ingame_infobox_rush" />
+    </object>
+    <object name="ingame_infobox_perfectjump" ani="ani_ingame_infobox_perfectjump">
+      <asset type="UI" link="asset_ingame_infobox_perfectjump" />
+    </object>
+    <object name="ingame_infobox_perfectstart" ani="ani_ingame_infobox_perfectstart">
+      <asset type="UI" link="asset_ingame_infobox_perfectstart" />
+    </object>
+    <object name="ingame_infobox_auto_perfectstart" ani="ani_ingame_infobox_auto_perfectstart">
+      <asset type="UI" link="asset_ingame_infobox_auto_perfectstart" />
+    </object>
+    <object name="ingame_infobox_refare" ani="ani_ingame_infobox_refare">
+      <asset type="UI" link="asset_ingame_infobox_refare" />
+    </object>
+    <object name="txt_infobox_refare_icon" ani="ani_txt_infobox_refare_icon">
+      <asset type="UI" link="asset_txt_infobox_refare_icon" />
+    </object>
+    <object name="img_perfectstart_5" ani="ani_img_perfectstart_5">
+      <asset type="UI" link="asset_img_perfectstart_5" />
+    </object>
+    <object name="img_perfectstart_6" ani="ani_img_perfectstart_6">
+      <asset type="UI" link="asset_img_perfectstart_6" />
+    </object>
+    <object name="ingame_infobox_goodstart" ani="ani_ingame_infobox_goodstart">
+      <asset type="UI" link="asset_ingame_infobox_goodstart" />
+    </object>
+    <param type="RES" x="400" y="100" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_ingame_infobox_perfectbooster">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.06" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_booster">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.22" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_getu">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.26" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_slipstream">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.22" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_rush">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.28" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_perfectjump">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.28" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_perfectstart">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.28" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_auto_perfectstart">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.16" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_refare">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.15" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_txt_infobox_refare_icon">
+      <frame cnt="0">
+        <posx val="-0.095" />
+        <posy val="0.02" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="233">
+        <posx val="0.0175" />
+        <posy val="0.02" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2767">
+        <posx val="0.0175" />
+        <posy val="0.02" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="3000">
+        <posx val="-0.095" />
+        <posy val="0.02" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_perfectstart_5">
+      <frame cnt="0">
+        <posx val="-0.05" />
+        <posy val="-0.04" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="233">
+        <posx val="0.13" easeValue="0.0,0.7,1.0,1.0" />
+        <posy val="-0.04" easeValue="0.0,0.7,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,0.7,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2767">
+        <posx val="0.13" />
+        <posy val="-0.04" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="3000">
+        <posx val="-0.05" easeValue="0.0,0.7,1.0,1.0" />
+        <posy val="-0.04" easeValue="0.0,0.7,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" easeValue="0.0,0.7,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_perfectstart_6">
+      <frame cnt="0">
+        <posx val="0.05" />
+        <posy val="0.28" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="200">
+        <posx val="0.05" />
+        <posy val="-0.06" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="233">
+        <posx val="0.13" />
+        <posy val="-0.04" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.9" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="400">
+        <posx val="-0.0175" />
+        <posy val="-0.45" />
+        <scalex val="1.83448275862069" />
+        <scaley val="1.8974358974359" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_infobox_goodstart">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.31" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

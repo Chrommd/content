@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+  </properties>
+  <base type="WNDEX" name="online_userlist">
+    <asset type="BG" path="">
+      <tex x="50" y="50" />
+      <rect l="50" t="50" r="165" b="278" />
+    </asset>
+    <asset type="EDGE_LT" path="">
+      <tex x="50" y="50" />
+      <rect l="0" t="0" r="50" b="50" />
+    </asset>
+    <asset type="EDGE_RT" path="">
+      <tex x="50" y="50" />
+      <rect l="0" t="0" r="50" b="50" />
+    </asset>
+    <asset type="EDGE_LB" path="">
+      <tex x="50" y="50" />
+      <rect l="0" t="0" r="50" b="50" />
+    </asset>
+    <asset type="EDGE_RB" path="">
+      <tex x="50" y="50" />
+      <rect l="0" t="0" r="50" b="50" />
+    </asset>
+    <asset type="FRAME_T" path="">
+      <tex x="50" y="50" />
+      <rect l="50" t="0" r="165" b="50" />
+    </asset>
+    <asset type="FRAME_B" path="">
+      <tex x="50" y="50" />
+      <rect l="50" t="0" r="165" b="50" />
+    </asset>
+    <asset type="FRAME_L" path="">
+      <tex x="50" y="50" />
+      <rect l="0" t="50" r="50" b="278" />
+    </asset>
+    <asset type="FRAME_R" path="">
+      <tex x="50" y="50" />
+      <rect l="0" t="50" r="50" b="278" />
+    </asset>
+    <Visible val="True" />
+    <Anchor val="None" />
+    <pos x="345" y="269" />
+    <rect l="0" t="0" r="265" b="378" />
+    <Dragable val="True" />
+    <StartPosition val="CenterScreen" />
+    <EscKeyAction val="None" />
+    <child type="LABEL" name="lab_name">
+      <label val="온라인 유저 목록" />
+      <pos x="22" y="23" />
+      <rect l="0" t="0" r="92" b="16" />
+      <Visible val="True" />
+      <Anchor val="None" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#FF0000" />
+      <color val="#3E2500" />
+      <halign val="1" />
+      <valign val="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="12" />
+      <style val="1" />
+    </child>
+    <child type="BUTTON" name="btn_visit">
+      <asset type="NORMAL">btn_ranch_visit_n.tga</asset>
+      <asset type="DOWN">btn_ranch_visit_d.tga</asset>
+      <asset type="OVER">btn_ranch_visit_o.tga</asset>
+      <asset type="DISABLE">btn_ranch_visit_d.tga</asset>
+      <snd type="OVER">ui_alt_over</snd>
+      <snd type="DOWN">ui_alt_click</snd>
+      <pos x="142" y="316" />
+      <rect l="0" t="0" r="75" b="38" />
+      <Visible val="True" />
+      <Anchor val="None" />
+    </child>
+    <child type="BUTTON" name="btn_invite">
+      <asset type="NORMAL">btn_ranch_invite_n.tga</asset>
+      <asset type="DOWN">btn_ranch_invite_d.tga</asset>
+      <asset type="OVER">btn_ranch_invite_o.tga</asset>
+      <asset type="DISABLE">btn_ranch_invite_d.tga</asset>
+      <snd type="OVER">ui_alt_over</snd>
+      <snd type="DOWN">ui_alt_click</snd>
+      <pos x="44" y="316" />
+      <rect l="0" t="0" r="75" b="38" />
+      <Visible val="True" />
+      <Anchor val="None" />
+    </child>
+    <child type="LISTSC" name="list_online_user">
+      <asset type="BG" path="">
+        <tex x="20" y="20" />
+        <rect l="20" t="20" r="184" b="228" />
+      </asset>
+      <asset type="EDGE_LT" path="">
+        <tex x="20" y="20" />
+        <rect l="0" t="0" r="20" b="20" />
+      </asset>
+      <asset type="EDGE_RT" path="">
+        <tex x="20" y="20" />
+        <rect l="0" t="0" r="20" b="20" />
+      </asset>
+      <asset type="EDGE_LB" path="">
+        <tex x="20" y="20" />
+        <rect l="0" t="0" r="20" b="20" />
+      </asset>
+      <asset type="EDGE_RB" path="">
+        <tex x="20" y="20" />
+        <rect l="0" t="0" r="20" b="20" />
+      </asset>
+      <asset type="FRAME_T" path="">
+        <tex x="20" y="20" />
+        <rect l="20" t="0" r="184" b="20" />
+      </asset>
+      <asset type="FRAME_B" path="">
+        <tex x="20" y="20" />
+        <rect l="20" t="0" r="184" b="20" />
+      </asset>
+      <asset type="FRAME_L" path="">
+        <tex x="20" y="20" />
+        <rect l="0" t="20" r="20" b="228" />
+      </asset>
+      <asset type="FRAME_R" path="">
+        <tex x="20" y="20" />
+        <rect l="0" t="20" r="20" b="228" />
+      </asset>
+      <control type="VSCROLLBAR" name="list_online_user_VSlider" horizontal="0">
+        <control type="BUTTON_LT" name="list_online_user_VScrollBar_TopButton">
+          <asset type="NORMAL">
+          </asset>
+          <asset type="DOWN">
+          </asset>
+          <asset type="OVER">
+          </asset>
+          <asset type="DISABLE">
+          </asset>
+          <snd type="OVER">
+          </snd>
+          <snd type="DOWN">
+          </snd>
+          <pos x="1" y="2" />
+          <rect l="0" t="0" r="16" b="14" />
+          <Visible val="True" />
+          <Anchor val="Top" />
+        </control>
+        <control type="THUMB" name="list_online_user_VScrollBar_Thumb">
+          <asset type="NORMAL">
+          </asset>
+          <asset type="DOWN">
+          </asset>
+          <asset type="OVER">
+          </asset>
+          <asset type="DISABLE">
+          </asset>
+          <snd type="OVER">
+          </snd>
+          <snd type="DOWN">
+          </snd>
+          <pos x="-1" y="12" />
+          <rect l="0" t="0" r="20" b="49" />
+          <Visible val="True" />
+          <Anchor val="None" />
+        </control>
+        <control type="BUTTON_RB" name="list_online_user_VScrollBar_BottomButton">
+          <asset type="NORMAL">
+          </asset>
+          <asset type="DOWN">
+          </asset>
+          <asset type="OVER">
+          </asset>
+          <asset type="DISABLE">
+          </asset>
+          <snd type="OVER">
+          </snd>
+          <snd type="DOWN">
+          </snd>
+          <pos x="1" y="232" />
+          <rect l="0" t="0" r="16" b="14" />
+          <Visible val="True" />
+          <Anchor val="Bottom" />
+        </control>
+        <scrollrect l="0" t="16" r="18" b="234" />
+        <Visible val="True" />
+        <Anchor val="Top, Bottom, Right" />
+        <pos x="200" y="9" />
+        <rect l="0" t="0" r="18" b="248" />
+      </control>
+      <pos x="20" y="41" />
+      <rect l="0" t="0" r="224" b="268" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <padding l="6" t="8" r="22" b="10" />
+      <column val="1" />
+      <itemrect l="0" t="0" r="200" b="18" />
+      <selection val="0" />
+      <deselectable val="0" />
+      <rclickaction val="1" />
+    </child>
+  </base>
+</refresh>

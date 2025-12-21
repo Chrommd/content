@@ -1,0 +1,305 @@
+﻿<refresh version="2">
+	<properties>
+		<property name="DPI" val="72" />
+		<property name="UIAnimation" val="grow_horse_column_Animation.xml" />
+	</properties>
+	<base type="WND" subclass="" name="Wnd_grow_horselist">
+		<pos x="0" y="0" />
+		<rect l="0" t="0" r="68" b="88" />
+		<Visible val="True" />
+		<Anchor val="Top, Left" />
+		<snd type="SHOW"></snd>
+		<snd type="HIDE"></snd>
+		<IsHitTestVisible val="True" />
+		<ClipChildren val="False" />
+		<base type="WND" subclass="" name="wnd_img_set">
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="68" b="88" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<snd type="SHOW"></snd>
+			<snd type="HIDE"></snd>
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+			<child type="PICTURE" name="img_grow_status_Hover" subclass="">
+				<asset type="STATIC">btn_horseinfo_horseslot_Hover.png</asset>
+				<pos x="1" y="0" />
+				<rect l="0" t="0" r="67" b="87" />
+				<Visible val="False" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="img_grow_status_Normal" subclass="">
+				<asset type="STATIC">btn_horseinfo_horseslot_Normal.png</asset>
+				<pos x="1" y="0" />
+				<rect l="0" t="0" r="67" b="87" />
+				<Visible val="False" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="img_grow_status_Over" subclass="">
+				<asset type="STATIC">btn_horseinfo_horseslot_Hover.png</asset>
+				<pos x="1" y="0" />
+				<rect l="0" t="0" r="67" b="87" />
+				<Visible val="False" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="img_grow_status_Selected" subclass="">
+				<asset type="STATIC">btn_horseinfo_horseslot_Push.png</asset>
+				<pos x="1" y="0" />
+				<rect l="0" t="0" r="67" b="87" />
+				<Visible val="False" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="img_grow_status_empty" subclass="">
+				<asset type="STATIC">btn_horseinfo_horseslot_Disable.png</asset>
+				<pos x="1" y="0" />
+				<rect l="0" t="0" r="67" b="87" />
+				<Visible val="False" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="img_grow_status_horse" subclass="">
+				<asset type="STATIC"></asset>
+				<pos x="2" y="17" />
+				<rect l="0" t="0" r="74" b="74" />
+				<Visible val="False" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PANEL" name="img_grow_status_health_tired" subclass="">
+				<pos x="-129" y="89" />
+				<rect l="0" t="0" r="70" b="70" />
+				<Visible val="False" />
+				<Anchor val="Top, Left" />
+				<embed src="" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+				<child type="PICTURE" name="img_grow_status_tired1" subclass="">
+					<asset type="STATIC"></asset>
+					<pos x="0" y="25" />
+					<rect l="0" t="0" r="70" b="22" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+				</child>
+				<child type="PICTURE" name="img_grow_status_health1" subclass="">
+					<asset type="STATIC"></asset>
+					<pos x="0" y="47" />
+					<rect l="0" t="0" r="70" b="22" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+				</child>
+			</child>
+			<child type="PICTURE" name="img_grow_status_heal" subclass="">
+				<asset type="STATIC"></asset>
+				<pos x="-186" y="-21" />
+				<rect l="0" t="0" r="67" b="67" />
+				<Visible val="False" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="img_grow_status_select" subclass="">
+				<asset type="STATIC">icon_common_select_before.png</asset>
+				<pos x="50" y="5" />
+				<rect l="0" t="0" r="16" b="15" />
+				<Visible val="False" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="img_grow_status_choose" subclass="">
+				<asset type="STATIC">img_horseinfo_horseslot_selectframe.png</asset>
+				<pos x="1" y="0" />
+				<rect l="0" t="0" r="67" b="87" />
+				<Visible val="False" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+				<child type="PICTURE" name="img_grow_status_select1" subclass="">
+					<asset type="STATIC">icon_common_select.png</asset>
+					<pos x="43" y="4" />
+					<rect l="0" t="0" r="22" b="23" />
+					<Visible val="False" />
+					<Anchor val="None" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+				</child>
+			</child>
+			<child type="PICTURE" name="icon_horseinfo_spirit_none" subclass="">
+				<asset type="STATIC">img_horseinfo_horseslot_lock.png</asset>
+				<pos x="1" y="0" />
+				<rect l="0" t="0" r="66" b="86" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="img_grow_status_empty_new" subclass="">
+				<asset type="STATIC">btn_horseinfo_horseslot_Disable.png</asset>
+				<pos x="1" y="0" />
+				<rect l="0" t="0" r="67" b="87" />
+				<Visible val="False" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="img_grow_status_spirit" subclass="">
+				<asset type="STATIC">icon_horseinfo_spirit.png</asset>
+				<pos x="1" y="0" />
+				<rect l="0" t="0" r="67" b="87" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="img_grow_status_tired" subclass="">
+				<asset type="STATIC"></asset>
+				<pos x="-165" y="71" />
+				<rect l="0" t="0" r="70" b="22" />
+				<Visible val="False" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="img_grow_status_health" subclass="">
+				<asset type="STATIC"></asset>
+				<pos x="-201" y="106" />
+				<rect l="0" t="0" r="70" b="22" />
+				<Visible val="False" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="img_grow_status_injury" subclass="">
+				<asset type="STATIC">icon_horseinfo_seek.png</asset>
+				<pos x="43" y="43" />
+				<rect l="0" t="0" r="23" b="22" />
+				<Visible val="False" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="img_grow_status_breed" subclass="">
+				<asset type="STATIC">icon_horseinfo_love.png</asset>
+				<pos x="44" y="65" />
+				<rect l="0" t="0" r="23" b="20" />
+				<Visible val="False" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="img_grow_status_baby" subclass="">
+				<asset type="STATIC">icon_horseinfo_baby.png</asset>
+				<pos x="46" y="63" />
+				<rect l="0" t="0" r="18" b="20" />
+				<Visible val="False" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="img_grow_status_PC" subclass="">
+				<asset type="STATIC">icon_bonus_2.png</asset>
+				<pos x="44" y="67" />
+				<rect l="0" t="0" r="22" b="18" />
+				<Visible val="False" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="img_grow_status_lvup" subclass="">
+				<asset type="STATIC">gnb_horse_levelup_S.png</asset>
+				<pos x="4" y="3" />
+				<rect l="0" t="0" r="31" b="26" />
+				<Visible val="False" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+		</base>
+		<base type="WND" subclass="" name="wnd_btn_set">
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="68" b="88" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<snd type="SHOW"></snd>
+			<snd type="HIDE"></snd>
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<child type="LABELBUTTON" name="btn_grow_addslot" subclass="">
+				<asset type="NORMAL">btn_horseinfo_horseslot_add_Normal.png</asset>
+				<asset type="DOWN">btn_horseinfo_horseslot_add_Push.png</asset>
+				<asset type="OVER">btn_horseinfo_horseslot_add_Hover.png</asset>
+				<asset type="DISABLE">btn_horseinfo_horseslot_add_Disable.png</asset>
+				<control type="LABEL" name="btn_grow_addslot_Label">
+					<pos x="0" y="50" />
+					<rect l="0" t="0" r="67" b="25" />
+					<Visible val="True" />
+					<Anchor val="Bottom, Left, Right" />
+					<label val="Expand" />
+					<OutlineColor val="#FFFFFF" />
+					<ShadowColor val="#0000004C" />
+					<color val="#FFFFFFFF" />
+					<halign val="1" />
+					<valign val="0" />
+					<FontName val="나눔고딕" />
+					<FontSize val="16" />
+					<TextTrimming val="None" />
+					<style val="1" />
+					<IsHitTestVisible val="False" />
+					<ClipChildren val="False" />
+					<Padding val="0, 0, 0, 0" />
+					<FitToContent val="False" />
+				</control>
+				<pos x="1" y="0" />
+				<rect l="0" t="0" r="67" b="87" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<snd type="OVER"></snd>
+				<snd type="DOWN">ui_btn_menu_click</snd>
+				<snd type="RELEASE">ui_btn_menu_release;ui_btn_switch_team</snd>
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+				<NormalColor val="#FFFFFFFF" />
+				<HoverColor val="#FFFFFFFF" />
+				<PushColor val="#FFFFFFFF" />
+				<DisableColor val="#FFFFFFFF" />
+				<IsDefaultButton val="False" />
+			</child>
+		</base>
+	</base>
+</refresh>

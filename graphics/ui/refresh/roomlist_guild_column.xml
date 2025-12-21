@@ -1,0 +1,336 @@
+﻿<refresh version="2">
+	<properties>
+		<property name="DPI" val="72" />
+		<property name="UIAnimation" val="roomlist_guild_column_Animation.xml" />
+	</properties>
+	<base type="WND" subclass="" name="Wnd">
+		<pos x="0" y="0" />
+		<rect l="0" t="0" r="600" b="47" />
+		<Visible val="True" />
+		<Anchor val="Top, Left" />
+		<snd type="SHOW"></snd>
+		<snd type="HIDE"></snd>
+		<IsHitTestVisible val="True" />
+		<ClipChildren val="False" />
+		<child type="PICTURE" name="roomlist_list_d" subclass="">
+			<asset type="STATIC">roomlist_list_d.png</asset>
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="601" b="46" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="roomlist_list_dis" subclass="">
+			<asset type="STATIC">roomlist_list_dis.png</asset>
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="601" b="46" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="roomlist_list_o" subclass="">
+			<asset type="STATIC">roomlist_list_o.png</asset>
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="601" b="46" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="roomlist_list_n" subclass="">
+			<asset type="STATIC">roomlist_list_n.png</asset>
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="601" b="46" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="img_mapthumbnail" subclass="">
+			<asset type="STATIC"></asset>
+			<pos x="2" y="2" />
+			<rect l="0" t="0" r="72" b="41" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="icon_common_star_empty" subclass="">
+			<asset type="STATIC">icon_common_star_empty.png</asset>
+			<pos x="75" y="4" />
+			<rect l="0" t="0" r="68" b="15" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+			<child type="PICTURE" name="img_course_level" subclass="">
+				<asset type="STATIC">course_level_5.png</asset>
+				<pos x="75" y="4" />
+				<rect l="0" t="0" r="68" b="15" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+			</child>
+		</child>
+		<child type="PICTURE" name="img_roomsituation" subclass="">
+			<asset type="STATIC">roomlist_img_ready.png</asset>
+			<pos x="508" y="6" />
+			<rect l="0" t="0" r="88" b="33" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="LABEL" name="tx_roomtitle" subclass="">
+			<pos x="79" y="12" />
+			<rect l="0" t="0" r="336" b="20" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<label val="" />
+			<OutlineColor val="#FF0000" />
+			<ShadowColor val="#FF0000" />
+			<color val="#796456FF" />
+			<halign val="0" />
+			<valign val="1" />
+			<FontName val="나눔고딕" />
+			<FontSize val="13" />
+			<TextTrimming val="None" />
+			<style val="1" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+			<Padding val="0, 0, 0, 0" />
+			<FitToContent val="False" />
+		</child>
+		<child type="LABEL" name="tx_roomlist_number_goal" subclass="">
+			<pos x="445" y="13" />
+			<rect l="0" t="0" r="20" b="19" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<label val="" />
+			<OutlineColor val="#FF0000" />
+			<ShadowColor val="#FF0000" />
+			<color val="#796456FF" />
+			<halign val="1" />
+			<valign val="1" />
+			<FontName val="나눔고딕 ExtraBold" />
+			<FontSize val="13" />
+			<TextTrimming val="None" />
+			<style val="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+			<Padding val="0, 0, 0, 0" />
+			<FitToContent val="False" />
+		</child>
+		<child type="LABEL" name="lb_slash" subclass="">
+			<pos x="437" y="13" />
+			<rect l="0" t="0" r="12" b="19" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<label val="/" />
+			<OutlineColor val="#FF0000" />
+			<ShadowColor val="#FF0000" />
+			<color val="#796456FF" />
+			<halign val="1" />
+			<valign val="1" />
+			<FontName val="나눔고딕" />
+			<FontSize val="13" />
+			<TextTrimming val="None" />
+			<style val="1" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+			<Padding val="0, 0, 0, 0" />
+			<FitToContent val="False" />
+		</child>
+		<child type="PICTURE" name="room_id_bg" subclass="">
+			<asset type="STATIC">room_id_bg.png</asset>
+			<pos x="149" y="11" />
+			<rect l="0" t="0" r="57" b="22" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<child type="LABEL" name="loom_id" subclass="">
+				<pos x="1" y="0" />
+				<rect l="0" t="0" r="55" b="21" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<label val="000000" />
+				<OutlineColor val="#FFFFFF" />
+				<ShadowColor val="#0000004C" />
+				<color val="#6B5D54" />
+				<halign val="1" />
+				<valign val="1" />
+				<FontName val="나눔고딕 ExtraBold" />
+				<FontSize val="13" />
+				<TextTrimming val="None" />
+				<style val="0" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+				<Padding val="0, 0, 0, 0" />
+				<FitToContent val="False" />
+			</child>
+		</child>
+		<child type="LABEL" name="tx_roomlist_number_perform" subclass="">
+			<pos x="419" y="13" />
+			<rect l="0" t="0" r="20" b="19" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<label val="" />
+			<OutlineColor val="#FF0000" />
+			<ShadowColor val="#FF0000" />
+			<color val="#796456FF" />
+			<halign val="1" />
+			<valign val="1" />
+			<FontName val="나눔고딕 ExtraBold" />
+			<FontSize val="13" />
+			<TextTrimming val="None" />
+			<style val="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+			<Padding val="0, 0, 0, 0" />
+			<FitToContent val="False" />
+		</child>
+		<child type="PICTURE" name="roomlist_img_enter_dis" subclass="">
+			<asset type="STATIC"></asset>
+			<pos x="454" y="0" />
+			<rect l="0" t="0" r="146" b="46" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="roomlist_img_enter_o" subclass="">
+			<asset type="STATIC"></asset>
+			<pos x="454" y="0" />
+			<rect l="0" t="0" r="146" b="46" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="icon_roomlist_full" subclass="">
+			<asset type="STATIC">icon_roomlist_full.png</asset>
+			<pos x="416" y="8" />
+			<rect l="0" t="0" r="68" b="30" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="roomlist_img_enter_d" subclass="">
+			<asset type="STATIC"></asset>
+			<pos x="454" y="0" />
+			<rect l="0" t="0" r="146" b="46" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="icon_common_adv_off" subclass="">
+			<asset type="STATIC">icon_common_adv_off.png</asset>
+			<pos x="76" y="22" />
+			<rect l="0" t="0" r="44" b="18" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="icon_common_adv" subclass="">
+			<asset type="STATIC">icon_common_adv.png</asset>
+			<pos x="76" y="22" />
+			<rect l="0" t="0" r="44" b="18" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="icon_beginner_tooltip" subclass="">
+			<asset type="STATIC">icon_beginner_tooltip.png</asset>
+			<pos x="258" y="9" />
+			<rect l="0" t="0" r="218" b="27" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+			<child type="LABEL" name="Label_beginner_text" subclass="">
+				<pos x="1" y="5" />
+				<rect l="0" t="0" r="207" b="23" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<label val="3레벨 이상은 입장할 수 없습니다." />
+				<OutlineColor val="#FFFFFF" />
+				<ShadowColor val="#0000004C" />
+				<color val="#FFFFFFFF" />
+				<halign val="1" />
+				<valign val="0" />
+				<FontName val="나눔고딕" />
+				<FontSize val="13" />
+				<TextTrimming val="None" />
+				<style val="1" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+				<Padding val="0, 0, 0, 0" />
+				<FitToContent val="False" />
+			</child>
+		</child>
+		<child type="PICTURE" name="icon_tooltip" subclass="">
+			<asset type="STATIC">icon_room_tooltip.png</asset>
+			<pos x="258" y="9" />
+			<rect l="0" t="0" r="218" b="27" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+			<child type="LABEL" name="Label_message_text1" subclass="">
+				<pos x="1" y="5" />
+				<rect l="0" t="0" r="207" b="23" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<label val="실력이 맞지 않는 대기방입니다." />
+				<OutlineColor val="#FFFFFF" />
+				<ShadowColor val="#0000004C" />
+				<color val="#FFFFFFFF" />
+				<halign val="1" />
+				<valign val="0" />
+				<FontName val="나눔고딕" />
+				<FontSize val="13" />
+				<TextTrimming val="None" />
+				<style val="1" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+				<Padding val="0, 0, 0, 0" />
+				<FitToContent val="False" />
+			</child>
+		</child>
+		<child type="PICTURE" name="icon_beginner" subclass="">
+			<asset type="STATIC"></asset>
+			<pos x="477" y="9" />
+			<rect l="0" t="0" r="31" b="31" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+		</child>
+	</base>
+</refresh>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+  </properties>
+  <child type="BUTTON" subclass="" name="ok">
+    <asset type="NORMAL">btn_a4_n.png</asset>
+    <asset type="DOWN">btn_a4_d.png</asset>
+    <asset type="OVER">btn_a4_o.png</asset>
+    <asset type="DISABLE">btn_a4_dis.png</asset>
+    <snd type="OVER">
+    </snd>
+    <snd type="DOWN">ui_btn_menu_click</snd>
+    <snd type="RELEASE">ui_btn_menu_release</snd>
+    <pos x="240" y="257" />
+    <rect l="0" t="0" r="72" b="34" />
+    <Visible val="True" />
+    <IsHitTestVisible val="True" />
+    <ClipChildren val="False" />
+    <Anchor val="None" />
+    <IsDefaultButton val="False" />
+    <child type="LABEL" name="lb_ok" subclass="">
+      <label val="OK" />
+      <pos x="4" y="6" />
+      <rect l="0" t="0" r="60" b="19" />
+      <Visible val="True" />
+      <Anchor val="None" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#010000" />
+      <color val="#FFFFFF" />
+      <halign val="1" />
+      <valign val="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="14" />
+      <TextTrimming val="None" />
+      <style val="1" />
+      <IsHitTestVisible val="False" />
+      <ClipChildren val="False" />
+      <Padding val="0, 0, 0, 0" />
+    </child>
+  </child>
+</refresh>

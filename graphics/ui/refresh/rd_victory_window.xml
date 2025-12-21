@@ -1,0 +1,383 @@
+﻿<refresh version="2">
+	<properties>
+		<property name="DPI" val="72" />
+		<property name="UIAnimation" val="rd_victory_window_Animation.xml" />
+	</properties>
+	<base type="WND" subclass="" name="rd_victory">
+		<pos x="0" y="49" />
+		<rect l="0" t="0" r="1024" b="264" />
+		<Visible val="True" />
+		<Anchor val="Top, Left, Right" />
+		<snd type="SHOW"></snd>
+		<snd type="HIDE"></snd>
+		<IsHitTestVisible val="False" />
+		<ClipChildren val="False" />
+		<child type="STACKPANEL" name="StackPanel" subclass="">
+			<pos x="0" y="-2" />
+			<rect l="0" t="0" r="1024" b="264" />
+			<Visible val="True" />
+			<Anchor val="Left, Right" />
+			<Orientation val="Vertical" />
+			<HAlign val="Center" />
+			<VAlign val="Center" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+			<base type="WND" subclass="" name="victory">
+				<pos x="280" y="0" />
+				<rect l="0" t="0" r="463" b="264" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<snd type="SHOW"></snd>
+				<snd type="HIDE"></snd>
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+				<child type="PANEL" name="Panel_voctory" subclass="">
+					<pos x="39" y="96" />
+					<rect l="0" t="0" r="386" b="168" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<embed src="" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+					<child type="PICTURE" name="bg_notice" subclass="">
+						<asset type="STATIC">img_winning_bg.png</asset>
+						<pos x="-30" y="-4" />
+						<rect l="0" t="0" r="444" b="160" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="False" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="PICTURE" name="img_5star_bg" subclass="">
+						<asset type="STATIC">img_5star_bg.png</asset>
+						<pos x="142" y="1" />
+						<rect l="0" t="0" r="106" b="18" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="LABEL" name="txt_nickname" subclass="">
+						<pos x="30" y="24" />
+						<rect l="0" t="0" r="330" b="17" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<label val="" />
+						<OutlineColor val="#FF0000" />
+						<ShadowColor val="#030200" />
+						<color val="#FFA837" />
+						<halign val="1" />
+						<valign val="1" />
+						<FontName val="나눔고딕 ExtraBold" />
+						<FontSize val="14" />
+						<TextTrimming val="None" />
+						<style val="32" />
+						<IsHitTestVisible val="False" />
+						<ClipChildren val="False" />
+						<Padding val="0, 0, 0, 0" />
+						<FitToContent val="False" />
+					</child>
+					<child type="TEXTAREA" name="txt_notice" subclass="">
+						<asset type="BG" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="8" t="8" r="314" b="1" />
+						</asset>
+						<asset type="EDGE_LT" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="0" t="0" r="8" b="8" />
+						</asset>
+						<asset type="EDGE_RT" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="0" t="0" r="8" b="8" />
+						</asset>
+						<asset type="EDGE_LB" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="0" t="0" r="8" b="8" />
+						</asset>
+						<asset type="EDGE_RB" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="0" t="0" r="8" b="8" />
+						</asset>
+						<asset type="FRAME_T" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="8" t="0" r="314" b="8" />
+						</asset>
+						<asset type="FRAME_B" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="8" t="0" r="314" b="8" />
+						</asset>
+						<asset type="FRAME_L" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="0" t="8" r="8" b="1" />
+						</asset>
+						<asset type="FRAME_R" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="0" t="8" r="8" b="1" />
+						</asset>
+						<asset type="CARET" path="">
+							<rpos x="0" y="0" />
+							<rect l="0" t="0" r="0" b="0" />
+						</asset>
+						<pos x="30" y="42" />
+						<rect l="0" t="0" r="330" b="17" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<Editable val="False" />
+						<OutlineColor val="#FF0000" />
+						<ShadowColor val="#030200" />
+						<SelectionBrush val="#FF0000" />
+						<color val="#FFFFFF" />
+						<style val="33" />
+						<halign val="1" />
+						<padding l="0" t="0" r="0" b="0" />
+						<FontName val="나눔고딕" />
+						<FontSize val="13" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+						<FitToContent val="False" />
+						<Text val="" />
+					</child>
+					<child type="PANEL" name="Panel_horseparts" subclass="">
+						<pos x="137" y="-99" />
+						<rect l="0" t="0" r="116" b="96" />
+						<Visible val="True" />
+						<Anchor val="Top, Left" />
+						<embed src="" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+						<child type="PICTURE" name="img_winhorse_parts5" subclass="">
+							<asset type="STATIC">img_winhorse_parts5.png</asset>
+							<pos x="0" y="0" />
+							<rect l="0" t="0" r="116" b="96" />
+							<Visible val="True" />
+							<Anchor val="None" />
+							<center x="0" y="0" />
+							<IsHitTestVisible val="True" />
+							<ClipChildren val="False" />
+						</child>
+						<child type="PICTURE" name="img_winhorse_parts4" subclass="">
+							<asset type="STATIC">img_winhorse_parts4.png</asset>
+							<pos x="63" y="69" />
+							<rect l="0" t="0" r="54" b="26" />
+							<Visible val="True" />
+							<Anchor val="None" />
+							<center x="0" y="0" />
+							<IsHitTestVisible val="True" />
+							<ClipChildren val="False" />
+						</child>
+						<child type="PICTURE" name="img_winhorse_parts3" subclass="">
+							<asset type="STATIC">img_winhorse_parts3.png</asset>
+							<pos x="56" y="11" />
+							<rect l="0" t="0" r="48" b="50" />
+							<Visible val="True" />
+							<Anchor val="None" />
+							<center x="0" y="0" />
+							<IsHitTestVisible val="True" />
+							<ClipChildren val="False" />
+						</child>
+						<child type="PICTURE" name="img_winhorse_parts2" subclass="">
+							<asset type="STATIC">img_winhorse_parts2.png</asset>
+							<pos x="0" y="65" />
+							<rect l="0" t="0" r="44" b="30" />
+							<Visible val="True" />
+							<Anchor val="None" />
+							<center x="0" y="0" />
+							<IsHitTestVisible val="True" />
+							<ClipChildren val="False" />
+						</child>
+						<child type="PICTURE" name="img_winhorse_parts1" subclass="">
+							<asset type="STATIC">img_winhorse_parts1.png</asset>
+							<pos x="10" y="11" />
+							<rect l="0" t="0" r="42" b="44" />
+							<Visible val="True" />
+							<Anchor val="None" />
+							<center x="0" y="0" />
+							<IsHitTestVisible val="True" />
+							<ClipChildren val="False" />
+						</child>
+					</child>
+					<child type="PICTURE" name="img_horseicon_bg" subclass="">
+						<asset type="STATIC">img_horseicon_bg.png</asset>
+						<pos x="137" y="-99" />
+						<rect l="0" t="0" r="116" b="96" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="PICTURE" name="img_winhorse_silver" subclass="">
+						<asset type="STATIC">img_winhorse.png</asset>
+						<pos x="164" y="-64" />
+						<rect l="0" t="0" r="62" b="60" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="PICTURE" name="img_winhorse_gold" subclass="">
+						<asset type="STATIC">img_winhorse_gold.png</asset>
+						<pos x="164" y="-64" />
+						<rect l="0" t="0" r="62" b="60" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+				</child>
+				<child type="PANEL" name="pn_icon_winstep" subclass="">
+					<pos x="176" y="92" />
+					<rect l="0" t="0" r="116" b="28" />
+					<Visible val="True" />
+					<Anchor val="Top, Left" />
+					<embed src="" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+					<child type="PICTURE" name="img_icon_winlevel_1" subclass="">
+						<asset type="STATIC">img_icon_winlevel_1.png</asset>
+						<pos x="2" y="2" />
+						<rect l="0" t="0" r="24" b="24" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="PICTURE" name="img_icon_winlevel_2" subclass="">
+						<asset type="STATIC">img_icon_winlevel_1.png</asset>
+						<pos x="24" y="2" />
+						<rect l="0" t="0" r="24" b="24" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="PICTURE" name="img_icon_winlevel_3" subclass="">
+						<asset type="STATIC">img_icon_winlevel_1.png</asset>
+						<pos x="46" y="2" />
+						<rect l="0" t="0" r="24" b="24" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="PICTURE" name="img_icon_winlevel_4" subclass="">
+						<asset type="STATIC">img_icon_winlevel_1.png</asset>
+						<pos x="68" y="2" />
+						<rect l="0" t="0" r="24" b="24" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="PICTURE" name="img_icon_winlevel_5" subclass="">
+						<asset type="STATIC">img_icon_winlevel_1.png</asset>
+						<pos x="90" y="2" />
+						<rect l="0" t="0" r="24" b="24" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="PICTURE" name="img_icon_winlevel_ex" subclass="">
+						<asset type="STATIC">img_icon_winlevel_1.png</asset>
+						<pos x="2" y="2" />
+						<rect l="0" t="0" r="24" b="24" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+				</child>
+				<child type="PANEL" name="pn_winhorse_efc" subclass="">
+					<pos x="203" y="32" />
+					<rect l="0" t="0" r="62" b="60" />
+					<Visible val="True" />
+					<Anchor val="Top, Left" />
+					<embed src="" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+					<child type="PICTURE" name="img_winhorse_efc_01" subclass="">
+						<asset type="STATIC">img_winhorse_efc_01.png</asset>
+						<pos x="0" y="0" />
+						<rect l="0" t="0" r="62" b="60" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="PICTURE" name="img_winhorse_efc_02" subclass="">
+						<asset type="STATIC">img_winhorse_efc_02.png</asset>
+						<pos x="0" y="0" />
+						<rect l="0" t="0" r="62" b="60" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="PICTURE" name="img_winhorse_efc_03" subclass="">
+						<asset type="STATIC">img_winhorse_efc_03.png</asset>
+						<pos x="0" y="0" />
+						<rect l="0" t="0" r="62" b="60" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="PICTURE" name="img_winhorse_efc_04" subclass="">
+						<asset type="STATIC">img_winhorse_efc_04.png</asset>
+						<pos x="0" y="0" />
+						<rect l="0" t="0" r="62" b="60" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="PICTURE" name="img_winhorse_efc_05" subclass="">
+						<asset type="STATIC">img_winhorse_efc_05.png</asset>
+						<pos x="0" y="0" />
+						<rect l="0" t="0" r="62" b="60" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="PICTURE" name="img_winhorse_efc_06" subclass="">
+						<asset type="STATIC">img_winhorse_efc_06.png</asset>
+						<pos x="0" y="0" />
+						<rect l="0" t="0" r="62" b="60" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="PICTURE" name="img_winhorse_efc_07" subclass="">
+						<asset type="STATIC">img_winhorse_efc_07.png</asset>
+						<pos x="0" y="0" />
+						<rect l="0" t="0" r="62" b="60" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+				</child>
+			</base>
+		</child>
+	</base>
+</refresh>

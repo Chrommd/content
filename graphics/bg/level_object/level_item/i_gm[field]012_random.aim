@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <event animation="">
+        <function>PlayFX($asset, "itm_level_random", "dum3", "")</function>
+        <time>0.15</time>
+        <freq>ONCE</freq>
+    </event>
+    <event animation="">
+        <function>PlayFX($asset, "itm_level_random", "dum2", "")</function>
+        <time>0.3</time>
+        <freq>ONCE</freq>
+    </event>
+    <event animation="">
+        <function>PlayFX($asset, "itm_level_random", "dum1", "")</function>
+        <time>0</time>
+        <freq>ONCE</freq>
+    </event>
+    <event animation="">
+        <function>PlayFX($asset, "itm_level_random_center", "dum0", "")</function>
+        <time>0.0000</time>
+        <freq>ONCE</freq>
+    </event>
+    <dummy name="dum0" parent="Dummyroot" sync="FALSE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.4396</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <dummy name="dum1" parent="i_gm[field]012_random" sync="FALSE" extra="">
+        <rotationX>0.2073</rotationX>
+        <rotationY>0.1763</rotationY>
+        <rotationZ>-0.0863</rotationZ>
+        <rotationW>0.9584</rotationW>
+        <offsetX>-0.6208</offsetX>
+        <offsetY>0.5891</offsetY>
+        <offsetZ>0.0641</offsetZ>
+    </dummy>
+    <dummy name="dum2" parent="i_gm[field]012_random" sync="FALSE" extra="">
+        <rotationX>0.1028</rotationX>
+        <rotationY>0.1728</rotationY>
+        <rotationZ>-0.1581</rotationZ>
+        <rotationW>0.9667</rotationW>
+        <offsetX>0.6108</offsetX>
+        <offsetY>0.3138</offsetY>
+        <offsetZ>-0.2900</offsetZ>
+    </dummy>
+    <dummy name="dum3" parent="i_gm[field]012_random" sync="FALSE" extra="">
+        <rotationX>0.1028</rotationX>
+        <rotationY>0.1728</rotationY>
+        <rotationZ>-0.1581</rotationZ>
+        <rotationW>0.9667</rotationW>
+        <offsetX>0.0581</offsetX>
+        <offsetY>-0.2075</offsetY>
+        <offsetZ>0.3423</offsetZ>
+    </dummy>
+    <action category="" state="G_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000></main>
+    </action>
+</aim>

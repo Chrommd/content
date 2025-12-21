@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="NORMAL">
+    <asset type="IMAGE" name="asset_mate_icon_skin_001" path="mate_icon_tail_001.png">
+      <rect l="0" t="0" r="48" b="32" />
+    </asset>
+    <object name="mate_icon_skin_001" ani="ani_mate_icon_skin_001">
+      <asset type="IMAGE" link="asset_mate_icon_skin_001" />
+    </object>
+    <param type="RES" x="48" y="32" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_mate_icon_skin_001">
+      <frame cnt="0">
+        <posx val="0.5" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="OVER">
+    <asset type="IMAGE" name="asset_mate_icon_skin_001" path="mate_icon_tail_001.png">
+      <rect l="0" t="0" r="48" b="32" />
+    </asset>
+    <asset type="IMAGE" name="asset_mate_icon_skin_o" path="mate_icon_skin_o.png">
+      <rect l="0" t="0" r="48" b="32" />
+    </asset>
+    <object name="mate_icon_skin_001" ani="ani_mate_icon_skin_001">
+      <asset type="IMAGE" link="asset_mate_icon_skin_001" />
+    </object>
+    <object name="mate_icon_skin_o" ani="ani_mate_icon_skin_o">
+      <asset type="IMAGE" link="asset_mate_icon_skin_o" />
+    </object>
+    <param type="RES" x="48" y="32" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_mate_icon_skin_001">
+      <frame cnt="0">
+        <posx val="0.5" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+    <anim name="ani_mate_icon_skin_o">
+      <frame cnt="0">
+        <posx val="0.5" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="DOWN">
+    <asset type="IMAGE" name="asset_mate_icon_skin_001" path="mate_icon_tail_001.png">
+      <rect l="0" t="0" r="48" b="32" />
+    </asset>
+    <asset type="IMAGE" name="asset_mate_icon_skin_d" path="mate_icon_skin_d.png">
+      <rect l="0" t="0" r="48" b="32" />
+    </asset>
+    <object name="mate_icon_skin_001" ani="ani_mate_icon_skin_001">
+      <asset type="IMAGE" link="asset_mate_icon_skin_001" />
+    </object>
+    <object name="mate_icon_skin_d" ani="ani_mate_icon_skin_d">
+      <asset type="IMAGE" link="asset_mate_icon_skin_d" />
+    </object>
+    <param type="RES" x="48" y="32" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_mate_icon_skin_001">
+      <frame cnt="0">
+        <posx val="0.5" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+    <anim name="ani_mate_icon_skin_d">
+      <frame cnt="0">
+        <posx val="0.5" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="DISABLE">
+    <asset type="IMAGE" name="asset_mate_icon_skin_dis" path="mate_icon_skin_dis.png">
+      <rect l="0" t="0" r="48" b="32" />
+    </asset>
+    <object name="mate_icon_skin_dis" ani="ani_mate_icon_skin_dis">
+      <asset type="IMAGE" link="asset_mate_icon_skin_dis" />
+    </object>
+    <param type="RES" x="48" y="32" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_mate_icon_skin_dis">
+      <frame cnt="0">
+        <posx val="0.5" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

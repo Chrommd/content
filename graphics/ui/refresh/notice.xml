@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="notice_Animation.xml" />
+  </properties>
+  <base type="WNDEX" subclass="" name="notice">
+    <asset type="BG" path="" tileMode="Stretch">
+      <tex x="222" y="163" />
+      <rect l="222" t="163" r="222" b="163" />
+    </asset>
+    <asset type="EDGE_LT" path="" tileMode="Stretch">
+      <tex x="222" y="163" />
+      <rect l="0" t="0" r="222" b="163" />
+    </asset>
+    <asset type="EDGE_RT" path="" tileMode="Stretch">
+      <tex x="222" y="163" />
+      <rect l="0" t="0" r="222" b="163" />
+    </asset>
+    <asset type="EDGE_LB" path="" tileMode="Stretch">
+      <tex x="222" y="164" />
+      <rect l="0" t="0" r="222" b="164" />
+    </asset>
+    <asset type="EDGE_RB" path="" tileMode="Stretch">
+      <tex x="222" y="164" />
+      <rect l="0" t="0" r="222" b="164" />
+    </asset>
+    <asset type="FRAME_T" path="" tileMode="Stretch">
+      <tex x="222" y="163" />
+      <rect l="222" t="0" r="222" b="163" />
+    </asset>
+    <asset type="FRAME_B" path="" tileMode="Stretch">
+      <tex x="222" y="164" />
+      <rect l="222" t="0" r="222" b="164" />
+    </asset>
+    <asset type="FRAME_L" path="" tileMode="Stretch">
+      <tex x="222" y="163" />
+      <rect l="0" t="163" r="222" b="163" />
+    </asset>
+    <asset type="FRAME_R" path="" tileMode="Stretch">
+      <tex x="222" y="163" />
+      <rect l="0" t="163" r="222" b="163" />
+    </asset>
+    <Visible val="True" />
+    <Anchor val="None" />
+    <pos x="179" y="139" />
+    <rect l="0" t="0" r="666" b="490" />
+    <Dragable val="False" />
+    <StartPosition val="CenterScreen" />
+    <EscKeyAction val="Close" />
+    <IsHitTestVisible val="True" />
+    <ClipChildren val="False" />
+    <child type="PICTURE" name="bg_notice" subclass="">
+      <asset type="STATIC">bg_notice.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="666" b="490" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="BUTTON" subclass="" name="btn_close">
+      <asset type="NORMAL">btn_common_exit2_Normal.png</asset>
+      <asset type="DOWN">btn_common_exit2_Push.png</asset>
+      <asset type="OVER">btn_common_exit2_Hover.png</asset>
+      <asset type="DISABLE">btn_common_exit2_Disable.png</asset>
+      <snd type="OVER">
+      </snd>
+      <snd type="DOWN">ui_btn_menu_click</snd>
+      <snd type="RELEASE">ui_btn_menu_release;ui_btn_menu_close</snd>
+      <pos x="625" y="13" />
+      <rect l="0" t="0" r="28" b="28" />
+      <Visible val="True" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <Anchor val="Top, Right" />
+      <IsDefaultButton val="False" />
+    </child>
+    <child type="LABELBUTTON" name="btn_confirm" subclass="">
+      <asset type="NORMAL">btn_common_cancel_Normal.png</asset>
+      <asset type="DOWN">btn_common_cancel_Push.png</asset>
+      <asset type="OVER">btn_common_cancel_Hover.png</asset>
+      <asset type="DISABLE">btn_common_cancel_Disable.png</asset>
+      <snd type="OVER">
+      </snd>
+      <snd type="DOWN">ui_btn_menu_click</snd>
+      <snd type="RELEASE">ui_btn_menu_release;ui_btn_menu_close</snd>
+      <control type="LABEL" name="btn_confirm_Label">
+        <label val="Close" />
+        <pos x="0" y="0" />
+        <rect l="0" t="0" r="92" b="33" />
+        <Visible val="True" />
+        <Anchor val="Bottom, Left, Right" />
+        <OutlineColor val="#FFFFFF" />
+        <ShadowColor val="#0000004C" />
+        <color val="#6B5D54" />
+        <halign val="1" />
+        <valign val="1" />
+        <FontName val="나눔고딕" />
+        <FontSize val="13" />
+        <TextTrimming val="None" />
+        <style val="1" />
+        <IsHitTestVisible val="False" />
+        <ClipChildren val="False" />
+        <Padding val="0, 0, 0, 0" />
+      </control>
+      <pos x="544" y="444" />
+      <rect l="0" t="0" r="92" b="33" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <NormalColor val="#FFFFFFFF" />
+      <HoverColor val="#FFFFFFFF" />
+      <PushColor val="#F1E4DBFF" />
+      <DisableColor val="#998A81FF" />
+      <IsDefaultButton val="False" />
+    </child>
+  </base>
+</refresh>

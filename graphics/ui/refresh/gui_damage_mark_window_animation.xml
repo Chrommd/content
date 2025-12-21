@@ -1,0 +1,597 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="damage1">
+    <asset type="UI" name="asset_horse_mark_damage1">
+      <rect l="0" t="0" r="81" b="80" />
+    </asset>
+    <asset type="UI" name="asset_horse_mark_damage2">
+      <rect l="0" t="0" r="95" b="92" />
+    </asset>
+    <asset type="UI" name="asset_horse_mark_damage_band">
+      <rect l="0" t="0" r="31" b="33" />
+    </asset>
+    <asset type="UI" name="asset_horse_icon_damage">
+      <rect l="0" t="0" r="61" b="61" />
+    </asset>
+    <asset type="UI" name="asset_horse_icon_damage_ingame_2">
+      <rect l="0" t="0" r="31" b="30" />
+    </asset>
+    <object name="horse_mark_damage1" ani="ani_horse_mark_damage1">
+      <asset type="UI" link="asset_horse_mark_damage1" />
+    </object>
+    <object name="horse_mark_damage2" ani="ani_horse_mark_damage2">
+      <asset type="UI" link="asset_horse_mark_damage2" />
+    </object>
+    <object name="horse_mark_damage_band" ani="ani_horse_mark_damage_band">
+      <asset type="UI" link="asset_horse_mark_damage_band" />
+    </object>
+    <object name="horse_icon_damage" ani="ani_horse_icon_damage">
+      <asset type="UI" link="asset_horse_icon_damage" />
+    </object>
+    <object name="horse_icon_damage_ingame_2" ani="ani_horse_icon_damage_ingame_2">
+      <asset type="UI" link="asset_horse_icon_damage_ingame_2" />
+    </object>
+    <param type="RES" x="100" y="100" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_horse_mark_damage1">
+      <frame cnt="0">
+        <posx val="0.31" />
+        <posy val="0.32" />
+        <scalex val="0.469135802469136" />
+        <scaley val="0.4625" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="100">
+        <posx val="-0.09" easeValue="0.0,0.0,0.1,1.0" />
+        <posy val="-0.08" easeValue="0.0,0.0,0.1,1.0" />
+        <scalex val="1.45679012345679" easeValue="0.0,0.0,0.1,1.0" />
+        <scaley val="1.45" easeValue="0.0,0.0,0.1,1.0" />
+        <alpha val="1" easeValue="0.0,0.0,0.1,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="167">
+        <posx val="0.1" />
+        <posy val="0.1" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="200">
+        <posx val="0.06" />
+        <posy val="0.14" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="233">
+        <posx val="0.05" />
+        <posy val="0.06" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="267">
+        <posx val="0.12" />
+        <posy val="0.14" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="300">
+        <posx val="0.13" />
+        <posy val="0.1" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.1" />
+        <posy val="0.1" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1000">
+        <posx val="0.1" />
+        <posy val="0.1" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1533">
+        <posx val="0.1" />
+        <posy val="0.1" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_horse_mark_damage2">
+      <frame cnt="0">
+        <posx val="0.02" />
+        <posy val="0.04" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_horse_mark_damage_band">
+      <frame cnt="0">
+        <posx val="0.34" />
+        <posy val="0.35" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="100">
+        <posx val="0.22" />
+        <posy val="0.2" />
+        <scalex val="1.83870967741935" />
+        <scaley val="1.81818181818182" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="200">
+        <posx val="0.34" />
+        <posy val="0.35" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1233">
+        <posx val="0.34" />
+        <posy val="0.35" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1767">
+        <posx val="0.34" />
+        <posy val="0.35" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_horse_icon_damage">
+      <frame cnt="0">
+        <posx val="0.2" />
+        <posy val="0.23" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_horse_icon_damage_ingame_2">
+      <frame cnt="0">
+        <posx val="0.34" />
+        <posy val="0.34" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="damage2">
+    <asset type="UI" name="asset_horse_mark_damage1">
+      <rect l="0" t="0" r="81" b="80" />
+    </asset>
+    <asset type="UI" name="asset_horse_mark_damage2">
+      <rect l="0" t="0" r="95" b="92" />
+    </asset>
+    <asset type="UI" name="asset_horse_mark_damage_band">
+      <rect l="0" t="0" r="31" b="33" />
+    </asset>
+    <asset type="UI" name="asset_horse_icon_damage">
+      <rect l="0" t="0" r="61" b="61" />
+    </asset>
+    <asset type="UI" name="asset_horse_icon_damage_ingame_2">
+      <rect l="0" t="0" r="31" b="30" />
+    </asset>
+    <object name="horse_mark_damage1" ani="ani_horse_mark_damage1">
+      <asset type="UI" link="asset_horse_mark_damage1" />
+    </object>
+    <object name="horse_mark_damage2" ani="ani_horse_mark_damage2">
+      <asset type="UI" link="asset_horse_mark_damage2" />
+    </object>
+    <object name="horse_mark_damage_band" ani="ani_horse_mark_damage_band">
+      <asset type="UI" link="asset_horse_mark_damage_band" />
+    </object>
+    <object name="horse_icon_damage" ani="ani_horse_icon_damage">
+      <asset type="UI" link="asset_horse_icon_damage" />
+    </object>
+    <object name="horse_icon_damage_ingame_2" ani="ani_horse_icon_damage_ingame_2">
+      <asset type="UI" link="asset_horse_icon_damage_ingame_2" />
+    </object>
+    <param type="RES" x="100" y="100" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_horse_mark_damage1">
+      <frame cnt="0">
+        <posx val="0.1" />
+        <posy val="0.1" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_horse_mark_damage2">
+      <frame cnt="0">
+        <posx val="0.31" />
+        <posy val="0.32" />
+        <scalex val="0.4" />
+        <scaley val="0.402173913043478" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="100">
+        <posx val="-0.09" easeValue="0.0,0.0,0.1,1.0" />
+        <posy val="-0.08" easeValue="0.0,0.0,0.1,1.0" />
+        <scalex val="1.24210526315789" easeValue="0.0,0.0,0.1,1.0" />
+        <scaley val="1.26086956521739" easeValue="0.0,0.0,0.1,1.0" />
+        <alpha val="1" easeValue="0.0,0.0,0.1,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="167">
+        <posx val="0.02" />
+        <posy val="0.04" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="200">
+        <posx val="-0.02" />
+        <posy val="0.11" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="233">
+        <posx val="0.11" />
+        <posy val="0.06" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="267">
+        <posx val="0.1" />
+        <posy val="-0.03" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="300">
+        <posx val="-0.04" />
+        <posy val="-0.03" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.1" />
+        <posy val="0.1" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="367">
+        <posx val="0.02" />
+        <posy val="0.04" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1000">
+        <posx val="0.02" />
+        <posy val="0.04" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1533">
+        <posx val="0.02" />
+        <posy val="0.04" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_horse_mark_damage_band">
+      <frame cnt="0">
+        <posx val="0.34" />
+        <posy val="0.35" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="100">
+        <posx val="0.22" />
+        <posy val="0.2" />
+        <scalex val="1.83870967741935" />
+        <scaley val="1.81818181818182" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="200">
+        <posx val="0.34" />
+        <posy val="0.35" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1233">
+        <posx val="0.34" />
+        <posy val="0.35" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1767">
+        <posx val="0.34" />
+        <posy val="0.35" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_horse_icon_damage">
+      <frame cnt="0">
+        <posx val="0.2" />
+        <posy val="0.23" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_horse_icon_damage_ingame_2">
+      <frame cnt="0">
+        <posx val="0.34" />
+        <posy val="0.34" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="getdamage">
+    <asset type="UI" name="asset_horse_mark_damage1">
+      <rect l="0" t="0" r="81" b="80" />
+    </asset>
+    <asset type="UI" name="asset_horse_mark_damage2">
+      <rect l="0" t="0" r="95" b="92" />
+    </asset>
+    <asset type="UI" name="asset_horse_mark_damage_band">
+      <rect l="0" t="0" r="31" b="33" />
+    </asset>
+    <asset type="UI" name="asset_horse_icon_damage">
+      <rect l="0" t="0" r="61" b="61" />
+    </asset>
+    <asset type="UI" name="asset_horse_icon_damage_ingame_2">
+      <rect l="0" t="0" r="31" b="30" />
+    </asset>
+    <object name="horse_mark_damage1" ani="ani_horse_mark_damage1">
+      <asset type="UI" link="asset_horse_mark_damage1" />
+    </object>
+    <object name="horse_mark_damage2" ani="ani_horse_mark_damage2">
+      <asset type="UI" link="asset_horse_mark_damage2" />
+    </object>
+    <object name="horse_mark_damage_band" ani="ani_horse_mark_damage_band">
+      <asset type="UI" link="asset_horse_mark_damage_band" />
+    </object>
+    <object name="horse_icon_damage" ani="ani_horse_icon_damage">
+      <asset type="UI" link="asset_horse_icon_damage" />
+    </object>
+    <object name="horse_icon_damage_ingame_2" ani="ani_horse_icon_damage_ingame_2">
+      <asset type="UI" link="asset_horse_icon_damage_ingame_2" />
+    </object>
+    <param type="RES" x="100" y="100" />
+    <param type="LOOP" cnt="-1" pendulum="0" />
+    <anim name="ani_horse_mark_damage1">
+      <frame cnt="0">
+        <posx val="0.1" />
+        <posy val="0.1" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_horse_mark_damage2">
+      <frame cnt="0">
+        <posx val="0.02" />
+        <posy val="0.03" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_horse_mark_damage_band">
+      <frame cnt="0">
+        <posx val="0.34" />
+        <posy val="0.35" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_horse_icon_damage">
+      <frame cnt="0">
+        <posx val="0.2" />
+        <posy val="0.23" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_horse_icon_damage_ingame_2">
+      <frame cnt="0">
+        <posx val="0.34" />
+        <posy val="0.33" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

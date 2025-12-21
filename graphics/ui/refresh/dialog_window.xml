@@ -1,0 +1,563 @@
+﻿<refresh version="2">
+	<properties>
+		<property name="DPI" val="72" />
+	</properties>
+	<base type="WNDEX" subclass="" name="dialog_bg">
+		<asset type="BG" path="frm_depth1_CenterMiddle.png" tileMode="Tile">
+			<tex x="40" y="40" />
+			<rect l="44" t="39" r="248" b="265" />
+		</asset>
+		<asset type="EDGE_LT" path="frm_depth1_LeftTop.png" tileMode="Stretch">
+			<tex x="44" y="39" />
+			<rect l="0" t="0" r="44" b="39" />
+		</asset>
+		<asset type="EDGE_RT" path="frm_depth1_RightTop.png" tileMode="Stretch">
+			<tex x="46" y="39" />
+			<rect l="0" t="0" r="46" b="39" />
+		</asset>
+		<asset type="EDGE_LB" path="frm_depth1_LeftBottom.png" tileMode="Stretch">
+			<tex x="44" y="38" />
+			<rect l="0" t="0" r="44" b="38" />
+		</asset>
+		<asset type="EDGE_RB" path="frm_depth1_RightBottom.png" tileMode="Stretch">
+			<tex x="46" y="38" />
+			<rect l="0" t="0" r="46" b="38" />
+		</asset>
+		<asset type="FRAME_T" path="frm_depth1_CenterTop.png" tileMode="Tile">
+			<tex x="40" y="39" />
+			<rect l="44" t="0" r="248" b="39" />
+		</asset>
+		<asset type="FRAME_B" path="frm_depth1_CenterBottom.png" tileMode="Tile">
+			<tex x="40" y="38" />
+			<rect l="44" t="0" r="248" b="38" />
+		</asset>
+		<asset type="FRAME_L" path="frm_depth1_LeftMiddle.png" tileMode="Tile">
+			<tex x="44" y="40" />
+			<rect l="0" t="39" r="44" b="265" />
+		</asset>
+		<asset type="FRAME_R" path="frm_depth1_RightMiddle.png" tileMode="Tile">
+			<tex x="46" y="40" />
+			<rect l="0" t="39" r="46" b="265" />
+		</asset>
+		<pos x="343" y="213" />
+		<rect l="0" t="0" r="338" b="342" />
+		<Visible val="True" />
+		<Anchor val="None" />
+		<snd type="SHOW"></snd>
+		<snd type="HIDE"></snd>
+		<Dragable val="True" />
+		<StartPosition val="None" />
+		<EscKeyAction val="None" />
+		<IsHitTestVisible val="True" />
+		<ClipChildren val="False" />
+		<base type="WNDEX" subclass="" name="blink">
+			<asset type="BG" path="" tileMode="Stretch">
+				<tex x="4" y="4" />
+				<rect l="167" t="70" r="4" b="239" />
+			</asset>
+			<asset type="EDGE_LT" path="" tileMode="Stretch">
+				<tex x="167" y="70" />
+				<rect l="0" t="0" r="167" b="70" />
+			</asset>
+			<asset type="EDGE_RT" path="" tileMode="Stretch">
+				<tex x="167" y="70" />
+				<rect l="0" t="0" r="167" b="70" />
+			</asset>
+			<asset type="EDGE_LB" path="" tileMode="Stretch">
+				<tex x="167" y="33" />
+				<rect l="0" t="0" r="167" b="33" />
+			</asset>
+			<asset type="EDGE_RB" path="" tileMode="Stretch">
+				<tex x="167" y="33" />
+				<rect l="0" t="0" r="167" b="33" />
+			</asset>
+			<asset type="FRAME_T" path="" tileMode="Stretch">
+				<tex x="4" y="70" />
+				<rect l="167" t="0" r="4" b="70" />
+			</asset>
+			<asset type="FRAME_B" path="" tileMode="Stretch">
+				<tex x="4" y="33" />
+				<rect l="167" t="0" r="4" b="33" />
+			</asset>
+			<asset type="FRAME_L" path="" tileMode="Stretch">
+				<tex x="167" y="4" />
+				<rect l="0" t="70" r="167" b="239" />
+			</asset>
+			<asset type="FRAME_R" path="" tileMode="Stretch">
+				<tex x="167" y="4" />
+				<rect l="0" t="70" r="167" b="239" />
+			</asset>
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="338" b="342" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<snd type="SHOW"></snd>
+			<snd type="HIDE"></snd>
+			<Dragable val="False" />
+			<StartPosition val="None" />
+			<EscKeyAction val="None" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</base>
+		<base type="WNDEX" subclass="" name="WndEx">
+			<asset type="BG" path="frm_std_innner_01_CenterMiddle.png" tileMode="Stretch">
+				<tex x="4" y="4" />
+				<rect l="10" t="10" r="260" b="198" />
+			</asset>
+			<asset type="EDGE_LT" path="frm_std_innner_01_LeftTop.png" tileMode="Stretch">
+				<tex x="10" y="10" />
+				<rect l="0" t="0" r="10" b="10" />
+			</asset>
+			<asset type="EDGE_RT" path="frm_std_innner_01_RightTop.png" tileMode="Stretch">
+				<tex x="10" y="10" />
+				<rect l="0" t="0" r="10" b="10" />
+			</asset>
+			<asset type="EDGE_LB" path="frm_std_innner_01_LeftBottom.png" tileMode="Stretch">
+				<tex x="10" y="10" />
+				<rect l="0" t="0" r="10" b="10" />
+			</asset>
+			<asset type="EDGE_RB" path="frm_std_innner_01_RightBottom.png" tileMode="Stretch">
+				<tex x="10" y="10" />
+				<rect l="0" t="0" r="10" b="10" />
+			</asset>
+			<asset type="FRAME_T" path="frm_std_innner_01_CenterTop.png" tileMode="Tile">
+				<tex x="4" y="10" />
+				<rect l="10" t="0" r="260" b="10" />
+			</asset>
+			<asset type="FRAME_B" path="frm_std_innner_01_CenterBottom.png" tileMode="Tile">
+				<tex x="4" y="10" />
+				<rect l="10" t="0" r="260" b="10" />
+			</asset>
+			<asset type="FRAME_L" path="frm_std_innner_01_LeftMiddle.png" tileMode="Tile">
+				<tex x="10" y="4" />
+				<rect l="0" t="10" r="10" b="198" />
+			</asset>
+			<asset type="FRAME_R" path="frm_std_innner_01_RightMiddle.png" tileMode="Tile">
+				<tex x="10" y="4" />
+				<rect l="0" t="10" r="10" b="198" />
+			</asset>
+			<pos x="29" y="49" />
+			<rect l="0" t="0" r="280" b="218" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<snd type="SHOW"></snd>
+			<snd type="HIDE"></snd>
+			<Dragable val="False" />
+			<StartPosition val="None" />
+			<EscKeyAction val="None" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</base>
+		<child type="PICTURE" name="bg_scroll" subclass="">
+			<asset type="STATIC">scroll_bg.png</asset>
+			<pos x="284" y="59" />
+			<rect l="0" t="0" r="16" b="200" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<base type="WNDEX" subclass="" name="dialog_view_bg">
+			<asset type="BG" path="" tileMode="Stretch">
+				<tex x="20" y="20" />
+				<rect l="20" t="20" r="224" b="166" />
+			</asset>
+			<asset type="EDGE_LT" path="" tileMode="Stretch">
+				<tex x="20" y="20" />
+				<rect l="0" t="0" r="20" b="20" />
+			</asset>
+			<asset type="EDGE_RT" path="" tileMode="Stretch">
+				<tex x="20" y="20" />
+				<rect l="0" t="0" r="20" b="20" />
+			</asset>
+			<asset type="EDGE_LB" path="" tileMode="Stretch">
+				<tex x="20" y="20" />
+				<rect l="0" t="0" r="20" b="20" />
+			</asset>
+			<asset type="EDGE_RB" path="" tileMode="Stretch">
+				<tex x="20" y="20" />
+				<rect l="0" t="0" r="20" b="20" />
+			</asset>
+			<asset type="FRAME_T" path="" tileMode="Stretch">
+				<tex x="20" y="20" />
+				<rect l="20" t="0" r="224" b="20" />
+			</asset>
+			<asset type="FRAME_B" path="" tileMode="Stretch">
+				<tex x="20" y="20" />
+				<rect l="20" t="0" r="224" b="20" />
+			</asset>
+			<asset type="FRAME_L" path="" tileMode="Stretch">
+				<tex x="20" y="20" />
+				<rect l="0" t="20" r="20" b="166" />
+			</asset>
+			<asset type="FRAME_R" path="" tileMode="Stretch">
+				<tex x="20" y="20" />
+				<rect l="0" t="20" r="20" b="166" />
+			</asset>
+			<pos x="40" y="59" />
+			<rect l="0" t="0" r="264" b="206" />
+			<Visible val="True" />
+			<Anchor val="Top, Bottom, Left, Right" />
+			<snd type="SHOW"></snd>
+			<snd type="HIDE"></snd>
+			<Dragable val="False" />
+			<StartPosition val="None" />
+			<EscKeyAction val="None" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<child type="TEXTAREASC" subclass="" name="txt_dialog_content">
+				<asset type="BG" path="" tileMode="Tile">
+					<tex x="0" y="0" />
+					<rect l="8" t="8" r="243" b="185" />
+				</asset>
+				<asset type="EDGE_LT" path="" tileMode="Tile">
+					<tex x="0" y="0" />
+					<rect l="0" t="0" r="8" b="8" />
+				</asset>
+				<asset type="EDGE_RT" path="" tileMode="Tile">
+					<tex x="0" y="0" />
+					<rect l="0" t="0" r="8" b="8" />
+				</asset>
+				<asset type="EDGE_LB" path="" tileMode="Tile">
+					<tex x="0" y="0" />
+					<rect l="0" t="0" r="8" b="8" />
+				</asset>
+				<asset type="EDGE_RB" path="" tileMode="Tile">
+					<tex x="0" y="0" />
+					<rect l="0" t="0" r="8" b="8" />
+				</asset>
+				<asset type="FRAME_T" path="" tileMode="Tile">
+					<tex x="0" y="0" />
+					<rect l="8" t="0" r="243" b="8" />
+				</asset>
+				<asset type="FRAME_B" path="" tileMode="Tile">
+					<tex x="0" y="0" />
+					<rect l="8" t="0" r="243" b="8" />
+				</asset>
+				<asset type="FRAME_L" path="" tileMode="Tile">
+					<tex x="0" y="0" />
+					<rect l="0" t="8" r="8" b="185" />
+				</asset>
+				<asset type="FRAME_R" path="" tileMode="Tile">
+					<tex x="0" y="0" />
+					<rect l="0" t="8" r="8" b="185" />
+				</asset>
+				<asset type="CARET" path="dialog_caret.png">
+					<rpos x="0" y="0" />
+					<rect l="0" t="0" r="2" b="16" />
+				</asset>
+				<control type="VSCROLLBAR" name="txt_dialog_content_VSlider" horizontal="0">
+					<control type="BUTTON_LT" name="txt_dialog_content_VScrollBar_TopButton">
+						<asset type="NORMAL">scroll_up_Normal.png</asset>
+						<asset type="DOWN">scroll_up_Push.png</asset>
+						<asset type="OVER">scroll_up_Hover.png</asset>
+						<asset type="DISABLE">scroll_up_Disable.png</asset>
+						<pos x="0" y="0" />
+						<rect l="0" t="0" r="14" b="17" />
+						<Visible val="True" />
+						<Anchor val="Top, Left, Right" />
+						<snd type="OVER"></snd>
+						<snd type="DOWN"></snd>
+						<snd type="RELEASE"></snd>
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+						<IsDefaultButton val="False" />
+					</control>
+					<control type="THUMB" name="txt_dialog_content_VScrollBar_Thumb">
+						<asset type="NORMAL">scroll_long_Normal.png</asset>
+						<asset type="DOWN">scroll_long_Push.png</asset>
+						<asset type="OVER">scroll_long_Hover.png</asset>
+						<asset type="DISABLE"></asset>
+						<pos x="0" y="21" />
+						<rect l="0" t="0" r="14" b="62" />
+						<Visible val="True" />
+						<Anchor val="Top, Left, Right" />
+						<snd type="OVER"></snd>
+						<snd type="DOWN"></snd>
+						<snd type="RELEASE"></snd>
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+						<IsDefaultButton val="False" />
+					</control>
+					<control type="BUTTON_RB" name="txt_dialog_content_VScrollBar_BottomButton">
+						<asset type="NORMAL">scroll_down_Normal.png</asset>
+						<asset type="DOWN">scroll_down_Push.png</asset>
+						<asset type="OVER">scroll_down_Hover.png</asset>
+						<asset type="DISABLE">scroll_down_Disable.png</asset>
+						<pos x="0" y="183" />
+						<rect l="0" t="0" r="14" b="17" />
+						<Visible val="True" />
+						<Anchor val="Bottom, Left, Right" />
+						<snd type="OVER"></snd>
+						<snd type="DOWN"></snd>
+						<snd type="RELEASE"></snd>
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+						<IsDefaultButton val="False" />
+					</control>
+					<pos x="245" y="0" />
+					<rect l="0" t="0" r="14" b="200" />
+					<Visible val="True" />
+					<Anchor val="Top, Bottom, Right" />
+					<scrollrect l="0" t="17" r="14" b="183" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+				</control>
+				<pos x="0" y="0" />
+				<rect l="0" t="0" r="259" b="201" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<Editable val="False" />
+				<OutlineColor val="#FF0000" />
+				<ShadowColor val="#CBB8AA" />
+				<SelectionBrush val="#FF0000" />
+				<padding l="0" t="0" r="20" b="0" />
+				<showalways hscroll="0" vscroll="1" />
+				<autovisible hscroll="0" vscroll="1" />
+				<autovisiblerect l="0" t="0" r="0" b="0" />
+				<color val="#796456FF" />
+				<style val="1" />
+				<halign val="0" />
+				<FontName val="나눔고딕" />
+				<FontSize val="13" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="True" />
+				<FitToContent val="False" />
+				<Text val="" />
+			</child>
+		</base>
+		<base type="WNDEX" subclass="" name="write_dialog_bg">
+			<asset type="BG" path="dialog_edit_frm_04.png" tileMode="Stretch">
+				<tex x="10" y="10" />
+				<rect l="10" t="10" r="240" b="10" />
+			</asset>
+			<asset type="EDGE_LT" path="dialog_edit_frm_00.png" tileMode="Stretch">
+				<tex x="10" y="10" />
+				<rect l="0" t="0" r="10" b="10" />
+			</asset>
+			<asset type="EDGE_RT" path="dialog_edit_frm_02.png" tileMode="Stretch">
+				<tex x="10" y="10" />
+				<rect l="0" t="0" r="10" b="10" />
+			</asset>
+			<asset type="EDGE_LB" path="dialog_edit_frm_06.png" tileMode="Stretch">
+				<tex x="10" y="10" />
+				<rect l="0" t="0" r="10" b="10" />
+			</asset>
+			<asset type="EDGE_RB" path="dialog_edit_frm_08.png" tileMode="Stretch">
+				<tex x="10" y="10" />
+				<rect l="0" t="0" r="10" b="10" />
+			</asset>
+			<asset type="FRAME_T" path="dialog_edit_frm_01.png" tileMode="Stretch">
+				<tex x="10" y="10" />
+				<rect l="10" t="0" r="240" b="10" />
+			</asset>
+			<asset type="FRAME_B" path="dialog_edit_frm_07.png" tileMode="Stretch">
+				<tex x="10" y="10" />
+				<rect l="10" t="0" r="240" b="10" />
+			</asset>
+			<asset type="FRAME_L" path="dialog_edit_frm_03.png" tileMode="Stretch">
+				<tex x="10" y="10" />
+				<rect l="0" t="10" r="10" b="10" />
+			</asset>
+			<asset type="FRAME_R" path="dialog_edit_frm_05.png" tileMode="Stretch">
+				<tex x="10" y="10" />
+				<rect l="0" t="10" r="10" b="10" />
+			</asset>
+			<pos x="39" y="283" />
+			<rect l="0" t="0" r="260" b="30" />
+			<Visible val="True" />
+			<Anchor val="Left, Right" />
+			<snd type="SHOW"></snd>
+			<snd type="HIDE"></snd>
+			<Dragable val="False" />
+			<StartPosition val="None" />
+			<EscKeyAction val="None" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<child type="EDIT" name="Edit_dialog" subclass="">
+				<asset type="BG" path="" tileMode="Tile">
+					<tex x="0" y="0" />
+					<rect l="8" t="8" r="218" b="2" />
+				</asset>
+				<asset type="EDGE_LT" path="" tileMode="Tile">
+					<tex x="0" y="0" />
+					<rect l="0" t="0" r="8" b="8" />
+				</asset>
+				<asset type="EDGE_RT" path="" tileMode="Tile">
+					<tex x="0" y="0" />
+					<rect l="0" t="0" r="8" b="8" />
+				</asset>
+				<asset type="EDGE_LB" path="" tileMode="Tile">
+					<tex x="0" y="0" />
+					<rect l="0" t="0" r="8" b="8" />
+				</asset>
+				<asset type="EDGE_RB" path="" tileMode="Tile">
+					<tex x="0" y="0" />
+					<rect l="0" t="0" r="8" b="8" />
+				</asset>
+				<asset type="FRAME_T" path="" tileMode="Tile">
+					<tex x="0" y="0" />
+					<rect l="8" t="0" r="218" b="8" />
+				</asset>
+				<asset type="FRAME_B" path="" tileMode="Tile">
+					<tex x="0" y="0" />
+					<rect l="8" t="0" r="218" b="8" />
+				</asset>
+				<asset type="FRAME_L" path="" tileMode="Tile">
+					<tex x="0" y="0" />
+					<rect l="0" t="8" r="8" b="2" />
+				</asset>
+				<asset type="FRAME_R" path="" tileMode="Tile">
+					<tex x="0" y="0" />
+					<rect l="0" t="8" r="8" b="2" />
+				</asset>
+				<asset type="CARET" path="dialog_caret.png">
+					<rpos x="0" y="0" />
+					<rect l="0" t="0" r="2" b="16" />
+				</asset>
+				<pos x="13" y="6" />
+				<rect l="0" t="0" r="234" b="18" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<padding l="0" t="0" r="0" b="0" />
+				<passwordchar val="" />
+				<OutlineColor val="#D1BFB2" />
+				<ShadowColor val="#CBB8AAFF" />
+				<SelectionBrush val="#FF0000" />
+				<color val="#796456FF" />
+				<style val="1" />
+				<halign val="0" />
+				<valign val="0" />
+				<FontName val="나눔고딕" />
+				<FontSize val="13" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+		</base>
+		<child type="PANEL" name="chat_off" subclass="">
+			<pos x="42" y="266" />
+			<rect l="0" t="0" r="254" b="44" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<embed src="" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<child type="PICTURE" name="img_edit_disable" subclass="">
+				<asset type="STATIC">edit_a_disable.png</asset>
+				<pos x="0" y="20" />
+				<rect l="0" t="0" r="254" b="24" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="img_chat_off" subclass="">
+				<asset type="ANIMATION">dialog_window_img_chat_off.xml</asset>
+				<pos x="200" y="0" />
+				<rect l="0" t="0" r="30" b="23" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+		</child>
+		<base type="WNDEX" subclass="" name="wndex_courselist_title1">
+			<asset type="BG" path="" tileMode="Stretch">
+				<tex x="4" y="4" />
+				<rect l="130" t="38" r="1" b="-14" />
+			</asset>
+			<asset type="EDGE_LT" path="frm_depth1_titlebar_left.png" tileMode="Stretch">
+				<tex x="131" y="38" />
+				<rect l="0" t="0" r="130" b="38" />
+			</asset>
+			<asset type="EDGE_RT" path="frm_depth1_titlebar_right.png" tileMode="Stretch">
+				<tex x="130" y="38" />
+				<rect l="0" t="0" r="130" b="38" />
+			</asset>
+			<asset type="EDGE_LB" path="" tileMode="Stretch">
+				<tex x="5" y="5" />
+				<rect l="0" t="0" r="16" b="16" />
+			</asset>
+			<asset type="EDGE_RB" path="" tileMode="Stretch">
+				<tex x="5" y="5" />
+				<rect l="-114" t="0" r="16" b="16" />
+			</asset>
+			<asset type="FRAME_T" path="frm_depth1_titlebar_center.png" tileMode="Tile">
+				<tex x="31" y="32" />
+				<rect l="130" t="0" r="15" b="38" />
+			</asset>
+			<asset type="FRAME_B" path="" tileMode="Stretch">
+				<tex x="4" y="5" />
+				<rect l="130" t="0" r="1" b="16" />
+			</asset>
+			<asset type="FRAME_L" path="" tileMode="Stretch">
+				<tex x="5" y="4" />
+				<rect l="0" t="38" r="16" b="-14" />
+			</asset>
+			<asset type="FRAME_R" path="" tileMode="Stretch">
+				<tex x="5" y="4" />
+				<rect l="-114" t="38" r="16" b="-14" />
+			</asset>
+			<pos x="22" y="4" />
+			<rect l="0" t="0" r="275" b="40" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<snd type="SHOW"></snd>
+			<snd type="HIDE"></snd>
+			<Dragable val="False" />
+			<StartPosition val="None" />
+			<EscKeyAction val="None" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<child type="LABEL" name="txt_diauser_nickname" subclass="">
+				<pos x="46" y="25" />
+				<rect l="0" t="0" r="202" b="-12" />
+				<Visible val="True" />
+				<Anchor val="Top, Bottom, Left, Right" />
+				<label val="ABCDEF" />
+				<OutlineColor val="#FF0000" />
+				<ShadowColor val="#000000FF" />
+				<color val="#FFFFFFFF" />
+				<halign val="0" />
+				<valign val="1" />
+				<FontName val="나눔고딕 ExtraBold" />
+				<FontSize val="16" />
+				<TextTrimming val="CharacterEllipsis" />
+				<style val="32" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+				<Padding val="0, 0, 0, 0" />
+				<FitToContent val="False" />
+			</child>
+			<child type="PICTURE" name="img_diauser_state" subclass="">
+				<asset type="STATIC"></asset>
+				<pos x="27" y="12" />
+				<rect l="0" t="0" r="13" b="13" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+		</base>
+		<child type="BUTTON" subclass="" name="btn_dialog_close">
+			<asset type="NORMAL">btn_depth1_RightTop_close_Normal.png</asset>
+			<asset type="DOWN">btn_depth1_RightTop_close_Push.png</asset>
+			<asset type="OVER">btn_depth1_RightTop_close_Hover.png</asset>
+			<asset type="DISABLE">btn_depth1_RightTop_close_Disable.png</asset>
+			<pos x="304" y="8" />
+			<rect l="0" t="0" r="23" b="23" />
+			<Visible val="True" />
+			<Anchor val="Top, Right" />
+			<snd type="OVER"></snd>
+			<snd type="DOWN">ui_btn_menu_click</snd>
+			<snd type="RELEASE">ui_btn_menu_close</snd>
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<IsDefaultButton val="False" />
+		</child>
+	</base>
+</refresh>

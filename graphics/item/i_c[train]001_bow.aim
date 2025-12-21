@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <event animation="r00_p_cool_00">
+        <function>RelayMsg("CareModel", "RelayMsg", "ShowResult")</function>
+        <time>1.1910</time>
+        <freq>ONCE</freq>
+    </event>
+    <event animation="r00_p_cool_00">
+        <function>PlaySND($asset, "ranch_bow_shoot_st", "", "-var 0")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="r00_p_cool_00">
+        <function>PlaySND($asset, "ranch_bow_hit", "Dummy_Snd", "-var 0")</function>
+        <time>1.1931</time>
+        <freq>100</freq>
+    </event>
+    <event animation="r00_p_fail_00">
+        <function>RelayMsg("CareModel", "RelayMsg", "ShowResult")</function>
+        <time>1.1972</time>
+        <freq>ONCE</freq>
+    </event>
+    <event animation="r00_p_fail_00">
+        <function>PlaySND($asset, "ranch_bow_shoot_st", "", "-var 0")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="r00_p_fail_00">
+        <function>PlaySND($asset, "ranch_bow_miss", "Dummy_Snd", "-var 0")</function>
+        <time>1.0473</time>
+        <freq>100</freq>
+    </event>
+    <event animation="r00_p_loop_00_trans">
+        <function>PlaySND($asset, "ranch_bow_draw_st", "", "-var 0")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="r02_p_cool_00">
+        <function>RelayMsg("CareModel", "RelayMsg", "ShowResult")</function>
+        <time>1.2607</time>
+        <freq>ONCE</freq>
+    </event>
+    <event animation="r02_p_cool_00">
+        <function>PlaySND($asset, "ranch_bow_shoot_st", "", "-var 0")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="r02_p_cool_00">
+        <function>PlaySND($asset, "ranch_bow_hit", "Dummy_Snd", "-var 0")</function>
+        <time>1.2607</time>
+        <freq>100</freq>
+    </event>
+    <event animation="r02_p_fail_00">
+        <function>RelayMsg("CareModel", "RelayMsg", "ShowResult")</function>
+        <time>1.3099</time>
+        <freq>ONCE</freq>
+    </event>
+    <event animation="r02_p_fail_00">
+        <function>PlaySND($asset, "ranch_bow_shoot_st", "", "-var 0")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="r02_p_fail_00">
+        <function>PlaySND($asset, "ranch_bow_miss", "Dummy_Snd", "-var 0")</function>
+        <time>1.2145</time>
+        <freq>100</freq>
+    </event>
+    <event animation="r02_p_loop_00_trans">
+        <function>PlaySND($asset, "ranch_bow_draw_st", "", "-var 0")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <dummy name="Dummy_Snd" parent="Bow_arrowSKin" sync="TRUE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.0000</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <category name="R00" script="-r00" />
+    <category name="R02" script="-r02" />
+    <action category="R00" state="CARE_PLAY_BOW_ATTACH_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>r00_idle_00</main>
+    </action>
+    <action category="R02" state="CARE_PLAY_BOW_ATTACH_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>r02_idle_00</main>
+    </action>
+    <action category="R00" state="CARE_PLAY_BOW_FAILURE" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>r00_p_fail_00</main>
+    </action>
+    <action category="R02" state="CARE_PLAY_BOW_FAILURE" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>r02_p_fail_00</main>
+    </action>
+    <action category="R00" state="CARE_PLAY_BOW_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>r00_p_idle_00</main>
+    </action>
+    <action category="R02" state="CARE_PLAY_BOW_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>r02_p_idle_00</main>
+    </action>
+    <action category="R00" state="CARE_PLAY_BOW_INTRO" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>r00_p_idle_00_trans</main>
+    </action>
+    <action category="R02" state="CARE_PLAY_BOW_INTRO" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>r02_p_idle_00_trans</main>
+    </action>
+    <action category="R00" state="CARE_PLAY_BOW_LOOP" prevState="" loop="1" weight="1" script="">
+        <begin speed=0.0000>r00_p_loop_00_trans</begin>
+        <main speed=0.0000>r00_p_loop_00</main>
+    </action>
+    <action category="R02" state="CARE_PLAY_BOW_LOOP" prevState="" loop="1" weight="1" script="">
+        <begin speed=0.0000>r02_p_loop_00_trans</begin>
+        <main speed=0.0000>r02_p_loop_00</main>
+    </action>
+    <action category="R00" state="CARE_PLAY_BOW_SELECT" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>r00_idle_00_trans</main>
+    </action>
+    <action category="R02" state="CARE_PLAY_BOW_SELECT" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>r02_idle_00_trans</main>
+    </action>
+    <action category="R00" state="CARE_PLAY_BOW_SUCCESS" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>r00_p_cool_00</main>
+    </action>
+    <action category="R02" state="CARE_PLAY_BOW_SUCCESS" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>r02_p_cool_00</main>
+    </action>
+    <blend sec="0.00">
+        <name>r00_idle_00</name>
+    </blend>
+    <blend sec="0.00">
+        <name>r00_idle_00_trans</name>
+    </blend>
+    <blend sec="0.00">
+        <name>r00_p_idle_00_trans</name>
+    </blend>
+    <blend sec="0.00">
+        <name>r02_idle_00</name>
+    </blend>
+    <blend sec="0.00">
+        <name>r02_idle_00_trans</name>
+    </blend>
+    <blend sec="0.00">
+        <name>r02_p_idle_00_trans</name>
+    </blend>
+</aim>

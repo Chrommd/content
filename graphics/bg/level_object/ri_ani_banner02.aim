@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <event animation="1st">
+        <function>RelayMsg($asset, "FadeOut", "-time 1")</function>
+        <time>2.1484</time>
+        <freq>100</freq>
+    </event>
+    <event animation="2nd">
+        <function>RelayMsg($asset, "FadeOut", "-time 1")</function>
+        <time>1.5625</time>
+        <freq>100</freq>
+    </event>
+    <event animation="3rd">
+        <function>RelayMsg($asset, "FadeOut", "-time 1")</function>
+        <time>1.9297</time>
+        <freq>100</freq>
+    </event>
+    <action state="BROKEN_1ST" prevState="" loop="0">
+        <main speed=0.0000>1st</main>
+    </action>
+    <action state="BROKEN_2ND" prevState="" loop="0">
+        <main speed=0.0000>2nd</main>
+    </action>
+    <action state="BROKEN_3RD" prevState="" loop="0">
+        <main speed=0.0000>3rd</main>
+    </action>
+</aim>

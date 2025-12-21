@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="login_desktop_Animation.xml" />
+  </properties>
+  <base type="WND" subclass="" name="login_desktop">
+    <Visible val="True" />
+    <Anchor val="Top, Bottom, Left, Right" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="1024" b="768" />
+    <IsHitTestVisible val="True" />
+    <ClipChildren val="False" />
+    <child type="PICTURE" name="login_bg" subclass="">
+      <asset type="STATIC">login_bg.png</asset>
+      <Visible val="True" />
+      <Anchor val="Top, Bottom, Left, Right" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="1024" b="768" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="STACKPANEL" name="anchor_login" subclass="">
+      <Visible val="True" />
+      <Anchor val="Top, Bottom, Left, Right" />
+      <pos x="309" y="160" />
+      <rect l="0" t="0" r="408" b="461" />
+      <Orientation val="Vertical" />
+      <HAlign val="Center" />
+      <VAlign val="Center" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <base type="WND" subclass="" name="window">
+        <Visible val="True" />
+        <Anchor val="Top, Bottom, Left, Right" />
+        <pos x="0" y="0" />
+        <rect l="0" t="0" r="408" b="461" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <child type="PICTURE" name="login_title_img3_4" subclass="">
+          <asset type="STATIC">
+          </asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="859" y="499" />
+          <rect l="0" t="0" r="10" b="61" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="login_title_img3_3" subclass="">
+          <asset type="STATIC">
+          </asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="791" y="500" />
+          <rect l="0" t="0" r="10" b="61" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="login_title_img3_2" subclass="">
+          <asset type="STATIC">
+          </asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="727" y="499" />
+          <rect l="0" t="0" r="10" b="61" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="login_title_img3_1" subclass="">
+          <asset type="STATIC">
+          </asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="662" y="500" />
+          <rect l="0" t="0" r="10" b="61" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="BUTTON" subclass="" name="btn_quick_04">
+          <asset type="NORMAL">btn_quick_04_n.png</asset>
+          <asset type="DOWN">btn_quick_04_d.png</asset>
+          <asset type="OVER">btn_quick_04_o.png</asset>
+          <asset type="DISABLE">btn_quick_04_d.png</asset>
+          <snd type="OVER">ui_btn_menu_over</snd>
+          <snd type="DOWN">ui_btn_menu_click</snd>
+          <snd type="RELEASE">
+          </snd>
+          <pos x="272" y="370" />
+          <rect l="0" t="0" r="70" b="99" />
+          <Visible val="False" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+          <Anchor val="None" />
+          <IsDefaultButton val="False" />
+        </child>
+        <child type="BUTTON" subclass="" name="btn_quick_03">
+          <asset type="NORMAL">btn_quick_03_n.png</asset>
+          <asset type="DOWN">btn_quick_03_d.png</asset>
+          <asset type="OVER">btn_quick_03_o.png</asset>
+          <asset type="DISABLE">btn_quick_03_d.png</asset>
+          <snd type="OVER">ui_btn_menu_over</snd>
+          <snd type="DOWN">ui_btn_menu_click</snd>
+          <snd type="RELEASE">
+          </snd>
+          <pos x="207" y="370" />
+          <rect l="0" t="0" r="70" b="99" />
+          <Visible val="False" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+          <Anchor val="None" />
+          <IsDefaultButton val="False" />
+        </child>
+        <child type="BUTTON" subclass="" name="btn_quick_02">
+          <asset type="NORMAL">btn_quick_02_n.png</asset>
+          <asset type="DOWN">btn_quick_02_d.png</asset>
+          <asset type="OVER">btn_quick_02_o.png</asset>
+          <asset type="DISABLE">btn_quick_02_d.png</asset>
+          <snd type="OVER">ui_btn_menu_over</snd>
+          <snd type="DOWN">ui_btn_menu_click</snd>
+          <snd type="RELEASE">
+          </snd>
+          <pos x="142" y="370" />
+          <rect l="0" t="0" r="70" b="99" />
+          <Visible val="False" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+          <Anchor val="None" />
+          <IsDefaultButton val="False" />
+        </child>
+        <child type="BUTTON" subclass="" name="btn_quick_01">
+          <asset type="NORMAL">btn_quick_01_n.png</asset>
+          <asset type="DOWN">btn_quick_01_d.png</asset>
+          <asset type="OVER">btn_quick_01_o.png</asset>
+          <asset type="DISABLE">btn_quick_01_d.png</asset>
+          <snd type="OVER">ui_btn_menu_over</snd>
+          <snd type="DOWN">ui_btn_menu_click</snd>
+          <snd type="RELEASE">
+          </snd>
+          <pos x="77" y="370" />
+          <rect l="0" t="0" r="70" b="99" />
+          <Visible val="False" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+          <Anchor val="None" />
+          <IsDefaultButton val="False" />
+        </child>
+        <child type="PICTURE" name="img_bg" subclass="">
+          <asset type="STATIC">login_main_img.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="0" y="0" />
+          <rect l="0" t="0" r="408" b="328" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="login_title_img2" subclass="">
+          <asset type="STATIC">
+          </asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="65" y="149" />
+          <rect l="0" t="0" r="89" b="56" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="login_title_img1" subclass="">
+          <asset type="STATIC">
+          </asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="57" y="39" />
+          <rect l="0" t="0" r="302" b="76" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="EDIT" name="Edit_id" subclass="">
+          <asset type="BG" path="login_edit_04.png" tileMode="Stretch">
+            <tex x="10" y="6" />
+            <rect l="10" t="10" r="145" b="6" />
+          </asset>
+          <asset type="EDGE_LT" path="login_edit_00.png" tileMode="Stretch">
+            <tex x="10" y="10" />
+            <rect l="0" t="0" r="10" b="10" />
+          </asset>
+          <asset type="EDGE_RT" path="login_edit_02.png" tileMode="Stretch">
+            <tex x="10" y="10" />
+            <rect l="0" t="0" r="10" b="10" />
+          </asset>
+          <asset type="EDGE_LB" path="login_edit_06.png" tileMode="Stretch">
+            <tex x="10" y="10" />
+            <rect l="0" t="0" r="10" b="10" />
+          </asset>
+          <asset type="EDGE_RB" path="login_edit_08.png" tileMode="Stretch">
+            <tex x="10" y="10" />
+            <rect l="0" t="0" r="10" b="10" />
+          </asset>
+          <asset type="FRAME_T" path="login_edit_01.png" tileMode="Stretch">
+            <tex x="10" y="10" />
+            <rect l="10" t="0" r="145" b="10" />
+          </asset>
+          <asset type="FRAME_B" path="login_edit_07.png" tileMode="Stretch">
+            <tex x="10" y="10" />
+            <rect l="10" t="0" r="145" b="10" />
+          </asset>
+          <asset type="FRAME_L" path="login_edit_03.png" tileMode="Stretch">
+            <tex x="10" y="6" />
+            <rect l="0" t="10" r="10" b="6" />
+          </asset>
+          <asset type="FRAME_R" path="login_edit_05.png" tileMode="Stretch">
+            <tex x="10" y="6" />
+            <rect l="0" t="10" r="10" b="6" />
+          </asset>
+          <asset type="CARET" path="login_caret.png">
+            <rpos x="0" y="0" />
+            <rect l="0" t="0" r="2" b="12" />
+          </asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="164" y="147" />
+          <rect l="0" t="0" r="165" b="26" />
+          <padding l="9" t="4" r="3" b="2" />
+          <passwordchar val="" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#FF0000" />
+          <SelectionBrush val="#FF0000" />
+          <color val="#312103" />
+          <style val="1" />
+          <halign val="0" />
+          <valign val="0" />
+          <FontName val="나눔고딕" />
+          <FontSize val="13" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="img_nipper" subclass="">
+          <asset type="STATIC">
+          </asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="160" y="9" />
+          <rect l="0" t="0" r="93" b="28" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="EDIT" name="Edit_password" subclass="">
+          <asset type="BG" path="login_edit_04.png" tileMode="Stretch">
+            <tex x="10" y="6" />
+            <rect l="10" t="10" r="145" b="6" />
+          </asset>
+          <asset type="EDGE_LT" path="login_edit_00.png" tileMode="Stretch">
+            <tex x="10" y="10" />
+            <rect l="0" t="0" r="10" b="10" />
+          </asset>
+          <asset type="EDGE_RT" path="login_edit_02.png" tileMode="Stretch">
+            <tex x="10" y="10" />
+            <rect l="0" t="0" r="10" b="10" />
+          </asset>
+          <asset type="EDGE_LB" path="login_edit_06.png" tileMode="Stretch">
+            <tex x="10" y="10" />
+            <rect l="0" t="0" r="10" b="10" />
+          </asset>
+          <asset type="EDGE_RB" path="login_edit_08.png" tileMode="Stretch">
+            <tex x="10" y="10" />
+            <rect l="0" t="0" r="10" b="10" />
+          </asset>
+          <asset type="FRAME_T" path="login_edit_01.png" tileMode="Stretch">
+            <tex x="10" y="10" />
+            <rect l="10" t="0" r="145" b="10" />
+          </asset>
+          <asset type="FRAME_B" path="login_edit_07.png" tileMode="Stretch">
+            <tex x="10" y="10" />
+            <rect l="10" t="0" r="145" b="10" />
+          </asset>
+          <asset type="FRAME_L" path="login_edit_03.png" tileMode="Stretch">
+            <tex x="10" y="6" />
+            <rect l="0" t="10" r="10" b="6" />
+          </asset>
+          <asset type="FRAME_R" path="login_edit_05.png" tileMode="Stretch">
+            <tex x="10" y="6" />
+            <rect l="0" t="10" r="10" b="6" />
+          </asset>
+          <asset type="CARET" path="login_caret.png">
+            <rpos x="0" y="0" />
+            <rect l="0" t="0" r="2" b="12" />
+          </asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="164" y="182" />
+          <rect l="0" t="0" r="165" b="26" />
+          <padding l="9" t="4" r="3" b="2" />
+          <passwordchar val="*" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#FF0000" />
+          <SelectionBrush val="#FF0000" />
+          <color val="#312103" />
+          <style val="1" />
+          <halign val="0" />
+          <valign val="0" />
+          <FontName val="나눔고딕" />
+          <FontSize val="13" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="BUTTON" subclass="" name="btn_login">
+          <asset type="NORMAL">btn_login_n.png</asset>
+          <asset type="DOWN">btn_login_d.png</asset>
+          <asset type="OVER">btn_login_o.png</asset>
+          <asset type="DISABLE">btn_login_d.png</asset>
+          <snd type="OVER">
+          </snd>
+          <snd type="DOWN">
+          </snd>
+          <snd type="RELEASE">
+          </snd>
+          <pos x="283" y="239" />
+          <rect l="0" t="0" r="75" b="38" />
+          <Visible val="True" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+          <Anchor val="None" />
+          <IsDefaultButton val="False" />
+        </child>
+        <child type="LABEL" name="text_serverIp" subclass="">
+          <label val="" />
+          <pos x="58" y="250" />
+          <rect l="0" t="0" r="147" b="17" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#FF0000" />
+          <color val="#000000" />
+          <halign val="0" />
+          <valign val="0" />
+          <FontName val="나눔고딕" />
+          <FontSize val="13" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+      </base>
+    </child>
+  </base>
+</refresh>

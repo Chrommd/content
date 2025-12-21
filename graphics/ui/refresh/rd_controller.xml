@@ -1,0 +1,539 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+  </properties>
+  <base type="WND" subclass="" name="Wnd">
+    <Visible val="True" />
+    <Anchor val="Top, Left" />
+    <pos x="38" y="686" />
+    <rect l="0" t="0" r="947" b="82" />
+    <snd type="SHOW">
+    </snd>
+    <snd type="HIDE">
+    </snd>
+    <IsHitTestVisible val="True" />
+    <ClipChildren val="False" />
+    <base type="WNDEX" subclass="" name="WndEx_controller_back">
+      <asset type="BG" path="frame_controller_CenterMiddle.png" tileMode="Stretch">
+        <tex x="4" y="4" />
+        <rect l="7" t="7" r="933" b="49" />
+      </asset>
+      <asset type="EDGE_LT" path="frame_controller_LeftTop.png" tileMode="Stretch">
+        <tex x="7" y="7" />
+        <rect l="0" t="0" r="7" b="7" />
+      </asset>
+      <asset type="EDGE_RT" path="frame_controller_RightTop.png" tileMode="Stretch">
+        <tex x="7" y="7" />
+        <rect l="0" t="0" r="7" b="7" />
+      </asset>
+      <asset type="EDGE_LB" path="frame_controller_LeftMiddle.png" tileMode="Tile">
+        <tex x="7" y="4" />
+        <rect l="0" t="0" r="7" b="4" />
+      </asset>
+      <asset type="EDGE_RB" path="frame_controller_RightMiddle.png" tileMode="Tile">
+        <tex x="7" y="4" />
+        <rect l="0" t="0" r="7" b="4" />
+      </asset>
+      <asset type="FRAME_T" path="frame_controller_CenterTop.png" tileMode="Stretch">
+        <tex x="4" y="7" />
+        <rect l="7" t="0" r="933" b="7" />
+      </asset>
+      <asset type="FRAME_B" path="frame_controller_CenterMiddle.png" tileMode="Tile">
+        <tex x="4" y="4" />
+        <rect l="7" t="0" r="933" b="4" />
+      </asset>
+      <asset type="FRAME_L" path="frame_controller_LeftMiddle.png" tileMode="Stretch">
+        <tex x="7" y="4" />
+        <rect l="0" t="7" r="7" b="49" />
+      </asset>
+      <asset type="FRAME_R" path="frame_controller_RightMiddle.png" tileMode="Stretch">
+        <tex x="7" y="4" />
+        <rect l="0" t="7" r="7" b="49" />
+      </asset>
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <pos x="0" y="22" />
+      <rect l="0" t="0" r="947" b="60" />
+      <snd type="SHOW">
+      </snd>
+      <snd type="HIDE">
+      </snd>
+      <Dragable val="False" />
+      <StartPosition val="None" />
+      <EscKeyAction val="None" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </base>
+    <child type="PANEL" name="btn_mymenu" subclass="">
+      <Visible val="True" />
+      <Anchor val="None" />
+      <embed src="" />
+      <pos x="747" y="32" />
+      <rect l="0" t="0" r="194" b="38" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <child type="ANIMBUTTON" name="btn_mymenu_option" subclass="">
+        <asset type="GROUP">rd_controller_btn_mymenu_option.xml</asset>
+        <asset type="NORMAL">
+        </asset>
+        <asset type="DOWN">
+        </asset>
+        <asset type="OVER">
+        </asset>
+        <asset type="DISABLE">
+        </asset>
+        <asset type="ENTER">
+        </asset>
+        <asset type="LEAVE">
+        </asset>
+        <snd type="OVER">
+        </snd>
+        <snd type="DOWN">ui_btn_menu_click</snd>
+        <snd type="RELEASE">ui_btn_menu_release</snd>
+        <pos x="156" y="0" />
+        <rect l="0" t="0" r="38" b="38" />
+        <Visible val="True" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <Anchor val="None" />
+        <IsDefaultButton val="False" />
+      </child>
+      <child type="ANIMBUTTON" name="btn_mymenu_post" subclass="">
+        <asset type="GROUP">rd_controller_btn_mymenu_post.xml</asset>
+        <asset type="NORMAL">
+        </asset>
+        <asset type="DOWN">
+        </asset>
+        <asset type="OVER">
+        </asset>
+        <asset type="DISABLE">
+        </asset>
+        <asset type="ENTER">
+        </asset>
+        <asset type="LEAVE">
+        </asset>
+        <snd type="OVER">
+        </snd>
+        <snd type="DOWN">ui_btn_menu_click</snd>
+        <snd type="RELEASE">ui_btn_menu_release</snd>
+        <pos x="117" y="0" />
+        <rect l="0" t="0" r="38" b="38" />
+        <Visible val="True" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <Anchor val="None" />
+        <IsDefaultButton val="False" />
+      </child>
+      <child type="ANIMBUTTON" name="btn_mymenu_post1" subclass="">
+        <asset type="GROUP">rd_controller_btn_mymenu_post1.xml</asset>
+        <asset type="NORMAL">
+        </asset>
+        <asset type="DOWN">
+        </asset>
+        <asset type="OVER">
+        </asset>
+        <asset type="DISABLE">
+        </asset>
+        <asset type="ENTER">
+        </asset>
+        <asset type="LEAVE">
+        </asset>
+        <snd type="OVER">
+        </snd>
+        <snd type="DOWN">ui_btn_menu_click</snd>
+        <snd type="RELEASE">ui_btn_menu_release</snd>
+        <pos x="117" y="0" />
+        <rect l="0" t="0" r="38" b="38" />
+        <Visible val="True" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <Anchor val="None" />
+        <IsDefaultButton val="False" />
+      </child>
+      <child type="ANIMBUTTON" name="btn_mymenu_chat" subclass="">
+        <asset type="GROUP">rd_controller_btn_mymenu_chat.xml</asset>
+        <asset type="NORMAL">
+        </asset>
+        <asset type="DOWN">
+        </asset>
+        <asset type="OVER">
+        </asset>
+        <asset type="DISABLE">
+        </asset>
+        <asset type="ENTER">
+        </asset>
+        <asset type="LEAVE">
+        </asset>
+        <snd type="OVER">
+        </snd>
+        <snd type="DOWN">ui_btn_menu_click</snd>
+        <snd type="RELEASE">ui_btn_menu_release</snd>
+        <pos x="78" y="0" />
+        <rect l="0" t="0" r="38" b="38" />
+        <Visible val="True" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <Anchor val="None" />
+        <IsDefaultButton val="False" />
+      </child>
+      <child type="ANIMBUTTON" name="btn_mymenu_info" subclass="">
+        <asset type="GROUP">rd_controller_btn_mymenu_info.xml</asset>
+        <asset type="NORMAL">
+        </asset>
+        <asset type="DOWN">
+        </asset>
+        <asset type="OVER">
+        </asset>
+        <asset type="DISABLE">
+        </asset>
+        <asset type="ENTER">
+        </asset>
+        <asset type="LEAVE">
+        </asset>
+        <snd type="OVER">
+        </snd>
+        <snd type="DOWN">ui_btn_menu_click</snd>
+        <snd type="RELEASE">ui_btn_menu_release</snd>
+        <pos x="39" y="0" />
+        <rect l="0" t="0" r="38" b="38" />
+        <Visible val="True" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <Anchor val="None" />
+        <IsDefaultButton val="False" />
+      </child>
+      <child type="ANIMBUTTON" name="btn_mymenu_horse_info" subclass="">
+        <asset type="GROUP">rd_controller_btn_mymenu_horse_info.xml</asset>
+        <asset type="NORMAL">
+        </asset>
+        <asset type="DOWN">
+        </asset>
+        <asset type="OVER">
+        </asset>
+        <asset type="DISABLE">
+        </asset>
+        <asset type="ENTER">
+        </asset>
+        <asset type="LEAVE">
+        </asset>
+        <snd type="OVER">
+        </snd>
+        <snd type="DOWN">
+        </snd>
+        <snd type="RELEASE">
+        </snd>
+        <pos x="0" y="93" />
+        <rect l="0" t="0" r="38" b="38" />
+        <Visible val="True" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <Anchor val="None" />
+        <IsDefaultButton val="False" />
+      </child>
+    </child>
+    <child type="PICTURE" name="dummy_controller_selectmap" subclass="">
+      <asset type="STATIC">mapdummy.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="14" y="0" />
+      <rect l="0" t="0" r="106" b="72" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <child type="ANIMBUTTON" name="btn_controller_course" subclass="">
+        <asset type="GROUP">rd_controller_btn_controller_course.xml</asset>
+        <asset type="NORMAL">
+        </asset>
+        <asset type="DOWN">
+        </asset>
+        <asset type="OVER">
+        </asset>
+        <asset type="DISABLE">
+        </asset>
+        <asset type="ENTER">
+        </asset>
+        <asset type="LEAVE">
+        </asset>
+        <snd type="OVER">
+        </snd>
+        <snd type="DOWN">ui_btn_menu_click</snd>
+        <snd type="RELEASE">ui_btn_menu_page</snd>
+        <pos x="0" y="-1" />
+        <rect l="0" t="0" r="106" b="72" />
+        <Visible val="True" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <Anchor val="Top, Left" />
+        <IsDefaultButton val="False" />
+        <child type="LABEL" name="lb_mapname" subclass="">
+          <label val="" />
+          <pos x="7" y="50" />
+          <rect l="0" t="0" r="93" b="19" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#FF0000" />
+          <color val="#FF0000" />
+          <halign val="0" />
+          <valign val="0" />
+          <FontName val="나눔고딕" />
+          <FontSize val="10" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+      </child>
+      <child type="PICTURE" name="img_course_level" subclass="">
+        <asset type="STATIC">course_level_5.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="5" y="5" />
+        <rect l="0" t="0" r="68" b="15" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="False" />
+        <ClipChildren val="False" />
+      </child>
+    </child>
+    <child type="PANEL" name="btn_gamestart_menu" subclass="">
+      <Visible val="True" />
+      <Anchor val="None" />
+      <embed src="" />
+      <pos x="120" y="-28" />
+      <rect l="0" t="0" r="105" b="109" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <child type="ANIMBUTTON" name="btn_ready_cancel" subclass="">
+        <asset type="GROUP">rd_controller_btn_ready_cancel.xml</asset>
+        <asset type="NORMAL">
+        </asset>
+        <asset type="DOWN">
+        </asset>
+        <asset type="OVER">
+        </asset>
+        <asset type="DISABLE">
+        </asset>
+        <asset type="ENTER">
+        </asset>
+        <asset type="LEAVE">
+        </asset>
+        <snd type="OVER">
+        </snd>
+        <snd type="DOWN">ui_btn_menu_click</snd>
+        <snd type="RELEASE">ui_btn_menu_release;ui_btn_menu_close</snd>
+        <pos x="0" y="0" />
+        <rect l="0" t="0" r="105" b="109" />
+        <Visible val="True" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <Anchor val="None" />
+        <IsDefaultButton val="False" />
+      </child>
+      <child type="ANIMBUTTON" name="btn_start" subclass="">
+        <asset type="GROUP">rd_controller_btn_start.xml</asset>
+        <asset type="NORMAL">
+        </asset>
+        <asset type="DOWN">
+        </asset>
+        <asset type="OVER">
+        </asset>
+        <asset type="DISABLE">
+        </asset>
+        <asset type="ENTER">
+        </asset>
+        <asset type="LEAVE">
+        </asset>
+        <snd type="OVER">
+        </snd>
+        <snd type="DOWN">ui_btn_menu_click</snd>
+        <snd type="RELEASE">ui_btn_menu_release;ui_btn_menu_confirm</snd>
+        <pos x="0" y="0" />
+        <rect l="0" t="0" r="105" b="109" />
+        <Visible val="True" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <Anchor val="None" />
+        <IsDefaultButton val="False" />
+      </child>
+      <child type="ANIMBUTTON" name="btn_ready" subclass="">
+        <asset type="GROUP">rd_controller_btn_ready.xml</asset>
+        <asset type="NORMAL">
+        </asset>
+        <asset type="DOWN">
+        </asset>
+        <asset type="OVER">
+        </asset>
+        <asset type="DISABLE">
+        </asset>
+        <asset type="ENTER">
+        </asset>
+        <asset type="LEAVE">
+        </asset>
+        <snd type="OVER">
+        </snd>
+        <snd type="DOWN">ui_btn_menu_click</snd>
+        <snd type="RELEASE">ui_btn_menu_release;ui_btn_menu_confirm</snd>
+        <pos x="0" y="0" />
+        <rect l="0" t="0" r="105" b="109" />
+        <Visible val="True" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <Anchor val="None" />
+        <IsDefaultButton val="False" />
+      </child>
+    </child>
+    <child type="ANIMBUTTON" name="btn_preset" subclass="">
+      <asset type="GROUP">rd_controller_btn_preset.xml</asset>
+      <asset type="NORMAL">
+      </asset>
+      <asset type="DOWN">
+      </asset>
+      <asset type="OVER">
+      </asset>
+      <asset type="DISABLE">
+      </asset>
+      <asset type="ENTER">
+      </asset>
+      <asset type="LEAVE">
+      </asset>
+      <snd type="OVER">
+      </snd>
+      <snd type="DOWN">ui_btn_menu_click</snd>
+      <snd type="RELEASE">ui_btn_menu_release;ui_btn_menu_close</snd>
+      <pos x="446" y="31" />
+      <rect l="0" t="0" r="201" b="41" />
+      <Visible val="True" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <Anchor val="Top, Left" />
+      <IsDefaultButton val="False" />
+      <child type="LABEL" name="lb_btn_preset" subclass="">
+        <label val="" />
+        <pos x="9" y="10" />
+        <rect l="0" t="0" r="183" b="19" />
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#FF0000" />
+        <color val="#FFFFFF" />
+        <halign val="1" />
+        <valign val="1" />
+        <FontName val="나눔고딕" />
+        <FontSize val="13" />
+        <TextTrimming val="None" />
+        <style val="1" />
+        <IsHitTestVisible val="False" />
+        <ClipChildren val="False" />
+        <Padding val="0, 0, 0, 0" />
+      </child>
+    </child>
+    <child type="ANIMBUTTON" name="btn_modechange" subclass="">
+      <asset type="GROUP">rd_controller_btn_modechange.xml</asset>
+      <asset type="NORMAL">
+      </asset>
+      <asset type="DOWN">
+      </asset>
+      <asset type="OVER">
+      </asset>
+      <asset type="DISABLE">
+      </asset>
+      <asset type="ENTER">
+      </asset>
+      <asset type="LEAVE">
+      </asset>
+      <snd type="OVER">0</snd>
+      <snd type="DOWN">0</snd>
+      <snd type="RELEASE">
+      </snd>
+      <pos x="446" y="31" />
+      <rect l="0" t="0" r="201" b="41" />
+      <Visible val="True" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <Anchor val="Top, Left" />
+      <IsDefaultButton val="False" />
+      <child type="LABEL" name="lb_modechange" subclass="">
+        <label val="" />
+        <pos x="9" y="10" />
+        <rect l="0" t="0" r="183" b="19" />
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#FF0000" />
+        <color val="#FFFFFF" />
+        <halign val="1" />
+        <valign val="1" />
+        <FontName val="나눔고딕" />
+        <FontSize val="13" />
+        <TextTrimming val="None" />
+        <style val="1" />
+        <IsHitTestVisible val="False" />
+        <ClipChildren val="False" />
+        <Padding val="0, 0, 0, 0" />
+      </child>
+    </child>
+    <child type="PANEL" name="btn_team" subclass="">
+      <Visible val="True" />
+      <Anchor val="None" />
+      <embed src="" />
+      <pos x="228" y="10" />
+      <rect l="0" t="0" r="68" b="70" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <child type="ANIMBUTTON" name="btn_team_blue" subclass="">
+        <asset type="GROUP">rd_controller_btn_team_blue.xml</asset>
+        <asset type="NORMAL">
+        </asset>
+        <asset type="DOWN">
+        </asset>
+        <asset type="OVER">
+        </asset>
+        <asset type="DISABLE">
+        </asset>
+        <asset type="ENTER">
+        </asset>
+        <asset type="LEAVE">
+        </asset>
+        <snd type="OVER">
+        </snd>
+        <snd type="DOWN">ui_btn_switch_team</snd>
+        <snd type="RELEASE">ui_btn_menu_release</snd>
+        <pos x="0" y="0" />
+        <rect l="0" t="0" r="68" b="70" />
+        <Visible val="True" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <Anchor val="Top, Left" />
+        <IsDefaultButton val="False" />
+      </child>
+      <child type="ANIMBUTTON" name="btn_team_red" subclass="">
+        <asset type="GROUP">rd_controller_btn_team_red.xml</asset>
+        <asset type="NORMAL">
+        </asset>
+        <asset type="DOWN">
+        </asset>
+        <asset type="OVER">
+        </asset>
+        <asset type="DISABLE">
+        </asset>
+        <asset type="ENTER">
+        </asset>
+        <asset type="LEAVE">
+        </asset>
+        <snd type="OVER">
+        </snd>
+        <snd type="DOWN">ui_btn_switch_team</snd>
+        <snd type="RELEASE">ui_btn_menu_release</snd>
+        <pos x="0" y="0" />
+        <rect l="0" t="0" r="68" b="70" />
+        <Visible val="True" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <Anchor val="Top, Left" />
+        <IsDefaultButton val="False" />
+      </child>
+    </child>
+  </base>
+</refresh>

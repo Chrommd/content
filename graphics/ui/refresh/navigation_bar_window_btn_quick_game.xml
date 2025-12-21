@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="NORMAL">
+    <asset type="IMAGE" name="asset_btn_game1_n" path="btn_game2_n.png">
+      <rect l="0" t="0" r="72" b="38" />
+    </asset>
+    <asset type="IMAGE" name="asset_txt_game" path="txt_game_1.png">
+      <rect l="0" t="0" r="69" b="35" />
+    </asset>
+    <asset type="IMAGE" name="asset_icon_game_1" path="icon_game_1.png">
+      <rect l="0" t="0" r="33" b="33" />
+    </asset>
+    <object name="btn_game1_n" ani="ani_btn_game1_n">
+      <asset type="IMAGE" link="asset_btn_game1_n" />
+    </object>
+    <object name="txt_game" ani="ani_txt_game">
+      <asset type="IMAGE" link="asset_txt_game" />
+    </object>
+    <object name="icon_game_1" ani="ani_icon_game_1">
+      <asset type="IMAGE" link="asset_icon_game_1" />
+    </object>
+    <param type="RES" x="72" y="38" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_btn_game1_n">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_txt_game">
+      <frame cnt="0">
+        <posx val="0.0138888888888889" />
+        <posy val="0.0263157894736842" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_game_1">
+      <frame cnt="0">
+        <posx val="0.0277777777777778" />
+        <posy val="0.0526315789473684" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="OVER">
+    <asset type="IMAGE" name="asset_btn_game1_n" path="btn_game2_n.png">
+      <rect l="0" t="0" r="72" b="38" />
+    </asset>
+    <asset type="IMAGE" name="asset_btn_img" path="btn_game2_o.png">
+      <rect l="0" t="0" r="85" b="51" />
+    </asset>
+    <asset type="IMAGE" name="asset_txt_game" path="txt_game_1.png">
+      <rect l="0" t="0" r="69" b="35" />
+    </asset>
+    <asset type="IMAGE" name="asset_icon_game_1" path="icon_game_1.png">
+      <rect l="0" t="0" r="33" b="33" />
+    </asset>
+    <object name="btn_game1_n" ani="ani_btn_game1_n">
+      <asset type="IMAGE" link="asset_btn_game1_n" />
+    </object>
+    <object name="btn_img" ani="ani_btn_img">
+      <asset type="IMAGE" link="asset_btn_img" />
+    </object>
+    <object name="txt_game" ani="ani_txt_game">
+      <asset type="IMAGE" link="asset_txt_game" />
+    </object>
+    <object name="icon_game_1" ani="ani_icon_game_1">
+      <asset type="IMAGE" link="asset_icon_game_1" />
+    </object>
+    <param type="RES" x="72" y="38" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_btn_game1_n">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_btn_img">
+      <frame cnt="0">
+        <posx val="-0.0972222222222222" />
+        <posy val="-0.184210526315789" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.8" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="167">
+        <posx val="-0.0972222222222222" />
+        <posy val="-0.184210526315789" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_txt_game">
+      <frame cnt="0">
+        <posx val="0.01388889" />
+        <posy val="0.02631579" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_game_1">
+      <frame cnt="0">
+        <posx val="0.02777778" />
+        <posy val="0.05263158" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="DOWN">
+    <asset type="IMAGE" name="asset_btn_game1_d" path="btn_game2_d.png">
+      <rect l="0" t="0" r="85" b="51" />
+    </asset>
+    <asset type="IMAGE" name="asset_txt_game" path="txt_game_1.png">
+      <rect l="0" t="0" r="69" b="35" />
+    </asset>
+    <asset type="IMAGE" name="asset_icon_game_1" path="icon_game_1.png">
+      <rect l="0" t="0" r="33" b="33" />
+    </asset>
+    <object name="btn_game1_d" ani="ani_btn_game1_d">
+      <asset type="IMAGE" link="asset_btn_game1_d" />
+    </object>
+    <object name="txt_game" ani="ani_txt_game">
+      <asset type="IMAGE" link="asset_txt_game" />
+    </object>
+    <object name="icon_game_1" ani="ani_icon_game_1">
+      <asset type="IMAGE" link="asset_icon_game_1" />
+    </object>
+    <param type="RES" x="72" y="38" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_btn_game1_d">
+      <frame cnt="0">
+        <posx val="-0.0972222222222222" />
+        <posy val="-0.184210526315789" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="167">
+        <posx val="-0.0972222222222222" />
+        <posy val="-0.184210526315789" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_txt_game">
+      <frame cnt="0">
+        <posx val="0.01388889" />
+        <posy val="0.02631579" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.5" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="167">
+        <posx val="0.01388889" />
+        <posy val="0.02631579" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.5" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_game_1">
+      <frame cnt="0">
+        <posx val="0.02777778" />
+        <posy val="0.05263158" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="DISABLE">
+    <param type="RES" x="72" y="38" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+  </scene>
+</rfanimation>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="comm_numeral_window_Animation.xml" />
+  </properties>
+  <base type="WND" name="Wnd">
+    <Visible val="True" />
+    <Anchor val="Top, Left" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="120" b="50" />
+    <child type="PICTURE" name="icon_carrot">
+      <asset type="STATIC">icon_carrot.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="5" y="7" />
+      <rect l="0" t="0" r="36" b="36" />
+      <center x="0" y="0" />
+    </child>
+    <child type="PICTURE" name="img_carrotcount_plus">
+      <asset type="STATIC">img_carrotcount_plus.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="40" y="12" />
+      <rect l="0" t="0" r="26" b="26" />
+      <center x="0" y="0" />
+    </child>
+    <child type="PICTURE" name="img_carrotcount_10">
+      <asset type="STATIC">
+      </asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="71" y="7" />
+      <rect l="0" t="0" r="38" b="34" />
+      <center x="0" y="0" />
+    </child>
+  </base>
+</refresh>

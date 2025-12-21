@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="icon_wait_room2_Default">
+    <asset type="IMAGE" name="asset_icon_wait_room2" path="icon_wait_room2.png">
+      <rect l="0" t="0" r="15" b="15" />
+    </asset>
+    <object name="icon_wait_room2" ani="ani_icon_wait_room2">
+      <asset type="IMAGE" link="asset_icon_wait_room2" />
+    </object>
+    <param type="RES" x="15" y="15" />
+    <param type="LOOP" cnt="-1" pendulum="0" />
+    <anim name="ani_icon_wait_room2">
+      <frame cnt="0">
+        <posx val="0.533333333333333" />
+        <posy val="0.533333333333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.533333333333333" easeValue="0.0,1.0,1.0,1.0" />
+        <posy val="0.533333333333333" easeValue="0.0,1.0,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="-30" easeValue="0.0,1.0,1.0,1.0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="667">
+        <posx val="0.533333333333333" easeValue="1.0,0.0,1.0,1.0" />
+        <posy val="0.533333333333333" easeValue="1.0,0.0,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" easeValue="1.0,0.0,1.0,1.0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="1000">
+        <posx val="0.533333333333333" easeValue="0.0,1.0,1.0,1.0" />
+        <posy val="0.533333333333333" easeValue="0.0,1.0,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="30" easeValue="0.0,1.0,1.0,1.0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="1333">
+        <posx val="0.533333333333333" easeValue="1.0,0.0,1.0,1.0" />
+        <posy val="0.533333333333333" easeValue="1.0,0.0,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" easeValue="1.0,0.0,1.0,1.0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

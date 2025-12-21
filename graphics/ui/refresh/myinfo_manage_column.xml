@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="myinfo_manage_column_Animation.xml" />
+  </properties>
+  <base type="WND" subclass="" name="Wnd_myinfo_manage">
+    <Visible val="True" />
+    <Anchor val="Top, Left" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="344" b="51" />
+    <snd type="SHOW">
+    </snd>
+    <snd type="HIDE">
+    </snd>
+    <IsHitTestVisible val="True" />
+    <ClipChildren val="False" />
+    <base type="WNDEX" subclass="" name="WndEx1">
+      <asset type="BG" path="frm_color_ivory_CenterTop.png" tileMode="Tile">
+        <tex x="4" y="4" />
+        <rect l="4" t="4" r="311" b="40" />
+      </asset>
+      <asset type="EDGE_LT" path="frm_color_ivory_LeftTop.png" tileMode="Stretch">
+        <tex x="4" y="4" />
+        <rect l="0" t="0" r="4" b="4" />
+      </asset>
+      <asset type="EDGE_RT" path="frm_color_ivory_RightTop.png" tileMode="Stretch">
+        <tex x="4" y="4" />
+        <rect l="0" t="0" r="4" b="4" />
+      </asset>
+      <asset type="EDGE_LB" path="frm_color_ivory_LeftBottom.png" tileMode="Stretch">
+        <tex x="4" y="4" />
+        <rect l="0" t="0" r="4" b="4" />
+      </asset>
+      <asset type="EDGE_RB" path="frm_color_ivory_RightBottom.png" tileMode="Stretch">
+        <tex x="4" y="4" />
+        <rect l="0" t="0" r="4" b="4" />
+      </asset>
+      <asset type="FRAME_T" path="frm_color_ivory_CenterTop.png" tileMode="Stretch">
+        <tex x="4" y="4" />
+        <rect l="4" t="0" r="311" b="4" />
+      </asset>
+      <asset type="FRAME_B" path="frm_color_ivory_CenterTop.png" tileMode="Tile">
+        <tex x="4" y="4" />
+        <rect l="4" t="0" r="311" b="4" />
+      </asset>
+      <asset type="FRAME_L" path="frm_color_ivory_CenterTop.png" tileMode="Tile">
+        <tex x="4" y="4" />
+        <rect l="0" t="4" r="4" b="40" />
+      </asset>
+      <asset type="FRAME_R" path="frm_color_ivory_CenterTop.png" tileMode="Tile">
+        <tex x="4" y="4" />
+        <rect l="0" t="4" r="4" b="40" />
+      </asset>
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="319" b="48" />
+      <snd type="SHOW">
+      </snd>
+      <snd type="HIDE">
+      </snd>
+      <Dragable val="False" />
+      <StartPosition val="None" />
+      <EscKeyAction val="None" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </base>
+    <child type="PANEL" name="Panel" subclass="">
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <embed src="" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="336" b="51" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <base type="WND" subclass="" name="wnd_myinfo_manage_column_on">
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <pos x="0" y="0" />
+        <rect l="0" t="0" r="336" b="51" />
+        <snd type="SHOW">
+        </snd>
+        <snd type="HIDE">
+        </snd>
+        <IsHitTestVisible val="False" />
+        <ClipChildren val="False" />
+        <child type="PICTURE" name="btn_myinfo_manage_list_Normal" subclass="">
+          <asset type="STATIC">list_btn_myinfo_manage_Normal.png</asset>
+          <Visible val="False" />
+          <Anchor val="None" />
+          <pos x="0" y="0" />
+          <rect l="0" t="0" r="336" b="51" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="btn_myinfo_manage_list_Hover" subclass="">
+          <asset type="STATIC">list_btn_myinfo_manage_Hover.png</asset>
+          <Visible val="False" />
+          <Anchor val="None" />
+          <pos x="0" y="0" />
+          <rect l="0" t="0" r="336" b="51" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="btn_myinfo_manage_list_Push" subclass="">
+          <asset type="STATIC">list_btn_myinfo_manage_Push.png</asset>
+          <Visible val="False" />
+          <Anchor val="None" />
+          <pos x="0" y="0" />
+          <rect l="0" t="0" r="336" b="51" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="img_myinfo_manage_icon_list" subclass="">
+          <asset type="STATIC">img_myinfo_manage_icon_dummy.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="4" y="3" />
+          <rect l="0" t="0" r="43" b="43" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="LABEL" name="lb_myinfo_manage_skill_name" subclass="">
+          <label val="영양사" />
+          <pos x="52" y="25" />
+          <rect l="0" t="0" r="275" b="19" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#FF0000" />
+          <color val="#624938FF" />
+          <halign val="0" />
+          <valign val="1" />
+          <FontName val="나눔고딕" />
+          <FontSize val="13" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+      </base>
+      <base type="WND" subclass="" name="wnd_myinfo_manage_rank">
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <pos x="0" y="0" />
+        <rect l="0" t="0" r="336" b="51" />
+        <snd type="SHOW">
+        </snd>
+        <snd type="HIDE">
+        </snd>
+        <IsHitTestVisible val="False" />
+        <ClipChildren val="False" />
+        <child type="PICTURE" name="img_myinfo_manage_noobtain" subclass="">
+          <asset type="STATIC">img_myinfo_manage_noobtain.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="49" y="3" />
+          <rect l="0" t="0" r="282" b="21" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="LABEL" name="lb_myinfo_manage_rank_list" subclass="">
+          <label val="랭크 1" />
+          <pos x="67" y="4" />
+          <rect l="0" t="0" r="282" b="21" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FFFFFF" />
+          <ShadowColor val="#FF0000" />
+          <color val="#FFFFFFFF" />
+          <halign val="0" />
+          <valign val="1" />
+          <FontName val="나눔고딕 ExtraBold" />
+          <FontSize val="13" />
+          <TextTrimming val="None" />
+          <style val="0" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+      </base>
+      <base type="WND" subclass="" name="wnd_myinfo_manage_master">
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <pos x="0" y="0" />
+        <rect l="0" t="0" r="336" b="51" />
+        <snd type="SHOW">
+        </snd>
+        <snd type="HIDE">
+        </snd>
+        <IsHitTestVisible val="False" />
+        <ClipChildren val="False" />
+        <child type="PICTURE" name="img_myinfo_manage_noobtain1" subclass="">
+          <asset type="STATIC">img_myinfo_manage_noobtain.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="49" y="3" />
+          <rect l="0" t="0" r="282" b="21" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="img_myinfo_manage_icon_master" subclass="">
+          <asset type="STATIC">icon_myinfo_manage_master.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="47" y="1" />
+          <rect l="0" t="0" r="74" b="25" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+      </base>
+      <base type="WND" subclass="" name="wnd_myinfo_manage_column">
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <pos x="0" y="0" />
+        <rect l="0" t="0" r="336" b="51" />
+        <snd type="SHOW">
+        </snd>
+        <snd type="HIDE">
+        </snd>
+        <IsHitTestVisible val="False" />
+        <ClipChildren val="False" />
+        <child type="PICTURE" name="img_myinfo_manage_untake" subclass="">
+          <asset type="STATIC">img_myinfo_manage_rank_back.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="50" y="5" />
+          <rect l="0" t="0" r="66" b="17" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <child type="LABEL" name="lb_myinfo_manage_none" subclass="">
+            <label val="미획득" />
+            <pos x="0" y="-2" />
+            <rect l="0" t="0" r="62" b="21" />
+            <Visible val="True" />
+            <Anchor val="Top, Left" />
+            <OutlineColor val="#FFFFFF" />
+            <ShadowColor val="#0000004C" />
+            <color val="#EBDCD3FF" />
+            <halign val="1" />
+            <valign val="1" />
+            <FontName val="나눔고딕" />
+            <FontSize val="13" />
+            <TextTrimming val="None" />
+            <style val="1" />
+            <IsHitTestVisible val="False" />
+            <ClipChildren val="False" />
+            <Padding val="0, 0, 0, 0" />
+          </child>
+        </child>
+        <child type="PICTURE" name="img_myinfo_manage_icon_alarm" subclass="">
+          <asset type="STATIC">img_skill_up.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="266" y="6" />
+          <rect l="0" t="0" r="63" b="16" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="btn_myinfo_manage_list_Selected" subclass="">
+          <asset type="STATIC">list_btn_myinfo_manage_frame.png</asset>
+          <Visible val="False" />
+          <Anchor val="None" />
+          <pos x="0" y="0" />
+          <rect l="0" t="0" r="334" b="49" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+          <child type="PICTURE" name="icon_common_select" subclass="">
+            <asset type="STATIC">icon_common_select.png</asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="312" y="1" />
+            <rect l="0" t="0" r="22" b="23" />
+            <center x="0" y="0" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+          </child>
+        </child>
+      </base>
+    </child>
+  </base>
+</refresh>

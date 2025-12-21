@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <event animation="1st">
+        <function>PlaySND($asset, "crash_snow_hit", "", "-var 3")</function>
+        <time>0.0600</time>
+        <freq>100</freq>
+    </event>
+    <event animation="1st">
+        <function>PlaySND($asset, "crash_wood_creak", "", "-var 3")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="1st">
+        <function>PlayFX($asset, "ob_funobj_snowsign_crash", "dum1", "")</function>
+        <time>0.0000</time>
+        <freq>ONCE</freq>
+    </event>
+    <event animation="2nd">
+        <function>PlaySND($asset, "crash_snow_hit", "", "-var 3")</function>
+        <time>0.0728</time>
+        <freq>100</freq>
+    </event>
+    <event animation="2nd">
+        <function>PlaySND($asset, "crash_wood_creak", "", "-var 3")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="2nd">
+        <function>PlayFX($asset, "ob_funobj_snowsign_crash", "dum1", "")</function>
+        <time>0.0000</time>
+        <freq>ONCE</freq>
+    </event>
+    <dummy name="dum1" parent="Box01" sync="TRUE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.9996</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>0.0257</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.0000</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <action category="" state="BROKEN_1ST" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>1st</main>
+    </action>
+    <action category="" state="BROKEN_2ND" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>2nd</main>
+    </action>
+    <action category="" state="BROKEN_3RD" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>2nd</main>
+    </action>
+</aim>

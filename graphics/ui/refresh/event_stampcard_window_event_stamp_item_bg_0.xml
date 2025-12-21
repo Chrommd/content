@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="event_stamp_item_bg_0_Default">
+    <asset type="IMAGE" name="asset_event_stamp_0" path="">
+      <rect l="0" t="0" r="50" b="50" />
+    </asset>
+    <object name="event_stamp_0" ani="ani_event_stamp_0">
+      <asset type="IMAGE" link="asset_event_stamp_0" />
+    </object>
+    <param type="RES" x="95" y="95" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_event_stamp_0">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1.9" />
+        <scaley val="1.9" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="467">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1.9" />
+        <scaley val="1.9" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

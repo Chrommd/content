@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="care_give_dialog_Animation.xml" />
+  </properties>
+  <base type="WNDEX" subclass="" name="care_open">
+    <asset type="BG" path="frm_depth1_CenterMiddle.png" tileMode="Stretch">
+      <tex x="40" y="40" />
+      <rect l="44" t="39" r="364" b="265" />
+    </asset>
+    <asset type="EDGE_LT" path="frm_depth1_LeftTop.png" tileMode="Stretch">
+      <tex x="44" y="39" />
+      <rect l="0" t="0" r="44" b="39" />
+    </asset>
+    <asset type="EDGE_RT" path="frm_depth1_RightTop.png" tileMode="Stretch">
+      <tex x="46" y="39" />
+      <rect l="0" t="0" r="46" b="39" />
+    </asset>
+    <asset type="EDGE_LB" path="frm_depth1_LeftBottom.png" tileMode="Stretch">
+      <tex x="44" y="38" />
+      <rect l="0" t="0" r="44" b="38" />
+    </asset>
+    <asset type="EDGE_RB" path="frm_depth1_RightBottom.png" tileMode="Stretch">
+      <tex x="46" y="38" />
+      <rect l="0" t="0" r="46" b="38" />
+    </asset>
+    <asset type="FRAME_T" path="frm_depth1_CenterTop.png" tileMode="Tile">
+      <tex x="40" y="39" />
+      <rect l="44" t="0" r="364" b="39" />
+    </asset>
+    <asset type="FRAME_B" path="frm_depth1_CenterBottom.png" tileMode="Tile">
+      <tex x="40" y="38" />
+      <rect l="44" t="0" r="364" b="38" />
+    </asset>
+    <asset type="FRAME_L" path="frm_depth1_LeftMiddle.png" tileMode="Tile">
+      <tex x="44" y="40" />
+      <rect l="0" t="39" r="44" b="265" />
+    </asset>
+    <asset type="FRAME_R" path="frm_depth1_RightMiddle.png" tileMode="Tile">
+      <tex x="46" y="40" />
+      <rect l="0" t="39" r="46" b="265" />
+    </asset>
+    <Visible val="True" />
+    <Anchor val="None" />
+    <pos x="285" y="208" />
+    <rect l="0" t="0" r="454" b="342" />
+    <snd type="SHOW">
+    </snd>
+    <snd type="HIDE">
+    </snd>
+    <Dragable val="False" />
+    <StartPosition val="CenterScreen" />
+    <EscKeyAction val="None" />
+    <IsHitTestVisible val="True" />
+    <ClipChildren val="False" />
+    <child type="PICTURE" name="bg_care_open" subclass="">
+      <asset type="STATIC">bg_care_open.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="42" y="65" />
+      <rect l="0" t="0" r="375" b="177" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="PANEL" name="panel_text" subclass="">
+      <Visible val="True" />
+      <Anchor val="None" />
+      <embed src="" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="454" b="342" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <child type="LABEL" name="lb_give_tip4" subclass="">
+        <label val="* 아이템은 상점에서 구매할 수 있습니다" />
+        <pos x="83" y="148" />
+        <rect l="0" t="0" r="250" b="17" />
+        <Visible val="True" />
+        <Anchor val="None" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#EFE4DD" />
+        <color val="#E18956" />
+        <halign val="0" />
+        <valign val="0" />
+        <FontName val="나눔고딕" />
+        <FontSize val="13" />
+        <TextTrimming val="None" />
+        <style val="32" />
+        <IsHitTestVisible val="False" />
+        <ClipChildren val="False" />
+        <Padding val="0, 0, 0, 0" />
+      </child>
+      <child type="LABEL" name="lb_give_tip3" subclass="">
+        <label val="관리를 하면서 말과 더 친해지세요 " />
+        <pos x="83" y="131" />
+        <rect l="0" t="0" r="250" b="17" />
+        <Visible val="True" />
+        <Anchor val="None" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#D1BFB2" />
+        <color val="#5E361F" />
+        <halign val="0" />
+        <valign val="0" />
+        <FontName val="나눔고딕" />
+        <FontSize val="13" />
+        <TextTrimming val="None" />
+        <style val="32" />
+        <IsHitTestVisible val="False" />
+        <ClipChildren val="False" />
+        <Padding val="0, 0, 0, 0" />
+      </child>
+      <child type="LABEL" name="lb_give_tip2" subclass="">
+        <label val="말 관리 아이템을 지급해 드렸습니다" />
+        <pos x="83" y="111" />
+        <rect l="0" t="0" r="250" b="20" />
+        <Visible val="True" />
+        <Anchor val="None" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#D1BFB2" />
+        <color val="#FF692E" />
+        <halign val="0" />
+        <valign val="0" />
+        <FontName val="나눔명조 ExtraBold" />
+        <FontSize val="16" />
+        <TextTrimming val="None" />
+        <style val="32" />
+        <IsHitTestVisible val="False" />
+        <ClipChildren val="False" />
+        <Padding val="0, 0, 0, 0" />
+      </child>
+      <child type="LABEL" name="lb_give_tip1" subclass="">
+        <label val="말 관리가 열린 기념으로" />
+        <pos x="83" y="97" />
+        <rect l="0" t="0" r="250" b="17" />
+        <Visible val="True" />
+        <Anchor val="None" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#D1BFB2" />
+        <color val="#5E361F" />
+        <halign val="0" />
+        <valign val="0" />
+        <FontName val="나눔고딕" />
+        <FontSize val="13" />
+        <TextTrimming val="None" />
+        <style val="32" />
+        <IsHitTestVisible val="False" />
+        <ClipChildren val="False" />
+        <Padding val="0, 0, 0, 0" />
+      </child>
+      <child type="LABEL" name="lb_give_item_title" subclass="">
+        <label val="관리 아이템 지급" />
+        <pos x="119" y="42" />
+        <rect l="0" t="0" r="216" b="20" />
+        <Visible val="True" />
+        <Anchor val="None" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#CEBEB4" />
+        <color val="#250F04" />
+        <halign val="1" />
+        <valign val="0" />
+        <FontName val="나눔고딕" />
+        <FontSize val="15" />
+        <TextTrimming val="None" />
+        <style val="32" />
+        <IsHitTestVisible val="False" />
+        <ClipChildren val="False" />
+        <Padding val="0, 0, 0, 0" />
+      </child>
+    </child>
+    <child type="ANIMBUTTON" name="confirm" subclass="">
+      <asset type="GROUP">care_give_dialog_confirm.xml</asset>
+      <asset type="NORMAL">
+      </asset>
+      <asset type="DOWN">
+      </asset>
+      <asset type="OVER">
+      </asset>
+      <asset type="DISABLE">
+      </asset>
+      <asset type="ENTER">
+      </asset>
+      <asset type="LEAVE">
+      </asset>
+      <snd type="OVER">
+      </snd>
+      <snd type="DOWN">ui_btn_menu_click</snd>
+      <snd type="RELEASE">ui_btn_menu_release;ui_btn_menu_confirm</snd>
+      <pos x="192" y="271" />
+      <rect l="0" t="0" r="70" b="31" />
+      <Visible val="True" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <Anchor val="None" />
+      <IsDefaultButton val="False" />
+      <child type="LABEL" name="lb_confirm1" subclass="">
+        <label val="OK" />
+        <pos x="5" y="6" />
+        <rect l="0" t="0" r="60" b="19" />
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#927254" />
+        <color val="#030200" />
+        <halign val="1" />
+        <valign val="0" />
+        <FontName val="나눔고딕" />
+        <FontSize val="14" />
+        <TextTrimming val="None" />
+        <style val="33" />
+        <IsHitTestVisible val="False" />
+        <ClipChildren val="False" />
+        <Padding val="0, 0, 0, 0" />
+      </child>
+    </child>
+    <child type="PICTURE" name="bg_give_arrow" subclass="">
+      <asset type="ANIMATION">care_give_dialog_bg_give_arrow.xml</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="307" y="127" />
+      <rect l="0" t="0" r="24" b="32" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="PICTURE" name="bg_give_item" subclass="">
+      <asset type="STATIC">icon_give_item.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="295" y="141" />
+      <rect l="0" t="0" r="160" b="90" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="BUTTON" subclass="" name="btn_close">
+      <asset type="NORMAL">btn_depth1_RightTop_close_Normal.png</asset>
+      <asset type="DOWN">btn_depth1_RightTop_close_Push.png</asset>
+      <asset type="OVER">btn_depth1_RightTop_close_Hover.png</asset>
+      <asset type="DISABLE">btn_depth1_RightTop_close_Disable.png</asset>
+      <snd type="OVER">
+      </snd>
+      <snd type="DOWN">ui_btn_menu_click</snd>
+      <snd type="RELEASE">ui_btn_menu_release;ui_btn_menu_close</snd>
+      <pos x="420" y="8" />
+      <rect l="0" t="0" r="23" b="23" />
+      <Visible val="True" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <Anchor val="Top, Right" />
+      <IsDefaultButton val="False" />
+    </child>
+  </base>
+</refresh>

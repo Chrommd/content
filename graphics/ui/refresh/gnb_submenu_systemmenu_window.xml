@@ -1,0 +1,165 @@
+﻿<refresh version="2">
+	<properties>
+		<property name="DPI" val="72" />
+		<property name="UIAnimation" val="gnb_submenu_systemmenu_window_Animation.xml" />
+	</properties>
+	<base type="WND" subclass="" name="global_navigation">
+		<pos x="883" y="645" />
+		<rect l="0" t="0" r="138" b="101" />
+		<Visible val="True" />
+		<Anchor val="None" />
+		<snd type="SHOW"></snd>
+		<snd type="HIDE"></snd>
+		<IsHitTestVisible val="True" />
+		<ClipChildren val="False" />
+		<base type="WNDEX" subclass="" name="gnb_submenu_menu_bg">
+			<asset type="BG" path="frm_list_control_04.png" tileMode="Stretch">
+				<tex x="4" y="4" />
+				<rect l="15" t="18" r="91" b="18" />
+			</asset>
+			<asset type="EDGE_LT" path="frm_list_control_00.png" tileMode="Stretch">
+				<tex x="15" y="18" />
+				<rect l="0" t="0" r="15" b="18" />
+			</asset>
+			<asset type="EDGE_RT" path="frm_list_control_02.png" tileMode="Stretch">
+				<tex x="20" y="18" />
+				<rect l="0" t="0" r="20" b="18" />
+			</asset>
+			<asset type="EDGE_LB" path="frm_list_control_06.png" tileMode="Stretch">
+				<tex x="15" y="40" />
+				<rect l="0" t="0" r="15" b="40" />
+			</asset>
+			<asset type="EDGE_RB" path="frm_list_control_08.png" tileMode="Stretch">
+				<tex x="20" y="40" />
+				<rect l="0" t="0" r="20" b="40" />
+			</asset>
+			<asset type="FRAME_T" path="frm_list_control_01.png" tileMode="Tile">
+				<tex x="4" y="18" />
+				<rect l="15" t="0" r="91" b="18" />
+			</asset>
+			<asset type="FRAME_B" path="frm_list_control_07.png" tileMode="Tile">
+				<tex x="4" y="40" />
+				<rect l="15" t="0" r="91" b="40" />
+			</asset>
+			<asset type="FRAME_L" path="frm_list_control_03.png" tileMode="Tile">
+				<tex x="15" y="4" />
+				<rect l="0" t="18" r="15" b="18" />
+			</asset>
+			<asset type="FRAME_R" path="frm_list_control_05.png" tileMode="Tile">
+				<tex x="20" y="4" />
+				<rect l="0" t="18" r="20" b="18" />
+			</asset>
+			<pos x="10" y="23" />
+			<rect l="0" t="0" r="126" b="76" />
+			<Visible val="True" />
+			<Anchor val="Top, Bottom, Left, Right" />
+			<snd type="SHOW"></snd>
+			<snd type="HIDE"></snd>
+			<Dragable val="False" />
+			<StartPosition val="None" />
+			<EscKeyAction val="None" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<child type="LABELBUTTON" name="btn_submenu_menu_2" subclass="">
+				<asset type="NORMAL">gnb_btn_sub_n.png</asset>
+				<asset type="DOWN">gnb_btn_sub_d.png</asset>
+				<asset type="OVER"></asset>
+				<asset type="DISABLE"></asset>
+				<control type="LABEL" name="btn_submenu_menu_2_Label">
+					<pos x="0" y="2" />
+					<rect l="0" t="0" r="114" b="25" />
+					<Visible val="True" />
+					<Anchor val="Bottom, Left, Right" />
+					<label val="Quit game" />
+					<OutlineColor val="#2B1E11FF" />
+					<ShadowColor val="#0000004C" />
+					<color val="#6B5D54" />
+					<halign val="1" />
+					<valign val="1" />
+					<FontName val="나눔고딕" />
+					<FontSize val="13" />
+					<TextTrimming val="None" />
+					<style val="17" />
+					<IsHitTestVisible val="False" />
+					<ClipChildren val="False" />
+					<Padding val="0, 0, 0, 0" />
+					<FitToContent val="False" />
+				</control>
+				<pos x="4" y="36" />
+				<rect l="0" t="0" r="114" b="27" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<snd type="OVER"></snd>
+				<snd type="DOWN">ui_btn_menu_click</snd>
+				<snd type="RELEASE">ui_btn_menu_release;ui_btn_menu_confirm</snd>
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+				<NormalColor val="#F8EACDFF" />
+				<HoverColor val="#FFFFFFFF" />
+				<PushColor val="#F8EACDFF" />
+				<DisableColor val="#785524FF" />
+				<IsDefaultButton val="False" />
+			</child>
+			<child type="LABELBUTTON" name="btn_submenu_menu_1" subclass="">
+				<asset type="NORMAL">gnb_btn_sub_n.png</asset>
+				<asset type="DOWN">gnb_btn_sub_d.png</asset>
+				<asset type="OVER"></asset>
+				<asset type="DISABLE"></asset>
+				<control type="LABEL" name="btn_submenu_menu_1_Label">
+					<pos x="0" y="2" />
+					<rect l="0" t="0" r="123" b="25" />
+					<Visible val="True" />
+					<Anchor val="Bottom, Left, Right" />
+					<label val="Settings (8)" />
+					<OutlineColor val="#2B1E11FF" />
+					<ShadowColor val="#0000004C" />
+					<color val="#6B5D54" />
+					<halign val="1" />
+					<valign val="1" />
+					<FontName val="나눔고딕" />
+					<FontSize val="13" />
+					<TextTrimming val="None" />
+					<style val="17" />
+					<IsHitTestVisible val="False" />
+					<ClipChildren val="False" />
+					<Padding val="0, 0, 0, 0" />
+					<FitToContent val="False" />
+				</control>
+				<pos x="0" y="5" />
+				<rect l="0" t="0" r="123" b="27" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<snd type="OVER"></snd>
+				<snd type="DOWN">ui_btn_menu_click</snd>
+				<snd type="RELEASE">ui_btn_menu_release;ui_btn_menu_confirm</snd>
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+				<NormalColor val="#F8EACDFF" />
+				<HoverColor val="#FFFFFFFF" />
+				<PushColor val="#F8EACDFF" />
+				<DisableColor val="#785524FF" />
+				<IsDefaultButton val="False" />
+			</child>
+			<child type="PICTURE" name="gnb_bg_subfrm_underline1" subclass="">
+				<asset type="STATIC">common_line_01.png</asset>
+				<pos x="7" y="35" />
+				<rect l="0" t="0" r="100" b="13" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="frm_comm_tooltip_bottom" subclass="">
+				<asset type="STATIC">frm_comm_tooltip_bottom.png</asset>
+				<pos x="51" y="68" />
+				<rect l="0" t="0" r="22" b="11" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+		</base>
+	</base>
+</refresh>

@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="NORMAL">
+    <asset type="IMAGE" name="asset_btn_introletter_go_Nomal" path="btn_introletter_go_Nomal.png">
+      <rect l="0" t="0" r="303" b="218" />
+    </asset>
+    <object name="btn_introletter_go_Nomal" ani="ani_btn_introletter_go_Nomal">
+      <asset type="IMAGE" link="asset_btn_introletter_go_Nomal" />
+    </object>
+    <param type="RES" x="303" y="218" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_btn_introletter_go_Nomal">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="OVER">
+    <asset type="IMAGE" name="asset_btn_introletter_go_Nomal1" path="btn_introletter_go_Nomal.png">
+      <rect l="0" t="0" r="303" b="218" />
+    </asset>
+    <asset type="IMAGE" name="asset_btn_introletter_go_Nomal" path="btn_introletter_go_Over.png">
+      <rect l="0" t="0" r="303" b="218" />
+    </asset>
+    <object name="btn_introletter_go_Nomal1" ani="ani_btn_introletter_go_Nomal1">
+      <asset type="IMAGE" link="asset_btn_introletter_go_Nomal1" />
+    </object>
+    <object name="btn_introletter_go_Nomal" ani="ani_btn_introletter_go_Nomal">
+      <asset type="IMAGE" link="asset_btn_introletter_go_Nomal" />
+    </object>
+    <param type="RES" x="303" y="218" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_btn_introletter_go_Nomal1">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_btn_introletter_go_Nomal">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="DOWN">
+    <asset type="IMAGE" name="asset_btn_introletter_go_Nomal" path="btn_introletter_go_Push.png">
+      <rect l="0" t="0" r="303" b="218" />
+    </asset>
+    <object name="btn_introletter_go_Nomal" ani="ani_btn_introletter_go_Nomal">
+      <asset type="IMAGE" link="asset_btn_introletter_go_Nomal" />
+    </object>
+    <param type="RES" x="303" y="218" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_btn_introletter_go_Nomal">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="ENTER">
+    <asset type="IMAGE" name="asset_btn_introletter_go_Nomal" path="btn_introletter_go_Nomal.png">
+      <rect l="0" t="0" r="303" b="218" />
+    </asset>
+    <asset type="IMAGE" name="asset_btn_introletter_go_Nomal1" path="btn_introletter_go_Over.png">
+      <rect l="0" t="0" r="303" b="218" />
+    </asset>
+    <object name="btn_introletter_go_Nomal" ani="ani_btn_introletter_go_Nomal">
+      <asset type="IMAGE" link="asset_btn_introletter_go_Nomal" />
+    </object>
+    <object name="btn_introletter_go_Nomal1" ani="ani_btn_introletter_go_Nomal1">
+      <asset type="IMAGE" link="asset_btn_introletter_go_Nomal1" />
+    </object>
+    <param type="RES" x="303" y="218" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_btn_introletter_go_Nomal">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_btn_introletter_go_Nomal1">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="400">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="LEAVE">
+    <asset type="IMAGE" name="asset_btn_introletter_go_Nomal" path="btn_introletter_go_Nomal.png">
+      <rect l="0" t="0" r="303" b="218" />
+    </asset>
+    <asset type="IMAGE" name="asset_btn_introletter_go_Nomal1" path="btn_introletter_go_Over.png">
+      <rect l="0" t="0" r="303" b="218" />
+    </asset>
+    <object name="btn_introletter_go_Nomal" ani="ani_btn_introletter_go_Nomal">
+      <asset type="IMAGE" link="asset_btn_introletter_go_Nomal" />
+    </object>
+    <object name="btn_introletter_go_Nomal1" ani="ani_btn_introletter_go_Nomal1">
+      <asset type="IMAGE" link="asset_btn_introletter_go_Nomal1" />
+    </object>
+    <param type="RES" x="303" y="218" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_btn_introletter_go_Nomal">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_btn_introletter_go_Nomal1">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="400">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

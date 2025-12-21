@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <AABB animation="2nd">
+        <minX>-1.7266</minX>
+        <minY>0.0000</minY>
+        <minZ>-24.7846</minZ>
+        <maxX>0.0000</maxX>
+        <maxY>0.0000</maxY>
+        <maxZ>0.0000</maxZ>
+    </AABB>
+    <AABB animation="3rd">
+        <minX>-1.7266</minX>
+        <minY>0.0000</minY>
+        <minZ>-24.7846</minZ>
+        <maxX>0.0000</maxX>
+        <maxY>0.0000</maxY>
+        <maxZ>0.0000</maxZ>
+    </AABB>
+    <event animation="2nd">
+        <function>PlaySND($asset, "crash_light02_", "", "-var 2")</function>
+        <time>0.0008</time>
+        <type>NORMAL</type>
+    </event>
+    <event animation="2nd">
+        <function>PlayFX($asset, "ob_funobj_light_crash_001", "dummy-001", "")</function>
+        <time>0.0000</time>
+        <type>NORMAL</type>
+    </event>
+    <event animation="2nd">
+        <function>PlayFX($asset, "ob_2nd_collision_001", "dummy_002", "")</function>
+        <time>0.3734</time>
+        <type>NORMAL</type>
+    </event>
+    <event animation="2nd">
+        <function>RelayMsg($asset, "FadeOut", "-time 1")</function>
+        <time>0.4822</time>
+        <type>NORMAL</type>
+    </event>
+    <event animation="3rd">
+        <function>PlaySND($asset, "crash_light02_", "", "-var 2")</function>
+        <time>0.0051</time>
+        <type>NORMAL</type>
+    </event>
+    <event animation="3rd">
+        <function>PlayFX($asset, "ob_funobj_light_crash_001", "dummy-001", "")</function>
+        <time>0.0000</time>
+        <type>NORMAL</type>
+    </event>
+    <event animation="3rd">
+        <function>PlayFX($asset, "ob_2nd_collision_001", "dummy_002", "")</function>
+        <time>0.3901</time>
+        <type>NORMAL</type>
+    </event>
+    <event animation="3rd">
+        <function>RelayMsg($asset, "FadeOut", "-time 1")</function>
+        <time>0.7613</time>
+        <type>NORMAL</type>
+    </event>
+    <dummy name="dummy-001" parent="Box03" sync="FALSE">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.0000</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <dummy name="dummy_002" parent="ri_ani_f_dorf_light02" sync="TRUE">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0220</offsetX>
+        <offsetY>9.6467</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <action state="BROKEN_1ST" loop="0" poskey="0" rotkey="0">
+        <main>2nd</main>
+    </action>
+    <action state="BROKEN_2ND" loop="0" poskey="0" rotkey="0">
+        <main>2nd</main>
+    </action>
+    <action state="BROKEN_3RD" loop="0" poskey="0" rotkey="0">
+        <main>3rd</main>
+    </action>
+</aim>

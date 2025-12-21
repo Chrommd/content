@@ -1,0 +1,186 @@
+﻿<refresh version="2">
+	<properties>
+		<property name="DPI" val="72" />
+		<property name="UIAnimation" val="rd_care_notice_window_Animation.xml" />
+	</properties>
+	<base type="WND" subclass="" name="rd_care">
+		<pos x="0" y="0" />
+		<rect l="0" t="0" r="1024" b="300" />
+		<Visible val="True" />
+		<Anchor val="Left, Right" />
+		<snd type="SHOW"></snd>
+		<snd type="HIDE"></snd>
+		<IsHitTestVisible val="False" />
+		<ClipChildren val="False" />
+		<child type="STACKPANEL" name="StackPanel" subclass="">
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="1024" b="300" />
+			<Visible val="True" />
+			<Anchor val="Left, Right" />
+			<Orientation val="Vertical" />
+			<HAlign val="Center" />
+			<VAlign val="Center" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+			<base type="WND" subclass="" name="wnd_care">
+				<pos x="280" y="0" />
+				<rect l="0" t="0" r="463" b="300" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<snd type="SHOW"></snd>
+				<snd type="HIDE"></snd>
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+				<child type="PICTURE" name="img_bg1" subclass="">
+					<asset type="STATIC">quest_message_bg_02.png</asset>
+					<pos x="93" y="80" />
+					<rect l="0" t="0" r="273" b="64" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+				</child>
+				<child type="PICTURE" name="img_bg" subclass="">
+					<asset type="STATIC">quest_message_bg_03.png</asset>
+					<pos x="141" y="16" />
+					<rect l="0" t="0" r="178" b="133" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+				</child>
+				<child type="PICTURE" name="img_thumb_npc_001" subclass="">
+					<asset type="STATIC">new_contents_alram_npc_02.png</asset>
+					<pos x="164" y="1" />
+					<rect l="0" t="0" r="130" b="120" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+				</child>
+				<child type="PICTURE" name="img_common_ribbon" subclass="">
+					<asset type="STATIC">quest_message_bg_01.png</asset>
+					<pos x="9" y="110" />
+					<rect l="0" t="0" r="443" b="181" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+					<child type="LABEL" name="bonus_name" subclass="">
+						<pos x="127" y="18" />
+						<rect l="0" t="0" r="191" b="17" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<label val="에이든의 가르침" />
+						<OutlineColor val="#964525FF" />
+						<ShadowColor val="#030200" />
+						<color val="#FFFFFFFF" />
+						<halign val="1" />
+						<valign val="1" />
+						<FontName val="나눔고딕 ExtraBold" />
+						<FontSize val="16" />
+						<TextTrimming val="None" />
+						<style val="16" />
+						<IsHitTestVisible val="False" />
+						<ClipChildren val="False" />
+						<Padding val="0, 0, 0, 0" />
+						<FitToContent val="False" />
+					</child>
+				</child>
+				<child type="PANEL" name="Panel_care_message" subclass="">
+					<pos x="38" y="153" />
+					<rect l="0" t="0" r="386" b="125" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<embed src="" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+					<child type="TEXTAREA" name="TextArea_contents" subclass="">
+						<asset type="BG" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="8" t="8" r="383" b="78" />
+						</asset>
+						<asset type="EDGE_LT" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="0" t="0" r="8" b="8" />
+						</asset>
+						<asset type="EDGE_RT" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="0" t="0" r="8" b="8" />
+						</asset>
+						<asset type="EDGE_LB" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="0" t="0" r="8" b="8" />
+						</asset>
+						<asset type="EDGE_RB" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="0" t="0" r="8" b="8" />
+						</asset>
+						<asset type="FRAME_T" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="8" t="0" r="383" b="8" />
+						</asset>
+						<asset type="FRAME_B" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="8" t="0" r="383" b="8" />
+						</asset>
+						<asset type="FRAME_L" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="0" t="8" r="8" b="78" />
+						</asset>
+						<asset type="FRAME_R" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="0" t="8" r="8" b="78" />
+						</asset>
+						<asset type="CARET" path="">
+							<rpos x="0" y="0" />
+							<rect l="0" t="0" r="0" b="0" />
+						</asset>
+						<pos x="-7" y="26" />
+						<rect l="0" t="0" r="399" b="94" />
+						<Visible val="True" />
+						<Anchor val="Top, Left" />
+						<Editable val="False" />
+						<OutlineColor val="#FFFFFF" />
+						<ShadowColor val="#0000004C" />
+						<SelectionBrush val="#FF0000" />
+						<color val="#FFFFFFFF" />
+						<style val="33" />
+						<halign val="1" />
+						<padding l="3" t="2" r="3" b="2" />
+						<FontName val="나눔고딕" />
+						<FontSize val="14" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+						<FitToContent val="False" />
+						<Text val="" />
+					</child>
+					<child type="LABEL" name="txt_nickname" subclass="">
+						<pos x="25" y="6" />
+						<rect l="0" t="0" r="335" b="17" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<label val="동료를 소중히" />
+						<OutlineColor val="#FF0000" />
+						<ShadowColor val="#030200" />
+						<color val="#FFA837" />
+						<halign val="1" />
+						<valign val="1" />
+						<FontName val="나눔고딕 ExtraBold" />
+						<FontSize val="16" />
+						<TextTrimming val="None" />
+						<style val="32" />
+						<IsHitTestVisible val="False" />
+						<ClipChildren val="False" />
+						<Padding val="0, 0, 0, 0" />
+						<FitToContent val="False" />
+					</child>
+				</child>
+			</base>
+		</child>
+	</base>
+</refresh>

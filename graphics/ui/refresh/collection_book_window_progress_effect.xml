@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="progress_effect_Default">
+    <asset type="IMAGE" name="asset_room_search_move_02" path="room_search_move_02.png">
+      <rect l="0" t="0" r="26" b="16" />
+    </asset>
+    <object name="room_search_move_02" ani="ani_room_search_move_02">
+      <asset type="IMAGE" link="asset_room_search_move_02" />
+    </object>
+    <param type="RES" x="350" y="14" />
+    <param type="LOOP" cnt="-1" pendulum="0" />
+    <anim name="ani_room_search_move_02">
+      <frame cnt="0">
+        <posx val="-0.251428571428571" />
+        <posy val="2.14285714285714" />
+        <scalex val="6.53846153846154" />
+        <scaley val="5.1875" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="3333">
+        <posx val="1.26571428571429" />
+        <posy val="2.21428571428571" />
+        <scalex val="7.07692307692308" />
+        <scaley val="5.8125" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="3967">
+        <posx val="1.13714285714286" />
+        <posy val="1.14285714285714" />
+        <scalex val="3.38461538461538" />
+        <scaley val="3.4375" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

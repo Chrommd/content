@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="_Normal_">
+    <asset type="UI" name="asset_chat_emoticon_Normal">
+      <rect l="0" t="0" r="28" b="26" />
+    </asset>
+    <asset type="UI" name="asset_chat_emoticon_Over">
+      <rect l="0" t="0" r="28" b="26" />
+    </asset>
+    <asset type="UI" name="asset_icon_emoticon">
+      <rect l="0" t="0" r="18" b="18" />
+    </asset>
+    <object name="chat_emoticon_Normal" ani="ani_chat_emoticon_Normal">
+      <asset type="UI" link="asset_chat_emoticon_Normal" />
+    </object>
+    <object name="chat_emoticon_Over" ani="ani_chat_emoticon_Over">
+      <asset type="UI" link="asset_chat_emoticon_Over" />
+    </object>
+    <object name="icon_emoticon" ani="ani_icon_emoticon">
+      <asset type="UI" link="asset_icon_emoticon" />
+    </object>
+    <param type="RES" x="28" y="26" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_chat_emoticon_Normal">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_chat_emoticon_Over">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_emoticon">
+      <frame cnt="0">
+        <posx val="0.1785714" />
+        <posy val="0.1538462" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Over_">
+    <asset type="UI" name="asset_chat_emoticon_Normal">
+      <rect l="0" t="0" r="28" b="26" />
+    </asset>
+    <asset type="UI" name="asset_chat_emoticon_Over">
+      <rect l="0" t="0" r="28" b="26" />
+    </asset>
+    <asset type="UI" name="asset_icon_emoticon">
+      <rect l="0" t="0" r="18" b="18" />
+    </asset>
+    <object name="chat_emoticon_Normal" ani="ani_chat_emoticon_Normal">
+      <asset type="UI" link="asset_chat_emoticon_Normal" />
+    </object>
+    <object name="chat_emoticon_Over" ani="ani_chat_emoticon_Over">
+      <asset type="UI" link="asset_chat_emoticon_Over" />
+    </object>
+    <object name="icon_emoticon" ani="ani_icon_emoticon">
+      <asset type="UI" link="asset_icon_emoticon" />
+    </object>
+    <param type="RES" x="28" y="26" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_chat_emoticon_Normal">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_chat_emoticon_Over">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_emoticon">
+      <frame cnt="0">
+        <posx val="0.178571428571429" />
+        <posy val="0.153846153846154" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="233">
+        <posx val="0.0357142857142857" easeValue="0.0,0.0,0.5,1.0" />
+        <posy val="0" easeValue="0.0,0.0,0.5,1.0" />
+        <scalex val="1.44444444444444" easeValue="0.0,0.0,0.5,1.0" />
+        <scaley val="1.44444444444444" easeValue="0.0,0.0,0.5,1.0" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.0714285714285714" easeValue="0.0,0.0,0.5,1.0" />
+        <posy val="0.0384615384615385" easeValue="0.0,0.0,0.5,1.0" />
+        <scalex val="1.33333333333333" easeValue="0.0,0.0,0.5,1.0" />
+        <scaley val="1.33333333333333" easeValue="0.0,0.0,0.5,1.0" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Selected_">
+    <asset type="UI" name="asset_chat_emoticon_Normal">
+      <rect l="0" t="0" r="28" b="26" />
+    </asset>
+    <asset type="UI" name="asset_chat_emoticon_Over">
+      <rect l="0" t="0" r="28" b="26" />
+    </asset>
+    <asset type="UI" name="asset_icon_emoticon">
+      <rect l="0" t="0" r="18" b="18" />
+    </asset>
+    <object name="chat_emoticon_Normal" ani="ani_chat_emoticon_Normal">
+      <asset type="UI" link="asset_chat_emoticon_Normal" />
+    </object>
+    <object name="chat_emoticon_Over" ani="ani_chat_emoticon_Over">
+      <asset type="UI" link="asset_chat_emoticon_Over" />
+    </object>
+    <object name="icon_emoticon" ani="ani_icon_emoticon">
+      <asset type="UI" link="asset_icon_emoticon" />
+    </object>
+    <param type="RES" x="28" y="26" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_chat_emoticon_Normal">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_chat_emoticon_Over">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_emoticon">
+      <frame cnt="0">
+        <posx val="0.1785714" />
+        <posy val="0.1538462" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Disabled_">
+    <asset type="UI" name="asset_chat_emoticon_Normal">
+      <rect l="0" t="0" r="28" b="26" />
+    </asset>
+    <asset type="UI" name="asset_chat_emoticon_Over">
+      <rect l="0" t="0" r="28" b="26" />
+    </asset>
+    <object name="chat_emoticon_Normal" ani="ani_chat_emoticon_Normal">
+      <asset type="UI" link="asset_chat_emoticon_Normal" />
+    </object>
+    <object name="chat_emoticon_Over" ani="ani_chat_emoticon_Over">
+      <asset type="UI" link="asset_chat_emoticon_Over" />
+    </object>
+    <param type="RES" x="28" y="26" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_chat_emoticon_Normal">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_chat_emoticon_Over">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

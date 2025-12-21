@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="common_tooltip_type_3_Animation.xml" />
+  </properties>
+  <base type="WNDEX" subclass="" name="wndex_tooltip_back">
+    <asset type="BG" path="" tileMode="Tile">
+      <tex x="0" y="0" />
+      <rect l="8" t="8" r="271" b="172" />
+    </asset>
+    <asset type="EDGE_LT" path="" tileMode="Tile">
+      <tex x="0" y="0" />
+      <rect l="0" t="0" r="8" b="8" />
+    </asset>
+    <asset type="EDGE_RT" path="" tileMode="Tile">
+      <tex x="0" y="0" />
+      <rect l="0" t="0" r="8" b="8" />
+    </asset>
+    <asset type="EDGE_LB" path="" tileMode="Tile">
+      <tex x="0" y="0" />
+      <rect l="0" t="0" r="8" b="8" />
+    </asset>
+    <asset type="EDGE_RB" path="" tileMode="Tile">
+      <tex x="0" y="0" />
+      <rect l="0" t="0" r="8" b="8" />
+    </asset>
+    <asset type="FRAME_T" path="" tileMode="Tile">
+      <tex x="0" y="0" />
+      <rect l="8" t="0" r="271" b="8" />
+    </asset>
+    <asset type="FRAME_B" path="" tileMode="Tile">
+      <tex x="0" y="0" />
+      <rect l="8" t="0" r="271" b="8" />
+    </asset>
+    <asset type="FRAME_L" path="" tileMode="Tile">
+      <tex x="0" y="0" />
+      <rect l="0" t="8" r="8" b="172" />
+    </asset>
+    <asset type="FRAME_R" path="" tileMode="Tile">
+      <tex x="0" y="0" />
+      <rect l="0" t="8" r="8" b="172" />
+    </asset>
+    <Visible val="True" />
+    <Anchor val="Top, Left" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="287" b="188" />
+    <snd type="SHOW">
+    </snd>
+    <snd type="HIDE">
+    </snd>
+    <Dragable val="False" />
+    <StartPosition val="None" />
+    <EscKeyAction val="None" />
+    <IsHitTestVisible val="True" />
+    <ClipChildren val="False" />
+    <base type="WNDEX" subclass="" name="wndex_imageback">
+      <asset type="BG" path="frm_tooltip_L_CenterMiddle.png" tileMode="Tile">
+        <tex x="20" y="20" />
+        <rect l="17" t="17" r="266" b="166" />
+      </asset>
+      <asset type="EDGE_LT" path="frm_tooltip_L_LeftTop.png" tileMode="Stretch">
+        <tex x="17" y="17" />
+        <rect l="0" t="0" r="17" b="17" />
+      </asset>
+      <asset type="EDGE_RT" path="frm_tooltip_L_RightTop.png" tileMode="Stretch">
+        <tex x="17" y="17" />
+        <rect l="0" t="0" r="17" b="17" />
+      </asset>
+      <asset type="EDGE_LB" path="frm_tooltip_L_LeftBottom.png" tileMode="Stretch">
+        <tex x="17" y="17" />
+        <rect l="0" t="0" r="17" b="17" />
+      </asset>
+      <asset type="EDGE_RB" path="frm_tooltip_L_RightBottom.png" tileMode="Stretch">
+        <tex x="17" y="17" />
+        <rect l="0" t="0" r="17" b="17" />
+      </asset>
+      <asset type="FRAME_T" path="frm_tooltip_L_CenterTop.png" tileMode="Tile">
+        <tex x="20" y="17" />
+        <rect l="17" t="0" r="266" b="17" />
+      </asset>
+      <asset type="FRAME_B" path="frm_tooltip_L_CenterBottom.png" tileMode="Tile">
+        <tex x="20" y="17" />
+        <rect l="17" t="0" r="266" b="17" />
+      </asset>
+      <asset type="FRAME_L" path="frm_tooltip_L_LeftMiddle.png" tileMode="Tile">
+        <tex x="17" y="20" />
+        <rect l="0" t="17" r="17" b="166" />
+      </asset>
+      <asset type="FRAME_R" path="frm_tooltip_L_RightMiddle.png" tileMode="Tile">
+        <tex x="17" y="20" />
+        <rect l="0" t="17" r="17" b="166" />
+      </asset>
+      <Visible val="True" />
+      <Anchor val="Top, Bottom, Left, Right" />
+      <pos x="-6" y="-6" />
+      <rect l="0" t="0" r="300" b="200" />
+      <snd type="SHOW">
+      </snd>
+      <snd type="HIDE">
+      </snd>
+      <Dragable val="False" />
+      <StartPosition val="None" />
+      <EscKeyAction val="None" />
+      <IsHitTestVisible val="False" />
+      <ClipChildren val="False" />
+      <child type="TEXTAREA" name="ta_tooltip_content" subclass="">
+        <asset type="BG" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="8" t="8" r="256" b="156" />
+        </asset>
+        <asset type="EDGE_LT" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="EDGE_RT" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="EDGE_LB" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="EDGE_RB" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="FRAME_T" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="8" t="0" r="256" b="8" />
+        </asset>
+        <asset type="FRAME_B" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="8" t="0" r="256" b="8" />
+        </asset>
+        <asset type="FRAME_L" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="0" t="8" r="8" b="156" />
+        </asset>
+        <asset type="FRAME_R" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="0" t="8" r="8" b="156" />
+        </asset>
+        <asset type="CARET" path="">
+          <rpos x="0" y="0" />
+          <rect l="0" t="0" r="0" b="0" />
+        </asset>
+        <pos x="14" y="14" />
+        <rect l="0" t="0" r="272" b="172" />
+        <Visible val="True" />
+        <Anchor val="Top, Bottom, Left, Right" />
+        <Editable val="False" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#FF0000" />
+        <SelectionBrush val="#FF0000" />
+        <color val="#F7E6DDFF" />
+        <style val="1" />
+        <halign val="0" />
+        <padding l="0" t="0" r="0" b="0" />
+        <FontName val="나눔고딕" />
+        <FontSize val="13" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+    </base>
+  </base>
+</refresh>

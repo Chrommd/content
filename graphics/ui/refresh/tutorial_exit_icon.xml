@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+  </properties>
+  <base type="WND" subclass="" name="Wnd">
+    <Visible val="True" />
+    <Anchor val="Top, Left, Right" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="1024" b="75" />
+    <IsHitTestVisible val="True" />
+    <ClipChildren val="False" />
+    <child type="PICTURE" name="icon_tuto_exit" subclass="">
+      <asset type="STATIC">icon_tuto_exit.png</asset>
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <pos x="3" y="-7" />
+      <rect l="0" t="0" r="89" b="76" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+  </base>
+</refresh>

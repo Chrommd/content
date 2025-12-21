@@ -1,0 +1,225 @@
+﻿<refresh version="2">
+	<properties>
+		<property name="DPI" val="72" />
+		<property name="UIAnimation" val="room_search_Animation.xml" />
+	</properties>
+	<base type="WND" subclass="" name="room_search">
+		<pos x="0" y="0" />
+		<rect l="0" t="0" r="1024" b="768" />
+		<Visible val="True" />
+		<Anchor val="Top, Bottom, Left, Right" />
+		<snd type="SHOW">ui_popup_room_search</snd>
+		<snd type="HIDE">ui_event_open</snd>
+		<IsHitTestVisible val="True" />
+		<ClipChildren val="False" />
+		<child type="STACKPANEL" name="anchor_search" subclass="">
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="1024" b="768" />
+			<Visible val="True" />
+			<Anchor val="Top, Bottom, Left, Right" />
+			<Orientation val="Vertical" />
+			<HAlign val="Center" />
+			<VAlign val="Center" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<base type="WNDEX" subclass="" name="bg_frm">
+				<asset type="BG" path="frm_alert_CenterMiddle.png" tileMode="Stretch">
+					<tex x="4" y="4" />
+					<rect l="40" t="30" r="335" b="230" />
+				</asset>
+				<asset type="EDGE_LT" path="frm_alert_LeftTop.png" tileMode="Stretch">
+					<tex x="40" y="30" />
+					<rect l="0" t="0" r="40" b="30" />
+				</asset>
+				<asset type="EDGE_RT" path="frm_alert_RightTop.png" tileMode="Stretch">
+					<tex x="40" y="30" />
+					<rect l="0" t="0" r="40" b="30" />
+				</asset>
+				<asset type="EDGE_LB" path="frm_alert_LeftBottom.png" tileMode="Stretch">
+					<tex x="40" y="20" />
+					<rect l="0" t="0" r="40" b="20" />
+				</asset>
+				<asset type="EDGE_RB" path="frm_alert_RightBottom.png" tileMode="Stretch">
+					<tex x="40" y="20" />
+					<rect l="0" t="0" r="40" b="20" />
+				</asset>
+				<asset type="FRAME_T" path="frm_alert_CenterTop.png" tileMode="Tile">
+					<tex x="4" y="30" />
+					<rect l="40" t="0" r="335" b="30" />
+				</asset>
+				<asset type="FRAME_B" path="frm_alert_CenterBottom.png" tileMode="Tile">
+					<tex x="4" y="20" />
+					<rect l="40" t="0" r="335" b="20" />
+				</asset>
+				<asset type="FRAME_L" path="frm_alert_LeftMiddle.png" tileMode="Tile">
+					<tex x="40" y="4" />
+					<rect l="0" t="30" r="40" b="230" />
+				</asset>
+				<asset type="FRAME_R" path="frm_alert_RightMiddle.png" tileMode="Tile">
+					<tex x="40" y="4" />
+					<rect l="0" t="30" r="40" b="230" />
+				</asset>
+				<pos x="304" y="244" />
+				<rect l="0" t="0" r="415" b="280" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<snd type="SHOW"></snd>
+				<snd type="HIDE"></snd>
+				<Dragable val="False" />
+				<StartPosition val="None" />
+				<EscKeyAction val="None" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+				<child type="LABEL" name="lb_wait_reason" subclass="">
+					<pos x="13" y="193" />
+					<rect l="0" t="0" r="391" b="18" />
+					<Visible val="True" />
+					<Anchor val="Top, Left" />
+					<label val="Searching for a room." />
+					<OutlineColor val="#FFFFFF" />
+					<ShadowColor val="#030200" />
+					<color val="#FFFFFE" />
+					<halign val="1" />
+					<valign val="0" />
+					<FontName val="나눔고딕" />
+					<FontSize val="14" />
+					<TextTrimming val="None" />
+					<style val="32" />
+					<IsHitTestVisible val="False" />
+					<ClipChildren val="False" />
+					<Padding val="0, 0, 0, 0" />
+					<FitToContent val="False" />
+				</child>
+				<child type="LABELBUTTON" name="cancel" subclass="">
+					<asset type="NORMAL">btn_common_cancel_Normal.png</asset>
+					<asset type="DOWN">btn_common_cancel_Push.png</asset>
+					<asset type="OVER">btn_common_cancel_Hover.png</asset>
+					<asset type="DISABLE">btn_common_cancel_Disable.png</asset>
+					<control type="LABEL" name="cancel_Label">
+						<pos x="0" y="0" />
+						<rect l="0" t="0" r="92" b="33" />
+						<Visible val="True" />
+						<Anchor val="Bottom, Left, Right" />
+						<label val="Cancel" />
+						<OutlineColor val="#FFFFFF" />
+						<ShadowColor val="#0000004C" />
+						<color val="#6B5D54" />
+						<halign val="1" />
+						<valign val="1" />
+						<FontName val="나눔고딕" />
+						<FontSize val="13" />
+						<TextTrimming val="None" />
+						<style val="1" />
+						<IsHitTestVisible val="False" />
+						<ClipChildren val="False" />
+						<Padding val="0, 0, 0, 0" />
+						<FitToContent val="False" />
+					</control>
+					<pos x="160" y="222" />
+					<rect l="0" t="0" r="92" b="33" />
+					<Visible val="True" />
+					<Anchor val="Top, Left" />
+					<snd type="OVER"></snd>
+					<snd type="DOWN">ui_btn_menu_click</snd>
+					<snd type="RELEASE">ui_btn_menu_close</snd>
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+					<NormalColor val="#FFFFFFFF" />
+					<HoverColor val="#FFFFFFFF" />
+					<PushColor val="#F1E4DBFF" />
+					<DisableColor val="#998A81FF" />
+					<IsDefaultButton val="False" />
+				</child>
+				<child type="PANEL" name="Panel" subclass="">
+					<pos x="29" y="25" />
+					<rect l="0" t="0" r="356" b="143" />
+					<Visible val="True" />
+					<Anchor val="Top, Left" />
+					<embed src="" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+					<child type="PICTURE" name="room_search_bg" subclass="">
+						<asset type="STATIC">room_search_bg.png</asset>
+						<pos x="51" y="24" />
+						<rect l="0" t="0" r="249" b="103" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="PICTURE" name="room_search_area_e_03" subclass="">
+						<asset type="STATIC">room_search_area_e_03.png</asset>
+						<pos x="42" y="15" />
+						<rect l="0" t="0" r="267" b="119" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="PICTURE" name="room_search_area_e_02" subclass="">
+						<asset type="STATIC">room_search_area_e_02.png</asset>
+						<pos x="79" y="38" />
+						<rect l="0" t="0" r="191" b="72" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="PICTURE" name="room_search_area_e_01" subclass="">
+						<asset type="STATIC">room_search_area_e_01.png</asset>
+						<pos x="103" y="52" />
+						<rect l="0" t="0" r="144" b="45" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="PICTURE" name="room_search_move_01" subclass="">
+						<asset type="STATIC">room_search_move_01.png</asset>
+						<pos x="116" y="67" />
+						<rect l="0" t="0" r="26" b="16" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="PICTURE" name="room_search_move_02" subclass="">
+						<asset type="STATIC">room_search_move_02.png</asset>
+						<pos x="209" y="67" />
+						<rect l="0" t="0" r="26" b="16" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="PICTURE" name="img_wait_horse_0" subclass="">
+						<asset type="ANIMATION">room_search_img_wait_horse_0.xml</asset>
+						<pos x="123" y="40" />
+						<rect l="0" t="0" r="56" b="56" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="PICTURE" name="icon_search_room" subclass="">
+						<asset type="ANIMATION">room_search_icon_search_room.xml</asset>
+						<pos x="178" y="74" />
+						<rect l="0" t="0" r="34" b="34" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+				</child>
+			</base>
+		</child>
+	</base>
+</refresh>

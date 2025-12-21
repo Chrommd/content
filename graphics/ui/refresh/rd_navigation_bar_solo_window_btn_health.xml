@@ -1,0 +1,553 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="NORMAL">
+    <asset type="IMAGE" name="asset_gnb_health_msg" path="gnb_health_msg.png">
+      <rect l="0" t="0" r="89" b="39" />
+    </asset>
+    <asset type="IMAGE" name="asset_gnb_health_msg_glow" path="gnb_health_msg_glow.png">
+      <rect l="0" t="0" r="89" b="39" />
+    </asset>
+    <asset type="IMAGE" name="asset_gnb_health_gauge" path="gnb_health_gauge.png">
+      <rect l="0" t="0" r="4" b="21" />
+    </asset>
+    <asset type="IMAGE" name="asset_gnb_health_msg_glow_front" path="gnb_health_msg_glow_front.png">
+      <rect l="0" t="0" r="89" b="39" />
+    </asset>
+    <asset type="IMAGE" name="asset_gnb_health" path="gnb_health.png">
+      <rect l="0" t="0" r="60" b="16" />
+    </asset>
+    <object name="gnb_health_msg" ani="ani_gnb_health_msg">
+      <asset type="IMAGE" link="asset_gnb_health_msg" />
+    </object>
+    <object name="gnb_health_msg_glow" ani="ani_gnb_health_msg_glow">
+      <asset type="IMAGE" link="asset_gnb_health_msg_glow" />
+    </object>
+    <object name="gnb_health_gauge" ani="ani_gnb_health_gauge">
+      <asset type="IMAGE" link="asset_gnb_health_gauge" />
+    </object>
+    <object name="gnb_health_msg_glow_front" ani="ani_gnb_health_msg_glow_front">
+      <asset type="IMAGE" link="asset_gnb_health_msg_glow_front" />
+    </object>
+    <object name="gnb_health" ani="ani_gnb_health">
+      <asset type="IMAGE" link="asset_gnb_health" />
+    </object>
+    <param type="RES" x="92" y="38" />
+    <param type="LOOP" cnt="-1" pendulum="1" />
+    <anim name="ani_gnb_health_msg">
+      <frame cnt="0">
+        <posx val="0.0434782608695652" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_gnb_health_msg_glow">
+      <frame cnt="0">
+        <posx val="0.0434782608695652" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1133">
+        <posx val="0.0434782608695652" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_gnb_health_gauge">
+      <frame cnt="0">
+        <posx val="0.184782608695652" />
+        <posy val="0.236842105263158" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1133">
+        <posx val="0.228260869565217" />
+        <posy val="0.236842105263158" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_gnb_health_msg_glow_front">
+      <frame cnt="0">
+        <posx val="0.04347826" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1133">
+        <posx val="0.04347826" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.6" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_gnb_health">
+      <frame cnt="0">
+        <posx val="0.206521739130435" />
+        <posy val="0.315789473684211" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="OVER">
+    <asset type="IMAGE" name="asset_gnb_health_msg" path="gnb_health_msg.png">
+      <rect l="0" t="0" r="89" b="39" />
+    </asset>
+    <asset type="IMAGE" name="asset_gnb_health_msg_glow" path="gnb_health_msg_glow.png">
+      <rect l="0" t="0" r="89" b="39" />
+    </asset>
+    <asset type="IMAGE" name="asset_gnb_health_msg_glow_front" path="gnb_health_msg_glow_front.png">
+      <rect l="0" t="0" r="89" b="39" />
+    </asset>
+    <asset type="IMAGE" name="asset_gnb_health_gauge" path="gnb_health_gauge.png">
+      <rect l="0" t="0" r="4" b="21" />
+    </asset>
+    <asset type="IMAGE" name="asset_gnb_health" path="gnb_health.png">
+      <rect l="0" t="0" r="60" b="16" />
+    </asset>
+    <object name="gnb_health_msg" ani="ani_gnb_health_msg">
+      <asset type="IMAGE" link="asset_gnb_health_msg" />
+    </object>
+    <object name="gnb_health_msg_glow" ani="ani_gnb_health_msg_glow">
+      <asset type="IMAGE" link="asset_gnb_health_msg_glow" />
+    </object>
+    <object name="gnb_health_msg_glow_front" ani="ani_gnb_health_msg_glow_front">
+      <asset type="IMAGE" link="asset_gnb_health_msg_glow_front" />
+    </object>
+    <object name="gnb_health_gauge" ani="ani_gnb_health_gauge">
+      <asset type="IMAGE" link="asset_gnb_health_gauge" />
+    </object>
+    <object name="gnb_health" ani="ani_gnb_health">
+      <asset type="IMAGE" link="asset_gnb_health" />
+    </object>
+    <param type="RES" x="92" y="38" />
+    <param type="LOOP" cnt="-1" pendulum="1" />
+    <anim name="ani_gnb_health_msg">
+      <frame cnt="0">
+        <posx val="0.04347826" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_gnb_health_msg_glow">
+      <frame cnt="0">
+        <posx val="0.0434782608695652" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1300">
+        <posx val="0.04347826" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_gnb_health_msg_glow_front">
+      <frame cnt="0">
+        <posx val="0.0434782608695652" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="967">
+        <posx val="0.0434782608695652" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1300">
+        <posx val="0.0434782608695652" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.2" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_gnb_health_gauge">
+      <frame cnt="0">
+        <posx val="0.184782608695652" />
+        <posy val="0.236842105263158" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1300">
+        <posx val="0.228260869565217" />
+        <posy val="0.236842105263158" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_gnb_health">
+      <frame cnt="0">
+        <posx val="0.206521739130435" />
+        <posy val="0.315789473684211" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="DOWN">
+    <asset type="IMAGE" name="asset_gnb_health_msg" path="gnb_health_msg.png">
+      <rect l="0" t="0" r="89" b="39" />
+    </asset>
+    <asset type="IMAGE" name="asset_gnb_health_msg_glow" path="gnb_health_msg_glow.png">
+      <rect l="0" t="0" r="89" b="39" />
+    </asset>
+    <asset type="IMAGE" name="asset_gnb_health_gauge" path="gnb_health_gauge.png">
+      <rect l="0" t="0" r="4" b="21" />
+    </asset>
+    <asset type="IMAGE" name="asset_gnb_health_msg_glow_front" path="gnb_health_msg_glow_front.png">
+      <rect l="0" t="0" r="89" b="39" />
+    </asset>
+    <asset type="IMAGE" name="asset_gnb_health" path="gnb_health.png">
+      <rect l="0" t="0" r="60" b="16" />
+    </asset>
+    <object name="gnb_health_msg" ani="ani_gnb_health_msg">
+      <asset type="IMAGE" link="asset_gnb_health_msg" />
+    </object>
+    <object name="gnb_health_msg_glow" ani="ani_gnb_health_msg_glow">
+      <asset type="IMAGE" link="asset_gnb_health_msg_glow" />
+    </object>
+    <object name="gnb_health_gauge" ani="ani_gnb_health_gauge">
+      <asset type="IMAGE" link="asset_gnb_health_gauge" />
+    </object>
+    <object name="gnb_health_msg_glow_front" ani="ani_gnb_health_msg_glow_front">
+      <asset type="IMAGE" link="asset_gnb_health_msg_glow_front" />
+    </object>
+    <object name="gnb_health" ani="ani_gnb_health">
+      <asset type="IMAGE" link="asset_gnb_health" />
+    </object>
+    <param type="RES" x="92" y="38" />
+    <param type="LOOP" cnt="-1" pendulum="1" />
+    <anim name="ani_gnb_health_msg">
+      <frame cnt="0">
+        <posx val="0.0543478260869565" />
+        <posy val="0.0263157894736842" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_gnb_health_msg_glow">
+      <frame cnt="0">
+        <posx val="0.0543478260869565" />
+        <posy val="0.0263157894736842" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1300">
+        <posx val="0.0543478260869565" />
+        <posy val="0.0263157894736842" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_gnb_health_gauge">
+      <frame cnt="0">
+        <posx val="0.195652173913043" />
+        <posy val="0.263157894736842" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1300">
+        <posx val="0.239130434782609" />
+        <posy val="0.263157894736842" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_gnb_health_msg_glow_front">
+      <frame cnt="0">
+        <posx val="0.0543478260869565" />
+        <posy val="0.0263157894736842" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="967">
+        <posx val="0.0543478260869565" />
+        <posy val="0.0263157894736842" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1300">
+        <posx val="0.0543478260869565" />
+        <posy val="0.0263157894736842" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.15" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_gnb_health">
+      <frame cnt="0">
+        <posx val="0.217391304347826" />
+        <posy val="0.342105263157895" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="DISABLE">
+    <asset type="IMAGE" name="asset_gnb_health_msg" path="gnb_health_msg.png">
+      <rect l="0" t="0" r="89" b="39" />
+    </asset>
+    <asset type="IMAGE" name="asset_gnb_health_msg_glow" path="gnb_health_msg_glow.png">
+      <rect l="0" t="0" r="89" b="39" />
+    </asset>
+    <asset type="IMAGE" name="asset_gnb_health_gauge" path="gnb_health_gauge.png">
+      <rect l="0" t="0" r="4" b="21" />
+    </asset>
+    <asset type="IMAGE" name="asset_gnb_health_msg_glow_front" path="gnb_health_msg_glow_front.png">
+      <rect l="0" t="0" r="89" b="39" />
+    </asset>
+    <asset type="IMAGE" name="asset_gnb_health" path="gnb_health.png">
+      <rect l="0" t="0" r="60" b="16" />
+    </asset>
+    <object name="gnb_health_msg" ani="ani_gnb_health_msg">
+      <asset type="IMAGE" link="asset_gnb_health_msg" />
+    </object>
+    <object name="gnb_health_msg_glow" ani="ani_gnb_health_msg_glow">
+      <asset type="IMAGE" link="asset_gnb_health_msg_glow" />
+    </object>
+    <object name="gnb_health_gauge" ani="ani_gnb_health_gauge">
+      <asset type="IMAGE" link="asset_gnb_health_gauge" />
+    </object>
+    <object name="gnb_health_msg_glow_front" ani="ani_gnb_health_msg_glow_front">
+      <asset type="IMAGE" link="asset_gnb_health_msg_glow_front" />
+    </object>
+    <object name="gnb_health" ani="ani_gnb_health">
+      <asset type="IMAGE" link="asset_gnb_health" />
+    </object>
+    <param type="RES" x="92" y="38" />
+    <param type="LOOP" cnt="-1" pendulum="1" />
+    <anim name="ani_gnb_health_msg">
+      <frame cnt="0">
+        <posx val="0.04347826" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_gnb_health_msg_glow">
+      <frame cnt="0">
+        <posx val="0.04347826" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1333">
+        <posx val="0.04347826" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,0.0,0.3,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_gnb_health_gauge">
+      <frame cnt="0">
+        <posx val="0.184782608695652" />
+        <posy val="0.236842105263158" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1333">
+        <posx val="0.228260869565217" />
+        <posy val="0.236842105263158" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_gnb_health_msg_glow_front">
+      <frame cnt="0">
+        <posx val="0.04347826" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1333">
+        <posx val="0.04347826" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.6" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_gnb_health">
+      <frame cnt="0">
+        <posx val="0.206521739130435" />
+        <posy val="0.315789473684211" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

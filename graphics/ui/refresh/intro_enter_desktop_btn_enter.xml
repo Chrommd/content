@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="NORMAL">
+    <asset type="IMAGE" name="asset_btn_buy_n" path="btn_enter_n.png">
+      <rect l="0" t="0" r="314" b="46" />
+    </asset>
+    <asset type="IMAGE" name="asset_txt_enter" path="txt_enter.png">
+      <rect l="0" t="0" r="272" b="27" />
+    </asset>
+    <object name="btn_buy_n" ani="ani_btn_buy_n">
+      <asset type="IMAGE" link="asset_btn_buy_n" />
+    </object>
+    <object name="txt_enter" ani="ani_txt_enter">
+      <asset type="IMAGE" link="asset_txt_enter" />
+    </object>
+    <param type="RES" x="314" y="46" />
+    <param type="LOOP" cnt="-1" pendulum="1" />
+    <anim name="ani_btn_buy_n">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_txt_enter">
+      <frame cnt="0">
+        <posx val="0.0668789808917197" />
+        <posy val="0.195652173913043" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="OVER">
+    <asset type="IMAGE" name="asset_btn_enter_o" path="btn_enter_o.png">
+      <rect l="0" t="0" r="314" b="46" />
+    </asset>
+    <asset type="IMAGE" name="asset_txt_enter1" path="txt_enter.png">
+      <rect l="0" t="0" r="272" b="27" />
+    </asset>
+    <object name="btn_enter_o" ani="ani_btn_enter_o">
+      <asset type="IMAGE" link="asset_btn_enter_o" />
+    </object>
+    <object name="txt_enter1" ani="ani_txt_enter1">
+      <asset type="IMAGE" link="asset_txt_enter1" />
+    </object>
+    <param type="RES" x="314" y="46" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_btn_enter_o">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_txt_enter1">
+      <frame cnt="0">
+        <posx val="0.0668789808917197" />
+        <posy val="0.195652173913043" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="DOWN">
+    <asset type="IMAGE" name="asset_btn_enter_o" path="btn_enter_d.png">
+      <rect l="0" t="0" r="314" b="46" />
+    </asset>
+    <asset type="IMAGE" name="asset_txt_enter1" path="txt_enter.png">
+      <rect l="0" t="0" r="272" b="27" />
+    </asset>
+    <object name="btn_enter_o" ani="ani_btn_enter_o">
+      <asset type="IMAGE" link="asset_btn_enter_o" />
+    </object>
+    <object name="txt_enter1" ani="ani_txt_enter1">
+      <asset type="IMAGE" link="asset_txt_enter1" />
+    </object>
+    <param type="RES" x="314" y="46" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_btn_enter_o">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_txt_enter1">
+      <frame cnt="0">
+        <posx val="0.06687898" />
+        <posy val="0.1956522" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

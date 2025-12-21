@@ -1,0 +1,97 @@
+﻿<refresh version="2">
+	<properties>
+		<property name="DPI" val="72" />
+		<property name="UIAnimation" val="User_list_guild_column_Animation.xml" />
+	</properties>
+	<base type="WND" subclass="" name="Wnd_guild_list">
+		<pos x="0" y="0" />
+		<rect l="0" t="0" r="270" b="25" />
+		<Visible val="True" />
+		<Anchor val="Top, Left" />
+		<snd type="SHOW"></snd>
+		<snd type="HIDE"></snd>
+		<IsHitTestVisible val="True" />
+		<ClipChildren val="False" />
+		<child type="PICTURE" name="underline" subclass="">
+			<asset type="STATIC">img_common_lineHorizontal_01.png</asset>
+			<pos x="0" y="21" />
+			<rect l="0" t="0" r="270" b="4" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="focus_over" subclass="">
+			<asset type="STATIC">letter_focus_over.png</asset>
+			<pos x="0" y="1" />
+			<rect l="0" t="0" r="270" b="20" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="focus_select" subclass="">
+			<asset type="STATIC">letter_focus_select.png</asset>
+			<pos x="0" y="1" />
+			<rect l="0" t="0" r="270" b="20" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="LABEL" name="nickname" subclass="">
+			<pos x="110" y="1" />
+			<rect l="0" t="0" r="159" b="19" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<label val="" />
+			<OutlineColor val="#FF0000" />
+			<ShadowColor val="#FF0000" />
+			<color val="#EEE9DDFF" />
+			<halign val="0" />
+			<valign val="1" />
+			<FontName val="나눔고딕" />
+			<FontSize val="13" />
+			<TextTrimming val="CharacterEllipsis" />
+			<style val="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+			<Padding val="0, 0, 0, 0" />
+			<FitToContent val="False" />
+		</child>
+		<child type="LABEL" name="class" subclass="">
+			<pos x="21" y="1" />
+			<rect l="0" t="0" r="89" b="19" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<label val="" />
+			<OutlineColor val="#FF0000" />
+			<ShadowColor val="#FF0000" />
+			<color val="#F0E8D0FF" />
+			<halign val="0" />
+			<valign val="1" />
+			<FontName val="나눔고딕" />
+			<FontSize val="13" />
+			<TextTrimming val="CharacterEllipsis" />
+			<style val="1" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+			<Padding val="0, 0, 0, 0" />
+			<FitToContent val="False" />
+		</child>
+		<child type="CHECK" name="cb_system_msg" subclass="">
+			<asset type="NORMAL">checkbox_n.png</asset>
+			<asset type="CHECK">checkbox_d.png</asset>
+			<pos x="-2" y="-1" />
+			<rect l="0" t="0" r="24" b="24" />
+			<Visible val="True" />
+			<PushSound val="ui_btn_menu_close" />
+			<Anchor val="Top, Left" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+	</base>
+</refresh>

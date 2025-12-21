@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="horseinfo_condition_bg_Default">
+    <asset type="IMAGE" name="asset_horseinfo_condition_effect" path="horseinfo_condition_effect.png">
+      <rect l="0" t="0" r="44" b="44" />
+    </asset>
+    <asset type="IMAGE" name="asset_horseinfo_condition_bg" path="horseinfo_condition_bg.png">
+      <rect l="0" t="0" r="30" b="30" />
+    </asset>
+    <object name="horseinfo_condition_effect" ani="ani_horseinfo_condition_effect">
+      <asset type="IMAGE" link="asset_horseinfo_condition_effect" />
+    </object>
+    <object name="horseinfo_condition_bg" ani="ani_horseinfo_condition_bg">
+      <asset type="IMAGE" link="asset_horseinfo_condition_bg" />
+    </object>
+    <param type="RES" x="30" y="30" />
+    <param type="LOOP" cnt="-1" pendulum="0" />
+    <anim name="ani_horseinfo_condition_effect">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.2" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0" easeValue="0.0,0.0,0.6,1.0" />
+        <posy val="0" easeValue="0.0,0.0,0.6,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,0.0,0.6,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" easeValue="0.0,0.0,0.6,1.0" />
+        <centery val="0" easeValue="0.0,0.0,0.6,1.0" />
+      </frame>
+      <frame cnt="1067">
+        <posx val="0" easeValue="0.0,0.0,0.5,1.0" />
+        <posy val="0" easeValue="0.0,0.0,0.5,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,0.0,0.5,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" easeValue="0.0,0.0,0.5,1.0" />
+        <centery val="0" easeValue="0.0,0.0,0.5,1.0" />
+      </frame>
+      <frame cnt="1567">
+        <posx val="0" easeValue="0.0,0.0,0.5,1.0" />
+        <posy val="0" easeValue="0.0,0.0,0.5,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" easeValue="0.0,0.0,0.5,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" easeValue="0.0,0.0,0.5,1.0" />
+        <centery val="0" easeValue="0.0,0.0,0.5,1.0" />
+      </frame>
+      <frame cnt="1833">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.2" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_horseinfo_condition_bg">
+      <frame cnt="0">
+        <posx val="0.233333333333333" />
+        <posy val="0.233333333333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

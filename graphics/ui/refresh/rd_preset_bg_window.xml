@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+  </properties>
+  <base type="WND" subclass="" name="Wnd">
+    <Visible val="True" />
+    <Anchor val="None" />
+    <pos x="329" y="448" />
+    <rect l="0" t="0" r="138" b="295" />
+    <IsHitTestVisible val="True" />
+    <ClipChildren val="False" />
+    <base type="WNDEX" subclass="" name="wnd_preset_popup">
+      <asset type="BG" path="" tileMode="Stretch">
+        <tex x="4" y="4" />
+        <rect l="17" t="18" r="100" b="262" />
+      </asset>
+      <asset type="EDGE_LT" path="" tileMode="Stretch">
+        <tex x="17" y="18" />
+        <rect l="0" t="0" r="17" b="18" />
+      </asset>
+      <asset type="EDGE_RT" path="" tileMode="Stretch">
+        <tex x="21" y="18" />
+        <rect l="0" t="0" r="21" b="18" />
+      </asset>
+      <asset type="EDGE_LB" path="" tileMode="Stretch">
+        <tex x="17" y="15" />
+        <rect l="0" t="0" r="17" b="15" />
+      </asset>
+      <asset type="EDGE_RB" path="" tileMode="Stretch">
+        <tex x="21" y="15" />
+        <rect l="0" t="0" r="21" b="15" />
+      </asset>
+      <asset type="FRAME_T" path="" tileMode="Stretch">
+        <tex x="4" y="18" />
+        <rect l="17" t="0" r="100" b="18" />
+      </asset>
+      <asset type="FRAME_B" path="" tileMode="Stretch">
+        <tex x="4" y="15" />
+        <rect l="17" t="0" r="100" b="15" />
+      </asset>
+      <asset type="FRAME_L" path="" tileMode="Stretch">
+        <tex x="17" y="4" />
+        <rect l="0" t="18" r="17" b="262" />
+      </asset>
+      <asset type="FRAME_R" path="" tileMode="Stretch">
+        <tex x="21" y="4" />
+        <rect l="0" t="18" r="21" b="262" />
+      </asset>
+      <Visible val="True" />
+      <Anchor val="Top, Bottom, Left, Right" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="138" b="295" />
+      <Dragable val="False" />
+      <StartPosition val="None" />
+      <EscKeyAction val="None" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <child type="PICTURE" name="readyroom_team_slot_1" subclass="">
+        <asset type="STATIC">readyroom_team_slot.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="-7" y="-3" />
+        <rect l="0" t="0" r="154" b="82" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <child type="PICTURE" name="rd_skill_set_back" subclass="">
+          <asset type="STATIC">rd_skill_set_back.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="-23" y="6" />
+          <rect l="0" t="0" r="29" b="45" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="LABEL" name="Label" subclass="">
+          <label val="1" />
+          <pos x="-14" y="21" />
+          <rect l="0" t="0" r="11" b="18" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FFFFFF" />
+          <ShadowColor val="#0000004C" />
+          <color val="#FFFFFFFF" />
+          <halign val="1" />
+          <valign val="1" />
+          <FontName val="나눔고딕 ExtraBold" />
+          <FontSize val="13" />
+          <TextTrimming val="None" />
+          <style val="32" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+      </child>
+      <child type="PICTURE" name="readyroom_team_slot_2" subclass="">
+        <asset type="STATIC">readyroom_team_slot.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="-7" y="70" />
+        <rect l="0" t="0" r="154" b="82" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <child type="PICTURE" name="rd_skill_set_back1" subclass="">
+          <asset type="STATIC">rd_skill_set_back.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="-23" y="6" />
+          <rect l="0" t="0" r="29" b="45" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="LABEL" name="Label1" subclass="">
+          <label val="2" />
+          <pos x="-14" y="21" />
+          <rect l="0" t="0" r="11" b="18" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FFFFFF" />
+          <ShadowColor val="#0000004C" />
+          <color val="#FFFFFFFF" />
+          <halign val="1" />
+          <valign val="1" />
+          <FontName val="나눔고딕 ExtraBold" />
+          <FontSize val="13" />
+          <TextTrimming val="None" />
+          <style val="32" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+      </child>
+      <child type="PICTURE" name="readyroom_team_slot_3" subclass="">
+        <asset type="STATIC">readyroom_team_slot.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="-7" y="143" />
+        <rect l="0" t="0" r="154" b="82" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <child type="PICTURE" name="rd_skill_set_back2" subclass="">
+          <asset type="STATIC">rd_skill_set_back.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="-23" y="6" />
+          <rect l="0" t="0" r="29" b="45" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="LABEL" name="Label2" subclass="">
+          <label val="3" />
+          <pos x="-14" y="21" />
+          <rect l="0" t="0" r="11" b="18" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FFFFFF" />
+          <ShadowColor val="#0000004C" />
+          <color val="#FFFFFFFF" />
+          <halign val="1" />
+          <valign val="1" />
+          <FontName val="나눔고딕 ExtraBold" />
+          <FontSize val="13" />
+          <TextTrimming val="None" />
+          <style val="32" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+      </child>
+      <child type="PICTURE" name="readyroom_team_slot_4" subclass="">
+        <asset type="STATIC">readyroom_team_slot.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="-7" y="216" />
+        <rect l="0" t="0" r="154" b="82" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <child type="PICTURE" name="rd_skill_set_back3" subclass="">
+          <asset type="STATIC">rd_skill_set_back.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="-23" y="6" />
+          <rect l="0" t="0" r="29" b="45" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="LABEL" name="Label3" subclass="">
+          <label val="4" />
+          <pos x="-14" y="21" />
+          <rect l="0" t="0" r="11" b="18" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FFFFFF" />
+          <ShadowColor val="#0000004C" />
+          <color val="#FFFFFFFF" />
+          <halign val="1" />
+          <valign val="1" />
+          <FontName val="나눔고딕 ExtraBold" />
+          <FontSize val="13" />
+          <TextTrimming val="None" />
+          <style val="32" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+      </child>
+      <child type="LIST" name="ListControl" subclass="">
+        <asset type="BG" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="8" t="8" r="122" b="279" />
+        </asset>
+        <asset type="EDGE_LT" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="EDGE_RT" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="EDGE_LB" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="EDGE_RB" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="FRAME_T" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="8" t="0" r="122" b="8" />
+        </asset>
+        <asset type="FRAME_B" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="8" t="0" r="122" b="8" />
+        </asset>
+        <asset type="FRAME_L" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="0" t="8" r="8" b="279" />
+        </asset>
+        <asset type="FRAME_R" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="0" t="8" r="8" b="279" />
+        </asset>
+        <Visible val="True" />
+        <Anchor val="Top, Bottom, Left, Right" />
+        <pos x="0" y="0" />
+        <rect l="0" t="0" r="138" b="295" />
+        <padding l="0" t="0" r="0" b="0" />
+        <column val="1" />
+        <itemrect l="0" t="0" r="138" b="74" />
+        <selection val="0" />
+        <deselectable val="0" />
+        <rclickaction val="1" />
+        <IsHitTestVisible val="True" />
+        <Orientation val="Vertical" />
+        <ClipChildren val="False" />
+      </child>
+    </base>
+  </base>
+</refresh>

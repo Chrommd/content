@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="icon_revenge_open_shadow_Default">
+    <asset type="IMAGE" name="asset_icon_revenge_open_shadow" path="icon_revenge_open_shadow.png">
+      <rect l="0" t="0" r="40" b="7" />
+    </asset>
+    <object name="icon_revenge_open_shadow" ani="ani_icon_revenge_open_shadow">
+      <asset type="IMAGE" link="asset_icon_revenge_open_shadow" />
+    </object>
+    <param type="RES" x="40" y="7" />
+    <param type="LOOP" cnt="-1" pendulum="0" />
+    <anim name="ani_icon_revenge_open_shadow">
+      <frame cnt="0">
+        <posx val="0.5" />
+        <posy val="0.571428571428571" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.2" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

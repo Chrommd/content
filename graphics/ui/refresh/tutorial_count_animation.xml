@@ -1,0 +1,338 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="_Opening_">
+    <asset type="UI" name="asset_Panel">
+      <rect l="0" t="0" r="324" b="146" />
+    </asset>
+    <asset type="UI" name="asset_ingame_count_pjcombo_3">
+      <rect l="0" t="0" r="36" b="52" />
+    </asset>
+    <asset type="UI" name="asset_ingame_count_pjcombo_2">
+      <rect l="0" t="0" r="36" b="52" />
+    </asset>
+    <asset type="UI" name="asset_ingame_count_pjcombo_1">
+      <rect l="0" t="0" r="36" b="52" />
+    </asset>
+    <asset type="UI" name="asset_StackPanel1">
+      <rect l="0" t="0" r="330" b="38" />
+    </asset>
+    <object name="Panel" ani="ani_Panel">
+      <asset type="UI" link="asset_Panel" />
+    </object>
+    <object name="ingame_count_pjcombo_3" ani="ani_ingame_count_pjcombo_3">
+      <asset type="UI" link="asset_ingame_count_pjcombo_3" />
+    </object>
+    <object name="ingame_count_pjcombo_2" ani="ani_ingame_count_pjcombo_2">
+      <asset type="UI" link="asset_ingame_count_pjcombo_2" />
+    </object>
+    <object name="ingame_count_pjcombo_1" ani="ani_ingame_count_pjcombo_1">
+      <asset type="UI" link="asset_ingame_count_pjcombo_1" />
+    </object>
+    <object name="StackPanel1" ani="ani_StackPanel1">
+      <asset type="UI" link="asset_StackPanel1" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_Panel">
+      <frame cnt="1600">
+        <posx val="0.3417969" />
+        <posy val="0.1458333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <sound val="gui_newgate_timer_st" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2700">
+        <posx val="0.3417969" />
+        <posy val="0.1458333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <sound val="gui_newgate_timer_st" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="3767">
+        <posx val="0.3417969" />
+        <posy val="0.1458333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <sound val="gui_newgate_timer_st" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="5000">
+        <posx val="0.3417969" />
+        <posy val="0.1458333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <sound val="gui_gauge_slide_st" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_count_pjcombo_3">
+      <frame cnt="0">
+        <posx val="0.1484375" />
+        <posy val="0.109375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1333">
+        <posx val="0.197265625" />
+        <posy val="0.109375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1600">
+        <posx val="0.1484375" easeValue="0.0,0.0,0.4,1.0" />
+        <posy val="0.109375" easeValue="0.0,0.0,0.4,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,0.0,0.4,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2233">
+        <posx val="0.1484375" />
+        <posy val="0.109375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2500">
+        <posx val="0.1484375" />
+        <posy val="0.109375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_count_pjcombo_2">
+      <frame cnt="0">
+        <posx val="0.1474609375" />
+        <posy val="0.109375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2433">
+        <posx val="0.1962890625" />
+        <posy val="0.109375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2700">
+        <posx val="0.1474609375" easeValue="0.0,0.0,0.4,1.0" />
+        <posy val="0.109375" easeValue="0.0,0.0,0.4,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,0.0,0.4,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="3300">
+        <posx val="0.1474609375" />
+        <posy val="0.109375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="3567">
+        <posx val="0.1474609375" />
+        <posy val="0.109375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_count_pjcombo_1">
+      <frame cnt="0">
+        <posx val="0.1474609375" />
+        <posy val="0.108072916666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="3500">
+        <posx val="0.1962890625" />
+        <posy val="0.108072916666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="3767">
+        <posx val="0.1474609375" easeValue="0.0,0.0,0.4,1.0" />
+        <posy val="0.108072916666667" easeValue="0.0,0.0,0.4,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,0.0,0.4,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="4467">
+        <posx val="0.1474609375" />
+        <posy val="0.108072916666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="4767">
+        <posx val="0.1474609375" />
+        <posy val="0.108072916666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_StackPanel1">
+      <frame cnt="0">
+        <posx val="-0.0029296875" />
+        <posy val="0.110677083333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="4700">
+        <posx val="-0.0029296875" />
+        <posy val="0.13671875" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="5000">
+        <posx val="-0.0029296875" />
+        <posy val="0.110677083333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="6267">
+        <posx val="-0.0029296875" />
+        <posy val="0.110677083333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Closing_">
+    <asset type="UI" name="asset_StackPanel">
+      <rect l="0" t="0" r="1024" b="258" />
+    </asset>
+    <object name="StackPanel" ani="ani_StackPanel">
+      <asset type="UI" link="asset_StackPanel" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_StackPanel">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="300">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

@@ -1,0 +1,405 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="result_myinfo_window_Animation.xml" />
+  </properties>
+  <base type="WND" subclass="" name="result_myinfo_Wnd">
+    <Visible val="True" />
+    <Anchor val="Bottom, Left, Right" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="1024" b="768" />
+    <snd type="SHOW">
+    </snd>
+    <snd type="HIDE">
+    </snd>
+    <IsHitTestVisible val="True" />
+    <ClipChildren val="False" />
+    <child type="STACKPANEL" name="StackPanel" subclass="">
+      <Visible val="True" />
+      <Anchor val="Bottom, Left, Right" />
+      <pos x="0" y="656" />
+      <rect l="0" t="0" r="1024" b="106" />
+      <Orientation val="Vertical" />
+      <HAlign val="Center" />
+      <VAlign val="Bottom" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <base type="WNDEX" subclass="" name="result_myiinfo">
+        <asset type="BG" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="8" t="8" r="686" b="90" />
+        </asset>
+        <asset type="EDGE_LT" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="EDGE_RT" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="EDGE_LB" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="EDGE_RB" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="FRAME_T" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="8" t="0" r="686" b="8" />
+        </asset>
+        <asset type="FRAME_B" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="8" t="0" r="686" b="8" />
+        </asset>
+        <asset type="FRAME_L" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="0" t="8" r="8" b="90" />
+        </asset>
+        <asset type="FRAME_R" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="0" t="8" r="8" b="90" />
+        </asset>
+        <Visible val="True" />
+        <Anchor val="Top, Bottom, Left, Right" />
+        <pos x="161" y="0" />
+        <rect l="0" t="0" r="702" b="106" />
+        <snd type="SHOW">
+        </snd>
+        <snd type="HIDE">
+        </snd>
+        <Dragable val="False" />
+        <StartPosition val="None" />
+        <EscKeyAction val="None" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <child type="PICTURE" name="img_myinfo_bg" subclass="">
+          <asset type="STATIC">Result_BG_MyInfo.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="0" y="0" />
+          <rect l="0" t="0" r="702" b="106" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+          <child type="LABEL" name="txt_record" subclass="">
+            <label val="Personal Record" />
+            <pos x="79" y="39" />
+            <rect l="0" t="0" r="150" b="19" />
+            <Visible val="True" />
+            <Anchor val="None" />
+            <OutlineColor val="#FF0000" />
+            <ShadowColor val="#000000FF" />
+            <color val="#FFFFFFFF" />
+            <halign val="0" />
+            <valign val="1" />
+            <FontName val="나눔고딕 ExtraBold" />
+            <FontSize val="16" />
+            <TextTrimming val="None" />
+            <style val="32" />
+            <IsHitTestVisible val="False" />
+            <ClipChildren val="False" />
+            <Padding val="0, 0, 0, 0" />
+            <FitToContent val="False" />
+          </child>
+          <child type="PICTURE" name="icon_expectation_record" subclass="">
+            <asset type="STATIC">icon_expectation_record.png</asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="46" y="39" />
+            <rect l="0" t="0" r="30" b="18" />
+            <center x="0" y="0" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+          </child>
+          <child type="LABEL" name="txt_exp" subclass="">
+            <label val="EXP Obt." />
+            <pos x="289" y="39" />
+            <rect l="0" t="0" r="150" b="19" />
+            <Visible val="True" />
+            <Anchor val="None" />
+            <OutlineColor val="#FF0000" />
+            <ShadowColor val="#000000FF" />
+            <color val="#FFFFFFFF" />
+            <halign val="0" />
+            <valign val="1" />
+            <FontName val="나눔고딕 ExtraBold" />
+            <FontSize val="16" />
+            <TextTrimming val="None" />
+            <style val="32" />
+            <IsHitTestVisible val="False" />
+            <ClipChildren val="False" />
+            <Padding val="0, 0, 0, 0" />
+            <FitToContent val="False" />
+          </child>
+          <child type="LABEL" name="txt_money" subclass="">
+            <label val="Carrots Obt." />
+            <pos x="500" y="39" />
+            <rect l="0" t="0" r="150" b="19" />
+            <Visible val="True" />
+            <Anchor val="None" />
+            <OutlineColor val="#FF0000" />
+            <ShadowColor val="#000000FF" />
+            <color val="#FFFFFFFF" />
+            <halign val="0" />
+            <valign val="1" />
+            <FontName val="나눔고딕 ExtraBold" />
+            <FontSize val="16" />
+            <TextTrimming val="None" />
+            <style val="32" />
+            <IsHitTestVisible val="False" />
+            <ClipChildren val="False" />
+            <Padding val="0, 0, 0, 0" />
+            <FitToContent val="False" />
+          </child>
+          <child type="LABEL" name="txt_myrecord" subclass="">
+            <label val="00 : 44 : 44" />
+            <pos x="75" y="59" />
+            <rect l="0" t="0" r="82" b="21" />
+            <Visible val="True" />
+            <Anchor val="None" />
+            <OutlineColor val="#FF0000" />
+            <ShadowColor val="#B19A89" />
+            <color val="#ECA241FF" />
+            <halign val="2" />
+            <valign val="1" />
+            <FontName val="나눔고딕 ExtraBold" />
+            <FontSize val="13" />
+            <TextTrimming val="None" />
+            <style val="0" />
+            <IsHitTestVisible val="False" />
+            <ClipChildren val="False" />
+            <Padding val="0, 0, 0, 0" />
+            <FitToContent val="False" />
+          </child>
+          <child type="LABEL" name="txt_record comparison" subclass="">
+            <label val="(-00 : 00 : 00)" />
+            <pos x="161" y="60" />
+            <rect l="0" t="0" r="100" b="19" />
+            <Visible val="True" />
+            <Anchor val="None" />
+            <OutlineColor val="#FF0000" />
+            <ShadowColor val="#B19A89" />
+            <color val="#B2A59FFF" />
+            <halign val="0" />
+            <valign val="1" />
+            <FontName val="나눔고딕 ExtraBold" />
+            <FontSize val="13" />
+            <TextTrimming val="None" />
+            <style val="0" />
+            <IsHitTestVisible val="False" />
+            <ClipChildren val="False" />
+            <Padding val="0, 0, 0, 0" />
+            <FitToContent val="False" />
+          </child>
+          <child type="PICTURE" name="img_expbg" subclass="">
+            <asset type="STATIC">
+            </asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="292" y="60" />
+            <rect l="0" t="0" r="159" b="18" />
+            <center x="0" y="0" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+            <child type="PROGRESS" name="progress_result_exp" subclass="">
+              <asset type="BAR" tileMode="Stretch">
+              </asset>
+              <tex x="0" y="0" />
+              <pos x="2" y="3" />
+              <rect l="0" t="0" r="159" b="15" />
+              <Visible val="True" />
+              <Anchor val="Top, Left" />
+              <IsHitTestVisible val="True" />
+              <ClipChildren val="False" />
+            </child>
+            <child type="LABEL" name="result_myinfo_exp" subclass="">
+              <label val="" />
+              <pos x="4" y="0" />
+              <rect l="0" t="0" r="154" b="18" />
+              <Visible val="True" />
+              <Anchor val="Top, Left" />
+              <OutlineColor val="#FFFFFF" />
+              <ShadowColor val="#000000FF" />
+              <color val="#FFFFFFFF" />
+              <halign val="1" />
+              <valign val="1" />
+              <FontName val="나눔고딕" />
+              <FontSize val="13" />
+              <TextTrimming val="None" />
+              <style val="33" />
+              <IsHitTestVisible val="False" />
+              <ClipChildren val="False" />
+              <Padding val="0, 0, 0, 0" />
+              <FitToContent val="False" />
+            </child>
+          </child>
+          <child type="LABEL" name="txt_exp_count" subclass="">
+            <label val="+4,444" />
+            <pos x="374" y="35" />
+            <rect l="0" t="0" r="76" b="26" />
+            <Visible val="True" />
+            <Anchor val="None" />
+            <OutlineColor val="#FF0000" />
+            <ShadowColor val="#0000007F" />
+            <color val="#FFB154" />
+            <halign val="2" />
+            <valign val="1" />
+            <FontName val="나눔고딕 ExtraBold" />
+            <FontSize val="16" />
+            <TextTrimming val="None" />
+            <style val="32" />
+            <IsHitTestVisible val="False" />
+            <ClipChildren val="False" />
+            <Padding val="0, 0, 0, 0" />
+            <FitToContent val="False" />
+          </child>
+          <child type="LABEL" name="txt_getmoney" subclass="">
+            <label val="444,444" />
+            <pos x="513" y="62" />
+            <rect l="0" t="0" r="100" b="15" />
+            <Visible val="True" />
+            <Anchor val="None" />
+            <OutlineColor val="#FF0000" />
+            <ShadowColor val="#B19A89" />
+            <color val="#ECA241FF" />
+            <halign val="2" />
+            <valign val="1" />
+            <FontName val="나눔고딕 ExtraBold" />
+            <FontSize val="13" />
+            <TextTrimming val="None" />
+            <style val="0" />
+            <IsHitTestVisible val="False" />
+            <ClipChildren val="False" />
+            <Padding val="0, 0, 0, 0" />
+            <FitToContent val="False" />
+          </child>
+          <child type="PICTURE" name="img_icon_Newrecord" subclass="">
+            <asset type="STATIC">Result_Icon_NewRecord.png</asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="78" y="6" />
+            <rect l="0" t="0" r="121" b="37" />
+            <center x="0" y="0" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+          </child>
+          <child type="LABEL" name="txt_timeout" subclass="">
+            <label val="Time Over" />
+            <pos x="87" y="59" />
+            <rect l="0" t="0" r="160" b="21" />
+            <Visible val="True" />
+            <Anchor val="None" />
+            <OutlineColor val="#FF0000" />
+            <ShadowColor val="#B19A89" />
+            <color val="#B2A59FFF" />
+            <halign val="1" />
+            <valign val="1" />
+            <FontName val="나눔고딕 ExtraBold" />
+            <FontSize val="13" />
+            <TextTrimming val="None" />
+            <style val="0" />
+            <IsHitTestVisible val="False" />
+            <ClipChildren val="False" />
+            <Padding val="0, 0, 0, 0" />
+            <FitToContent val="False" />
+          </child>
+        </child>
+        <base type="WND" subclass="" name="myinfo">
+          <Visible val="True" />
+          <Anchor val="Top, Right" />
+          <pos x="407" y="13" />
+          <rect l="0" t="0" r="226" b="21" />
+          <snd type="SHOW">
+          </snd>
+          <snd type="HIDE">
+          </snd>
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+          <child type="LABEL" name="txt_my_level" subclass="">
+            <label val="000" />
+            <pos x="0" y="2" />
+            <rect l="0" t="0" r="27" b="16" />
+            <Visible val="True" />
+            <Anchor val="Top, Left" />
+            <OutlineColor val="#FF0000" />
+            <ShadowColor val="#0000007F" />
+            <color val="#FFFFFFFF" />
+            <halign val="2" />
+            <valign val="1" />
+            <FontName val="나눔고딕 ExtraBold" />
+            <FontSize val="14" />
+            <TextTrimming val="None" />
+            <style val="32" />
+            <IsHitTestVisible val="False" />
+            <ClipChildren val="False" />
+            <Padding val="0, 0, 0, 0" />
+            <FitToContent val="False" />
+          </child>
+          <child type="LABEL" name="txt_my_gamemoney" subclass="">
+            <label val="000,000,000" />
+            <pos x="95" y="2" />
+            <rect l="0" t="0" r="84" b="16" />
+            <Visible val="True" />
+            <Anchor val="Top, Left" />
+            <OutlineColor val="#FF0000" />
+            <ShadowColor val="#0000007F" />
+            <color val="#FFE400FF" />
+            <halign val="2" />
+            <valign val="1" />
+            <FontName val="나눔고딕 ExtraBold" />
+            <FontSize val="14" />
+            <TextTrimming val="None" />
+            <style val="32" />
+            <IsHitTestVisible val="False" />
+            <ClipChildren val="False" />
+            <Padding val="0, 0, 0, 0" />
+            <FitToContent val="False" />
+          </child>
+          <child type="LABEL" name="lb_my_gamemoney" subclass="">
+            <label val="Carrots" />
+            <pos x="183" y="4" />
+            <rect l="0" t="0" r="36" b="13" />
+            <Visible val="True" />
+            <Anchor val="None" />
+            <OutlineColor val="#FF0000" />
+            <ShadowColor val="#5B2111FF" />
+            <color val="#FFFFFFFF" />
+            <halign val="1" />
+            <valign val="1" />
+            <FontName val="나눔고딕 ExtraBold" />
+            <FontSize val="13" />
+            <TextTrimming val="None" />
+            <style val="32" />
+            <IsHitTestVisible val="False" />
+            <ClipChildren val="False" />
+            <Padding val="0, 0, 0, 0" />
+            <FitToContent val="False" />
+          </child>
+          <child type="LABEL" name="lb_my_level" subclass="">
+            <label val="Level" />
+            <pos x="30" y="4" />
+            <rect l="0" t="0" r="36" b="13" />
+            <Visible val="True" />
+            <Anchor val="None" />
+            <OutlineColor val="#FF0000" />
+            <ShadowColor val="#5B2111FF" />
+            <color val="#FFFFFFFF" />
+            <halign val="1" />
+            <valign val="1" />
+            <FontName val="나눔고딕 ExtraBold" />
+            <FontSize val="13" />
+            <TextTrimming val="None" />
+            <style val="32" />
+            <IsHitTestVisible val="False" />
+            <ClipChildren val="False" />
+            <Padding val="0, 0, 0, 0" />
+            <FitToContent val="False" />
+          </child>
+        </base>
+      </base>
+    </child>
+  </base>
+</refresh>

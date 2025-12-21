@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="NORMAL">
+    <asset type="IMAGE" name="asset_mate_myhorse_btn_up_n" path="mate_myhorse_btn_up_n.png">
+      <rect l="0" t="0" r="111" b="36" />
+    </asset>
+    <object name="mate_myhorse_btn_up_n" ani="ani_mate_myhorse_btn_up_n">
+      <asset type="IMAGE" link="asset_mate_myhorse_btn_up_n" />
+    </object>
+    <param type="RES" x="111" y="36" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_mate_myhorse_btn_up_n">
+      <frame cnt="0">
+        <posx val="0.504504504504504" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="OVER">
+    <asset type="IMAGE" name="asset_mate_myhorse_btn_up_n" path="mate_myhorse_btn_up_n.png">
+      <rect l="0" t="0" r="111" b="36" />
+    </asset>
+    <asset type="IMAGE" name="asset_mate_myhorse_btn_up_o" path="mate_myhorse_btn_up_o.png">
+      <rect l="0" t="0" r="111" b="36" />
+    </asset>
+    <object name="mate_myhorse_btn_up_n" ani="ani_mate_myhorse_btn_up_n">
+      <asset type="IMAGE" link="asset_mate_myhorse_btn_up_n" />
+    </object>
+    <object name="mate_myhorse_btn_up_o" ani="ani_mate_myhorse_btn_up_o">
+      <asset type="IMAGE" link="asset_mate_myhorse_btn_up_o" />
+    </object>
+    <param type="RES" x="111" y="36" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_mate_myhorse_btn_up_n">
+      <frame cnt="0">
+        <posx val="0.504504504504504" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+    <anim name="ani_mate_myhorse_btn_up_o">
+      <frame cnt="0">
+        <posx val="0.504504504504504" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="200">
+        <posx val="0.5045045" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,0.4,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="DOWN">
+    <asset type="IMAGE" name="asset_mate_myhorse_btn_up_d" path="mate_myhorse_btn_up_d.png">
+      <rect l="0" t="0" r="111" b="36" />
+    </asset>
+    <object name="mate_myhorse_btn_up_d" ani="ani_mate_myhorse_btn_up_d">
+      <asset type="IMAGE" link="asset_mate_myhorse_btn_up_d" />
+    </object>
+    <param type="RES" x="111" y="36" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_mate_myhorse_btn_up_d">
+      <frame cnt="0">
+        <posx val="0.504504504504504" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

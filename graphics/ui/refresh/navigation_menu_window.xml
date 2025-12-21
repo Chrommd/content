@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="navigation_menu_window_Animation.xml" />
+  </properties>
+  <base type="WND" subclass="" name="navigation_menu">
+    <Visible val="True" />
+    <Anchor val="None" />
+    <pos x="47" y="525" />
+    <rect l="0" t="0" r="184" b="205" />
+    <IsHitTestVisible val="True" />
+    <ClipChildren val="False" />
+    <base type="WND" subclass="" name="btn_initial">
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="17" y="17" />
+      <rect l="0" t="0" r="150" b="42" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </base>
+    <base type="WNDEX" subclass="" name="btn_menu">
+      <asset type="BG" path="navigation_menu_04.png" tileMode="Stretch">
+        <tex x="32" y="4" />
+        <rect l="62" t="40" r="32" b="137" />
+      </asset>
+      <asset type="EDGE_LT" path="navigation_menu_00.png" tileMode="Stretch">
+        <tex x="62" y="40" />
+        <rect l="0" t="0" r="62" b="40" />
+      </asset>
+      <asset type="EDGE_RT" path="navigation_menu_02.png" tileMode="Stretch">
+        <tex x="90" y="40" />
+        <rect l="0" t="0" r="90" b="40" />
+      </asset>
+      <asset type="EDGE_LB" path="navigation_menu_06.png" tileMode="Stretch">
+        <tex x="62" y="28" />
+        <rect l="0" t="0" r="62" b="28" />
+      </asset>
+      <asset type="EDGE_RB" path="navigation_menu_08.png" tileMode="Stretch">
+        <tex x="90" y="28" />
+        <rect l="0" t="0" r="90" b="28" />
+      </asset>
+      <asset type="FRAME_T" path="navigation_menu_01.png" tileMode="Stretch">
+        <tex x="32" y="40" />
+        <rect l="62" t="0" r="32" b="40" />
+      </asset>
+      <asset type="FRAME_B" path="navigation_menu_07.png" tileMode="Stretch">
+        <tex x="32" y="28" />
+        <rect l="62" t="0" r="32" b="28" />
+      </asset>
+      <asset type="FRAME_L" path="navigation_menu_03.png" tileMode="Stretch">
+        <tex x="62" y="4" />
+        <rect l="0" t="40" r="62" b="137" />
+      </asset>
+      <asset type="FRAME_R" path="navigation_menu_05.png" tileMode="Stretch">
+        <tex x="90" y="4" />
+        <rect l="0" t="40" r="90" b="137" />
+      </asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="184" b="205" />
+      <Dragable val="False" />
+      <StartPosition val="None" />
+      <EscKeyAction val="None" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <child type="ANIMBUTTON" name="btn_menu_4" subclass="">
+        <asset type="GROUP">navigation_menu_window_btn_menu_4.xml</asset>
+        <asset type="NORMAL">
+        </asset>
+        <asset type="DOWN">
+        </asset>
+        <asset type="OVER">
+        </asset>
+        <asset type="DISABLE">
+        </asset>
+        <asset type="ENTER">
+        </asset>
+        <asset type="LEAVE">
+        </asset>
+        <snd type="OVER">
+        </snd>
+        <snd type="DOWN">ui_btn_menu_click</snd>
+        <snd type="RELEASE">ui_btn_menu_confirm;ui_event_stable</snd>
+        <pos x="17" y="16" />
+        <rect l="0" t="0" r="150" b="45" />
+        <Visible val="True" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <Anchor val="None" />
+        <IsDefaultButton val="False" />
+        <child type="LABEL" name="lb_mate" subclass="">
+          <label val="교배하기" />
+          <pos x="56" y="13" />
+          <rect l="0" t="0" r="80" b="19" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#030200" />
+          <color val="#F5EEEA" />
+          <halign val="0" />
+          <valign val="0" />
+          <FontName val="나눔고딕" />
+          <FontSize val="15" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+        <child type="PICTURE" name="icon_menu_new_4" subclass="">
+          <asset type="ANIMATION">navigation_menu_window_icon_menu_new_4.xml</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="8" y="11" />
+          <rect l="0" t="0" r="45" b="24" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+      </child>
+      <child type="ANIMBUTTON" name="btn_menu_3" subclass="">
+        <asset type="GROUP">navigation_menu_window_btn_menu_3.xml</asset>
+        <asset type="NORMAL">
+        </asset>
+        <asset type="DOWN">
+        </asset>
+        <asset type="OVER">
+        </asset>
+        <asset type="DISABLE">
+        </asset>
+        <asset type="ENTER">
+        </asset>
+        <asset type="LEAVE">
+        </asset>
+        <snd type="OVER">
+        </snd>
+        <snd type="DOWN">ui_btn_menu_click</snd>
+        <snd type="RELEASE">ui_btn_menu_confirm</snd>
+        <pos x="17" y="58" />
+        <rect l="0" t="0" r="150" b="45" />
+        <Visible val="True" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <Anchor val="None" />
+        <IsDefaultButton val="False" />
+        <child type="LABEL" name="lb_visit" subclass="">
+          <label val="목장 방문하기" />
+          <pos x="56" y="13" />
+          <rect l="0" t="0" r="80" b="19" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#030200" />
+          <color val="#F5EEEA" />
+          <halign val="0" />
+          <valign val="0" />
+          <FontName val="나눔고딕" />
+          <FontSize val="15" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+      </child>
+      <child type="ANIMBUTTON" name="btn_menu_2" subclass="">
+        <asset type="GROUP">navigation_menu_window_btn_menu_2.xml</asset>
+        <asset type="NORMAL">
+        </asset>
+        <asset type="DOWN">
+        </asset>
+        <asset type="OVER">
+        </asset>
+        <asset type="DISABLE">
+        </asset>
+        <asset type="ENTER">
+        </asset>
+        <asset type="LEAVE">
+        </asset>
+        <snd type="OVER">
+        </snd>
+        <snd type="DOWN">ui_btn_menu_click</snd>
+        <snd type="RELEASE">ui_btn_menu_confirm</snd>
+        <pos x="17" y="100" />
+        <rect l="0" t="0" r="150" b="45" />
+        <Visible val="True" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <Anchor val="None" />
+        <IsDefaultButton val="False" />
+        <child type="LABEL" name="lb_home" subclass="">
+          <label val="내 목장 가기" />
+          <pos x="56" y="13" />
+          <rect l="0" t="0" r="80" b="19" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#030200" />
+          <color val="#F5EEEA" />
+          <halign val="0" />
+          <valign val="0" />
+          <FontName val="나눔고딕" />
+          <FontSize val="15" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+      </child>
+      <child type="ANIMBUTTON" name="btn_menu_1" subclass="">
+        <asset type="GROUP">navigation_menu_window_btn_menu_1.xml</asset>
+        <asset type="NORMAL">
+        </asset>
+        <asset type="DOWN">
+        </asset>
+        <asset type="OVER">
+        </asset>
+        <asset type="DISABLE">
+        </asset>
+        <asset type="ENTER">
+        </asset>
+        <asset type="LEAVE">
+        </asset>
+        <snd type="OVER">
+        </snd>
+        <snd type="DOWN">ui_btn_menu_click</snd>
+        <snd type="RELEASE">ui_btn_menu_confirm</snd>
+        <pos x="17" y="142" />
+        <rect l="0" t="0" r="150" b="45" />
+        <Visible val="True" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <Anchor val="None" />
+        <IsDefaultButton val="False" />
+        <child type="LABEL" name="lb_end" subclass="">
+          <label val="종료" />
+          <pos x="56" y="13" />
+          <rect l="0" t="0" r="80" b="19" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#030200" />
+          <color val="#F5EEEA" />
+          <halign val="0" />
+          <valign val="0" />
+          <FontName val="나눔고딕" />
+          <FontSize val="15" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+      </child>
+    </base>
+  </base>
+</refresh>

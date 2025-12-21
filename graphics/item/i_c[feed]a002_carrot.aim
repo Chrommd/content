@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <event animation="r00_hand_00">
+        <function>PlaySND($asset, "chew_snack_medium1", "", "-var 0")</function>
+        <time>1.0540</time>
+        <freq>100</freq>
+    </event>
+    <event animation="r00_hand_00">
+        <function>PlaySND($asset, "chew_snack_medium", "", "-var 5")</function>
+        <time>3.9668</time>
+        <freq>100</freq>
+    </event>
+    <event animation="r00_hand_00">
+        <function>PlaySND($asset, "chew_snack_medium5", "", "-var 0")</function>
+        <time>3.0363</time>
+        <freq>100</freq>
+    </event>
+    <event animation="r00_hand_00">
+        <function>PlaySND($asset, "chew_snack_medium4", "", "-var 0")</function>
+        <time>2.0079</time>
+        <freq>100</freq>
+    </event>
+    <event animation="r00_hand_00">
+        <function>PlaySND($asset, "chew_snack_medium1", "", "-var 0")</function>
+        <time>5.1716</time>
+        <freq>100</freq>
+    </event>
+    <event animation="r00_hand_00">
+        <function>PlaySND($asset, "chew_snack_medium", "", "-var 5")</function>
+        <time>4.6622</time>
+        <freq>100</freq>
+    </event>
+    <event animation="r00_hand_00">
+        <function>PlayFX($asset, "care_feedcarrot", "1", "-attach ")</function>
+        <time>1.0578</time>
+        <freq>100</freq>
+    </event>
+    <event animation="r00_hand_00">
+        <function>PlayFX($asset, "care_feedcarrot", "1", "-attach ")</function>
+        <time>2.0253</time>
+        <freq>100</freq>
+    </event>
+    <event animation="r00_hand_00">
+        <function>PlayFX($asset, "care_feedcarrot", "1", "-attach ")</function>
+        <time>3.0173</time>
+        <freq>100</freq>
+    </event>
+    <event animation="r00_hand_00">
+        <function>PlayFX($asset, "care_feedcarrot", "1", "-attach ")</function>
+        <time>3.9577</time>
+        <freq>100</freq>
+    </event>
+    <event animation="r00_hand_00">
+        <function>PlayFX($asset, "care_feedcarrot", "1", "-attach ")</function>
+        <time>4.6190</time>
+        <freq>100</freq>
+    </event>
+    <event animation="r00_hand_00">
+        <function>PlayFX($asset, "care_feedcarrot", "1", "-attach ")</function>
+        <time>5.1770</time>
+        <freq>100</freq>
+    </event>
+    <event animation="r02_hand_00">
+        <function>PlaySND($asset, "chew_snack_medium1", "", "-var 0")</function>
+        <time>1.0540</time>
+        <freq>100</freq>
+    </event>
+    <event animation="r02_hand_00">
+        <function>PlaySND($asset, "chew_snack_medium", "", "-var 5")</function>
+        <time>3.9668</time>
+        <freq>100</freq>
+    </event>
+    <event animation="r02_hand_00">
+        <function>PlaySND($asset, "chew_snack_medium5", "", "-var 0")</function>
+        <time>3.0363</time>
+        <freq>100</freq>
+    </event>
+    <event animation="r02_hand_00">
+        <function>PlaySND($asset, "chew_snack_medium4", "", "-var 0")</function>
+        <time>2.0079</time>
+        <freq>100</freq>
+    </event>
+    <event animation="r02_hand_00">
+        <function>PlaySND($asset, "chew_snack_medium1", "", "-var 0")</function>
+        <time>5.1716</time>
+        <freq>100</freq>
+    </event>
+    <event animation="r02_hand_00">
+        <function>PlaySND($asset, "chew_snack_medium", "", "-var 5")</function>
+        <time>4.6622</time>
+        <freq>100</freq>
+    </event>
+    <event animation="r02_hand_00">
+        <function>PlayFX($asset, "care_feedcarrot", "1", "-attach ")</function>
+        <time>1.0333</time>
+        <freq>100</freq>
+    </event>
+    <event animation="r02_hand_00">
+        <function>PlayFX($asset, "care_feedcarrot", "1", "-attach ")</function>
+        <time>2.0150</time>
+        <freq>100</freq>
+    </event>
+    <event animation="r02_hand_00">
+        <function>PlayFX($asset, "care_feedcarrot", "1", "-attach ")</function>
+        <time>3.0277</time>
+        <freq>100</freq>
+    </event>
+    <event animation="r02_hand_00">
+        <function>PlayFX($asset, "care_feedcarrot", "1", "-attach ")</function>
+        <time>3.9577</time>
+        <freq>100</freq>
+    </event>
+    <event animation="r02_hand_00">
+        <function>PlayFX($asset, "care_feedcarrot", "1", "-attach ")</function>
+        <time>4.6500</time>
+        <freq>100</freq>
+    </event>
+    <event animation="r02_hand_00">
+        <function>PlayFX($asset, "care_feedcarrot", "1", "-attach ")</function>
+        <time>5.1667</time>
+        <freq>100</freq>
+    </event>
+    <dummy name="1" parent="Root_item_food_a002" sync="FALSE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.0000</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <category name="R00" script="-r00" />
+    <category name="R02" script="-r02" />
+    <action category="R00" state="CARE_FEED_HAND" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>r00_hand_00</main>
+    </action>
+    <action category="R02" state="CARE_FEED_HAND" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>r02_hand_00</main>
+    </action>
+    <action category="R00" state="CARE_FEED_HAND_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>1f_00</main>
+    </action>
+    <action category="R02" state="CARE_FEED_HAND_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>1f_00</main>
+    </action>
+    <action category="R00" state="CARE_FEED_HAND_IGNORE" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>r00_hand_00_ignore</main>
+    </action>
+    <action category="R02" state="CARE_FEED_HAND_IGNORE" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>r02_hand_00_ignore</main>
+    </action>
+    <action category="R00" state="CARE_FEED_HAND_SELECT" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>1f_00</main>
+    </action>
+    <action category="R02" state="CARE_FEED_HAND_SELECT" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>1f_00</main>
+    </action>
+    <blend sec="0">
+        <name>1f_00</name>
+    </blend>
+    <blend sec="0">
+        <name>r00_hand_00</name>
+    </blend>
+    <blend sec="0">
+        <name>r00_hand_00_ignore</name>
+    </blend>
+    <blend sec="0">
+        <name>r02_hand_00</name>
+    </blend>
+    <blend sec="0">
+        <name>r02_hand_00_ignore</name>
+    </blend>
+</aim>

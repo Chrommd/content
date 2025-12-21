@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="myinfo_ranch_column_Animation.xml" />
+  </properties>
+  <base type="WND" subclass="" name="Wnd_myinfo_ranch_list">
+    <Visible val="True" />
+    <Anchor val="Top, Left" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="402" b="99" />
+    <snd type="SHOW">
+    </snd>
+    <snd type="HIDE">
+    </snd>
+    <IsHitTestVisible val="True" />
+    <ClipChildren val="False" />
+    <base type="WND" subclass="" name="wnd_myinfo_ranch_list_bg">
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="399" b="96" />
+      <snd type="SHOW">
+      </snd>
+      <snd type="HIDE">
+      </snd>
+      <IsHitTestVisible val="False" />
+      <ClipChildren val="False" />
+      <child type="PICTURE" name="list_img_myinfo_ranch_contents_empty" subclass="">
+        <asset type="STATIC">list_img_myinfo_ranch_contents_empty.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="0" y="0" />
+        <rect l="0" t="0" r="399" b="96" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="PICTURE" name="btn_myinfo_ranch_list_Normal" subclass="">
+        <asset type="STATIC">list_img_myinfo_ranch_contents.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="0" y="0" />
+        <rect l="0" t="0" r="399" b="96" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="PICTURE" name="pic_myinfo_ranch_img_dummy" subclass="">
+        <asset type="STATIC">img_myinfo_ranch_img_dummy.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="7" y="14" />
+        <rect l="0" t="0" r="120" b="76" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="PICTURE" name="pic_myinfo_ranch_atttr_1" subclass="">
+        <asset type="STATIC">
+        </asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="3" y="4" />
+        <rect l="0" t="0" r="40" b="40" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="LABEL" name="lb_myinfo_ranch_list_name" subclass="">
+        <label val="드렌 일반 가옥" />
+        <pos x="136" y="6" />
+        <rect l="0" t="0" r="239" b="21" />
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#FF0000" />
+        <color val="#422C1CFF" />
+        <halign val="0" />
+        <valign val="1" />
+        <FontName val="나눔고딕" />
+        <FontSize val="13" />
+        <TextTrimming val="None" />
+        <style val="1" />
+        <IsHitTestVisible val="False" />
+        <ClipChildren val="False" />
+        <Padding val="0, 0, 0, 0" />
+      </child>
+      <child type="LABEL" name="lb_myinfo_ranch_category" subclass="">
+        <label val="" />
+        <pos x="136" y="29" />
+        <rect l="0" t="0" r="239" b="21" />
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#FF0000" />
+        <color val="#ABA39DFF" />
+        <halign val="0" />
+        <valign val="1" />
+        <FontName val="나눔고딕" />
+        <FontSize val="12" />
+        <TextTrimming val="None" />
+        <style val="1" />
+        <IsHitTestVisible val="False" />
+        <ClipChildren val="False" />
+        <Padding val="0, 0, 0, 0" />
+      </child>
+      <child type="LABEL" name="lb_myinfo_ranch_list_name1" subclass="">
+        <label val="집 앞 장식 L" />
+        <pos x="136" y="47" />
+        <rect l="0" t="0" r="239" b="17" />
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#FF0000" />
+        <color val="#9D887AFF" />
+        <halign val="0" />
+        <valign val="0" />
+        <FontName val="나눔고딕" />
+        <FontSize val="13" />
+        <TextTrimming val="None" />
+        <style val="1" />
+        <IsHitTestVisible val="False" />
+        <ClipChildren val="False" />
+        <Padding val="0, 0, 0, 0" />
+      </child>
+    </base>
+    <base type="WND" subclass="" name="wnd_myinfo_ranch_list_on">
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <pos x="0" y="1" />
+      <rect l="0" t="0" r="399" b="96" />
+      <snd type="SHOW">
+      </snd>
+      <snd type="HIDE">
+      </snd>
+      <IsHitTestVisible val="False" />
+      <ClipChildren val="False" />
+      <child type="PICTURE" name="img_myinfo_ranch_remain_back" subclass="">
+        <asset type="STATIC">img_myinfo_ranch_tab_build.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="133" y="63" />
+        <rect l="0" t="0" r="259" b="25" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <child type="LABEL" name="lb_myinfo_ranch_remain_date" subclass="">
+          <label val="20일 40시간" />
+          <pos x="0" y="0" />
+          <rect l="0" t="0" r="260" b="23" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#FF0000" />
+          <color val="#CEFF90FF" />
+          <halign val="1" />
+          <valign val="1" />
+          <FontName val="나눔고딕" />
+          <FontSize val="13" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+      </child>
+    </base>
+    <base type="WND" subclass="" name="wnd_myinfo_ranch_list_off">
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <pos x="0" y="1" />
+      <rect l="0" t="0" r="399" b="96" />
+      <snd type="SHOW">
+      </snd>
+      <snd type="HIDE">
+      </snd>
+      <IsHitTestVisible val="False" />
+      <ClipChildren val="False" />
+      <child type="PICTURE" name="img_myinfo_ranch_refair_back" subclass="">
+        <asset type="STATIC">img_myinfo_ranch_tab_repair.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="133" y="63" />
+        <rect l="0" t="0" r="259" b="25" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <child type="LABEL" name="lb_myinfo_ranch_refair" subclass="">
+          <label val="기간 만료" />
+          <pos x="0" y="0" />
+          <rect l="0" t="0" r="260" b="23" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#FF0000" />
+          <color val="#FFEAA2FF" />
+          <halign val="1" />
+          <valign val="1" />
+          <FontName val="나눔고딕" />
+          <FontSize val="13" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+      </child>
+      <child type="PICTURE" name="icon_ranch_refair" subclass="">
+        <asset type="STATIC">icon_ranch_refair.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="94" y="5" />
+        <rect l="0" t="0" r="36" b="36" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+    </base>
+    <base type="WND" subclass="" name="wnd_myinfo_ranch_list_effect">
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="399" b="96" />
+      <snd type="SHOW">
+      </snd>
+      <snd type="HIDE">
+      </snd>
+      <IsHitTestVisible val="False" />
+      <ClipChildren val="False" />
+      <child type="PICTURE" name="pic_myinfo_ranch_light_att" subclass="">
+        <asset type="STATIC">list_img_myinfo_ranch_frame_1.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="0" y="0" />
+        <rect l="0" t="0" r="399" b="96" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <child type="LABEL" name="lb_myinfo_ranch_att1" subclass="">
+          <label val="속성" />
+          <pos x="337" y="18" />
+          <rect l="0" t="0" r="61" b="15" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FFFFFF" />
+          <ShadowColor val="#0000004C" />
+          <color val="#E8DAD0FF" />
+          <halign val="1" />
+          <valign val="1" />
+          <FontName val="나눔고딕 ExtraBold" />
+          <FontSize val="12" />
+          <TextTrimming val="None" />
+          <style val="0" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+        <child type="LABEL" name="lb_myinfo_ranch_att" subclass="">
+          <label val="대표" />
+          <pos x="337" y="4" />
+          <rect l="0" t="0" r="61" b="15" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FFFFFF" />
+          <ShadowColor val="#0000004C" />
+          <color val="#E8DAD0FF" />
+          <halign val="1" />
+          <valign val="1" />
+          <FontName val="나눔고딕 ExtraBold" />
+          <FontSize val="12" />
+          <TextTrimming val="None" />
+          <style val="0" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+      </child>
+      <child type="PICTURE" name="pic_myinfo_ranch_light_set" subclass="">
+        <asset type="STATIC">list_img_myinfo_ranch_frame_2.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="0" y="0" />
+        <rect l="0" t="0" r="399" b="96" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <child type="LABEL" name="lb_myinfo_ranch_set1" subclass="">
+          <label val="효과" />
+          <pos x="337" y="18" />
+          <rect l="0" t="0" r="61" b="15" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FFFFFF" />
+          <ShadowColor val="#0000004C" />
+          <color val="#D0EDB2FF" />
+          <halign val="1" />
+          <valign val="1" />
+          <FontName val="나눔고딕 ExtraBold" />
+          <FontSize val="12" />
+          <TextTrimming val="None" />
+          <style val="0" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+        <child type="LABEL" name="lb_myinfo_ranch_set" subclass="">
+          <label val="세트" />
+          <pos x="337" y="4" />
+          <rect l="0" t="0" r="61" b="15" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FFFFFF" />
+          <ShadowColor val="#0000004C" />
+          <color val="#D0EDB2FF" />
+          <halign val="1" />
+          <valign val="1" />
+          <FontName val="나눔고딕 ExtraBold" />
+          <FontSize val="12" />
+          <TextTrimming val="None" />
+          <style val="0" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+      </child>
+    </base>
+  </base>
+</refresh>

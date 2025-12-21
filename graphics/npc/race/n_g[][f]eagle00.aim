@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <event animation="move00">
+        <function>PlaySND($asset, "hawk_wing", "root", "-var 2")</function>
+        <time>0.9003</time>
+        <freq>100</freq>
+    </event>
+    <event animation="move00">
+        <function>PlaySND($asset, "hawk_wing", "root", "-var 2")</function>
+        <time>1.5663</time>
+        <freq>100</freq>
+    </event>
+    <event animation="move00">
+        <function>PlaySND($asset, "hawk_wing", "root", "-var 2")</function>
+        <time>0.2220</time>
+        <freq>100</freq>
+    </event>
+    <event animation="move00">
+        <function>PlaySND($asset, "hawk_cry", "", "-var 2")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="stand00">
+        <function>PlaySND($asset, "hawk_wing", "root", "-var 2")</function>
+        <time>0.1913</time>
+        <freq>100</freq>
+    </event>
+    <dummy name="cam_0" parent="Dummyroot" sync="TRUE" extra="">
+        <rotationX>0.7066</rotationX>
+        <rotationY>-0.0110</rotationY>
+        <rotationZ>0.0111</rotationZ>
+        <rotationW>0.7075</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>1.2476</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <dummy name="cam_1" parent="Dummyroot" sync="TRUE" extra="">
+        <rotationX>0.6429</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>0.7659</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>1.2400</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <dummy name="cam_2" parent="Dummyroot" sync="TRUE" extra="">
+        <rotationX>0.6559</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>0.7549</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.1200</offsetY>
+        <offsetZ>0.2780</offsetZ>
+    </dummy>
+    <action category="" state="FLY" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>stand00</main>
+    </action>
+    <action category="" state="G_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>move00</main>
+    </action>
+    <action category="" state="IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>idle00</main>
+    </action>
+    <action category="" state="MOVE_1ST" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>move00</main>
+    </action>
+</aim>

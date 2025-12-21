@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <AABB animation="ri_balloon">
+        <minX>-5.2576</minX>
+        <minY>-0.1827</minY>
+        <minZ>-4.8413</minZ>
+        <maxX>5.2576</maxX>
+        <maxY>26.7269</maxY>
+        <maxZ>1.6072</maxZ>
+    </AABB>
+    <AABB animation="spin">
+        <minX>-5.2576</minX>
+        <minY>-0.1827</minY>
+        <minZ>-4.8413</minZ>
+        <maxX>5.2576</maxX>
+        <maxY>26.7269</maxY>
+        <maxZ>1.6072</maxZ>
+    </AABB>
+    <action state="G_IDLE" prevState="" loop="1">
+        <main speed=0.0000></main>
+    </action>
+    <action state="G_IDLE" prevState="" loop="1">
+        <main speed=0.0000>spin</main>
+    </action>
+</aim>

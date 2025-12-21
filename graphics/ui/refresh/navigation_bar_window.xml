@@ -1,0 +1,558 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="navigation_bar_window_Animation.xml" />
+  </properties>
+  <base type="WND" subclass="" name="anchor">
+    <Visible val="True" />
+    <Anchor val="Bottom, Left, Right" />
+    <pos x="0" y="717" />
+    <rect l="0" t="0" r="1024" b="51" />
+    <IsHitTestVisible val="True" />
+    <ClipChildren val="False" />
+    <child type="STACKPANEL" name="StackPanel" subclass="">
+      <Visible val="True" />
+      <Anchor val="Bottom, Left, Right" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="1024" b="51" />
+      <Orientation val="Vertical" />
+      <HAlign val="Center" />
+      <VAlign val="Bottom" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <base type="WND" subclass="" name="global_navigation">
+        <Visible val="True" />
+        <Anchor val="Bottom" />
+        <pos x="0" y="0" />
+        <rect l="0" t="0" r="1024" b="51" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <child type="PICTURE" name="icon_menu_new1" subclass="">
+          <asset type="STATIC">icon_menu_new.png</asset>
+          <Visible val="False" />
+          <Anchor val="None" />
+          <pos x="239" y="104" />
+          <rect l="0" t="0" r="37" b="15" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="icon_menu_new2" subclass="">
+          <asset type="STATIC">icon_menu_new.png</asset>
+          <Visible val="False" />
+          <Anchor val="None" />
+          <pos x="311" y="104" />
+          <rect l="0" t="0" r="37" b="15" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="icon_menu_new3" subclass="">
+          <asset type="STATIC">icon_menu_new.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="384" y="59" />
+          <rect l="0" t="0" r="37" b="15" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="BUTTON" subclass="" name="btn_back">
+          <asset type="NORMAL">
+          </asset>
+          <asset type="DOWN">
+          </asset>
+          <asset type="OVER">
+          </asset>
+          <asset type="DISABLE">
+          </asset>
+          <snd type="OVER">
+          </snd>
+          <snd type="DOWN">ui_btn_menu_click</snd>
+          <snd type="RELEASE">
+          </snd>
+          <pos x="37" y="99" />
+          <rect l="0" t="0" r="96" b="43" />
+          <Visible val="True" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+          <Anchor val="None" />
+          <IsDefaultButton val="False" />
+        </child>
+        <child type="BUTTON" subclass="" name="btn_mymenu_play">
+          <asset type="NORMAL">
+          </asset>
+          <asset type="DOWN">
+          </asset>
+          <asset type="OVER">
+          </asset>
+          <asset type="DISABLE">
+          </asset>
+          <snd type="OVER">
+          </snd>
+          <snd type="DOWN">ui_btn_menu_click</snd>
+          <snd type="RELEASE">
+          </snd>
+          <pos x="251" y="101" />
+          <rect l="0" t="0" r="37" b="37" />
+          <Visible val="True" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+          <Anchor val="None" />
+          <IsDefaultButton val="False" />
+        </child>
+        <child type="PICTURE" name="bg_navi" subclass="">
+          <asset type="STATIC">bg_navi.png</asset>
+          <Visible val="True" />
+          <Anchor val="Bottom" />
+          <pos x="0" y="-5" />
+          <rect l="0" t="0" r="1024" b="56" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="img_line_right" subclass="">
+          <asset type="ANIMATION">navigation_bar_window_img_line_right.xml</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="512" y="-26" />
+          <rect l="0" t="0" r="493" b="50" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="img_line_left" subclass="">
+          <asset type="ANIMATION">navigation_bar_window_img_line_left.xml</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="20" y="-26" />
+          <rect l="0" t="0" r="493" b="50" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="img_navigation_bar" subclass="">
+          <asset type="STATIC">bg_navigation.png</asset>
+          <Visible val="True" />
+          <Anchor val="Bottom" />
+          <pos x="12" y="-14" />
+          <rect l="0" t="0" r="1001" b="65" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="bg_navi_spur" subclass="">
+          <asset type="STATIC">bg_navi_spur.png</asset>
+          <Visible val="True" />
+          <Anchor val="Bottom" />
+          <pos x="499" y="16" />
+          <rect l="0" t="0" r="26" b="28" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="bg_navi_wing_left" subclass="">
+          <asset type="ANIMATION">navigation_bar_window_bg_navi_wing_left.xml</asset>
+          <Visible val="True" />
+          <Anchor val="Bottom" />
+          <pos x="489" y="1" />
+          <rect l="0" t="0" r="21" b="21" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="bg_navi_wing_right" subclass="">
+          <asset type="ANIMATION">navigation_bar_window_bg_navi_wing_right.xml</asset>
+          <Visible val="True" />
+          <Anchor val="Bottom" />
+          <pos x="514" y="1" />
+          <rect l="0" t="0" r="21" b="21" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PANEL" name="btn_mymenu" subclass="">
+          <Visible val="True" />
+          <Anchor val="None" />
+          <embed src="" />
+          <pos x="603" y="7" />
+          <rect l="0" t="0" r="355" b="38" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+          <child type="PICTURE" name="bg_notice" subclass="">
+            <asset type="STATIC">bg_notice_n.png</asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="190" y="0" />
+            <rect l="0" t="0" r="165" b="38" />
+            <center x="0" y="0" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+          </child>
+          <child type="PICTURE" name="notice_01" subclass="">
+            <asset type="STATIC">img_notice.png</asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="190" y="0" />
+            <rect l="0" t="0" r="165" b="38" />
+            <center x="0" y="0" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+          </child>
+          <child type="PICTURE" name="txt_notice" subclass="">
+            <asset type="STATIC">txt_notice.png</asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="190" y="0" />
+            <rect l="0" t="0" r="165" b="38" />
+            <center x="0" y="0" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+          </child>
+          <child type="ANIMBUTTON" name="btn_notice" subclass="">
+            <asset type="GROUP">navigation_bar_window_btn_notice.xml</asset>
+            <asset type="NORMAL">
+            </asset>
+            <asset type="DOWN">
+            </asset>
+            <asset type="OVER">
+            </asset>
+            <asset type="DISABLE">
+            </asset>
+            <asset type="ENTER">
+            </asset>
+            <asset type="LEAVE">
+            </asset>
+            <snd type="OVER">
+            </snd>
+            <snd type="DOWN">ui_btn_menu_click</snd>
+            <snd type="RELEASE">ui_btn_menu_confirm</snd>
+            <pos x="190" y="0" />
+            <rect l="0" t="0" r="165" b="38" />
+            <Visible val="True" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+            <Anchor val="None" />
+            <IsDefaultButton val="False" />
+          </child>
+          <child type="ANIMBUTTON" name="btn_mymenu_option" subclass="">
+            <asset type="GROUP">navigation_bar_window_btn_mymenu_option.xml</asset>
+            <asset type="NORMAL">
+            </asset>
+            <asset type="DOWN">
+            </asset>
+            <asset type="OVER">
+            </asset>
+            <asset type="DISABLE">
+            </asset>
+            <asset type="ENTER">
+            </asset>
+            <asset type="LEAVE">
+            </asset>
+            <snd type="OVER">
+            </snd>
+            <snd type="DOWN">ui_btn_menu_click</snd>
+            <snd type="RELEASE">ui_btn_menu_confirm</snd>
+            <pos x="152" y="0" />
+            <rect l="0" t="0" r="38" b="38" />
+            <Visible val="True" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+            <Anchor val="None" />
+            <IsDefaultButton val="False" />
+          </child>
+          <child type="ANIMBUTTON" name="btn_mymenu_post" subclass="">
+            <asset type="GROUP">navigation_bar_window_btn_mymenu_post.xml</asset>
+            <asset type="NORMAL">
+            </asset>
+            <asset type="DOWN">
+            </asset>
+            <asset type="OVER">
+            </asset>
+            <asset type="DISABLE">
+            </asset>
+            <asset type="ENTER">
+            </asset>
+            <asset type="LEAVE">
+            </asset>
+            <snd type="OVER">
+            </snd>
+            <snd type="DOWN">ui_btn_menu_click</snd>
+            <snd type="RELEASE">ui_btn_menu_confirm</snd>
+            <pos x="114" y="0" />
+            <rect l="0" t="0" r="38" b="38" />
+            <Visible val="True" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+            <Anchor val="None" />
+            <IsDefaultButton val="False" />
+          </child>
+          <child type="ANIMBUTTON" name="btn_mymenu_post1" subclass="">
+            <asset type="GROUP">navigation_bar_window_btn_mymenu_post1.xml</asset>
+            <asset type="NORMAL">
+            </asset>
+            <asset type="DOWN">
+            </asset>
+            <asset type="OVER">
+            </asset>
+            <asset type="DISABLE">
+            </asset>
+            <asset type="ENTER">
+            </asset>
+            <asset type="LEAVE">
+            </asset>
+            <snd type="OVER">
+            </snd>
+            <snd type="DOWN">ui_btn_menu_click</snd>
+            <snd type="RELEASE">ui_btn_menu_confirm</snd>
+            <pos x="114" y="0" />
+            <rect l="0" t="0" r="38" b="38" />
+            <Visible val="True" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+            <Anchor val="None" />
+            <IsDefaultButton val="False" />
+          </child>
+          <child type="ANIMBUTTON" name="btn_mymenu_chat" subclass="">
+            <asset type="GROUP">navigation_bar_window_btn_mymenu_chat.xml</asset>
+            <asset type="NORMAL">
+            </asset>
+            <asset type="DOWN">
+            </asset>
+            <asset type="OVER">
+            </asset>
+            <asset type="DISABLE">
+            </asset>
+            <asset type="ENTER">
+            </asset>
+            <asset type="LEAVE">
+            </asset>
+            <snd type="OVER">
+            </snd>
+            <snd type="DOWN">ui_btn_menu_click</snd>
+            <snd type="RELEASE">ui_btn_menu_confirm</snd>
+            <pos x="76" y="0" />
+            <rect l="0" t="0" r="38" b="38" />
+            <Visible val="True" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+            <Anchor val="None" />
+            <IsDefaultButton val="False" />
+          </child>
+          <child type="ANIMBUTTON" name="btn_mymenu_info" subclass="">
+            <asset type="GROUP">navigation_bar_window_btn_mymenu_info.xml</asset>
+            <asset type="NORMAL">
+            </asset>
+            <asset type="DOWN">
+            </asset>
+            <asset type="OVER">
+            </asset>
+            <asset type="DISABLE">
+            </asset>
+            <asset type="ENTER">
+            </asset>
+            <asset type="LEAVE">
+            </asset>
+            <snd type="OVER">
+            </snd>
+            <snd type="DOWN">ui_btn_menu_click</snd>
+            <snd type="RELEASE">ui_btn_menu_confirm</snd>
+            <pos x="38" y="0" />
+            <rect l="0" t="0" r="38" b="38" />
+            <Visible val="True" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+            <Anchor val="None" />
+            <IsDefaultButton val="False" />
+          </child>
+          <child type="ANIMBUTTON" name="btn_mymenu_horse_info" subclass="">
+            <asset type="GROUP">navigation_bar_window_btn_mymenu_horse_info.xml</asset>
+            <asset type="NORMAL">
+            </asset>
+            <asset type="DOWN">
+            </asset>
+            <asset type="OVER">
+            </asset>
+            <asset type="DISABLE">
+            </asset>
+            <asset type="ENTER">
+            </asset>
+            <asset type="LEAVE">
+            </asset>
+            <snd type="OVER">
+            </snd>
+            <snd type="DOWN">ui_btn_menu_click</snd>
+            <snd type="RELEASE">ui_btn_menu_confirm</snd>
+            <pos x="0" y="0" />
+            <rect l="0" t="0" r="38" b="38" />
+            <Visible val="True" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+            <Anchor val="None" />
+            <IsDefaultButton val="False" />
+          </child>
+        </child>
+        <child type="PANEL" name="btn_game_menu" subclass="">
+          <Visible val="True" />
+          <Anchor val="None" />
+          <embed src="" />
+          <pos x="66" y="7" />
+          <rect l="0" t="0" r="356" b="38" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+          <child type="ANIMBUTTON" name="btn_quick_manage" subclass="">
+            <asset type="GROUP">navigation_bar_window_btn_quick_manage.xml</asset>
+            <asset type="NORMAL">
+            </asset>
+            <asset type="DOWN">
+            </asset>
+            <asset type="OVER">
+            </asset>
+            <asset type="DISABLE">
+            </asset>
+            <asset type="ENTER">
+            </asset>
+            <asset type="LEAVE">
+            </asset>
+            <snd type="OVER">
+            </snd>
+            <snd type="DOWN">ui_btn_menu_click</snd>
+            <snd type="RELEASE">ui_btn_menu_release</snd>
+            <pos x="284" y="0" />
+            <rect l="0" t="0" r="72" b="38" />
+            <Visible val="True" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+            <Anchor val="None" />
+            <IsDefaultButton val="False" />
+          </child>
+          <child type="ANIMBUTTON" name="btn_quick_inven" subclass="">
+            <asset type="GROUP">navigation_bar_window_btn_quick_inven.xml</asset>
+            <asset type="NORMAL">
+            </asset>
+            <asset type="DOWN">
+            </asset>
+            <asset type="OVER">
+            </asset>
+            <asset type="DISABLE">
+            </asset>
+            <asset type="ENTER">
+            </asset>
+            <asset type="LEAVE">
+            </asset>
+            <snd type="OVER">
+            </snd>
+            <snd type="DOWN">ui_btn_menu_click</snd>
+            <snd type="RELEASE">ui_btn_menu_confirm</snd>
+            <pos x="213" y="0" />
+            <rect l="0" t="0" r="72" b="38" />
+            <Visible val="True" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+            <Anchor val="None" />
+            <IsDefaultButton val="False" />
+          </child>
+          <child type="ANIMBUTTON" name="btn_quick_shop" subclass="">
+            <asset type="GROUP">navigation_bar_window_btn_quick_shop.xml</asset>
+            <asset type="NORMAL">
+            </asset>
+            <asset type="DOWN">
+            </asset>
+            <asset type="OVER">
+            </asset>
+            <asset type="DISABLE">
+            </asset>
+            <asset type="ENTER">
+            </asset>
+            <asset type="LEAVE">
+            </asset>
+            <snd type="OVER">
+            </snd>
+            <snd type="DOWN">ui_btn_menu_click</snd>
+            <snd type="RELEASE">ui_btn_menu_confirm</snd>
+            <pos x="142" y="0" />
+            <rect l="0" t="0" r="72" b="38" />
+            <Visible val="True" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+            <Anchor val="None" />
+            <IsDefaultButton val="False" />
+          </child>
+          <child type="ANIMBUTTON" name="btn_quick_game" subclass="">
+            <asset type="GROUP">navigation_bar_window_btn_quick_game.xml</asset>
+            <asset type="NORMAL">
+            </asset>
+            <asset type="DOWN">
+            </asset>
+            <asset type="OVER">
+            </asset>
+            <asset type="DISABLE">
+            </asset>
+            <asset type="ENTER">
+            </asset>
+            <asset type="LEAVE">
+            </asset>
+            <snd type="OVER">
+            </snd>
+            <snd type="DOWN">ui_btn_menu_click</snd>
+            <snd type="RELEASE">ui_btn_menu_release</snd>
+            <pos x="71" y="0" />
+            <rect l="0" t="0" r="72" b="38" />
+            <Visible val="True" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+            <Anchor val="None" />
+            <IsDefaultButton val="False" />
+          </child>
+          <child type="ANIMBUTTON" name="btn_menu" subclass="">
+            <asset type="GROUP">navigation_bar_window_btn_menu.xml</asset>
+            <asset type="NORMAL">
+            </asset>
+            <asset type="DOWN">
+            </asset>
+            <asset type="OVER">
+            </asset>
+            <asset type="DISABLE">
+            </asset>
+            <asset type="ENTER">
+            </asset>
+            <asset type="LEAVE">
+            </asset>
+            <snd type="OVER">
+            </snd>
+            <snd type="DOWN">ui_btn_menu_click</snd>
+            <snd type="RELEASE">ui_btn_menu_release</snd>
+            <pos x="0" y="0" />
+            <rect l="0" t="0" r="72" b="38" />
+            <Visible val="True" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+            <Anchor val="None" />
+            <IsDefaultButton val="False" />
+          </child>
+          <child type="PICTURE" name="icon_menu_new" subclass="">
+            <asset type="ANIMATION">navigation_bar_window_icon_menu_new.xml</asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="299" y="-21" />
+            <rect l="0" t="0" r="39" b="20" />
+            <center x="0" y="0" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+          </child>
+          <child type="PICTURE" name="icon_menu_new4" subclass="">
+            <asset type="ANIMATION">navigation_bar_window_icon_menu_new4.xml</asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="17" y="-21" />
+            <rect l="0" t="0" r="39" b="20" />
+            <center x="0" y="0" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+          </child>
+        </child>
+      </base>
+    </child>
+  </base>
+</refresh>

@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="NORMAL">
+    <asset type="IMAGE" name="asset_btn_gamebg_n" path="btn_gamebg_n.png">
+      <rect l="0" t="0" r="230" b="80" />
+    </asset>
+    <asset type="IMAGE" name="asset_icon_ready" path="icon_cancel.png">
+      <rect l="0" t="0" r="180" b="38" />
+    </asset>
+    <object name="btn_gamebg_n" ani="ani_btn_gamebg_n">
+      <asset type="IMAGE" link="asset_btn_gamebg_n" />
+    </object>
+    <object name="icon_ready" ani="ani_icon_ready">
+      <asset type="IMAGE" link="asset_icon_ready" />
+    </object>
+    <param type="RES" x="254" y="78" />
+    <param type="LOOP" cnt="-1" pendulum="1" />
+    <anim name="ani_btn_gamebg_n">
+      <frame cnt="0">
+        <posx val="0.0275590551181102" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_ready">
+      <frame cnt="0">
+        <posx val="0.137795275590551" />
+        <posy val="0.256410256410256" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="OVER">
+    <asset type="IMAGE" name="asset_btn_gamebg_o" path="btn_gamebg_o.png">
+      <rect l="0" t="0" r="229" b="80" />
+    </asset>
+    <asset type="IMAGE" name="asset_icon_ready" path="icon_cancel.png">
+      <rect l="0" t="0" r="180" b="38" />
+    </asset>
+    <object name="btn_gamebg_o" ani="ani_btn_gamebg_o">
+      <asset type="IMAGE" link="asset_btn_gamebg_o" />
+    </object>
+    <object name="icon_ready" ani="ani_icon_ready">
+      <asset type="IMAGE" link="asset_icon_ready" />
+    </object>
+    <param type="RES" x="254" y="78" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_btn_gamebg_o">
+      <frame cnt="0">
+        <posx val="0.0275590551181102" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_ready">
+      <frame cnt="0">
+        <posx val="0.137795275590551" />
+        <posy val="0.256410256410256" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="DOWN">
+    <asset type="IMAGE" name="asset_btn_gamebg_d" path="btn_gamebg_d.png">
+      <rect l="0" t="0" r="230" b="80" />
+    </asset>
+    <asset type="IMAGE" name="asset_icon_ready1" path="icon_cancel.png">
+      <rect l="0" t="0" r="180" b="38" />
+    </asset>
+    <object name="btn_gamebg_d" ani="ani_btn_gamebg_d">
+      <asset type="IMAGE" link="asset_btn_gamebg_d" />
+    </object>
+    <object name="icon_ready1" ani="ani_icon_ready1">
+      <asset type="IMAGE" link="asset_icon_ready1" />
+    </object>
+    <param type="RES" x="254" y="78" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_btn_gamebg_d">
+      <frame cnt="0">
+        <posx val="0.0275590551181102" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_ready1">
+      <frame cnt="0">
+        <posx val="0.137795275590551" />
+        <posy val="0.256410256410256" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="DISABLE">
+    <asset type="IMAGE" name="asset_btn_gamebg_dis" path="btn_gamebg_dis.png">
+      <rect l="0" t="0" r="230" b="80" />
+    </asset>
+    <asset type="IMAGE" name="asset_icon_ready" path="icon_cancel.png">
+      <rect l="0" t="0" r="180" b="38" />
+    </asset>
+    <object name="btn_gamebg_dis" ani="ani_btn_gamebg_dis">
+      <asset type="IMAGE" link="asset_btn_gamebg_dis" />
+    </object>
+    <object name="icon_ready" ani="ani_icon_ready">
+      <asset type="IMAGE" link="asset_icon_ready" />
+    </object>
+    <param type="RES" x="254" y="78" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_btn_gamebg_dis">
+      <frame cnt="0">
+        <posx val="0.0275590551181102" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_ready">
+      <frame cnt="0">
+        <posx val="0.137795275590551" />
+        <posy val="0.256410256410256" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.3" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="ENTER">
+    <param type="RES" x="254" y="78" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+  </scene>
+</rfanimation>

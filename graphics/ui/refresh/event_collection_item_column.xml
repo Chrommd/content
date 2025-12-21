@@ -1,0 +1,96 @@
+﻿<refresh version="2">
+	<properties>
+		<property name="DPI" val="72" />
+		<property name="UIAnimation" val="event_collection_item_column_Animation.xml" />
+	</properties>
+	<base type="WND" subclass="" name="Wnd">
+		<pos x="0" y="0" />
+		<rect l="0" t="0" r="96" b="98" />
+		<Visible val="True" />
+		<Anchor val="Top, Left" />
+		<snd type="SHOW"></snd>
+		<snd type="HIDE"></snd>
+		<IsHitTestVisible val="True" />
+		<ClipChildren val="False" />
+		<child type="PICTURE" name="event_result_frame_effect_1" subclass="">
+			<asset type="STATIC">event_result_frame_effect.png</asset>
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="98" b="98" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="event_item_1" subclass="">
+			<asset type="STATIC">icon_i_[etc]003_nknchange.png</asset>
+			<pos x="12" y="13" />
+			<rect l="0" t="0" r="71" b="71" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="item_over_img" subclass="">
+			<asset type="STATIC">item_over_img.png</asset>
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="98" b="98" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="LABEL" name="item_get_num_1" subclass="">
+			<pos x="5" y="60" />
+			<rect l="0" t="0" r="53" b="28" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<label val="" />
+			<OutlineColor val="#2F1E14FF" />
+			<ShadowColor val="#0000004C" />
+			<color val="#FCFF00FF" />
+			<halign val="2" />
+			<valign val="1" />
+			<FontName val="나눔고딕 ExtraBold" />
+			<FontSize val="26" />
+			<TextTrimming val="None" />
+			<style val="48" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+			<Padding val="0, 0, 0, 0" />
+			<FitToContent val="False" />
+		</child>
+		<child type="PICTURE" name="event_badge_1" subclass="">
+			<asset type="STATIC">event_badge_bg.png</asset>
+			<pos x="60" y="60" />
+			<rect l="0" t="0" r="33" b="33" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<child type="LABEL" name="event_badge_num_1" subclass="">
+				<pos x="2" y="4" />
+				<rect l="0" t="0" r="26" b="21" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<label val="0" />
+				<OutlineColor val="#3D331BFF" />
+				<ShadowColor val="#0000004C" />
+				<color val="#FFFFFFFF" />
+				<halign val="1" />
+				<valign val="1" />
+				<FontName val="나눔고딕 ExtraBold" />
+				<FontSize val="18" />
+				<TextTrimming val="None" />
+				<style val="48" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+				<Padding val="0, 0, 0, 0" />
+				<FitToContent val="False" />
+			</child>
+		</child>
+	</base>
+</refresh>

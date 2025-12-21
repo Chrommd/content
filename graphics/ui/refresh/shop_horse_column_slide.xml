@@ -1,0 +1,398 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="shop_horse_column_slide_Animation.xml" />
+  </properties>
+  <base type="WND" subclass="" name="shop_horse_column_slide">
+    <Visible val="True" />
+    <Anchor val="Top, Left" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="575" b="70" />
+    <IsHitTestVisible val="True" />
+    <base type="WND" subclass="" name="focusbox">
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="575" b="70" />
+      <IsHitTestVisible val="False" />
+      <child type="PICTURE" name="shop_list_soldout_d" subclass="">
+        <asset type="STATIC">shop_horse_column_s.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="0" y="0" />
+        <rect l="0" t="0" r="575" b="70" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="False" />
+      </child>
+      <child type="PICTURE" name="shop_list_lvlimit_d" subclass="">
+        <asset type="STATIC">shop_horse_column_l.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="0" y="0" />
+        <rect l="0" t="0" r="575" b="70" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="False" />
+      </child>
+      <child type="PICTURE" name="shop_list_buy_d" subclass="">
+        <asset type="STATIC">shop_horse_column_n.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="0" y="0" />
+        <rect l="0" t="0" r="575" b="70" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="False" />
+      </child>
+    </base>
+    <base type="WND" subclass="" name="slide">
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <pos x="380" y="0" />
+      <rect l="0" t="0" r="193" b="70" />
+      <IsHitTestVisible val="True" />
+      <child type="PANEL" name="shop_main_soldoutslide" subclass="">
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <pos x="0" y="0" />
+        <rect l="0" t="0" r="193" b="70" />
+        <IsHitTestVisible val="True" />
+        <child type="PICTURE" name="shop_img_soldoutslide" subclass="">
+          <asset type="STATIC">shop_img_soldout.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="0" y="0" />
+          <rect l="0" t="0" r="193" b="70" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+        </child>
+        <child type="LABEL" name="txt_shop_main_soldoutslide" subclass="">
+          <label val="" />
+          <pos x="27" y="22" />
+          <rect l="0" t="0" r="152" b="20" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#FF0000" />
+          <color val="#FFFFFF" />
+          <halign val="1" />
+          <valign val="0" />
+          <FontName val="나눔고딕" />
+          <FontSize val="13" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+        </child>
+      </child>
+      <child type="PANEL" name="shop_main_lvlimitslide" subclass="">
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <pos x="0" y="0" />
+        <rect l="0" t="0" r="193" b="70" />
+        <IsHitTestVisible val="True" />
+        <child type="PICTURE" name="shop_img_lvlimitslide" subclass="">
+          <asset type="STATIC">shop_img_lvlimit.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="0" y="0" />
+          <rect l="0" t="0" r="193" b="70" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+        </child>
+        <child type="LABEL" name="txt_shop_main_lvlimitslide" subclass="">
+          <label val="" />
+          <pos x="27" y="22" />
+          <rect l="0" t="0" r="152" b="20" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#FF0000" />
+          <color val="#FFFFFF" />
+          <halign val="1" />
+          <valign val="0" />
+          <FontName val="나눔고딕" />
+          <FontSize val="13" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+        </child>
+      </child>
+      <child type="PANEL" name="shop_main_buyslide" subclass="">
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <pos x="0" y="0" />
+        <rect l="0" t="0" r="193" b="70" />
+        <IsHitTestVisible val="True" />
+        <child type="PICTURE" name="shop_img_buyslide" subclass="">
+          <asset type="STATIC">shop_img_buy.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="0" y="0" />
+          <rect l="0" t="0" r="193" b="70" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+        </child>
+        <child type="PICTURE" name="img_shop_slide_price" subclass="">
+          <asset type="STATIC">shop_img_pricebg.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="36" y="4" />
+          <rect l="0" t="0" r="150" b="23" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <child type="LABEL" name="txt_shop_main_slide_price" subclass="">
+            <label val="" />
+            <pos x="13" y="2" />
+            <rect l="0" t="0" r="127" b="19" />
+            <Visible val="True" />
+            <Anchor val="Top, Left" />
+            <OutlineColor val="#FF0000" />
+            <ShadowColor val="#FF0000" />
+            <color val="#FF9900" />
+            <halign val="2" />
+            <valign val="1" />
+            <FontName val="나눔고딕" />
+            <FontSize val="13" />
+            <TextTrimming val="None" />
+            <style val="1" />
+            <IsHitTestVisible val="False" />
+          </child>
+        </child>
+        <child type="ANIMBUTTON" name="btn_shop_main_buy" subclass="">
+          <asset type="GROUP">shop_horse_column_slide_btn_shop_main_buy.xml</asset>
+          <asset type="NORMAL">
+          </asset>
+          <asset type="DOWN">
+          </asset>
+          <asset type="OVER">
+          </asset>
+          <asset type="DISABLE">
+          </asset>
+          <asset type="ENTER">
+          </asset>
+          <asset type="LEAVE">
+          </asset>
+          <snd type="OVER">0</snd>
+          <snd type="DOWN">0</snd>
+          <snd type="RELEASE">
+          </snd>
+          <pos x="56" y="31" />
+          <rect l="0" t="0" r="91" b="42" />
+          <Visible val="True" />
+          <IsHitTestVisible val="True" />
+          <Anchor val="Top, Left" />
+          <child type="LABEL" name="lb_shop_main_buy" subclass="">
+            <label val="단품구매" />
+            <pos x="9" y="9" />
+            <rect l="0" t="0" r="72" b="20" />
+            <Visible val="True" />
+            <Anchor val="Top, Left" />
+            <OutlineColor val="#FF0000" />
+            <ShadowColor val="#FF0000" />
+            <color val="#4D361B" />
+            <halign val="1" />
+            <valign val="1" />
+            <FontName val="나눔고딕" />
+            <FontSize val="14" />
+            <TextTrimming val="None" />
+            <FontName val="나눔고딕" />
+            <IsHitTestVisible val="False" />
+          </child>
+        </child>
+        <child type="COMBO" name="combo_term_price" subclass="">
+          <control type="TEXTAREA" name="combo_term_price_TextArea">
+            <asset type="BG" path="textarea_period_04.png">
+              <tex x="4" y="4" />
+              <rect l="14" t="11" r="135" b="7" />
+            </asset>
+            <asset type="EDGE_LT" path="textarea_period_00.png">
+              <tex x="14" y="11" />
+              <rect l="0" t="0" r="14" b="11" />
+            </asset>
+            <asset type="EDGE_RT" path="textarea_period_02.png">
+              <tex x="11" y="11" />
+              <rect l="0" t="0" r="11" b="11" />
+            </asset>
+            <asset type="EDGE_LB" path="textarea_period_06.png">
+              <tex x="14" y="13" />
+              <rect l="0" t="0" r="14" b="13" />
+            </asset>
+            <asset type="EDGE_RB" path="textarea_period_08.png">
+              <tex x="11" y="13" />
+              <rect l="0" t="0" r="11" b="13" />
+            </asset>
+            <asset type="FRAME_T" path="textarea_period_01.png">
+              <tex x="4" y="11" />
+              <rect l="14" t="0" r="135" b="11" />
+            </asset>
+            <asset type="FRAME_B" path="textarea_period_07.png">
+              <tex x="4" y="13" />
+              <rect l="14" t="0" r="135" b="13" />
+            </asset>
+            <asset type="FRAME_L" path="textarea_period_03.png">
+              <tex x="14" y="4" />
+              <rect l="0" t="11" r="14" b="7" />
+            </asset>
+            <asset type="FRAME_R" path="textarea_period_05.png">
+              <tex x="11" y="4" />
+              <rect l="0" t="11" r="11" b="7" />
+            </asset>
+            <asset type="CARET" path="">
+              <rpos x="0" y="0" />
+              <rect l="0" t="0" r="0" b="0" />
+            </asset>
+            <pos x="0" y="0" />
+            <rect l="0" t="0" r="160" b="31" />
+            <Visible val="True" />
+            <Anchor val="Top, Bottom, Left, Right" />
+            <Editable val="False" />
+            <OutlineColor val="#FF0000" />
+            <ShadowColor val="#EBDFD8" />
+            <SelectionBrush val="#FF0000" />
+            <color val="#933400" />
+            <style val="33" />
+            <halign val="0" />
+            <padding l="10" t="5" r="25" b="7" />
+            <FontName val="나눔고딕" />
+            <FontSize val="13" />
+            <IsHitTestVisible val="True" />
+          </control>
+          <control type="BUTTON" name="combo_term_price_DropButton">
+            <asset type="NORMAL">btn_drop_a1_n.png</asset>
+            <asset type="DOWN">btn_drop_a1_d.png</asset>
+            <asset type="OVER">btn_drop_a1_o.png</asset>
+            <asset type="DISABLE">btn_drop_a1_dis.png</asset>
+            <snd type="OVER">ui_btn_paper_over</snd>
+            <snd type="DOWN">ui_btn_paper_click</snd>
+            <snd type="RELEASE">
+            </snd>
+            <pos x="0" y="0" />
+            <rect l="0" t="0" r="160" b="31" />
+            <Visible val="True" />
+            <IsHitTestVisible val="True" />
+            <Anchor val="Top, Bottom, Right" />
+          </control>
+          <control type="LISTAREA" name="combo_term_price_DropList">
+            <asset type="BG" path="combo_area_b_04.png">
+              <tex x="10" y="10" />
+              <rect l="13" t="13" r="134" b="44" />
+            </asset>
+            <asset type="EDGE_LT" path="combo_area_b_00.png">
+              <tex x="10" y="10" />
+              <rect l="0" t="0" r="13" b="13" />
+            </asset>
+            <asset type="EDGE_RT" path="combo_area_b_02.png">
+              <tex x="10" y="10" />
+              <rect l="0" t="0" r="13" b="13" />
+            </asset>
+            <asset type="EDGE_LB" path="combo_area_b_06.png">
+              <tex x="10" y="10" />
+              <rect l="0" t="0" r="13" b="13" />
+            </asset>
+            <asset type="EDGE_RB" path="combo_area_b_08.png">
+              <tex x="10" y="10" />
+              <rect l="0" t="0" r="13" b="13" />
+            </asset>
+            <asset type="FRAME_T" path="combo_area_b_01.png">
+              <tex x="10" y="10" />
+              <rect l="13" t="0" r="134" b="13" />
+            </asset>
+            <asset type="FRAME_B" path="combo_area_b_07.png">
+              <tex x="10" y="10" />
+              <rect l="13" t="0" r="134" b="13" />
+            </asset>
+            <asset type="FRAME_L" path="combo_area_b_03.png">
+              <tex x="10" y="10" />
+              <rect l="0" t="13" r="13" b="44" />
+            </asset>
+            <asset type="FRAME_R" path="combo_area_b_05.png">
+              <tex x="10" y="10" />
+              <rect l="0" t="13" r="13" b="44" />
+            </asset>
+            <control type="VSCROLLBAR" name="combo_term_price_DropList_VSlider" horizontal="0">
+              <control type="BUTTON_LT" name="combo_term_price_DropList_VScrollBar_TopButton">
+                <asset type="NORMAL">scroll_up_a_n.png</asset>
+                <asset type="DOWN">scroll_up_a_d.png</asset>
+                <asset type="OVER">scroll_up_a_o.png</asset>
+                <asset type="DISABLE">scroll_up_a_dis.png</asset>
+                <snd type="OVER">
+                </snd>
+                <snd type="DOWN">
+                </snd>
+                <snd type="RELEASE">
+                </snd>
+                <pos x="0" y="0" />
+                <rect l="0" t="0" r="14" b="17" />
+                <Visible val="True" />
+                <IsHitTestVisible val="True" />
+                <Anchor val="Top, Left, Right" />
+              </control>
+              <control type="THUMB" name="combo_term_price_DropList_VScrollBar_Thumb">
+                <asset type="NORMAL">scroll_bar_b_n.png</asset>
+                <asset type="DOWN">scroll_bar_b_d.png</asset>
+                <asset type="OVER">scroll_bar_b_o.png</asset>
+                <asset type="DISABLE">
+                </asset>
+                <snd type="OVER">
+                </snd>
+                <snd type="DOWN">
+                </snd>
+                <snd type="RELEASE">
+                </snd>
+                <pos x="0" y="31" />
+                <rect l="0" t="0" r="14" b="24" />
+                <Visible val="True" />
+                <IsHitTestVisible val="True" />
+                <Anchor val="Top, Left, Right" />
+              </control>
+              <control type="BUTTON_RB" name="combo_term_price_DropList_VScrollBar_BottomButton">
+                <asset type="NORMAL">scroll_down_a_n.png</asset>
+                <asset type="DOWN">scroll_down_a_d.png</asset>
+                <asset type="OVER">scroll_down_a_o.png</asset>
+                <asset type="DISABLE">scroll_down_a_dis.png</asset>
+                <snd type="OVER">
+                </snd>
+                <snd type="DOWN">
+                </snd>
+                <snd type="RELEASE">
+                </snd>
+                <pos x="0" y="41" />
+                <rect l="0" t="0" r="14" b="17" />
+                <Visible val="True" />
+                <IsHitTestVisible val="True" />
+                <Anchor val="Bottom, Left, Right" />
+              </control>
+              <scrollrect l="0" t="17" r="14" b="41" />
+              <Visible val="True" />
+              <Anchor val="Top, Bottom, Right" />
+              <pos x="140" y="6" />
+              <rect l="0" t="0" r="14" b="58" />
+              <IsHitTestVisible val="True" />
+            </control>
+            <control type="HSCROLLBAR" name="combo_term_price_DropList_HSlider" horizontal="1">
+            </control>
+            <pos x="0" y="0" />
+            <rect l="0" t="0" r="160" b="70" />
+            <Visible val="True" />
+            <Anchor val="Left, Right" />
+            <padding l="12" t="16" r="14" b="11" />
+            <column val="1" />
+            <itemrect l="0" t="0" r="240" b="20" />
+            <selection val="0" />
+            <deselectable val="1" />
+            <rclickaction val="0" />
+            <IsHitTestVisible val="True" />
+          </control>
+          <pos x="30" y="0" />
+          <rect l="0" t="0" r="160" b="31" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <NormalColor val="#030200" />
+          <SelectColor val="#933400" />
+          <FontName val="나눔고딕" />
+          <FontSize val="13" />
+          <IsHitTestVisible val="True" />
+        </child>
+      </child>
+    </base>
+  </base>
+</refresh>

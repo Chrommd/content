@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <event animation="_initialize_">
+        <function>PlayFX($asset, "ob_lamp01", "dum1", "-attach ")</function>
+        <time>0.0000</time>
+        <freq>ONCE</freq>
+    </event>
+    <event animation="_initialize_">
+        <function>PlayFX($asset, "ob_lamp01", "dum2", "-attach ")</function>
+        <time>0.0000</time>
+        <freq>ONCE</freq>
+    </event>
+    <event animation="">
+        <function>PlayFX($asset, "ob_shipwave_00", "wing", "")</function>
+        <time>0.001</time>
+        <freq>ONCE</freq>
+    </event>
+    <event animation="">
+        <function>PlayFX($asset, "ob_shipwave_00", "2", "")</function>
+        <time>0.001</time>
+        <freq>ONCE</freq>
+    </event>
+    <event animation="">
+        <function>PlayFX($asset, "ob_shipwave_01", "3", "")</function>
+        <time>0.001</time>
+        <freq>ONCE</freq>
+    </event>
+    <event animation="">
+        <function>PlayFX($asset, "ob_shipwave_01", "4", "")</function>
+        <time>0.001</time>
+        <freq>ONCE</freq>
+    </event>
+    <event animation="">
+        <function>PlaySND($asset, "ob_dorf_ship_splash", "root", "-var 2")</function>
+        <time>0.1008</time>
+        <freq>100</freq>
+    </event>
+    <event animation="">
+        <function>PlaySND($asset, "ob_dorf_ship_splash", "root", "-var 2")</function>
+        <time>3.6651</time>
+        <freq>100</freq>
+    </event>
+    <event animation="">
+        <function>PlaySND($asset, "ob_dorf_ship_splash", "root", "-var 2")</function>
+        <time>7.1469</time>
+        <freq>100</freq>
+    </event>
+    <dummy name="wing" parent="DummyRoot" sync="TRUE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>-0.6854</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>0.7282</rotationW>
+        <offsetX>-9.9983</offsetX>
+        <offsetY>10.5000</offsetY>
+        <offsetZ>13.0000</offsetZ>
+    </dummy>
+    <dummy name="2" parent="DummyRoot" sync="TRUE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.6928</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>0.7211</rotationW>
+        <offsetX>10.0000</offsetX>
+        <offsetY>10.5000</offsetY>
+        <offsetZ>13.0000</offsetZ>
+    </dummy>
+    <dummy name="3" parent="DummyRoot" sync="TRUE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.8645</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>0.5027</rotationW>
+        <offsetX>8.5082</offsetX>
+        <offsetY>10.5000</offsetY>
+        <offsetZ>-21.0112</offsetZ>
+    </dummy>
+    <dummy name="4" parent="DummyRoot" sync="TRUE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>-0.8505</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>0.5259</rotationW>
+        <offsetX>-8.5095</offsetX>
+        <offsetY>10.5000</offsetY>
+        <offsetZ>-21.0063</offsetZ>
+    </dummy>
+    <dummy name="root" parent="DummyRoot" sync="FALSE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.0000</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <dummy name="dum2" parent="Dummysenter" sync="FALSE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>-9.3720</offsetX>
+        <offsetY>35.6104</offsetY>
+        <offsetZ>43.3948</offsetZ>
+    </dummy>
+    <dummy name="dum1" parent="Dummysenter" sync="FALSE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>9.0579</offsetX>
+        <offsetY>35.4821</offsetY>
+        <offsetZ>43.3563</offsetZ>
+    </dummy>
+    <action category="" state="G_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000></main>
+    </action>
+</aim>

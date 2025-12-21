@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="Invite_message_wondow_Animation.xml" />
+  </properties>
+  <base type="WND" subclass="" name="Wnd_invite_message">
+    <Visible val="True" />
+    <Anchor val="Top, Bottom, Left, Right" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="1024" b="768" />
+    <snd type="SHOW">se_popup_invite_event</snd>
+    <snd type="HIDE">
+    </snd>
+    <IsHitTestVisible val="True" />
+    <ClipChildren val="False" />
+    <child type="PICTURE" name="img_common_black" subclass="">
+      <asset type="STATIC">img_common_black_alpha.png</asset>
+      <Visible val="True" />
+      <Anchor val="Top, Bottom, Left, Right" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="1024" b="768" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="STACKPANEL" name="StackPanel" subclass="">
+      <Visible val="True" />
+      <Anchor val="Top, Bottom, Left, Right" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="1024" b="768" />
+      <Orientation val="Vertical" />
+      <HAlign val="Center" />
+      <VAlign val="Center" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <base type="WND" subclass="" name="Wnd">
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <pos x="0" y="255" />
+        <rect l="0" t="0" r="1024" b="259" />
+        <snd type="SHOW">se_popup_invite_event</snd>
+        <snd type="HIDE">
+        </snd>
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <child type="PICTURE" name="Festival_Lettercover" subclass="">
+          <asset type="STATIC">Festival_Lettercover.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="265" y="48" />
+          <rect l="0" t="0" r="506" b="212" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="Invite_Letter" subclass="">
+          <asset type="STATIC">Invite_Letter.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="247" y="-97" />
+          <rect l="0" t="0" r="612" b="344" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+          <child type="LABEL" name="Label" subclass="">
+            <label val="대회참가를 위한 초대에 응하시겠습니까?" />
+            <pos x="82" y="236" />
+            <rect l="0" t="0" r="283" b="21" />
+            <Visible val="True" />
+            <Anchor val="Top, Left" />
+            <OutlineColor val="#FFFFFF" />
+            <ShadowColor val="#0000004C" />
+            <color val="#6B5D54" />
+            <halign val="1" />
+            <valign val="1" />
+            <FontName val="나눔고딕" />
+            <FontSize val="15" />
+            <TextTrimming val="None" />
+            <style val="1" />
+            <IsHitTestVisible val="False" />
+            <ClipChildren val="False" />
+            <Padding val="0, 0, 0, 0" />
+            <FitToContent val="False" />
+          </child>
+          <child type="LABELBUTTON" name="btn_opt_ok" subclass="">
+            <asset type="NORMAL">btn_common_ok_Normal.png</asset>
+            <asset type="DOWN">btn_common_ok_Push.png</asset>
+            <asset type="OVER">btn_common_ok_Hover.png</asset>
+            <asset type="DISABLE">btn_common_ok_Disable.png</asset>
+            <snd type="OVER">
+            </snd>
+            <snd type="DOWN">ui_btn_menu_click</snd>
+            <snd type="RELEASE">ui_mating_fail_card_select;ui_btn_event_invite</snd>
+            <control type="LABEL" name="btn_opt_ok_Label">
+              <label val="OK" />
+              <pos x="0" y="0" />
+              <rect l="0" t="0" r="142" b="33" />
+              <Visible val="True" />
+              <Anchor val="Bottom, Left, Right" />
+              <OutlineColor val="#FFFFFF" />
+              <ShadowColor val="#0000004C" />
+              <color val="#6B5D54" />
+              <halign val="1" />
+              <valign val="1" />
+              <FontName val="나눔고딕" />
+              <FontSize val="13" />
+              <TextTrimming val="None" />
+              <style val="1" />
+              <IsHitTestVisible val="False" />
+              <ClipChildren val="False" />
+              <Padding val="0, 0, 0, 0" />
+              <FitToContent val="False" />
+            </control>
+            <pos x="149" y="281" />
+            <rect l="0" t="0" r="142" b="33" />
+            <Visible val="True" />
+            <Anchor val="Top, Left" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+            <NormalColor val="#FFFFFFFF" />
+            <HoverColor val="#FFFFFFFF" />
+            <PushColor val="#FEEF43FF" />
+            <DisableColor val="#998A81FF" />
+            <IsDefaultButton val="False" />
+          </child>
+        </child>
+      </base>
+    </child>
+  </base>
+</refresh>

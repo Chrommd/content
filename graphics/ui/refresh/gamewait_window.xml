@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="gamewait_window_Animation.xml" />
+  </properties>
+  <base type="WND" subclass="" name="wait">
+    <Visible val="True" />
+    <Anchor val="Top, Bottom, Left, Right" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="1024" b="768" />
+    <IsHitTestVisible val="False" />
+    <ClipChildren val="False" />
+    <child type="STACKPANEL" name="anchor_wait" subclass="">
+      <Visible val="True" />
+      <Anchor val="Top, Bottom, Left, Right" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="1024" b="768" />
+      <Orientation val="Vertical" />
+      <HAlign val="Center" />
+      <VAlign val="Center" />
+      <IsHitTestVisible val="False" />
+      <ClipChildren val="False" />
+      <base type="WNDEX" subclass="" name="bg_frm">
+        <asset type="BG" path="frm_alert_CenterMiddle.png" tileMode="Stretch">
+          <tex x="4" y="4" />
+          <rect l="40" t="30" r="288" b="202" />
+        </asset>
+        <asset type="EDGE_LT" path="frm_alert_LeftTop.png" tileMode="Stretch">
+          <tex x="40" y="30" />
+          <rect l="0" t="0" r="40" b="30" />
+        </asset>
+        <asset type="EDGE_RT" path="frm_alert_RightTop.png" tileMode="Stretch">
+          <tex x="40" y="30" />
+          <rect l="0" t="0" r="40" b="30" />
+        </asset>
+        <asset type="EDGE_LB" path="frm_alert_LeftBottom.png" tileMode="Stretch">
+          <tex x="40" y="20" />
+          <rect l="0" t="0" r="40" b="20" />
+        </asset>
+        <asset type="EDGE_RB" path="frm_alert_RightBottom.png" tileMode="Stretch">
+          <tex x="40" y="20" />
+          <rect l="0" t="0" r="40" b="20" />
+        </asset>
+        <asset type="FRAME_T" path="frm_alert_CenterTop.png" tileMode="Tile">
+          <tex x="4" y="30" />
+          <rect l="40" t="0" r="288" b="30" />
+        </asset>
+        <asset type="FRAME_B" path="frm_alert_CenterBottom.png" tileMode="Tile">
+          <tex x="4" y="20" />
+          <rect l="40" t="0" r="288" b="20" />
+        </asset>
+        <asset type="FRAME_L" path="frm_alert_LeftMiddle.png" tileMode="Stretch">
+          <tex x="40" y="4" />
+          <rect l="0" t="30" r="40" b="202" />
+        </asset>
+        <asset type="FRAME_R" path="frm_alert_RightMiddle.png" tileMode="Tile">
+          <tex x="40" y="4" />
+          <rect l="0" t="30" r="40" b="202" />
+        </asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="328" y="258" />
+        <rect l="0" t="0" r="368" b="252" />
+        <Dragable val="False" />
+        <StartPosition val="None" />
+        <EscKeyAction val="None" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <child type="LABEL" name="lb_wait_reason" subclass="">
+          <label val="게임이 진행 중입니다. " />
+          <pos x="15" y="172" />
+          <rect l="0" t="0" r="337" b="18" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FFFFFF" />
+          <ShadowColor val="#030200" />
+          <color val="#FFFFFFFF" />
+          <halign val="1" />
+          <valign val="0" />
+          <FontName val="나눔고딕" />
+          <FontSize val="14" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+        <child type="LABEL" name="txt_wait_timeinfo" subclass="">
+          <label val="남은시간" />
+          <pos x="15" y="195" />
+          <rect l="0" t="0" r="337" b="18" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FFFFFF" />
+          <ShadowColor val="#030200" />
+          <color val="#FF7E00FF" />
+          <halign val="1" />
+          <valign val="0" />
+          <FontName val="나눔고딕" />
+          <FontSize val="13" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+        <child type="PICTURE" name="bg_wait" subclass="">
+          <asset type="STATIC">img_readyroom_wait_round.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="111" y="20" />
+          <rect l="0" t="0" r="146" b="147" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="wait_bar" subclass="">
+          <asset type="ANIMATION">gamewait_window_wait_bar.xml</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="148" y="57" />
+          <rect l="0" t="0" r="71" b="71" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="wait_horse" subclass="">
+          <asset type="ANIMATION">gamewait_window_wait_horse.xml</asset>
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <pos x="154" y="66" />
+          <rect l="0" t="0" r="56" b="56" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+      </base>
+    </child>
+  </base>
+</refresh>

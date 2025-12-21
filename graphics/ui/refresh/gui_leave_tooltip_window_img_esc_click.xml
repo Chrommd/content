@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="img_esc_click_Default">
+    <asset type="IMAGE" name="asset_img_esc_click" path="img_esc_click.png">
+      <rect l="0" t="0" r="18" b="21" />
+    </asset>
+    <object name="img_esc_click" ani="ani_img_esc_click">
+      <asset type="IMAGE" link="asset_img_esc_click" />
+    </object>
+    <param type="RES" x="18" y="21" />
+    <param type="LOOP" cnt="-1" pendulum="1" />
+    <anim name="ani_img_esc_click">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="-0.0952380952380952" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0" easeValue="0.8,0.1,1.0,1.0" />
+        <posy val="0" easeValue="0.8,0.1,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" easeValue="0.8,0.1,1.0,1.0" />
+        <centery val="0" easeValue="0.8,0.1,1.0,1.0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

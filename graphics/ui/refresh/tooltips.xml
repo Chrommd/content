@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="tooltips_Animation.xml" />
+  </properties>
+  <base type="WND" subclass="" name="tooltip">
+    <Visible val="True" />
+    <Anchor val="None" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="36" b="26" />
+    <base type="WNDEX" subclass="" name="bg_tooltip">
+      <asset type="BG" path="">
+        <tex x="0" y="0" />
+        <rect l="11" t="26" r="5" b="-5" />
+      </asset>
+      <asset type="EDGE_LT" path="tooltip_01.png">
+        <tex x="11" y="26" />
+        <rect l="0" t="0" r="11" b="26" />
+      </asset>
+      <asset type="EDGE_RT" path="tooltip_03.png">
+        <tex x="14" y="26" />
+        <rect l="0" t="0" r="14" b="26" />
+      </asset>
+      <asset type="EDGE_LB" path="">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="5" b="5" />
+      </asset>
+      <asset type="EDGE_RB" path="">
+        <tex x="0" y="0" />
+        <rect l="-9" t="0" r="5" b="5" />
+      </asset>
+      <asset type="FRAME_T" path="tooltip_02.png">
+        <tex x="11" y="26" />
+        <rect l="11" t="0" r="11" b="26" />
+      </asset>
+      <asset type="FRAME_B" path="">
+        <tex x="0" y="0" />
+        <rect l="11" t="0" r="5" b="5" />
+      </asset>
+      <asset type="FRAME_L" path="">
+        <tex x="0" y="0" />
+        <rect l="0" t="26" r="5" b="-5" />
+      </asset>
+      <asset type="FRAME_R" path="">
+        <tex x="0" y="0" />
+        <rect l="-9" t="26" r="5" b="-5" />
+      </asset>
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="36" b="26" />
+      <Dragable val="False" />
+      <StartPosition val="None" />
+      <EscKeyAction val="None" />
+    </base>
+    <child type="LABEL" name="txt_tooltip" subclass="">
+      <label val="" />
+      <pos x="-102" y="2" />
+      <rect l="0" t="0" r="240" b="18" />
+      <Visible val="True" />
+      <Anchor val="None" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#FF0000" />
+      <color val="#FFFFFF" />
+      <halign val="1" />
+      <valign val="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="13" />
+      <style val="1" />
+    </child>
+  </base>
+</refresh>

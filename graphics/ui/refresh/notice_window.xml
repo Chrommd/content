@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+  </properties>
+  <base type="WNDEX" subclass="" name="notice">
+    <asset type="BG" path="frm_alert_CenterMiddle.png" tileMode="Stretch">
+      <tex x="4" y="4" />
+      <rect l="40" t="30" r="284" b="155" />
+    </asset>
+    <asset type="EDGE_LT" path="frm_alert_LeftTop.png" tileMode="Stretch">
+      <tex x="40" y="30" />
+      <rect l="0" t="0" r="40" b="30" />
+    </asset>
+    <asset type="EDGE_RT" path="frm_alert_RightTop.png" tileMode="Stretch">
+      <tex x="40" y="30" />
+      <rect l="0" t="0" r="40" b="30" />
+    </asset>
+    <asset type="EDGE_LB" path="frm_alert_LeftBottom.png" tileMode="Stretch">
+      <tex x="40" y="20" />
+      <rect l="0" t="0" r="40" b="20" />
+    </asset>
+    <asset type="EDGE_RB" path="frm_alert_RightBottom.png" tileMode="Stretch">
+      <tex x="40" y="20" />
+      <rect l="0" t="0" r="40" b="20" />
+    </asset>
+    <asset type="FRAME_T" path="frm_alert_CenterTop.png" tileMode="Tile">
+      <tex x="4" y="30" />
+      <rect l="40" t="0" r="284" b="30" />
+    </asset>
+    <asset type="FRAME_B" path="frm_alert_CenterBottom.png" tileMode="Tile">
+      <tex x="4" y="20" />
+      <rect l="40" t="0" r="284" b="20" />
+    </asset>
+    <asset type="FRAME_L" path="frm_alert_LeftMiddle.png" tileMode="Stretch">
+      <tex x="40" y="4" />
+      <rect l="0" t="30" r="40" b="155" />
+    </asset>
+    <asset type="FRAME_R" path="frm_alert_RightMiddle.png" tileMode="Tile">
+      <tex x="40" y="4" />
+      <rect l="0" t="30" r="40" b="155" />
+    </asset>
+    <Visible val="True" />
+    <Anchor val="None" />
+    <pos x="331" y="253" />
+    <rect l="0" t="0" r="364" b="205" />
+    <Dragable val="False" />
+    <StartPosition val="CenterScreen" />
+    <EscKeyAction val="None" />
+    <IsHitTestVisible val="True" />
+    <ClipChildren val="False" />
+    <child type="STACKPANEL" name="StackPanel" subclass="">
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <pos x="13" y="14" />
+      <rect l="0" t="0" r="337" b="176" />
+      <Orientation val="Vertical" />
+      <HAlign val="Center" />
+      <VAlign val="Center" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <child type="TEXTAREA" name="notice_frm" subclass="">
+        <asset type="BG" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="8" t="8" r="320" b="25" />
+        </asset>
+        <asset type="EDGE_LT" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="EDGE_RT" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="EDGE_LB" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="EDGE_RB" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="0" t="0" r="8" b="8" />
+        </asset>
+        <asset type="FRAME_T" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="8" t="0" r="320" b="8" />
+        </asset>
+        <asset type="FRAME_B" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="8" t="0" r="320" b="8" />
+        </asset>
+        <asset type="FRAME_L" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="0" t="8" r="8" b="25" />
+        </asset>
+        <asset type="FRAME_R" path="" tileMode="Tile">
+          <tex x="0" y="0" />
+          <rect l="0" t="8" r="8" b="25" />
+        </asset>
+        <asset type="CARET" path="">
+          <rpos x="0" y="0" />
+          <rect l="0" t="0" r="0" b="0" />
+        </asset>
+        <pos x="0" y="68" />
+        <rect l="0" t="0" r="336" b="41" />
+        <Visible val="True" />
+        <Anchor val="None" />
+        <Editable val="False" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#38322D" />
+        <SelectionBrush val="#FF0000" />
+        <color val="#FFFFFF" />
+        <style val="1" />
+        <halign val="1" />
+        <padding l="0" t="0" r="0" b="0" />
+        <FontName val="나눔고딕" />
+        <FontSize val="13" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+    </child>
+  </base>
+</refresh>

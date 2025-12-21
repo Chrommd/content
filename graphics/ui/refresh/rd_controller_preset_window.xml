@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+  </properties>
+  <base type="WNDEX" subclass="" name="WndEx_controller_preset">
+    <asset type="BG" path="frame_readyroom_subpopup_CenterMiddle.png">
+      <tex x="4" y="4" />
+      <rect l="14" t="35" r="265" b="179" />
+    </asset>
+    <asset type="EDGE_LT" path="frame_readyroom_subpopup_LeftTop.png">
+      <tex x="14" y="35" />
+      <rect l="0" t="0" r="14" b="35" />
+    </asset>
+    <asset type="EDGE_RT" path="frame_readyroom_subpopup_RightTop.png">
+      <tex x="14" y="35" />
+      <rect l="0" t="0" r="14" b="35" />
+    </asset>
+    <asset type="EDGE_LB" path="frame_readyroom_subpopup_LeftBottom.png">
+      <tex x="14" y="14" />
+      <rect l="0" t="0" r="14" b="14" />
+    </asset>
+    <asset type="EDGE_RB" path="frame_readyroom_subpopup_RightBottom.png">
+      <tex x="14" y="14" />
+      <rect l="0" t="0" r="14" b="14" />
+    </asset>
+    <asset type="FRAME_T" path="frame_readyroom_subpopup_CenterTop.png">
+      <tex x="4" y="35" />
+      <rect l="14" t="0" r="265" b="35" />
+    </asset>
+    <asset type="FRAME_B" path="frame_readyroom_subpopup_CenterBottom.png">
+      <tex x="4" y="14" />
+      <rect l="14" t="0" r="265" b="14" />
+    </asset>
+    <asset type="FRAME_L" path="frame_readyroom_subpopup_LeftMiddle.png">
+      <tex x="14" y="4" />
+      <rect l="0" t="35" r="14" b="179" />
+    </asset>
+    <asset type="FRAME_R" path="frame_readyroom_subpopup_RightMiddle.png">
+      <tex x="14" y="4" />
+      <rect l="0" t="35" r="14" b="179" />
+    </asset>
+    <Visible val="True" />
+    <Anchor val="Top, Left" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="293" b="228" />
+    <Dragable val="False" />
+    <StartPosition val="None" />
+    <EscKeyAction val="None" />
+    <IsHitTestVisible val="True" />
+    <child type="PICTURE" name="img_controller_preset_tail" subclass="">
+      <asset type="STATIC">frame_tooltip_Large_tail.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="137" y="223" />
+      <rect l="0" t="0" r="21" b="25" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+    </child>
+    <child type="ANIMBUTTON" name="btn_controller_preset_close" subclass="">
+      <asset type="GROUP">rd_controller_preset_window_btn_controller_preset_close.xml</asset>
+      <asset type="NORMAL">
+      </asset>
+      <asset type="DOWN">
+      </asset>
+      <asset type="OVER">
+      </asset>
+      <asset type="DISABLE">
+      </asset>
+      <asset type="ENTER">
+      </asset>
+      <asset type="LEAVE">
+      </asset>
+      <snd type="OVER">0</snd>
+      <snd type="DOWN">0</snd>
+      <snd type="RELEASE">
+      </snd>
+      <pos x="264" y="10" />
+      <rect l="0" t="0" r="17" b="17" />
+      <Visible val="True" />
+      <IsHitTestVisible val="True" />
+      <Anchor val="Top, Right" />
+    </child>
+    <child type="TEXTAREA" name="TA_controller_preset_title" subclass="">
+      <asset type="BG" path="">
+        <tex x="0" y="0" />
+        <rect l="8" t="8" r="240" b="4" />
+      </asset>
+      <asset type="EDGE_LT" path="">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_RT" path="">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_LB" path="">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_RB" path="">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="FRAME_T" path="">
+        <tex x="0" y="0" />
+        <rect l="8" t="0" r="240" b="8" />
+      </asset>
+      <asset type="FRAME_B" path="">
+        <tex x="0" y="0" />
+        <rect l="8" t="0" r="240" b="8" />
+      </asset>
+      <asset type="FRAME_L" path="">
+        <tex x="0" y="0" />
+        <rect l="0" t="8" r="8" b="4" />
+      </asset>
+      <asset type="FRAME_R" path="">
+        <tex x="0" y="0" />
+        <rect l="0" t="8" r="8" b="4" />
+      </asset>
+      <asset type="CARET" path="">
+        <rpos x="0" y="0" />
+        <rect l="0" t="0" r="0" b="0" />
+      </asset>
+      <pos x="9" y="8" />
+      <rect l="0" t="0" r="256" b="20" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <Editable val="False" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#FF0000" />
+      <SelectionBrush val="#FF0000" />
+      <color val="#423E25" />
+      <FontName val="나눔고딕" />
+      <halign val="1" />
+      <padding l="0" t="0" r="0" b="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="14" />
+      <IsHitTestVisible val="False" />
+    </child>
+    <child type="LISTSC" name="list_controller_preset_list" subclass="">
+      <asset type="BG" path="">
+        <tex x="0" y="0" />
+        <rect l="8" t="8" r="256" b="187" />
+      </asset>
+      <asset type="EDGE_LT" path="">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_RT" path="">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_LB" path="">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_RB" path="">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="FRAME_T" path="">
+        <tex x="0" y="0" />
+        <rect l="8" t="0" r="256" b="8" />
+      </asset>
+      <asset type="FRAME_B" path="">
+        <tex x="0" y="0" />
+        <rect l="8" t="0" r="256" b="8" />
+      </asset>
+      <asset type="FRAME_L" path="">
+        <tex x="0" y="0" />
+        <rect l="0" t="8" r="8" b="187" />
+      </asset>
+      <asset type="FRAME_R" path="">
+        <tex x="0" y="0" />
+        <rect l="0" t="8" r="8" b="187" />
+      </asset>
+      <control type="VSCROLLBAR" name="list_controller_preset_list_VSlider" horizontal="0">
+        <control type="BUTTON_LT" name="list_controller_preset_list_VScrollBar_TopButton">
+          <asset type="NORMAL">btn_scroll_up_Normal.png</asset>
+          <asset type="DOWN">btn_scroll_up_Normal.png</asset>
+          <asset type="OVER">btn_scroll_up_Hover.png</asset>
+          <asset type="DISABLE">btn_scroll_up_Disable.png</asset>
+          <snd type="OVER">
+          </snd>
+          <snd type="DOWN">
+          </snd>
+          <snd type="RELEASE">
+          </snd>
+          <pos x="0" y="0" />
+          <rect l="0" t="0" r="17" b="17" />
+          <Visible val="True" />
+          <IsHitTestVisible val="True" />
+          <Anchor val="Top, Left, Right" />
+        </control>
+        <control type="THUMB" name="list_controller_preset_list_VScrollBar_Thumb">
+          <asset type="NORMAL">btn_scroll_handle_Normal.png</asset>
+          <asset type="DOWN">btn_scroll_handle_Normal.png</asset>
+          <asset type="OVER">btn_scroll_handle_Hover.png</asset>
+          <asset type="DISABLE">
+          </asset>
+          <snd type="OVER">
+          </snd>
+          <snd type="DOWN">
+          </snd>
+          <snd type="RELEASE">
+          </snd>
+          <pos x="0" y="17" />
+          <rect l="0" t="0" r="17" b="37" />
+          <Visible val="True" />
+          <IsHitTestVisible val="True" />
+          <Anchor val="Top, Left, Right" />
+        </control>
+        <control type="BUTTON_RB" name="list_controller_preset_list_VScrollBar_BottomButton">
+          <asset type="NORMAL">btn_scroll_down_Normal.png</asset>
+          <asset type="DOWN">btn_scroll_down_Normal.png</asset>
+          <asset type="OVER">btn_scroll_down_Hover.png</asset>
+          <asset type="DISABLE">btn_scroll_down_Disable.png</asset>
+          <snd type="OVER">
+          </snd>
+          <snd type="DOWN">
+          </snd>
+          <snd type="RELEASE">
+          </snd>
+          <pos x="0" y="166" />
+          <rect l="0" t="0" r="17" b="17" />
+          <Visible val="True" />
+          <IsHitTestVisible val="True" />
+          <Anchor val="Bottom, Left, Right" />
+        </control>
+        <scrollrect l="0" t="17" r="17" b="166" />
+        <Visible val="True" />
+        <Anchor val="Top, Bottom, Right" />
+        <pos x="252" y="0" />
+        <rect l="0" t="0" r="17" b="183" />
+        <IsHitTestVisible val="True" />
+      </control>
+      <control type="HSCROLLBAR" name="list_controller_preset_list_HSlider" horizontal="1">
+        <control type="BUTTON_LT" name="list_controller_preset_list_HScrollBar_LeftButton">
+          <asset type="NORMAL">
+          </asset>
+          <asset type="DOWN">
+          </asset>
+          <asset type="OVER">
+          </asset>
+          <asset type="DISABLE">
+          </asset>
+          <snd type="OVER">
+          </snd>
+          <snd type="DOWN">
+          </snd>
+          <snd type="RELEASE">
+          </snd>
+          <pos x="0" y="0" />
+          <rect l="0" t="0" r="20" b="20" />
+          <Visible val="True" />
+          <IsHitTestVisible val="True" />
+          <Anchor val="Top, Bottom, Left" />
+        </control>
+        <control type="THUMB" name="list_controller_preset_list_HScrollBar_Thumb">
+          <asset type="NORMAL">
+          </asset>
+          <asset type="DOWN">
+          </asset>
+          <asset type="OVER">
+          </asset>
+          <asset type="DISABLE">
+          </asset>
+          <snd type="OVER">
+          </snd>
+          <snd type="DOWN">
+          </snd>
+          <snd type="RELEASE">
+          </snd>
+          <pos x="20" y="0" />
+          <rect l="0" t="0" r="20" b="20" />
+          <Visible val="True" />
+          <IsHitTestVisible val="True" />
+          <Anchor val="Top, Bottom, Left" />
+        </control>
+        <control type="BUTTON_RB" name="list_controller_preset_list_HScrollBar_RightButton">
+          <asset type="NORMAL">
+          </asset>
+          <asset type="DOWN">
+          </asset>
+          <asset type="OVER">
+          </asset>
+          <asset type="DISABLE">
+          </asset>
+          <snd type="OVER">
+          </snd>
+          <snd type="DOWN">
+          </snd>
+          <snd type="RELEASE">
+          </snd>
+          <pos x="232" y="0" />
+          <rect l="0" t="0" r="20" b="20" />
+          <Visible val="True" />
+          <IsHitTestVisible val="True" />
+          <Anchor val="Top, Bottom, Right" />
+        </control>
+        <scrollrect l="20" t="0" r="232" b="20" />
+        <Visible val="True" />
+        <Anchor val="Bottom, Left, Right" />
+        <pos x="0" y="183" />
+        <rect l="0" t="0" r="252" b="20" />
+        <IsHitTestVisible val="True" />
+      </control>
+      <pos x="10" y="33" />
+      <rect l="0" t="0" r="272" b="203" />
+      <Visible val="True" />
+      <Anchor val="Top, Bottom, Left, Right" />
+      <padding l="0" t="0" r="18" b="18" />
+      <column val="1" />
+      <itemrect l="0" t="0" r="249" b="60" />
+      <selection val="0" />
+      <deselectable val="0" />
+      <rclickaction val="1" />
+      <IsHitTestVisible val="True" />
+    </child>
+  </base>
+</refresh>

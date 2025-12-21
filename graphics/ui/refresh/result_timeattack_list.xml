@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+  </properties>
+  <base type="WND" subclass="" name="Wnd_timeattack_list">
+    <Visible val="True" />
+    <Anchor val="Top, Left" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="644" b="26" />
+    <IsHitTestVisible val="True" />
+    <ClipChildren val="False" />
+    <child type="PICTURE" name="img_icon_timeattack_up" subclass="">
+      <asset type="ANIMATION">result_timeattack_list_img_icon_timeattack_up.xml</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="378" y="0" />
+      <rect l="0" t="0" r="126" b="29" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="LABEL" name="txt_timeattack_name" subclass="">
+      <label val="" />
+      <pos x="21" y="0" />
+      <rect l="0" t="0" r="174" b="26" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#0000007F" />
+      <color val="#EBA543FF" />
+      <halign val="0" />
+      <valign val="1" />
+      <FontName val="나눔고딕 ExtraBold" />
+      <FontSize val="13" />
+      <TextTrimming val="CharacterEllipsis" />
+      <style val="32" />
+      <IsHitTestVisible val="False" />
+      <ClipChildren val="False" />
+      <Padding val="0, 0, 0, 0" />
+    </child>
+    <child type="LABEL" name="txt_timeattack_myrecord" subclass="">
+      <label val="" />
+      <pos x="224" y="0" />
+      <rect l="0" t="0" r="89" b="26" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#0000007F" />
+      <color val="#EBA543FF" />
+      <halign val="2" />
+      <valign val="1" />
+      <FontName val="나눔고딕 ExtraBold" />
+      <FontSize val="13" />
+      <TextTrimming val="None" />
+      <style val="32" />
+      <IsHitTestVisible val="False" />
+      <ClipChildren val="False" />
+      <Padding val="0, 0, 0, 0" />
+    </child>
+    <child type="LABEL" name="txt_timeattack_nowrecord" subclass="">
+      <label val="" />
+      <pos x="370" y="0" />
+      <rect l="0" t="0" r="89" b="26" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#0000007F" />
+      <color val="#EBA543FF" />
+      <halign val="2" />
+      <valign val="1" />
+      <FontName val="나눔고딕 ExtraBold" />
+      <FontSize val="13" />
+      <TextTrimming val="None" />
+      <style val="32" />
+      <IsHitTestVisible val="False" />
+      <ClipChildren val="False" />
+      <Padding val="0, 0, 0, 0" />
+    </child>
+    <base type="WND" subclass="" name="Wnd_timeattack_rank">
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <pos x="505" y="5" />
+      <rect l="0" t="0" r="110" b="20" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <child type="PICTURE" name="img_icon_timeattack_star_1_off" subclass="">
+        <asset type="STATIC">img_icon_timeattack_star_off.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="4" y="0" />
+        <rect l="0" t="0" r="20" b="19" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="PICTURE" name="img_icon_timeattack_star_2_off" subclass="">
+        <asset type="STATIC">img_icon_timeattack_star_off.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="25" y="0" />
+        <rect l="0" t="0" r="20" b="19" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="PICTURE" name="img_icon_timeattack_star_3_off" subclass="">
+        <asset type="STATIC">img_icon_timeattack_star_off.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="46" y="0" />
+        <rect l="0" t="0" r="20" b="19" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="PICTURE" name="img_icon_timeattack_star_4_off" subclass="">
+        <asset type="STATIC">img_icon_timeattack_star_off.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="67" y="0" />
+        <rect l="0" t="0" r="20" b="19" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="PICTURE" name="img_icon_timeattack_star_5_off" subclass="">
+        <asset type="STATIC">img_icon_timeattack_star_off.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="88" y="0" />
+        <rect l="0" t="0" r="20" b="19" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="PICTURE" name="img_icon_timeattack_star_1_on" subclass="">
+        <asset type="ANIMATION">result_timeattack_list_img_icon_timeattack_star_1_on.xml</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="3" y="-1" />
+        <rect l="0" t="0" r="21" b="20" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="PICTURE" name="img_icon_timeattack_star_2_on" subclass="">
+        <asset type="ANIMATION">result_timeattack_list_img_icon_timeattack_star_2_on.xml</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="24" y="-1" />
+        <rect l="0" t="0" r="21" b="20" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="PICTURE" name="img_icon_timeattack_star_3_on" subclass="">
+        <asset type="ANIMATION">result_timeattack_list_img_icon_timeattack_star_3_on.xml</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="45" y="-1" />
+        <rect l="0" t="0" r="21" b="20" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="PICTURE" name="img_icon_timeattack_star_4_on" subclass="">
+        <asset type="ANIMATION">result_timeattack_list_img_icon_timeattack_star_4_on.xml</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="66" y="-1" />
+        <rect l="0" t="0" r="21" b="20" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="PICTURE" name="img_icon_timeattack_star_5_on" subclass="">
+        <asset type="ANIMATION">result_timeattack_list_img_icon_timeattack_star_5_on.xml</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="87" y="-1" />
+        <rect l="0" t="0" r="21" b="20" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+    </base>
+  </base>
+</refresh>

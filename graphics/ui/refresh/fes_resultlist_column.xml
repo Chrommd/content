@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="fes_resultlist_column_Animation.xml" />
+  </properties>
+  <base type="WND" name="resultlist_column">
+    <Visible val="True" />
+    <Anchor val="Top, Left" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="148" b="50" />
+    <child type="PICTURE" name="img_dropout">
+      <asset type="STATIC">Festival_dropout.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="148" b="50" />
+      <center x="0" y="0" />
+    </child>
+    <child type="PICTURE" name="img_entry">
+      <asset type="STATIC">Festival_roundinfo.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="148" b="50" />
+      <center x="0" y="0" />
+      <child type="LABEL" name="txt_ranking">
+        <label val="" />
+        <pos x="80" y="23" />
+        <rect l="0" t="0" r="60" b="19" />
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#000000" />
+        <color val="#FFFFFF" />
+        <halign val="1" />
+        <valign val="1" />
+        <FontName val="나눔고딕" />
+        <FontSize val="13" />
+        <FontName val="나눔고딕" />
+      </child>
+      <child type="LABEL" name="txt_group">
+        <label val="" />
+        <pos x="12" y="23" />
+        <rect l="0" t="0" r="60" b="19" />
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#000000" />
+        <color val="#FFFFFF" />
+        <halign val="1" />
+        <valign val="1" />
+        <FontName val="나눔고딕" />
+        <FontSize val="13" />
+        <FontName val="나눔고딕" />
+      </child>
+      <child type="LABEL" name="txt_round">
+        <label val="" />
+        <pos x="10" y="1" />
+        <rect l="0" t="0" r="130" b="19" />
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#000000" />
+        <color val="#A47110" />
+        <halign val="1" />
+        <valign val="1" />
+        <FontName val="나눔고딕" />
+        <FontSize val="13" />
+        <FontName val="나눔고딕" />
+      </child>
+    </child>
+  </base>
+</refresh>

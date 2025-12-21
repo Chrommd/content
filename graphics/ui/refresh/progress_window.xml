@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+  </properties>
+  <base type="WND" name="progress">
+    <Visible val="True" />
+    <Anchor val="Top, Left" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="296" b="36" />
+    <child type="PICTURE" name="com_progrs_bg">
+      <asset type="STATIC">com_progrs_bg.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="296" b="36" />
+      <center x="0" y="0" />
+    </child>
+    <child type="PROGRESS" name="com_progrs_bar">
+      <asset type="BAR">com_progrs_bar.png</asset>
+      <tex x="260" y="16" />
+      <pos x="18" y="10" />
+      <rect l="0" t="0" r="260" b="16" />
+      <Visible val="True" />
+      <Anchor val="None" />
+    </child>
+  </base>
+</refresh>

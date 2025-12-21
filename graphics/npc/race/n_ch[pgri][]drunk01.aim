@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <event animation="hand00">
+        <function>PlaySND($asset, "npc_cheer_burp", "dummy_head", "-var 2")</function>
+        <time>0.2750</time>
+        <freq>30</freq>
+    </event>
+    <event animation="hand00">
+        <function>PlaySND($asset, "npc_cheer_man_e", "dummy_head", "-var 2")</function>
+        <time>2.3744</time>
+        <freq>70</freq>
+    </event>
+    <dummy name="dummy_head" parent="Bip01 Head" sync="TRUE" extra="">
+        <rotationX>0.6923</rotationX>
+        <rotationY>0.6898</rotationY>
+        <rotationZ>-0.0113</rotationZ>
+        <rotationW>-0.2117</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.0000</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <action category="" state="G_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>hand00</main>
+    </action>
+</aim>

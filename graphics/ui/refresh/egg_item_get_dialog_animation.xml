@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="_Opening_">
+    <asset type="UI" name="asset_wndex_common_popup_type1">
+      <rect l="0" t="0" r="370" b="357" />
+    </asset>
+    <asset type="UI" name="asset_img_common_light_1">
+      <rect l="0" t="0" r="205" b="191" />
+    </asset>
+    <object name="wndex_common_popup_type1" ani="ani_wndex_common_popup_type1">
+      <asset type="UI" link="asset_wndex_common_popup_type1" />
+    </object>
+    <object name="img_common_light_1" ani="ani_img_common_light_1">
+      <asset type="UI" link="asset_img_common_light_1" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_wndex_common_popup_type1">
+      <frame cnt="0">
+        <posx val="0.3193359" />
+        <posy val="0.2682292" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="300">
+        <posx val="0.3193359" />
+        <posy val="0.2682292" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_common_light_1">
+      <frame cnt="0">
+        <posx val="0.0771484375" />
+        <posy val="0.01953125" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0.134765625" />
+        <posy val="0.0924479166666667" />
+        <scalex val="0.414634146341463" />
+        <scaley val="0.413612565445026" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="967">
+        <posx val="0.0771484375" />
+        <posy val="0.01953125" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Closing_">
+    <asset type="UI" name="asset_wndex_common_popup_type1">
+      <rect l="0" t="0" r="370" b="357" />
+    </asset>
+    <object name="wndex_common_popup_type1" ani="ani_wndex_common_popup_type1">
+      <asset type="UI" link="asset_wndex_common_popup_type1" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_wndex_common_popup_type1">
+      <frame cnt="0">
+        <posx val="0.3193359" />
+        <posy val="0.2682292" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="300">
+        <posx val="0.3193359" />
+        <posy val="0.2682292" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

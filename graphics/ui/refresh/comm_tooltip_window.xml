@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="comm_tooltip_window_Animation.xml" />
+  </properties>
+  <base type="WNDEX" subclass="" name="comm_tooltip_wndex">
+    <asset type="BG" path="frm_comm_tooltip_04.png">
+      <tex x="4" y="4" />
+      <rect l="12" t="12" r="236" b="24" />
+    </asset>
+    <asset type="EDGE_LT" path="frm_comm_tooltip_00.png">
+      <tex x="12" y="12" />
+      <rect l="0" t="0" r="12" b="12" />
+    </asset>
+    <asset type="EDGE_RT" path="frm_comm_tooltip_02.png">
+      <tex x="14" y="12" />
+      <rect l="0" t="0" r="14" b="12" />
+    </asset>
+    <asset type="EDGE_LB" path="frm_comm_tooltip_06.png">
+      <tex x="12" y="14" />
+      <rect l="0" t="0" r="12" b="14" />
+    </asset>
+    <asset type="EDGE_RB" path="frm_comm_tooltip_08.png">
+      <tex x="14" y="14" />
+      <rect l="0" t="0" r="14" b="14" />
+    </asset>
+    <asset type="FRAME_T" path="frm_comm_tooltip_01.png">
+      <tex x="4" y="12" />
+      <rect l="12" t="0" r="236" b="12" />
+    </asset>
+    <asset type="FRAME_B" path="frm_comm_tooltip_07.png">
+      <tex x="4" y="14" />
+      <rect l="12" t="0" r="236" b="14" />
+    </asset>
+    <asset type="FRAME_L" path="frm_comm_tooltip_03.png">
+      <tex x="12" y="4" />
+      <rect l="0" t="12" r="12" b="24" />
+    </asset>
+    <asset type="FRAME_R" path="frm_comm_tooltip_05.png">
+      <tex x="14" y="4" />
+      <rect l="0" t="12" r="14" b="24" />
+    </asset>
+    <Visible val="True" />
+    <Anchor val="None" />
+    <pos x="412" y="365" />
+    <rect l="0" t="0" r="262" b="50" />
+    <Dragable val="False" />
+    <StartPosition val="None" />
+    <EscKeyAction val="None" />
+    <child type="TEXTAREA" name="ta_comm_tooltip" subclass="">
+      <asset type="BG" path="">
+        <tex x="0" y="0" />
+        <rect l="8" t="8" r="224" b="8" />
+      </asset>
+      <asset type="EDGE_LT" path="">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_RT" path="">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_LB" path="">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_RB" path="">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="FRAME_T" path="">
+        <tex x="0" y="0" />
+        <rect l="8" t="0" r="224" b="8" />
+      </asset>
+      <asset type="FRAME_B" path="">
+        <tex x="0" y="0" />
+        <rect l="8" t="0" r="224" b="8" />
+      </asset>
+      <asset type="FRAME_L" path="">
+        <tex x="0" y="0" />
+        <rect l="0" t="8" r="8" b="8" />
+      </asset>
+      <asset type="FRAME_R" path="">
+        <tex x="0" y="0" />
+        <rect l="0" t="8" r="8" b="8" />
+      </asset>
+      <asset type="CARET" path="">
+        <rpos x="0" y="0" />
+        <rect l="0" t="0" r="0" b="0" />
+      </asset>
+      <pos x="10" y="11" />
+      <rect l="0" t="0" r="240" b="24" />
+      <Visible val="True" />
+      <Anchor val="Top, Bottom, Left, Right" />
+      <Editable val="False" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#030200" />
+      <SelectionBrush val="#FF0000" />
+      <color val="#FFFFFF" />
+      <FontName val="나눔고딕" />
+      <halign val="0" />
+      <padding l="3" t="3" r="3" b="3" />
+      <FontName val="나눔고딕" />
+      <FontSize val="13" />
+    </child>
+  </base>
+</refresh>

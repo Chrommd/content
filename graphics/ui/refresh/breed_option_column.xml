@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="breed_option_column_Animation.xml" />
+  </properties>
+  <base type="WND" subclass="" name="Wnd">
+    <Visible val="True" />
+    <Anchor val="Top, Left" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="107" b="104" />
+    <IsHitTestVisible val="True" />
+    <child type="PICTURE" name="breed_btn_slot_n" subclass="">
+      <asset type="STATIC">breed_btn_slot_n.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="107" b="104" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="False" />
+    </child>
+    <child type="PICTURE" name="breed_btn_slot_d" subclass="">
+      <asset type="STATIC">breed_btn_slot_d.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="107" b="104" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="False" />
+    </child>
+    <child type="LABEL" name="tx_horseopt_name" subclass="">
+      <label val="" />
+      <pos x="2" y="84" />
+      <rect l="0" t="0" r="102" b="19" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#FF0000" />
+      <color val="#322920" />
+      <halign val="1" />
+      <valign val="1" />
+      <FontName val="나눔고딕" />
+      <FontSize val="13" />
+      <TextTrimming val="None" />
+      <FontName val="나눔고딕" />
+      <IsHitTestVisible val="False" />
+    </child>
+    <child type="PICTURE" name="icon_horseoption" subclass="">
+      <asset type="STATIC">
+      </asset>
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <pos x="2" y="2" />
+      <rect l="0" t="0" r="102" b="83" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="False" />
+    </child>
+    <child type="PICTURE" name="breed_btn_slot_o" subclass="">
+      <asset type="STATIC">breed_btn_slot_o.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="107" b="104" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="False" />
+    </child>
+    <child type="PICTURE" name="icon_rarelevel" subclass="">
+      <asset type="STATIC">course_level_1.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="5" y="67" />
+      <rect l="0" t="0" r="68" b="15" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="False" />
+    </child>
+  </base>
+</refresh>

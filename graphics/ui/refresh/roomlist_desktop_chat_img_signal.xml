@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="chat_img_signal_Default">
+    <asset type="IMAGE" name="asset_chat_img_signal1" path="">
+      <rect l="0" t="0" r="5" b="5" />
+    </asset>
+    <object name="chat_img_signal1" ani="ani_chat_img_signal1">
+      <asset type="IMAGE" link="asset_chat_img_signal1" />
+    </object>
+    <param type="RES" x="24" y="32" />
+    <param type="LOOP" cnt="-1" pendulum="0" />
+    <anim name="ani_chat_img_signal1">
+      <frame cnt="0">
+        <posx val="0.5" />
+        <posy val="0.46875" />
+        <scalex val="4.8" />
+        <scaley val="6.4" />
+        <alpha val="0.5" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="100">
+        <posx val="0.5" />
+        <posy val="0.46875" />
+        <scalex val="4.8" />
+        <scaley val="6.4" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="267">
+        <posx val="0.5" />
+        <posy val="0.46875" />
+        <scalex val="4.8" />
+        <scaley val="6.4" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="367">
+        <posx val="0.5" />
+        <posy val="0.46875" />
+        <scalex val="4.8" />
+        <scaley val="6.4" />
+        <alpha val="0.5" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

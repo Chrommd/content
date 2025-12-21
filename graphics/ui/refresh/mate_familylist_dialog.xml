@@ -1,0 +1,1607 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+  </properties>
+  <base type="WNDEX" subclass="" name="wndex_mate_family">
+    <asset type="BG" path="frm_std_CenterMiddle.png" tileMode="Stretch">
+      <tex x="4" y="4" />
+      <rect l="164" t="68" r="291" b="365" />
+    </asset>
+    <asset type="EDGE_LT" path="frm_std_LeftTop.png" tileMode="Stretch">
+      <tex x="164" y="68" />
+      <rect l="0" t="0" r="164" b="68" />
+    </asset>
+    <asset type="EDGE_RT" path="frm_std_RightTop.png" tileMode="Stretch">
+      <tex x="164" y="68" />
+      <rect l="0" t="0" r="164" b="68" />
+    </asset>
+    <asset type="EDGE_LB" path="frm_std_LeftBottom.png" tileMode="Stretch">
+      <tex x="164" y="30" />
+      <rect l="0" t="0" r="164" b="30" />
+    </asset>
+    <asset type="EDGE_RB" path="frm_std_RightBottom.png" tileMode="Stretch">
+      <tex x="164" y="30" />
+      <rect l="0" t="0" r="164" b="30" />
+    </asset>
+    <asset type="FRAME_T" path="frm_std_CenterTop.png" tileMode="Tile">
+      <tex x="4" y="68" />
+      <rect l="164" t="0" r="291" b="68" />
+    </asset>
+    <asset type="FRAME_B" path="frm_std_CenterBottom.png" tileMode="Tile">
+      <tex x="4" y="30" />
+      <rect l="164" t="0" r="291" b="30" />
+    </asset>
+    <asset type="FRAME_L" path="frm_std_LeftMiddle.png" tileMode="Stretch">
+      <tex x="164" y="4" />
+      <rect l="0" t="68" r="164" b="365" />
+    </asset>
+    <asset type="FRAME_R" path="frm_std_RightMiddle.png" tileMode="Tile">
+      <tex x="164" y="4" />
+      <rect l="0" t="68" r="164" b="365" />
+    </asset>
+    <Visible val="True" />
+    <Anchor val="Top, Left" />
+    <pos x="352" y="245" />
+    <rect l="0" t="0" r="619" b="463" />
+    <Dragable val="False" />
+    <StartPosition val="CenterScreen" />
+    <EscKeyAction val="None" />
+    <IsHitTestVisible val="True" />
+    <ClipChildren val="False" />
+    <base type="WNDEX" subclass="" name="wndex_me">
+      <asset type="BG" path="frm_std_innner_CenterMiddle.png" tileMode="Stretch">
+        <tex x="4" y="4" />
+        <rect l="7" t="7" r="549" b="172" />
+      </asset>
+      <asset type="EDGE_LT" path="frm_std_innner_LeftTop.png" tileMode="Stretch">
+        <tex x="7" y="7" />
+        <rect l="0" t="0" r="7" b="7" />
+      </asset>
+      <asset type="EDGE_RT" path="frm_std_innner_RightTop.png" tileMode="Stretch">
+        <tex x="7" y="7" />
+        <rect l="0" t="0" r="7" b="7" />
+      </asset>
+      <asset type="EDGE_LB" path="frm_std_innner_LeftBottom.png" tileMode="Stretch">
+        <tex x="7" y="7" />
+        <rect l="0" t="0" r="7" b="7" />
+      </asset>
+      <asset type="EDGE_RB" path="frm_std_innner_RightBottom.png" tileMode="Stretch">
+        <tex x="7" y="7" />
+        <rect l="0" t="0" r="7" b="7" />
+      </asset>
+      <asset type="FRAME_T" path="frm_std_innner_CenterTop.png" tileMode="Tile">
+        <tex x="4" y="7" />
+        <rect l="7" t="0" r="549" b="7" />
+      </asset>
+      <asset type="FRAME_B" path="frm_std_innner_CenterBottom.png" tileMode="Tile">
+        <tex x="4" y="7" />
+        <rect l="7" t="0" r="549" b="7" />
+      </asset>
+      <asset type="FRAME_L" path="frm_std_innner_LeftMiddle.png" tileMode="Stretch">
+        <tex x="7" y="4" />
+        <rect l="0" t="7" r="7" b="172" />
+      </asset>
+      <asset type="FRAME_R" path="frm_std_innner_RightMiddle.png" tileMode="Tile">
+        <tex x="7" y="4" />
+        <rect l="0" t="7" r="7" b="172" />
+      </asset>
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <pos x="28" y="62" />
+      <rect l="0" t="0" r="563" b="186" />
+      <Dragable val="False" />
+      <StartPosition val="None" />
+      <EscKeyAction val="None" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <base type="WNDEX" subclass="" name="wndex_me_1">
+        <asset type="BG" path="frm_subtitle_CenterMiddle.png" tileMode="Stretch">
+          <tex x="4" y="4" />
+          <rect l="5" t="5" r="164" b="156" />
+        </asset>
+        <asset type="EDGE_LT" path="frm_subtitle_LeftTop.png" tileMode="Stretch">
+          <tex x="5" y="5" />
+          <rect l="0" t="0" r="5" b="5" />
+        </asset>
+        <asset type="EDGE_RT" path="frm_subtitle_RightTop.png" tileMode="Stretch">
+          <tex x="5" y="5" />
+          <rect l="0" t="0" r="5" b="5" />
+        </asset>
+        <asset type="EDGE_LB" path="frm_subtitle_LeftBottom.png" tileMode="Stretch">
+          <tex x="5" y="5" />
+          <rect l="0" t="0" r="5" b="5" />
+        </asset>
+        <asset type="EDGE_RB" path="frm_subtitle_RightBottom.png" tileMode="Stretch">
+          <tex x="5" y="5" />
+          <rect l="0" t="0" r="5" b="5" />
+        </asset>
+        <asset type="FRAME_T" path="frm_subtitle_CenterTop.png" tileMode="Tile">
+          <tex x="4" y="5" />
+          <rect l="5" t="0" r="164" b="5" />
+        </asset>
+        <asset type="FRAME_B" path="frm_subtitle_CenterBottom.png" tileMode="Tile">
+          <tex x="4" y="5" />
+          <rect l="5" t="0" r="164" b="5" />
+        </asset>
+        <asset type="FRAME_L" path="frm_subtitle_LeftMiddle.png" tileMode="Stretch">
+          <tex x="5" y="4" />
+          <rect l="0" t="5" r="5" b="156" />
+        </asset>
+        <asset type="FRAME_R" path="frm_subtitle_RightMiddle.png" tileMode="Tile">
+          <tex x="5" y="4" />
+          <rect l="0" t="5" r="5" b="156" />
+        </asset>
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <pos x="11" y="11" />
+        <rect l="0" t="0" r="174" b="166" />
+        <Dragable val="False" />
+        <StartPosition val="None" />
+        <EscKeyAction val="None" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <child type="PICTURE" name="img_icon_skin_horse1" subclass="">
+          <asset type="STATIC">
+          </asset>
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <pos x="47" y="64" />
+          <rect l="0" t="0" r="77" b="63" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="img_horseinfo_family_blood_highlight_1" subclass="">
+          <asset type="STATIC">img_horseinfo_family_blood_highlight.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="47" y="64" />
+          <rect l="0" t="0" r="77" b="63" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+          <child type="LABEL" name="lb_horseinfo_family_blood_point_1" subclass="">
+            <label val="+1" />
+            <pos x="32" y="30" />
+            <rect l="0" t="0" r="37" b="26" />
+            <Visible val="True" />
+            <Anchor val="Top, Left" />
+            <OutlineColor val="#FFFFFF" />
+            <ShadowColor val="#0000004C" />
+            <color val="#FFFFFFFF" />
+            <halign val="2" />
+            <valign val="2" />
+            <FontName val="나눔고딕" />
+            <FontSize val="16" />
+            <TextTrimming val="None" />
+            <style val="1" />
+            <IsHitTestVisible val="False" />
+            <ClipChildren val="False" />
+            <Padding val="0, 0, 0, 0" />
+          </child>
+        </child>
+        <child type="PICTURE" name="img_common_line_horizon" subclass="">
+          <asset type="STATIC">img_common_line_horizon.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="15" y="42" />
+          <rect l="0" t="0" r="138" b="4" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="LABEL" name="Label1" subclass="">
+          <label val="씨암마 가계도" />
+          <pos x="10" y="18" />
+          <rect l="0" t="0" r="110" b="19" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FFFFFF" />
+          <ShadowColor val="#0000004C" />
+          <color val="#796456FF" />
+          <halign val="0" />
+          <valign val="0" />
+          <FontName val="나눔고딕" />
+          <FontSize val="13" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+        <child type="LABEL" name="mate_family_my_sum_number" subclass="">
+          <label val="+99" />
+          <pos x="90" y="6" />
+          <rect l="0" t="0" r="72" b="35" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FFFFFF" />
+          <ShadowColor val="#0000004C" />
+          <color val="#392518FF" />
+          <halign val="2" />
+          <valign val="1" />
+          <FontName val="나눔고딕" />
+          <FontSize val="25" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+        <child type="LABEL" name="tx_name_horse1" subclass="">
+          <label val="말이름들어가요" />
+          <pos x="1" y="130" />
+          <rect l="0" t="0" r="170" b="22" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FFFFFF" />
+          <ShadowColor val="#0000004C" />
+          <color val="#392518FF" />
+          <halign val="1" />
+          <valign val="1" />
+          <FontName val="나눔고딕" />
+          <FontSize val="16" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+      </base>
+      <child type="PICTURE" name="img_horseinfo_family_line_parents" subclass="">
+        <asset type="STATIC">img_mate_parentsline.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="155" y="49" />
+        <rect l="0" t="0" r="40" b="88" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="PANEL" name="Panel_grow_horse_2" subclass="">
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <embed src="" />
+        <pos x="196" y="34" />
+        <rect l="0" t="0" r="172" b="42" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <child type="PICTURE" name="img_horseinfo_family_grandparents_2" subclass="">
+          <asset type="STATIC">img_mate_parents_slot.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="0" y="0" />
+          <rect l="0" t="0" r="172" b="42" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="img_icon_skin_horse2" subclass="">
+          <asset type="STATIC">
+          </asset>
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <pos x="5" y="5" />
+          <rect l="0" t="0" r="35" b="29" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="img_horseinfo_family_blood_highlight_2" subclass="">
+          <asset type="STATIC">img_horseinfo_family_blood_highlight_small.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="2" y="2" />
+          <rect l="0" t="0" r="41" b="35" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+          <child type="LABEL" name="lb_horseinfo_family_blood_point_2" subclass="">
+            <label val="+1" />
+            <pos x="6" y="10" />
+            <rect l="0" t="0" r="27" b="18" />
+            <Visible val="True" />
+            <Anchor val="Top, Left" />
+            <OutlineColor val="#FFFFFF" />
+            <ShadowColor val="#0000004C" />
+            <color val="#FFFFFFFF" />
+            <halign val="2" />
+            <valign val="2" />
+            <FontName val="나눔고딕" />
+            <FontSize val="13" />
+            <TextTrimming val="None" />
+            <style val="1" />
+            <IsHitTestVisible val="False" />
+            <ClipChildren val="False" />
+            <Padding val="0, 0, 0, 0" />
+          </child>
+        </child>
+        <child type="PICTURE" name="icon_horseinfo_family_father_2" subclass="">
+          <asset type="STATIC">icon_horseinfo_family_father.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="143" y="0" />
+          <rect l="0" t="0" r="28" b="28" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="LABEL" name="tx_name_horse2" subclass="">
+          <label val="말이름들어가요" />
+          <pos x="44" y="11" />
+          <rect l="0" t="0" r="125" b="20" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FFFFFF" />
+          <ShadowColor val="#0000004C" />
+          <color val="#50433CFF" />
+          <halign val="0" />
+          <valign val="0" />
+          <FontName val="나눔고딕" />
+          <FontSize val="13" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+      </child>
+      <child type="PANEL" name="Panel_grow_horse_3" subclass="">
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <embed src="" />
+        <pos x="196" y="113" />
+        <rect l="0" t="0" r="172" b="42" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <child type="PICTURE" name="img_horseinfo_family_grandparents_3" subclass="">
+          <asset type="STATIC">img_mate_parents_slot.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="0" y="0" />
+          <rect l="0" t="0" r="172" b="42" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="img_icon_skin_horse3" subclass="">
+          <asset type="STATIC">
+          </asset>
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <pos x="5" y="5" />
+          <rect l="0" t="0" r="35" b="29" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="img_horseinfo_family_blood_highlight_3" subclass="">
+          <asset type="STATIC">img_horseinfo_family_blood_highlight_small.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="2" y="2" />
+          <rect l="0" t="0" r="41" b="35" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+          <child type="LABEL" name="lb_horseinfo_family_blood_point_3" subclass="">
+            <label val="+1" />
+            <pos x="6" y="10" />
+            <rect l="0" t="0" r="27" b="18" />
+            <Visible val="True" />
+            <Anchor val="Top, Left" />
+            <OutlineColor val="#FFFFFF" />
+            <ShadowColor val="#0000004C" />
+            <color val="#FFFFFFFF" />
+            <halign val="2" />
+            <valign val="2" />
+            <FontName val="나눔고딕" />
+            <FontSize val="13" />
+            <TextTrimming val="None" />
+            <style val="1" />
+            <IsHitTestVisible val="False" />
+            <ClipChildren val="False" />
+            <Padding val="0, 0, 0, 0" />
+          </child>
+        </child>
+        <child type="PICTURE" name="icon_horseinfo_family_father_3" subclass="">
+          <asset type="STATIC">icon_horseinfo_family_mother.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="143" y="0" />
+          <rect l="0" t="0" r="28" b="28" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="LABEL" name="tx_name_horse3" subclass="">
+          <label val="말이름들어가요" />
+          <pos x="44" y="11" />
+          <rect l="0" t="0" r="125" b="20" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FFFFFF" />
+          <ShadowColor val="#0000004C" />
+          <color val="#50433CFF" />
+          <halign val="0" />
+          <valign val="0" />
+          <FontName val="나눔고딕" />
+          <FontSize val="13" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+      </child>
+      <child type="PICTURE" name="img_horseinfo_family_line_grandparents1" subclass="">
+        <asset type="STATIC">img_mate_grandparentsline.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="359" y="108" />
+        <rect l="0" t="0" r="22" b="54" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="PICTURE" name="img_horseinfo_family_line_grandparents" subclass="">
+        <asset type="STATIC">img_mate_grandparentsline.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="359" y="27" />
+        <rect l="0" t="0" r="22" b="54" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="PANEL" name="Panel_grow_horse_4" subclass="">
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <embed src="" />
+        <pos x="381" y="8" />
+        <rect l="0" t="0" r="172" b="42" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <child type="PICTURE" name="img_horseinfo_family_grandparents_4" subclass="">
+          <asset type="STATIC">img_mate_grandparents_slot.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="0" y="0" />
+          <rect l="0" t="0" r="172" b="42" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="img_icon_skin_horse4" subclass="">
+          <asset type="STATIC">
+          </asset>
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <pos x="5" y="5" />
+          <rect l="0" t="0" r="35" b="29" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="img_horseinfo_family_blood_highlight_4" subclass="">
+          <asset type="STATIC">img_horseinfo_family_blood_highlight_small.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="2" y="2" />
+          <rect l="0" t="0" r="41" b="35" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+          <child type="LABEL" name="lb_horseinfo_family_blood_point_4" subclass="">
+            <label val="+1" />
+            <pos x="6" y="10" />
+            <rect l="0" t="0" r="27" b="18" />
+            <Visible val="True" />
+            <Anchor val="Top, Left" />
+            <OutlineColor val="#FFFFFF" />
+            <ShadowColor val="#0000004C" />
+            <color val="#FFFFFFFF" />
+            <halign val="2" />
+            <valign val="2" />
+            <FontName val="나눔고딕" />
+            <FontSize val="13" />
+            <TextTrimming val="None" />
+            <style val="1" />
+            <IsHitTestVisible val="False" />
+            <ClipChildren val="False" />
+            <Padding val="0, 0, 0, 0" />
+          </child>
+        </child>
+        <child type="PICTURE" name="icon_horseinfo_family_father_4" subclass="">
+          <asset type="STATIC">icon_horseinfo_family_father.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="143" y="0" />
+          <rect l="0" t="0" r="28" b="28" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="LABEL" name="tx_name_horse4" subclass="">
+          <label val="말이름들어가요" />
+          <pos x="44" y="11" />
+          <rect l="0" t="0" r="125" b="20" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FFFFFF" />
+          <ShadowColor val="#0000004C" />
+          <color val="#50433CFF" />
+          <halign val="0" />
+          <valign val="0" />
+          <FontName val="나눔고딕" />
+          <FontSize val="13" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+      </child>
+      <child type="PANEL" name="Panel_grow_horse_5" subclass="">
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <embed src="" />
+        <pos x="381" y="51" />
+        <rect l="0" t="0" r="172" b="42" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <child type="PICTURE" name="img_horseinfo_family_grandparents_5" subclass="">
+          <asset type="STATIC">img_mate_grandparents_slot.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="0" y="0" />
+          <rect l="0" t="0" r="172" b="42" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="img_icon_skin_horse5" subclass="">
+          <asset type="STATIC">
+          </asset>
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <pos x="5" y="5" />
+          <rect l="0" t="0" r="35" b="29" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="img_horseinfo_family_blood_highlight_5" subclass="">
+          <asset type="STATIC">img_horseinfo_family_blood_highlight_small.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="2" y="2" />
+          <rect l="0" t="0" r="41" b="35" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+          <child type="LABEL" name="lb_horseinfo_family_blood_point_5" subclass="">
+            <label val="+1" />
+            <pos x="6" y="10" />
+            <rect l="0" t="0" r="27" b="18" />
+            <Visible val="True" />
+            <Anchor val="Top, Left" />
+            <OutlineColor val="#FFFFFF" />
+            <ShadowColor val="#0000004C" />
+            <color val="#FFFFFFFF" />
+            <halign val="2" />
+            <valign val="2" />
+            <FontName val="나눔고딕" />
+            <FontSize val="13" />
+            <TextTrimming val="None" />
+            <style val="1" />
+            <IsHitTestVisible val="False" />
+            <ClipChildren val="False" />
+            <Padding val="0, 0, 0, 0" />
+          </child>
+        </child>
+        <child type="PICTURE" name="icon_horseinfo_family_father_5" subclass="">
+          <asset type="STATIC">icon_horseinfo_family_mother.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="143" y="0" />
+          <rect l="0" t="0" r="28" b="28" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="LABEL" name="tx_name_horse5" subclass="">
+          <label val="말이름들어가요" />
+          <pos x="44" y="11" />
+          <rect l="0" t="0" r="125" b="20" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FFFFFF" />
+          <ShadowColor val="#0000004C" />
+          <color val="#50433CFF" />
+          <halign val="0" />
+          <valign val="0" />
+          <FontName val="나눔고딕" />
+          <FontSize val="13" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+      </child>
+      <child type="PANEL" name="Panel_grow_horse_6" subclass="">
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <embed src="" />
+        <pos x="381" y="94" />
+        <rect l="0" t="0" r="172" b="42" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <child type="PICTURE" name="img_horseinfo_family_grandparents_6" subclass="">
+          <asset type="STATIC">img_mate_grandparents_slot.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="0" y="0" />
+          <rect l="0" t="0" r="172" b="42" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="img_icon_skin_horse6" subclass="">
+          <asset type="STATIC">
+          </asset>
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <pos x="5" y="5" />
+          <rect l="0" t="0" r="35" b="29" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="img_horseinfo_family_blood_highlight_6" subclass="">
+          <asset type="STATIC">img_horseinfo_family_blood_highlight_small.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="2" y="2" />
+          <rect l="0" t="0" r="41" b="35" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+          <child type="LABEL" name="lb_horseinfo_family_blood_point_6" subclass="">
+            <label val="+1" />
+            <pos x="6" y="10" />
+            <rect l="0" t="0" r="27" b="18" />
+            <Visible val="True" />
+            <Anchor val="Top, Left" />
+            <OutlineColor val="#FFFFFF" />
+            <ShadowColor val="#0000004C" />
+            <color val="#FFFFFFFF" />
+            <halign val="2" />
+            <valign val="2" />
+            <FontName val="나눔고딕" />
+            <FontSize val="13" />
+            <TextTrimming val="None" />
+            <style val="1" />
+            <IsHitTestVisible val="False" />
+            <ClipChildren val="False" />
+            <Padding val="0, 0, 0, 0" />
+          </child>
+        </child>
+        <child type="PICTURE" name="icon_horseinfo_family_father_6" subclass="">
+          <asset type="STATIC">icon_horseinfo_family_father.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="143" y="0" />
+          <rect l="0" t="0" r="28" b="28" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="LABEL" name="tx_name_horse6" subclass="">
+          <label val="말이름들어가요" />
+          <pos x="44" y="11" />
+          <rect l="0" t="0" r="125" b="20" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FFFFFF" />
+          <ShadowColor val="#0000004C" />
+          <color val="#50433CFF" />
+          <halign val="0" />
+          <valign val="0" />
+          <FontName val="나눔고딕" />
+          <FontSize val="13" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+      </child>
+      <child type="PANEL" name="Panel_grow_horse_7" subclass="">
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <embed src="" />
+        <pos x="381" y="137" />
+        <rect l="0" t="0" r="172" b="42" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <child type="PICTURE" name="img_horseinfo_family_grandparents_7" subclass="">
+          <asset type="STATIC">img_mate_grandparents_slot.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="0" y="0" />
+          <rect l="0" t="0" r="172" b="42" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="img_icon_skin_horse7" subclass="">
+          <asset type="STATIC">
+          </asset>
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <pos x="5" y="5" />
+          <rect l="0" t="0" r="35" b="29" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="img_horseinfo_family_blood_highlight_7" subclass="">
+          <asset type="STATIC">img_horseinfo_family_blood_highlight_small.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="2" y="2" />
+          <rect l="0" t="0" r="41" b="35" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+          <child type="LABEL" name="lb_horseinfo_family_blood_point_7" subclass="">
+            <label val="+1" />
+            <pos x="6" y="10" />
+            <rect l="0" t="0" r="27" b="18" />
+            <Visible val="True" />
+            <Anchor val="Top, Left" />
+            <OutlineColor val="#FFFFFF" />
+            <ShadowColor val="#0000004C" />
+            <color val="#FFFFFFFF" />
+            <halign val="2" />
+            <valign val="2" />
+            <FontName val="나눔고딕" />
+            <FontSize val="13" />
+            <TextTrimming val="None" />
+            <style val="1" />
+            <IsHitTestVisible val="False" />
+            <ClipChildren val="False" />
+            <Padding val="0, 0, 0, 0" />
+          </child>
+        </child>
+        <child type="PICTURE" name="icon_horseinfo_family_father_7" subclass="">
+          <asset type="STATIC">icon_horseinfo_family_mother.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="143" y="0" />
+          <rect l="0" t="0" r="28" b="28" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="LABEL" name="tx_name_horse7" subclass="">
+          <label val="말이름들어가요" />
+          <pos x="44" y="11" />
+          <rect l="0" t="0" r="125" b="20" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FFFFFF" />
+          <ShadowColor val="#0000004C" />
+          <color val="#50433CFF" />
+          <halign val="0" />
+          <valign val="0" />
+          <FontName val="나눔고딕" />
+          <FontSize val="13" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+      </child>
+    </base>
+    <base type="WNDEX" subclass="" name="wndex_you">
+      <asset type="BG" path="frm_std_innner_CenterMiddle.png" tileMode="Stretch">
+        <tex x="4" y="4" />
+        <rect l="7" t="7" r="549" b="172" />
+      </asset>
+      <asset type="EDGE_LT" path="frm_std_innner_LeftTop.png" tileMode="Stretch">
+        <tex x="7" y="7" />
+        <rect l="0" t="0" r="7" b="7" />
+      </asset>
+      <asset type="EDGE_RT" path="frm_std_innner_RightTop.png" tileMode="Stretch">
+        <tex x="7" y="7" />
+        <rect l="0" t="0" r="7" b="7" />
+      </asset>
+      <asset type="EDGE_LB" path="frm_std_innner_LeftBottom.png" tileMode="Stretch">
+        <tex x="7" y="7" />
+        <rect l="0" t="0" r="7" b="7" />
+      </asset>
+      <asset type="EDGE_RB" path="frm_std_innner_RightBottom.png" tileMode="Stretch">
+        <tex x="7" y="7" />
+        <rect l="0" t="0" r="7" b="7" />
+      </asset>
+      <asset type="FRAME_T" path="frm_std_innner_CenterTop.png" tileMode="Tile">
+        <tex x="4" y="7" />
+        <rect l="7" t="0" r="549" b="7" />
+      </asset>
+      <asset type="FRAME_B" path="frm_std_innner_CenterBottom.png" tileMode="Tile">
+        <tex x="4" y="7" />
+        <rect l="7" t="0" r="549" b="7" />
+      </asset>
+      <asset type="FRAME_L" path="frm_std_innner_LeftMiddle.png" tileMode="Stretch">
+        <tex x="7" y="4" />
+        <rect l="0" t="7" r="7" b="172" />
+      </asset>
+      <asset type="FRAME_R" path="frm_std_innner_RightMiddle.png" tileMode="Tile">
+        <tex x="7" y="4" />
+        <rect l="0" t="7" r="7" b="172" />
+      </asset>
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <pos x="28" y="249" />
+      <rect l="0" t="0" r="563" b="186" />
+      <Dragable val="False" />
+      <StartPosition val="None" />
+      <EscKeyAction val="None" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <base type="WNDEX" subclass="" name="wndex_you_1">
+        <asset type="BG" path="frm_subtitle_CenterMiddle.png" tileMode="Stretch">
+          <tex x="4" y="4" />
+          <rect l="5" t="5" r="164" b="156" />
+        </asset>
+        <asset type="EDGE_LT" path="frm_subtitle_LeftTop.png" tileMode="Stretch">
+          <tex x="5" y="5" />
+          <rect l="0" t="0" r="5" b="5" />
+        </asset>
+        <asset type="EDGE_RT" path="frm_subtitle_RightTop.png" tileMode="Stretch">
+          <tex x="5" y="5" />
+          <rect l="0" t="0" r="5" b="5" />
+        </asset>
+        <asset type="EDGE_LB" path="frm_subtitle_LeftBottom.png" tileMode="Stretch">
+          <tex x="5" y="5" />
+          <rect l="0" t="0" r="5" b="5" />
+        </asset>
+        <asset type="EDGE_RB" path="frm_subtitle_RightBottom.png" tileMode="Stretch">
+          <tex x="5" y="5" />
+          <rect l="0" t="0" r="5" b="5" />
+        </asset>
+        <asset type="FRAME_T" path="frm_subtitle_CenterTop.png" tileMode="Tile">
+          <tex x="4" y="5" />
+          <rect l="5" t="0" r="164" b="5" />
+        </asset>
+        <asset type="FRAME_B" path="frm_subtitle_CenterBottom.png" tileMode="Tile">
+          <tex x="4" y="5" />
+          <rect l="5" t="0" r="164" b="5" />
+        </asset>
+        <asset type="FRAME_L" path="frm_subtitle_LeftMiddle.png" tileMode="Stretch">
+          <tex x="5" y="4" />
+          <rect l="0" t="5" r="5" b="156" />
+        </asset>
+        <asset type="FRAME_R" path="frm_subtitle_RightMiddle.png" tileMode="Tile">
+          <tex x="5" y="4" />
+          <rect l="0" t="5" r="5" b="156" />
+        </asset>
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <pos x="11" y="11" />
+        <rect l="0" t="0" r="174" b="166" />
+        <Dragable val="False" />
+        <StartPosition val="None" />
+        <EscKeyAction val="None" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <child type="PICTURE" name="img_icon_skin_horse8" subclass="">
+          <asset type="STATIC">
+          </asset>
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <pos x="47" y="64" />
+          <rect l="0" t="0" r="77" b="63" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="img_horseinfo_family_blood_highlight_8" subclass="">
+          <asset type="STATIC">img_horseinfo_family_blood_highlight.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="47" y="64" />
+          <rect l="0" t="0" r="77" b="63" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+          <child type="LABEL" name="lb_horseinfo_family_blood_point_8" subclass="">
+            <label val="+1" />
+            <pos x="32" y="30" />
+            <rect l="0" t="0" r="37" b="26" />
+            <Visible val="True" />
+            <Anchor val="Top, Left" />
+            <OutlineColor val="#FFFFFF" />
+            <ShadowColor val="#0000004C" />
+            <color val="#FFFFFFFF" />
+            <halign val="2" />
+            <valign val="2" />
+            <FontName val="나눔고딕" />
+            <FontSize val="16" />
+            <TextTrimming val="None" />
+            <style val="1" />
+            <IsHitTestVisible val="False" />
+            <ClipChildren val="False" />
+            <Padding val="0, 0, 0, 0" />
+          </child>
+        </child>
+        <child type="PICTURE" name="img_common_line_horizon8" subclass="">
+          <asset type="STATIC">img_common_line_horizon.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="15" y="42" />
+          <rect l="0" t="0" r="138" b="4" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="LABEL" name="Label2" subclass="">
+          <label val="씨수마 가계도" />
+          <pos x="10" y="18" />
+          <rect l="0" t="0" r="110" b="19" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FFFFFF" />
+          <ShadowColor val="#0000004C" />
+          <color val="#796456FF" />
+          <halign val="0" />
+          <valign val="0" />
+          <FontName val="나눔고딕" />
+          <FontSize val="13" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+        <child type="LABEL" name="mate_family_my_sum_number8" subclass="">
+          <label val="+99" />
+          <pos x="90" y="6" />
+          <rect l="0" t="0" r="72" b="35" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FFFFFF" />
+          <ShadowColor val="#0000004C" />
+          <color val="#392518FF" />
+          <halign val="2" />
+          <valign val="1" />
+          <FontName val="나눔고딕" />
+          <FontSize val="25" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+        <child type="LABEL" name="tx_name_horse8" subclass="">
+          <label val="말이름들어가요" />
+          <pos x="1" y="130" />
+          <rect l="0" t="0" r="170" b="22" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FFFFFF" />
+          <ShadowColor val="#0000004C" />
+          <color val="#392518FF" />
+          <halign val="1" />
+          <valign val="1" />
+          <FontName val="나눔고딕" />
+          <FontSize val="16" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+      </base>
+      <child type="PICTURE" name="img_horseinfo_family_line_parents1" subclass="">
+        <asset type="STATIC">img_mate_parentsline.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="155" y="49" />
+        <rect l="0" t="0" r="40" b="88" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="PANEL" name="Panel_grow_horse_9" subclass="">
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <embed src="" />
+        <pos x="196" y="34" />
+        <rect l="0" t="0" r="172" b="42" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <child type="PICTURE" name="img_horseinfo_family_grandparents_9" subclass="">
+          <asset type="STATIC">img_mate_parents_slot.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="0" y="0" />
+          <rect l="0" t="0" r="172" b="42" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="img_icon_skin_horse9" subclass="">
+          <asset type="STATIC">
+          </asset>
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <pos x="5" y="5" />
+          <rect l="0" t="0" r="35" b="29" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="img_horseinfo_family_blood_highlight_9" subclass="">
+          <asset type="STATIC">img_horseinfo_family_blood_highlight_small.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="2" y="2" />
+          <rect l="0" t="0" r="41" b="35" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+          <child type="LABEL" name="lb_horseinfo_family_blood_point_9" subclass="">
+            <label val="+1" />
+            <pos x="6" y="10" />
+            <rect l="0" t="0" r="27" b="18" />
+            <Visible val="True" />
+            <Anchor val="Top, Left" />
+            <OutlineColor val="#FFFFFF" />
+            <ShadowColor val="#0000004C" />
+            <color val="#FFFFFFFF" />
+            <halign val="2" />
+            <valign val="2" />
+            <FontName val="나눔고딕" />
+            <FontSize val="13" />
+            <TextTrimming val="None" />
+            <style val="1" />
+            <IsHitTestVisible val="False" />
+            <ClipChildren val="False" />
+            <Padding val="0, 0, 0, 0" />
+          </child>
+        </child>
+        <child type="PICTURE" name="icon_horseinfo_family_father_9" subclass="">
+          <asset type="STATIC">icon_horseinfo_family_father.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="143" y="0" />
+          <rect l="0" t="0" r="28" b="28" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="LABEL" name="tx_name_horse9" subclass="">
+          <label val="말이름들어가요" />
+          <pos x="44" y="11" />
+          <rect l="0" t="0" r="125" b="20" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FFFFFF" />
+          <ShadowColor val="#0000004C" />
+          <color val="#50433CFF" />
+          <halign val="0" />
+          <valign val="0" />
+          <FontName val="나눔고딕" />
+          <FontSize val="13" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+      </child>
+      <child type="PANEL" name="Panel_grow_horse_10" subclass="">
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <embed src="" />
+        <pos x="196" y="113" />
+        <rect l="0" t="0" r="172" b="42" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <child type="PICTURE" name="img_horseinfo_family_grandparents_10" subclass="">
+          <asset type="STATIC">img_mate_parents_slot.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="0" y="0" />
+          <rect l="0" t="0" r="172" b="42" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="img_icon_skin_horse10" subclass="">
+          <asset type="STATIC">
+          </asset>
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <pos x="5" y="5" />
+          <rect l="0" t="0" r="35" b="29" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="img_horseinfo_family_blood_highlight_10" subclass="">
+          <asset type="STATIC">img_horseinfo_family_blood_highlight_small.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="2" y="2" />
+          <rect l="0" t="0" r="41" b="35" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+          <child type="LABEL" name="lb_horseinfo_family_blood_point_10" subclass="">
+            <label val="+1" />
+            <pos x="6" y="10" />
+            <rect l="0" t="0" r="27" b="18" />
+            <Visible val="True" />
+            <Anchor val="Top, Left" />
+            <OutlineColor val="#FFFFFF" />
+            <ShadowColor val="#0000004C" />
+            <color val="#FFFFFFFF" />
+            <halign val="2" />
+            <valign val="2" />
+            <FontName val="나눔고딕" />
+            <FontSize val="13" />
+            <TextTrimming val="None" />
+            <style val="1" />
+            <IsHitTestVisible val="False" />
+            <ClipChildren val="False" />
+            <Padding val="0, 0, 0, 0" />
+          </child>
+        </child>
+        <child type="PICTURE" name="icon_horseinfo_family_father_10" subclass="">
+          <asset type="STATIC">icon_horseinfo_family_mother.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="143" y="0" />
+          <rect l="0" t="0" r="28" b="28" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="LABEL" name="tx_name_horse10" subclass="">
+          <label val="말이름들어가요" />
+          <pos x="44" y="11" />
+          <rect l="0" t="0" r="125" b="20" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FFFFFF" />
+          <ShadowColor val="#0000004C" />
+          <color val="#50433CFF" />
+          <halign val="0" />
+          <valign val="0" />
+          <FontName val="나눔고딕" />
+          <FontSize val="13" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+      </child>
+      <child type="PICTURE" name="img_horseinfo_family_line_grandparents3" subclass="">
+        <asset type="STATIC">img_mate_grandparentsline.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="359" y="108" />
+        <rect l="0" t="0" r="22" b="54" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="PICTURE" name="img_horseinfo_family_line_grandparents2" subclass="">
+        <asset type="STATIC">img_mate_grandparentsline.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="359" y="27" />
+        <rect l="0" t="0" r="22" b="54" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="PANEL" name="Panel_grow_horse_11" subclass="">
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <embed src="" />
+        <pos x="381" y="8" />
+        <rect l="0" t="0" r="172" b="42" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <child type="PICTURE" name="img_horseinfo_family_grandparents_11" subclass="">
+          <asset type="STATIC">img_mate_grandparents_slot.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="0" y="0" />
+          <rect l="0" t="0" r="172" b="42" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="img_icon_skin_horse11" subclass="">
+          <asset type="STATIC">
+          </asset>
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <pos x="5" y="5" />
+          <rect l="0" t="0" r="35" b="29" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="img_horseinfo_family_blood_highlight_11" subclass="">
+          <asset type="STATIC">img_horseinfo_family_blood_highlight_small.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="2" y="2" />
+          <rect l="0" t="0" r="41" b="35" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+          <child type="LABEL" name="lb_horseinfo_family_blood_point_11" subclass="">
+            <label val="+1" />
+            <pos x="6" y="10" />
+            <rect l="0" t="0" r="27" b="18" />
+            <Visible val="True" />
+            <Anchor val="Top, Left" />
+            <OutlineColor val="#FFFFFF" />
+            <ShadowColor val="#0000004C" />
+            <color val="#FFFFFFFF" />
+            <halign val="2" />
+            <valign val="2" />
+            <FontName val="나눔고딕" />
+            <FontSize val="13" />
+            <TextTrimming val="None" />
+            <style val="1" />
+            <IsHitTestVisible val="False" />
+            <ClipChildren val="False" />
+            <Padding val="0, 0, 0, 0" />
+          </child>
+        </child>
+        <child type="PICTURE" name="icon_horseinfo_family_father_11" subclass="">
+          <asset type="STATIC">icon_horseinfo_family_father.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="143" y="0" />
+          <rect l="0" t="0" r="28" b="28" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="LABEL" name="tx_name_horse11" subclass="">
+          <label val="말이름들어가요" />
+          <pos x="44" y="11" />
+          <rect l="0" t="0" r="125" b="20" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FFFFFF" />
+          <ShadowColor val="#0000004C" />
+          <color val="#50433CFF" />
+          <halign val="0" />
+          <valign val="0" />
+          <FontName val="나눔고딕" />
+          <FontSize val="13" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+      </child>
+      <child type="PANEL" name="Panel_grow_horse_12" subclass="">
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <embed src="" />
+        <pos x="381" y="51" />
+        <rect l="0" t="0" r="172" b="42" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <child type="PICTURE" name="img_horseinfo_family_grandparents_12" subclass="">
+          <asset type="STATIC">img_mate_grandparents_slot.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="0" y="0" />
+          <rect l="0" t="0" r="172" b="42" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="img_icon_skin_horse12" subclass="">
+          <asset type="STATIC">
+          </asset>
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <pos x="5" y="5" />
+          <rect l="0" t="0" r="35" b="29" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="img_horseinfo_family_blood_highlight_12" subclass="">
+          <asset type="STATIC">img_horseinfo_family_blood_highlight_small.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="2" y="2" />
+          <rect l="0" t="0" r="41" b="35" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+          <child type="LABEL" name="lb_horseinfo_family_blood_point_12" subclass="">
+            <label val="+1" />
+            <pos x="6" y="10" />
+            <rect l="0" t="0" r="27" b="18" />
+            <Visible val="True" />
+            <Anchor val="Top, Left" />
+            <OutlineColor val="#FFFFFF" />
+            <ShadowColor val="#0000004C" />
+            <color val="#FFFFFFFF" />
+            <halign val="2" />
+            <valign val="2" />
+            <FontName val="나눔고딕" />
+            <FontSize val="13" />
+            <TextTrimming val="None" />
+            <style val="1" />
+            <IsHitTestVisible val="False" />
+            <ClipChildren val="False" />
+            <Padding val="0, 0, 0, 0" />
+          </child>
+        </child>
+        <child type="PICTURE" name="icon_horseinfo_family_father_12" subclass="">
+          <asset type="STATIC">icon_horseinfo_family_mother.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="143" y="0" />
+          <rect l="0" t="0" r="28" b="28" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="LABEL" name="tx_name_horse12" subclass="">
+          <label val="말이름들어가요" />
+          <pos x="44" y="11" />
+          <rect l="0" t="0" r="125" b="20" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FFFFFF" />
+          <ShadowColor val="#0000004C" />
+          <color val="#50433CFF" />
+          <halign val="0" />
+          <valign val="0" />
+          <FontName val="나눔고딕" />
+          <FontSize val="13" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+      </child>
+      <child type="PANEL" name="Panel_grow_horse_13" subclass="">
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <embed src="" />
+        <pos x="381" y="94" />
+        <rect l="0" t="0" r="172" b="42" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <child type="PICTURE" name="img_horseinfo_family_grandparents_13" subclass="">
+          <asset type="STATIC">img_mate_grandparents_slot.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="0" y="0" />
+          <rect l="0" t="0" r="172" b="42" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="img_icon_skin_horse13" subclass="">
+          <asset type="STATIC">
+          </asset>
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <pos x="5" y="5" />
+          <rect l="0" t="0" r="35" b="29" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="img_horseinfo_family_blood_highlight_13" subclass="">
+          <asset type="STATIC">img_horseinfo_family_blood_highlight_small.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="2" y="2" />
+          <rect l="0" t="0" r="41" b="35" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+          <child type="LABEL" name="lb_horseinfo_family_blood_point_13" subclass="">
+            <label val="+1" />
+            <pos x="6" y="10" />
+            <rect l="0" t="0" r="27" b="18" />
+            <Visible val="True" />
+            <Anchor val="Top, Left" />
+            <OutlineColor val="#FFFFFF" />
+            <ShadowColor val="#0000004C" />
+            <color val="#FFFFFFFF" />
+            <halign val="2" />
+            <valign val="2" />
+            <FontName val="나눔고딕" />
+            <FontSize val="13" />
+            <TextTrimming val="None" />
+            <style val="1" />
+            <IsHitTestVisible val="False" />
+            <ClipChildren val="False" />
+            <Padding val="0, 0, 0, 0" />
+          </child>
+        </child>
+        <child type="PICTURE" name="icon_horseinfo_family_father_13" subclass="">
+          <asset type="STATIC">icon_horseinfo_family_father.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="143" y="0" />
+          <rect l="0" t="0" r="28" b="28" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="LABEL" name="tx_name_horse13" subclass="">
+          <label val="말이름들어가요" />
+          <pos x="44" y="11" />
+          <rect l="0" t="0" r="125" b="20" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FFFFFF" />
+          <ShadowColor val="#0000004C" />
+          <color val="#50433CFF" />
+          <halign val="0" />
+          <valign val="0" />
+          <FontName val="나눔고딕" />
+          <FontSize val="13" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+      </child>
+      <child type="PANEL" name="Panel_grow_horse_14" subclass="">
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <embed src="" />
+        <pos x="381" y="137" />
+        <rect l="0" t="0" r="172" b="42" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <child type="PICTURE" name="img_horseinfo_family_grandparents_14" subclass="">
+          <asset type="STATIC">img_mate_grandparents_slot.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="0" y="0" />
+          <rect l="0" t="0" r="172" b="42" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="img_icon_skin_horse14" subclass="">
+          <asset type="STATIC">
+          </asset>
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <pos x="5" y="5" />
+          <rect l="0" t="0" r="35" b="29" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="img_horseinfo_family_blood_highlight_14" subclass="">
+          <asset type="STATIC">img_horseinfo_family_blood_highlight_small.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="2" y="2" />
+          <rect l="0" t="0" r="41" b="35" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+          <child type="LABEL" name="lb_horseinfo_family_blood_point_14" subclass="">
+            <label val="+1" />
+            <pos x="6" y="10" />
+            <rect l="0" t="0" r="27" b="18" />
+            <Visible val="True" />
+            <Anchor val="Top, Left" />
+            <OutlineColor val="#FFFFFF" />
+            <ShadowColor val="#0000004C" />
+            <color val="#FFFFFFFF" />
+            <halign val="2" />
+            <valign val="2" />
+            <FontName val="나눔고딕" />
+            <FontSize val="13" />
+            <TextTrimming val="None" />
+            <style val="1" />
+            <IsHitTestVisible val="False" />
+            <ClipChildren val="False" />
+            <Padding val="0, 0, 0, 0" />
+          </child>
+        </child>
+        <child type="PICTURE" name="icon_horseinfo_family_father_14" subclass="">
+          <asset type="STATIC">icon_horseinfo_family_mother.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="143" y="0" />
+          <rect l="0" t="0" r="28" b="28" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="LABEL" name="tx_name_horse14" subclass="">
+          <label val="말이름들어가요" />
+          <pos x="44" y="11" />
+          <rect l="0" t="0" r="125" b="20" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FFFFFF" />
+          <ShadowColor val="#0000004C" />
+          <color val="#50433CFF" />
+          <halign val="0" />
+          <valign val="0" />
+          <FontName val="나눔고딕" />
+          <FontSize val="13" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+      </child>
+    </base>
+    <child type="BUTTON" subclass="" name="btn_close">
+      <asset type="NORMAL">btn_common_exit_Normal.png</asset>
+      <asset type="DOWN">btn_common_exit_Push.png</asset>
+      <asset type="OVER">btn_common_exit_Hover.png</asset>
+      <asset type="DISABLE">btn_common_exit_Disable.png</asset>
+      <snd type="OVER">
+      </snd>
+      <snd type="DOWN">ui_btn_menu_click</snd>
+      <snd type="RELEASE">ui_btn_menu_close</snd>
+      <pos x="582" y="13" />
+      <rect l="0" t="0" r="23" b="23" />
+      <Visible val="True" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <Anchor val="Top, Right" />
+      <IsDefaultButton val="False" />
+    </child>
+    <child type="LABEL" name="lb_seedhorsebooking" subclass="">
+      <label val="씨암마, 씨수마 가계도" />
+      <pos x="25" y="23" />
+      <rect l="0" t="0" r="583" b="21" />
+      <Visible val="True" />
+      <Anchor val="Top" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#181818" />
+      <color val="#FFFFFF" />
+      <halign val="1" />
+      <valign val="1" />
+      <FontName val="나눔고딕" />
+      <FontSize val="13" />
+      <TextTrimming val="None" />
+      <style val="1" />
+      <IsHitTestVisible val="False" />
+      <ClipChildren val="False" />
+      <Padding val="0, 0, 0, 0" />
+    </child>
+  </base>
+</refresh>

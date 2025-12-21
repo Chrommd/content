@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <event animation="idle00">
+        <function>PlaySND($asset, "npc_monkey", "", "-var 2")</function>
+        <time>0.9638</time>
+        <freq>80</freq>
+    </event>
+    <event animation="idle00">
+        <function>PlaySND($asset, "npc_monkey_tree", "", "-var 0")</function>
+        <time>4.6055</time>
+        <freq>80</freq>
+    </event>
+    <event animation="idle01">
+        <function>PlaySND($asset, "npc_monkey", "", "-var 2")</function>
+        <time>1.0063</time>
+        <freq>100</freq>
+    </event>
+    <event animation="idle01">
+        <function>PlaySND($asset, "npc_monkey_tree", "", "-var 0")</function>
+        <time>4.6498</time>
+        <freq>100</freq>
+    </event>
+    <event animation="idle01">
+        <function>PlaySND($asset, "npc_monkey_tree", "", "-var 0")</function>
+        <time>7.0210</time>
+        <freq>100</freq>
+    </event>
+    <event animation="idle01">
+        <function>PlaySND($asset, "npc_monkey_tree", "", "-var 0")</function>
+        <time>8.1429</time>
+        <freq>100</freq>
+    </event>
+    <event animation="idle01">
+        <function>PlaySND($asset, "npc_monkey_tree", "", "-var 0")</function>
+        <time>10.1208</time>
+        <freq>100</freq>
+    </event>
+    <event animation="idle01">
+        <function>PlaySND($asset, "npc_monkey", "", "-var 2")</function>
+        <time>3.9558</time>
+        <freq>100</freq>
+    </event>
+    <event animation="idle01">
+        <function>PlaySND($asset, "npc_monkey", "", "-var 2")</function>
+        <time>8.9989</time>
+        <freq>100</freq>
+    </event>
+    <event animation="idle01">
+        <function>PlaySND($asset, "npc_monkey", "", "-var 2")</function>
+        <time>10.3522</time>
+        <freq>100</freq>
+    </event>
+    <action state="G_IDLE" prevState="" loop="1">
+        <main speed=0.0000>idle00</main>
+    </action>
+    <action state="G_IDLE" prevState="" loop="1">
+        <main speed=0.0000>idle01</main>
+    </action>
+</aim>

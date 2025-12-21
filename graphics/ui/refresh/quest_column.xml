@@ -1,0 +1,314 @@
+﻿<refresh version="2">
+	<properties>
+		<property name="DPI" val="72" />
+		<property name="UIAnimation" val="quest_column_Animation.xml" />
+	</properties>
+	<base type="WND" subclass="" name="Wnd_quest_column">
+		<pos x="0" y="0" />
+		<rect l="0" t="0" r="290" b="70" />
+		<Visible val="True" />
+		<Anchor val="Top, Left" />
+		<snd type="SHOW"></snd>
+		<snd type="HIDE"></snd>
+		<IsHitTestVisible val="True" />
+		<ClipChildren val="False" />
+		<child type="PICTURE" name="quest_list_Disable" subclass="">
+			<asset type="STATIC">quest_list_Dis.png</asset>
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="290" b="70" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="quest_list_Normal" subclass="">
+			<asset type="STATIC">quest_list_Normal.png</asset>
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="290" b="70" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="quest_list_Over" subclass="">
+			<asset type="STATIC">quest_list_Hover.png</asset>
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="290" b="70" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="quest_list_Selected" subclass="">
+			<asset type="STATIC">quest_list_Sel.png</asset>
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="290" b="70" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<base type="WNDEX" subclass="" name="WndEx_bg">
+			<asset type="BG" path="frm_std_innner_01_CenterMiddle.png" tileMode="Stretch">
+				<tex x="4" y="4" />
+				<rect l="10" t="10" r="255" b="4" />
+			</asset>
+			<asset type="EDGE_LT" path="frm_std_innner_01_LeftTop.png" tileMode="Stretch">
+				<tex x="10" y="10" />
+				<rect l="0" t="0" r="10" b="10" />
+			</asset>
+			<asset type="EDGE_RT" path="frm_std_innner_01_RightTop.png" tileMode="Stretch">
+				<tex x="10" y="10" />
+				<rect l="0" t="0" r="10" b="10" />
+			</asset>
+			<asset type="EDGE_LB" path="frm_std_innner_01_LeftBottom.png" tileMode="Stretch">
+				<tex x="10" y="10" />
+				<rect l="0" t="0" r="10" b="10" />
+			</asset>
+			<asset type="EDGE_RB" path="frm_std_innner_01_RightBottom.png" tileMode="Stretch">
+				<tex x="10" y="10" />
+				<rect l="0" t="0" r="10" b="10" />
+			</asset>
+			<asset type="FRAME_T" path="frm_std_innner_01_CenterTop.png" tileMode="Tile">
+				<tex x="4" y="10" />
+				<rect l="10" t="0" r="255" b="10" />
+			</asset>
+			<asset type="FRAME_B" path="frm_std_innner_01_CenterBottom.png" tileMode="Tile">
+				<tex x="4" y="10" />
+				<rect l="10" t="0" r="255" b="10" />
+			</asset>
+			<asset type="FRAME_L" path="frm_std_innner_01_LeftMiddle.png" tileMode="Tile">
+				<tex x="10" y="4" />
+				<rect l="0" t="10" r="10" b="4" />
+			</asset>
+			<asset type="FRAME_R" path="frm_std_innner_01_RightMiddle.png" tileMode="Tile">
+				<tex x="10" y="4" />
+				<rect l="0" t="10" r="10" b="4" />
+			</asset>
+			<pos x="7" y="23" />
+			<rect l="0" t="0" r="275" b="24" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<snd type="SHOW"></snd>
+			<snd type="HIDE"></snd>
+			<Dragable val="False" />
+			<StartPosition val="None" />
+			<EscKeyAction val="None" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<child type="PICTURE" name="img_common_lineH" subclass="">
+				<asset type="STATIC">img_common_lineH_1.png</asset>
+				<pos x="76" y="6" />
+				<rect l="0" t="0" r="4" b="13" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PANEL" name="icon_common_star" subclass="">
+				<pos x="0" y="1" />
+				<rect l="0" t="0" r="78" b="23" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<embed src="" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+				<child type="PICTURE" name="icon_common_star_empty" subclass="">
+					<asset type="STATIC">icon_common_star_empty.png</asset>
+					<pos x="4" y="4" />
+					<rect l="0" t="0" r="68" b="15" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+				</child>
+				<child type="PICTURE" name="img_course_level" subclass="">
+					<asset type="STATIC">icon_common_star_center_5.png</asset>
+					<pos x="4" y="4" />
+					<rect l="0" t="0" r="68" b="15" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="False" />
+					<ClipChildren val="False" />
+				</child>
+			</child>
+		</base>
+		<child type="LABEL" name="lb_reward_con" subclass="">
+			<pos x="89" y="29" />
+			<rect l="0" t="0" r="188" b="20" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<label val="기본보상 :말 경험치 1,000" />
+			<OutlineColor val="#FF0000" />
+			<ShadowColor val="#F0E5DE" />
+			<color val="#796456FF" />
+			<halign val="0" />
+			<valign val="0" />
+			<FontName val="나눔고딕" />
+			<FontSize val="13" />
+			<TextTrimming val="None" />
+			<style val="1" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+			<Padding val="0, 0, 0, 0" />
+			<FitToContent val="False" />
+		</child>
+		<child type="LABEL" name="lb_reward1" subclass="">
+			<pos x="8" y="49" />
+			<rect l="0" t="0" r="271" b="20" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<label val="오늘의 보상 내용" />
+			<OutlineColor val="#FF0000" />
+			<ShadowColor val="#F0E5DE" />
+			<color val="#796456FF" />
+			<halign val="0" />
+			<valign val="0" />
+			<FontName val="나눔고딕" />
+			<FontSize val="13" />
+			<TextTrimming val="None" />
+			<style val="1" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+			<Padding val="0, 0, 0, 0" />
+			<FitToContent val="False" />
+		</child>
+		<child type="LABEL" name="lb_reward0" subclass="">
+			<pos x="8" y="7" />
+			<rect l="0" t="0" r="262" b="20" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<label val="오늘의 보상 타이틀" />
+			<OutlineColor val="#FF0000" />
+			<ShadowColor val="#F0E5DE" />
+			<color val="#796456FF" />
+			<halign val="0" />
+			<valign val="0" />
+			<FontName val="나눔고딕 ExtraBold" />
+			<FontSize val="13" />
+			<TextTrimming val="None" />
+			<style val="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+			<Padding val="0, 0, 0, 0" />
+			<FitToContent val="False" />
+		</child>
+		<child type="PICTURE" name="icon_common_select" subclass="">
+			<asset type="STATIC">icon_common_select.png</asset>
+			<pos x="261" y="4" />
+			<rect l="0" t="0" r="22" b="23" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<base type="WNDEX" subclass="" name="level_lock">
+			<asset type="BG" path="frm_lock1_centermiddle.png" tileMode="Stretch">
+				<tex x="8" y="8" />
+				<rect l="8" t="8" r="273" b="53" />
+			</asset>
+			<asset type="EDGE_LT" path="frm_lock1_lefttop.png" tileMode="Stretch">
+				<tex x="8" y="8" />
+				<rect l="0" t="0" r="8" b="8" />
+			</asset>
+			<asset type="EDGE_RT" path="frm_lock1_righttop.png" tileMode="Stretch">
+				<tex x="8" y="8" />
+				<rect l="0" t="0" r="8" b="8" />
+			</asset>
+			<asset type="EDGE_LB" path="frm_lock1_leftbottom.png" tileMode="Stretch">
+				<tex x="8" y="8" />
+				<rect l="0" t="0" r="8" b="8" />
+			</asset>
+			<asset type="EDGE_RB" path="frm_lock1_rightbottom.png" tileMode="Stretch">
+				<tex x="8" y="8" />
+				<rect l="0" t="0" r="8" b="8" />
+			</asset>
+			<asset type="FRAME_T" path="frm_lock1_centertop.png" tileMode="Tile">
+				<tex x="4" y="8" />
+				<rect l="8" t="0" r="273" b="8" />
+			</asset>
+			<asset type="FRAME_B" path="frm_lock1_centerbottom.png" tileMode="Tile">
+				<tex x="4" y="8" />
+				<rect l="8" t="0" r="273" b="8" />
+			</asset>
+			<asset type="FRAME_L" path="frm_lock1_leftmiddle.png" tileMode="Tile">
+				<tex x="8" y="4" />
+				<rect l="0" t="8" r="8" b="53" />
+			</asset>
+			<asset type="FRAME_R" path="frm_lock1_rightmiddle.png" tileMode="Tile">
+				<tex x="8" y="4" />
+				<rect l="0" t="8" r="8" b="53" />
+			</asset>
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="289" b="69" />
+			<Visible val="False" />
+			<Anchor val="Top, Left" />
+			<snd type="SHOW"></snd>
+			<snd type="HIDE"></snd>
+			<Dragable val="False" />
+			<StartPosition val="None" />
+			<EscKeyAction val="None" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+			<child type="PICTURE" name="img_common_lock_back" subclass="">
+				<asset type="STATIC">img_common_lock_01_back.png</asset>
+				<pos x="179" y="-1" />
+				<rect l="0" t="0" r="110" b="23" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+				<child type="STACKPANEL" name="StackPanel" subclass="">
+					<pos x="0" y="-1" />
+					<rect l="0" t="0" r="110" b="23" />
+					<Visible val="True" />
+					<Anchor val="Top, Left" />
+					<Orientation val="Horizontal" />
+					<HAlign val="Center" />
+					<VAlign val="Center" />
+					<IsHitTestVisible val="False" />
+					<ClipChildren val="False" />
+					<child type="LABEL" name="lb_myinfo_archive_needlevel" subclass="">
+						<pos x="24" y="-3" />
+						<rect l="0" t="0" r="74" b="29" />
+						<Visible val="True" />
+						<Anchor val="Top, Left" />
+						<label val="필요레벨 15" />
+						<OutlineColor val="#FF0000" />
+						<ShadowColor val="#FF0000" />
+						<color val="#FEEF43FF" />
+						<halign val="1" />
+						<valign val="1" />
+						<FontName val="나눔고딕" />
+						<FontSize val="13" />
+						<TextTrimming val="None" />
+						<style val="1" />
+						<IsHitTestVisible val="False" />
+						<ClipChildren val="False" />
+						<Padding val="5, 0, 0, 0" />
+						<FitToContent val="False" />
+					</child>
+					<child type="PICTURE" name="icon_common_lock" subclass="">
+						<asset type="STATIC">icon_common_lock.png</asset>
+						<pos x="13" y="5" />
+						<rect l="0" t="0" r="11" b="13" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+				</child>
+			</child>
+		</base>
+	</base>
+</refresh>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+  </properties>
+  <base type="WND" subclass="" name="wnd_myinfo_dragndrop">
+    <Visible val="True" />
+    <Anchor val="Top, Left" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="60" b="60" />
+    <snd type="SHOW">
+    </snd>
+    <snd type="HIDE">
+    </snd>
+    <IsHitTestVisible val="True" />
+    <ClipChildren val="False" />
+    <child type="PICTURE" name="img_myinfo_dragndrop" subclass="">
+      <asset type="STATIC">
+      </asset>
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="60" b="60" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="PICTURE" name="icon_drag" subclass="">
+      <asset type="STATIC">icon_drag.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="-8" y="-8" />
+      <rect l="0" t="0" r="75" b="75" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="False" />
+      <ClipChildren val="False" />
+    </child>
+  </base>
+</refresh>

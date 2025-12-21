@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="mate_titlewing_r_2_Default">
+    <asset type="IMAGE" name="asset_mate_titlewing_r" path="mate_titlewing_r.png">
+      <rect l="0" t="0" r="166" b="47" />
+    </asset>
+    <object name="mate_titlewing_r" ani="ani_mate_titlewing_r">
+      <asset type="IMAGE" link="asset_mate_titlewing_r" />
+    </object>
+    <param type="RES" x="166" y="47" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_mate_titlewing_r">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="1" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="20" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="1" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0" />
+        <posy val="1" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="20" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="1" />
+      </frame>
+      <frame cnt="867">
+        <posx val="0" />
+        <posy val="1" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" easeValue="0.0,0.6,1.0,1.0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="1" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

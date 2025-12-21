@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="quest_npc_scroll_info_Default">
+    <asset type="IMAGE" name="asset_quest_npc_scroll_info_0" path="quest_npc_scroll_info_0.png">
+      <rect l="0" t="0" r="33" b="34" />
+    </asset>
+    <asset type="IMAGE" name="asset_quest_npc_scroll_info_1" path="quest_npc_scroll_info_1.png">
+      <rect l="0" t="0" r="55" b="32" />
+    </asset>
+    <object name="quest_npc_scroll_info_0" ani="ani_quest_npc_scroll_info_0">
+      <asset type="IMAGE" link="asset_quest_npc_scroll_info_0" />
+    </object>
+    <object name="quest_npc_scroll_info_1" ani="ani_quest_npc_scroll_info_1">
+      <asset type="IMAGE" link="asset_quest_npc_scroll_info_1" />
+    </object>
+    <param type="RES" x="55" y="44" />
+    <param type="LOOP" cnt="-1" pendulum="0" />
+    <anim name="ani_quest_npc_scroll_info_0">
+      <frame cnt="0">
+        <posx val="0.236363636363636" />
+        <posy val="0.272727272727273" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="233">
+        <posx val="0.236363636363636" />
+        <posy val="0.340909090909091" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="467">
+        <posx val="0.236363636363636" />
+        <posy val="0.272727272727273" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="833">
+        <posx val="0.236363636363636" />
+        <posy val="0.272727272727273" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_quest_npc_scroll_info_1">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

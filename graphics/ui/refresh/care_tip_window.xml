@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="care_tip_window_Animation.xml" />
+  </properties>
+  <base type="WND" subclass="" name="care_tip">
+    <Visible val="True" />
+    <Anchor val="None" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="225" b="76" />
+    <child type="PICTURE" name="bg_care_tip1" subclass="">
+      <asset type="STATIC">bg_care_tip1.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="225" b="76" />
+      <center x="0" y="0" />
+    </child>
+    <child type="PICTURE" name="bg_care_tip2" subclass="">
+      <asset type="STATIC">bg_care_tip2.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="103" y="-5" />
+      <rect l="0" t="0" r="20" b="22" />
+      <center x="0" y="0" />
+    </child>
+    <child type="LABEL" name="lb_care_tip2" subclass="">
+      <label val="to take care of your horse." />
+      <pos x="40" y="37" />
+      <rect l="0" t="0" r="174" b="18" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#DFC149" />
+      <color val="#5E361F" />
+      <halign val="0" />
+      <valign val="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="13" />
+      <style val="32" />
+    </child>
+    <child type="LABEL" name="lb_care_tip1" subclass="">
+      <label val="Buy items from the shop" />
+      <pos x="40" y="20" />
+      <rect l="0" t="0" r="174" b="18" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#DFC149" />
+      <color val="#5E361F" />
+      <halign val="0" />
+      <valign val="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="13" />
+      <style val="32" />
+    </child>
+  </base>
+</refresh>

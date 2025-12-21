@@ -1,0 +1,367 @@
+﻿<refresh version="2">
+	<properties>
+		<property name="DPI" val="72" />
+		<property name="UIAnimation" val="tutorial_gametip_window_Animation.xml" />
+	</properties>
+	<base type="WND" subclass="" name="wnd">
+		<pos x="0" y="0" />
+		<rect l="0" t="0" r="1024" b="768" />
+		<Visible val="True" />
+		<Anchor val="Top, Bottom, Left, Right" />
+		<snd type="SHOW"></snd>
+		<snd type="HIDE"></snd>
+		<IsHitTestVisible val="True" />
+		<ClipChildren val="False" />
+		<child type="STACKPANEL" name="StackPanel" subclass="">
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="1024" b="768" />
+			<Visible val="True" />
+			<Anchor val="Top, Bottom, Right" />
+			<Orientation val="Vertical" />
+			<HAlign val="Center" />
+			<VAlign val="Center" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<base type="WND" subclass="" name="tuto_gametip_wnd">
+				<pos x="0" y="0" />
+				<rect l="0" t="0" r="1024" b="768" />
+				<Visible val="True" />
+				<Anchor val="Bottom, Right" />
+				<snd type="SHOW"></snd>
+				<snd type="HIDE"></snd>
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+				<base type="WNDEX" subclass="" name="gamereset_wnd">
+					<asset type="BG" path="frm_system_b_04.png" tileMode="Stretch">
+						<tex x="4" y="4" />
+						<rect l="17" t="18" r="242" b="83" />
+					</asset>
+					<asset type="EDGE_LT" path="frm_system_b_00.png" tileMode="Stretch">
+						<tex x="17" y="18" />
+						<rect l="0" t="0" r="17" b="18" />
+					</asset>
+					<asset type="EDGE_RT" path="frm_system_b_02.png" tileMode="Stretch">
+						<tex x="21" y="18" />
+						<rect l="0" t="0" r="21" b="18" />
+					</asset>
+					<asset type="EDGE_LB" path="frm_system_b_06.png" tileMode="Stretch">
+						<tex x="17" y="15" />
+						<rect l="0" t="0" r="17" b="15" />
+					</asset>
+					<asset type="EDGE_RB" path="frm_system_b_08.png" tileMode="Stretch">
+						<tex x="21" y="15" />
+						<rect l="0" t="0" r="21" b="15" />
+					</asset>
+					<asset type="FRAME_T" path="frm_system_b_01.png" tileMode="Stretch">
+						<tex x="4" y="18" />
+						<rect l="17" t="0" r="242" b="18" />
+					</asset>
+					<asset type="FRAME_B" path="frm_system_b_07.png" tileMode="Stretch">
+						<tex x="4" y="15" />
+						<rect l="17" t="0" r="242" b="15" />
+					</asset>
+					<asset type="FRAME_L" path="frm_system_b_03.png" tileMode="Stretch">
+						<tex x="17" y="4" />
+						<rect l="0" t="18" r="17" b="83" />
+					</asset>
+					<asset type="FRAME_R" path="frm_system_b_05.png" tileMode="Stretch">
+						<tex x="21" y="4" />
+						<rect l="0" t="18" r="21" b="83" />
+					</asset>
+					<pos x="736" y="410" />
+					<rect l="0" t="0" r="280" b="116" />
+					<Visible val="True" />
+					<Anchor val="Bottom, Right" />
+					<snd type="SHOW"></snd>
+					<snd type="HIDE"></snd>
+					<Dragable val="False" />
+					<StartPosition val="None" />
+					<EscKeyAction val="None" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+					<child type="PICTURE" name="tuto_gametip_title" subclass="">
+						<asset type="STATIC"></asset>
+						<pos x="1" y="2" />
+						<rect l="0" t="0" r="274" b="56" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="LIST" name="ListControl" subclass="">
+						<asset type="BG" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="8" t="8" r="244" b="176" />
+						</asset>
+						<asset type="EDGE_LT" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="0" t="0" r="8" b="8" />
+						</asset>
+						<asset type="EDGE_RT" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="0" t="0" r="8" b="8" />
+						</asset>
+						<asset type="EDGE_LB" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="0" t="0" r="8" b="8" />
+						</asset>
+						<asset type="EDGE_RB" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="0" t="0" r="8" b="8" />
+						</asset>
+						<asset type="FRAME_T" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="8" t="0" r="244" b="8" />
+						</asset>
+						<asset type="FRAME_B" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="8" t="0" r="244" b="8" />
+						</asset>
+						<asset type="FRAME_L" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="0" t="8" r="8" b="176" />
+						</asset>
+						<asset type="FRAME_R" path="" tileMode="Tile">
+							<tex x="0" y="0" />
+							<rect l="0" t="8" r="8" b="176" />
+						</asset>
+						<pos x="7" y="63" />
+						<rect l="0" t="0" r="260" b="192" />
+						<Visible val="True" />
+						<Anchor val="Top, Left" />
+						<padding l="0" t="0" r="0" b="0" />
+						<column val="1" />
+						<itemrect l="0" t="0" r="260" b="24" />
+						<selection val="0" />
+						<deselectable val="0" />
+						<rclickaction val="1" />
+						<IsHitTestVisible val="True" />
+						<Orientation val="Vertical" />
+						<ClipChildren val="False" />
+					</child>
+					<base type="WNDEX" subclass="" name="gamereset_wnd1">
+						<asset type="BG" path="frm_system_b_04.png" tileMode="Stretch">
+							<tex x="4" y="4" />
+							<rect l="17" t="18" r="242" b="83" />
+						</asset>
+						<asset type="EDGE_LT" path="frm_system_b_00.png" tileMode="Stretch">
+							<tex x="17" y="18" />
+							<rect l="0" t="0" r="17" b="18" />
+						</asset>
+						<asset type="EDGE_RT" path="frm_system_b_02.png" tileMode="Stretch">
+							<tex x="21" y="18" />
+							<rect l="0" t="0" r="21" b="18" />
+						</asset>
+						<asset type="EDGE_LB" path="frm_system_b_06.png" tileMode="Stretch">
+							<tex x="17" y="15" />
+							<rect l="0" t="0" r="17" b="15" />
+						</asset>
+						<asset type="EDGE_RB" path="frm_system_b_08.png" tileMode="Stretch">
+							<tex x="21" y="15" />
+							<rect l="0" t="0" r="21" b="15" />
+						</asset>
+						<asset type="FRAME_T" path="frm_system_b_01.png" tileMode="Stretch">
+							<tex x="4" y="18" />
+							<rect l="17" t="0" r="242" b="18" />
+						</asset>
+						<asset type="FRAME_B" path="frm_system_b_07.png" tileMode="Stretch">
+							<tex x="4" y="15" />
+							<rect l="17" t="0" r="242" b="15" />
+						</asset>
+						<asset type="FRAME_L" path="frm_system_b_03.png" tileMode="Stretch">
+							<tex x="17" y="4" />
+							<rect l="0" t="18" r="17" b="83" />
+						</asset>
+						<asset type="FRAME_R" path="frm_system_b_05.png" tileMode="Stretch">
+							<tex x="21" y="4" />
+							<rect l="0" t="18" r="21" b="83" />
+						</asset>
+						<pos x="736" y="400" />
+						<rect l="0" t="0" r="280" b="116" />
+						<Visible val="True" />
+						<Anchor val="Bottom, Right" />
+						<snd type="SHOW"></snd>
+						<snd type="HIDE"></snd>
+						<Dragable val="False" />
+						<StartPosition val="None" />
+						<EscKeyAction val="None" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+						<child type="PICTURE" name="tuto_gametip_title1" subclass="">
+							<asset type="STATIC"></asset>
+							<pos x="1" y="2" />
+							<rect l="0" t="0" r="274" b="56" />
+							<Visible val="True" />
+							<Anchor val="None" />
+							<center x="0" y="0" />
+							<IsHitTestVisible val="True" />
+							<ClipChildren val="False" />
+						</child>
+						<child type="LIST" name="ListControl1" subclass="">
+							<asset type="BG" path="" tileMode="Tile">
+								<tex x="0" y="0" />
+								<rect l="8" t="8" r="244" b="176" />
+							</asset>
+							<asset type="EDGE_LT" path="" tileMode="Tile">
+								<tex x="0" y="0" />
+								<rect l="0" t="0" r="8" b="8" />
+							</asset>
+							<asset type="EDGE_RT" path="" tileMode="Tile">
+								<tex x="0" y="0" />
+								<rect l="0" t="0" r="8" b="8" />
+							</asset>
+							<asset type="EDGE_LB" path="" tileMode="Tile">
+								<tex x="0" y="0" />
+								<rect l="0" t="0" r="8" b="8" />
+							</asset>
+							<asset type="EDGE_RB" path="" tileMode="Tile">
+								<tex x="0" y="0" />
+								<rect l="0" t="0" r="8" b="8" />
+							</asset>
+							<asset type="FRAME_T" path="" tileMode="Tile">
+								<tex x="0" y="0" />
+								<rect l="8" t="0" r="244" b="8" />
+							</asset>
+							<asset type="FRAME_B" path="" tileMode="Tile">
+								<tex x="0" y="0" />
+								<rect l="8" t="0" r="244" b="8" />
+							</asset>
+							<asset type="FRAME_L" path="" tileMode="Tile">
+								<tex x="0" y="0" />
+								<rect l="0" t="8" r="8" b="176" />
+							</asset>
+							<asset type="FRAME_R" path="" tileMode="Tile">
+								<tex x="0" y="0" />
+								<rect l="0" t="8" r="8" b="176" />
+							</asset>
+							<pos x="7" y="63" />
+							<rect l="0" t="0" r="260" b="192" />
+							<Visible val="True" />
+							<Anchor val="Top, Left" />
+							<padding l="0" t="0" r="0" b="0" />
+							<column val="1" />
+							<itemrect l="0" t="0" r="260" b="24" />
+							<selection val="0" />
+							<deselectable val="0" />
+							<rclickaction val="1" />
+							<IsHitTestVisible val="True" />
+							<Orientation val="Vertical" />
+							<ClipChildren val="False" />
+						</child>
+					</base>
+				</base>
+				<base type="WNDEX" subclass="" name="gamereset_wnd2">
+					<asset type="BG" path="frm_system_b_04.png" tileMode="Stretch">
+						<tex x="4" y="4" />
+						<rect l="17" t="18" r="242" b="34" />
+					</asset>
+					<asset type="EDGE_LT" path="frm_system_b_00.png" tileMode="Stretch">
+						<tex x="17" y="18" />
+						<rect l="0" t="0" r="17" b="18" />
+					</asset>
+					<asset type="EDGE_RT" path="frm_system_b_02.png" tileMode="Stretch">
+						<tex x="21" y="18" />
+						<rect l="0" t="0" r="21" b="18" />
+					</asset>
+					<asset type="EDGE_LB" path="frm_system_b_06.png" tileMode="Stretch">
+						<tex x="17" y="15" />
+						<rect l="0" t="0" r="17" b="15" />
+					</asset>
+					<asset type="EDGE_RB" path="frm_system_b_08.png" tileMode="Stretch">
+						<tex x="21" y="15" />
+						<rect l="0" t="0" r="21" b="15" />
+					</asset>
+					<asset type="FRAME_T" path="frm_system_b_01.png" tileMode="Stretch">
+						<tex x="4" y="18" />
+						<rect l="17" t="0" r="242" b="18" />
+					</asset>
+					<asset type="FRAME_B" path="frm_system_b_07.png" tileMode="Stretch">
+						<tex x="4" y="15" />
+						<rect l="17" t="0" r="242" b="15" />
+					</asset>
+					<asset type="FRAME_L" path="frm_system_b_03.png" tileMode="Stretch">
+						<tex x="17" y="4" />
+						<rect l="0" t="18" r="17" b="34" />
+					</asset>
+					<asset type="FRAME_R" path="frm_system_b_05.png" tileMode="Stretch">
+						<tex x="21" y="4" />
+						<rect l="0" t="18" r="21" b="34" />
+					</asset>
+					<pos x="736" y="329" />
+					<rect l="0" t="0" r="280" b="67" />
+					<Visible val="True" />
+					<Anchor val="Bottom, Right" />
+					<snd type="SHOW"></snd>
+					<snd type="HIDE"></snd>
+					<Dragable val="False" />
+					<StartPosition val="None" />
+					<EscKeyAction val="None" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+					<child type="PICTURE" name="tuto_gametip_title2" subclass="">
+						<asset type="STATIC">tuto_gametip_0.png</asset>
+						<pos x="1" y="5" />
+						<rect l="0" t="0" r="274" b="55" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+				</base>
+			</base>
+		</child>
+		<child type="STACKPANEL" name="StackPanel1" subclass="">
+			<pos x="0" y="2" />
+			<rect l="0" t="0" r="1023" b="200" />
+			<Visible val="True" />
+			<Anchor val="Top, Left, Right" />
+			<Orientation val="Vertical" />
+			<HAlign val="Center" />
+			<VAlign val="Bottom" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<base type="WND" subclass="" name="Wnd">
+				<pos x="144" y="134" />
+				<rect l="0" t="0" r="735" b="66" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<snd type="SHOW"></snd>
+				<snd type="HIDE"></snd>
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+				<child type="LABEL" name="Label_tip" subclass="">
+					<pos x="7" y="3" />
+					<rect l="0" t="0" r="721" b="59" />
+					<Visible val="True" />
+					<Anchor val="Top, Left" />
+					<label val="텍스트" />
+					<OutlineColor val="#000000FF" />
+					<ShadowColor val="#0000004C" />
+					<color val="#FFFFFFFF" />
+					<halign val="1" />
+					<valign val="1" />
+					<FontName val="나눔고딕" />
+					<FontSize val="24" />
+					<TextTrimming val="None" />
+					<style val="17" />
+					<IsHitTestVisible val="False" />
+					<ClipChildren val="False" />
+					<Padding val="0, 0, 0, 0" />
+					<FitToContent val="False" />
+					<child type="PICTURE" name="tuto_tip_bg" subclass="">
+						<asset type="STATIC">tuto_tip_bg.png</asset>
+						<pos x="161" y="7" />
+						<rect l="0" t="0" r="410" b="46" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+				</child>
+			</base>
+		</child>
+	</base>
+</refresh>

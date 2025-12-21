@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="icon_dot_Default">
+    <asset type="IMAGE" name="asset_bg_care_tip4_effect" path="bg_care_tip4_effect.png">
+      <rect l="0" t="0" r="15" b="9" />
+    </asset>
+    <object name="bg_care_tip4_effect" ani="ani_bg_care_tip4_effect">
+      <asset type="IMAGE" link="asset_bg_care_tip4_effect" />
+    </object>
+    <param type="RES" x="15" y="9" />
+    <param type="LOOP" cnt="-1" pendulum="1" />
+    <anim name="ani_bg_care_tip4_effect">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1000">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

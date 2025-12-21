@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <event animation="01">
+        <function>PlaySND($asset, "npc_cheer_woman_laugh_b", "", "-var 2")</function>
+        <time>1.0744</time>
+        <freq>20</freq>
+    </event>
+    <event animation="01">
+        <function>PlaySND($asset, "npc_cheer_woman_wow_b", "", "-var 2")</function>
+        <time>3.7352</time>
+        <freq>20</freq>
+    </event>
+    <action category="" state="G_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>01</main>
+    </action>
+    <action category="" state="G_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>00</main>
+    </action>
+</aim>

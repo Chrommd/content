@@ -1,0 +1,533 @@
+﻿<refresh version="2">
+	<properties>
+		<property name="DPI" val="72" />
+		<property name="UIAnimation" val="rd_league_rank_Animation.xml" />
+	</properties>
+	<base type="WND" subclass="" name="league_rank">
+		<pos x="-62" y="0" />
+		<rect l="0" t="0" r="256" b="161" />
+		<Visible val="True" />
+		<Anchor val="Top, Right" />
+		<snd type="SHOW"></snd>
+		<snd type="HIDE"></snd>
+		<IsHitTestVisible val="True" />
+		<ClipChildren val="False" />
+		<child type="PICTURE" name="rd_league_rank_bg" subclass="">
+			<asset type="STATIC">rd_league_info_bg_0.png</asset>
+			<pos x="62" y="0" />
+			<rect l="0" t="0" r="194" b="161" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="TEXTAREA" name="TextArea_league_2" subclass="">
+			<asset type="BG" path="" tileMode="Tile">
+				<tex x="0" y="0" />
+				<rect l="8" t="8" r="98" b="9" />
+			</asset>
+			<asset type="EDGE_LT" path="" tileMode="Tile">
+				<tex x="0" y="0" />
+				<rect l="0" t="0" r="8" b="8" />
+			</asset>
+			<asset type="EDGE_RT" path="" tileMode="Tile">
+				<tex x="0" y="0" />
+				<rect l="0" t="0" r="8" b="8" />
+			</asset>
+			<asset type="EDGE_LB" path="" tileMode="Tile">
+				<tex x="0" y="0" />
+				<rect l="0" t="0" r="8" b="8" />
+			</asset>
+			<asset type="EDGE_RB" path="" tileMode="Tile">
+				<tex x="0" y="0" />
+				<rect l="0" t="0" r="8" b="8" />
+			</asset>
+			<asset type="FRAME_T" path="" tileMode="Tile">
+				<tex x="0" y="0" />
+				<rect l="8" t="0" r="98" b="8" />
+			</asset>
+			<asset type="FRAME_B" path="" tileMode="Tile">
+				<tex x="0" y="0" />
+				<rect l="8" t="0" r="98" b="8" />
+			</asset>
+			<asset type="FRAME_L" path="" tileMode="Tile">
+				<tex x="0" y="0" />
+				<rect l="0" t="8" r="8" b="9" />
+			</asset>
+			<asset type="FRAME_R" path="" tileMode="Tile">
+				<tex x="0" y="0" />
+				<rect l="0" t="8" r="8" b="9" />
+			</asset>
+			<asset type="CARET" path="">
+				<rpos x="0" y="0" />
+				<rect l="0" t="0" r="0" b="0" />
+			</asset>
+			<pos x="111" y="121" />
+			<rect l="0" t="0" r="114" b="25" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<Editable val="False" />
+			<OutlineColor val="#FFFFFF" />
+			<ShadowColor val="#0000004C" />
+			<SelectionBrush val="#FF0000" />
+			<color val="#948B69FF" />
+			<style val="0" />
+			<halign val="0" />
+			<padding l="3" t="2" r="3" b="2" />
+			<FontName val="나눔고딕 ExtraBold" />
+			<FontSize val="11" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<FitToContent val="False" />
+			<Text val="" />
+		</child>
+		<child type="TEXTAREA" name="TextArea_league_1" subclass="">
+			<asset type="BG" path="" tileMode="Tile">
+				<tex x="0" y="0" />
+				<rect l="8" t="8" r="98" b="9" />
+			</asset>
+			<asset type="EDGE_LT" path="" tileMode="Tile">
+				<tex x="0" y="0" />
+				<rect l="0" t="0" r="8" b="8" />
+			</asset>
+			<asset type="EDGE_RT" path="" tileMode="Tile">
+				<tex x="0" y="0" />
+				<rect l="0" t="0" r="8" b="8" />
+			</asset>
+			<asset type="EDGE_LB" path="" tileMode="Tile">
+				<tex x="0" y="0" />
+				<rect l="0" t="0" r="8" b="8" />
+			</asset>
+			<asset type="EDGE_RB" path="" tileMode="Tile">
+				<tex x="0" y="0" />
+				<rect l="0" t="0" r="8" b="8" />
+			</asset>
+			<asset type="FRAME_T" path="" tileMode="Tile">
+				<tex x="0" y="0" />
+				<rect l="8" t="0" r="98" b="8" />
+			</asset>
+			<asset type="FRAME_B" path="" tileMode="Tile">
+				<tex x="0" y="0" />
+				<rect l="8" t="0" r="98" b="8" />
+			</asset>
+			<asset type="FRAME_L" path="" tileMode="Tile">
+				<tex x="0" y="0" />
+				<rect l="0" t="8" r="8" b="9" />
+			</asset>
+			<asset type="FRAME_R" path="" tileMode="Tile">
+				<tex x="0" y="0" />
+				<rect l="0" t="8" r="8" b="9" />
+			</asset>
+			<asset type="CARET" path="">
+				<rpos x="0" y="0" />
+				<rect l="0" t="0" r="0" b="0" />
+			</asset>
+			<pos x="111" y="78" />
+			<rect l="0" t="0" r="114" b="25" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<Editable val="False" />
+			<OutlineColor val="#FFFFFF" />
+			<ShadowColor val="#0000004C" />
+			<SelectionBrush val="#FF0000" />
+			<color val="#948B69FF" />
+			<style val="0" />
+			<halign val="0" />
+			<padding l="3" t="2" r="3" b="2" />
+			<FontName val="나눔고딕 ExtraBold" />
+			<FontSize val="11" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<FitToContent val="False" />
+			<Text val="" />
+		</child>
+		<child type="TEXTAREA" name="TextArea_league_0" subclass="">
+			<asset type="BG" path="" tileMode="Tile">
+				<tex x="0" y="0" />
+				<rect l="8" t="8" r="98" b="9" />
+			</asset>
+			<asset type="EDGE_LT" path="" tileMode="Tile">
+				<tex x="0" y="0" />
+				<rect l="0" t="0" r="8" b="8" />
+			</asset>
+			<asset type="EDGE_RT" path="" tileMode="Tile">
+				<tex x="0" y="0" />
+				<rect l="0" t="0" r="8" b="8" />
+			</asset>
+			<asset type="EDGE_LB" path="" tileMode="Tile">
+				<tex x="0" y="0" />
+				<rect l="0" t="0" r="8" b="8" />
+			</asset>
+			<asset type="EDGE_RB" path="" tileMode="Tile">
+				<tex x="0" y="0" />
+				<rect l="0" t="0" r="8" b="8" />
+			</asset>
+			<asset type="FRAME_T" path="" tileMode="Tile">
+				<tex x="0" y="0" />
+				<rect l="8" t="0" r="98" b="8" />
+			</asset>
+			<asset type="FRAME_B" path="" tileMode="Tile">
+				<tex x="0" y="0" />
+				<rect l="8" t="0" r="98" b="8" />
+			</asset>
+			<asset type="FRAME_L" path="" tileMode="Tile">
+				<tex x="0" y="0" />
+				<rect l="0" t="8" r="8" b="9" />
+			</asset>
+			<asset type="FRAME_R" path="" tileMode="Tile">
+				<tex x="0" y="0" />
+				<rect l="0" t="8" r="8" b="9" />
+			</asset>
+			<asset type="CARET" path="">
+				<rpos x="0" y="0" />
+				<rect l="0" t="0" r="0" b="0" />
+			</asset>
+			<pos x="111" y="35" />
+			<rect l="0" t="0" r="114" b="25" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<Editable val="False" />
+			<OutlineColor val="#FFFFFF" />
+			<ShadowColor val="#0000004C" />
+			<SelectionBrush val="#FF0000" />
+			<color val="#948B69FF" />
+			<style val="0" />
+			<halign val="0" />
+			<padding l="3" t="2" r="3" b="2" />
+			<FontName val="나눔고딕 ExtraBold" />
+			<FontSize val="11" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<FitToContent val="False" />
+			<Text val="" />
+		</child>
+		<child type="PANEL" name="panel_league_rank_2" subclass="">
+			<pos x="67" y="114" />
+			<rect l="0" t="0" r="172" b="40" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<embed src="" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<child type="PICTURE" name="rd_league_rank_2" subclass="">
+				<asset type="STATIC">rd_league_info_bg_2.png</asset>
+				<pos x="0" y="0" />
+				<rect l="0" t="0" r="180" b="40" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="LABEL" name="rank_point_2" subclass="">
+				<pos x="47" y="19" />
+				<rect l="0" t="0" r="127" b="18" />
+				<Visible val="True" />
+				<Anchor val="Left, Right" />
+				<label val="리그점수 500(+21)" />
+				<OutlineColor val="#FFFFFF" />
+				<ShadowColor val="#0000004C" />
+				<color val="#FFFFFFFF" />
+				<halign val="0" />
+				<valign val="1" />
+				<FontName val="나눔고딕 ExtraBold" />
+				<FontSize val="12" />
+				<TextTrimming val="CharacterEllipsis" />
+				<style val="0" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+				<Padding val="0, 0, 0, 0" />
+				<FitToContent val="False" />
+			</child>
+			<child type="LABEL" name="rank_name_2" subclass="">
+				<pos x="47" y="3" />
+				<rect l="0" t="0" r="129" b="20" />
+				<Visible val="True" />
+				<Anchor val="Top, Left, Right" />
+				<label val="캐릭터이름" />
+				<OutlineColor val="#FFFFFF" />
+				<ShadowColor val="#0000004C" />
+				<color val="#FFFFFFFF" />
+				<halign val="0" />
+				<valign val="1" />
+				<FontName val="나눔고딕 ExtraBold" />
+				<FontSize val="13" />
+				<TextTrimming val="CharacterEllipsis" />
+				<style val="0" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+				<Padding val="0, 0, 0, 0" />
+				<FitToContent val="False" />
+			</child>
+			<child type="PICTURE" name="rank_icon_small_2" subclass="">
+				<asset type="STATIC">league_emblem_small_4_1.png</asset>
+				<pos x="1" y="0" />
+				<rect l="0" t="0" r="40" b="40" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="LABEL" name="rank_2" subclass="">
+				<pos x="1" y="12" />
+				<rect l="0" t="0" r="41" b="26" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<label val="47" />
+				<OutlineColor val="#000000FF" />
+				<ShadowColor val="#0000004C" />
+				<color val="#FCFF00FF" />
+				<halign val="2" />
+				<valign val="2" />
+				<FontName val="나눔고딕 ExtraBold" />
+				<FontSize val="16" />
+				<TextTrimming val="None" />
+				<style val="48" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+				<Padding val="0, 0, 0, 0" />
+				<FitToContent val="False" />
+			</child>
+		</child>
+		<child type="PANEL" name="panel_league_rank_0" subclass="">
+			<pos x="67" y="27" />
+			<rect l="0" t="0" r="180" b="40" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<embed src="" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<child type="PICTURE" name="rd_league_rank_0" subclass="">
+				<asset type="STATIC">rd_league_info_bg_2.png</asset>
+				<pos x="0" y="0" />
+				<rect l="0" t="0" r="180" b="40" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="LABEL" name="rank_point_0" subclass="">
+				<pos x="47" y="20" />
+				<rect l="0" t="0" r="128" b="18" />
+				<Visible val="True" />
+				<Anchor val="Left, Right" />
+				<label val="리그점수 500(+21)" />
+				<OutlineColor val="#FFFFFF" />
+				<ShadowColor val="#0000004C" />
+				<color val="#FFFFFFFF" />
+				<halign val="0" />
+				<valign val="1" />
+				<FontName val="나눔고딕 ExtraBold" />
+				<FontSize val="12" />
+				<TextTrimming val="CharacterEllipsis" />
+				<style val="0" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+				<Padding val="0, 0, 0, 0" />
+				<FitToContent val="False" />
+			</child>
+			<child type="LABEL" name="rank_name_0" subclass="">
+				<pos x="47" y="3" />
+				<rect l="0" t="0" r="130" b="20" />
+				<Visible val="True" />
+				<Anchor val="Top, Left, Right" />
+				<label val="캐릭터이름" />
+				<OutlineColor val="#FFFFFF" />
+				<ShadowColor val="#0000004C" />
+				<color val="#FFFFFFFF" />
+				<halign val="0" />
+				<valign val="1" />
+				<FontName val="나눔고딕 ExtraBold" />
+				<FontSize val="13" />
+				<TextTrimming val="CharacterEllipsis" />
+				<style val="0" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+				<Padding val="0, 0, 0, 0" />
+				<FitToContent val="False" />
+			</child>
+			<child type="PICTURE" name="rank_icon_small_0" subclass="">
+				<asset type="STATIC">league_emblem_small_4_1.png</asset>
+				<pos x="1" y="0" />
+				<rect l="0" t="0" r="40" b="40" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="LABEL" name="rank_0" subclass="">
+				<pos x="1" y="12" />
+				<rect l="0" t="0" r="41" b="26" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<label val="46" />
+				<OutlineColor val="#000000FF" />
+				<ShadowColor val="#0000004C" />
+				<color val="#FCFF00FF" />
+				<halign val="2" />
+				<valign val="2" />
+				<FontName val="나눔고딕 ExtraBold" />
+				<FontSize val="16" />
+				<TextTrimming val="None" />
+				<style val="48" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+				<Padding val="0, 0, 0, 0" />
+				<FitToContent val="False" />
+			</child>
+		</child>
+		<child type="PANEL" name="panel_league_rank_1" subclass="">
+			<pos x="67" y="70" />
+			<rect l="0" t="0" r="180" b="40" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<embed src="" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<child type="PICTURE" name="rd_league_info_bg_shadow" subclass="">
+				<asset type="STATIC">rd_league_info_bg_shadow.png</asset>
+				<pos x="0" y="0" />
+				<rect l="0" t="0" r="180" b="40" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="rd_league_rank_1" subclass="">
+				<asset type="STATIC">rd_league_info_bg_1.png</asset>
+				<pos x="0" y="0" />
+				<rect l="0" t="0" r="180" b="40" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="LABEL" name="rank_point_1" subclass="">
+				<pos x="47" y="19" />
+				<rect l="0" t="0" r="129" b="18" />
+				<Visible val="True" />
+				<Anchor val="Left, Right" />
+				<label val="리그점수 500(+21)" />
+				<OutlineColor val="#FFFFFF" />
+				<ShadowColor val="#0000004C" />
+				<color val="#FFFFFFFF" />
+				<halign val="0" />
+				<valign val="1" />
+				<FontName val="나눔고딕 ExtraBold" />
+				<FontSize val="12" />
+				<TextTrimming val="CharacterEllipsis" />
+				<style val="0" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+				<Padding val="0, 0, 0, 0" />
+				<FitToContent val="False" />
+			</child>
+			<child type="LABEL" name="rank_name_1" subclass="">
+				<pos x="47" y="3" />
+				<rect l="0" t="0" r="131" b="20" />
+				<Visible val="True" />
+				<Anchor val="Top, Left, Right" />
+				<label val="캐릭터이름" />
+				<OutlineColor val="#FFFFFF" />
+				<ShadowColor val="#0000004C" />
+				<color val="#FFFFFFFF" />
+				<halign val="0" />
+				<valign val="1" />
+				<FontName val="나눔고딕 ExtraBold" />
+				<FontSize val="13" />
+				<TextTrimming val="CharacterEllipsis" />
+				<style val="0" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+				<Padding val="0, 0, 0, 0" />
+				<FitToContent val="False" />
+			</child>
+			<child type="PICTURE" name="rank_icon_small_1" subclass="">
+				<asset type="STATIC">league_emblem_small_4_1.png</asset>
+				<pos x="1" y="0" />
+				<rect l="0" t="0" r="40" b="40" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="LABEL" name="rank_1" subclass="">
+				<pos x="2" y="12" />
+				<rect l="0" t="0" r="41" b="26" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<label val="45" />
+				<OutlineColor val="#000000FF" />
+				<ShadowColor val="#0000004C" />
+				<color val="#FCFF00FF" />
+				<halign val="2" />
+				<valign val="2" />
+				<FontName val="나눔고딕 ExtraBold" />
+				<FontSize val="22" />
+				<TextTrimming val="None" />
+				<style val="48" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+				<Padding val="0, 0, 0, 0" />
+				<FitToContent val="False" />
+			</child>
+			<child type="PICTURE" name="rd_league_info_effect_0" subclass="">
+				<asset type="STATIC">rd_league_info_effect_0.png</asset>
+				<pos x="-8" y="-8" />
+				<rect l="0" t="0" r="198" b="58" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+		</child>
+		<child type="PICTURE" name="rd_league_info_effect_2" subclass="">
+			<asset type="STATIC"></asset>
+			<pos x="-31" y="27" />
+			<rect l="0" t="0" r="125" b="44" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="rd_league_info_effect_1" subclass="">
+			<asset type="STATIC">rd_league_info_effect_1.png</asset>
+			<pos x="-31" y="27" />
+			<rect l="0" t="0" r="125" b="44" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="LABEL" name="Label_league_title" subclass="">
+			<pos x="71" y="8" />
+			<rect l="0" t="0" r="183" b="18" />
+			<Visible val="True" />
+			<Anchor val="Top, Left, Right" />
+			<label val="리그 순위" />
+			<OutlineColor val="#2F260DFF" />
+			<ShadowColor val="#0000004C" />
+			<color val="#FCFF00FF" />
+			<halign val="0" />
+			<valign val="1" />
+			<FontName val="나눔고딕 ExtraBold" />
+			<FontSize val="13" />
+			<TextTrimming val="None" />
+			<style val="16" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+			<Padding val="0, 0, 0, 0" />
+			<FitToContent val="False" />
+		</child>
+	</base>
+</refresh>

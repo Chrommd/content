@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="NORMAL">
+    <asset type="IMAGE" name="asset_btn_guild_magic_n" path="btn_guild_magic.png">
+      <rect l="0" t="0" r="128" b="79" />
+    </asset>
+    <object name="btn_guild_magic_n" ani="ani_btn_guild_magic_n">
+      <asset type="IMAGE" link="asset_btn_guild_magic_n" />
+    </object>
+    <param type="RES" x="128" y="79" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_btn_guild_magic_n">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="OVER">
+    <asset type="IMAGE" name="asset_btn_guild_magic_n1" path="btn_guild_magic.png">
+      <rect l="0" t="0" r="128" b="79" />
+    </asset>
+    <asset type="IMAGE" name="asset_btn_team_hover" path="btn_team_hover.png">
+      <rect l="0" t="0" r="124" b="75" />
+    </asset>
+    <asset type="IMAGE" name="asset_btn_team_effect" path="btn_team_effect.png">
+      <rect l="0" t="0" r="50" b="46" />
+    </asset>
+    <object name="btn_guild_magic_n1" ani="ani_btn_guild_magic_n1">
+      <asset type="IMAGE" link="asset_btn_guild_magic_n1" />
+    </object>
+    <object name="btn_team_hover" ani="ani_btn_team_hover">
+      <asset type="IMAGE" link="asset_btn_team_hover" />
+    </object>
+    <object name="btn_team_effect" ani="ani_btn_team_effect">
+      <asset type="IMAGE" link="asset_btn_team_effect" />
+    </object>
+    <param type="RES" x="128" y="79" />
+    <param type="LOOP" cnt="-1" pendulum="0" />
+    <anim name="ani_btn_guild_magic_n1">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_btn_team_hover">
+      <frame cnt="0">
+        <posx val="0.015625" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.5" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_btn_team_effect">
+      <frame cnt="0">
+        <posx val="0.5" />
+        <posy val="0.430379746835443" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0.5" />
+        <posy val="0.4303797" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="180" easeValue="0.0,0.0,0.2,1.0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="1000">
+        <posx val="0.5" />
+        <posy val="0.4303797" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="180" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="1500">
+        <posx val="0.5" />
+        <posy val="0.4303797" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="360" easeValue="0.0,0.0,0.2,1.0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="1967">
+        <posx val="0.5" />
+        <posy val="0.430379746835443" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="360" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="DOWN">
+    <asset type="IMAGE" name="asset_btn_guild_speed_n1" path="btn_guild_magic.png">
+      <rect l="0" t="0" r="128" b="79" />
+    </asset>
+    <object name="btn_guild_speed_n1" ani="ani_btn_guild_speed_n1">
+      <asset type="IMAGE" link="asset_btn_guild_speed_n1" />
+    </object>
+    <param type="RES" x="128" y="79" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_btn_guild_speed_n1">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="DISABLE">
+    <param type="RES" x="128" y="79" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+  </scene>
+  <scene name="ENTER">
+    <asset type="IMAGE" name="asset_btn_guild_magic_n1" path="btn_guild_magic.png">
+      <rect l="0" t="0" r="128" b="79" />
+    </asset>
+    <asset type="IMAGE" name="asset_btn_team_hover" path="btn_team_hover.png">
+      <rect l="0" t="0" r="124" b="75" />
+    </asset>
+    <asset type="IMAGE" name="asset_btn_team_effect" path="btn_team_effect.png">
+      <rect l="0" t="0" r="50" b="46" />
+    </asset>
+    <object name="btn_guild_magic_n1" ani="ani_btn_guild_magic_n1">
+      <asset type="IMAGE" link="asset_btn_guild_magic_n1" />
+    </object>
+    <object name="btn_team_hover" ani="ani_btn_team_hover">
+      <asset type="IMAGE" link="asset_btn_team_hover" />
+    </object>
+    <object name="btn_team_effect" ani="ani_btn_team_effect">
+      <asset type="IMAGE" link="asset_btn_team_effect" />
+    </object>
+    <param type="RES" x="128" y="79" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_btn_guild_magic_n1">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_btn_team_hover">
+      <frame cnt="0">
+        <posx val="0.015625" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="300">
+        <posx val="0.015625" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.5" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_btn_team_effect">
+      <frame cnt="0">
+        <posx val="0.5" />
+        <posy val="0.4303797" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="180" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="300">
+        <posx val="0.5" />
+        <posy val="0.4303797" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="180" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="LEAVE">
+    <asset type="IMAGE" name="asset_btn_team_red_n1" path="btn_guild_magic.png">
+      <rect l="0" t="0" r="128" b="79" />
+    </asset>
+    <asset type="IMAGE" name="asset_btn_team_hover" path="btn_team_hover.png">
+      <rect l="0" t="0" r="124" b="75" />
+    </asset>
+    <asset type="IMAGE" name="asset_btn_team_effect" path="btn_team_effect.png">
+      <rect l="0" t="0" r="50" b="46" />
+    </asset>
+    <object name="btn_team_red_n1" ani="ani_btn_team_red_n1">
+      <asset type="IMAGE" link="asset_btn_team_red_n1" />
+    </object>
+    <object name="btn_team_hover" ani="ani_btn_team_hover">
+      <asset type="IMAGE" link="asset_btn_team_hover" />
+    </object>
+    <object name="btn_team_effect" ani="ani_btn_team_effect">
+      <asset type="IMAGE" link="asset_btn_team_effect" />
+    </object>
+    <param type="RES" x="128" y="79" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_btn_team_red_n1">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="300">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_btn_team_hover">
+      <frame cnt="0">
+        <posx val="0.015625" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.5" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="300">
+        <posx val="0.015625" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_btn_team_effect">
+      <frame cnt="0">
+        <posx val="0.5" />
+        <posy val="0.4303797" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="180" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="300">
+        <posx val="0.5" />
+        <posy val="0.4303797" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="180" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="care_effect_tooltip_window_Animation.xml" />
+  </properties>
+  <base type="WNDEX" subclass="" name="effect_tooltip">
+    <asset type="BG" path="frm_alert_CenterMiddle.png" tileMode="Tile">
+      <tex x="4" y="4" />
+      <rect l="40" t="30" r="182" b="53" />
+    </asset>
+    <asset type="EDGE_LT" path="frm_alert_LeftTop.png" tileMode="Stretch">
+      <tex x="40" y="30" />
+      <rect l="0" t="0" r="40" b="30" />
+    </asset>
+    <asset type="EDGE_RT" path="frm_alert_RightTop.png" tileMode="Stretch">
+      <tex x="40" y="30" />
+      <rect l="0" t="0" r="40" b="30" />
+    </asset>
+    <asset type="EDGE_LB" path="frm_alert_LeftBottom.png" tileMode="Stretch">
+      <tex x="40" y="20" />
+      <rect l="0" t="0" r="40" b="20" />
+    </asset>
+    <asset type="EDGE_RB" path="frm_alert_RightBottom.png" tileMode="Stretch">
+      <tex x="40" y="20" />
+      <rect l="0" t="0" r="40" b="20" />
+    </asset>
+    <asset type="FRAME_T" path="frm_alert_CenterTop.png" tileMode="Tile">
+      <tex x="4" y="30" />
+      <rect l="40" t="0" r="182" b="30" />
+    </asset>
+    <asset type="FRAME_B" path="frm_alert_CenterBottom.png" tileMode="Tile">
+      <tex x="4" y="20" />
+      <rect l="40" t="0" r="182" b="20" />
+    </asset>
+    <asset type="FRAME_L" path="frm_alert_LeftMiddle.png" tileMode="Tile">
+      <tex x="40" y="4" />
+      <rect l="0" t="30" r="40" b="53" />
+    </asset>
+    <asset type="FRAME_R" path="frm_alert_RightMiddle.png" tileMode="Tile">
+      <tex x="40" y="4" />
+      <rect l="0" t="30" r="40" b="53" />
+    </asset>
+    <Visible val="True" />
+    <Anchor val="None" />
+    <pos x="-5" y="-5" />
+    <rect l="0" t="0" r="262" b="103" />
+    <Dragable val="False" />
+    <StartPosition val="None" />
+    <EscKeyAction val="Close" />
+    <IsHitTestVisible val="True" />
+    <ClipChildren val="False" />
+    <child type="PICTURE" name="bg_line" subclass="">
+      <asset type="STATIC">game_tooltip_line.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="24" y="44" />
+      <rect l="0" t="0" r="214" b="4" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="TEXTAREA" name="txt_tooltip_effect" subclass="">
+      <asset type="BG" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="8" t="8" r="205" b="21" />
+      </asset>
+      <asset type="EDGE_LT" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_RT" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_LB" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_RB" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="FRAME_T" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="8" t="0" r="205" b="8" />
+      </asset>
+      <asset type="FRAME_B" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="8" t="0" r="205" b="8" />
+      </asset>
+      <asset type="FRAME_L" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="8" r="8" b="21" />
+      </asset>
+      <asset type="FRAME_R" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="8" r="8" b="21" />
+      </asset>
+      <asset type="CARET" path="">
+        <rpos x="0" y="0" />
+        <rect l="0" t="0" r="0" b="0" />
+      </asset>
+      <pos x="20" y="47" />
+      <rect l="0" t="0" r="221" b="37" />
+      <Visible val="True" />
+      <Anchor val="None" />
+      <Editable val="False" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#030200" />
+      <SelectionBrush val="#FF0000" />
+      <color val="#FFFFFFFF" />
+      <style val="1" />
+      <halign val="0" />
+      <padding l="0" t="0" r="0" b="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="13" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="LABEL" name="txt_tooltip_effect_title" subclass="">
+      <label val="ㅎㅎㅎ" />
+      <pos x="20" y="20" />
+      <rect l="0" t="0" r="221" b="21" />
+      <Visible val="True" />
+      <Anchor val="None" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#030200" />
+      <color val="#FFB601" />
+      <halign val="0" />
+      <valign val="1" />
+      <FontName val="나눔고딕" />
+      <FontSize val="16" />
+      <TextTrimming val="None" />
+      <style val="1" />
+      <IsHitTestVisible val="False" />
+      <ClipChildren val="False" />
+      <Padding val="0, 0, 0, 0" />
+    </child>
+  </base>
+</refresh>

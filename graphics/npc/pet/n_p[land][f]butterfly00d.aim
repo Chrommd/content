@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2" prefix="n_p[land][f]butterfly00a_">
+    <event animation="[a]idle00">
+        <function>PlaySND($asset, "pet_vo_butterfly2", "sound", "-var 0")</function>
+        <time>0.4200</time>
+        <freq>10</freq>
+    </event>
+    <event animation="[h]idle00">
+        <function>PlaySND($asset, "pet_vo_butterfly2", "sound", "-var 0")</function>
+        <time>0.8945</time>
+        <freq>15</freq>
+    </event>
+    <event animation="attach00">
+        <function>PlaySND($asset, "pet_butterfly_sfx2", "sound", "-var 0")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="attach00">
+        <function>PlaySND($asset, "pet_butterfly_sfx3", "sound", "-var 0")</function>
+        <time>1.1070</time>
+        <freq>100</freq>
+    </event>
+    <event animation="detach00">
+        <function>PlaySND($asset, "", "sound", "-var 0 -my[pet_butterfly_sfx1]")</function>
+        <time>0.0000</time>
+        <freq>80</freq>
+    </event>
+    <event animation="detach00">
+        <function>PlaySND($asset, "pet_butterfly_flap", "sound", "-var 0")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="idle00">
+        <function>PlaySND($asset, "pet_vo_butterfly", "sound", "-var 2")</function>
+        <time>1.4787</time>
+        <freq>50</freq>
+    </event>
+    <event animation="idle00">
+        <function>PlaySND($asset, "pet_butterfly_flap", "sound", "-var 0")</function>
+        <time>2.9801</time>
+        <freq>20</freq>
+    </event>
+    <event animation="move00_00">
+        <function>PlaySND($asset, "", "sound", "-var 0 -my[pet_butterfly_sfx1]")</function>
+        <time>1.9740</time>
+        <freq>20</freq>
+    </event>
+    <event animation="move01_00">
+        <function>PlaySND($asset, "pet_vo_butterfly", "sound", "-var 2")</function>
+        <time>0.4209</time>
+        <freq>30</freq>
+    </event>
+    <event animation="move01_00">
+        <function>PlaySND($asset, "pet_butterfly_sfx1", "sound", "-var 0")</function>
+        <time>0.4260</time>
+        <freq>30</freq>
+    </event>
+    <event animation="spur00_00">
+        <function>PlaySND($asset, "pet_butterfly_sfx", "sound", "-var 2")</function>
+        <time>0.6995</time>
+        <freq>100</freq>
+    </event>
+    <event animation="spur00_00">
+        <function>PlaySND($asset, "pet_butterfly_flap", "sound", "-var 0")</function>
+        <time>0.6370</time>
+        <freq>80</freq>
+    </event>
+    <event animation="_initialize_">
+        <function>PlayFX($asset, "pet_land_butterfly00d", "1", "-attach ")</function>
+        <time>0.0000</time>
+        <freq>ONCE</freq>
+    </event>
+    <event animation="_initialize_">
+        <function>PlayFX($asset, "pet_land_butterfly00d", "2", "-attach ")</function>
+        <time>0.0000</time>
+        <freq>ONCE</freq>
+    </event>
+    <event animation="_initialize_">
+        <function>PlayFX($asset, "pet_land_butterfly00d", "3", "-attach ")</function>
+        <time>0.0000</time>
+        <freq>ONCE</freq>
+    </event>
+    <dummy name="name" parent="Dummyroot" sync="FALSE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.4292</offsetY>
+        <offsetZ>-0.2275</offsetZ>
+    </dummy>
+    <dummy name="1" parent="Dummy01" sync="FALSE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.0000</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <dummy name="2" parent="Dummy02" sync="FALSE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.0000</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <dummy name="3" parent="Dummy03" sync="FALSE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.0000</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <action category="" state="IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>idle00</main>
+    </action>
+    <action category="" state="MOVE_2ND" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>move00_00</main>
+    </action>
+    <action category="" state="MOVE_3RD" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>move01_00</main>
+    </action>
+    <action category="" state="PET_ATTACH" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>attach00</main>
+    </action>
+    <action category="" state="PET_ATTACH_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>[a]idle00</main>
+    </action>
+    <action category="" state="PET_BORN_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>[h]idle00</main>
+    </action>
+    <action category="" state="PET_DETACH" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>detach00</main>
+    </action>
+</aim>

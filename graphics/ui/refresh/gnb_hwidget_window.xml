@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+  </properties>
+  <base type="WND" subclass="" name="anchor">
+    <Visible val="True" />
+    <Anchor val="Bottom, Left, Right" />
+    <pos x="0" y="625" />
+    <rect l="0" t="0" r="1024" b="143" />
+    <IsHitTestVisible val="True" />
+    <child type="STACKPANEL" name="StackPanel" subclass="">
+      <Visible val="True" />
+      <Anchor val="Bottom, Left, Right" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="1024" b="142" />
+      <Orientation val="" />
+      <HAlign val="Center" />
+      <VAlign val="Bottom" />
+      <IsHitTestVisible val="True" />
+      <base type="WND" subclass="" name="global_navigation">
+        <Visible val="True" />
+        <Anchor val="Bottom" />
+        <pos x="0" y="0" />
+        <rect l="0" t="0" r="1024" b="142" />
+        <IsHitTestVisible val="True" />
+        <base type="WNDEX" subclass="" name="hwidget_bg">
+          <asset type="BG" path="hwidget_bg_frm_05.png">
+            <tex x="2" y="2" />
+            <rect l="16" t="16" r="828" b="56" />
+          </asset>
+          <asset type="EDGE_LT" path="hwidget_bg_frm_01.png">
+            <tex x="16" y="16" />
+            <rect l="0" t="0" r="16" b="16" />
+          </asset>
+          <asset type="EDGE_RT" path="hwidget_bg_frm_03.png">
+            <tex x="16" y="16" />
+            <rect l="0" t="0" r="16" b="16" />
+          </asset>
+          <asset type="EDGE_LB" path="hwidget_bg_frm_07.png">
+            <tex x="16" y="16" />
+            <rect l="0" t="0" r="16" b="16" />
+          </asset>
+          <asset type="EDGE_RB" path="hwidget_bg_frm_09.png">
+            <tex x="16" y="16" />
+            <rect l="0" t="0" r="16" b="16" />
+          </asset>
+          <asset type="FRAME_T" path="hwidget_bg_frm_02.png">
+            <tex x="2" y="16" />
+            <rect l="16" t="0" r="828" b="16" />
+          </asset>
+          <asset type="FRAME_B" path="hwidget_bg_frm_08.png">
+            <tex x="2" y="16" />
+            <rect l="16" t="0" r="828" b="16" />
+          </asset>
+          <asset type="FRAME_L" path="hwidget_bg_frm_04.png">
+            <tex x="16" y="2" />
+            <rect l="0" t="16" r="16" b="56" />
+          </asset>
+          <asset type="FRAME_R" path="hwidget_bg_frm_06.png">
+            <tex x="16" y="2" />
+            <rect l="0" t="16" r="16" b="56" />
+          </asset>
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <pos x="85" y="14" />
+          <rect l="0" t="0" r="860" b="88" />
+          <Dragable val="False" />
+          <StartPosition val="None" />
+          <EscKeyAction val="None" />
+          <IsHitTestVisible val="True" />
+          <child type="BUTTON" subclass="" name="hwidget_btn_slot01">
+            <asset type="NORMAL">hwidget_btn_slot_n.png</asset>
+            <asset type="DOWN">hwidget_btn_slot_d.png</asset>
+            <asset type="OVER">hwidget_btn_slot_o.png</asset>
+            <asset type="DISABLE">
+            </asset>
+            <snd type="OVER">
+            </snd>
+            <snd type="DOWN">
+            </snd>
+            <snd type="RELEASE">
+            </snd>
+            <pos x="21" y="8" />
+            <rect l="0" t="0" r="68" b="68" />
+            <Visible val="True" />
+            <IsHitTestVisible val="True" />
+            <Anchor val="Top, Left" />
+          </child>
+          <child type="BUTTON" subclass="" name="hwidget_btn_slot02">
+            <asset type="NORMAL">hwidget_btn_slot_n.png</asset>
+            <asset type="DOWN">hwidget_btn_slot_d.png</asset>
+            <asset type="OVER">hwidget_btn_slot_o.png</asset>
+            <asset type="DISABLE">
+            </asset>
+            <snd type="OVER">
+            </snd>
+            <snd type="DOWN">
+            </snd>
+            <snd type="RELEASE">
+            </snd>
+            <pos x="91" y="8" />
+            <rect l="0" t="0" r="68" b="68" />
+            <Visible val="True" />
+            <IsHitTestVisible val="True" />
+            <Anchor val="Top, Left" />
+          </child>
+          <child type="BUTTON" subclass="" name="hwidget_btn_slot03">
+            <asset type="NORMAL">hwidget_btn_slot_n.png</asset>
+            <asset type="DOWN">hwidget_btn_slot_d.png</asset>
+            <asset type="OVER">hwidget_btn_slot_o.png</asset>
+            <asset type="DISABLE">
+            </asset>
+            <snd type="OVER">
+            </snd>
+            <snd type="DOWN">
+            </snd>
+            <snd type="RELEASE">
+            </snd>
+            <pos x="161" y="8" />
+            <rect l="0" t="0" r="68" b="68" />
+            <Visible val="True" />
+            <IsHitTestVisible val="True" />
+            <Anchor val="Top, Left" />
+          </child>
+          <child type="BUTTON" subclass="" name="hwidget_btn_slot04">
+            <asset type="NORMAL">hwidget_btn_slot_n.png</asset>
+            <asset type="DOWN">hwidget_btn_slot_d.png</asset>
+            <asset type="OVER">hwidget_btn_slot_o.png</asset>
+            <asset type="DISABLE">
+            </asset>
+            <snd type="OVER">
+            </snd>
+            <snd type="DOWN">
+            </snd>
+            <snd type="RELEASE">
+            </snd>
+            <pos x="231" y="8" />
+            <rect l="0" t="0" r="68" b="68" />
+            <Visible val="True" />
+            <IsHitTestVisible val="True" />
+            <Anchor val="Top, Left" />
+          </child>
+          <child type="BUTTON" subclass="" name="hwidget_btn_slot05">
+            <asset type="NORMAL">hwidget_btn_slot_n.png</asset>
+            <asset type="DOWN">hwidget_btn_slot_d.png</asset>
+            <asset type="OVER">hwidget_btn_slot_o.png</asset>
+            <asset type="DISABLE">
+            </asset>
+            <snd type="OVER">
+            </snd>
+            <snd type="DOWN">
+            </snd>
+            <snd type="RELEASE">
+            </snd>
+            <pos x="301" y="8" />
+            <rect l="0" t="0" r="68" b="68" />
+            <Visible val="True" />
+            <IsHitTestVisible val="True" />
+            <Anchor val="Top, Left" />
+          </child>
+          <child type="BUTTON" subclass="" name="hwidget_btn_slot06">
+            <asset type="NORMAL">hwidget_btn_slot_n.png</asset>
+            <asset type="DOWN">hwidget_btn_slot_d.png</asset>
+            <asset type="OVER">hwidget_btn_slot_o.png</asset>
+            <asset type="DISABLE">
+            </asset>
+            <snd type="OVER">
+            </snd>
+            <snd type="DOWN">
+            </snd>
+            <snd type="RELEASE">
+            </snd>
+            <pos x="491" y="8" />
+            <rect l="0" t="0" r="68" b="68" />
+            <Visible val="True" />
+            <IsHitTestVisible val="True" />
+            <Anchor val="Top, Left" />
+          </child>
+          <child type="BUTTON" subclass="" name="hwidget_btn_slot07">
+            <asset type="NORMAL">hwidget_btn_slot_n.png</asset>
+            <asset type="DOWN">hwidget_btn_slot_d.png</asset>
+            <asset type="OVER">hwidget_btn_slot_o.png</asset>
+            <asset type="DISABLE">
+            </asset>
+            <snd type="OVER">
+            </snd>
+            <snd type="DOWN">
+            </snd>
+            <snd type="RELEASE">
+            </snd>
+            <pos x="561" y="8" />
+            <rect l="0" t="0" r="68" b="68" />
+            <Visible val="True" />
+            <IsHitTestVisible val="True" />
+            <Anchor val="Top, Left" />
+          </child>
+          <child type="BUTTON" subclass="" name="hwidget_btn_slot08">
+            <asset type="NORMAL">hwidget_btn_slot_n.png</asset>
+            <asset type="DOWN">hwidget_btn_slot_d.png</asset>
+            <asset type="OVER">hwidget_btn_slot_o.png</asset>
+            <asset type="DISABLE">
+            </asset>
+            <snd type="OVER">
+            </snd>
+            <snd type="DOWN">
+            </snd>
+            <snd type="RELEASE">
+            </snd>
+            <pos x="631" y="8" />
+            <rect l="0" t="0" r="68" b="68" />
+            <Visible val="True" />
+            <IsHitTestVisible val="True" />
+            <Anchor val="Top, Left" />
+          </child>
+          <child type="BUTTON" subclass="" name="hwidget_btn_slot09">
+            <asset type="NORMAL">hwidget_btn_slot_n.png</asset>
+            <asset type="DOWN">hwidget_btn_slot_d.png</asset>
+            <asset type="OVER">hwidget_btn_slot_o.png</asset>
+            <asset type="DISABLE">
+            </asset>
+            <snd type="OVER">
+            </snd>
+            <snd type="DOWN">
+            </snd>
+            <snd type="RELEASE">
+            </snd>
+            <pos x="701" y="8" />
+            <rect l="0" t="0" r="68" b="68" />
+            <Visible val="True" />
+            <IsHitTestVisible val="True" />
+            <Anchor val="Top, Left" />
+          </child>
+          <child type="BUTTON" subclass="" name="hwidget_btn_slot10">
+            <asset type="NORMAL">hwidget_btn_slot_n.png</asset>
+            <asset type="DOWN">hwidget_btn_slot_d.png</asset>
+            <asset type="OVER">hwidget_btn_slot_o.png</asset>
+            <asset type="DISABLE">
+            </asset>
+            <snd type="OVER">
+            </snd>
+            <snd type="DOWN">
+            </snd>
+            <snd type="RELEASE">
+            </snd>
+            <pos x="771" y="8" />
+            <rect l="0" t="0" r="68" b="68" />
+            <Visible val="True" />
+            <IsHitTestVisible val="True" />
+            <Anchor val="Top, Left" />
+          </child>
+        </base>
+        <child type="PANEL" name="hwidget_overmenu" subclass="">
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <pos x="104" y="22" />
+          <rect l="0" t="0" r="68" b="68" />
+          <IsHitTestVisible val="True" />
+          <child type="PICTURE" name="hwidget_btn_slot_back" subclass="">
+            <asset type="STATIC">hwidget_btn_slot_back.png</asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="0" y="0" />
+            <rect l="0" t="0" r="68" b="68" />
+            <center x="0" y="0" />
+            <IsHitTestVisible val="True" />
+          </child>
+          <child type="BUTTON" subclass="" name="hwidget_btn_transfer">
+            <asset type="NORMAL">hwidget_btn_om_transfer_n.png</asset>
+            <asset type="DOWN">hwidget_btn_om_transfer_d.png</asset>
+            <asset type="OVER">hwidget_btn_om_transfer_o.png</asset>
+            <asset type="DISABLE">
+            </asset>
+            <snd type="OVER">
+            </snd>
+            <snd type="DOWN">
+            </snd>
+            <snd type="RELEASE">
+            </snd>
+            <pos x="5" y="5" />
+            <rect l="0" t="0" r="30" b="30" />
+            <Visible val="True" />
+            <IsHitTestVisible val="True" />
+            <Anchor val="Top, Left" />
+          </child>
+          <child type="BUTTON" subclass="" name="hwidget_btn_care">
+            <asset type="NORMAL">hwidget_btn_om_care_n.png</asset>
+            <asset type="DOWN">hwidget_btn_om_care_d.png</asset>
+            <asset type="OVER">hwidget_btn_om_care_o.png</asset>
+            <asset type="DISABLE">
+            </asset>
+            <snd type="OVER">
+            </snd>
+            <snd type="DOWN">
+            </snd>
+            <snd type="RELEASE">
+            </snd>
+            <pos x="34" y="5" />
+            <rect l="0" t="0" r="30" b="30" />
+            <Visible val="True" />
+            <IsHitTestVisible val="True" />
+            <Anchor val="Top, Left" />
+          </child>
+          <child type="BUTTON" subclass="" name="hwidget_btn_info">
+            <asset type="NORMAL">hwidget_btn_om_info_n.png</asset>
+            <asset type="DOWN">hwidget_btn_om_info_d.png</asset>
+            <asset type="OVER">hwidget_btn_om_info_o.png</asset>
+            <asset type="DISABLE">
+            </asset>
+            <snd type="OVER">
+            </snd>
+            <snd type="DOWN">
+            </snd>
+            <snd type="RELEASE">
+            </snd>
+            <pos x="5" y="34" />
+            <rect l="0" t="0" r="30" b="30" />
+            <Visible val="True" />
+            <IsHitTestVisible val="True" />
+            <Anchor val="Top, Left" />
+          </child>
+          <child type="PICTURE" name="icon_feeling" subclass="">
+            <asset type="STATIC">
+            </asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="40" y="40" />
+            <rect l="0" t="0" r="17" b="17" />
+            <center x="0" y="0" />
+            <IsHitTestVisible val="True" />
+          </child>
+        </child>
+      </base>
+    </child>
+  </base>
+</refresh>

@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="intro_enter_desktop_Animation.xml" />
+  </properties>
+  <base type="WND" subclass="" name="anchor">
+    <Visible val="True" />
+    <Anchor val="Top, Bottom, Left, Right" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="1024" b="768" />
+    <IsHitTestVisible val="True" />
+    <ClipChildren val="False" />
+    <base type="WND" subclass="" name="anchor_bg">
+      <Visible val="True" />
+      <Anchor val="Top, Bottom, Left, Right" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="1024" b="768" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <child type="PICTURE" name="bg_white" subclass="">
+        <asset type="STATIC">bg_white.png</asset>
+        <Visible val="True" />
+        <Anchor val="Top, Bottom, Left, Right" />
+        <pos x="0" y="0" />
+        <rect l="0" t="0" r="1024" b="768" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+    </base>
+    <child type="STACKPANEL" name="stack_logo" subclass="">
+      <Visible val="True" />
+      <Anchor val="Top, Bottom, Left, Right" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="1024" b="768" />
+      <Orientation val="Vertical" />
+      <HAlign val="Center" />
+      <VAlign val="Center" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <base type="WND" subclass="" name="logo">
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="0" y="0" />
+        <rect l="0" t="0" r="1024" b="768" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <child type="PICTURE" name="img_logo_ntreev2" subclass="">
+          <asset type="STATIC">logo_ntreev.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="411" y="228" />
+          <rect l="0" t="0" r="202" b="202" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="img_logo_ntreev" subclass="">
+          <asset type="STATIC">logo_ntreev2.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="411" y="228" />
+          <rect l="0" t="0" r="202" b="202" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+      </base>
+    </child>
+    <child type="STACKPANEL" name="stack_enter" subclass="">
+      <Visible val="True" />
+      <Anchor val="Bottom, Left, Right" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="1024" b="768" />
+      <Orientation val="Vertical" />
+      <HAlign val="Center" />
+      <VAlign val="Bottom" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <base type="WND" subclass="" name="underbar">
+        <Visible val="True" />
+        <Anchor val="Bottom, Left, Right" />
+        <pos x="0" y="0" />
+        <rect l="0" t="0" r="1024" b="768" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <child type="PICTURE" name="bg_intro_line" subclass="">
+          <asset type="STATIC">bg_intro_line.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="220" y="615" />
+          <rect l="0" t="0" r="584" b="78" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="intro_bar" subclass="">
+          <asset type="STATIC">intro_bar.png</asset>
+          <Visible val="True" />
+          <Anchor val="Bottom" />
+          <pos x="266" y="734" />
+          <rect l="0" t="0" r="491" b="24" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="ANIMBUTTON" name="btn_enter" subclass="">
+          <asset type="GROUP">intro_enter_desktop_btn_enter.xml</asset>
+          <asset type="NORMAL">
+          </asset>
+          <asset type="DOWN">
+          </asset>
+          <asset type="OVER">
+          </asset>
+          <asset type="DISABLE">
+          </asset>
+          <asset type="ENTER">
+          </asset>
+          <asset type="LEAVE">
+          </asset>
+          <snd type="OVER">ui_btn_menu_over</snd>
+          <snd type="DOWN">ui_btn_menu_click</snd>
+          <snd type="RELEASE">ui_btn_menu_release;ui_btn_title_click</snd>
+          <pos x="355" y="638" />
+          <rect l="0" t="0" r="314" b="46" />
+          <Visible val="False" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+          <Anchor val="None" />
+          <IsDefaultButton val="False" />
+        </child>
+      </base>
+    </child>
+    <child type="STACKPANEL" name="stack_alicia_logo" subclass="">
+      <Visible val="True" />
+      <Anchor val="Top, Left, Right" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="1024" b="239" />
+      <Orientation val="Vertical" />
+      <HAlign val="Center" />
+      <VAlign val="Top" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <child type="PANEL" name="alicia_logo" subclass="">
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <embed src="" />
+        <pos x="0" y="0" />
+        <rect l="0" t="0" r="1024" b="239" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <child type="PICTURE" name="bg_alicia_logo" subclass="">
+          <asset type="ANIMATION">intro_enter_desktop_bg_alicia_logo.xml</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="386" y="83" />
+          <rect l="0" t="0" r="265" b="136" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+      </child>
+    </child>
+  </base>
+</refresh>

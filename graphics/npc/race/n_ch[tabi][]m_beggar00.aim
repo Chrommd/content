@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <event animation="00">
+        <function>PlaySND($asset, "npc_cheer_man_b1", "", "-var 0")</function>
+        <time>0.3223</time>
+        <freq>50</freq>
+    </event>
+    <event animation="00">
+        <function>PlaySND($asset, "npc_cheer_man_b2", "", "-var 0")</function>
+        <time>1.3160</time>
+        <freq>50</freq>
+    </event>
+    <event animation="01">
+        <function>PlaySND($asset, "npc_cheer_man_b1", "", "-var 0")</function>
+        <time>0.2947</time>
+        <freq>50</freq>
+    </event>
+    <event animation="01">
+        <function>PlaySND($asset, "npc_cheer_man_b2", "", "-var 0")</function>
+        <time>1.4563</time>
+        <freq>50</freq>
+    </event>
+    <action category="" state="G_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>01</main>
+    </action>
+    <action category="" state="G_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>00</main>
+    </action>
+</aim>

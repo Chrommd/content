@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="_Disabled_">
+    <param type="RES" x="20" y="20" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+  </scene>
+  <scene name="_Normal_">
+    <asset type="UI" name="asset_color_slot_Sel">
+      <rect l="0" t="0" r="30" b="30" />
+    </asset>
+    <asset type="UI" name="asset_icon_common_select">
+      <rect l="0" t="0" r="22" b="23" />
+    </asset>
+    <object name="color_slot_Sel" ani="ani_color_slot_Sel">
+      <asset type="UI" link="asset_color_slot_Sel" />
+    </object>
+    <object name="icon_common_select" ani="ani_icon_common_select">
+      <asset type="UI" link="asset_icon_common_select" />
+    </object>
+    <param type="RES" x="20" y="20" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_color_slot_Sel">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_common_select">
+      <frame cnt="0">
+        <posx val="0.25" />
+        <posy val="0.15" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Selected_">
+    <asset type="UI" name="asset_color_slot_Sel">
+      <rect l="0" t="0" r="30" b="30" />
+    </asset>
+    <asset type="UI" name="asset_icon_common_select">
+      <rect l="0" t="0" r="22" b="23" />
+    </asset>
+    <object name="color_slot_Sel" ani="ani_color_slot_Sel">
+      <asset type="UI" link="asset_color_slot_Sel" />
+    </object>
+    <object name="icon_common_select" ani="ani_icon_common_select">
+      <asset type="UI" link="asset_icon_common_select" />
+    </object>
+    <param type="RES" x="20" y="20" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_color_slot_Sel">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_common_select">
+      <frame cnt="0">
+        <posx val="0.25" />
+        <posy val="0.15" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <sound val="ui_btn_menu_page" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Over_">
+    <asset type="UI" name="asset_color_slot_Sel">
+      <rect l="0" t="0" r="30" b="30" />
+    </asset>
+    <asset type="UI" name="asset_icon_common_select">
+      <rect l="0" t="0" r="22" b="23" />
+    </asset>
+    <object name="color_slot_Sel" ani="ani_color_slot_Sel">
+      <asset type="UI" link="asset_color_slot_Sel" />
+    </object>
+    <object name="icon_common_select" ani="ani_icon_common_select">
+      <asset type="UI" link="asset_icon_common_select" />
+    </object>
+    <param type="RES" x="20" y="20" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_color_slot_Sel">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_common_select">
+      <frame cnt="0">
+        <posx val="0.25" />
+        <posy val="0.15" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

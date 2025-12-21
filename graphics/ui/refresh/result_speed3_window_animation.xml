@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="_Opening_">
+    <asset type="UI" name="asset_img_rank_base_3rd">
+      <rect l="0" t="0" r="144" b="126" />
+    </asset>
+    <asset type="UI" name="asset_img_3rd">
+      <rect l="0" t="0" r="52" b="32" />
+    </asset>
+    <asset type="UI" name="asset_result_arrow3">
+      <rect l="0" t="0" r="16" b="40" />
+    </asset>
+    <object name="img_rank_base_3rd" ani="ani_img_rank_base_3rd">
+      <asset type="UI" link="asset_img_rank_base_3rd" />
+    </object>
+    <object name="img_3rd" ani="ani_img_3rd">
+      <asset type="UI" link="asset_img_3rd" />
+    </object>
+    <object name="result_arrow3" ani="ani_result_arrow3">
+      <asset type="UI" link="asset_result_arrow3" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_img_rank_base_3rd">
+      <frame cnt="0">
+        <posx val="-0.029296875" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="667">
+        <posx val="0" easeValue="0.0,1.0,1.0,1.0" />
+        <posy val="0" easeValue="0.0,1.0,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,1.0,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_3rd">
+      <frame cnt="0">
+        <posx val="0.06640625" />
+        <posy val="-0.015625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="667">
+        <posx val="0.06640625" easeValue="0.0,1.0,1.0,1.0" />
+        <posy val="0.0078125" easeValue="0.0,1.0,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,1.0,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_result_arrow3">
+      <frame cnt="0">
+        <posx val="0.115234375" />
+        <posy val="0.03125" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0.115234375" />
+        <posy val="0.03125" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="667">
+        <posx val="0.125" easeValue="0.0,1.0,1.0,1.0" />
+        <posy val="0.03125" easeValue="0.0,1.0,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,1.0,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Closing_">
+    <asset type="UI" name="asset_3rd">
+      <rect l="0" t="0" r="144" b="126" />
+    </asset>
+    <object name="3rd" ani="ani_3rd">
+      <asset type="UI" link="asset_3rd" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_3rd">
+      <frame cnt="0">
+        <posx val="0.25" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0.279296875" easeValue="1.0,0.0,1.0,1.0" />
+        <posy val="0" easeValue="1.0,0.0,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" easeValue="1.0,0.0,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

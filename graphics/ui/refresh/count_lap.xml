@@ -1,0 +1,245 @@
+﻿<refresh version="2">
+	<properties>
+		<property name="DPI" val="72" />
+		<property name="UIAnimation" val="count_lap_Animation.xml" />
+	</properties>
+	<base type="WNDEX" subclass="" name="WndEx">
+		<asset type="BG" path="" tileMode="Tile">
+			<tex x="0" y="0" />
+			<rect l="8" t="8" r="1008" b="752" />
+		</asset>
+		<asset type="EDGE_LT" path="" tileMode="Tile">
+			<tex x="0" y="0" />
+			<rect l="0" t="0" r="8" b="8" />
+		</asset>
+		<asset type="EDGE_RT" path="" tileMode="Tile">
+			<tex x="0" y="0" />
+			<rect l="0" t="0" r="8" b="8" />
+		</asset>
+		<asset type="EDGE_LB" path="" tileMode="Tile">
+			<tex x="0" y="0" />
+			<rect l="0" t="0" r="8" b="8" />
+		</asset>
+		<asset type="EDGE_RB" path="" tileMode="Tile">
+			<tex x="0" y="0" />
+			<rect l="0" t="0" r="8" b="8" />
+		</asset>
+		<asset type="FRAME_T" path="" tileMode="Tile">
+			<tex x="0" y="0" />
+			<rect l="8" t="0" r="1008" b="8" />
+		</asset>
+		<asset type="FRAME_B" path="" tileMode="Tile">
+			<tex x="0" y="0" />
+			<rect l="8" t="0" r="1008" b="8" />
+		</asset>
+		<asset type="FRAME_L" path="" tileMode="Tile">
+			<tex x="0" y="0" />
+			<rect l="0" t="8" r="8" b="752" />
+		</asset>
+		<asset type="FRAME_R" path="" tileMode="Tile">
+			<tex x="0" y="0" />
+			<rect l="0" t="8" r="8" b="752" />
+		</asset>
+		<pos x="0" y="0" />
+		<rect l="0" t="0" r="1024" b="768" />
+		<Visible val="True" />
+		<Anchor val="Top, Bottom, Left, Right" />
+		<snd type="SHOW"></snd>
+		<snd type="HIDE"></snd>
+		<Dragable val="False" />
+		<StartPosition val="None" />
+		<EscKeyAction val="None" />
+		<IsHitTestVisible val="True" />
+		<ClipChildren val="False" />
+		<child type="STACKPANEL" name="StackPanel" subclass="">
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="1024" b="768" />
+			<Visible val="True" />
+			<Anchor val="Top, Bottom, Left, Right" />
+			<Orientation val="Vertical" />
+			<HAlign val="Center" />
+			<VAlign val="Center" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<base type="WNDEX" subclass="" name="Finallap">
+				<asset type="BG" path="" tileMode="Tile">
+					<tex x="0" y="0" />
+					<rect l="8" t="8" r="1008" b="752" />
+				</asset>
+				<asset type="EDGE_LT" path="" tileMode="Tile">
+					<tex x="0" y="0" />
+					<rect l="0" t="0" r="8" b="8" />
+				</asset>
+				<asset type="EDGE_RT" path="" tileMode="Tile">
+					<tex x="0" y="0" />
+					<rect l="0" t="0" r="8" b="8" />
+				</asset>
+				<asset type="EDGE_LB" path="" tileMode="Tile">
+					<tex x="0" y="0" />
+					<rect l="0" t="0" r="8" b="8" />
+				</asset>
+				<asset type="EDGE_RB" path="" tileMode="Tile">
+					<tex x="0" y="0" />
+					<rect l="0" t="0" r="8" b="8" />
+				</asset>
+				<asset type="FRAME_T" path="" tileMode="Tile">
+					<tex x="0" y="0" />
+					<rect l="8" t="0" r="1008" b="8" />
+				</asset>
+				<asset type="FRAME_B" path="" tileMode="Tile">
+					<tex x="0" y="0" />
+					<rect l="8" t="0" r="1008" b="8" />
+				</asset>
+				<asset type="FRAME_L" path="" tileMode="Tile">
+					<tex x="0" y="0" />
+					<rect l="0" t="8" r="8" b="752" />
+				</asset>
+				<asset type="FRAME_R" path="" tileMode="Tile">
+					<tex x="0" y="0" />
+					<rect l="0" t="8" r="8" b="752" />
+				</asset>
+				<pos x="0" y="0" />
+				<rect l="0" t="0" r="1024" b="768" />
+				<Visible val="True" />
+				<Anchor val="Top, Bottom, Left, Right" />
+				<snd type="SHOW"></snd>
+				<snd type="HIDE"></snd>
+				<Dragable val="False" />
+				<StartPosition val="None" />
+				<EscKeyAction val="None" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+				<child type="PICTURE" name="txt_final" subclass="">
+					<asset type="STATIC">count_txt_final.png</asset>
+					<pos x="302" y="239" />
+					<rect l="0" t="0" r="394" b="122" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+				</child>
+				<child type="PICTURE" name="txt_final1" subclass="">
+					<asset type="STATIC">count_txt_final.png</asset>
+					<pos x="302" y="239" />
+					<rect l="0" t="0" r="394" b="122" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+				</child>
+				<child type="PICTURE" name="txt_2" subclass="">
+					<asset type="STATIC">count_txt_2.png</asset>
+					<pos x="336" y="225" />
+					<rect l="0" t="0" r="100" b="136" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+				</child>
+				<child type="PICTURE" name="txt_2_exp" subclass="">
+					<asset type="STATIC">count_txt_2.png</asset>
+					<pos x="336" y="225" />
+					<rect l="0" t="0" r="100" b="136" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+				</child>
+				<child type="PICTURE" name="txt_3" subclass="">
+					<asset type="STATIC">count_txt_3.png</asset>
+					<pos x="336" y="225" />
+					<rect l="0" t="0" r="100" b="136" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+				</child>
+				<child type="PICTURE" name="txt_3_exp" subclass="">
+					<asset type="STATIC">count_txt_3.png</asset>
+					<pos x="336" y="225" />
+					<rect l="0" t="0" r="100" b="136" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+				</child>
+				<child type="PICTURE" name="txt_4" subclass="">
+					<asset type="STATIC">count_txt_4.png</asset>
+					<pos x="355" y="185" />
+					<rect l="0" t="0" r="100" b="136" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+				</child>
+				<child type="PICTURE" name="txt_4_exp" subclass="">
+					<asset type="STATIC">count_txt_4.png</asset>
+					<pos x="355" y="185" />
+					<rect l="0" t="0" r="100" b="136" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+				</child>
+				<child type="PICTURE" name="txt_5" subclass="">
+					<asset type="STATIC">count_txt_5.png</asset>
+					<pos x="355" y="185" />
+					<rect l="0" t="0" r="100" b="136" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+				</child>
+				<child type="PICTURE" name="txt_5_exp" subclass="">
+					<asset type="STATIC">count_txt_5.png</asset>
+					<pos x="355" y="185" />
+					<rect l="0" t="0" r="100" b="136" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+				</child>
+				<child type="PICTURE" name="txt_inf" subclass="">
+					<asset type="STATIC">count_infinity.png</asset>
+					<pos x="323" y="248" />
+					<rect l="0" t="0" r="176" b="86" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+				</child>
+				<child type="PICTURE" name="txt_inf_exp" subclass="">
+					<asset type="STATIC">count_infinity.png</asset>
+					<pos x="323" y="248" />
+					<rect l="0" t="0" r="176" b="86" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+				</child>
+				<child type="PICTURE" name="txt_lap" subclass="">
+					<asset type="STATIC">count_txt_lap.png</asset>
+					<pos x="435" y="240" />
+					<rect l="0" t="0" r="236" b="144" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+				</child>
+			</base>
+		</child>
+	</base>
+</refresh>

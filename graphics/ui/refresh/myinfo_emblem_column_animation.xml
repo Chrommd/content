@@ -1,0 +1,476 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="_Normal_">
+    <asset type="UI" name="asset_btn_emblem_list_Normal">
+      <rect l="0" t="0" r="176" b="115" />
+    </asset>
+    <asset type="UI" name="asset_btn_emblem_list_Hover">
+      <rect l="0" t="0" r="176" b="115" />
+    </asset>
+    <asset type="UI" name="asset_btn_emblem_list_Disable">
+      <rect l="0" t="0" r="176" b="115" />
+    </asset>
+    <asset type="UI" name="asset_img_emblem">
+      <rect l="0" t="0" r="100" b="100" />
+    </asset>
+    <asset type="UI" name="asset_img_emblem_list_Select">
+      <rect l="0" t="0" r="176" b="115" />
+    </asset>
+    <asset type="UI" name="asset_img_emblem_rare">
+      <rect l="0" t="0" r="63" b="16" />
+    </asset>
+    <object name="btn_emblem_list_Normal" ani="ani_btn_emblem_list_Normal">
+      <asset type="UI" link="asset_btn_emblem_list_Normal" />
+    </object>
+    <object name="btn_emblem_list_Hover" ani="ani_btn_emblem_list_Hover">
+      <asset type="UI" link="asset_btn_emblem_list_Hover" />
+    </object>
+    <object name="btn_emblem_list_Disable" ani="ani_btn_emblem_list_Disable">
+      <asset type="UI" link="asset_btn_emblem_list_Disable" />
+    </object>
+    <object name="img_emblem" ani="ani_img_emblem">
+      <asset type="UI" link="asset_img_emblem" />
+    </object>
+    <object name="img_emblem_list_Select" ani="ani_img_emblem_list_Select">
+      <asset type="UI" link="asset_img_emblem_list_Select" />
+    </object>
+    <object name="img_emblem_rare" ani="ani_img_emblem_rare">
+      <asset type="UI" link="asset_img_emblem_rare" />
+    </object>
+    <param type="RES" x="176" y="115" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_btn_emblem_list_Normal">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_btn_emblem_list_Hover">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_btn_emblem_list_Disable">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_emblem">
+      <frame cnt="0">
+        <posx val="0.1988636" />
+        <posy val="-0.008695652" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_emblem_list_Select">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_emblem_rare">
+      <frame cnt="0">
+        <posx val="0.3238636" />
+        <posy val="0.7565218" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Over_">
+    <asset type="UI" name="asset_btn_emblem_list_Normal">
+      <rect l="0" t="0" r="176" b="115" />
+    </asset>
+    <asset type="UI" name="asset_btn_emblem_list_Hover">
+      <rect l="0" t="0" r="176" b="115" />
+    </asset>
+    <asset type="UI" name="asset_btn_emblem_list_Disable">
+      <rect l="0" t="0" r="176" b="115" />
+    </asset>
+    <asset type="UI" name="asset_img_emblem">
+      <rect l="0" t="0" r="100" b="100" />
+    </asset>
+    <asset type="UI" name="asset_img_emblem_list_Select">
+      <rect l="0" t="0" r="176" b="115" />
+    </asset>
+    <asset type="UI" name="asset_img_emblem_rare">
+      <rect l="0" t="0" r="63" b="16" />
+    </asset>
+    <object name="btn_emblem_list_Normal" ani="ani_btn_emblem_list_Normal">
+      <asset type="UI" link="asset_btn_emblem_list_Normal" />
+    </object>
+    <object name="btn_emblem_list_Hover" ani="ani_btn_emblem_list_Hover">
+      <asset type="UI" link="asset_btn_emblem_list_Hover" />
+    </object>
+    <object name="btn_emblem_list_Disable" ani="ani_btn_emblem_list_Disable">
+      <asset type="UI" link="asset_btn_emblem_list_Disable" />
+    </object>
+    <object name="img_emblem" ani="ani_img_emblem">
+      <asset type="UI" link="asset_img_emblem" />
+    </object>
+    <object name="img_emblem_list_Select" ani="ani_img_emblem_list_Select">
+      <asset type="UI" link="asset_img_emblem_list_Select" />
+    </object>
+    <object name="img_emblem_rare" ani="ani_img_emblem_rare">
+      <asset type="UI" link="asset_img_emblem_rare" />
+    </object>
+    <param type="RES" x="176" y="115" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_btn_emblem_list_Normal">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_btn_emblem_list_Hover">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_btn_emblem_list_Disable">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_emblem">
+      <frame cnt="0">
+        <posx val="0.1988636" />
+        <posy val="-0.008695652" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_emblem_list_Select">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_emblem_rare">
+      <frame cnt="0">
+        <posx val="0.3238636" />
+        <posy val="0.7565218" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Disabled_">
+    <asset type="UI" name="asset_btn_emblem_list_Normal">
+      <rect l="0" t="0" r="176" b="115" />
+    </asset>
+    <asset type="UI" name="asset_btn_emblem_list_Hover">
+      <rect l="0" t="0" r="176" b="115" />
+    </asset>
+    <asset type="UI" name="asset_btn_emblem_list_Disable">
+      <rect l="0" t="0" r="176" b="115" />
+    </asset>
+    <asset type="UI" name="asset_img_emblem">
+      <rect l="0" t="0" r="100" b="100" />
+    </asset>
+    <asset type="UI" name="asset_img_emblem_list_Select">
+      <rect l="0" t="0" r="176" b="115" />
+    </asset>
+    <object name="btn_emblem_list_Normal" ani="ani_btn_emblem_list_Normal">
+      <asset type="UI" link="asset_btn_emblem_list_Normal" />
+    </object>
+    <object name="btn_emblem_list_Hover" ani="ani_btn_emblem_list_Hover">
+      <asset type="UI" link="asset_btn_emblem_list_Hover" />
+    </object>
+    <object name="btn_emblem_list_Disable" ani="ani_btn_emblem_list_Disable">
+      <asset type="UI" link="asset_btn_emblem_list_Disable" />
+    </object>
+    <object name="img_emblem" ani="ani_img_emblem">
+      <asset type="UI" link="asset_img_emblem" />
+    </object>
+    <object name="img_emblem_list_Select" ani="ani_img_emblem_list_Select">
+      <asset type="UI" link="asset_img_emblem_list_Select" />
+    </object>
+    <param type="RES" x="176" y="115" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_btn_emblem_list_Normal">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_btn_emblem_list_Hover">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_btn_emblem_list_Disable">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_emblem">
+      <frame cnt="0">
+        <posx val="0.1988636" />
+        <posy val="-0.008695652" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_emblem_list_Select">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Selected_">
+    <asset type="UI" name="asset_Wnd1">
+      <rect l="0" t="0" r="176" b="115" />
+    </asset>
+    <asset type="UI" name="asset_btn_emblem_list_Normal">
+      <rect l="0" t="0" r="176" b="115" />
+    </asset>
+    <asset type="UI" name="asset_btn_emblem_list_Hover">
+      <rect l="0" t="0" r="176" b="115" />
+    </asset>
+    <asset type="UI" name="asset_btn_emblem_list_Disable">
+      <rect l="0" t="0" r="176" b="115" />
+    </asset>
+    <asset type="UI" name="asset_img_emblem">
+      <rect l="0" t="0" r="100" b="100" />
+    </asset>
+    <asset type="UI" name="asset_img_emblem_list_Select">
+      <rect l="0" t="0" r="176" b="115" />
+    </asset>
+    <asset type="UI" name="asset_img_emblem_rare">
+      <rect l="0" t="0" r="63" b="16" />
+    </asset>
+    <object name="Wnd1" ani="ani_Wnd1">
+      <asset type="UI" link="asset_Wnd1" />
+    </object>
+    <object name="btn_emblem_list_Normal" ani="ani_btn_emblem_list_Normal">
+      <asset type="UI" link="asset_btn_emblem_list_Normal" />
+    </object>
+    <object name="btn_emblem_list_Hover" ani="ani_btn_emblem_list_Hover">
+      <asset type="UI" link="asset_btn_emblem_list_Hover" />
+    </object>
+    <object name="btn_emblem_list_Disable" ani="ani_btn_emblem_list_Disable">
+      <asset type="UI" link="asset_btn_emblem_list_Disable" />
+    </object>
+    <object name="img_emblem" ani="ani_img_emblem">
+      <asset type="UI" link="asset_img_emblem" />
+    </object>
+    <object name="img_emblem_list_Select" ani="ani_img_emblem_list_Select">
+      <asset type="UI" link="asset_img_emblem_list_Select" />
+    </object>
+    <object name="img_emblem_rare" ani="ani_img_emblem_rare">
+      <asset type="UI" link="asset_img_emblem_rare" />
+    </object>
+    <param type="RES" x="176" y="115" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_Wnd1">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <sound val="ui_btn_menu_page" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_btn_emblem_list_Normal">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_btn_emblem_list_Hover">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_btn_emblem_list_Disable">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_emblem">
+      <frame cnt="0">
+        <posx val="0.1988636" />
+        <posy val="-0.008695652" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_emblem_list_Select">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_emblem_rare">
+      <frame cnt="0">
+        <posx val="0.3238636" />
+        <posy val="0.7565218" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

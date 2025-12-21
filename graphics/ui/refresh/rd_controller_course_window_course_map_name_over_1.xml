@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="NORMAL">
+    <asset type="IMAGE" name="asset_course_map_name_1" path="course_map_name_1.png">
+      <rect l="0" t="0" r="60" b="60" />
+    </asset>
+    <object name="course_map_name_1" ani="ani_course_map_name_1">
+      <asset type="IMAGE" link="asset_course_map_name_1" />
+    </object>
+    <param type="RES" x="85" y="85" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_course_map_name_1">
+      <frame cnt="0">
+        <posx val="0.5058824" />
+        <posy val="0.682353" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="OVER">
+    <asset type="IMAGE" name="asset_course_map_name_over_1" path="course_map_name_over_1.png">
+      <rect l="0" t="0" r="73" b="74" />
+    </asset>
+    <asset type="IMAGE" name="asset_course_map_select" path="course_map_select.png">
+      <rect l="0" t="0" r="42" b="46" />
+    </asset>
+    <object name="course_map_name_over_1" ani="ani_course_map_name_over_1">
+      <asset type="IMAGE" link="asset_course_map_name_over_1" />
+    </object>
+    <object name="course_map_select" ani="ani_course_map_select">
+      <asset type="IMAGE" link="asset_course_map_select" />
+    </object>
+    <param type="RES" x="85" y="85" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_course_map_name_over_1">
+      <frame cnt="0">
+        <posx val="0.517647058823529" />
+        <posy val="0.329411764705882" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="200">
+        <posx val="0.517647058823529" easeValue="0.0,0.0,0.5,1.0" />
+        <posy val="0.564705882352941" easeValue="0.0,0.0,0.5,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,0.0,0.5,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+    <anim name="ani_course_map_select">
+      <frame cnt="0">
+        <posx val="0.7764706" />
+        <posy val="0.8941177" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="133">
+        <posx val="0.776470588235294" />
+        <posy val="0.611764705882353" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="300">
+        <posx val="0.776470588235294" easeValue="0.0,0.0,0.6,0.8" />
+        <posy val="0.905882352941176" easeValue="0.0,0.0,0.6,0.8" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,0.0,0.6,0.8" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="367">
+        <posx val="0.776470588235294" />
+        <posy val="0.894117647058824" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="DOWN">
+    <asset type="IMAGE" name="asset_course_map_name_over_1" path="course_map_name_over_1.png">
+      <rect l="0" t="0" r="73" b="74" />
+    </asset>
+    <asset type="IMAGE" name="asset_course_map_select" path="course_map_select.png">
+      <rect l="0" t="0" r="42" b="46" />
+    </asset>
+    <object name="course_map_name_over_1" ani="ani_course_map_name_over_1">
+      <asset type="IMAGE" link="asset_course_map_name_over_1" />
+    </object>
+    <object name="course_map_select" ani="ani_course_map_select">
+      <asset type="IMAGE" link="asset_course_map_select" />
+    </object>
+    <param type="RES" x="85" y="85" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_course_map_name_over_1">
+      <frame cnt="0">
+        <posx val="0.5176471" />
+        <posy val="0.5647059" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.99" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+    <anim name="ani_course_map_select">
+      <frame cnt="0">
+        <posx val="0.7764706" />
+        <posy val="0.8941177" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="LEAVE">
+    <asset type="IMAGE" name="asset_course_map_name_1" path="course_map_name_1.png">
+      <rect l="0" t="0" r="60" b="60" />
+    </asset>
+    <asset type="IMAGE" name="asset_course_map_name_over_1" path="course_map_name_over_1.png">
+      <rect l="0" t="0" r="73" b="74" />
+    </asset>
+    <asset type="IMAGE" name="asset_course_map_select" path="course_map_select.png">
+      <rect l="0" t="0" r="42" b="46" />
+    </asset>
+    <object name="course_map_name_1" ani="ani_course_map_name_1">
+      <asset type="IMAGE" link="asset_course_map_name_1" />
+    </object>
+    <object name="course_map_name_over_1" ani="ani_course_map_name_over_1">
+      <asset type="IMAGE" link="asset_course_map_name_over_1" />
+    </object>
+    <object name="course_map_select" ani="ani_course_map_select">
+      <asset type="IMAGE" link="asset_course_map_select" />
+    </object>
+    <param type="RES" x="85" y="85" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_course_map_name_1">
+      <frame cnt="0">
+        <posx val="0.5058824" />
+        <posy val="0.682353" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+    <anim name="ani_course_map_name_over_1">
+      <frame cnt="0">
+        <posx val="0.517647058823529" />
+        <posy val="0.564705882352941" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.99" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="200">
+        <posx val="0.517647058823529" />
+        <posy val="0.517647058823529" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+    <anim name="ani_course_map_select">
+      <frame cnt="0">
+        <posx val="0.776470588235294" />
+        <posy val="0.894117647058824" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="133">
+        <posx val="0.776470588235294" />
+        <posy val="0.823529411764706" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="img_submenu_new2_Default">
+    <asset type="IMAGE" name="asset_gnb_submenu_newmenu" path="gnb_submenu_newmenu.png">
+      <rect l="0" t="0" r="124" b="27" />
+    </asset>
+    <object name="gnb_submenu_newmenu" ani="ani_gnb_submenu_newmenu">
+      <asset type="IMAGE" link="asset_gnb_submenu_newmenu" />
+    </object>
+    <param type="RES" x="128" y="37" />
+    <param type="LOOP" cnt="-1" pendulum="0" />
+    <anim name="ani_gnb_submenu_newmenu">
+      <frame cnt="0">
+        <posx val="0.5" />
+        <posy val="0.486486486486487" />
+        <scalex val="1.032258" />
+        <scaley val="1.37037" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.5" />
+        <posy val="0.4864865" />
+        <scalex val="1.032258" />
+        <scaley val="1.37037" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="833">
+        <posx val="0.5" />
+        <posy val="0.4864865" />
+        <scalex val="1.032258" />
+        <scaley val="1.37037" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="967">
+        <posx val="0.5" />
+        <posy val="0.4864865" />
+        <scalex val="1.032258" />
+        <scaley val="1.37037" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

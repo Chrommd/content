@@ -1,0 +1,1609 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="_Opening_">
+    <asset type="UI" name="asset_Panel">
+      <rect l="0" t="0" r="230" b="60" />
+    </asset>
+    <asset type="UI" name="asset_ingame_gauge_courbette1">
+      <rect l="0" t="0" r="184" b="10" />
+    </asset>
+    <asset type="UI" name="asset_ingame_gauge_dash_bar1">
+      <rect l="0" t="0" r="184" b="10" />
+    </asset>
+    <asset type="UI" name="asset_ingame_gauge_sliding_mark">
+      <rect l="0" t="0" r="22" b="20" />
+    </asset>
+    <asset type="UI" name="asset_ingame_gauge_dash_endmark">
+      <rect l="0" t="0" r="40" b="32" />
+    </asset>
+    <asset type="UI" name="asset_ingame_gauge_sliding_highlight">
+      <rect l="0" t="0" r="202" b="30" />
+    </asset>
+    <object name="Panel" ani="ani_Panel">
+      <asset type="UI" link="asset_Panel" />
+    </object>
+    <object name="ingame_gauge_courbette1" ani="ani_ingame_gauge_courbette1">
+      <asset type="UI" link="asset_ingame_gauge_courbette1" />
+    </object>
+    <object name="ingame_gauge_dash_bar1" ani="ani_ingame_gauge_dash_bar1">
+      <asset type="UI" link="asset_ingame_gauge_dash_bar1" />
+    </object>
+    <object name="ingame_gauge_sliding_mark" ani="ani_ingame_gauge_sliding_mark">
+      <asset type="UI" link="asset_ingame_gauge_sliding_mark" />
+    </object>
+    <object name="ingame_gauge_dash_endmark" ani="ani_ingame_gauge_dash_endmark">
+      <asset type="UI" link="asset_ingame_gauge_dash_endmark" />
+    </object>
+    <object name="ingame_gauge_sliding_highlight" ani="ani_ingame_gauge_sliding_highlight">
+      <asset type="UI" link="asset_ingame_gauge_sliding_highlight" />
+    </object>
+    <param type="RES" x="230" y="60" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_Panel">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.666666666666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0" easeValue="0.0,0.5,1.0,1.0" />
+        <posy val="-0.116666666666667" easeValue="0.0,0.5,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,0.5,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="533">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_gauge_courbette1">
+      <frame cnt="0">
+        <posx val="0.1" />
+        <posy val="0.6" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_gauge_dash_bar1">
+      <frame cnt="0">
+        <posx val="0.09565217" />
+        <posy val="0.5833333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_gauge_sliding_mark">
+      <frame cnt="0">
+        <posx val="0.0565217391304348" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="233">
+        <posx val="0.0565217391304348" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="433">
+        <posx val="0.0565217391304348" />
+        <posy val="0.166666666666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="633">
+        <posx val="0.0565217391304348" />
+        <posy val="0.333333333333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_gauge_dash_endmark">
+      <frame cnt="0">
+        <posx val="0.8" />
+        <posy val="0.06666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_gauge_sliding_highlight">
+      <frame cnt="0">
+        <posx val="0.06086956" />
+        <posy val="0.4666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Closing_">
+    <asset type="UI" name="asset_Panel">
+      <rect l="0" t="0" r="230" b="60" />
+    </asset>
+    <asset type="UI" name="asset_ingame_gauge_courbette1">
+      <rect l="0" t="0" r="184" b="10" />
+    </asset>
+    <asset type="UI" name="asset_ingame_gauge_dash_bar1">
+      <rect l="0" t="0" r="184" b="10" />
+    </asset>
+    <asset type="UI" name="asset_ingame_gauge_sliding_mark">
+      <rect l="0" t="0" r="22" b="20" />
+    </asset>
+    <asset type="UI" name="asset_ingame_gauge_dash_endmark">
+      <rect l="0" t="0" r="40" b="32" />
+    </asset>
+    <asset type="UI" name="asset_ingame_gauge_sliding_highlight">
+      <rect l="0" t="0" r="202" b="30" />
+    </asset>
+    <object name="Panel" ani="ani_Panel">
+      <asset type="UI" link="asset_Panel" />
+    </object>
+    <object name="ingame_gauge_courbette1" ani="ani_ingame_gauge_courbette1">
+      <asset type="UI" link="asset_ingame_gauge_courbette1" />
+    </object>
+    <object name="ingame_gauge_dash_bar1" ani="ani_ingame_gauge_dash_bar1">
+      <asset type="UI" link="asset_ingame_gauge_dash_bar1" />
+    </object>
+    <object name="ingame_gauge_sliding_mark" ani="ani_ingame_gauge_sliding_mark">
+      <asset type="UI" link="asset_ingame_gauge_sliding_mark" />
+    </object>
+    <object name="ingame_gauge_dash_endmark" ani="ani_ingame_gauge_dash_endmark">
+      <asset type="UI" link="asset_ingame_gauge_dash_endmark" />
+    </object>
+    <object name="ingame_gauge_sliding_highlight" ani="ani_ingame_gauge_sliding_highlight">
+      <asset type="UI" link="asset_ingame_gauge_sliding_highlight" />
+    </object>
+    <param type="RES" x="230" y="60" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_Panel">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="167">
+        <posx val="0" />
+        <posy val="-0.116666666666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.91" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="600">
+        <posx val="0" easeValue="0.5,0.0,1.0,1.0" />
+        <posy val="0.666666666666667" easeValue="0.5,0.0,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" easeValue="0.5,0.0,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_gauge_courbette1">
+      <frame cnt="0">
+        <posx val="0.1" />
+        <posy val="0.6" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_gauge_dash_bar1">
+      <frame cnt="0">
+        <posx val="0.09565217" />
+        <posy val="0.5833333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_gauge_sliding_mark">
+      <frame cnt="0">
+        <posx val="0.05652174" />
+        <posy val="0.3333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="100">
+        <posx val="0.0565217391304348" />
+        <posy val="0.333333333333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="267">
+        <posx val="0.0565217391304348" />
+        <posy val="0.216666666666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.5" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="433">
+        <posx val="0.0565217391304348" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_gauge_dash_endmark">
+      <frame cnt="0">
+        <posx val="0.8" />
+        <posy val="0.06666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_gauge_sliding_highlight">
+      <frame cnt="0">
+        <posx val="0.06086956" />
+        <posy val="0.4666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Opening_courbette_">
+    <asset type="UI" name="asset_Panel">
+      <rect l="0" t="0" r="230" b="60" />
+    </asset>
+    <asset type="UI" name="asset_ingame_gauge_sliding_bg">
+      <rect l="0" t="0" r="202" b="30" />
+    </asset>
+    <asset type="UI" name="asset_ingame_gauge_courbette">
+      <rect l="0" t="0" r="202" b="30" />
+    </asset>
+    <asset type="UI" name="asset_ingame_gauge_courbette1">
+      <rect l="0" t="0" r="184" b="10" />
+    </asset>
+    <asset type="UI" name="asset_ingame_gauge_dash_bar">
+      <rect l="0" t="0" r="202" b="30" />
+    </asset>
+    <asset type="UI" name="asset_ingame_gauge_dash_bar1">
+      <rect l="0" t="0" r="184" b="10" />
+    </asset>
+    <asset type="UI" name="asset_ingame_gauge_sliding_bg_0">
+      <rect l="0" t="0" r="202" b="30" />
+    </asset>
+    <asset type="UI" name="asset_ingame_gauge_sliding_mark">
+      <rect l="0" t="0" r="22" b="20" />
+    </asset>
+    <asset type="UI" name="asset_ingame_gauge_courbette_endmark">
+      <rect l="0" t="0" r="40" b="32" />
+    </asset>
+    <asset type="UI" name="asset_ingame_gauge_dash_endmark">
+      <rect l="0" t="0" r="40" b="32" />
+    </asset>
+    <asset type="UI" name="asset_option_keyboard_up1">
+      <rect l="0" t="0" r="58" b="50" />
+    </asset>
+    <asset type="UI" name="asset_option_keyboard_up">
+      <rect l="0" t="0" r="58" b="50" />
+    </asset>
+    <asset type="UI" name="asset_horse_mark_damage2">
+      <rect l="0" t="0" r="81" b="80" />
+    </asset>
+    <asset type="UI" name="asset_txt_infobox_dash">
+      <rect l="0" t="0" r="238" b="44" />
+    </asset>
+    <asset type="UI" name="asset_option_keyboard_Z1">
+      <rect l="0" t="0" r="58" b="50" />
+    </asset>
+    <asset type="UI" name="asset_option_keyboard_Z">
+      <rect l="0" t="0" r="58" b="50" />
+    </asset>
+    <asset type="UI" name="asset_horse_mark_damage1">
+      <rect l="0" t="0" r="81" b="80" />
+    </asset>
+    <asset type="UI" name="asset_txt_infobox_courbette">
+      <rect l="0" t="0" r="238" b="44" />
+    </asset>
+    <asset type="UI" name="asset_ingame_gauge_sliding_highlight">
+      <rect l="0" t="0" r="202" b="30" />
+    </asset>
+    <object name="Panel" ani="ani_Panel">
+      <asset type="UI" link="asset_Panel" />
+    </object>
+    <object name="ingame_gauge_sliding_bg" ani="ani_ingame_gauge_sliding_bg">
+      <asset type="UI" link="asset_ingame_gauge_sliding_bg" />
+    </object>
+    <object name="ingame_gauge_courbette" ani="ani_ingame_gauge_courbette">
+      <asset type="UI" link="asset_ingame_gauge_courbette" />
+    </object>
+    <object name="ingame_gauge_courbette1" ani="ani_ingame_gauge_courbette1">
+      <asset type="UI" link="asset_ingame_gauge_courbette1" />
+    </object>
+    <object name="ingame_gauge_dash_bar" ani="ani_ingame_gauge_dash_bar">
+      <asset type="UI" link="asset_ingame_gauge_dash_bar" />
+    </object>
+    <object name="ingame_gauge_dash_bar1" ani="ani_ingame_gauge_dash_bar1">
+      <asset type="UI" link="asset_ingame_gauge_dash_bar1" />
+    </object>
+    <object name="ingame_gauge_sliding_bg_0" ani="ani_ingame_gauge_sliding_bg_0">
+      <asset type="UI" link="asset_ingame_gauge_sliding_bg_0" />
+    </object>
+    <object name="ingame_gauge_sliding_mark" ani="ani_ingame_gauge_sliding_mark">
+      <asset type="UI" link="asset_ingame_gauge_sliding_mark" />
+    </object>
+    <object name="ingame_gauge_courbette_endmark" ani="ani_ingame_gauge_courbette_endmark">
+      <asset type="UI" link="asset_ingame_gauge_courbette_endmark" />
+    </object>
+    <object name="ingame_gauge_dash_endmark" ani="ani_ingame_gauge_dash_endmark">
+      <asset type="UI" link="asset_ingame_gauge_dash_endmark" />
+    </object>
+    <object name="option_keyboard_up1" ani="ani_option_keyboard_up1">
+      <asset type="UI" link="asset_option_keyboard_up1" />
+    </object>
+    <object name="option_keyboard_up" ani="ani_option_keyboard_up">
+      <asset type="UI" link="asset_option_keyboard_up" />
+    </object>
+    <object name="horse_mark_damage2" ani="ani_horse_mark_damage2">
+      <asset type="UI" link="asset_horse_mark_damage2" />
+    </object>
+    <object name="txt_infobox_dash" ani="ani_txt_infobox_dash">
+      <asset type="UI" link="asset_txt_infobox_dash" />
+    </object>
+    <object name="option_keyboard_Z1" ani="ani_option_keyboard_Z1">
+      <asset type="UI" link="asset_option_keyboard_Z1" />
+    </object>
+    <object name="option_keyboard_Z" ani="ani_option_keyboard_Z">
+      <asset type="UI" link="asset_option_keyboard_Z" />
+    </object>
+    <object name="horse_mark_damage1" ani="ani_horse_mark_damage1">
+      <asset type="UI" link="asset_horse_mark_damage1" />
+    </object>
+    <object name="txt_infobox_courbette" ani="ani_txt_infobox_courbette">
+      <asset type="UI" link="asset_txt_infobox_courbette" />
+    </object>
+    <object name="ingame_gauge_sliding_highlight" ani="ani_ingame_gauge_sliding_highlight">
+      <asset type="UI" link="asset_ingame_gauge_sliding_highlight" />
+    </object>
+    <param type="RES" x="230" y="60" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_Panel">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.666666666666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="267">
+        <posx val="0" easeValue="0.0,0.5,1.0,1.0" />
+        <posy val="-0.116666666666667" easeValue="0.0,0.5,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,0.5,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="400">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1533">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <sound val="gui_gauge_slide_st" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="3267">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="3600">
+        <posx val="0" />
+        <posy val="0.333333333333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_gauge_sliding_bg">
+      <frame cnt="0">
+        <posx val="0.06086956" />
+        <posy val="0.4666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_gauge_courbette">
+      <frame cnt="0">
+        <posx val="0.06086956" />
+        <posy val="0.4666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_gauge_courbette1">
+      <frame cnt="0">
+        <posx val="0.0956521739130435" />
+        <posy val="0.583333333333333" />
+        <scalex val="0.994565217391304" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="567">
+        <posx val="0.0956521739130435" />
+        <posy val="0.583333333333333" />
+        <scalex val="0.0271739130434783" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="600">
+        <posx val="0.0956521739130435" />
+        <posy val="0.583333333333333" />
+        <scalex val="0.0108695652173913" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1633">
+        <posx val="0.0956521739130435" />
+        <posy val="0.583333333333333" />
+        <scalex val="0.994565217391304" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_gauge_dash_bar">
+      <frame cnt="0">
+        <posx val="0.0434782608695652" />
+        <posy val="0.433333333333333" />
+        <scalex val="1.03960396039604" />
+        <scaley val="1.13333333333333" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_gauge_dash_bar1">
+      <frame cnt="0">
+        <posx val="0.0956521739130435" />
+        <posy val="0.583333333333333" />
+        <scalex val="0.994565217391304" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_gauge_sliding_bg_0">
+      <frame cnt="0">
+        <posx val="0.06086956" />
+        <posy val="0.4666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_gauge_sliding_mark">
+      <frame cnt="0">
+        <posx val="0.05652174" />
+        <posy val="0.3333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_gauge_courbette_endmark">
+      <frame cnt="0">
+        <posx val="0.0130434782608696" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.0130434782608696" easeValue="0.0,0.0,0.5,1.0" />
+        <posy val="0.0166666666666667" easeValue="0.0,0.0,0.5,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,0.0,0.5,1.0" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="533">
+        <posx val="0.0130434782608696" />
+        <posy val="0.166666666666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="600">
+        <posx val="0.0130434782608696" />
+        <posy val="0.166666666666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1633">
+        <posx val="0.795652173913043" />
+        <posy val="0.166666666666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_gauge_dash_endmark">
+      <frame cnt="0">
+        <posx val="0.8" />
+        <posy val="0.06666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_option_keyboard_up1">
+      <frame cnt="0">
+        <posx val="0.3913043" />
+        <posy val="-0.08333334" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_option_keyboard_up">
+      <frame cnt="0">
+        <posx val="0.41304347826087" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_horse_mark_damage2">
+      <frame cnt="0">
+        <posx val="0.3391304" />
+        <posy val="-0.3333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_txt_infobox_dash">
+      <frame cnt="0">
+        <posx val="0.0304347826086957" />
+        <posy val="1.11666666666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_option_keyboard_Z1">
+      <frame cnt="0">
+        <posx val="0.41304347826087" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="400">
+        <posx val="0.41304347826087" />
+        <posy val="0.35" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.2" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1900">
+        <posx val="0.41304347826087" />
+        <posy val="0.35" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.3" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_option_keyboard_Z">
+      <frame cnt="0">
+        <posx val="0.41304347826087" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1433">
+        <posx val="0.41304347826087" />
+        <posy val="0.516666666666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1700">
+        <posx val="0.41304347826087" easeValue="0.0,0.0,0.5,1.0" />
+        <posy val="0.266666666666667" easeValue="0.0,0.0,0.5,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.69" easeValue="0.0,0.0,0.5,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1900">
+        <posx val="0.41304347826087" />
+        <posy val="0.35" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2600">
+        <posx val="0.41304347826087" />
+        <posy val="0.35" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="3000">
+        <posx val="0.41304347826087" />
+        <posy val="0.35" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_horse_mark_damage1">
+      <frame cnt="0">
+        <posx val="0.3391304" />
+        <posy val="-0.3333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1533">
+        <posx val="0.360869565217391" />
+        <posy val="0.0333333333333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1700">
+        <posx val="0.360869565217391" />
+        <posy val="0.0166666666666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1833">
+        <posx val="0.360869565217391" />
+        <posy val="0.1" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1967">
+        <posx val="0.360869565217391" />
+        <posy val="0.1" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2600">
+        <posx val="0.360869565217391" />
+        <posy val="0.1" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2800">
+        <posx val="0.360869565217391" />
+        <posy val="0.1" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_txt_infobox_courbette">
+      <frame cnt="0">
+        <posx val="0.0304347826086957" />
+        <posy val="1.11666666666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1433">
+        <posx val="-0.6" />
+        <posy val="0.666666666666667" />
+        <scalex val="2.2436974789916" />
+        <scaley val="2.22727272727273" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1700">
+        <posx val="0.091304347826087" easeValue="0.0,0.0,0.4,1.0" />
+        <posy val="1.25" easeValue="0.0,0.0,0.4,1.0" />
+        <scalex val="0.848739495798319" easeValue="0.0,0.0,0.4,1.0" />
+        <scaley val="0.818181818181818" easeValue="0.0,0.0,0.4,1.0" />
+        <alpha val="1" easeValue="0.0,0.0,0.4,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1900">
+        <posx val="0.0304347826086957" />
+        <posy val="1.18333333333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_gauge_sliding_highlight">
+      <frame cnt="0">
+        <posx val="0.06086956" />
+        <posy val="0.4666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Opening_dash_">
+    <asset type="UI" name="asset_Panel">
+      <rect l="0" t="0" r="230" b="60" />
+    </asset>
+    <asset type="UI" name="asset_ingame_gauge_sliding_bg">
+      <rect l="0" t="0" r="202" b="30" />
+    </asset>
+    <asset type="UI" name="asset_ingame_gauge_courbette">
+      <rect l="0" t="0" r="202" b="30" />
+    </asset>
+    <asset type="UI" name="asset_ingame_gauge_courbette1">
+      <rect l="0" t="0" r="184" b="10" />
+    </asset>
+    <asset type="UI" name="asset_ingame_gauge_dash_bar">
+      <rect l="0" t="0" r="202" b="30" />
+    </asset>
+    <asset type="UI" name="asset_ingame_gauge_dash_bar1">
+      <rect l="0" t="0" r="184" b="10" />
+    </asset>
+    <asset type="UI" name="asset_ingame_gauge_sliding_bg_0">
+      <rect l="0" t="0" r="202" b="30" />
+    </asset>
+    <asset type="UI" name="asset_ingame_gauge_sliding_mark">
+      <rect l="0" t="0" r="22" b="20" />
+    </asset>
+    <asset type="UI" name="asset_ingame_gauge_courbette_endmark">
+      <rect l="0" t="0" r="40" b="32" />
+    </asset>
+    <asset type="UI" name="asset_ingame_gauge_dash_endmark">
+      <rect l="0" t="0" r="40" b="32" />
+    </asset>
+    <asset type="UI" name="asset_option_keyboard_up1">
+      <rect l="0" t="0" r="58" b="50" />
+    </asset>
+    <asset type="UI" name="asset_option_keyboard_up">
+      <rect l="0" t="0" r="58" b="50" />
+    </asset>
+    <asset type="UI" name="asset_horse_mark_damage2">
+      <rect l="0" t="0" r="81" b="80" />
+    </asset>
+    <asset type="UI" name="asset_txt_infobox_dash">
+      <rect l="0" t="0" r="238" b="44" />
+    </asset>
+    <asset type="UI" name="asset_option_keyboard_Z1">
+      <rect l="0" t="0" r="58" b="50" />
+    </asset>
+    <asset type="UI" name="asset_option_keyboard_Z">
+      <rect l="0" t="0" r="58" b="50" />
+    </asset>
+    <asset type="UI" name="asset_horse_mark_damage1">
+      <rect l="0" t="0" r="81" b="80" />
+    </asset>
+    <asset type="UI" name="asset_txt_infobox_courbette">
+      <rect l="0" t="0" r="238" b="44" />
+    </asset>
+    <asset type="UI" name="asset_ingame_gauge_sliding_highlight">
+      <rect l="0" t="0" r="202" b="30" />
+    </asset>
+    <object name="Panel" ani="ani_Panel">
+      <asset type="UI" link="asset_Panel" />
+    </object>
+    <object name="ingame_gauge_sliding_bg" ani="ani_ingame_gauge_sliding_bg">
+      <asset type="UI" link="asset_ingame_gauge_sliding_bg" />
+    </object>
+    <object name="ingame_gauge_courbette" ani="ani_ingame_gauge_courbette">
+      <asset type="UI" link="asset_ingame_gauge_courbette" />
+    </object>
+    <object name="ingame_gauge_courbette1" ani="ani_ingame_gauge_courbette1">
+      <asset type="UI" link="asset_ingame_gauge_courbette1" />
+    </object>
+    <object name="ingame_gauge_dash_bar" ani="ani_ingame_gauge_dash_bar">
+      <asset type="UI" link="asset_ingame_gauge_dash_bar" />
+    </object>
+    <object name="ingame_gauge_dash_bar1" ani="ani_ingame_gauge_dash_bar1">
+      <asset type="UI" link="asset_ingame_gauge_dash_bar1" />
+    </object>
+    <object name="ingame_gauge_sliding_bg_0" ani="ani_ingame_gauge_sliding_bg_0">
+      <asset type="UI" link="asset_ingame_gauge_sliding_bg_0" />
+    </object>
+    <object name="ingame_gauge_sliding_mark" ani="ani_ingame_gauge_sliding_mark">
+      <asset type="UI" link="asset_ingame_gauge_sliding_mark" />
+    </object>
+    <object name="ingame_gauge_courbette_endmark" ani="ani_ingame_gauge_courbette_endmark">
+      <asset type="UI" link="asset_ingame_gauge_courbette_endmark" />
+    </object>
+    <object name="ingame_gauge_dash_endmark" ani="ani_ingame_gauge_dash_endmark">
+      <asset type="UI" link="asset_ingame_gauge_dash_endmark" />
+    </object>
+    <object name="option_keyboard_up1" ani="ani_option_keyboard_up1">
+      <asset type="UI" link="asset_option_keyboard_up1" />
+    </object>
+    <object name="option_keyboard_up" ani="ani_option_keyboard_up">
+      <asset type="UI" link="asset_option_keyboard_up" />
+    </object>
+    <object name="horse_mark_damage2" ani="ani_horse_mark_damage2">
+      <asset type="UI" link="asset_horse_mark_damage2" />
+    </object>
+    <object name="txt_infobox_dash" ani="ani_txt_infobox_dash">
+      <asset type="UI" link="asset_txt_infobox_dash" />
+    </object>
+    <object name="option_keyboard_Z1" ani="ani_option_keyboard_Z1">
+      <asset type="UI" link="asset_option_keyboard_Z1" />
+    </object>
+    <object name="option_keyboard_Z" ani="ani_option_keyboard_Z">
+      <asset type="UI" link="asset_option_keyboard_Z" />
+    </object>
+    <object name="horse_mark_damage1" ani="ani_horse_mark_damage1">
+      <asset type="UI" link="asset_horse_mark_damage1" />
+    </object>
+    <object name="txt_infobox_courbette" ani="ani_txt_infobox_courbette">
+      <asset type="UI" link="asset_txt_infobox_courbette" />
+    </object>
+    <object name="ingame_gauge_sliding_highlight" ani="ani_ingame_gauge_sliding_highlight">
+      <asset type="UI" link="asset_ingame_gauge_sliding_highlight" />
+    </object>
+    <param type="RES" x="230" y="60" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_Panel">
+      <frame cnt="1000">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <sound val="gui_gauge_slide_st" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1967">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2233">
+        <posx val="0" />
+        <posy val="0.166666666666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_gauge_sliding_bg">
+      <frame cnt="0">
+        <posx val="0.06086956" />
+        <posy val="0.4666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_gauge_courbette">
+      <frame cnt="0">
+        <posx val="0.06086956" />
+        <posy val="0.4666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_gauge_courbette1">
+      <frame cnt="0">
+        <posx val="0.0956521739130435" />
+        <posy val="0.583333333333333" />
+        <scalex val="0.994565217391304" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_gauge_dash_bar">
+      <frame cnt="0">
+        <posx val="0.0434782608695652" />
+        <posy val="0.433333333333333" />
+        <scalex val="1.03960396039604" />
+        <scaley val="1.13333333333333" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_gauge_dash_bar1">
+      <frame cnt="0">
+        <posx val="0.0956521739130435" />
+        <posy val="0.583333333333333" />
+        <scalex val="0.994565217391304" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_gauge_sliding_bg_0">
+      <frame cnt="0">
+        <posx val="0.06086956" />
+        <posy val="0.4666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_gauge_sliding_mark">
+      <frame cnt="0">
+        <posx val="0.05652174" />
+        <posy val="0.3333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_gauge_courbette_endmark">
+      <frame cnt="0">
+        <posx val="0.795652173913043" />
+        <posy val="0.166666666666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_gauge_dash_endmark">
+      <frame cnt="0">
+        <posx val="0.0130434782608696" />
+        <posy val="0.15" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_option_keyboard_up1">
+      <frame cnt="0">
+        <posx val="0.41304347826087" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="267">
+        <posx val="0.41304347826087" />
+        <posy val="0.35" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.2" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1267">
+        <posx val="0.41304347826087" />
+        <posy val="0.35" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.2" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_option_keyboard_up">
+      <frame cnt="0">
+        <posx val="0.41304347826087" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="933">
+        <posx val="0.41304347826087" />
+        <posy val="0.35" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="967">
+        <posx val="0.41304347826087" />
+        <posy val="0.516666666666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1100">
+        <posx val="0.41304347826087" easeValue="0.0,0.0,0.5,1.0" />
+        <posy val="0.266666666666667" easeValue="0.0,0.0,0.5,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.7" easeValue="0.0,0.0,0.5,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1267">
+        <posx val="0.41304347826087" />
+        <posy val="0.35" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_horse_mark_damage2">
+      <frame cnt="0">
+        <posx val="0.317391304347826" />
+        <posy val="-0.383333333333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1033">
+        <posx val="0.360869565217391" />
+        <posy val="0.0833333333333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1167">
+        <posx val="0.360869565217391" />
+        <posy val="0.05" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1267">
+        <posx val="0.360869565217391" />
+        <posy val="0.05" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1367">
+        <posx val="0.360869565217391" />
+        <posy val="0.1" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1833">
+        <posx val="0.360869565217391" />
+        <posy val="0.1" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2000">
+        <posx val="0.360869565217391" />
+        <posy val="0.05" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_txt_infobox_dash">
+      <frame cnt="0">
+        <posx val="0.0304347826086957" />
+        <posy val="1.11666666666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="933">
+        <posx val="-0.595652173913043" />
+        <posy val="0.616666666666667" />
+        <scalex val="2.23529411764706" />
+        <scaley val="2.22727272727273" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="967">
+        <posx val="-0.652173913043478" />
+        <posy val="0.616666666666667" />
+        <scalex val="2.2436974789916" />
+        <scaley val="2.22727272727273" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1100">
+        <posx val="0.104347826086957" easeValue="0.0,0.0,0.4,1.0" />
+        <posy val="1.25" easeValue="0.0,0.0,0.4,1.0" />
+        <scalex val="0.848739495798319" easeValue="0.0,0.0,0.4,1.0" />
+        <scaley val="0.818181818181818" easeValue="0.0,0.0,0.4,1.0" />
+        <alpha val="1" easeValue="0.0,0.0,0.4,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1267">
+        <posx val="0.0260869565217391" />
+        <posy val="1.18333333333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_option_keyboard_Z1">
+      <frame cnt="0">
+        <posx val="0.3913043" />
+        <posy val="-0.08333334" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_option_keyboard_Z">
+      <frame cnt="0">
+        <posx val="0.41304347826087" />
+        <posy val="0.35" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="100">
+        <posx val="0.41304347826087" />
+        <posy val="0.35" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_horse_mark_damage1">
+      <frame cnt="0">
+        <posx val="0.3391304" />
+        <posy val="-0.3333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_txt_infobox_courbette">
+      <frame cnt="0">
+        <posx val="0.0304347826086957" />
+        <posy val="1.18333333333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="100">
+        <posx val="0.0304347826086957" />
+        <posy val="1.18333333333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_gauge_sliding_highlight">
+      <frame cnt="0">
+        <posx val="0.06086956" />
+        <posy val="0.4666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

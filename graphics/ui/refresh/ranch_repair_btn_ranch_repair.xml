@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="NORMAL">
+    <asset type="IMAGE" name="asset_ranch_repair_icon_00" path="ranch_repair_icon_00.png">
+      <rect l="0" t="0" r="46" b="60" />
+    </asset>
+    <asset type="IMAGE" name="asset_ranch_repair_icon_01" path="ranch_repair_icon_01.png">
+      <rect l="0" t="0" r="26" b="34" />
+    </asset>
+    <object name="ranch_repair_icon_00" ani="ani_ranch_repair_icon_00">
+      <asset type="IMAGE" link="asset_ranch_repair_icon_00" />
+    </object>
+    <object name="ranch_repair_icon_01" ani="ani_ranch_repair_icon_01">
+      <asset type="IMAGE" link="asset_ranch_repair_icon_01" />
+    </object>
+    <param type="RES" x="46" y="60" />
+    <param type="LOOP" cnt="-1" pendulum="0" />
+    <anim name="ani_ranch_repair_icon_00">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ranch_repair_icon_01">
+      <frame cnt="0">
+        <posx val="0.304347826086957" />
+        <posy val="0.0833333333333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="233">
+        <posx val="0.304347826086957" easeValue="0.0,0.0,0.5,1.0" />
+        <posy val="0.0666666666666667" easeValue="0.0,0.0,0.5,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="467">
+        <posx val="0.304347826086957" easeValue="0.0,0.0,0.4,1.0" />
+        <posy val="0.116666666666667" easeValue="0.0,0.0,0.4,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="567">
+        <posx val="0.304347826086957" />
+        <posy val="0.0833333333333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1000">
+        <posx val="0.304347826086957" />
+        <posy val="0.0833333333333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="OVER">
+    <asset type="IMAGE" name="asset_ranch_repair_icon_00" path="ranch_repair_icon_00.png">
+      <rect l="0" t="0" r="46" b="60" />
+    </asset>
+    <asset type="IMAGE" name="asset_ranch_repair_icon_01" path="ranch_repair_icon_01.png">
+      <rect l="0" t="0" r="26" b="34" />
+    </asset>
+    <object name="ranch_repair_icon_00" ani="ani_ranch_repair_icon_00">
+      <asset type="IMAGE" link="asset_ranch_repair_icon_00" />
+    </object>
+    <object name="ranch_repair_icon_01" ani="ani_ranch_repair_icon_01">
+      <asset type="IMAGE" link="asset_ranch_repair_icon_01" />
+    </object>
+    <param type="RES" x="46" y="60" />
+    <param type="LOOP" cnt="-1" pendulum="0" />
+    <anim name="ani_ranch_repair_icon_00">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="267">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <sound val="ui_event_repair_icon" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ranch_repair_icon_01">
+      <frame cnt="0">
+        <posx val="0.304347826086957" />
+        <posy val="0.0833333333333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="167">
+        <posx val="0.304347826086957" easeValue="0.0,0.0,0.5,1.0" />
+        <posy val="-0.0333333333333333" easeValue="0.0,0.0,0.5,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.304347826086957" easeValue="0.0,0.0,0.4,1.0" />
+        <posy val="0.116666666666667" easeValue="0.0,0.0,0.4,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="433">
+        <posx val="0.304347826086957" />
+        <posy val="0.0833333333333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="867">
+        <posx val="0.304347826086957" />
+        <posy val="0.0833333333333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="DOWN">
+    <asset type="IMAGE" name="asset_ranch_repair_icon_00" path="ranch_repair_icon_00.png">
+      <rect l="0" t="0" r="46" b="60" />
+    </asset>
+    <asset type="IMAGE" name="asset_ranch_repair_icon_01" path="ranch_repair_icon_01.png">
+      <rect l="0" t="0" r="26" b="34" />
+    </asset>
+    <object name="ranch_repair_icon_00" ani="ani_ranch_repair_icon_00">
+      <asset type="IMAGE" link="asset_ranch_repair_icon_00" />
+    </object>
+    <object name="ranch_repair_icon_01" ani="ani_ranch_repair_icon_01">
+      <asset type="IMAGE" link="asset_ranch_repair_icon_01" />
+    </object>
+    <param type="RES" x="46" y="60" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_ranch_repair_icon_00">
+      <frame cnt="0">
+        <posx val="0.0217391304347826" />
+        <posy val="0.0166666666666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ranch_repair_icon_01">
+      <frame cnt="0">
+        <posx val="0.326086956521739" />
+        <posy val="0.1" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="DISABLE">
+    <asset type="IMAGE" name="asset_ranch_repair_icon_00" path="ranch_repair_icon_00.png">
+      <rect l="0" t="0" r="46" b="60" />
+    </asset>
+    <asset type="IMAGE" name="asset_ranch_repair_icon_01" path="ranch_repair_icon_01.png">
+      <rect l="0" t="0" r="26" b="34" />
+    </asset>
+    <object name="ranch_repair_icon_00" ani="ani_ranch_repair_icon_00">
+      <asset type="IMAGE" link="asset_ranch_repair_icon_00" />
+    </object>
+    <object name="ranch_repair_icon_01" ani="ani_ranch_repair_icon_01">
+      <asset type="IMAGE" link="asset_ranch_repair_icon_01" />
+    </object>
+    <param type="RES" x="46" y="60" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_ranch_repair_icon_00">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ranch_repair_icon_01">
+      <frame cnt="0">
+        <posx val="0.3043478" />
+        <posy val="0.08333334" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

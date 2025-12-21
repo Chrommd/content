@@ -1,0 +1,878 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="fes_result_finalmatch_dialog_Animation.xml" />
+  </properties>
+  <base type="WNDEX" subclass="" name="fes_result_finalmatch">
+    <asset type="BG" path="frm_sub_04.png" tileMode="Stretch">
+      <tex x="10" y="5" />
+      <rect l="80" t="70" r="703" b="477" />
+    </asset>
+    <asset type="EDGE_LT" path="frm_sub_00.png" tileMode="Stretch">
+      <tex x="80" y="70" />
+      <rect l="0" t="0" r="80" b="70" />
+    </asset>
+    <asset type="EDGE_RT" path="frm_sub_02.png" tileMode="Stretch">
+      <tex x="87" y="70" />
+      <rect l="0" t="0" r="87" b="70" />
+    </asset>
+    <asset type="EDGE_LB" path="frm_sub_06.png" tileMode="Stretch">
+      <tex x="80" y="33" />
+      <rect l="0" t="0" r="80" b="33" />
+    </asset>
+    <asset type="EDGE_RB" path="frm_sub_08.png" tileMode="Stretch">
+      <tex x="87" y="33" />
+      <rect l="0" t="0" r="87" b="33" />
+    </asset>
+    <asset type="FRAME_T" path="frm_sub_01.png" tileMode="Stretch">
+      <tex x="10" y="70" />
+      <rect l="80" t="0" r="703" b="70" />
+    </asset>
+    <asset type="FRAME_B" path="frm_sub_07.png" tileMode="Stretch">
+      <tex x="10" y="33" />
+      <rect l="80" t="0" r="703" b="33" />
+    </asset>
+    <asset type="FRAME_L" path="frm_sub_03.png" tileMode="Stretch">
+      <tex x="80" y="5" />
+      <rect l="0" t="70" r="80" b="477" />
+    </asset>
+    <asset type="FRAME_R" path="frm_sub_05.png" tileMode="Stretch">
+      <tex x="87" y="5" />
+      <rect l="0" t="70" r="87" b="477" />
+    </asset>
+    <Visible val="True" />
+    <Anchor val="None" />
+    <pos x="64" y="72" />
+    <rect l="0" t="0" r="870" b="580" />
+    <Dragable val="False" />
+    <StartPosition val="CenterScreen" />
+    <EscKeyAction val="None" />
+    <IsHitTestVisible val="True" />
+    <ClipChildren val="False" />
+    <child type="PICTURE" name="img_myself" subclass="">
+      <asset type="STATIC">Festival_selfindication.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="351" y="136" />
+      <rect l="0" t="0" r="170" b="88" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="PICTURE" name="img_title_fms" subclass="">
+      <asset type="STATIC">Festival_txt_finalscore.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="337" y="30" />
+      <rect l="0" t="0" r="195" b="79" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="PICTURE" name="img_backboard" subclass="">
+      <asset type="STATIC">Festival_finalmatch_bg.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="47" y="118" />
+      <rect l="0" t="0" r="780" b="423" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <child type="PANEL" name="Panel_8" subclass="">
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <embed src="" />
+        <pos x="584" y="294" />
+        <rect l="0" t="0" r="170" b="88" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <child type="LABEL" name="txt_money_8" subclass="">
+          <label val="" />
+          <pos x="63" y="64" />
+          <rect l="0" t="0" r="96" b="19" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#000000" />
+          <color val="#FFEA97" />
+          <halign val="2" />
+          <valign val="1" />
+          <FontName val="나눔고딕" />
+          <FontSize val="13" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+        <child type="LABEL" name="txt_ownername_8" subclass="">
+          <label val="" />
+          <pos x="63" y="43" />
+          <rect l="0" t="0" r="96" b="19" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#000000" />
+          <color val="#FFFFFF" />
+          <halign val="2" />
+          <valign val="1" />
+          <FontName val="나눔고딕" />
+          <FontSize val="13" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+        <child type="LABEL" name="txt_owner_8" subclass="">
+          <label val="소유주" />
+          <pos x="63" y="27" />
+          <rect l="0" t="0" r="96" b="19" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#000000" />
+          <color val="#7D5E4F" />
+          <halign val="2" />
+          <valign val="1" />
+          <FontName val="나눔고딕" />
+          <FontSize val="13" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+        <child type="LABEL" name="txt_horsename_8" subclass="">
+          <label val="" />
+          <pos x="11" y="3" />
+          <rect l="0" t="0" r="150" b="19" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#000000" />
+          <color val="#FFFFFF" />
+          <halign val="1" />
+          <valign val="1" />
+          <FontName val="나눔고딕" />
+          <FontSize val="13" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+        <child type="PICTURE" name="pic_horseicon8" subclass="">
+          <asset type="STATIC">
+          </asset>
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <pos x="7" y="28" />
+          <rect l="0" t="0" r="51" b="51" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+      </child>
+      <child type="PANEL" name="Panel_7" subclass="">
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <embed src="" />
+        <pos x="398" y="294" />
+        <rect l="0" t="0" r="170" b="88" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <child type="LABEL" name="txt_money_7" subclass="">
+          <label val="" />
+          <pos x="63" y="64" />
+          <rect l="0" t="0" r="96" b="19" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#000000" />
+          <color val="#FFEA97" />
+          <halign val="2" />
+          <valign val="1" />
+          <FontName val="나눔고딕" />
+          <FontSize val="13" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+        <child type="LABEL" name="txt_ownername_7" subclass="">
+          <label val="" />
+          <pos x="63" y="43" />
+          <rect l="0" t="0" r="96" b="19" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#000000" />
+          <color val="#FFFFFF" />
+          <halign val="2" />
+          <valign val="1" />
+          <FontName val="나눔고딕" />
+          <FontSize val="13" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+        <child type="LABEL" name="txt_owner_7" subclass="">
+          <label val="소유주" />
+          <pos x="63" y="27" />
+          <rect l="0" t="0" r="96" b="19" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#000000" />
+          <color val="#7D5E4F" />
+          <halign val="2" />
+          <valign val="1" />
+          <FontName val="나눔고딕" />
+          <FontSize val="13" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+        <child type="LABEL" name="txt_horsename_7" subclass="">
+          <label val="" />
+          <pos x="11" y="3" />
+          <rect l="0" t="0" r="150" b="19" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#000000" />
+          <color val="#FFFFFF" />
+          <halign val="1" />
+          <valign val="1" />
+          <FontName val="나눔고딕" />
+          <FontSize val="13" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+        <child type="PICTURE" name="pic_horseicon7" subclass="">
+          <asset type="STATIC">
+          </asset>
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <pos x="7" y="29" />
+          <rect l="0" t="0" r="51" b="51" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+      </child>
+      <child type="PANEL" name="Panel_6" subclass="">
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <embed src="" />
+        <pos x="212" y="294" />
+        <rect l="0" t="0" r="170" b="88" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <child type="LABEL" name="txt_money_6" subclass="">
+          <label val="" />
+          <pos x="63" y="64" />
+          <rect l="0" t="0" r="96" b="19" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#000000" />
+          <color val="#FFEA97" />
+          <halign val="2" />
+          <valign val="1" />
+          <FontName val="나눔고딕" />
+          <FontSize val="13" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+        <child type="LABEL" name="txt_ownername_6" subclass="">
+          <label val="" />
+          <pos x="63" y="43" />
+          <rect l="0" t="0" r="96" b="19" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#000000" />
+          <color val="#FFFFFF" />
+          <halign val="2" />
+          <valign val="1" />
+          <FontName val="나눔고딕" />
+          <FontSize val="13" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+        <child type="LABEL" name="txt_owner_6" subclass="">
+          <label val="소유주" />
+          <pos x="63" y="27" />
+          <rect l="0" t="0" r="96" b="19" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#000000" />
+          <color val="#7D5E4F" />
+          <halign val="2" />
+          <valign val="1" />
+          <FontName val="나눔고딕" />
+          <FontSize val="13" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+        <child type="LABEL" name="txt_horsename_6" subclass="">
+          <label val="" />
+          <pos x="11" y="3" />
+          <rect l="0" t="0" r="150" b="19" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#000000" />
+          <color val="#FFFFFF" />
+          <halign val="1" />
+          <valign val="1" />
+          <FontName val="나눔고딕" />
+          <FontSize val="13" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+        <child type="PICTURE" name="pic_horseicon6" subclass="">
+          <asset type="STATIC">
+          </asset>
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <pos x="7" y="29" />
+          <rect l="0" t="0" r="51" b="51" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+      </child>
+      <child type="PANEL" name="Panel_5" subclass="">
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <embed src="" />
+        <pos x="26" y="294" />
+        <rect l="0" t="0" r="170" b="88" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <child type="LABEL" name="txt_money_5" subclass="">
+          <label val="" />
+          <pos x="63" y="64" />
+          <rect l="0" t="0" r="96" b="19" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#000000" />
+          <color val="#FFEA97" />
+          <halign val="2" />
+          <valign val="1" />
+          <FontName val="나눔고딕" />
+          <FontSize val="13" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+        <child type="LABEL" name="txt_ownername_5" subclass="">
+          <label val="" />
+          <pos x="63" y="43" />
+          <rect l="0" t="0" r="96" b="19" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#000000" />
+          <color val="#FFFFFF" />
+          <halign val="2" />
+          <valign val="1" />
+          <FontName val="나눔고딕" />
+          <FontSize val="13" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+        <child type="LABEL" name="txt_owner_5" subclass="">
+          <label val="소유주" />
+          <pos x="63" y="27" />
+          <rect l="0" t="0" r="96" b="19" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#000000" />
+          <color val="#7D5E4F" />
+          <halign val="2" />
+          <valign val="1" />
+          <FontName val="나눔고딕" />
+          <FontSize val="13" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+        <child type="LABEL" name="txt_horsename_5" subclass="">
+          <label val="" />
+          <pos x="11" y="3" />
+          <rect l="0" t="0" r="150" b="19" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#000000" />
+          <color val="#FFFFFF" />
+          <halign val="1" />
+          <valign val="1" />
+          <FontName val="나눔고딕" />
+          <FontSize val="13" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+        <child type="PICTURE" name="pic_horseicon5" subclass="">
+          <asset type="STATIC">
+          </asset>
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <pos x="8" y="29" />
+          <rect l="0" t="0" r="51" b="51" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+      </child>
+      <child type="PANEL" name="Panel_4" subclass="">
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <embed src="" />
+        <pos x="490" y="157" />
+        <rect l="0" t="0" r="170" b="88" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <child type="LABEL" name="txt_money_4" subclass="">
+          <label val="" />
+          <pos x="63" y="64" />
+          <rect l="0" t="0" r="96" b="19" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#000000" />
+          <color val="#FFEA97" />
+          <halign val="2" />
+          <valign val="1" />
+          <FontName val="나눔고딕" />
+          <FontSize val="13" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+        <child type="LABEL" name="txt_ownername_4" subclass="">
+          <label val="" />
+          <pos x="63" y="43" />
+          <rect l="0" t="0" r="96" b="19" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#000000" />
+          <color val="#FFFFFF" />
+          <halign val="2" />
+          <valign val="1" />
+          <FontName val="나눔고딕" />
+          <FontSize val="13" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+        <child type="LABEL" name="txt_owner_4" subclass="">
+          <label val="소유주" />
+          <pos x="63" y="27" />
+          <rect l="0" t="0" r="96" b="19" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#000000" />
+          <color val="#7D5E4F" />
+          <halign val="2" />
+          <valign val="1" />
+          <FontName val="나눔고딕" />
+          <FontSize val="13" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+        <child type="LABEL" name="txt_horsename_4" subclass="">
+          <label val="" />
+          <pos x="11" y="3" />
+          <rect l="0" t="0" r="150" b="19" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#000000" />
+          <color val="#FFFFFF" />
+          <halign val="1" />
+          <valign val="1" />
+          <FontName val="나눔고딕" />
+          <FontSize val="13" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+        <child type="PICTURE" name="pic_horseicon4" subclass="">
+          <asset type="STATIC">
+          </asset>
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <pos x="7" y="31" />
+          <rect l="0" t="0" r="51" b="51" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+      </child>
+      <child type="PANEL" name="Panel_3" subclass="">
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <embed src="" />
+        <pos x="305" y="157" />
+        <rect l="0" t="0" r="170" b="88" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <child type="LABEL" name="txt_money_3" subclass="">
+          <label val="" />
+          <pos x="63" y="64" />
+          <rect l="0" t="0" r="96" b="19" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#000000" />
+          <color val="#FFEA97" />
+          <halign val="2" />
+          <valign val="1" />
+          <FontName val="나눔고딕" />
+          <FontSize val="13" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+        <child type="LABEL" name="txt_ownername_3" subclass="">
+          <label val="" />
+          <pos x="63" y="43" />
+          <rect l="0" t="0" r="96" b="19" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#000000" />
+          <color val="#FFFFFF" />
+          <halign val="2" />
+          <valign val="1" />
+          <FontName val="나눔고딕" />
+          <FontSize val="13" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+        <child type="LABEL" name="txt_owner_3" subclass="">
+          <label val="소유주" />
+          <pos x="63" y="27" />
+          <rect l="0" t="0" r="96" b="19" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#000000" />
+          <color val="#7D5E4F" />
+          <halign val="2" />
+          <valign val="1" />
+          <FontName val="나눔고딕" />
+          <FontSize val="13" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+        <child type="LABEL" name="txt_horsename_3" subclass="">
+          <label val="" />
+          <pos x="11" y="3" />
+          <rect l="0" t="0" r="150" b="19" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#000000" />
+          <color val="#FFFFFF" />
+          <halign val="1" />
+          <valign val="1" />
+          <FontName val="나눔고딕" />
+          <FontSize val="13" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+        <child type="PICTURE" name="pic_horseicon3" subclass="">
+          <asset type="STATIC">
+          </asset>
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <pos x="6" y="31" />
+          <rect l="0" t="0" r="51" b="51" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+      </child>
+      <child type="PANEL" name="Panel_2" subclass="">
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <embed src="" />
+        <pos x="118" y="157" />
+        <rect l="0" t="0" r="170" b="88" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <child type="LABEL" name="txt_money_2" subclass="">
+          <label val="" />
+          <pos x="63" y="64" />
+          <rect l="0" t="0" r="96" b="19" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#000000" />
+          <color val="#FFEA97" />
+          <halign val="2" />
+          <valign val="1" />
+          <FontName val="나눔고딕" />
+          <FontSize val="13" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+        <child type="LABEL" name="txt_ownername_2" subclass="">
+          <label val="" />
+          <pos x="63" y="43" />
+          <rect l="0" t="0" r="96" b="19" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#000000" />
+          <color val="#FFFFFF" />
+          <halign val="2" />
+          <valign val="1" />
+          <FontName val="나눔고딕" />
+          <FontSize val="13" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+        <child type="LABEL" name="txt_owner_2" subclass="">
+          <label val="소유주" />
+          <pos x="63" y="27" />
+          <rect l="0" t="0" r="96" b="19" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#000000" />
+          <color val="#7D5E4F" />
+          <halign val="2" />
+          <valign val="1" />
+          <FontName val="나눔고딕" />
+          <FontSize val="13" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+        <child type="LABEL" name="txt_horsename_2" subclass="">
+          <label val="" />
+          <pos x="11" y="3" />
+          <rect l="0" t="0" r="150" b="19" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#000000" />
+          <color val="#FFFFFF" />
+          <halign val="1" />
+          <valign val="1" />
+          <FontName val="나눔고딕" />
+          <FontSize val="13" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+        <child type="PICTURE" name="pic_horseicon2" subclass="">
+          <asset type="STATIC">
+          </asset>
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <pos x="7" y="31" />
+          <rect l="0" t="0" r="51" b="51" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+      </child>
+      <child type="PANEL" name="Panel_1" subclass="">
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <embed src="" />
+        <pos x="304" y="18" />
+        <rect l="0" t="0" r="170" b="88" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <child type="LABEL" name="txt_money_1" subclass="">
+          <label val="" />
+          <pos x="63" y="64" />
+          <rect l="0" t="0" r="96" b="19" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#000000" />
+          <color val="#FFEA97" />
+          <halign val="2" />
+          <valign val="1" />
+          <FontName val="나눔고딕" />
+          <FontSize val="13" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+        <child type="LABEL" name="txt_ownername_1" subclass="">
+          <label val="" />
+          <pos x="63" y="43" />
+          <rect l="0" t="0" r="96" b="19" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#000000" />
+          <color val="#FFFFFF" />
+          <halign val="2" />
+          <valign val="1" />
+          <FontName val="나눔고딕" />
+          <FontSize val="13" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+        <child type="LABEL" name="txt_owner_1" subclass="">
+          <label val="소유주" />
+          <pos x="63" y="27" />
+          <rect l="0" t="0" r="96" b="19" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#000000" />
+          <color val="#7D5E4F" />
+          <halign val="2" />
+          <valign val="1" />
+          <FontName val="나눔고딕" />
+          <FontSize val="13" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+        <child type="LABEL" name="txt_horsename_1" subclass="">
+          <label val="" />
+          <pos x="11" y="3" />
+          <rect l="0" t="0" r="150" b="19" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#000000" />
+          <color val="#FFFFFF" />
+          <halign val="1" />
+          <valign val="1" />
+          <FontName val="나눔고딕" />
+          <FontSize val="13" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+        <child type="PICTURE" name="pic_horseicon1" subclass="">
+          <asset type="STATIC">
+          </asset>
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <pos x="9" y="31" />
+          <rect l="0" t="0" r="51" b="51" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+      </child>
+    </child>
+    <child type="ANIMBUTTON" name="btn_close" subclass="">
+      <asset type="GROUP">fes_result_finalmatch_dialog_btn_close.xml</asset>
+      <asset type="NORMAL">
+      </asset>
+      <asset type="DOWN">
+      </asset>
+      <asset type="OVER">
+      </asset>
+      <asset type="DISABLE">
+      </asset>
+      <asset type="ENTER">
+      </asset>
+      <asset type="LEAVE">
+      </asset>
+      <snd type="OVER">
+      </snd>
+      <snd type="DOWN">ui_btn_menu_click</snd>
+      <snd type="RELEASE">ui_btn_menu_release;ui_btn_menu_close</snd>
+      <pos x="814" y="19" />
+      <rect l="0" t="0" r="35" b="35" />
+      <Visible val="True" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <Anchor val="None" />
+      <IsDefaultButton val="False" />
+    </child>
+  </base>
+</refresh>

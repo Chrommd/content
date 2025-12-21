@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="mate_progress_desktop_Animation.xml" />
+  </properties>
+  <base type="WND" subclass="" name="Wnd">
+    <Visible val="True" />
+    <Anchor val="Top, Bottom, Left, Right" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="1024" b="768" />
+    <IsHitTestVisible val="True" />
+    <child type="STACKPANEL" name="StackPanel" subclass="">
+      <Visible val="True" />
+      <Anchor val="Top, Bottom, Left, Right" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="1024" b="768" />
+      <Orientation val="" />
+      <HAlign val="Center" />
+      <VAlign val="Center" />
+      <IsHitTestVisible val="True" />
+      <base type="WND" subclass="" name="mate_progress_Wnd">
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <pos x="0" y="0" />
+        <rect l="0" t="0" r="1024" b="768" />
+        <IsHitTestVisible val="True" />
+        <child type="PICTURE" name="mate_prograss_bg" subclass="">
+          <asset type="STATIC">
+          </asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="376" y="434" />
+          <rect l="0" t="0" r="273" b="273" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+        </child>
+        <child type="PICTURE" name="mate_prograss_efc1" subclass="">
+          <asset type="ANIMATION">mate_progress_desktop_mate_prograss_efc1.xml</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="385" y="439" />
+          <rect l="0" t="0" r="256" b="256" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+        </child>
+        <child type="PICTURE" name="mate_prograss_efc2" subclass="">
+          <asset type="ANIMATION">mate_progress_desktop_mate_prograss_efc2.xml</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="385" y="439" />
+          <rect l="0" t="0" r="256" b="256" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+        </child>
+        <child type="PICTURE" name="mate_prograss_bonus_bg" subclass="">
+          <asset type="STATIC">mate_prograss_bonus_bg.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="375" y="621" />
+          <rect l="0" t="0" r="274" b="64" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+        </child>
+        <child type="PICTURE" name="mate_prograss_bonus_bright" subclass="">
+          <asset type="ANIMATION">mate_progress_desktop_mate_prograss_bonus_bright.xml</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="375" y="621" />
+          <rect l="0" t="0" r="274" b="64" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+        </child>
+        <child type="LABEL" name="txt_mate_bonus" subclass="">
+          <label val="" />
+          <pos x="392" y="640" />
+          <rect l="0" t="0" r="240" b="21" />
+          <Visible val="True" />
+          <Anchor val="None" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#000000" />
+          <color val="#FFEA97" />
+          <halign val="1" />
+          <valign val="1" />
+          <FontName val="나눔고딕" />
+          <FontSize val="16" />
+          <TextTrimming val="None" />
+          <style val="32" />
+          <IsHitTestVisible val="False" />
+        </child>
+        <child type="PICTURE" name="mate_img_bling_r1" subclass="">
+          <asset type="STATIC">mate_img_bling2.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="631" y="611" />
+          <rect l="0" t="0" r="23" b="21" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+        </child>
+        <child type="PICTURE" name="mate_img_bling_r2" subclass="">
+          <asset type="STATIC">mate_img_bling2.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="595" y="639" />
+          <rect l="0" t="0" r="26" b="30" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+        </child>
+        <child type="PICTURE" name="mate_img_bling_r3" subclass="">
+          <asset type="STATIC">mate_img_bling3.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="632" y="669" />
+          <rect l="0" t="0" r="23" b="21" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+        </child>
+        <child type="PICTURE" name="mate_img_bling_r4" subclass="">
+          <asset type="STATIC">mate_img_bling3.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="423" y="646" />
+          <rect l="0" t="0" r="23" b="21" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+        </child>
+        <child type="PICTURE" name="mate_img_bling_l1" subclass="">
+          <asset type="STATIC">mate_img_bling1.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="388" y="617" />
+          <rect l="0" t="0" r="40" b="44" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+        </child>
+        <child type="PICTURE" name="mate_img_bling_l2" subclass="">
+          <asset type="STATIC">mate_img_bling2.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="387" y="658" />
+          <rect l="0" t="0" r="26" b="30" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+        </child>
+        <child type="PICTURE" name="mate_img_bling_l3" subclass="">
+          <asset type="STATIC">mate_img_bling3.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="355" y="638" />
+          <rect l="0" t="0" r="23" b="21" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+        </child>
+        <child type="PICTURE" name="mate_img_bling_l4" subclass="">
+          <asset type="STATIC">mate_img_bling3.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="429" y="664" />
+          <rect l="0" t="0" r="23" b="21" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+        </child>
+        <child type="PICTURE" name="img_mate_heart" subclass="">
+          <asset type="STATIC">
+          </asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="397" y="434" />
+          <rect l="0" t="0" r="232" b="194" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+        </child>
+      </base>
+    </child>
+  </base>
+</refresh>

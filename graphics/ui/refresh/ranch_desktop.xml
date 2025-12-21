@@ -1,0 +1,684 @@
+﻿<refresh version="2">
+	<properties>
+		<property name="DPI" val="72" />
+		<property name="UIAnimation" val="ranch_desktop_Animation.xml" />
+	</properties>
+	<base type="WND" subclass="" name="ranch_desktop">
+		<pos x="0" y="0" />
+		<rect l="0" t="0" r="1024" b="768" />
+		<Visible val="True" />
+		<Anchor val="Top, Bottom, Left, Right" />
+		<snd type="SHOW"></snd>
+		<snd type="HIDE"></snd>
+		<IsHitTestVisible val="True" />
+		<ClipChildren val="False" />
+		<base type="WND" subclass="" name="ranch_address">
+			<pos x="12" y="-6" />
+			<rect l="0" t="0" r="246" b="51" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<snd type="SHOW"></snd>
+			<snd type="HIDE"></snd>
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<child type="PICTURE" name="bg_ranchname" subclass="">
+				<asset type="STATIC">bg_ranchname.png</asset>
+				<pos x="-10" y="10" />
+				<rect l="0" t="0" r="228" b="42" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="ANIMBUTTON" name="btn_ranch_name" subclass="">
+				<asset type="GROUP">ranch_desktop_btn_ranch_name.xml</asset>
+				<asset type="NORMAL"></asset>
+				<asset type="DOWN"></asset>
+				<asset type="OVER"></asset>
+				<asset type="DISABLE"></asset>
+				<asset type="ENTER"></asset>
+				<asset type="LEAVE"></asset>
+				<pos x="5000" y="5000" />
+				<rect l="0" t="0" r="177" b="31" />
+				<Visible val="True" />
+				<snd type="OVER"></snd>
+				<snd type="DOWN">ui_btn_menu_click</snd>
+				<snd type="RELEASE">ui_btn_menu_release</snd>
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+				<Anchor val="Top, Left" />
+				<IsDefaultButton val="False" />
+			</child>
+			<child type="TEXTAREA" name="edit_ranch_name" subclass="">
+				<asset type="BG" path="" tileMode="Tile">
+					<tex x="0" y="0" />
+					<rect l="8" t="8" r="184" b="1" />
+				</asset>
+				<asset type="EDGE_LT" path="" tileMode="Tile">
+					<tex x="0" y="0" />
+					<rect l="0" t="0" r="8" b="8" />
+				</asset>
+				<asset type="EDGE_RT" path="" tileMode="Tile">
+					<tex x="0" y="0" />
+					<rect l="0" t="0" r="8" b="8" />
+				</asset>
+				<asset type="EDGE_LB" path="" tileMode="Tile">
+					<tex x="0" y="0" />
+					<rect l="0" t="0" r="8" b="8" />
+				</asset>
+				<asset type="EDGE_RB" path="" tileMode="Tile">
+					<tex x="0" y="0" />
+					<rect l="0" t="0" r="8" b="8" />
+				</asset>
+				<asset type="FRAME_T" path="" tileMode="Tile">
+					<tex x="0" y="0" />
+					<rect l="8" t="0" r="184" b="8" />
+				</asset>
+				<asset type="FRAME_B" path="" tileMode="Tile">
+					<tex x="0" y="0" />
+					<rect l="8" t="0" r="184" b="8" />
+				</asset>
+				<asset type="FRAME_L" path="" tileMode="Tile">
+					<tex x="0" y="0" />
+					<rect l="0" t="8" r="8" b="1" />
+				</asset>
+				<asset type="FRAME_R" path="" tileMode="Tile">
+					<tex x="0" y="0" />
+					<rect l="0" t="8" r="8" b="1" />
+				</asset>
+				<asset type="CARET" path="">
+					<rpos x="0" y="0" />
+					<rect l="0" t="0" r="0" b="0" />
+				</asset>
+				<pos x="9" y="27" />
+				<rect l="0" t="0" r="200" b="17" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<Editable val="False" />
+				<OutlineColor val="#FF0000" />
+				<ShadowColor val="#030201" />
+				<SelectionBrush val="#FF0000" />
+				<color val="#FFCD37" />
+				<style val="32" />
+				<halign val="0" />
+				<padding l="0" t="0" r="0" b="0" />
+				<FontName val="나눔고딕 ExtraBold" />
+				<FontSize val="13" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+				<FitToContent val="False" />
+				<Text val="" />
+			</child>
+			<child type="ANIMBUTTON" name="btn_unlock" subclass="">
+				<asset type="GROUP">ranch_desktop_btn_unlock.xml</asset>
+				<asset type="NORMAL"></asset>
+				<asset type="DOWN"></asset>
+				<asset type="OVER"></asset>
+				<asset type="DISABLE"></asset>
+				<asset type="ENTER"></asset>
+				<asset type="LEAVE"></asset>
+				<pos x="216" y="23" />
+				<rect l="0" t="0" r="23" b="23" />
+				<Visible val="True" />
+				<snd type="OVER"></snd>
+				<snd type="DOWN">ui_btn_menu_close</snd>
+				<snd type="RELEASE"></snd>
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+				<Anchor val="None" />
+				<IsDefaultButton val="False" />
+			</child>
+			<child type="ANIMBUTTON" name="btn_lock" subclass="">
+				<asset type="GROUP">ranch_desktop_btn_lock.xml</asset>
+				<asset type="NORMAL"></asset>
+				<asset type="DOWN"></asset>
+				<asset type="OVER"></asset>
+				<asset type="DISABLE"></asset>
+				<asset type="ENTER"></asset>
+				<asset type="LEAVE"></asset>
+				<pos x="216" y="23" />
+				<rect l="0" t="0" r="23" b="23" />
+				<Visible val="True" />
+				<snd type="OVER"></snd>
+				<snd type="DOWN">ui_btn_menu_close</snd>
+				<snd type="RELEASE"></snd>
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+				<Anchor val="None" />
+				<IsDefaultButton val="False" />
+			</child>
+		</base>
+		<child type="PANEL" name="Panel_chat_rd" subclass="">
+			<pos x="0" y="380" />
+			<rect l="0" t="0" r="345" b="312" />
+			<Visible val="True" />
+			<Anchor val="Bottom, Left" />
+			<embed src="" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="bg_visitorlist" subclass="">
+			<asset type="STATIC">img_visitorlist_bg.png</asset>
+			<pos x="0" y="257" />
+			<rect l="0" t="0" r="243" b="35" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="LISTSC" name="userlist" subclass="">
+			<asset type="BG" path="" tileMode="Tile">
+				<tex x="0" y="0" />
+				<rect l="8" t="8" r="318" b="194" />
+			</asset>
+			<asset type="EDGE_LT" path="" tileMode="Tile">
+				<tex x="0" y="0" />
+				<rect l="0" t="0" r="8" b="8" />
+			</asset>
+			<asset type="EDGE_RT" path="" tileMode="Tile">
+				<tex x="0" y="0" />
+				<rect l="0" t="0" r="8" b="8" />
+			</asset>
+			<asset type="EDGE_LB" path="" tileMode="Tile">
+				<tex x="0" y="0" />
+				<rect l="0" t="0" r="8" b="8" />
+			</asset>
+			<asset type="EDGE_RB" path="" tileMode="Tile">
+				<tex x="0" y="0" />
+				<rect l="0" t="0" r="8" b="8" />
+			</asset>
+			<asset type="FRAME_T" path="" tileMode="Tile">
+				<tex x="0" y="0" />
+				<rect l="8" t="0" r="318" b="8" />
+			</asset>
+			<asset type="FRAME_B" path="" tileMode="Tile">
+				<tex x="0" y="0" />
+				<rect l="8" t="0" r="318" b="8" />
+			</asset>
+			<asset type="FRAME_L" path="" tileMode="Tile">
+				<tex x="0" y="0" />
+				<rect l="0" t="8" r="8" b="194" />
+			</asset>
+			<asset type="FRAME_R" path="" tileMode="Tile">
+				<tex x="0" y="0" />
+				<rect l="0" t="8" r="8" b="194" />
+			</asset>
+			<control type="VSCROLLBAR" name="userlist_VSlider" horizontal="0">
+				<control type="BUTTON_LT" name="userlist_VScrollBar_TopButton">
+					<asset type="NORMAL">scroll_up_c_n.png</asset>
+					<asset type="DOWN">scroll_up_c_d.png</asset>
+					<asset type="OVER">scroll_up_c_o.png</asset>
+					<asset type="DISABLE"></asset>
+					<pos x="0" y="0" />
+					<rect l="0" t="0" r="14" b="17" />
+					<Visible val="True" />
+					<Anchor val="Top, Left, Right" />
+					<snd type="OVER">ui_alt_over</snd>
+					<snd type="DOWN">ui_alt_click</snd>
+					<snd type="RELEASE"></snd>
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+					<IsDefaultButton val="False" />
+				</control>
+				<control type="THUMB" name="userlist_VScrollBar_Thumb">
+					<asset type="NORMAL">scroll_bar_c_n.png</asset>
+					<asset type="DOWN">scroll_bar_c_d.png</asset>
+					<asset type="OVER">scroll_bar_c_o.png</asset>
+					<asset type="DISABLE"></asset>
+					<pos x="0" y="49" />
+					<rect l="0" t="0" r="14" b="62" />
+					<Visible val="True" />
+					<Anchor val="Top, Left, Right" />
+					<snd type="OVER"></snd>
+					<snd type="DOWN"></snd>
+					<snd type="RELEASE"></snd>
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+					<IsDefaultButton val="False" />
+				</control>
+				<control type="BUTTON_RB" name="userlist_VScrollBar_BottomButton">
+					<asset type="NORMAL">scroll_down_c_n.png</asset>
+					<asset type="DOWN">scroll_down_c_d.png</asset>
+					<asset type="OVER">scroll_down_c_o.png</asset>
+					<asset type="DISABLE"></asset>
+					<pos x="0" y="192" />
+					<rect l="0" t="0" r="14" b="17" />
+					<Visible val="True" />
+					<Anchor val="Bottom, Left, Right" />
+					<snd type="OVER">ui_alt_over</snd>
+					<snd type="DOWN">ui_alt_click</snd>
+					<snd type="RELEASE"></snd>
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+					<IsDefaultButton val="False" />
+				</control>
+				<pos x="0" y="0" />
+				<rect l="0" t="0" r="15" b="210" />
+				<Visible val="True" />
+				<Anchor val="Top, Bottom, Left" />
+				<scrollrect l="0" t="17" r="15" b="193" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</control>
+			<control type="HSCROLLBAR" name="userlist_HSlider" horizontal="1"></control>
+			<pos x="0" y="46" />
+			<rect l="0" t="0" r="334" b="210" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<padding l="19" t="0" r="6" b="0" />
+			<column val="1" />
+			<itemrect l="0" t="0" r="184" b="21" />
+			<selection val="0" />
+			<deselectable val="1" />
+			<rclickaction val="1" />
+			<IsHitTestVisible val="True" />
+			<Orientation val="Vertical" />
+			<ClipChildren val="False" />
+		</child>
+		<base type="WND" subclass="" name="myinfo">
+			<pos x="573" y="-53" />
+			<rect l="0" t="0" r="435" b="27" />
+			<Visible val="True" />
+			<Anchor val="Top, Right" />
+			<snd type="SHOW"></snd>
+			<snd type="HIDE"></snd>
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<child type="PICTURE" name="bg_myinfo" subclass="">
+				<asset type="STATIC">bg_myinfo.png</asset>
+				<pos x="0" y="0" />
+				<rect l="0" t="0" r="435" b="27" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="LABEL" name="txt_my_level" subclass="">
+				<pos x="11" y="2" />
+				<rect l="0" t="0" r="26" b="18" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<label val="" />
+				<OutlineColor val="#FF0000" />
+				<ShadowColor val="#000000FF" />
+				<color val="#FEE3D6" />
+				<halign val="2" />
+				<valign val="1" />
+				<FontName val="나눔고딕" />
+				<FontSize val="13" />
+				<TextTrimming val="None" />
+				<style val="33" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+				<Padding val="0, 0, 0, 0" />
+				<FitToContent val="False" />
+			</child>
+			<child type="LABEL" name="txt_my_cash" subclass="">
+				<pos x="104" y="2" />
+				<rect l="0" t="0" r="87" b="18" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<label val="" />
+				<OutlineColor val="#FF0000" />
+				<ShadowColor val="#000000FF" />
+				<color val="#FEE3D6" />
+				<halign val="2" />
+				<valign val="1" />
+				<FontName val="나눔고딕" />
+				<FontSize val="13" />
+				<TextTrimming val="None" />
+				<style val="33" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+				<Padding val="0, 0, 0, 0" />
+				<FitToContent val="False" />
+			</child>
+			<child type="LABEL" name="txt_my_gamemoney" subclass="">
+				<pos x="258" y="2" />
+				<rect l="0" t="0" r="118" b="18" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<label val="" />
+				<OutlineColor val="#FF0000" />
+				<ShadowColor val="#000000FF" />
+				<color val="#FFF0D6" />
+				<halign val="2" />
+				<valign val="1" />
+				<FontName val="나눔고딕" />
+				<FontSize val="13" />
+				<TextTrimming val="None" />
+				<style val="33" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+				<Padding val="0, 0, 0, 0" />
+				<FitToContent val="False" />
+			</child>
+			<child type="LABEL" name="lb_my_gamemoney" subclass="">
+				<pos x="383" y="2" />
+				<rect l="0" t="0" r="47" b="18" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<label val="Carrots" />
+				<OutlineColor val="#FF0000" />
+				<ShadowColor val="#B19E89" />
+				<color val="#381B0D" />
+				<halign val="1" />
+				<valign val="1" />
+				<FontName val="나눔고딕" />
+				<FontSize val="13" />
+				<TextTrimming val="None" />
+				<style val="1" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+				<Padding val="0, 0, 0, 0" />
+				<FitToContent val="False" />
+			</child>
+			<child type="LABEL" name="lb_my_cash" subclass="">
+				<pos x="198" y="2" />
+				<rect l="0" t="0" r="47" b="18" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<label val="Cash" />
+				<OutlineColor val="#FF0000" />
+				<ShadowColor val="#B19E89" />
+				<color val="#381B0D" />
+				<halign val="1" />
+				<valign val="1" />
+				<FontName val="나눔고딕" />
+				<FontSize val="13" />
+				<TextTrimming val="None" />
+				<style val="1" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+				<Padding val="0, 0, 0, 0" />
+				<FitToContent val="False" />
+			</child>
+			<child type="LABEL" name="lb_my_level" subclass="">
+				<pos x="44" y="2" />
+				<rect l="0" t="0" r="47" b="18" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<label val="Level" />
+				<OutlineColor val="#FF0000" />
+				<ShadowColor val="#B19E89" />
+				<color val="#381B0D" />
+				<halign val="1" />
+				<valign val="1" />
+				<FontName val="나눔고딕" />
+				<FontSize val="13" />
+				<TextTrimming val="None" />
+				<style val="1" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+				<Padding val="0, 0, 0, 0" />
+				<FitToContent val="False" />
+			</child>
+		</base>
+		<child type="STACKPANEL" name="StackPanel" subclass="">
+			<pos x="0" y="-6" />
+			<rect l="0" t="0" r="1024" b="39" />
+			<Visible val="True" />
+			<Anchor val="Top, Left, Right" />
+			<Orientation val="Vertical" />
+			<HAlign val="Center" />
+			<VAlign val="Center" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+			<base type="WND" subclass="" name="Wnd">
+				<pos x="361" y="0" />
+				<rect l="0" t="0" r="302" b="38" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<snd type="SHOW"></snd>
+				<snd type="HIDE"></snd>
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+				<child type="PICTURE" name="top_title_bg" subclass="">
+					<asset type="STATIC">top_title_bg.png</asset>
+					<pos x="0" y="0" />
+					<rect l="0" t="0" r="302" b="38" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+				</child>
+				<child type="LABEL" name="lb_add_ranch" subclass="">
+					<pos x="1" y="3" />
+					<rect l="0" t="0" r="302" b="31" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<label val="Ranch" />
+					<OutlineColor val="#FF0000" />
+					<ShadowColor val="#030201" />
+					<color val="#FFCD37" />
+					<halign val="1" />
+					<valign val="1" />
+					<FontName val="나눔고딕 ExtraBold" />
+					<FontSize val="16" />
+					<TextTrimming val="None" />
+					<style val="32" />
+					<IsHitTestVisible val="False" />
+					<ClipChildren val="False" />
+					<Padding val="0, 0, 0, 0" />
+					<FitToContent val="False" />
+				</child>
+				<child type="PICTURE" name="dialog_ranch_connet" subclass="">
+					<asset type="ANIMATION">ranch_desktop_dialog_ranch_connet.xml</asset>
+					<pos x="86" y="36" />
+					<rect l="0" t="0" r="131" b="86" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+					<child type="LABEL" name="Label" subclass="">
+						<pos x="7" y="42" />
+						<rect l="0" t="0" r="118" b="19" />
+						<Visible val="True" />
+						<Anchor val="Top, Left" />
+						<label val="Ranch server" />
+						<OutlineColor val="#FFFFFFFF" />
+						<ShadowColor val="#1C0805FF" />
+						<color val="#FFFFFFFF" />
+						<halign val="1" />
+						<valign val="0" />
+						<FontName val="나눔고딕" />
+						<FontSize val="12" />
+						<TextTrimming val="None" />
+						<style val="33" />
+						<IsHitTestVisible val="False" />
+						<ClipChildren val="False" />
+						<Padding val="0, 0, 0, 0" />
+						<FitToContent val="False" />
+					</child>
+					<child type="LABEL" name="Label2" subclass="">
+						<pos x="8" y="57" />
+						<rect l="0" t="0" r="115" b="19" />
+						<Visible val="True" />
+						<Anchor val="Top, Left" />
+						<label val="not connected." />
+						<OutlineColor val="#FFFFFFFF" />
+						<ShadowColor val="#1C0805FF" />
+						<color val="#FFFFFFFF" />
+						<halign val="1" />
+						<valign val="0" />
+						<FontName val="나눔고딕" />
+						<FontSize val="12" />
+						<TextTrimming val="None" />
+						<style val="33" />
+						<IsHitTestVisible val="False" />
+						<ClipChildren val="False" />
+						<Padding val="0, 0, 0, 0" />
+						<FitToContent val="False" />
+					</child>
+					<child type="PICTURE" name="icon_ranch_connet" subclass="">
+						<asset type="STATIC">icon_ranch_connet.png</asset>
+						<pos x="49" y="11" />
+						<rect l="0" t="0" r="32" b="30" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="True" />
+						<ClipChildren val="False" />
+					</child>
+				</child>
+			</base>
+		</child>
+		<child type="STACKPANEL" name="Wnd_pc_bonus" subclass="">
+			<pos x="750" y="9" />
+			<rect l="0" t="0" r="271" b="599" />
+			<Visible val="True" />
+			<Anchor val="Top, Right" />
+			<Orientation val="Vertical" />
+			<HAlign val="Right" />
+			<VAlign val="Top" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<child type="PANEL" name="Panel_quest_list" subclass="">
+				<pos x="70" y="124" />
+				<rect l="0" t="0" r="201" b="168" />
+				<Visible val="True" />
+				<Anchor val="Top, Right" />
+				<embed src="" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="BUTTON" subclass="" name="Button_pc_bonus">
+				<asset type="NORMAL">btn_bonus_message_normal.png</asset>
+				<asset type="DOWN">btn_bonus_message_push.png</asset>
+				<asset type="OVER">btn_bonus_message_hover.png</asset>
+				<asset type="DISABLE"></asset>
+				<pos x="66" y="62" />
+				<rect l="0" t="0" r="205" b="62" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<snd type="OVER"></snd>
+				<snd type="DOWN">ui_btn_menu_click</snd>
+				<snd type="RELEASE">ui_btn_menu_release;ui_btn_menu_confirm</snd>
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+				<IsDefaultButton val="False" />
+				<child type="LABEL" name="Label3" subclass="">
+					<pos x="46" y="12" />
+					<rect l="0" t="0" r="127" b="19" />
+					<Visible val="True" />
+					<Anchor val="Top, Left" />
+					<label val="Bonus benefits" />
+					<OutlineColor val="#FFFFFF" />
+					<ShadowColor val="#0000004C" />
+					<color val="#6B5D54" />
+					<halign val="0" />
+					<valign val="1" />
+					<FontName val="나눔고딕 ExtraBold" />
+					<FontSize val="14" />
+					<TextTrimming val="CharacterEllipsis" />
+					<style val="0" />
+					<IsHitTestVisible val="False" />
+					<ClipChildren val="False" />
+					<Padding val="0, 0, 0, 0" />
+					<FitToContent val="False" />
+				</child>
+				<child type="LABEL" name="Label4" subclass="">
+					<pos x="46" y="35" />
+					<rect l="0" t="0" r="144" b="19" />
+					<Visible val="True" />
+					<Anchor val="Top, Left" />
+					<label val="PC방 보너스를 받으세요" />
+					<OutlineColor val="#FFEB90FF" />
+					<ShadowColor val="#0000004C" />
+					<color val="#473C2CFF" />
+					<halign val="0" />
+					<valign val="1" />
+					<FontName val="나눔고딕 ExtraBold" />
+					<FontSize val="12" />
+					<TextTrimming val="CharacterEllipsis" />
+					<style val="16" />
+					<IsHitTestVisible val="False" />
+					<ClipChildren val="False" />
+					<Padding val="0, 0, 0, 0" />
+					<FitToContent val="False" />
+				</child>
+				<child type="PICTURE" name="icon_message_bonus" subclass="">
+					<asset type="STATIC">icon_message_bonus.png</asset>
+					<pos x="6" y="10" />
+					<rect l="0" t="0" r="38" b="39" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="False" />
+					<ClipChildren val="False" />
+				</child>
+			</child>
+			<child type="BUTTON" subclass="" name="Button_notice">
+				<asset type="NORMAL">btn_bonus_message_normal.png</asset>
+				<asset type="DOWN">btn_bonus_message_push.png</asset>
+				<asset type="OVER">btn_bonus_message_hover.png</asset>
+				<asset type="DISABLE"></asset>
+				<pos x="66" y="0" />
+				<rect l="0" t="0" r="205" b="62" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<snd type="OVER"></snd>
+				<snd type="DOWN">ui_btn_menu_click</snd>
+				<snd type="RELEASE">ui_btn_menu_release;ui_btn_menu_confirm</snd>
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+				<IsDefaultButton val="False" />
+				<child type="LABEL" name="Label6" subclass="">
+					<pos x="46" y="12" />
+					<rect l="0" t="0" r="130" b="19" />
+					<Visible val="True" />
+					<Anchor val="Top, Left" />
+					<label val="What's new" />
+					<OutlineColor val="#FFFFFF" />
+					<ShadowColor val="#0000004C" />
+					<color val="#6B5D54" />
+					<halign val="0" />
+					<valign val="1" />
+					<FontName val="나눔고딕 ExtraBold" />
+					<FontSize val="14" />
+					<TextTrimming val="CharacterEllipsis" />
+					<style val="0" />
+					<IsHitTestVisible val="False" />
+					<ClipChildren val="False" />
+					<Padding val="0, 0, 0, 0" />
+					<FitToContent val="False" />
+				</child>
+				<child type="LABEL" name="Label5" subclass="">
+					<pos x="46" y="34" />
+					<rect l="0" t="0" r="146" b="19" />
+					<Visible val="True" />
+					<Anchor val="Top, Left" />
+					<label val="Story of Alicia is online!" />
+					<OutlineColor val="#FFEB90FF" />
+					<ShadowColor val="#0000004C" />
+					<color val="#473C2CFF" />
+					<halign val="0" />
+					<valign val="1" />
+					<FontName val="나눔고딕 ExtraBold" />
+					<FontSize val="12" />
+					<TextTrimming val="CharacterEllipsis" />
+					<style val="16" />
+					<IsHitTestVisible val="False" />
+					<ClipChildren val="False" />
+					<Padding val="0, 0, 0, 0" />
+					<FitToContent val="False" />
+				</child>
+				<child type="PICTURE" name="icon_message_notice" subclass="">
+					<asset type="STATIC">icon_message_notice.png</asset>
+					<pos x="10" y="17" />
+					<rect l="0" t="0" r="31" b="32" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="False" />
+					<ClipChildren val="False" />
+				</child>
+			</child>
+		</child>
+	</base>
+</refresh>

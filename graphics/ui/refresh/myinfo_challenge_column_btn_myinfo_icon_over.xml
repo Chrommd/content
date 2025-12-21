@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="NORMAL">
+    <param type="RES" x="65" y="65" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+  </scene>
+  <scene name="OVER">
+    <asset type="IMAGE" name="asset_img_myinfo_icon_over" path="img_myinfo_icon_over.png">
+      <rect l="0" t="0" r="65" b="65" />
+    </asset>
+    <asset type="IMAGE" name="asset_img_myinfo_icon_over1" path="img_myinfo_icon_over.png">
+      <rect l="0" t="0" r="65" b="65" />
+    </asset>
+    <object name="img_myinfo_icon_over" ani="ani_img_myinfo_icon_over">
+      <asset type="IMAGE" link="asset_img_myinfo_icon_over" />
+    </object>
+    <object name="img_myinfo_icon_over1" ani="ani_img_myinfo_icon_over1">
+      <asset type="IMAGE" link="asset_img_myinfo_icon_over1" />
+    </object>
+    <param type="RES" x="65" y="65" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_img_myinfo_icon_over">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_myinfo_icon_over1">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="DOWN">
+    <asset type="IMAGE" name="asset_img_myinfo_icon_over" path="img_myinfo_icon_over.png">
+      <rect l="0" t="0" r="65" b="65" />
+    </asset>
+    <object name="img_myinfo_icon_over" ani="ani_img_myinfo_icon_over">
+      <asset type="IMAGE" link="asset_img_myinfo_icon_over" />
+    </object>
+    <param type="RES" x="65" y="65" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_img_myinfo_icon_over">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

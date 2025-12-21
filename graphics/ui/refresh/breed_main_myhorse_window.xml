@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+  </properties>
+  <base type="WND" subclass="" name="breed_myhorse_wnd">
+    <Visible val="True" />
+    <Anchor val="Top, Left" />
+    <pos x="442" y="184" />
+    <rect l="0" t="0" r="140" b="42" />
+    <snd type="SHOW">
+    </snd>
+    <snd type="HIDE">
+    </snd>
+    <IsHitTestVisible val="True" />
+    <ClipChildren val="False" />
+    <child type="LABEL" name="lb_breed_myhorse_horsename" subclass="">
+      <label val="" />
+      <pos x="0" y="22" />
+      <rect l="0" t="0" r="140" b="21" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#000000FF" />
+      <color val="#E9FE38FF" />
+      <halign val="1" />
+      <valign val="1" />
+      <FontName val="나눔고딕 ExtraBold" />
+      <FontSize val="13" />
+      <TextTrimming val="None" />
+      <style val="32" />
+      <IsHitTestVisible val="False" />
+      <ClipChildren val="False" />
+      <Padding val="0, 0, 0, 0" />
+    </child>
+    <child type="LABEL" name="lb_breed_myhorse_horsegrade" subclass="">
+      <label val="" />
+      <pos x="53" y="2" />
+      <rect l="0" t="0" r="48" b="21" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#FF0000" />
+      <color val="#FFFFFF" />
+      <halign val="1" />
+      <valign val="1" />
+      <FontName val="나눔고딕" />
+      <FontSize val="14" />
+      <TextTrimming val="None" />
+      <style val="1" />
+      <IsHitTestVisible val="False" />
+      <ClipChildren val="False" />
+      <Padding val="0, 0, 0, 0" />
+    </child>
+    <child type="PICTURE" name="breed_myhorse_icon" subclass="">
+      <asset type="STATIC">
+      </asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="32" y="1" />
+      <rect l="0" t="0" r="22" b="22" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+  </base>
+</refresh>

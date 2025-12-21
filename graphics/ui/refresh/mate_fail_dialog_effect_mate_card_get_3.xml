@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="effect_mate_card_get_3_Default">
+    <asset type="IMAGE" name="asset_img_mate_card_chance_b" path="img_mate_card_nomal_b.png">
+      <rect l="0" t="0" r="219" b="297" />
+    </asset>
+    <asset type="IMAGE" name="asset_effect_mate_card_white" path="effect_mate_card_white.png">
+      <rect l="0" t="0" r="203" b="279" />
+    </asset>
+    <asset type="IMAGE" name="asset_effect_mate_card_white_line" path="effect_mate_card_white_line.png">
+      <rect l="0" t="0" r="215" b="291" />
+    </asset>
+    <object name="img_mate_card_chance_b" ani="ani_img_mate_card_chance_b">
+      <asset type="IMAGE" link="asset_img_mate_card_chance_b" />
+    </object>
+    <object name="effect_mate_card_white" ani="ani_effect_mate_card_white">
+      <asset type="IMAGE" link="asset_effect_mate_card_white" />
+    </object>
+    <object name="effect_mate_card_white_line" ani="ani_effect_mate_card_white_line">
+      <asset type="IMAGE" link="asset_effect_mate_card_white_line" />
+    </object>
+    <param type="RES" x="219" y="297" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_img_mate_card_chance_b">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <sound val="ui_mating_fail_card_select" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="167">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="367">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_effect_mate_card_white">
+      <frame cnt="0">
+        <posx val="0.488584474885845" />
+        <posy val="0.494949494949495" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="167">
+        <posx val="0.4885845" />
+        <posy val="0.4949495" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="367">
+        <posx val="0.4885845" />
+        <posy val="0.4949495" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="733">
+        <posx val="0.4885845" />
+        <posy val="0.4949495" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+    <anim name="ani_effect_mate_card_white_line">
+      <frame cnt="0">
+        <posx val="0.488584474885845" />
+        <posy val="0.494949494949495" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="167">
+        <posx val="0.4885845" />
+        <posy val="0.4949495" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="3300">
+        <posx val="0.4885845" />
+        <posy val="0.4949495" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="4000">
+        <posx val="0.4885845" />
+        <posy val="0.4949495" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

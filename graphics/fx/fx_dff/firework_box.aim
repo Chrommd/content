@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <AABB animation="firework_box">
+        <minX>0.0000</minX>
+        <minY>0.0000</minY>
+        <minZ>0.0000</minZ>
+        <maxX>0.0000</maxX>
+        <maxY>0.0000</maxY>
+        <maxZ>0.0000</maxZ>
+    </AABB>
+    <event animation="">
+        <function>PlayFX($asset, "ob_firework_01", "d1", "-attach ")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="">
+        <function>PlayFX($asset, "ob_firework_02", "d2", "-attach ")</function>
+        <time>0.3100</time>
+        <freq>100</freq>
+    </event>
+    <event animation="">
+        <function>PlayFX($asset, "ob_firework_03", "d3", "-attach ")</function>
+        <time>0.6650</time>
+        <freq>100</freq>
+    </event>
+    <event animation="">
+        <function>PlayFX($asset, "ob_firework_04", "d4", "-attach ")</function>
+        <time>1.0500</time>
+        <freq>100</freq>
+    </event>
+    <event animation="">
+        <function>PlayFX($asset, "ob_firework_05", "d5", "-attach ")</function>
+        <time>1.4300</time>
+        <freq>100</freq>
+    </event>
+    <event animation="">
+        <function>PlayFX($asset, "ob_firework_06", "d6", "-attach ")</function>
+        <time>1.7700</time>
+        <freq>100</freq>
+    </event>
+    <event animation="">
+        <function>PlaySND($asset, "fireworks_explo", "d1", "-var 2")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="">
+        <function>PlaySND($asset, "fireworks_onfly", "d1", "-var 0")</function>
+        <time>2.1600</time>
+        <freq>40</freq>
+    </event>
+    <dummy name="d1" parent="NODE_0" sync="FALSE">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>3.6022</offsetX>
+        <offsetY>8.5110</offsetY>
+        <offsetZ>5.0012</offsetZ>
+    </dummy>
+    <dummy name="d2" parent="NODE_0" sync="FALSE">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>-0.4630</offsetX>
+        <offsetY>2.5843</offsetY>
+        <offsetZ>5.1305</offsetZ>
+    </dummy>
+    <dummy name="d3" parent="DummyRoot" sync="FALSE">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>-8.5674</offsetX>
+        <offsetY>6.2228</offsetY>
+        <offsetZ>1.3006</offsetZ>
+    </dummy>
+    <dummy name="d4" parent="DummyRoot" sync="FALSE">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>1.8518</offsetX>
+        <offsetY>5.0569</offsetY>
+        <offsetZ>-5.2512</offsetZ>
+    </dummy>
+    <dummy name="d5" parent="DummyRoot" sync="FALSE">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>2.4886</offsetX>
+        <offsetY>13.0056</offsetY>
+        <offsetZ>1.1547</offsetZ>
+    </dummy>
+    <dummy name="d6" parent="DummyRoot" sync="FALSE">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>-5.0899</offsetX>
+        <offsetY>9.0468</offsetY>
+        <offsetZ>-4.8459</offsetZ>
+    </dummy>
+    <action state="G_IDLE" prevState="" loop="1">
+        <main speed=0.0000></main>
+    </action>
+</aim>

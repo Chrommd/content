@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <event animation="_initialize_">
+        <function>PlayFX($asset, "ob_lighthouse_crystal_long", "d_long", "-attach")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="_initialize_">
+        <function>PlayFX($asset, "ob_lighthouse_crystal_shot", "d_shot", "-attach")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="_initialize_">
+        <function>PlayFX($asset, "ob_lighthouse_crystal_center", "d_center", "-attach ")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="_initialize_">
+        <function>PlayFX($asset, "ob_mulebanga", "d_mule", "-attach ")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <dummy name="d_center" parent="Dummy06" sync="TRUE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.0000</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <dummy name="d_long" parent="Dummy04" sync="TRUE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.0000</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <dummy name="d_shot" parent="Dummy05" sync="TRUE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.0000</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <dummy name="d_mule" parent="Dummyroot" sync="TRUE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.6975</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>0.7165</rotationW>
+        <offsetX>26.4949</offsetX>
+        <offsetY>-4.3315</offsetY>
+        <offsetZ>8.1990</offsetZ>
+    </dummy>
+    <action category="" state="G_IDLE" prevState="" loop="1" weight="1">
+        <main speed=0.0000></main>
+    </action>
+</aim>

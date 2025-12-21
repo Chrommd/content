@@ -1,0 +1,536 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="event_stamp_bg_4_Default">
+    <asset type="IMAGE" name="asset_event_stamp_bg_back" path="event_stamp_bg_back.png">
+      <rect l="0" t="0" r="95" b="95" />
+    </asset>
+    <asset type="IMAGE" name="asset_event_stamp_bg_front" path="event_stamp_bg_front.png">
+      <rect l="0" t="0" r="95" b="95" />
+    </asset>
+    <asset type="IMAGE" name="asset_event_stamp_effect_02" path="event_stamp_effect_02.png">
+      <rect l="0" t="0" r="116" b="117" />
+    </asset>
+    <asset type="IMAGE" name="asset_event_stamp_effect_01" path="event_stamp_effect_01.png">
+      <rect l="0" t="0" r="158" b="157" />
+    </asset>
+    <object name="event_stamp_bg_back" ani="ani_event_stamp_bg_back">
+      <asset type="IMAGE" link="asset_event_stamp_bg_back" />
+    </object>
+    <object name="event_stamp_bg_front" ani="ani_event_stamp_bg_front">
+      <asset type="IMAGE" link="asset_event_stamp_bg_front" />
+    </object>
+    <object name="event_stamp_effect_02" ani="ani_event_stamp_effect_02">
+      <asset type="IMAGE" link="asset_event_stamp_effect_02" />
+    </object>
+    <object name="event_stamp_effect_01" ani="ani_event_stamp_effect_01">
+      <asset type="IMAGE" link="asset_event_stamp_effect_01" />
+    </object>
+    <param type="RES" x="95" y="95" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_event_stamp_bg_back">
+      <frame cnt="0">
+        <posx val="0.684210526315789" />
+        <posy val="1.89473684210526" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.505263157894737" easeValue="0.0,0.0,0.5,1.0" />
+        <posy val="0.505263157894737" easeValue="0.0,0.0,0.5,1.0" />
+        <scalex val="1" easeValue="0.0,0.0,0.5,1.0" />
+        <scaley val="1" easeValue="0.0,0.0,0.5,1.0" />
+        <alpha val="0" easeValue="0.0,0.0,0.5,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" easeValue="0.0,0.0,0.5,1.0" />
+        <centery val="0.5" easeValue="0.0,0.0,0.5,1.0" />
+      </frame>
+      <frame cnt="367">
+        <posx val="0.505263157894737" />
+        <posy val="0.505263157894737" />
+        <scalex val="1" />
+        <scaley val="0.0315789473684211" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="433">
+        <posx val="0.505263157894737" easeValue="0.0,0.0,0.7,0.8" />
+        <posy val="0.505263157894737" easeValue="0.0,0.0,0.7,0.8" />
+        <scalex val="1" easeValue="0.0,0.0,0.7,0.8" />
+        <scaley val="1" easeValue="0.0,0.0,0.7,0.8" />
+        <alpha val="1" easeValue="0.0,0.0,0.7,0.8" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" easeValue="0.0,0.0,0.7,0.8" />
+        <centery val="0.5" easeValue="0.0,0.0,0.7,0.8" />
+      </frame>
+      <frame cnt="533">
+        <posx val="0.505263157894737" easeValue="0.0,0.0,0.4,1.0" />
+        <posy val="0.505263157894737" easeValue="0.0,0.0,0.4,1.0" />
+        <scalex val="1" easeValue="0.0,0.0,0.4,1.0" />
+        <scaley val="0.115789473684211" easeValue="0.0,0.0,0.4,1.0" />
+        <alpha val="1" easeValue="0.0,0.0,0.4,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" easeValue="0.0,0.0,0.4,1.0" />
+        <centery val="0.5" easeValue="0.0,0.0,0.4,1.0" />
+      </frame>
+      <frame cnt="567">
+        <posx val="0.505263157894737" />
+        <posy val="0.505263157894737" />
+        <scalex val="1" />
+        <scaley val="0.0105263157894737" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="700">
+        <posx val="0.505263157894737" easeValue="0.0,0.0,0.4,1.0" />
+        <posy val="0.505263157894737" easeValue="0.0,0.0,0.4,1.0" />
+        <scalex val="1" />
+        <scaley val="0.7052631" />
+        <alpha val="0" easeValue="0.0,0.0,0.4,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" easeValue="0.0,0.0,0.4,1.0" />
+        <centery val="0.5" easeValue="0.0,0.0,0.4,1.0" />
+      </frame>
+      <frame cnt="800">
+        <posx val="0.505263157894737" easeValue="0.0,0.0,0.5,0.8" />
+        <posy val="0.505263157894737" easeValue="0.0,0.0,0.5,0.8" />
+        <scalex val="1" easeValue="0.0,0.0,0.5,0.8" />
+        <scaley val="1" easeValue="0.0,0.0,0.5,0.8" />
+        <alpha val="0" easeValue="0.0,0.0,0.5,0.8" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" easeValue="0.0,0.0,0.5,0.8" />
+        <centery val="0.5" easeValue="0.0,0.0,0.5,0.8" />
+      </frame>
+      <frame cnt="833">
+        <posx val="0.505263157894737" />
+        <posy val="0.505263157894737" />
+        <scalex val="1" />
+        <scaley val="0.0315789473684211" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="967">
+        <posx val="0.505263157894737" easeValue="0.0,0.0,0.4,1.0" />
+        <posy val="0.505263157894737" easeValue="0.0,0.0,0.4,1.0" />
+        <scalex val="1" easeValue="0.0,0.0,0.4,1.0" />
+        <scaley val="1" easeValue="0.0,0.0,0.4,1.0" />
+        <alpha val="1" easeValue="0.0,0.0,0.4,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" easeValue="0.0,0.0,0.4,1.0" />
+        <centery val="0.5" easeValue="0.0,0.0,0.4,1.0" />
+      </frame>
+      <frame cnt="1067">
+        <posx val="0.505263157894737" easeValue="0.0,0.0,0.4,1.0" />
+        <posy val="0.505263157894737" easeValue="0.0,0.0,0.4,1.0" />
+        <scalex val="1" easeValue="0.0,0.0,0.4,1.0" />
+        <scaley val="0.115789473684211" easeValue="0.0,0.0,0.4,1.0" />
+        <alpha val="1" easeValue="0.0,0.0,0.4,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" easeValue="0.0,0.0,0.4,1.0" />
+        <centery val="0.5" easeValue="0.0,0.0,0.4,1.0" />
+      </frame>
+      <frame cnt="1100">
+        <posx val="0.505263157894737" />
+        <posy val="0.505263157894737" />
+        <scalex val="1" />
+        <scaley val="0.0105263157894737" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="1233">
+        <posx val="0.505263157894737" easeValue="0.0,0.0,0.3,1.0" />
+        <posy val="0.505263157894737" easeValue="0.0,0.0,0.3,1.0" />
+        <scalex val="1" />
+        <scaley val="0.6631579" />
+        <alpha val="0" easeValue="0.0,0.0,0.3,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" easeValue="0.0,0.0,0.3,1.0" />
+        <centery val="0.5" easeValue="0.0,0.0,0.3,1.0" />
+      </frame>
+      <frame cnt="1333">
+        <posx val="0.505263157894737" easeValue="0.0,0.0,0.6,0.8" />
+        <posy val="0.505263157894737" easeValue="0.0,0.0,0.6,0.8" />
+        <scalex val="1" easeValue="0.0,0.0,0.6,0.8" />
+        <scaley val="1" easeValue="0.0,0.0,0.6,0.8" />
+        <alpha val="0" easeValue="0.0,0.0,0.6,0.8" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" easeValue="0.0,0.0,0.6,0.8" />
+        <centery val="0.5" easeValue="0.0,0.0,0.6,0.8" />
+      </frame>
+      <frame cnt="1367">
+        <posx val="0.505263157894737" />
+        <posy val="0.505263157894737" />
+        <scalex val="1" />
+        <scaley val="0.0315789473684211" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="1500">
+        <posx val="0.505263157894737" easeValue="0.0,0.0,0.3,1.0" />
+        <posy val="0.505263157894737" easeValue="0.0,0.0,0.3,1.0" />
+        <scalex val="1" easeValue="0.0,0.0,0.3,1.0" />
+        <scaley val="1" easeValue="0.0,0.0,0.3,1.0" />
+        <alpha val="1" easeValue="0.0,0.0,0.3,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" easeValue="0.0,0.0,0.3,1.0" />
+        <centery val="0.5" easeValue="0.0,0.0,0.3,1.0" />
+      </frame>
+      <frame cnt="1600">
+        <posx val="0.505263157894737" easeValue="0.0,0.0,0.6,0.7" />
+        <posy val="0.505263157894737" easeValue="0.0,0.0,0.6,0.7" />
+        <scalex val="1" easeValue="0.0,0.0,0.6,0.7" />
+        <scaley val="0.115789473684211" easeValue="0.0,0.0,0.6,0.7" />
+        <alpha val="1" easeValue="0.0,0.0,0.6,0.7" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" easeValue="0.0,0.0,0.6,0.7" />
+        <centery val="0.5" easeValue="0.0,0.0,0.6,0.7" />
+      </frame>
+      <frame cnt="1633">
+        <posx val="0.505263157894737" />
+        <posy val="0.505263157894737" />
+        <scalex val="1" />
+        <scaley val="0.0105263157894737" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+    <anim name="ani_event_stamp_bg_front">
+      <frame cnt="0">
+        <posx val="0.505263157894737" />
+        <posy val="0.505263157894737" />
+        <scalex val="1" />
+        <scaley val="0.0105263157894737" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.505263157894737" />
+        <posy val="0.505263157894737" />
+        <scalex val="1" />
+        <scaley val="0.0105263157894737" />
+        <alpha val="0.97" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="367">
+        <posx val="0.505263157894737" easeValue="0.0,0.0,0.6,0.9" />
+        <posy val="0.505263157894737" easeValue="0.0,0.0,0.6,0.9" />
+        <scalex val="1" easeValue="0.0,0.0,0.6,0.9" />
+        <scaley val="0.0105263157894737" easeValue="0.0,0.0,0.6,0.9" />
+        <alpha val="1" easeValue="0.0,0.0,0.6,0.9" />
+        <rotate val="0" />
+        <visible val="1" />
+        <sound val="result_stamp_coin_st" />
+        <centerx val="0.5" easeValue="0.0,0.0,0.6,0.9" />
+        <centery val="0.5" easeValue="0.0,0.0,0.6,0.9" />
+      </frame>
+      <frame cnt="400">
+        <posx val="0.505263157894737" />
+        <posy val="0.505263157894737" />
+        <scalex val="1" />
+        <scaley val="0.0105263157894737" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="533">
+        <posx val="0.505263157894737" easeValue="0.0,0.0,0.6,0.9" />
+        <posy val="0.505263157894737" easeValue="0.0,0.0,0.6,0.9" />
+        <scalex val="1" easeValue="0.0,0.0,0.6,0.9" />
+        <scaley val="0.0105263157894737" easeValue="0.0,0.0,0.6,0.9" />
+        <alpha val="0" easeValue="0.0,0.0,0.6,0.9" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" easeValue="0.0,0.0,0.6,0.9" />
+        <centery val="0.5" easeValue="0.0,0.0,0.6,0.9" />
+      </frame>
+      <frame cnt="567">
+        <posx val="0.505263157894737" />
+        <posy val="0.505263157894737" />
+        <scalex val="1" />
+        <scaley val="0.0105263157894737" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="700">
+        <posx val="0.505263157894737" easeValue="0.0,0.0,0.6,0.9" />
+        <posy val="0.505263157894737" easeValue="0.0,0.0,0.6,0.9" />
+        <scalex val="1" easeValue="0.0,0.0,0.6,0.9" />
+        <scaley val="1" easeValue="0.0,0.0,0.6,0.9" />
+        <alpha val="1" easeValue="0.0,0.0,0.6,0.9" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" easeValue="0.0,0.0,0.6,0.9" />
+        <centery val="0.5" easeValue="0.0,0.0,0.6,0.9" />
+      </frame>
+      <frame cnt="833">
+        <posx val="0.505263157894737" easeValue="0.0,0.0,0.5,1.0" />
+        <posy val="0.505263157894737" easeValue="0.0,0.0,0.5,1.0" />
+        <scalex val="1" easeValue="0.0,0.0,0.5,1.0" />
+        <scaley val="0.0105263157894737" easeValue="0.0,0.0,0.5,1.0" />
+        <alpha val="1" easeValue="0.0,0.0,0.5,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" easeValue="0.0,0.0,0.5,1.0" />
+        <centery val="0.5" easeValue="0.0,0.0,0.5,1.0" />
+      </frame>
+      <frame cnt="867">
+        <posx val="0.505263157894737" />
+        <posy val="0.505263157894737" />
+        <scalex val="1" />
+        <scaley val="0.0105263157894737" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="1067">
+        <posx val="0.505263157894737" easeValue="0.0,0.0,0.7,0.9" />
+        <posy val="0.505263157894737" easeValue="0.0,0.0,0.7,0.9" />
+        <scalex val="1" easeValue="0.0,0.0,0.7,0.9" />
+        <scaley val="0.0105263157894737" easeValue="0.0,0.0,0.7,0.9" />
+        <alpha val="0" easeValue="0.0,0.0,0.7,0.9" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" easeValue="0.0,0.0,0.7,0.9" />
+        <centery val="0.5" easeValue="0.0,0.0,0.7,0.9" />
+      </frame>
+      <frame cnt="1100">
+        <posx val="0.505263157894737" />
+        <posy val="0.505263157894737" />
+        <scalex val="1" />
+        <scaley val="0.0105263157894737" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="1233">
+        <posx val="0.505263157894737" easeValue="0.0,0.0,0.4,1.0" />
+        <posy val="0.505263157894737" easeValue="0.0,0.0,0.4,1.0" />
+        <scalex val="1" easeValue="0.0,0.0,0.4,1.0" />
+        <scaley val="1" easeValue="0.0,0.0,0.4,1.0" />
+        <alpha val="1" easeValue="0.0,0.0,0.4,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" easeValue="0.0,0.0,0.4,1.0" />
+        <centery val="0.5" easeValue="0.0,0.0,0.4,1.0" />
+      </frame>
+      <frame cnt="1367">
+        <posx val="0.505263157894737" easeValue="0.0,0.0,0.5,0.9" />
+        <posy val="0.505263157894737" easeValue="0.0,0.0,0.5,0.9" />
+        <scalex val="1" easeValue="0.0,0.0,0.5,0.9" />
+        <scaley val="0.0105263157894737" easeValue="0.0,0.0,0.5,0.9" />
+        <alpha val="1" easeValue="0.0,0.0,0.5,0.9" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" easeValue="0.0,0.0,0.5,0.9" />
+        <centery val="0.5" easeValue="0.0,0.0,0.5,0.9" />
+      </frame>
+      <frame cnt="1400">
+        <posx val="0.505263157894737" />
+        <posy val="0.505263157894737" />
+        <scalex val="1" />
+        <scaley val="0.0105263157894737" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="1600">
+        <posx val="0.505263157894737" easeValue="0.0,0.0,0.7,0.8" />
+        <posy val="0.505263157894737" easeValue="0.0,0.0,0.7,0.8" />
+        <scalex val="1" easeValue="0.0,0.0,0.7,0.8" />
+        <scaley val="0.0105263157894737" easeValue="0.0,0.0,0.7,0.8" />
+        <alpha val="0" easeValue="0.0,0.0,0.7,0.8" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" easeValue="0.0,0.0,0.7,0.8" />
+        <centery val="0.5" easeValue="0.0,0.0,0.7,0.8" />
+      </frame>
+      <frame cnt="1633">
+        <posx val="0.505263157894737" />
+        <posy val="0.505263157894737" />
+        <scalex val="1" />
+        <scaley val="0.0105263157894737" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="1900">
+        <posx val="0.505263157894737" easeValue="0.0,0.0,0.6,1.0" />
+        <posy val="0.505263157894737" easeValue="0.0,0.0,0.6,1.0" />
+        <scalex val="1" easeValue="0.0,0.0,0.6,1.0" />
+        <scaley val="1" easeValue="0.0,0.0,0.6,1.0" />
+        <alpha val="1" easeValue="0.0,0.0,0.6,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" easeValue="0.0,0.0,0.6,1.0" />
+        <centery val="0.5" easeValue="0.0,0.0,0.6,1.0" />
+      </frame>
+    </anim>
+    <anim name="ani_event_stamp_effect_02">
+      <frame cnt="0">
+        <posx val="0.484210526315789" />
+        <posy val="0.473684210526316" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.505263157894737" />
+        <posy val="0.505263157894737" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="2067">
+        <posx val="0.505263157894737" />
+        <posy val="0.505263157894737" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="2267">
+        <posx val="0.505263157894737" />
+        <posy val="0.505263157894737" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="2567">
+        <posx val="0.505263157894737" />
+        <posy val="0.505263157894737" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+    <anim name="ani_event_stamp_effect_01">
+      <frame cnt="0">
+        <posx val="0.726315789473684" />
+        <posy val="1.81052631578947" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.505263157894737" />
+        <posy val="0.505263157894737" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="1967">
+        <posx val="0.505263157894737" />
+        <posy val="0.505263157894737" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <sound val="result_stamp_gift_st" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="2233">
+        <posx val="0.505263157894737" easeValue="0.0,0.0,0.4,1.0" />
+        <posy val="0.505263157894737" easeValue="0.0,0.0,0.4,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,0.0,0.4,1.0" />
+        <rotate val="360" easeValue="0.0,0.0,0.4,1.0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="2467">
+        <posx val="0.505263157894737" easeValue="0.0,0.0,0.5,1.0" />
+        <posy val="0.505263157894737" easeValue="0.0,0.0,0.5,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" easeValue="0.0,0.0,0.5,1.0" />
+        <rotate val="50" easeValue="0.0,0.0,0.5,1.0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

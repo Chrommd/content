@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <event animation="idle00">
+        <function>PlayFX($asset, "select_bg_wing_a", "dm", "-attach ")</function>
+        <time>0.0000</time>
+        <freq>ONCE</freq>
+    </event>
+    <event animation="reaction00">
+        <function>PlayFX($asset, "select_bg_wing_creation", "dm", "")</function>
+        <time>0.0000</time>
+        <freq>ONCE</freq>
+    </event>
+    <event animation="reaction00">
+        <function>PlayFX($asset, "select_bg_wing_creation2", "dm", "")</function>
+        <time>0.0000</time>
+        <freq>ONCE</freq>
+    </event>
+    <dummy name="root" parent="Dummyroot" sync="FALSE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.2133</offsetY>
+        <offsetZ>-3.2960</offsetZ>
+    </dummy>
+    <dummy name="dm" parent="select_bg_wing" sync="FALSE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0300</offsetX>
+        <offsetY>0.2100</offsetY>
+        <offsetZ>-3.2959</offsetZ>
+    </dummy>
+    <action category="" state="G_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>idle00</main>
+    </action>
+    <action category="" state="G_REACTION" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>reaction00</main>
+    </action>
+</aim>

@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="rd_count_window_Animation.xml" />
+  </properties>
+  <base type="WND" subclass="" name="rd_count">
+    <Visible val="True" />
+    <Anchor val="Top, Left, Right" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="1024" b="82" />
+    <snd type="SHOW">
+    </snd>
+    <snd type="HIDE">
+    </snd>
+    <IsHitTestVisible val="True" />
+    <ClipChildren val="False" />
+    <base type="WND" subclass="" name="anchor_wnd">
+      <Visible val="True" />
+      <Anchor val="Left, Right" />
+      <pos x="0" y="122" />
+      <rect l="0" t="0" r="1024" b="198" />
+      <snd type="SHOW">
+      </snd>
+      <snd type="HIDE">
+      </snd>
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <child type="PICTURE" name="icon_ready_count1" subclass="">
+        <asset type="STATIC">icon_ready_count1.png</asset>
+        <Visible val="True" />
+        <Anchor val="Left, Right" />
+        <pos x="0" y="31" />
+        <rect l="0" t="0" r="1024" b="120" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="PICTURE" name="blackbar_top" subclass="">
+        <asset type="STATIC">readyrooom_start_count_frame.png</asset>
+        <Visible val="True" />
+        <Anchor val="Left, Right" />
+        <pos x="0" y="28" />
+        <rect l="0" t="0" r="1024" b="3" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="PICTURE" name="blackbar_top1" subclass="">
+        <asset type="STATIC">readyrooom_start_count_frame.png</asset>
+        <Visible val="True" />
+        <Anchor val="Left, Right" />
+        <pos x="0" y="148" />
+        <rect l="0" t="0" r="1024" b="3" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="LABEL" name="lb_ready2" subclass="">
+        <label val="경기가 곧 시작됩니다!" />
+        <pos x="0" y="68" />
+        <rect l="0" t="0" r="1024" b="33" />
+        <Visible val="True" />
+        <Anchor val="Left, Right" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#000000" />
+        <color val="#FFA837FF" />
+        <halign val="1" />
+        <valign val="0" />
+        <FontName val="나눔고딕 ExtraBold" />
+        <FontSize val="20" />
+        <TextTrimming val="None" />
+        <style val="32" />
+        <IsHitTestVisible val="False" />
+        <ClipChildren val="False" />
+        <Padding val="0, 0, 0, 0" />
+      </child>
+      <child type="LABEL" name="txt_ingame_front_tip" subclass="">
+        <label val="개인전 핸디캡은 연승중인 유저를 제외한 모든 유저의 기본 속도를 증가시켜줍니다." />
+        <pos x="0" y="94" />
+        <rect l="0" t="0" r="1024" b="26" />
+        <Visible val="True" />
+        <Anchor val="Left, Right" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#000000" />
+        <color val="#FFFFFF" />
+        <halign val="1" />
+        <valign val="1" />
+        <FontName val="나눔고딕 ExtraBold" />
+        <FontSize val="14" />
+        <TextTrimming val="None" />
+        <style val="32" />
+        <IsHitTestVisible val="False" />
+        <ClipChildren val="False" />
+        <Padding val="0, 0, 0, 0" />
+      </child>
+      <child type="STACKPANEL" name="StackPanel" subclass="">
+        <Visible val="True" />
+        <Anchor val="Left, Right" />
+        <pos x="0" y="-10" />
+        <rect l="0" t="0" r="1024" b="63" />
+        <Orientation val="Vertical" />
+        <HAlign val="Center" />
+        <VAlign val="Center" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <child type="PICTURE" name="bg_ready_count1" subclass="">
+          <asset type="STATIC">bg_ready_count1.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="381" y="-7" />
+          <rect l="0" t="0" r="261" b="77" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+          <child type="LABEL" name="txt_count" subclass="">
+            <label val="3" />
+            <pos x="89" y="4" />
+            <rect l="0" t="0" r="75" b="62" />
+            <Visible val="True" />
+            <Anchor val="Top, Left" />
+            <OutlineColor val="#FF0000" />
+            <ShadowColor val="#000000FF" />
+            <color val="#FFFBD5FF" />
+            <halign val="1" />
+            <valign val="1" />
+            <FontName val="나눔고딕 ExtraBold" />
+            <FontSize val="38" />
+            <TextTrimming val="None" />
+            <style val="32" />
+            <IsHitTestVisible val="False" />
+            <ClipChildren val="False" />
+            <Padding val="0, 0, 0, 0" />
+          </child>
+        </child>
+      </child>
+    </base>
+  </base>
+</refresh>

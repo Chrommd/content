@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <category name="R00" script="-r02" />
+    <category name="R02" script="-r02" />
+    <action category="R00" state="CARE_WASH_TAIL" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>r00_clean_00</main>
+    </action>
+    <action category="R02" state="CARE_WASH_TAIL" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>r02_clean_00</main>
+    </action>
+    <action category="R00" state="CARE_WASH_TAIL_ATTACH_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>r02_clean_00</main>
+    </action>
+    <action category="R02" state="CARE_WASH_TAIL_ATTACH_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>r02_clean_00</main>
+    </action>
+    <action category="R00" state="CARE_WASH_TAIL_SELECT" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>r00_clean_00</main>
+    </action>
+    <action category="R02" state="CARE_WASH_TAIL_SELECT" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>r00_clean_00</main>
+    </action>
+    <blend sec="0">
+        <name>r00_clean_00</name>
+    </blend>
+    <blend sec="0">
+        <name>r02_clean_00</name>
+    </blend>
+</aim>

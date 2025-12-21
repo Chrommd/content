@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="NORMAL">
+    <param type="RES" x="62" y="62" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+  </scene>
+  <scene name="OVER">
+    <asset type="IMAGE" name="asset_slot_main_challenge_o1" path="slot_main_challenge_o.png">
+      <rect l="0" t="0" r="62" b="62" />
+    </asset>
+    <object name="slot_main_challenge_o1" ani="ani_slot_main_challenge_o1">
+      <asset type="IMAGE" link="asset_slot_main_challenge_o1" />
+    </object>
+    <param type="RES" x="62" y="62" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_slot_main_challenge_o1">
+      <frame cnt="0">
+        <posx val="0.516129032258065" />
+        <posy val="0.516129032258065" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="233">
+        <posx val="0.5" easeValue="0.5,0.0,0.5,1.0" />
+        <posy val="0.5" easeValue="0.5,0.0,0.5,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.5,0.0,0.5,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="DOWN">
+    <asset type="IMAGE" name="asset_slot_main_challenge_d" path="slot_main_challenge_d.png">
+      <rect l="0" t="0" r="62" b="62" />
+    </asset>
+    <object name="slot_main_challenge_d" ani="ani_slot_main_challenge_d">
+      <asset type="IMAGE" link="asset_slot_main_challenge_d" />
+    </object>
+    <param type="RES" x="62" y="62" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_slot_main_challenge_d">
+      <frame cnt="0">
+        <posx val="0.5" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="DISABLE">
+    <param type="RES" x="62" y="62" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+  </scene>
+</rfanimation>

@@ -1,0 +1,643 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="NORMAL">
+    <asset type="IMAGE" name="asset_gnb_horse_levelup_glow_back" path="gnb_horse_levelup_glow_back.png">
+      <rect l="0" t="0" r="66" b="69" />
+    </asset>
+    <asset type="IMAGE" name="asset_gnb_horse_levelup_S" path="gnb_horse_levelup.png">
+      <rect l="0" t="0" r="39" b="49" />
+    </asset>
+    <asset type="IMAGE" name="asset_gnb_horse_levelup_glow" path="gnb_horse_levelup_glow.png">
+      <rect l="0" t="0" r="43" b="38" />
+    </asset>
+    <object name="gnb_horse_levelup_glow_back" ani="ani_gnb_horse_levelup_glow_back">
+      <asset type="IMAGE" link="asset_gnb_horse_levelup_glow_back" />
+    </object>
+    <object name="gnb_horse_levelup_S" ani="ani_gnb_horse_levelup_S">
+      <asset type="IMAGE" link="asset_gnb_horse_levelup_S" />
+    </object>
+    <object name="gnb_horse_levelup_glow" ani="ani_gnb_horse_levelup_glow">
+      <asset type="IMAGE" link="asset_gnb_horse_levelup_glow" />
+    </object>
+    <param type="RES" x="42" y="38" />
+    <param type="LOOP" cnt="-1" pendulum="0" />
+    <anim name="ani_gnb_horse_levelup_glow_back">
+      <frame cnt="0">
+        <posx val="0.5" />
+        <posy val="0.473684210526316" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.2" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="467">
+        <posx val="0.5" />
+        <posy val="0.473684210526316" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="317" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="700">
+        <posx val="0.5" easeValue="0.0,0.0,0.3,1.0" />
+        <posy val="0.447368421052632" easeValue="0.0,0.0,0.3,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.81" />
+        <rotate val="360" easeValue="0.0,0.0,0.3,1.0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="1000">
+        <posx val="0.5" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.57" />
+        <rotate val="180" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="1467">
+        <posx val="0.5" />
+        <posy val="0.473684210526316" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.2" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+    <anim name="ani_gnb_horse_levelup_S">
+      <frame cnt="0">
+        <posx val="0.0238095238095238" />
+        <posy val="-0.315789473684211" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="467">
+        <posx val="0.0238095238095238" />
+        <posy val="-0.315789473684211" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="733">
+        <posx val="0.0238095238095238" />
+        <posy val="-0.368421052631579" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1067">
+        <posx val="0.0238095238095238" />
+        <posy val="-0.289473684210526" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1467">
+        <posx val="0.0238095238095238" />
+        <posy val="-0.315789473684211" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_gnb_horse_levelup_glow">
+      <frame cnt="0">
+        <posx val="-0.0238095238095238" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="467">
+        <posx val="-0.0238095238095238" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.5" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="700">
+        <posx val="-0.0238095238095238" easeValue="0.0,0.0,0.4,1.0" />
+        <posy val="-0.0789473684210526" easeValue="0.0,0.0,0.4,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.75" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" easeValue="0.0,0.0,0.4,1.0" />
+        <centery val="0" easeValue="0.0,0.0,0.4,1.0" />
+      </frame>
+      <frame cnt="933">
+        <posx val="-0.0238095238095238" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.5" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1467">
+        <posx val="-0.0238095238095238" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="OVER">
+    <asset type="IMAGE" name="asset_gnb_horse_levelup_glow_back" path="gnb_horse_levelup_glow_back.png">
+      <rect l="0" t="0" r="66" b="69" />
+    </asset>
+    <asset type="IMAGE" name="asset_gnb_horse_levelup" path="gnb_horse_levelup.png">
+      <rect l="0" t="0" r="39" b="49" />
+    </asset>
+    <asset type="IMAGE" name="asset_gnb_horse_levelup_glow" path="gnb_horse_levelup_glow.png">
+      <rect l="0" t="0" r="43" b="38" />
+    </asset>
+    <object name="gnb_horse_levelup_glow_back" ani="ani_gnb_horse_levelup_glow_back">
+      <asset type="IMAGE" link="asset_gnb_horse_levelup_glow_back" />
+    </object>
+    <object name="gnb_horse_levelup" ani="ani_gnb_horse_levelup">
+      <asset type="IMAGE" link="asset_gnb_horse_levelup" />
+    </object>
+    <object name="gnb_horse_levelup_glow" ani="ani_gnb_horse_levelup_glow">
+      <asset type="IMAGE" link="asset_gnb_horse_levelup_glow" />
+    </object>
+    <param type="RES" x="42" y="38" />
+    <param type="LOOP" cnt="-1" pendulum="1" />
+    <anim name="ani_gnb_horse_levelup_glow_back">
+      <frame cnt="0">
+        <posx val="0.5" />
+        <posy val="0.4736842" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.8" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="667">
+        <posx val="0.5" />
+        <posy val="0.4736842" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="360" easeValue="0.0,0.0,0.4,1.0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="833">
+        <posx val="0.5" />
+        <posy val="0.4736842" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="180" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="1467">
+        <posx val="0.5" />
+        <posy val="0.4736842" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.8" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+    <anim name="ani_gnb_horse_levelup">
+      <frame cnt="0">
+        <posx val="0.0238095238095238" />
+        <posy val="-0.315789473684211" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_gnb_horse_levelup_glow">
+      <frame cnt="0">
+        <posx val="-0.02380952" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="667">
+        <posx val="-0.02380952" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="867">
+        <posx val="-0.02380952" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.8" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1467">
+        <posx val="-0.02380952" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="DOWN">
+    <asset type="IMAGE" name="asset_gnb_horse_levelup_glow_back" path="gnb_horse_levelup_glow_back.png">
+      <rect l="0" t="0" r="66" b="69" />
+    </asset>
+    <asset type="IMAGE" name="asset_gnb_horse_levelup" path="gnb_horse_levelup.png">
+      <rect l="0" t="0" r="39" b="49" />
+    </asset>
+    <asset type="IMAGE" name="asset_gnb_horse_levelup_glow" path="gnb_horse_levelup_glow.png">
+      <rect l="0" t="0" r="43" b="38" />
+    </asset>
+    <object name="gnb_horse_levelup_glow_back" ani="ani_gnb_horse_levelup_glow_back">
+      <asset type="IMAGE" link="asset_gnb_horse_levelup_glow_back" />
+    </object>
+    <object name="gnb_horse_levelup" ani="ani_gnb_horse_levelup">
+      <asset type="IMAGE" link="asset_gnb_horse_levelup" />
+    </object>
+    <object name="gnb_horse_levelup_glow" ani="ani_gnb_horse_levelup_glow">
+      <asset type="IMAGE" link="asset_gnb_horse_levelup_glow" />
+    </object>
+    <param type="RES" x="42" y="38" />
+    <param type="LOOP" cnt="-1" pendulum="1" />
+    <anim name="ani_gnb_horse_levelup_glow_back">
+      <frame cnt="0">
+        <posx val="0.523809523809524" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="700">
+        <posx val="0.523809523809524" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="360" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="900">
+        <posx val="0.523809523809524" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="180" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="1467">
+        <posx val="0.523809523809524" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+    <anim name="ani_gnb_horse_levelup">
+      <frame cnt="0">
+        <posx val="0.0476190476190476" />
+        <posy val="-0.289473684210526" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_gnb_horse_levelup_glow">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.0263157894736842" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="700">
+        <posx val="0" />
+        <posy val="0.0263157894736842" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="900">
+        <posx val="0" />
+        <posy val="0.0263157894736842" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.81" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1467">
+        <posx val="0" />
+        <posy val="0.0263157894736842" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="DISABLE">
+    <asset type="IMAGE" name="asset_gnb_horse_levelup_glow_back" path="gnb_horse_levelup_glow_back.png">
+      <rect l="0" t="0" r="66" b="69" />
+    </asset>
+    <asset type="IMAGE" name="asset_gnb_horse_levelup_S" path="gnb_horse_levelup.png">
+      <rect l="0" t="0" r="39" b="49" />
+    </asset>
+    <asset type="IMAGE" name="asset_gnb_horse_levelup_glow" path="gnb_horse_levelup_glow.png">
+      <rect l="0" t="0" r="43" b="38" />
+    </asset>
+    <object name="gnb_horse_levelup_glow_back" ani="ani_gnb_horse_levelup_glow_back">
+      <asset type="IMAGE" link="asset_gnb_horse_levelup_glow_back" />
+    </object>
+    <object name="gnb_horse_levelup_S" ani="ani_gnb_horse_levelup_S">
+      <asset type="IMAGE" link="asset_gnb_horse_levelup_S" />
+    </object>
+    <object name="gnb_horse_levelup_glow" ani="ani_gnb_horse_levelup_glow">
+      <asset type="IMAGE" link="asset_gnb_horse_levelup_glow" />
+    </object>
+    <param type="RES" x="42" y="38" />
+    <param type="LOOP" cnt="-1" pendulum="0" />
+    <anim name="ani_gnb_horse_levelup_glow_back">
+      <frame cnt="0">
+        <posx val="0.5" />
+        <posy val="0.473684210526316" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="567">
+        <posx val="0.5" />
+        <posy val="0.473684210526316" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="317" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="867">
+        <posx val="0.5" easeValue="0.0,0.0,0.3,1.0" />
+        <posy val="0.447368421052632" easeValue="0.0,0.0,0.3,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="360" easeValue="0.0,0.0,0.3,1.0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="1133">
+        <posx val="0.5" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="180" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="1500">
+        <posx val="0.5" />
+        <posy val="0.473684210526316" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+    <anim name="ani_gnb_horse_levelup_S">
+      <frame cnt="0">
+        <posx val="0.0238095238095238" />
+        <posy val="-0.315789473684211" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="567">
+        <posx val="0.0238095238095238" />
+        <posy val="-0.315789473684211" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="867">
+        <posx val="0.0238095238095238" />
+        <posy val="-0.368421052631579" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1167">
+        <posx val="0.0238095238095238" />
+        <posy val="-0.263157894736842" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1500">
+        <posx val="0.0238095238095238" />
+        <posy val="-0.315789473684211" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_gnb_horse_levelup_glow">
+      <frame cnt="0">
+        <posx val="-0.0238095238095238" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="567">
+        <posx val="-0.0238095238095238" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.34" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="867">
+        <posx val="-0.0238095238095238" easeValue="0.0,0.0,0.4,1.0" />
+        <posy val="-0.0789473684210526" easeValue="0.0,0.0,0.4,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.4" easeValue="0.0,0.0,0.4,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" easeValue="0.0,0.0,0.4,1.0" />
+        <centery val="0" easeValue="0.0,0.0,0.4,1.0" />
+      </frame>
+      <frame cnt="1067">
+        <posx val="-0.0238095238095238" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.32" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1500">
+        <posx val="-0.0238095238095238" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

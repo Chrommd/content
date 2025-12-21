@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <event animation="_initialize_">
+        <function>PlayFX($asset, "pet_egg_dorf00c", "dum0", "-attach ")</function>
+        <time>0.0000</time>
+        <freq>ONCE</freq>
+    </event>
+    <event animation="_initialize_">
+        <function>PlayFX($asset, "pet_egg_dorf00c", "dum1", "-attach ")</function>
+        <time>0.0000</time>
+        <freq>ONCE</freq>
+    </event>
+    <event animation="birth00">
+        <function>Action($asset, "PetBorn", "", "")</function>
+        <time>3.6</time>
+        <freq>100</freq>
+    </event>
+    <event animation="birth00">
+        <function>PlaySND($asset, "egg_birth_fx1", "dum0", "-var 0")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="birth00">
+        <function>PlaySND($asset, "egg_birth_fx2", "dum0", "-var 0")</function>
+        <time>0.5647</time>
+        <freq>100</freq>
+    </event>
+    <event animation="birth00">
+        <function>PlaySND($asset, "egg_birth_fx2", "dum0", "-var 0")</function>
+        <time>1.0873</time>
+        <freq>100</freq>
+    </event>
+    <event animation="birth00">
+        <function>PlaySND($asset, "egg_birth_fx3", "dum0", "-var 0")</function>
+        <time>1.4327</time>
+        <freq>100</freq>
+    </event>
+    <event animation="birth00">
+        <function>PlaySND($asset, "egg_birth_fx5_st", "dum0", "-var 0")</function>
+        <time>3.5980</time>
+        <freq>100</freq>
+    </event>
+    <event animation="birth00">
+        <function>PlaySND($asset, "egg_birth_fx4", "dum0", "-var 0")</function>
+        <time>2.1321</time>
+        <freq>100</freq>
+    </event>
+    <event animation="birth00">
+        <function>Action($asset, "PetBorn", "", "")</function>
+        <time>3.6</time>
+        <freq>100</freq>
+    </event>
+    <dummy name="dum0" parent="Dummyroot_egg[dorf]00a" sync="TRUE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.2238</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <dummy name="dum1" parent="Dummy_egg" sync="TRUE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.0000</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <action category="" state="ACTIVATE" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>birth00</main>
+    </action>
+    <action category="" state="EGG_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>idle00_h</main>
+    </action>
+    <action category="" state="G_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>idle00</main>
+    </action>
+</aim>

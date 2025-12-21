@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="tab1_message_Default">
+    <asset type="IMAGE" name="asset_chat_btn_tab3_d" path="chat_btn_tab_innerglow.png">
+      <rect l="0" t="0" r="78" b="26" />
+    </asset>
+    <asset type="IMAGE" name="asset_chat_btn_tab3_o" path="chat_btn_tab3_o.png">
+      <rect l="0" t="0" r="80" b="26" />
+    </asset>
+    <asset type="IMAGE" name="asset_chat_btn_tab_glow" path="chat_btn_tab_glow.png">
+      <rect l="0" t="0" r="88" b="28" />
+    </asset>
+    <asset type="IMAGE" name="asset_message_alram" path="message_alram.png">
+      <rect l="0" t="0" r="29" b="27" />
+    </asset>
+    <object name="chat_btn_tab3_d" ani="ani_chat_btn_tab3_d">
+      <asset type="IMAGE" link="asset_chat_btn_tab3_d" />
+    </object>
+    <object name="chat_btn_tab3_o" ani="ani_chat_btn_tab3_o">
+      <asset type="IMAGE" link="asset_chat_btn_tab3_o" />
+    </object>
+    <object name="chat_btn_tab_glow" ani="ani_chat_btn_tab_glow">
+      <asset type="IMAGE" link="asset_chat_btn_tab_glow" />
+    </object>
+    <object name="message_alram" ani="ani_message_alram">
+      <asset type="IMAGE" link="asset_message_alram" />
+    </object>
+    <param type="RES" x="80" y="26" />
+    <param type="LOOP" cnt="-1" pendulum="0" />
+    <anim name="ani_chat_btn_tab3_d">
+      <frame cnt="0">
+        <posx val="0.0125" />
+        <posy val="0.0384615384615385" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.5" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="367">
+        <posx val="0.0125" easeValue="0.0,0.0,0.5,1.0" />
+        <posy val="0.0384615384615385" easeValue="0.0,0.0,0.5,1.0" />
+        <scalex val="1" easeValue="0.0,0.0,0.5,1.0" />
+        <scaley val="1" easeValue="0.0,0.0,0.5,1.0" />
+        <alpha val="0.9" easeValue="0.0,0.0,0.5,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" easeValue="0.0,0.0,0.5,1.0" />
+        <centery val="0" easeValue="0.0,0.0,0.5,1.0" />
+      </frame>
+      <frame cnt="800">
+        <posx val="0.0125" />
+        <posy val="0.0384615384615385" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.7" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1200">
+        <posx val="0.0125" />
+        <posy val="0.0384615384615385" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1500">
+        <posx val="0.0125" easeValue="0.0,0.0,0.5,1.0" />
+        <posy val="0.0384615384615385" easeValue="0.0,0.0,0.5,1.0" />
+        <scalex val="1" easeValue="0.0,0.0,0.5,1.0" />
+        <scaley val="1" easeValue="0.0,0.0,0.5,1.0" />
+        <alpha val="0.5" easeValue="0.0,0.0,0.5,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" easeValue="0.0,0.0,0.5,1.0" />
+        <centery val="0" easeValue="0.0,0.0,0.5,1.0" />
+      </frame>
+    </anim>
+    <anim name="ani_chat_btn_tab3_o">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.3" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="200">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="700">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1500">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.3" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_chat_btn_tab_glow">
+      <frame cnt="0">
+        <posx val="-0.05" />
+        <posy val="-0.153846153846154" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.3" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="200">
+        <posx val="-0.05" />
+        <posy val="-0.153846153846154" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.28" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="800">
+        <posx val="-0.05" />
+        <posy val="-0.153846153846154" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.8" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1300">
+        <posx val="-0.05" />
+        <posy val="-0.153846153846154" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.5" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1500">
+        <posx val="-0.05" />
+        <posy val="-0.153846153846154" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.3" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_message_alram">
+      <frame cnt="0">
+        <posx val="0.6625" />
+        <posy val="-0.538461538461538" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="533">
+        <posx val="0.6625" />
+        <posy val="-0.538461538461538" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="867">
+        <posx val="0.6625" easeValue="0.0,0.0,0.5,1.0" />
+        <posy val="-0.692307692307692" easeValue="0.0,0.0,0.5,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" easeValue="0.0,0.0,0.5,1.0" />
+        <centery val="0" easeValue="0.0,0.0,0.5,1.0" />
+      </frame>
+      <frame cnt="1133">
+        <posx val="0.6625" easeValue="0.0,0.0,0.7,1.0" />
+        <posy val="-0.5" easeValue="0.0,0.0,0.7,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" easeValue="0.0,0.0,0.7,1.0" />
+        <centery val="0" easeValue="0.0,0.0,0.7,1.0" />
+      </frame>
+      <frame cnt="1233">
+        <posx val="0.6625" />
+        <posy val="-0.538461538461538" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1500">
+        <posx val="0.6625" />
+        <posy val="-0.538461538461538" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="effect_mate_card_rare_get_other_2_Default">
+    <asset type="IMAGE" name="asset_img_mate_card_chance_b" path="img_mate_card_chance_b.png">
+      <rect l="0" t="0" r="219" b="297" />
+    </asset>
+    <object name="img_mate_card_chance_b" ani="ani_img_mate_card_chance_b">
+      <asset type="IMAGE" link="asset_img_mate_card_chance_b" />
+    </object>
+    <param type="RES" x="219" y="297" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_img_mate_card_chance_b">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2200">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <sound val="ui_mating_fail_card2" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2700">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

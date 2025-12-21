@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <event animation="1st">
+        <function>PlayFX($asset, "ob_funobj_snowsign_crash", "dum", "")</function>
+        <time>0.0000</time>
+        <freq>ONCE</freq>
+    </event>
+    <event animation="2nd">
+        <function>PlayFX($asset, "ob_funobj_snowsign_crash", "dum", "")</function>
+        <time>0.0000</time>
+        <freq>ONCE</freq>
+    </event>
+    <event animation="3rd">
+        <function>PlayFX($asset, "ob_funobj_snowsign_crash", "dum", "")</function>
+        <time>0.0000</time>
+        <freq>ONCE</freq>
+    </event>
+    <dummy name="dum" parent="Box01" sync="TRUE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.9999</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>-0.0186</rotationW>
+        <offsetX>-0.6511</offsetX>
+        <offsetY>3.1137</offsetY>
+        <offsetZ>0.2495</offsetZ>
+    </dummy>
+</aim>

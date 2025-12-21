@@ -1,0 +1,480 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+  </properties>
+  <base type="WNDEX" subclass="" name="MissionCreateWnd">
+    <asset type="BG" path="frm_modal_04.png" tileMode="Stretch">
+      <tex x="4" y="4" />
+      <rect l="167" t="70" r="320" b="335" />
+    </asset>
+    <asset type="EDGE_LT" path="frm_modal_00.png" tileMode="Stretch">
+      <tex x="167" y="70" />
+      <rect l="0" t="0" r="167" b="70" />
+    </asset>
+    <asset type="EDGE_RT" path="frm_modal_02.png" tileMode="Stretch">
+      <tex x="167" y="70" />
+      <rect l="0" t="0" r="167" b="70" />
+    </asset>
+    <asset type="EDGE_LB" path="frm_modal_06.png" tileMode="Stretch">
+      <tex x="167" y="33" />
+      <rect l="0" t="0" r="167" b="33" />
+    </asset>
+    <asset type="EDGE_RB" path="frm_modal_08.png" tileMode="Stretch">
+      <tex x="167" y="33" />
+      <rect l="0" t="0" r="167" b="33" />
+    </asset>
+    <asset type="FRAME_T" path="frm_modal_01.png" tileMode="Stretch">
+      <tex x="4" y="70" />
+      <rect l="167" t="0" r="320" b="70" />
+    </asset>
+    <asset type="FRAME_B" path="frm_modal_07.png" tileMode="Stretch">
+      <tex x="4" y="33" />
+      <rect l="167" t="0" r="320" b="33" />
+    </asset>
+    <asset type="FRAME_L" path="frm_modal_03.png" tileMode="Stretch">
+      <tex x="167" y="4" />
+      <rect l="0" t="70" r="167" b="335" />
+    </asset>
+    <asset type="FRAME_R" path="frm_modal_05.png" tileMode="Stretch">
+      <tex x="167" y="4" />
+      <rect l="0" t="70" r="167" b="335" />
+    </asset>
+    <Visible val="True" />
+    <Anchor val="None" />
+    <pos x="185" y="165" />
+    <rect l="0" t="0" r="654" b="438" />
+    <snd type="SHOW">
+    </snd>
+    <snd type="HIDE">
+    </snd>
+    <Dragable val="False" />
+    <StartPosition val="CenterScreen" />
+    <EscKeyAction val="Close" />
+    <IsHitTestVisible val="True" />
+    <ClipChildren val="False" />
+    <base type="WNDEX" subclass="" name="WndEx">
+      <asset type="BG" path="listbg_a_04.png" tileMode="Stretch">
+        <tex x="10" y="10" />
+        <rect l="10" t="10" r="562" b="278" />
+      </asset>
+      <asset type="EDGE_LT" path="listbg_a_00.png" tileMode="Stretch">
+        <tex x="10" y="10" />
+        <rect l="0" t="0" r="10" b="10" />
+      </asset>
+      <asset type="EDGE_RT" path="listbg_a_02.png" tileMode="Stretch">
+        <tex x="10" y="10" />
+        <rect l="0" t="0" r="10" b="10" />
+      </asset>
+      <asset type="EDGE_LB" path="listbg_a_06.png" tileMode="Stretch">
+        <tex x="10" y="10" />
+        <rect l="0" t="0" r="10" b="10" />
+      </asset>
+      <asset type="EDGE_RB" path="listbg_a_08.png" tileMode="Stretch">
+        <tex x="10" y="10" />
+        <rect l="0" t="0" r="10" b="10" />
+      </asset>
+      <asset type="FRAME_T" path="listbg_a_01.png" tileMode="Stretch">
+        <tex x="10" y="10" />
+        <rect l="10" t="0" r="562" b="10" />
+      </asset>
+      <asset type="FRAME_B" path="listbg_a_07.png" tileMode="Stretch">
+        <tex x="10" y="10" />
+        <rect l="10" t="0" r="562" b="10" />
+      </asset>
+      <asset type="FRAME_L" path="listbg_a_03.png" tileMode="Stretch">
+        <tex x="10" y="10" />
+        <rect l="0" t="10" r="10" b="278" />
+      </asset>
+      <asset type="FRAME_R" path="listbg_a_05.png" tileMode="Stretch">
+        <tex x="10" y="10" />
+        <rect l="0" t="10" r="10" b="278" />
+      </asset>
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <pos x="37" y="62" />
+      <rect l="0" t="0" r="582" b="298" />
+      <snd type="SHOW">
+      </snd>
+      <snd type="HIDE">
+      </snd>
+      <Dragable val="False" />
+      <StartPosition val="None" />
+      <EscKeyAction val="None" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </base>
+    <child type="LISTSC" name="lc_mission" subclass="">
+      <asset type="BG" path="" tileMode="Stretch">
+        <tex x="20" y="20" />
+        <rect l="20" t="20" r="544" b="260" />
+      </asset>
+      <asset type="EDGE_LT" path="" tileMode="Stretch">
+        <tex x="20" y="20" />
+        <rect l="0" t="0" r="20" b="20" />
+      </asset>
+      <asset type="EDGE_RT" path="" tileMode="Stretch">
+        <tex x="20" y="20" />
+        <rect l="0" t="0" r="20" b="20" />
+      </asset>
+      <asset type="EDGE_LB" path="" tileMode="Stretch">
+        <tex x="20" y="20" />
+        <rect l="0" t="0" r="20" b="20" />
+      </asset>
+      <asset type="EDGE_RB" path="" tileMode="Stretch">
+        <tex x="20" y="20" />
+        <rect l="0" t="0" r="20" b="20" />
+      </asset>
+      <asset type="FRAME_T" path="" tileMode="Stretch">
+        <tex x="20" y="20" />
+        <rect l="20" t="0" r="544" b="20" />
+      </asset>
+      <asset type="FRAME_B" path="" tileMode="Stretch">
+        <tex x="20" y="20" />
+        <rect l="20" t="0" r="544" b="20" />
+      </asset>
+      <asset type="FRAME_L" path="" tileMode="Stretch">
+        <tex x="20" y="20" />
+        <rect l="0" t="20" r="20" b="260" />
+      </asset>
+      <asset type="FRAME_R" path="" tileMode="Stretch">
+        <tex x="20" y="20" />
+        <rect l="0" t="20" r="20" b="260" />
+      </asset>
+      <control type="VSCROLLBAR" name="lc_mission_VSlider" horizontal="0">
+        <control type="BUTTON_LT" name="lc_mission_VScrollBar_TopButton">
+          <asset type="NORMAL">scroll_up_a_n.png</asset>
+          <asset type="DOWN">scroll_up_c_d.png</asset>
+          <asset type="OVER">scroll_up_a_o.png</asset>
+          <asset type="DISABLE">scroll_up_c_dis.png</asset>
+          <snd type="OVER">ui_alt_over</snd>
+          <snd type="DOWN">ui_alt_click</snd>
+          <snd type="RELEASE">
+          </snd>
+          <pos x="1" y="1" />
+          <rect l="0" t="0" r="14" b="17" />
+          <Visible val="True" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+          <Anchor val="Top, Left, Right" />
+          <IsDefaultButton val="False" />
+        </control>
+        <control type="THUMB" name="lc_mission_VScrollBar_Thumb">
+          <asset type="NORMAL">scroll_bar_b_n.png</asset>
+          <asset type="DOWN">scroll_bar_b_d.png</asset>
+          <asset type="OVER">scroll_bar_b_o.png</asset>
+          <asset type="DISABLE">
+          </asset>
+          <snd type="OVER">
+          </snd>
+          <snd type="DOWN">
+          </snd>
+          <snd type="RELEASE">
+          </snd>
+          <pos x="1" y="21" />
+          <rect l="0" t="0" r="14" b="24" />
+          <Visible val="True" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+          <Anchor val="Top, Left, Right" />
+          <IsDefaultButton val="False" />
+        </control>
+        <control type="BUTTON_RB" name="lc_mission_VScrollBar_BottomButton">
+          <asset type="NORMAL">scroll_down_a_n.png</asset>
+          <asset type="DOWN">scroll_down_c_d.png</asset>
+          <asset type="OVER">scroll_down_a_o.png</asset>
+          <asset type="DISABLE">scroll_down_a_dis.png</asset>
+          <snd type="OVER">ui_alt_over</snd>
+          <snd type="DOWN">ui_alt_click</snd>
+          <snd type="RELEASE">
+          </snd>
+          <pos x="1" y="240" />
+          <rect l="0" t="0" r="14" b="17" />
+          <Visible val="True" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+          <Anchor val="Bottom, Left, Right" />
+          <IsDefaultButton val="False" />
+        </control>
+        <scrollrect l="0" t="18" r="16" b="241" />
+        <Visible val="True" />
+        <Anchor val="Top, Bottom, Right" />
+        <pos x="561" y="36" />
+        <rect l="0" t="0" r="16" b="258" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </control>
+      <control type="HSCROLLBAR" name="lc_mission_HSlider" horizontal="1">
+      </control>
+      <pos x="35" y="60" />
+      <rect l="0" t="0" r="584" b="300" />
+      <Visible val="True" />
+      <Anchor val="None" />
+      <padding l="16" t="43" r="26" b="7" />
+      <column val="1" />
+      <itemrect l="0" t="0" r="300" b="25" />
+      <selection val="0" />
+      <deselectable val="0" />
+      <rclickaction val="1" />
+      <IsHitTestVisible val="True" />
+      <Orientation val="Vertical" />
+      <ClipChildren val="False" />
+      <child type="PICTURE" name="img_ctn_1" subclass="">
+        <asset type="STATIC">mate_seedhorse_sort_l_n.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="9" y="9" />
+        <rect l="0" t="0" r="200" b="27" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="PICTURE" name="img_ctn_3" subclass="">
+        <asset type="STATIC">mate_seedhorse_sort_m_n.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="302" y="9" />
+        <rect l="0" t="0" r="96" b="27" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="PICTURE" name="img_ctn_4" subclass="">
+        <asset type="STATIC">mate_seedhorse_sort_m_n.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="397" y="9" />
+        <rect l="0" t="0" r="96" b="27" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="PICTURE" name="img_ctn_5" subclass="">
+        <asset type="STATIC">mate_seedhorse_sort_s_n.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="492" y="9" />
+        <rect l="0" t="0" r="66" b="27" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="PICTURE" name="img_ctn_6" subclass="">
+        <asset type="STATIC">mate_seedhorse_sort_m_n.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="207" y="9" />
+        <rect l="0" t="0" r="96" b="27" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="LABEL" name="Label3" subclass="">
+        <label val="성공회수" />
+        <pos x="320" y="12" />
+        <rect l="0" t="0" r="60" b="19" />
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#FF0000" />
+        <color val="#2F1911" />
+        <halign val="1" />
+        <valign val="1" />
+        <FontName val="나눔고딕" />
+        <FontSize val="13" />
+        <TextTrimming val="None" />
+        <style val="1" />
+        <IsHitTestVisible val="False" />
+        <ClipChildren val="False" />
+        <Padding val="0, 0, 0, 0" />
+      </child>
+      <child type="LABEL" name="Label4" subclass="">
+        <label val="옵션" />
+        <pos x="423" y="12" />
+        <rect l="0" t="0" r="42" b="19" />
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#FF0000" />
+        <color val="#2F1911" />
+        <halign val="1" />
+        <valign val="1" />
+        <FontName val="나눔고딕" />
+        <FontSize val="13" />
+        <TextTrimming val="None" />
+        <style val="1" />
+        <IsHitTestVisible val="False" />
+        <ClipChildren val="False" />
+        <Padding val="0, 0, 0, 0" />
+      </child>
+      <child type="LABEL" name="Label5" subclass="">
+        <label val="기록" />
+        <pos x="503" y="12" />
+        <rect l="0" t="0" r="42" b="19" />
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#FF0000" />
+        <color val="#2F1911" />
+        <halign val="1" />
+        <valign val="1" />
+        <FontName val="나눔고딕" />
+        <FontSize val="13" />
+        <TextTrimming val="None" />
+        <style val="1" />
+        <IsHitTestVisible val="False" />
+        <ClipChildren val="False" />
+        <Padding val="0, 0, 0, 0" />
+      </child>
+      <child type="LABEL" name="Label6" subclass="">
+        <label val="훈련내용" />
+        <pos x="74" y="12" />
+        <rect l="0" t="0" r="70" b="19" />
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#FF0000" />
+        <color val="#2F1911" />
+        <halign val="1" />
+        <valign val="1" />
+        <FontName val="나눔고딕" />
+        <FontSize val="13" />
+        <TextTrimming val="None" />
+        <style val="1" />
+        <IsHitTestVisible val="False" />
+        <ClipChildren val="False" />
+        <Padding val="0, 0, 0, 0" />
+      </child>
+      <child type="LABEL" name="Label7" subclass="">
+        <label val="인원수" />
+        <pos x="230" y="12" />
+        <rect l="0" t="0" r="50" b="19" />
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#FF0000" />
+        <color val="#2F1911" />
+        <halign val="1" />
+        <valign val="1" />
+        <FontName val="나눔고딕" />
+        <FontSize val="13" />
+        <TextTrimming val="None" />
+        <style val="1" />
+        <IsHitTestVisible val="False" />
+        <ClipChildren val="False" />
+        <Padding val="0, 0, 0, 0" />
+      </child>
+    </child>
+    <child type="BUTTON" subclass="" name="btn_create">
+      <asset type="NORMAL">btn_a1_n.png</asset>
+      <asset type="DOWN">btn_a1_d.png</asset>
+      <asset type="OVER">btn_a1_o3.png</asset>
+      <asset type="DISABLE">btn_a1_dis.png</asset>
+      <snd type="OVER">
+      </snd>
+      <snd type="DOWN">ui_btn_confirm</snd>
+      <snd type="RELEASE">
+      </snd>
+      <pos x="447" y="370" />
+      <rect l="0" t="0" r="70" b="31" />
+      <Visible val="True" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <Anchor val="Top, Left" />
+      <IsDefaultButton val="False" />
+      <child type="LABEL" name="lb_create" subclass="">
+        <label val="OK" />
+        <pos x="5" y="6" />
+        <rect l="0" t="0" r="60" b="19" />
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#FF0000" />
+        <color val="#2F1911" />
+        <halign val="1" />
+        <valign val="1" />
+        <FontName val="나눔고딕" />
+        <FontSize val="13" />
+        <TextTrimming val="None" />
+        <style val="1" />
+        <IsHitTestVisible val="False" />
+        <ClipChildren val="False" />
+        <Padding val="0, 0, 0, 0" />
+      </child>
+    </child>
+    <child type="BUTTON" subclass="" name="btn_cancel">
+      <asset type="NORMAL">btn_b1_n.png</asset>
+      <asset type="DOWN">btn_b1_d.png</asset>
+      <asset type="OVER">btn_b1_o3.png</asset>
+      <asset type="DISABLE">btn_b1_dis.png</asset>
+      <snd type="OVER">
+      </snd>
+      <snd type="DOWN">ui_btn_close</snd>
+      <snd type="RELEASE">
+      </snd>
+      <pos x="528" y="370" />
+      <rect l="0" t="0" r="70" b="31" />
+      <Visible val="True" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <Anchor val="None" />
+      <IsDefaultButton val="False" />
+      <child type="LABEL" name="lb_cancel" subclass="">
+        <label val="Cancel" />
+        <pos x="5" y="6" />
+        <rect l="0" t="0" r="60" b="19" />
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#FF0000" />
+        <color val="#2F1911" />
+        <halign val="1" />
+        <valign val="1" />
+        <FontName val="나눔고딕" />
+        <FontSize val="13" />
+        <TextTrimming val="None" />
+        <style val="1" />
+        <IsHitTestVisible val="False" />
+        <ClipChildren val="False" />
+        <Padding val="0, 0, 0, 0" />
+      </child>
+    </child>
+    <child type="BUTTON" subclass="" name="btn_close">
+      <asset type="NORMAL">btn_e_n.png</asset>
+      <asset type="DOWN">btn_e_d.png</asset>
+      <asset type="OVER">btn_e_o2.png</asset>
+      <asset type="DISABLE">btn_e_dis.png</asset>
+      <snd type="OVER">
+      </snd>
+      <snd type="DOWN">ui_close_board</snd>
+      <snd type="RELEASE">
+      </snd>
+      <pos x="616" y="15" />
+      <rect l="0" t="0" r="23" b="23" />
+      <Visible val="True" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <Anchor val="None" />
+      <IsDefaultButton val="False" />
+    </child>
+    <child type="LABEL" name="lb_missionlist" subclass="">
+      <label val="훈련 목록" />
+      <pos x="239" y="23" />
+      <rect l="0" t="0" r="194" b="19" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#FF0000" />
+      <color val="#FFFFFF" />
+      <halign val="1" />
+      <valign val="1" />
+      <FontName val="나눔고딕" />
+      <FontSize val="15" />
+      <TextTrimming val="None" />
+      <style val="1" />
+      <IsHitTestVisible val="False" />
+      <ClipChildren val="False" />
+      <Padding val="0, 0, 0, 0" />
+    </child>
+  </base>
+</refresh>

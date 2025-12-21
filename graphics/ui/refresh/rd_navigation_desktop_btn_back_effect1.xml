@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="btn_back_effect1_Default">
+    <asset type="IMAGE" name="asset_gnb_new_effect_01" path="rd_back_effect_2.png">
+      <rect l="0" t="0" r="165" b="50" />
+    </asset>
+    <asset type="IMAGE" name="asset_gnb_new_effect_02" path="rd_back_effect_1.png">
+      <rect l="0" t="0" r="147" b="32" />
+    </asset>
+    <object name="gnb_new_effect_01" ani="ani_gnb_new_effect_01">
+      <asset type="IMAGE" link="asset_gnb_new_effect_01" />
+    </object>
+    <object name="gnb_new_effect_02" ani="ani_gnb_new_effect_02">
+      <asset type="IMAGE" link="asset_gnb_new_effect_02" />
+    </object>
+    <param type="RES" x="165" y="50" />
+    <param type="LOOP" cnt="-1" pendulum="0" />
+    <anim name="ani_gnb_new_effect_01">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="433">
+        <posx val="0" easeValue="0.0,0.0,0.9,1.0" />
+        <posy val="0" easeValue="0.0,0.0,0.9,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.85" easeValue="0.0,0.0,0.9,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" easeValue="0.0,0.0,0.9,1.0" />
+        <centery val="0" easeValue="0.0,0.0,0.9,1.0" />
+      </frame>
+      <frame cnt="867">
+        <posx val="0" easeValue="0.0,0.0,0.3,1.0" />
+        <posy val="0" easeValue="0.0,0.0,0.3,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" easeValue="0.0,0.0,0.3,1.0" />
+        <centery val="0" easeValue="0.0,0.0,0.3,1.0" />
+      </frame>
+      <frame cnt="1300">
+        <posx val="0" easeValue="0.0,0.0,0.8,1.0" />
+        <posy val="0" easeValue="0.0,0.0,0.8,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.85" easeValue="0.0,0.0,0.8,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" easeValue="0.0,0.0,0.8,1.0" />
+        <centery val="0" easeValue="0.0,0.0,0.8,1.0" />
+      </frame>
+      <frame cnt="1733">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_gnb_new_effect_02">
+      <frame cnt="0">
+        <posx val="0.0545454545454545" />
+        <posy val="0.18" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0.0545454545454545" />
+        <posy val="0.18" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.55" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1233">
+        <posx val="0.0545454545454545" easeValue="0.0,0.0,0.4,1.0" />
+        <posy val="0.18" easeValue="0.0,0.0,0.4,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,0.0,0.4,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" easeValue="0.0,0.0,0.4,1.0" />
+        <centery val="0" easeValue="0.0,0.0,0.4,1.0" />
+      </frame>
+      <frame cnt="1633">
+        <posx val="0.0545454545454545" easeValue="0.0,0.0,0.7,1.0" />
+        <posy val="0.18" easeValue="0.0,0.0,0.7,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" easeValue="0.0,0.0,0.7,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" easeValue="0.0,0.0,0.7,1.0" />
+        <centery val="0" easeValue="0.0,0.0,0.7,1.0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

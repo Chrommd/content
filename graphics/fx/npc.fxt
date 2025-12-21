@@ -1,0 +1,5138 @@
+
+"npc_elephant_dust_copy"
+{
+	rotAngle	( 0.000000 0.000000 0.000000 )
+	emitter {
+		texture "volumdust_005.dds"
+		blendFunc blend
+		time 0.900000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 3
+		cycles	1
+		bunching 0.270000
+		colorKeyframes 3 ( 0.000000 0.510000 0.459000 0.267000 0.000000 ) ( 0.134000 1.000000 1.000000 1.000000 0.200000 ) ( 1.000000 0.510000 0.459000 0.267000 0.000000 )
+		hasInitialAngle 1 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.300000 0.000000 )
+		gravity ( 0.000000 -0.500000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 1.000000 0.000000 1.000000 )
+		direction cone ( 30.000000 0.000000 0.000000 0.000000 )
+		orientation view
+		speed ( 5.000000 5.000000 0.000000 0.000000 )
+		rotationZ ( 54.360001 18.000000 2.880000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 1.280000 2.816000 3.968000 4.704000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+	emitter {
+		texture "volumdust_002.dds"
+		blendFunc blend
+		time 0.900000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 3
+		cycles	1
+		bunching 0.270000
+		colorKeyframes 3 ( 0.000000 0.510000 0.459000 0.267000 0.000000 ) ( 0.125000 0.859000 0.816000 0.784000 0.300000 ) ( 1.000000 0.510000 0.459000 0.267000 0.000000 )
+		hasInitialAngle 1 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.300000 0.000000 )
+		gravity ( 0.000000 -0.500000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 1.000000 0.000000 1.000000 )
+		direction cone ( 30.000000 0.000000 0.000000 0.000000 )
+		orientation view
+		speed ( 5.000000 5.000000 0.000000 0.000000 )
+		rotationZ ( 54.360001 18.000000 2.880000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 2.528000 2.816000 4.448000 4.704000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+	emitter {
+		texture "volumdust_002.dds"
+		blendFunc blend
+		time 0.900000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 20
+		cycles	1
+		bunching 0.270000
+		colorKeyframes 3 ( 0.000000 0.510000 0.459000 0.267000 0.000000 ) ( 0.121000 0.682000 0.569000 0.302000 0.300000 ) ( 1.000000 0.510000 0.459000 0.267000 0.000000 )
+		hasInitialAngle 1 1 1
+		initialAngle 300.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.300000 0.000000 )
+		gravity ( 0.000000 -0.500000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 1.000000 0.000000 1.000000 )
+		direction cone ( 30.000000 0.000000 0.000000 0.000000 )
+		orientation view
+		speed ( 5.000000 5.000000 0.000000 0.000000 )
+		rotationZ ( -10.000000 10.000000 -10.000000 10.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.384000 1.920000 2.560000 4.960000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+	cameraShake {
+		timeOffset 0.000000
+		intensity 12.000000
+		duration 0.500000
+	}
+}
+
+"pet_egg_land00c"
+{
+	rotAngle	( 0.000000 0.000000 0.000000 )
+	emitter {
+		animTexture 4 4 16 0 "particle_002.dds" 0
+		blendFunc blendAdd
+		time 0.500000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 10
+		cycles	0
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.497000 1.000000 0.910000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 0 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.110000 0.100000 0.100000 )
+		trailShakeFreq_2 ( 0.100000 0.100000 0.010000 )
+		trailType 1
+		distribution sphere ( 0.000000 0.000000 0.000000 0.150000 )
+		direction cone ( 30.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.020000 0.070000 0.100000 0.100000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		sizeLock
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+	emitter {
+		animTexture 2 2 0 0 "petal_001.dds" 0
+		blendFunc blendAdd
+		time 1.500000
+		timeVariation 0.500000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 5
+		cycles	0
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.497000 1.000000 0.502000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 0 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.100000 0.100000 0.100000 )
+		trailShakeFreq_2 ( 0.100000 0.300000 0.100000 )
+		trailType 1
+		distribution sphere ( 0.000000 0.000000 0.000000 0.150000 )
+		direction cone ( 30.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.100000 0.050000 0.100000 0.100000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		sizeLock
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+}
+
+"pet_tabi_fox00d"
+{
+	depthHack	0.999000
+	rotAngle	( 0.000000 0.000000 0.000000 )
+	emitter {
+		animTexture 4 4 16 0 "explode_002.dds" 1
+		blendFunc blendAdd
+		time 1.000000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 10
+		cycles	0
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 0.000000 0.000000 0.000000 ) ( 0.500000 0.980000 0.663000 0.553000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 0 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.100000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 30.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.000000 0.000000 1.000000 1.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.250000 0.250000 0.015000 0.015000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+		attached
+	}
+	emitter {
+		animTexture 4 4 32 0 "explode_002.dds" 1
+		blendFunc blendAdd
+		time 0.500000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 1
+		cycles	0
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 0.000000 0.000000 1.000000 ) ( 0.500000 0.980000 0.663000 0.553000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 0 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.100000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 30.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.000000 0.000000 0.100000 0.100000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.250000 0.250000 0.200000 0.200000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+		attached
+	}
+}
+
+"pet_egg_fore00b"
+{
+	rotAngle	( 0.000000 0.000000 0.000000 )
+	emitter {
+		animTexture 2 2 0 0 "particle_005.dds" 0
+		blendFunc blendAdd
+		time 1.500000
+		timeVariation 0.500000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 3
+		cycles	0
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.497000 1.000000 1.000000 0.502000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 0 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.110000 0.100000 0.100000 )
+		trailShakeFreq_2 ( 0.200000 0.100000 0.200000 )
+		trailType 1
+		distribution sphere ( 0.000000 0.000000 0.000000 0.150000 )
+		direction cone ( 30.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.150000 0.050000 0.100000 0.100000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		sizeLock
+		rotationSpeed 20.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+	emitter {
+		animTexture 2 2 0 0 "leaf_green_002.dds" 0
+		blendFunc blend
+		time 1.500000
+		timeVariation 0.500000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 2
+		cycles	0
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.497000 1.000000 1.000000 0.502000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 0 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.100000 0.100000 0.100000 )
+		trailShakeFreq_2 ( 0.300000 0.300000 0.200000 )
+		trailType 1
+		distribution sphere ( 0.000000 0.000000 0.000000 0.150000 )
+		direction cone ( 30.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.100000 0.050000 0.100000 0.100000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		sizeLock
+		rotationSpeed 30.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+}
+
+"pet_egg_pgri00d"
+{
+	depthHack	0.999000
+	rotAngle	( 0.000000 0.000000 0.000000 )
+	emitter {
+		animTexture 4 4 16 0 "particle_002.dds" 0
+		blendFunc blendAdd
+		time 0.500000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 12
+		cycles	0
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.497000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 0 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.110000 0.100000 0.100000 )
+		trailShakeFreq_2 ( 0.100000 0.100000 0.010000 )
+		trailType 1
+		distribution sphere ( 0.000000 0.000000 0.000000 0.150000 )
+		direction cone ( 30.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.020000 0.080000 0.100000 0.100000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		sizeLock
+		rotationSpeed 5.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+	emitter {
+		animTexture 2 2 0 0 "snowcrystal.dds" 0
+		blendFunc blendAdd
+		time 1.500000
+		timeVariation 0.500000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 10
+		cycles	0
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.493000 0.867000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 0 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.100000 0.100000 0.100000 )
+		trailShakeFreq_2 ( 0.100000 0.100000 0.100000 )
+		trailType 1
+		distribution sphere ( 0.000000 0.000000 0.000000 0.150000 )
+		direction cone ( 30.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.150000 0.050000 0.100000 0.100000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		sizeLock
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+	emitter {
+		animTexture 2 2 0 0 "steam_001.dds" 0
+		blendFunc blendAdd
+		time 3.000000
+		timeVariation 0.500000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 3
+		cycles	0
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.300000 0.910000 1.000000 1.000000 0.250000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 1 1 1
+		initialAngle 0.000000 90.000000 0.000000
+		initialAngleVariation 0.000000 30.000000 0.000000
+		offset ( 0.000000 0.100000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 10.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.500000 0.500000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.700000 0.700000 0.900000 0.900000 )
+		aspect ( 1.000000 1.000000 0.300000 0.300000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+	emitter {
+		texture "volumdust_006.dds"
+		blendFunc blendAdd
+		time 2.000000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 5
+		cycles	0
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.237000 1.000000 1.000000 1.000000 0.200000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 0 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 -0.100000 0.000000 )
+		gravity ( 0.100000 -0.400000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.110000 0.100000 0.100000 )
+		trailShakeFreq_2 ( 0.100000 0.100000 0.010000 )
+		trailType 1
+		distribution box ( 0.110000 0.000000 0.110000 )
+		direction cone ( 30.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.600000 0.700000 0.768000 0.768000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		sizeLock
+		rotationSpeed 0.000000
+		useEmitterTrails
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+}
+
+"pet_egg_dorf00c"
+{
+	rotAngle	( 0.000000 0.000000 0.000000 )
+	emitter {
+		texture "volumdust_004.dds"
+		blendFunc blendAdd
+		time 0.700000
+		timeVariation 0.200000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 5
+		cycles	0
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 1.000000 ) ( 0.505000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 0 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 -0.050000 0.000000 )
+		gravity ( 0.000000 -0.100000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 0.000000 0.000000 0.000000 1.000000 )
+		orientation view
+		speed ( 0.500000 0.400000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.100000 0.100000 0.300000 0.500000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+	emitter {
+		texture "volumdust_004.dds"
+		blendFunc blendAdd
+		time 0.700000
+		timeVariation 0.200000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 5
+		cycles	0
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 1.000000 ) ( 0.505000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 0 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 -0.050000 0.000000 )
+		gravity ( 0.000000 -0.100000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 0.000000 0.000000 0.000000 -1.000000 )
+		orientation view
+		speed ( 0.500000 0.400000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.100000 0.100000 0.300000 0.500000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+}
+
+"pet_pgri_seal00c"
+{
+	rotAngle	( 0.000000 0.000000 0.000000 )
+	emitter {
+		animTexture 2 1 0 0 "ascent_white_001.dds" 1
+		blendFunc blendAdd
+		time 0.444000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 20
+		cycles	3
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.440000 1.000000 1.000000 1.000000 0.200000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		groundHeight 0.050000
+		hasInitialAngle 1 1 1
+		initialAngle 0.000000 90.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 30.000000 0.000000 1.000000 0.000000 )
+		orientation none
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 1.000000 2.000000 2.000000 2.000000 )
+		aspect ( 0.500000 0.500000 0.700000 0.700000 )
+		sizeLock
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+	emitter {
+		animTexture 2 2 0 0 "snowcrystal.dds" 0
+		blendFunc blendAdd
+		time 0.444000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 4
+		cycles	3
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 1.000000 ) ( 0.259000 1.000000 1.000000 1.000000 1.000000 )
+		hasInitialAngle 1 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 1.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.300000 0.000000 0.000000 )
+		direction cone ( 50.000000 0.000000 0.707086 -0.707086 )
+		orientation view
+		speed ( 2.000000 5.000000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.150000 0.050000 0.000000 0.000000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+		attached
+	}
+	emitter {
+		texture "lightningbug.dds"
+		blendFunc blendAdd
+		time 0.444000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 3
+		cycles	3
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 1.000000 ) ( 0.259000 1.000000 1.000000 1.000000 0.500000 ) ( 1.000000 1.000000 1.000000 1.000000 1.000000 )
+		hasInitialAngle 1 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.500000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 1.000000 1.000000 0.000000 )
+		direction cone ( 0.000000 0.000000 0.000000 -1.000000 )
+		orientation aimed
+		speed ( 2.000000 5.000000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.010000 0.020000 0.000000 0.000000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+		attached
+	}
+	emitter {
+		animTexture 2 2 8 0 "water_001.dds" 0
+		blendFunc blendAdd
+		time 0.444000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 7
+		cycles	3
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.158000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 0 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.300000 )
+		gravity ( 0.000000 0.500000 0.500000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.300000 0.000000 0.000000 )
+		direction cone ( 50.000000 0.000000 0.999950 0.000000 )
+		orientation view
+		speed ( 1.000000 1.600000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.400000 0.200000 0.000000 0.000000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		sizeLock
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+		attached
+	}
+	emitter {
+		texture "volumdust_006.dds"
+		blendFunc blendAdd
+		time 0.444000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 7
+		cycles	3
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.158000 1.000000 1.000000 1.000000 0.300000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 0 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.300000 )
+		gravity ( 0.000000 0.500000 0.500000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.300000 0.000000 0.000000 )
+		direction cone ( 50.000000 0.000000 0.999950 0.000000 )
+		orientation view
+		speed ( 1.000000 1.600000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.400000 0.200000 0.000000 0.000000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		sizeLock
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+		attached
+	}
+}
+
+"pet_dorf_mimic00c"
+{
+	rotAngle	( 0.000000 0.000000 0.000000 )
+	emitter {
+		modelFile "CARROTSILVER"
+		blendFunc blend
+		time 0.600000
+		timeVariation 0.300000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 3
+		cycles	1
+		bunching 0.000000
+		colorKeyframes 4 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.100000 1.000000 1.000000 1.000000 1.000000 ) ( 0.900000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 0 0 0
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 2.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.500000 0.000000 0.000000 )
+		direction cone ( 60.000000 0.000000 1.000000 0.000000 )
+		orientation none
+		speed ( 3.000000 1.000000 0.000000 0.000000 )
+		rotationZ ( 3600.000000 3600.000000 -3600.000000 -3600.000000 )
+		rotationX ( 3600.000000 3600.000000 -3600.000000 -3600.000000 )
+		rotationY ( 3600.000000 3600.000000 -3600.000000 -3600.000000 )
+		size ( 0.250000 0.250000 0.250000 0.250000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+	emitter {
+		animTexture 4 4 32 0 "particle_002.dds" 1
+		blendFunc blendAdd
+		time 0.500000
+		timeVariation 0.300000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 5
+		cycles	1
+		bunching 0.137000
+		colorKeyframes 2 ( 0.000000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 1.000000 )
+		hasInitialAngle 1 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution sphere ( 0.000000 0.000000 0.000000 0.500000 )
+		direction cone ( 180.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.100000 0.000000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.200000 0.100000 0.100000 0.100000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+	emitter {
+		modelFile "CARROTSILVER"
+		blendFunc blend
+		time 0.600000
+		timeVariation 0.300000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 2
+		cycles	1
+		bunching 0.000000
+		colorKeyframes 4 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.100000 1.000000 1.000000 1.000000 1.000000 ) ( 0.900000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 0 0 0
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 1.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.500000 0.000000 0.000000 )
+		direction cone ( 60.000000 0.000000 1.000000 0.000000 )
+		orientation none
+		speed ( 3.000000 1.000000 0.000000 0.000000 )
+		rotationZ ( 3600.000000 3600.000000 -3600.000000 -3600.000000 )
+		rotationX ( 3600.000000 3600.000000 -3600.000000 -3600.000000 )
+		rotationY ( 3600.000000 3600.000000 -3600.000000 -3600.000000 )
+		size ( 0.250000 0.250000 0.250000 0.250000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+		attached
+	}
+}
+
+"npc_giraffe_dust"
+{
+	scale	0.500000
+	rotAngle	( 0.000000 0.000000 0.000000 )
+	emitter {
+		texture "volumdust_007.dds"
+		blendFunc blend
+		time 0.840000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 3
+		cycles	1
+		bunching 0.000000
+		colorKeyframes 4 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.000000 1.000000 1.000000 1.000000 0.500000 ) ( 0.140000 1.000000 1.000000 1.000000 0.200000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 1 1 1
+		initialAngle 300.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 -0.128000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution sphere ( 0.600000 0.000000 0.000000 0.000000 )
+		direction cone ( 30.000000 0.000000 0.000000 0.000000 )
+		orientation view
+		speed ( 5.000000 5.000000 0.000000 0.000000 )
+		rotationZ ( -10.000000 10.000000 -10.000000 10.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.100000 0.768000 1.920000 5.984000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+	emitter {
+		texture "volumdust_004.dds"
+		blendFunc blend
+		time 1.095000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 1
+		cycles	1
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 0.918000 0.902000 0.843000 0.000000 ) ( 0.000000 0.957000 0.886000 0.510000 0.500000 ) ( 1.000000 0.918000 0.902000 0.843000 0.000000 )
+		hasInitialAngle 1 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 -0.128000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 30.000000 0.000000 0.000000 0.000000 )
+		orientation view
+		speed ( 5.000000 5.000000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.400000 0.768000 3.712000 6.496000 )
+		aspect ( 1.500000 1.500000 1.500000 1.500000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+	emitter {
+		texture "volumdust_004.dds"
+		blendFunc blend
+		time 0.840000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 2
+		cycles	1
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 0.510000 0.459000 0.267000 0.000000 ) ( 0.000000 0.690000 0.659000 0.376000 0.700000 ) ( 1.000000 0.510000 0.459000 0.267000 0.000000 )
+		hasInitialAngle 1 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 -0.128000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 30.000000 0.000000 0.000000 0.000000 )
+		orientation view
+		speed ( 5.000000 5.000000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.400000 0.768000 3.328000 6.368000 )
+		aspect ( 1.500000 1.500000 1.500000 1.500000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+}
+
+"pet_dorf_mimic00b2"
+{
+	rotAngle	( 0.000000 0.000000 0.000000 )
+	emitter {
+		modelFile "CARROTCOPPER"
+		blendFunc blend
+		time 0.600000
+		timeVariation 0.300000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 1
+		cycles	1
+		bunching 0.000000
+		colorKeyframes 4 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.100000 1.000000 1.000000 1.000000 1.000000 ) ( 0.900000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 0 0 0
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 2.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.500000 0.000000 0.000000 )
+		direction cone ( 60.000000 0.000000 1.000000 0.000000 )
+		orientation none
+		speed ( 3.000000 1.000000 0.000000 0.000000 )
+		rotationZ ( 3600.000000 3600.000000 -3600.000000 -3600.000000 )
+		rotationX ( 3600.000000 3600.000000 -3600.000000 -3600.000000 )
+		rotationY ( 3600.000000 3600.000000 -3600.000000 -3600.000000 )
+		size ( 0.200000 0.200000 0.200000 0.200000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+	emitter {
+		modelFile "CARROTCOPPER"
+		blendFunc blend
+		time 0.600000
+		timeVariation 0.300000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 1
+		cycles	1
+		bunching 0.000000
+		colorKeyframes 4 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.100000 1.000000 1.000000 1.000000 1.000000 ) ( 0.900000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 0 0 0
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 1.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.500000 0.000000 0.000000 )
+		direction cone ( 60.000000 0.000000 1.000000 0.000000 )
+		orientation none
+		speed ( 3.000000 1.000000 0.000000 0.000000 )
+		rotationZ ( 3600.000000 3600.000000 -3600.000000 -3600.000000 )
+		rotationX ( 3600.000000 3600.000000 -3600.000000 -3600.000000 )
+		rotationY ( 3600.000000 3600.000000 -3600.000000 -3600.000000 )
+		size ( 0.200000 0.200000 0.200000 0.200000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+		attached
+	}
+}
+
+"pet_dorf_mimic00a3"
+{
+	depthHack	0.999000
+	rotAngle	( 0.000000 0.000000 0.000000 )
+	emitter {
+		texture "volumdust_008.dds"
+		blendFunc blend
+		time 0.300000
+		timeVariation 0.100000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 1
+		cycles	1
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.466000 1.000000 1.000000 1.000000 0.500000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 0 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.200000 0.000000 0.000000 )
+		direction cone ( 50.000000 0.000000 0.000000 1.000000 )
+		orientation view
+		speed ( 0.400000 0.200000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.010000 0.020000 0.600000 0.300000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+	emitter {
+		texture "volumdust_008.dds"
+		blendFunc blend
+		time 0.400000
+		timeVariation 0.100000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 2
+		cycles	1
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.466000 1.000000 1.000000 1.000000 0.500000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 0 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.200000 0.000000 0.000000 )
+		direction cone ( 50.000000 0.000000 0.000000 1.000000 )
+		orientation view
+		speed ( 0.400000 0.200000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.010000 0.020000 1.000000 0.700000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+		attached
+	}
+}
+
+"pet_dorf_mimic00b_eye"
+{
+	depthHack	0.999000
+	rotAngle	( 0.000000 0.000000 0.000000 )
+	emitter {
+		texture "light_red_001.dds"
+		blendFunc blendAdd
+		time 1.000000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 1
+		cycles	0
+		bunching 1.000000
+		colorKeyframes 2 ( 0.000000 1.000000 0.749000 0.749000 1.000000 ) ( 1.000000 1.000000 0.749000 0.749000 1.000000 )
+		hasInitialAngle 1 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 1
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 30.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.250000 0.250000 0.250000 0.250000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+		attached
+	}
+}
+
+"pet_fore_ladybug00a"
+{
+	rotAngle	( 0.000000 0.000000 0.000000 )
+	emitter {
+		texture "light_blue_001.dds"
+		blendFunc blendAdd
+		time 0.500000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 1
+		cycles	1
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 0.039000 0.961000 0.733000 0.000000 ) ( 0.500000 0.039000 0.961000 0.733000 0.500000 ) ( 1.000000 0.039000 0.961000 0.733000 0.000000 )
+		hasInitialAngle 1 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 30.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.300000 0.300000 0.300000 0.300000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+		attached
+	}
+}
+
+"npc_sheep_hit_[l]"
+{
+	rotAngle	( 0.000000 0.000000 0.000000 )
+	emitter {
+		texture "volumdust_005.dds"
+		blendFunc blend
+		time 0.300000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 1
+		cycles	1
+		bunching 0.000000
+		colorKeyframes 3 ( 0.000000 0.510000 0.459000 0.267000 0.000000 ) ( 0.031000 1.000000 1.000000 1.000000 0.300000 ) ( 1.000000 0.510000 0.459000 0.267000 0.000000 )
+		hasInitialAngle 0 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 30.000000 0.000000 0.000000 0.000000 )
+		orientation view
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationZ ( 54.360001 18.000000 2.880000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 1.280000 2.816000 6.880000 10.848000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+	emitter {
+		texture "volumdust_002.dds"
+		blendFunc blendAdd
+		time 0.300000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 1
+		cycles	1
+		bunching 0.000000
+		colorKeyframes 3 ( 0.000000 0.510000 0.459000 0.267000 0.000000 ) ( 0.031000 0.859000 0.816000 0.784000 0.500000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 0 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 -0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 30.000000 0.000000 0.000000 0.000000 )
+		orientation view
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationZ ( 54.360001 18.000000 2.880000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.768000 2.816000 5.728000 12.096000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+	emitter {
+		texture "ring_white_004.dds"
+		blendFunc blendAdd
+		time 0.300000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 1
+		cycles	1
+		bunching 0.000000
+		colorKeyframes 3 ( 0.000000 0.510000 0.459000 0.267000 0.000000 ) ( 0.031000 0.859000 0.816000 0.784000 0.500000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 0 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 -0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 30.000000 0.000000 0.000000 0.000000 )
+		orientation view
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationZ ( 54.360001 18.000000 2.880000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.768000 2.816000 5.728000 12.096000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+}
+
+"pet_hatching_start"
+{
+	depthHack	0.999000
+	scale	0.360000
+	rotAngle	( 0.000000 0.000000 0.000000 )
+	emitter {
+		texture "wave_002.dds"
+		blendFunc blendAdd
+		time 1.000000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 4
+		cycles	0
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.497000 0.678000 0.678000 0.678000 0.500000 ) ( 1.000000 0.000000 0.000000 1.000000 0.000000 )
+		hasInitialAngle 1 0 1
+		initialAngle 90.000000 0.000000 90.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 0.000000 0.000000 1.000000 0.000000 )
+		orientation none
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 2.000000 2.000000 1.700000 1.700000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+	emitter {
+		texture "light_001.dds"
+		blendFunc blendAdd
+		time 1.000000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 2
+		cycles	0
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.501000 0.678000 0.678000 0.678000 0.300000 ) ( 1.000000 0.000000 0.000000 1.000000 0.000000 )
+		hasInitialAngle 1 0 1
+		initialAngle 90.000000 0.000000 90.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 0.000000 0.000000 1.000000 0.000000 )
+		orientation none
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 2.000000 2.000000 1.700000 1.700000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+	emitter {
+		texture "light_purple_001.dds"
+		blendFunc blendAdd
+		time 1.000000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 50
+		cycles	0
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.501000 1.000000 1.000000 1.000000 0.500000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 0 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 -0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution cylinder ( 0.500000 0.000000 0.500000 0.000000 )
+		direction cone ( 30.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.100000 0.500000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.500000 0.500000 0.010000 0.010000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+}
+
+"pet_land_butterfly00d"
+{
+	rotAngle	( 0.000000 0.000000 0.000000 )
+	emitter {
+		animTexture 4 4 0 5 "particle_001.dds" 1
+		blendFunc blendAdd
+		time 1.000000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 20
+		cycles	0
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.303000 0.922000 0.239000 0.239000 0.700000 ) ( 1.000000 1.000000 1.000000 1.000000 1.000000 )
+		hasInitialAngle 0 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.100000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution sphere ( 0.000000 0.000000 0.000000 0.200000 )
+		direction cone ( 360.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 1.000000 0.000000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.200000 0.100000 0.000000 0.000000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+	emitter {
+		texture "light_red_002.dds"
+		blendFunc blendAdd
+		time 1.000000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 2
+		cycles	0
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.515000 0.886000 0.361000 0.624000 0.200000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 0 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.100000 0.000000 )
+		trails 1
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution sphere ( 0.000000 0.000000 0.000000 0.000000 )
+		direction cone ( 360.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 1.000000 1.000000 1.000000 1.000000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+		attached
+	}
+	emitter {
+		texture "light_red_002.dds"
+		blendFunc blendAdd
+		time 0.500000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 40
+		cycles	0
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 0.502000 0.000000 0.502000 0.000000 ) ( 0.154000 0.882000 0.118000 0.329000 0.150000 ) ( 1.000000 0.502000 0.000000 0.502000 0.000000 )
+		hasInitialAngle 0 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.200000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution sphere ( 0.000000 0.000000 0.000000 0.020000 )
+		direction cone ( 0.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( -0.000000 -0.000000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.200000 0.400000 0.000000 0.000000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 100.000000
+		useEmitterTrails
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+}
+
+"pet_egg_tabi00c"
+{
+	rotAngle	( 0.000000 0.000000 0.000000 )
+	emitter {
+		texture "volumdust_006.dds"
+		blendFunc blend
+		time 0.900000
+		timeVariation 0.200000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 7
+		cycles	0
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 0.878000 0.843000 0.722000 0.000000 ) ( 0.400000 0.788000 0.729000 0.529000 0.300000 ) ( 1.000000 0.878000 0.843000 0.722000 0.000000 )
+		hasInitialAngle 0 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.100000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 1
+		distribution sphere ( 0.000000 0.000000 0.000000 0.150000 )
+		direction outward ( 0.000000 0.000000 0.000000 0.000000 )
+		orientation view
+		speed ( 0.100000 0.100000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.100000 0.200000 0.300000 0.400000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 20.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+	emitter {
+		texture "volumdust_006.dds"
+		blendFunc blend
+		time 0.700000
+		timeVariation 0.200000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 2
+		cycles	0
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 0.878000 0.843000 0.722000 0.000000 ) ( 0.497000 0.788000 0.729000 0.529000 1.000000 ) ( 1.000000 0.878000 0.843000 0.722000 0.000000 )
+		hasInitialAngle 0 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.010000 0.000000 )
+		trails 20
+		trailTime 0.938000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution sphere ( 0.000000 0.000000 0.000000 0.200000 )
+		direction cone ( 30.000000 0.000000 1.000000 0.000000 )
+		orientation aimed
+		speed ( 0.100000 0.100000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.100000 0.050000 0.010000 0.000000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 360.000000
+		useEmitterTrails
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+}
+
+"npc_sheep_hit"
+{
+	rotAngle	( 0.000000 0.000000 0.000000 )
+	emitter {
+		texture "volumdust_005.dds"
+		blendFunc blend
+		time 0.300000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 3
+		cycles	1
+		bunching 0.000000
+		colorKeyframes 3 ( 0.000000 0.510000 0.459000 0.267000 0.000000 ) ( 0.031000 1.000000 1.000000 1.000000 0.300000 ) ( 1.000000 0.510000 0.459000 0.267000 0.000000 )
+		hasInitialAngle 0 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 30.000000 0.000000 0.000000 0.000000 )
+		orientation view
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationZ ( 54.360001 18.000000 2.880000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 1.280000 2.816000 6.880000 10.848000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+	emitter {
+		texture "volumdust_002.dds"
+		blendFunc blendAdd
+		time 0.300000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 3
+		cycles	1
+		bunching 0.000000
+		colorKeyframes 3 ( 0.000000 0.510000 0.459000 0.267000 0.000000 ) ( 0.031000 0.859000 0.816000 0.784000 0.500000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 0 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 -0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 30.000000 0.000000 0.000000 0.000000 )
+		orientation view
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationZ ( 54.360001 18.000000 2.880000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.768000 2.816000 5.728000 12.096000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+	emitter {
+		texture "ring_white_004.dds"
+		blendFunc blendAdd
+		time 0.300000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 2
+		cycles	1
+		bunching 0.000000
+		colorKeyframes 3 ( 0.000000 0.510000 0.459000 0.267000 0.000000 ) ( 0.031000 0.859000 0.816000 0.784000 0.500000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 0 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 -0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 30.000000 0.000000 0.000000 0.000000 )
+		orientation view
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationZ ( 54.360001 18.000000 2.880000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.768000 2.816000 5.728000 12.096000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+}
+
+"pet_egg_land00d"
+{
+	rotAngle	( 0.000000 0.000000 0.000000 )
+	emitter {
+		animTexture 4 4 16 0 "particle_002.dds" 0
+		blendFunc blendAdd
+		time 0.500000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 20
+		cycles	0
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.497000 1.000000 0.910000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 0 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.110000 0.100000 0.100000 )
+		trailShakeFreq_2 ( 0.100000 0.100000 0.010000 )
+		trailType 1
+		distribution sphere ( 0.000000 0.000000 0.000000 0.150000 )
+		direction cone ( 30.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.020000 0.070000 0.100000 0.100000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		sizeLock
+		rotationSpeed 5.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+	emitter {
+		animTexture 2 2 0 0 "petal_001.dds" 0
+		blendFunc blendAdd
+		time 1.500000
+		timeVariation 0.500000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 20
+		cycles	0
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.497000 1.000000 0.502000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 0 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.100000 0.100000 0.100000 )
+		trailShakeFreq_2 ( 0.100000 0.100000 0.100000 )
+		trailType 1
+		distribution sphere ( 0.000000 0.000000 0.000000 0.150000 )
+		direction cone ( 30.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.100000 0.050000 0.100000 0.100000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		sizeLock
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+	emitter {
+		texture "ring_yellow_001.dds"
+		blendFunc blendAdd
+		time 1.000000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 2
+		cycles	0
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.303000 1.000000 1.000000 1.000000 0.200000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 1 1 1
+		initialAngle 0.000000 90.000000 0.000000
+		initialAngleVariation 0.000000 30.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 10.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.700000 0.700000 0.900000 0.900000 )
+		aspect ( 0.700000 0.700000 0.700000 0.700000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+}
+
+"pet_egg_fore00c"
+{
+	rotAngle	( 0.000000 0.000000 0.000000 )
+	emitter {
+		animTexture 2 2 0 0 "particle_005.dds" 0
+		blendFunc blendAdd
+		time 1.500000
+		timeVariation 0.500000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 10
+		cycles	0
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.497000 1.000000 1.000000 0.502000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 0 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.110000 0.100000 0.100000 )
+		trailShakeFreq_2 ( 0.200000 0.100000 0.200000 )
+		trailType 1
+		distribution sphere ( 0.000000 0.000000 0.000000 0.150000 )
+		direction cone ( 30.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.150000 0.050000 0.100000 0.100000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		sizeLock
+		rotationSpeed 20.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+	emitter {
+		animTexture 2 2 0 0 "leaf_green_002.dds" 0
+		blendFunc blend
+		time 1.500000
+		timeVariation 0.500000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 10
+		cycles	0
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.497000 1.000000 1.000000 0.502000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 0 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.100000 0.100000 0.100000 )
+		trailShakeFreq_2 ( 0.300000 0.300000 0.200000 )
+		trailType 1
+		distribution sphere ( 0.000000 0.000000 0.000000 0.150000 )
+		direction cone ( 30.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.100000 0.050000 0.100000 0.100000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		sizeLock
+		rotationSpeed 30.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+}
+
+"npc_giraffe_mist"
+{
+	rotAngle	( 0.000000 0.000000 0.000000 )
+	emitter {
+		texture "volumdust_004.dds"
+		blendFunc blend
+		time 2.000000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 6
+		cycles	1
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 0.941000 0.855000 0.349000 0.000000 ) ( 0.000000 0.957000 0.886000 0.510000 0.500000 ) ( 1.000000 0.941000 0.855000 0.349000 0.000000 )
+		hasInitialAngle 1 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.100000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 180.000000 0.000000 -1.000000 0.000000 )
+		orientation view
+		speed ( 0.000000 3.000000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.200000 1.000000 1.500000 2.000000 )
+		aspect ( 1.500000 1.500000 1.500000 1.500000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+}
+
+"pet_egg_dorf00d"
+{
+	rotAngle	( -10.000000 0.000000 30.000000 )
+	emitter {
+		texture "volumdust_004.dds"
+		blendFunc blendAdd
+		time 0.600000
+		timeVariation 0.300000
+		deadTime 0.300000
+		timeOffset 0.000000
+		count 20
+		cycles	0
+		bunching 0.013000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 1.000000 ) ( 0.505000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 0 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.040000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.100000 0.000000 0.100000 )
+		direction outward ( 0.000000 0.000000 0.000000 0.000000 )
+		orientation view
+		speed ( 0.300000 0.600000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.050000 0.050000 0.200000 0.500000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+	emitter {
+		texture "light_red_002.dds"
+		blendFunc blendAdd
+		time 1.000000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 2
+		cycles	0
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.458000 1.000000 0.008000 0.008000 1.000000 ) ( 1.000000 1.000000 0.000000 0.000000 0.000000 )
+		hasInitialAngle 1 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.030000 0.145000 0.190000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 30.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.150000 0.150000 0.300000 0.300000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+		attached
+	}
+}
+
+"npc_cat_dust"
+{
+	rotAngle	( 0.000000 0.000000 0.000000 )
+	emitter {
+		texture "volumdust_002.dds"
+		blendFunc blend
+		time 0.400000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 1
+		cycles	1
+		bunching 0.000000
+		colorKeyframes 3 ( 0.000000 0.510000 0.459000 0.267000 0.000000 ) ( 0.180000 0.690000 0.659000 0.376000 1.000000 ) ( 1.000000 0.510000 0.459000 0.267000 0.000000 )
+		hasInitialAngle 1 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 -0.128000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 30.000000 0.000000 0.000000 0.000000 )
+		orientation view
+		speed ( 5.000000 5.000000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.200000 0.300000 2.100000 2.000000 )
+		aspect ( 1.500000 1.500000 1.500000 1.500000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+}
+
+"pet_pgri_seal00d"
+{
+	rotAngle	( 0.000000 0.000000 0.000000 )
+	emitter {
+		animTexture 2 1 0 0 "ascent_white_001.dds" 1
+		blendFunc blendAdd
+		time 0.444000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 25
+		cycles	3
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.440000 1.000000 1.000000 1.000000 0.300000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		groundHeight 0.050000
+		hasInitialAngle 1 1 1
+		initialAngle 0.000000 90.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 30.000000 0.000000 1.000000 0.000000 )
+		orientation none
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 1.000000 2.000000 2.000000 2.000000 )
+		aspect ( 0.500000 0.500000 1.000000 1.000000 )
+		sizeLock
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+	emitter {
+		animTexture 2 2 0 0 "snowcrystal.dds" 0
+		blendFunc blendAdd
+		time 0.444000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 10
+		cycles	3
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 1.000000 ) ( 0.259000 1.000000 1.000000 1.000000 1.000000 )
+		hasInitialAngle 1 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 1.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.300000 0.000000 0.000000 )
+		direction cone ( 50.000000 0.000000 0.707086 -0.707086 )
+		orientation view
+		speed ( 2.000000 5.000000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.150000 0.050000 0.000000 0.000000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+		attached
+	}
+	emitter {
+		texture "lightningbug.dds"
+		blendFunc blendAdd
+		time 0.444000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 10
+		cycles	3
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 1.000000 ) ( 0.259000 1.000000 1.000000 1.000000 0.500000 ) ( 1.000000 1.000000 1.000000 1.000000 1.000000 )
+		hasInitialAngle 1 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.500000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 1.000000 1.000000 0.000000 )
+		direction cone ( 0.000000 0.000000 0.000000 -1.000000 )
+		orientation aimed
+		speed ( 2.000000 5.000000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.010000 0.050000 0.000000 0.000000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+		attached
+	}
+	emitter {
+		animTexture 2 2 8 0 "water_001.dds" 0
+		blendFunc blendAdd
+		time 0.444000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 15
+		cycles	3
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.158000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 0 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.300000 )
+		gravity ( 0.000000 0.500000 0.500000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.300000 0.000000 0.000000 )
+		direction cone ( 50.000000 0.000000 0.999950 0.000000 )
+		orientation view
+		speed ( 1.000000 1.600000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.500000 0.300000 0.000000 0.000000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		sizeLock
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+		attached
+	}
+	emitter {
+		texture "volumdust_006.dds"
+		blendFunc blend
+		time 0.444000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 15
+		cycles	3
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.158000 1.000000 1.000000 1.000000 0.500000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 0 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.300000 )
+		gravity ( 0.000000 0.500000 0.500000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.300000 0.000000 0.000000 )
+		direction cone ( 50.000000 0.000000 0.999950 0.000000 )
+		orientation view
+		speed ( 1.000000 1.600000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.500000 0.300000 0.000000 0.000000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		sizeLock
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+		attached
+	}
+}
+
+"pet_dorf_mimic00d"
+{
+	rotAngle	( 0.000000 0.000000 0.000000 )
+	emitter {
+		modelFile "CARROT"
+		blendFunc blend
+		time 0.600000
+		timeVariation 0.300000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 4
+		cycles	1
+		bunching 0.000000
+		colorKeyframes 4 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.100000 1.000000 1.000000 1.000000 1.000000 ) ( 0.900000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 0 0 0
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 2.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.500000 0.000000 0.000000 )
+		direction cone ( 60.000000 0.000000 1.000000 0.000000 )
+		orientation none
+		speed ( 3.000000 1.000000 0.000000 0.000000 )
+		rotationZ ( 3600.000000 3600.000000 -3600.000000 -3600.000000 )
+		rotationX ( 3600.000000 3600.000000 -3600.000000 -3600.000000 )
+		rotationY ( 3600.000000 3600.000000 -3600.000000 -3600.000000 )
+		size ( 0.250000 0.300000 0.300000 0.300000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		sizeLock
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+	emitter {
+		animTexture 4 4 32 0 "particle_002.dds" 1
+		blendFunc blendAdd
+		time 0.500000
+		timeVariation 0.300000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 5
+		cycles	1
+		bunching 0.137000
+		colorKeyframes 2 ( 0.000000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 1.000000 )
+		hasInitialAngle 1 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution sphere ( 0.000000 0.000000 0.000000 0.500000 )
+		direction cone ( 180.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.100000 0.000000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.400000 0.100000 0.100000 0.100000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+		attached
+	}
+	emitter {
+		modelFile "CARROT"
+		blendFunc blend
+		time 0.600000
+		timeVariation 0.300000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 2
+		cycles	1
+		bunching 0.000000
+		colorKeyframes 4 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.100000 1.000000 1.000000 1.000000 1.000000 ) ( 0.900000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 0 0 0
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 1.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.500000 0.000000 0.000000 )
+		direction cone ( 60.000000 0.000000 1.000000 0.000000 )
+		orientation none
+		speed ( 3.000000 1.000000 0.000000 0.000000 )
+		rotationZ ( 3600.000000 3600.000000 -3600.000000 -3600.000000 )
+		rotationX ( 3600.000000 3600.000000 -3600.000000 -3600.000000 )
+		rotationY ( 3600.000000 3600.000000 -3600.000000 -3600.000000 )
+		size ( 0.250000 0.300000 0.300000 0.300000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		sizeLock
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+		attached
+	}
+	emitter {
+		animTexture 4 4 32 0 "particle_002.dds" 1
+		blendFunc blendAdd
+		time 0.500000
+		timeVariation 0.300000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 5
+		cycles	1
+		bunching 0.137000
+		colorKeyframes 2 ( 0.000000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 1.000000 )
+		hasInitialAngle 1 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution sphere ( 0.000000 0.000000 0.000000 0.500000 )
+		direction cone ( 180.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.100000 0.000000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.400000 0.100000 0.100000 0.100000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+}
+
+"pet_dorf_mimic00c2"
+{
+	rotAngle	( 0.000000 0.000000 0.000000 )
+	emitter {
+		modelFile "CARROTSILVER"
+		blendFunc blend
+		time 0.600000
+		timeVariation 0.300000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 2
+		cycles	1
+		bunching 0.000000
+		colorKeyframes 4 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.100000 1.000000 1.000000 1.000000 1.000000 ) ( 0.900000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 0 0 0
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 2.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.500000 0.000000 0.000000 )
+		direction cone ( 60.000000 0.000000 1.000000 0.000000 )
+		orientation none
+		speed ( 3.000000 1.000000 0.000000 0.000000 )
+		rotationZ ( 3600.000000 3600.000000 -3600.000000 -3600.000000 )
+		rotationX ( 3600.000000 3600.000000 -3600.000000 -3600.000000 )
+		rotationY ( 3600.000000 3600.000000 -3600.000000 -3600.000000 )
+		size ( 0.250000 0.250000 0.200000 0.200000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		sizeLock
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+	emitter {
+		animTexture 4 4 32 0 "particle_002.dds" 1
+		blendFunc blendAdd
+		time 0.500000
+		timeVariation 0.300000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 2
+		cycles	1
+		bunching 0.137000
+		colorKeyframes 2 ( 0.000000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 1.000000 )
+		hasInitialAngle 1 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution sphere ( 0.000000 0.000000 0.000000 0.500000 )
+		direction cone ( 180.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.100000 0.000000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.200000 0.100000 0.100000 0.100000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+	emitter {
+		modelFile "CARROTSILVER"
+		blendFunc blend
+		time 0.600000
+		timeVariation 0.300000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 1
+		cycles	1
+		bunching 0.000000
+		colorKeyframes 4 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.100000 1.000000 1.000000 1.000000 1.000000 ) ( 0.900000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 0 0 0
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 1.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.500000 0.000000 0.000000 )
+		direction cone ( 60.000000 0.000000 1.000000 0.000000 )
+		orientation none
+		speed ( 3.000000 1.000000 0.000000 0.000000 )
+		rotationZ ( 3600.000000 3600.000000 -3600.000000 -3600.000000 )
+		rotationX ( 3600.000000 3600.000000 -3600.000000 -3600.000000 )
+		rotationY ( 3600.000000 3600.000000 -3600.000000 -3600.000000 )
+		size ( 0.250000 0.250000 0.200000 0.200000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		sizeLock
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+		attached
+	}
+}
+
+"pet_dorf_mimic00b3"
+{
+	rotAngle	( 0.000000 0.000000 0.000000 )
+	emitter {
+		modelFile "CARROTCOPPER"
+		blendFunc blend
+		time 0.600000
+		timeVariation 0.300000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 1
+		cycles	1
+		bunching 1.000000
+		colorKeyframes 4 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.100000 1.000000 1.000000 1.000000 1.000000 ) ( 0.900000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 0 0 0
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 1.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.500000 0.000000 0.000000 )
+		direction cone ( 60.000000 0.000000 1.000000 0.000000 )
+		orientation none
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationZ ( 3600.000000 3600.000000 -3600.000000 -3600.000000 )
+		rotationX ( 3600.000000 3600.000000 -3600.000000 -3600.000000 )
+		rotationY ( 3600.000000 3600.000000 -3600.000000 -3600.000000 )
+		size ( 0.200000 0.200000 0.200000 0.200000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+	emitter {
+		modelFile "CARROTCOPPER"
+		blendFunc blend
+		time 0.600000
+		timeVariation 0.300000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 1
+		cycles	1
+		bunching 1.000000
+		colorKeyframes 4 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.100000 1.000000 1.000000 1.000000 1.000000 ) ( 0.900000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 0 0 0
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.500000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.500000 0.000000 0.000000 )
+		direction cone ( 60.000000 0.000000 1.000000 0.000000 )
+		orientation none
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationZ ( 3600.000000 3600.000000 -3600.000000 -3600.000000 )
+		rotationX ( 3600.000000 3600.000000 -3600.000000 -3600.000000 )
+		rotationY ( 3600.000000 3600.000000 -3600.000000 -3600.000000 )
+		size ( 0.200000 0.200000 0.200000 0.200000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+		attached
+	}
+}
+
+"pet_dorf_mimic00c_eye"
+{
+	depthHack	0.999000
+	rotAngle	( 0.000000 0.000000 0.000000 )
+	emitter {
+		texture "light_red_001.dds"
+		blendFunc blendAdd
+		time 1.000000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 1
+		cycles	0
+		bunching 1.000000
+		colorKeyframes 2 ( 0.000000 0.824000 1.000000 1.000000 1.000000 ) ( 1.000000 0.824000 1.000000 1.000000 1.000000 )
+		hasInitialAngle 1 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 1
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 30.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.250000 0.250000 0.250000 0.250000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+		attached
+	}
+}
+
+"pet_get_egg"
+{
+	scale	0.700000
+	rotAngle	( 0.000000 0.000000 0.000000 )
+	emitter {
+		animTexture 2 2 0 0 "particle_005.dds" 0
+		blendFunc blendAdd
+		time 0.400000
+		timeVariation 0.200000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 30
+		cycles	1
+		bunching 0.043000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.497000 1.000000 1.000000 0.502000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 0 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.110000 0.100000 0.100000 )
+		trailShakeFreq_2 ( 0.200000 0.100000 0.200000 )
+		trailType 1
+		distribution sphere ( 0.000000 0.000000 0.000000 0.150000 )
+		direction outward ( 0.000000 0.000000 0.000000 0.000000 )
+		orientation view
+		speed ( 1.000000 5.000000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.500000 0.050000 0.010000 0.010000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		sizeLock
+		rotationSpeed 50.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+		attached
+	}
+	emitter {
+		texture "ring_yellow_002.dds"
+		blendFunc blendAdd
+		time 0.300000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 1
+		cycles	1
+		bunching 0.039000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.497000 1.000000 1.000000 1.000000 0.200000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 1 1 1
+		initialAngle 0.000000 90.000000 0.000000
+		initialAngleVariation 0.000000 10.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.200000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 10.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.500000 0.300000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 1.024000 1.536000 1.792000 1.792000 )
+		aspect ( 0.512000 0.512000 2.500000 2.500000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+		attached
+	}
+	emitter {
+		texture "wave_001.dds"
+		blendFunc blendAdd
+		time 0.400000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 1
+		cycles	1
+		bunching 0.039000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.500000 1.000000 1.000000 0.502000 0.600000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 1 1 1
+		initialAngle 0.000000 90.000000 0.000000
+		initialAngleVariation 0.000000 10.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.200000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 10.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.500000 0.300000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 2.688000 3.456000 2.816000 2.816000 )
+		aspect ( 0.512000 0.512000 2.000000 2.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+		attached
+	}
+}
+
+"pet_fore_ladybug00b"
+{
+	rotAngle	( 0.000000 0.000000 0.000000 )
+	emitter {
+		texture "light_blue_001.dds"
+		blendFunc blendAdd
+		time 0.500000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 1
+		cycles	1
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 0.039000 0.961000 0.733000 0.000000 ) ( 0.500000 0.039000 0.961000 0.733000 0.600000 ) ( 1.000000 0.039000 0.961000 0.733000 0.000000 )
+		hasInitialAngle 1 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 30.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.400000 0.400000 0.400000 0.400000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+		attached
+	}
+}
+
+"pet_pgri_penguin00b"
+{
+	rotAngle	( 0.000000 0.000000 0.000000 )
+	emitter {
+		texture "lightningbug.dds"
+		blendFunc blendAdd
+		time 2.000000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 10
+		cycles	0
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.237000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 1 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.700000 0.000000 )
+		gravity ( 0.000000 1.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution cylinder ( 0.300000 0.100000 0.300000 0.000000 )
+		direction cone ( 120.000000 0.000000 -1.000000 0.000000 )
+		orientation view
+		speed ( 1.000000 0.500000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.010000 0.100000 0.000000 0.000000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 30.000000
+		useEmitterTrails
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+		attached
+	}
+}
+
+"npc_sheep_hit_[m]"
+{
+	rotAngle	( 0.000000 0.000000 0.000000 )
+	emitter {
+		texture "volumdust_005.dds"
+		blendFunc blend
+		time 0.300000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 2
+		cycles	1
+		bunching 0.000000
+		colorKeyframes 3 ( 0.000000 0.510000 0.459000 0.267000 0.000000 ) ( 0.031000 1.000000 1.000000 1.000000 0.300000 ) ( 1.000000 0.510000 0.459000 0.267000 0.000000 )
+		hasInitialAngle 0 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 30.000000 0.000000 0.000000 0.000000 )
+		orientation view
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationZ ( 54.360001 18.000000 2.880000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 1.280000 2.816000 6.880000 10.848000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+	emitter {
+		texture "volumdust_002.dds"
+		blendFunc blendAdd
+		time 0.300000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 2
+		cycles	1
+		bunching 0.000000
+		colorKeyframes 3 ( 0.000000 0.510000 0.459000 0.267000 0.000000 ) ( 0.031000 0.859000 0.816000 0.784000 0.500000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 0 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 -0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 30.000000 0.000000 0.000000 0.000000 )
+		orientation view
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationZ ( 54.360001 18.000000 2.880000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.768000 2.816000 5.728000 12.096000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+	emitter {
+		texture "ring_white_004.dds"
+		blendFunc blendAdd
+		time 0.300000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 1
+		cycles	1
+		bunching 0.000000
+		colorKeyframes 3 ( 0.000000 0.510000 0.459000 0.267000 0.000000 ) ( 0.031000 0.859000 0.816000 0.784000 0.500000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 0 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 -0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 30.000000 0.000000 0.000000 0.000000 )
+		orientation view
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationZ ( 54.360001 18.000000 2.880000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.768000 2.816000 5.728000 12.096000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+}
+
+"npc_bison_dust"
+{
+	scale	0.400000
+	rotAngle	( 0.000000 0.000000 0.000000 )
+	emitter {
+		texture "volumdust_005.dds"
+		blendFunc blend
+		time 0.500000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 3
+		cycles	1
+		bunching 0.300000
+		colorKeyframes 3 ( 0.000000 0.510000 0.459000 0.267000 0.000000 ) ( 0.031000 1.000000 1.000000 1.000000 0.300000 ) ( 1.000000 0.510000 0.459000 0.267000 0.000000 )
+		hasInitialAngle 1 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.300000 0.000000 )
+		gravity ( 0.000000 -0.500000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 30.000000 0.000000 0.000000 0.000000 )
+		orientation view
+		speed ( 5.000000 5.000000 0.000000 0.000000 )
+		rotationZ ( 54.360001 18.000000 2.880000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 1.280000 2.816000 6.880000 10.848000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+	emitter {
+		texture "volumdust_002.dds"
+		blendFunc blend
+		time 0.500000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 3
+		cycles	1
+		bunching 0.300000
+		colorKeyframes 3 ( 0.000000 0.510000 0.459000 0.267000 0.000000 ) ( 0.031000 0.859000 0.816000 0.784000 0.500000 ) ( 1.000000 0.510000 0.459000 0.267000 0.000000 )
+		hasInitialAngle 1 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.300000 0.000000 )
+		gravity ( 0.000000 -0.500000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 30.000000 0.000000 0.000000 0.000000 )
+		orientation view
+		speed ( 5.000000 5.000000 0.000000 0.000000 )
+		rotationZ ( 54.360001 18.000000 2.880000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.768000 2.816000 5.728000 12.096000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+	emitter {
+		texture "volumdust_007.dds"
+		blendFunc blend
+		time 0.510000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 3
+		cycles	1
+		bunching 0.300000
+		colorKeyframes 3 ( 0.000000 0.510000 0.459000 0.267000 0.000000 ) ( 0.031000 0.800000 0.725000 0.549000 0.200000 ) ( 1.000000 0.510000 0.459000 0.267000 0.000000 )
+		hasInitialAngle 1 1 1
+		initialAngle 300.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.300000 0.000000 )
+		gravity ( 0.000000 -0.500000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 30.000000 0.000000 0.000000 0.000000 )
+		orientation view
+		speed ( 5.000000 5.000000 0.000000 0.000000 )
+		rotationZ ( -10.000000 10.000000 -10.000000 10.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.896000 2.816000 7.776000 12.480000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+	cameraShake {
+		timeOffset 0.000000
+		intensity 6.000000
+		duration 0.400000
+	}
+}
+
+"pet_egg_tabi00d"
+{
+	rotAngle	( 0.000000 0.000000 0.000000 )
+	emitter {
+		animTexture 4 4 16 0 "particle_002.dds" 0
+		blendFunc blendAdd
+		time 0.500000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 10
+		cycles	0
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 1.000000 ) ( 0.497000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 1.000000 )
+		hasInitialAngle 0 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 1
+		distribution sphere ( 0.000000 0.000000 0.000000 0.250000 )
+		direction cone ( 30.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.050000 0.070000 0.100000 0.100000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		sizeLock
+		rotationSpeed 5.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+	emitter {
+		texture "volumdust_006.dds"
+		blendFunc blend
+		time 0.700000
+		timeVariation 0.200000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 15
+		cycles	0
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 0.878000 0.843000 0.722000 0.000000 ) ( 0.207000 0.788000 0.729000 0.529000 0.400000 ) ( 1.000000 0.878000 0.843000 0.722000 0.000000 )
+		hasInitialAngle 0 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.200000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 1
+		distribution sphere ( 0.000000 0.000000 0.000000 0.150000 )
+		direction outward ( 0.000000 0.000000 0.000000 0.000000 )
+		orientation view
+		speed ( 0.200000 0.200000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.100000 0.200000 0.300000 0.400000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+	emitter {
+		texture "volumdust_006.dds"
+		blendFunc blend
+		time 0.700000
+		timeVariation 0.200000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 20
+		cycles	0
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 0.878000 0.843000 0.722000 0.000000 ) ( 0.497000 0.788000 0.729000 0.529000 1.000000 ) ( 1.000000 0.878000 0.843000 0.722000 0.000000 )
+		hasInitialAngle 0 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.010000 0.000000 )
+		trails 20
+		trailTime 0.938000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution sphere ( 0.000000 0.000000 0.000000 0.200000 )
+		direction cone ( 30.000000 0.000000 1.000000 0.000000 )
+		orientation aimed
+		speed ( 0.100000 0.100000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.050000 0.100000 0.010000 0.000000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 360.000000
+		useEmitterTrails
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+}
+
+"pet_egg_pgri00b"
+{
+	depthHack	0.999000
+	rotAngle	( 0.000000 0.000000 0.000000 )
+	emitter {
+		animTexture 2 2 0 0 "snowcrystal.dds" 0
+		blendFunc blendAdd
+		time 1.500000
+		timeVariation 0.500000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 3
+		cycles	0
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.493000 0.867000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 0 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.100000 0.100000 0.100000 )
+		trailShakeFreq_2 ( 0.100000 0.100000 0.100000 )
+		trailType 1
+		distribution sphere ( 0.000000 0.000000 0.000000 0.150000 )
+		direction cone ( 30.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.100000 0.050000 0.100000 0.100000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		sizeLock
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+	emitter {
+		animTexture 2 2 0 0 "steam_001.dds" 0
+		blendFunc blendAdd
+		time 3.000000
+		timeVariation 0.500000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 2
+		cycles	0
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.300000 0.910000 1.000000 1.000000 0.100000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 1 1 1
+		initialAngle 0.000000 90.000000 0.000000
+		initialAngleVariation 0.000000 30.000000 0.000000
+		offset ( 0.000000 0.100000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 10.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.500000 0.500000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.500000 0.600000 0.600000 0.700000 )
+		aspect ( 1.000000 1.000000 0.300000 0.300000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+}
+
+"pet_dorf_mimic00a"
+{
+	depthHack	0.999000
+	rotAngle	( 0.000000 0.000000 0.000000 )
+	emitter {
+		texture "volumdust_008.dds"
+		blendFunc blend
+		time 0.500000
+		timeVariation 0.200000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 2
+		cycles	1
+		bunching 0.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.466000 1.000000 1.000000 1.000000 0.600000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 0 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.200000 0.000000 0.000000 )
+		direction cone ( 50.000000 0.000000 0.000000 1.000000 )
+		orientation view
+		speed ( 0.500000 0.300000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.010000 0.020000 0.800000 0.500000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+	emitter {
+		texture "volumdust_008.dds"
+		blendFunc blend
+		time 0.400000
+		timeVariation 0.200000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 3
+		cycles	1
+		bunching 0.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.466000 1.000000 1.000000 1.000000 0.600000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 0 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.200000 0.000000 0.000000 )
+		direction cone ( 50.000000 0.000000 0.000000 1.000000 )
+		orientation view
+		speed ( 0.500000 0.300000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.010000 0.020000 1.000000 0.700000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+		attached
+	}
+}
+
+"pet_egg_fore00d"
+{
+	rotAngle	( 0.000000 0.000000 0.000000 )
+	emitter {
+		animTexture 2 2 0 0 "particle_005.dds" 0
+		blendFunc blendAdd
+		time 1.500000
+		timeVariation 0.500000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 30
+		cycles	0
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.497000 1.000000 1.000000 0.502000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 0 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.110000 0.100000 0.100000 )
+		trailShakeFreq_2 ( 0.200000 0.100000 0.200000 )
+		trailType 1
+		distribution sphere ( 0.000000 0.000000 0.000000 0.150000 )
+		direction cone ( 30.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.150000 0.050000 0.100000 0.100000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		sizeLock
+		rotationSpeed 20.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+	emitter {
+		animTexture 2 2 0 0 "leaf_green_002.dds" 0
+		blendFunc blend
+		time 1.500000
+		timeVariation 0.500000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 20
+		cycles	0
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.497000 1.000000 1.000000 0.502000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 0 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.100000 0.100000 0.100000 )
+		trailShakeFreq_2 ( 0.300000 0.300000 0.200000 )
+		trailType 1
+		distribution sphere ( 0.000000 0.000000 0.000000 0.150000 )
+		direction cone ( 30.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.100000 0.050000 0.100000 0.100000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		sizeLock
+		rotationSpeed 30.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+	emitter {
+		texture "ring_green_001.dds"
+		blendFunc blendAdd
+		time 1.000000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 3
+		cycles	0
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.500000 1.000000 1.000000 1.000000 0.300000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 1 1 1
+		initialAngle 0.000000 90.000000 0.000000
+		initialAngleVariation 0.000000 10.000000 0.000000
+		offset ( 0.000000 -0.050000 0.000000 )
+		gravity ( 0.000000 0.200000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 10.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.500000 0.300000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.700000 0.600000 0.600000 0.500000 )
+		aspect ( 0.512000 0.512000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+}
+
+"pet_race_egg"
+{
+	scale	0.600000
+	rotAngle	( 0.000000 0.000000 0.000000 )
+	emitter {
+		animTexture 2 2 0 0 "particle_005.dds" 0
+		blendFunc blendAdd
+		time 0.400000
+		timeVariation 0.200000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 10
+		cycles	0
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.497000 1.000000 1.000000 0.502000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 0 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.110000 0.100000 0.100000 )
+		trailShakeFreq_2 ( 0.200000 0.100000 0.200000 )
+		trailType 1
+		distribution sphere ( 0.000000 0.000000 0.000000 0.300000 )
+		direction outward ( 0.000000 0.000000 0.000000 0.000000 )
+		orientation view
+		speed ( 0.200000 0.300000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.500000 0.050000 0.010000 0.010000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		sizeLock
+		rotationSpeed 50.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+		attached
+	}
+	emitter {
+		texture "ring_yellow_002.dds"
+		blendFunc blendAdd
+		time 0.300000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 2
+		cycles	0
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.497000 1.000000 1.000000 1.000000 0.200000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 1 1 1
+		initialAngle 0.000000 90.000000 0.000000
+		initialAngleVariation 0.000000 10.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.200000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 10.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.500000 0.300000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 1.200000 1.200000 1.500000 1.500000 )
+		aspect ( 1.000000 1.000000 0.800000 0.800000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+		attached
+	}
+	emitter {
+		texture "wave_001.dds"
+		blendFunc blendAdd
+		time 0.400000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 2
+		cycles	0
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.500000 1.000000 1.000000 0.502000 0.600000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 1 1 1
+		initialAngle 0.000000 90.000000 0.000000
+		initialAngleVariation 0.000000 10.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.200000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 10.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.500000 0.300000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 2.000000 2.000000 2.200000 2.200000 )
+		aspect ( 1.000000 1.000000 0.800000 0.800000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+		attached
+	}
+}
+
+"pet_hatching_fail"
+{
+	depthHack	0.998000
+	rotAngle	( 0.000000 0.000000 0.000000 )
+	emitter {
+		animTexture 4 4 0 0 "particle_003.dds" 0
+		blendFunc blendAdd
+		time 2.000000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 25
+		cycles	1
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 0.000000 0.000000 0.000000 0.000000 ) ( 0.488000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 0.000000 0.000000 0.000000 0.000000 )
+		hasInitialAngle 0 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.100000 -0.384000 0.000000 )
+		trails 1
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution sphere ( 0.000000 0.000000 0.000000 0.500000 )
+		direction cone ( 30.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.200000 0.300000 0.000000 0.000000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 150.000000
+		useEmitterTrails
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+	emitter {
+		texture "light_blue_001.dds"
+		blendFunc blendAdd
+		time 1.500000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 1
+		cycles	1
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.317000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 1 1 1
+		initialAngle 0.000000 90.000000 0.000000
+		initialAngleVariation 0.000000 30.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 10.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 2.500000 2.500000 3.000000 3.000000 )
+		aspect ( 0.700000 0.700000 0.700000 0.700000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+	emitter {
+		animTexture 2 2 0 0 "petal_002.dds" 0
+		blendFunc blendAdd
+		time 2.500000
+		timeVariation 0.500000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 30
+		cycles	1
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 0.000000 0.000000 0.000000 0.000000 ) ( 0.488000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 0.000000 0.000000 0.000000 0.000000 )
+		hasInitialAngle 0 0 0
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 3.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 3.000000 0.000000 3.000000 )
+		direction cone ( 50.000000 0.000000 -1.000000 0.000000 )
+		orientation none
+		speed ( 5.000000 4.000000 3.000000 3.000000 )
+		rotationZ ( 3600.000000 -3600.000000 -3600.000000 3600.000000 )
+		rotationX ( 3600.000000 0.000000 3600.000000 0.000000 )
+		rotationY ( 3600.000000 0.000000 3600.000000 0.000000 )
+		size ( 0.100000 0.300000 0.500000 0.500000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		sizeLock
+		rotationSpeed 0.000000
+		useEmitterTrails
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+}
+
+"pet_pgri_penguin00d_ora"
+{
+	rotAngle	( 0.000000 0.000000 0.000000 )
+	emitter {
+		texture "wave_002.dds"
+		blendFunc blendAdd
+		time 1.000000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 2
+		cycles	0
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.497000 1.000000 1.000000 1.000000 0.500000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 1 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.100000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 30.000000 0.000000 1.000000 0.000000 )
+		orientation viewy
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.896000 0.896000 1.400000 1.400000 )
+		aspect ( 0.700000 0.700000 0.700000 0.700000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+		attached
+	}
+}
+
+"pet_dorf_mimic00d2"
+{
+	rotAngle	( 0.000000 0.000000 0.000000 )
+	emitter {
+		modelFile "CARROT"
+		blendFunc blend
+		time 0.600000
+		timeVariation 0.300000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 2
+		cycles	1
+		bunching 0.000000
+		colorKeyframes 4 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.100000 1.000000 1.000000 1.000000 1.000000 ) ( 0.900000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 0 0 0
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 2.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.500000 0.000000 0.000000 )
+		direction cone ( 60.000000 0.000000 1.000000 0.000000 )
+		orientation none
+		speed ( 3.000000 1.000000 0.000000 0.000000 )
+		rotationZ ( 3600.000000 3600.000000 -3600.000000 -3600.000000 )
+		rotationX ( 3600.000000 3600.000000 -3600.000000 -3600.000000 )
+		rotationY ( 3600.000000 3600.000000 -3600.000000 -3600.000000 )
+		size ( 0.300000 0.300000 0.300000 0.300000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		sizeLock
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+	emitter {
+		animTexture 4 4 32 0 "particle_002.dds" 1
+		blendFunc blendAdd
+		time 0.500000
+		timeVariation 0.300000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 3
+		cycles	1
+		bunching 0.137000
+		colorKeyframes 2 ( 0.000000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 1.000000 )
+		hasInitialAngle 1 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution sphere ( 0.000000 0.000000 0.000000 0.500000 )
+		direction cone ( 180.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.100000 0.000000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.400000 0.100000 0.100000 0.100000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+		attached
+	}
+	emitter {
+		modelFile "CARROT"
+		blendFunc blend
+		time 0.600000
+		timeVariation 0.300000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 1
+		cycles	1
+		bunching 0.000000
+		colorKeyframes 4 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.100000 1.000000 1.000000 1.000000 1.000000 ) ( 0.900000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 0 0 0
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 1.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.500000 0.000000 0.000000 )
+		direction cone ( 60.000000 0.000000 1.000000 0.000000 )
+		orientation none
+		speed ( 3.000000 1.000000 0.000000 0.000000 )
+		rotationZ ( 3600.000000 3600.000000 -3600.000000 -3600.000000 )
+		rotationX ( 3600.000000 3600.000000 -3600.000000 -3600.000000 )
+		rotationY ( 3600.000000 3600.000000 -3600.000000 -3600.000000 )
+		size ( 0.250000 0.300000 0.300000 0.300000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		sizeLock
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+		attached
+	}
+	emitter {
+		animTexture 4 4 32 0 "particle_002.dds" 1
+		blendFunc blendAdd
+		time 0.500000
+		timeVariation 0.300000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 3
+		cycles	1
+		bunching 0.137000
+		colorKeyframes 2 ( 0.000000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 1.000000 )
+		hasInitialAngle 1 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution sphere ( 0.000000 0.000000 0.000000 0.500000 )
+		direction cone ( 180.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.100000 0.000000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.400000 0.100000 0.100000 0.100000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+}
+
+"pet_dorf_mimic00c3"
+{
+	rotAngle	( 0.000000 0.000000 0.000000 )
+	emitter {
+		modelFile "CARROTSILVER"
+		blendFunc blend
+		time 0.600000
+		timeVariation 0.300000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 2
+		cycles	1
+		bunching 1.000000
+		colorKeyframes 4 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.100000 1.000000 1.000000 1.000000 1.000000 ) ( 0.900000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 0 0 0
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 1.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.500000 0.000000 0.000000 )
+		direction cone ( 60.000000 0.000000 1.000000 0.000000 )
+		orientation none
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationZ ( 3600.000000 3600.000000 -3600.000000 -3600.000000 )
+		rotationX ( 3600.000000 3600.000000 -3600.000000 -3600.000000 )
+		rotationY ( 3600.000000 3600.000000 -3600.000000 -3600.000000 )
+		size ( 0.250000 0.250000 0.200000 0.200000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		sizeLock
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+	emitter {
+		animTexture 4 4 32 0 "particle_002.dds" 1
+		blendFunc blendAdd
+		time 0.500000
+		timeVariation 0.300000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 3
+		cycles	1
+		bunching 1.000000
+		colorKeyframes 2 ( 0.000000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 1.000000 )
+		hasInitialAngle 1 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.300000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution sphere ( 0.000000 0.000000 0.000000 0.500000 )
+		direction cone ( 180.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.100000 0.000000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.200000 0.100000 0.100000 0.100000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+	emitter {
+		modelFile "CARROTSILVER"
+		blendFunc blend
+		time 0.600000
+		timeVariation 0.300000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 1
+		cycles	1
+		bunching 1.000000
+		colorKeyframes 4 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.100000 1.000000 1.000000 1.000000 1.000000 ) ( 0.900000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 0 0 0
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.500000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.500000 0.000000 0.000000 )
+		direction cone ( 60.000000 0.000000 1.000000 0.000000 )
+		orientation none
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationZ ( 3600.000000 3600.000000 -3600.000000 -3600.000000 )
+		rotationX ( 3600.000000 3600.000000 -3600.000000 -3600.000000 )
+		rotationY ( 3600.000000 3600.000000 -3600.000000 -3600.000000 )
+		size ( 0.250000 0.250000 0.200000 0.200000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		sizeLock
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+		attached
+	}
+}
+
+"npc_sheep_dust_[l]"
+{
+	rotAngle	( 0.000000 0.000000 0.000000 )
+	emitter {
+		texture "volumdust_005.dds"
+		blendFunc blend
+		time 0.500000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 3
+		cycles	1
+		bunching 0.000000
+		colorKeyframes 3 ( 0.000000 0.510000 0.459000 0.267000 0.000000 ) ( 0.136000 1.000000 0.996000 0.992000 0.500000 ) ( 1.000000 0.510000 0.459000 0.267000 0.000000 )
+		hasInitialAngle 0 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 -0.500000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.100000 0.000000 0.100000 )
+		direction outward ( 0.000000 0.000000 0.000000 0.000000 )
+		orientation view
+		speed ( 2.000000 2.100000 0.000000 0.000000 )
+		rotationZ ( 54.360001 18.000000 2.880000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.200000 0.100000 1.000000 2.000000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+}
+
+"pet_dorf_mimic00d_eye"
+{
+	depthHack	0.999000
+	rotAngle	( 0.000000 0.000000 0.000000 )
+	emitter {
+		texture "light_red_001.dds"
+		blendFunc blendAdd
+		time 1.000000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 1
+		cycles	0
+		bunching 1.000000
+		colorKeyframes 2 ( 0.000000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 1.000000 )
+		hasInitialAngle 1 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 1
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 30.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.250000 0.250000 0.250000 0.250000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+		attached
+	}
+}
+
+"pet_fore_ladybug00c"
+{
+	rotAngle	( 0.000000 0.000000 0.000000 )
+	emitter {
+		texture "light_blue_001.dds"
+		blendFunc blendAdd
+		time 0.500000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 1
+		cycles	1
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 0.039000 0.961000 0.733000 0.000000 ) ( 0.500000 0.039000 0.961000 0.733000 0.700000 ) ( 1.000000 0.039000 0.961000 0.733000 0.000000 )
+		hasInitialAngle 1 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 30.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.500000 0.500000 0.500000 0.500000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+		attached
+	}
+}
+
+"pet_pgri_penguin00c"
+{
+	rotAngle	( 0.000000 0.000000 0.000000 )
+	emitter {
+		texture "lightningbug.dds"
+		blendFunc blendAdd
+		time 1.000000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 15
+		cycles	0
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.237000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 1 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.700000 0.000000 )
+		gravity ( 0.000000 1.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution cylinder ( 0.300000 0.100000 0.300000 0.000000 )
+		direction cone ( 120.000000 0.000000 -1.000000 0.000000 )
+		orientation view
+		speed ( 1.000000 0.500000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.010000 0.100000 0.000000 0.000000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 100.000000
+		useEmitterTrails
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+		attached
+	}
+}
+
+"pet_egg_land00b"
+{
+	rotAngle	( 0.000000 0.000000 0.000000 )
+	emitter {
+		animTexture 4 4 16 0 "particle_002.dds" 0
+		blendFunc blendAdd
+		time 0.500000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 5
+		cycles	0
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.497000 1.000000 0.910000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 0 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 1
+		distribution sphere ( 0.000000 0.000000 0.000000 0.170000 )
+		direction cone ( 30.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.020000 0.070000 0.100000 0.100000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		sizeLock
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+}
+
+"npc_impala_dust"
+{
+	scale	0.500000
+	rotAngle	( 0.000000 0.000000 0.000000 )
+	emitter {
+		texture "volumdust_007.dds"
+		blendFunc blend
+		time 0.400000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 1
+		cycles	1
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 0.510000 0.459000 0.267000 0.000000 ) ( 0.000000 1.000000 1.000000 1.000000 0.500000 ) ( 1.000000 0.941000 0.855000 0.349000 0.000000 )
+		hasInitialAngle 1 1 1
+		initialAngle 300.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 -0.128000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 30.000000 0.000000 0.000000 0.000000 )
+		orientation view
+		speed ( 5.000000 5.000000 0.000000 0.000000 )
+		rotationZ ( -10.000000 10.000000 -10.000000 10.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.400000 0.768000 0.800000 1.888000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+	emitter {
+		texture "volumdust_002.dds"
+		blendFunc blend
+		time 0.400000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 1
+		cycles	1
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 0.510000 0.459000 0.267000 0.000000 ) ( 0.000000 1.000000 1.000000 1.000000 0.500000 ) ( 1.000000 0.510000 0.459000 0.267000 0.000000 )
+		hasInitialAngle 1 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 -0.128000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 30.000000 0.000000 0.000000 0.000000 )
+		orientation view
+		speed ( 5.000000 5.000000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.400000 0.768000 0.800000 1.888000 )
+		aspect ( 1.500000 1.500000 1.500000 1.500000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+	emitter {
+		texture "volumdust_002.dds"
+		blendFunc blend
+		time 0.400000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 2
+		cycles	1
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 0.510000 0.459000 0.267000 0.000000 ) ( 0.000000 0.690000 0.659000 0.376000 0.700000 ) ( 1.000000 0.510000 0.459000 0.267000 0.000000 )
+		hasInitialAngle 1 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 -0.128000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 30.000000 0.000000 0.000000 0.000000 )
+		orientation view
+		speed ( 5.000000 5.000000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.400000 0.768000 0.800000 1.888000 )
+		aspect ( 1.500000 1.500000 1.500000 1.500000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+}
+
+"pet_egg_pgri00c"
+{
+	depthHack	0.999000
+	rotAngle	( 0.000000 0.000000 0.000000 )
+	emitter {
+		animTexture 4 4 16 0 "particle_002.dds" 0
+		blendFunc blendAdd
+		time 0.500000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 5
+		cycles	0
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.497000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 0 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.110000 0.100000 0.100000 )
+		trailShakeFreq_2 ( 0.100000 0.100000 0.010000 )
+		trailType 1
+		distribution sphere ( 0.000000 0.000000 0.000000 0.150000 )
+		direction cone ( 30.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.020000 0.070000 0.100000 0.100000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		sizeLock
+		rotationSpeed 5.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+	emitter {
+		animTexture 2 2 0 0 "snowcrystal.dds" 0
+		blendFunc blendAdd
+		time 1.500000
+		timeVariation 0.500000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 6
+		cycles	0
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.493000 0.867000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 0 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.100000 0.100000 0.100000 )
+		trailShakeFreq_2 ( 0.100000 0.100000 0.100000 )
+		trailType 1
+		distribution sphere ( 0.000000 0.000000 0.000000 0.150000 )
+		direction cone ( 30.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.100000 0.050000 0.100000 0.100000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		sizeLock
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+	emitter {
+		animTexture 2 2 0 0 "steam_001.dds" 0
+		blendFunc blendAdd
+		time 3.000000
+		timeVariation 0.500000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 2
+		cycles	0
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.300000 0.910000 1.000000 1.000000 0.200000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 1 1 1
+		initialAngle 0.000000 90.000000 0.000000
+		initialAngleVariation 0.000000 30.000000 0.000000
+		offset ( 0.000000 0.100000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 10.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.500000 0.500000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.600000 0.700000 0.800000 0.700000 )
+		aspect ( 1.000000 1.000000 0.300000 0.300000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+}
+
+"pet_egg_dorf00b"
+{
+	rotAngle	( 0.000000 0.000000 0.000000 )
+	emitter {
+		texture "volumdust_004.dds"
+		blendFunc blendAdd
+		time 0.700000
+		timeVariation 0.200000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 10
+		cycles	0
+		bunching 0.627000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 1.000000 ) ( 0.505000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 0 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 -0.100000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.001000 0.000000 0.001000 )
+		direction outward ( 0.000000 0.000000 0.000000 0.000000 )
+		orientation view
+		speed ( 0.300000 0.200000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.010000 0.010000 0.200000 0.100000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+}
+
+"pet_hatching_success"
+{
+	depthHack	0.998000
+	rotAngle	( 0.000000 0.000000 0.000000 )
+	emitter {
+		animTexture 4 4 0 0 "particle_003.dds" 0
+		blendFunc blendAdd
+		time 1.000000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 50
+		cycles	1
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.493000 1.000000 0.910000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 0 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 -0.170000 0.000000 )
+		trails 1
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution sphere ( 0.000000 0.000000 0.000000 0.400000 )
+		direction cone ( 50.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.100000 0.200000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.500000 0.500000 0.000000 0.000000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 150.000000
+		useEmitterTrails
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+	emitter {
+		texture "light_001.dds"
+		blendFunc blendAdd
+		time 1.500000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 1
+		cycles	1
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.500000 1.000000 1.000000 1.000000 0.500000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 1 1 1
+		initialAngle 0.000000 90.000000 0.000000
+		initialAngleVariation 0.000000 30.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 10.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 1.500000 1.500000 1.700000 1.700000 )
+		aspect ( 0.700000 0.700000 0.700000 0.700000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+	emitter {
+		animTexture 2 2 0 0 "firecracker.dds" 0
+		blendFunc blend
+		time 3.000000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 20
+		cycles	1
+		bunching 1.000000
+		colorKeyframes 4 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.101000 1.000000 1.000000 1.000000 1.000000 ) ( 0.881000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 0 0 0
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 3.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 3.000000 0.000000 3.000000 )
+		direction cone ( 30.000000 0.000000 -1.000000 0.000000 )
+		orientation view
+		speed ( 5.000000 5.000000 3.400000 3.400000 )
+		rotationZ ( 3600.000000 3600.000000 -3600.000000 -3600.000000 )
+		rotationX ( 360.000000 360.000000 360.000000 360.000000 )
+		rotationY ( 360.000000 360.000000 -360.000000 -360.000000 )
+		size ( 0.100000 0.100000 0.100000 0.100000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		sizeLock
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+	emitter {
+		animTexture 2 2 0 0 "colored_paper.dds" 0
+		blendFunc blend
+		time 3.000000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 20
+		cycles	1
+		bunching 1.000000
+		colorKeyframes 4 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.118000 1.000000 1.000000 1.000000 1.000000 ) ( 0.859000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 0 0 0
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 3.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 3.000000 0.000000 3.000000 )
+		direction cone ( 30.000000 0.000000 -1.000000 0.000000 )
+		orientation none
+		speed ( 5.000000 5.000000 3.400000 3.400000 )
+		rotationZ ( 3600.000000 3600.000000 -3600.000000 -3600.000000 )
+		rotationX ( 3600.000000 3600.000000 -360.000000 -360.000000 )
+		rotationY ( 3600.000000 3600.000000 -3600.000000 -3600.000000 )
+		size ( 0.100000 0.050000 0.100000 0.100000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		sizeLock
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+}
+
+"pet_pgri_seal00b"
+{
+	rotAngle	( 0.000000 0.000000 0.000000 )
+	emitter {
+		animTexture 2 1 0 0 "ascent_white_001.dds" 1
+		blendFunc blendAdd
+		time 0.444000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 15
+		cycles	3
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.440000 1.000000 1.000000 1.000000 0.050000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		groundHeight 0.050000
+		hasInitialAngle 1 1 1
+		initialAngle 0.000000 90.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 30.000000 0.000000 1.000000 0.000000 )
+		orientation none
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 1.000000 2.000000 2.000000 2.000000 )
+		aspect ( 0.400000 0.400000 0.500000 0.500000 )
+		sizeLock
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+	emitter {
+		texture "lightningbug.dds"
+		blendFunc blendAdd
+		time 0.444000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 3
+		cycles	3
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 1.000000 ) ( 0.259000 1.000000 1.000000 1.000000 1.000000 )
+		hasInitialAngle 1 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 1.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.200000 0.000000 0.000000 )
+		direction cone ( 50.000000 0.000000 0.707107 -0.707107 )
+		orientation view
+		speed ( 2.000000 5.000000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.050000 0.030000 0.000000 0.000000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+		attached
+	}
+}
+
+"pet_dorf_mimic00b"
+{
+	rotAngle	( 0.000000 0.000000 0.000000 )
+	emitter {
+		modelFile "CARROTCOPPER"
+		blendFunc blend
+		time 0.600000
+		timeVariation 0.300000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 3
+		cycles	1
+		bunching 0.000000
+		colorKeyframes 4 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.100000 1.000000 1.000000 1.000000 1.000000 ) ( 0.900000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 0 0 0
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 2.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.500000 0.000000 0.000000 )
+		direction cone ( 60.000000 0.000000 1.000000 0.000000 )
+		orientation none
+		speed ( 3.000000 1.000000 0.000000 0.000000 )
+		rotationZ ( 3600.000000 3600.000000 -3600.000000 -3600.000000 )
+		rotationX ( 3600.000000 3600.000000 -3600.000000 -3600.000000 )
+		rotationY ( 3600.000000 3600.000000 -3600.000000 -3600.000000 )
+		size ( 0.200000 0.200000 0.200000 0.200000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+	emitter {
+		modelFile "CARROTCOPPER"
+		blendFunc blend
+		time 0.600000
+		timeVariation 0.300000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 2
+		cycles	1
+		bunching 0.000000
+		colorKeyframes 4 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.100000 1.000000 1.000000 1.000000 1.000000 ) ( 0.900000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 0 0 0
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 1.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.500000 0.000000 0.000000 )
+		direction cone ( 60.000000 0.000000 1.000000 0.000000 )
+		orientation none
+		speed ( 3.000000 1.000000 0.000000 0.000000 )
+		rotationZ ( 3600.000000 3600.000000 -3600.000000 -3600.000000 )
+		rotationX ( 3600.000000 3600.000000 -3600.000000 -3600.000000 )
+		rotationY ( 3600.000000 3600.000000 -3600.000000 -3600.000000 )
+		size ( 0.200000 0.200000 0.200000 0.200000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+		attached
+	}
+}
+
+"pet_dorf_mimic00a2"
+{
+	depthHack	0.999000
+	rotAngle	( 0.000000 0.000000 0.000000 )
+	emitter {
+		texture "volumdust_008.dds"
+		blendFunc blend
+		time 0.400000
+		timeVariation 0.100000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 2
+		cycles	1
+		bunching 0.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.466000 1.000000 1.000000 1.000000 0.500000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 0 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.200000 0.000000 0.000000 )
+		direction cone ( 50.000000 0.000000 0.000000 1.000000 )
+		orientation view
+		speed ( 0.500000 0.300000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.010000 0.020000 0.700000 0.400000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+	emitter {
+		texture "volumdust_008.dds"
+		blendFunc blend
+		time 0.300000
+		timeVariation 0.100000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 2
+		cycles	1
+		bunching 0.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.466000 1.000000 1.000000 1.000000 0.500000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 0 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.200000 0.000000 0.000000 )
+		direction cone ( 50.000000 0.000000 0.000000 1.000000 )
+		orientation view
+		speed ( 0.500000 0.300000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.010000 0.020000 1.000000 0.700000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+		attached
+	}
+}
+
+"pet_dorf_mimic00a_eye"
+{
+	depthHack	0.999000
+	rotAngle	( 0.000000 0.000000 0.000000 )
+	emitter {
+		texture "light_red_001.dds"
+		blendFunc blendAdd
+		time 1.000000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 1
+		cycles	0
+		bunching 1.000000
+		colorKeyframes 2 ( 0.000000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 1.000000 )
+		hasInitialAngle 1 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 1
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 30.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.200000 0.200000 0.200000 0.200000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+		attached
+	}
+}
+
+"npc_elephant_dust"
+{
+	scale	2.000000
+	rotAngle	( 0.000000 0.000000 0.000000 )
+	emitter {
+		texture "volumdust_005.dds"
+		blendFunc blend
+		time 1.500000
+		timeVariation 0.500000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 3
+		cycles	1
+		bunching 0.270000
+		colorKeyframes 3 ( 0.000000 0.510000 0.459000 0.267000 0.000000 ) ( 0.132000 0.937000 0.878000 0.337000 0.200000 ) ( 1.000000 0.510000 0.459000 0.267000 0.000000 )
+		hasInitialAngle 1 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 -0.300000 0.000000 )
+		gravity ( 0.000000 -0.500000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 1.000000 0.000000 1.000000 )
+		direction cone ( 30.000000 0.000000 0.000000 0.000000 )
+		orientation view
+		speed ( 5.000000 5.000000 0.000000 0.000000 )
+		rotationZ ( 54.360001 18.000000 2.880000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 1.000000 2.000000 2.500000 3.000000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+	emitter {
+		texture "volumdust_002.dds"
+		blendFunc blend
+		time 1.500000
+		timeVariation 0.500000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 3
+		cycles	1
+		bunching 0.270000
+		colorKeyframes 3 ( 0.000000 0.510000 0.459000 0.267000 0.000000 ) ( 0.125000 0.906000 0.875000 0.737000 0.300000 ) ( 1.000000 0.510000 0.459000 0.267000 0.000000 )
+		hasInitialAngle 1 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 -0.300000 0.000000 )
+		gravity ( 0.000000 -0.500000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 1.000000 0.000000 1.000000 )
+		direction cone ( 30.000000 0.000000 0.000000 0.000000 )
+		orientation view
+		speed ( 5.000000 5.000000 0.000000 0.000000 )
+		rotationZ ( 54.360001 18.000000 2.880000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 1.000000 2.000000 2.500000 3.000000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+	emitter {
+		texture "volumdust_007.dds"
+		blendFunc blend
+		time 1.500000
+		timeVariation 0.500000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 10
+		cycles	1
+		bunching 0.270000
+		colorKeyframes 3 ( 0.000000 0.510000 0.459000 0.267000 0.000000 ) ( 0.121000 0.682000 0.569000 0.302000 0.300000 ) ( 1.000000 0.510000 0.459000 0.267000 0.000000 )
+		hasInitialAngle 1 1 1
+		initialAngle 300.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 -0.300000 0.000000 )
+		gravity ( 0.000000 -0.500000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 1.000000 0.000000 1.000000 )
+		direction cone ( 30.000000 0.000000 0.000000 0.000000 )
+		orientation view
+		speed ( 5.000000 5.000000 0.000000 0.000000 )
+		rotationZ ( -10.000000 10.000000 -10.000000 10.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.384000 1.500000 2.500000 3.000000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+	cameraShake {
+		timeOffset 0.000000
+		intensity 12.000000
+		duration 0.500000
+	}
+}
+
+"pet_dorf_mimic00d3"
+{
+	rotAngle	( 0.000000 0.000000 0.000000 )
+	emitter {
+		modelFile "CARROT"
+		blendFunc blend
+		time 0.600000
+		timeVariation 0.300000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 2
+		cycles	1
+		bunching 1.000000
+		colorKeyframes 4 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.100000 1.000000 1.000000 1.000000 1.000000 ) ( 0.900000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 0 0 0
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 1.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.500000 0.000000 0.000000 )
+		direction cone ( 60.000000 0.000000 1.000000 0.000000 )
+		orientation none
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationZ ( 3600.000000 3600.000000 -3600.000000 -3600.000000 )
+		rotationX ( 3600.000000 3600.000000 -3600.000000 -3600.000000 )
+		rotationY ( 3600.000000 3600.000000 -3600.000000 -3600.000000 )
+		size ( 0.250000 0.300000 0.300000 0.300000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		sizeLock
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+	emitter {
+		animTexture 4 4 32 0 "particle_002.dds" 1
+		blendFunc blendAdd
+		time 0.500000
+		timeVariation 0.300000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 3
+		cycles	1
+		bunching 1.000000
+		colorKeyframes 2 ( 0.000000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 1.000000 )
+		hasInitialAngle 1 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.300000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution sphere ( 0.000000 0.000000 0.000000 0.500000 )
+		direction cone ( 180.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.100000 0.000000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.400000 0.100000 0.100000 0.100000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+		attached
+	}
+	emitter {
+		modelFile "CARROT"
+		blendFunc blend
+		time 0.600000
+		timeVariation 0.300000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 1
+		cycles	1
+		bunching 1.000000
+		colorKeyframes 4 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.100000 1.000000 1.000000 1.000000 1.000000 ) ( 0.900000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 0 0 0
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.500000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.500000 0.000000 0.000000 )
+		direction cone ( 60.000000 0.000000 1.000000 0.000000 )
+		orientation none
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationZ ( 3600.000000 3600.000000 -3600.000000 -3600.000000 )
+		rotationX ( 3600.000000 3600.000000 -3600.000000 -3600.000000 )
+		rotationY ( 3600.000000 3600.000000 -3600.000000 -3600.000000 )
+		size ( 0.250000 0.300000 0.300000 0.300000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		sizeLock
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+		attached
+	}
+	emitter {
+		animTexture 4 4 32 0 "particle_002.dds" 1
+		blendFunc blendAdd
+		time 0.500000
+		timeVariation 0.300000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 3
+		cycles	1
+		bunching 1.000000
+		colorKeyframes 2 ( 0.000000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 1.000000 )
+		hasInitialAngle 1 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.300000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution sphere ( 0.000000 0.000000 0.000000 0.500000 )
+		direction cone ( 180.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.100000 0.000000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.400000 0.100000 0.100000 0.100000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+}
+
+"npc_sheep_dust_[m]"
+{
+	rotAngle	( 0.000000 0.000000 0.000000 )
+	emitter {
+		texture "volumdust_005.dds"
+		blendFunc blend
+		time 0.500000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 7
+		cycles	1
+		bunching 0.000000
+		colorKeyframes 3 ( 0.000000 0.510000 0.459000 0.267000 0.000000 ) ( 0.136000 1.000000 0.996000 0.992000 0.500000 ) ( 1.000000 0.510000 0.459000 0.267000 0.000000 )
+		hasInitialAngle 0 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 -0.500000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.100000 0.000000 0.100000 )
+		direction outward ( 0.000000 0.000000 0.000000 0.000000 )
+		orientation view
+		speed ( 2.000000 2.100000 0.000000 0.000000 )
+		rotationZ ( 54.360001 18.000000 2.880000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.200000 0.100000 1.000000 2.000000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+}
+
+"pet_pgri_penguin00d_eye"
+{
+	depthHack	0.999000
+	rotAngle	( 0.000000 0.000000 0.000000 )
+	emitter {
+		animTexture 4 4 0 11 "particle_001.dds" 1
+		blendFunc blendAdd
+		time 0.700000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 1
+		cycles	1
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.510000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 1 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 1
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 30.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.300000 0.300000 0.300000 0.300000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+		attached
+	}
+}
+
+"npc_sheep_dust"
+{
+	rotAngle	( 0.000000 0.000000 0.000000 )
+	emitter {
+		texture "volumdust_005.dds"
+		blendFunc blend
+		time 0.500000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 15
+		cycles	1
+		bunching 0.000000
+		colorKeyframes 3 ( 0.000000 0.510000 0.459000 0.267000 0.000000 ) ( 0.136000 1.000000 0.996000 0.992000 0.500000 ) ( 1.000000 0.510000 0.459000 0.267000 0.000000 )
+		hasInitialAngle 0 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 -0.500000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.100000 0.000000 0.100000 )
+		direction outward ( 0.000000 0.000000 0.000000 0.000000 )
+		orientation view
+		speed ( 2.000000 2.100000 0.000000 0.000000 )
+		rotationZ ( 54.360001 18.000000 2.880000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.200000 0.100000 1.000000 2.000000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+}
+
+"pet_fore_ladybug00d"
+{
+	rotAngle	( 0.000000 0.000000 0.000000 )
+	emitter {
+		texture "light_blue_001.dds"
+		blendFunc blendAdd
+		time 0.500000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 1
+		cycles	1
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 0.039000 0.961000 0.733000 0.000000 ) ( 0.500000 0.039000 0.961000 0.733000 0.800000 ) ( 1.000000 0.039000 0.961000 0.733000 0.000000 )
+		hasInitialAngle 1 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 30.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.600000 0.600000 0.600000 0.600000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+		attached
+	}
+	emitter {
+		animTexture 4 4 32 0 "particle_002.dds" 1
+		blendFunc blendAdd
+		time 0.500000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 10
+		cycles	1
+		bunching 1.000000
+		colorKeyframes 2 ( 0.000000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 1.000000 )
+		hasInitialAngle 1 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution sphere ( 0.000000 0.000000 0.000000 0.200000 )
+		direction cone ( 180.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.100000 0.200000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.100000 0.100000 0.100000 0.100000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+}
+
+"pet_pgri_penguin00d"
+{
+	rotAngle	( 0.000000 0.000000 0.000000 )
+	emitter {
+		texture "lightningbug.dds"
+		blendFunc blendAdd
+		time 1.000000
+		timeVariation 0.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 30
+		cycles	0
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.237000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		hasInitialAngle 1 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.700000 0.000000 )
+		gravity ( 0.000000 1.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 0
+		distribution cylinder ( 0.300000 0.100000 0.300000 0.000000 )
+		direction cone ( 120.000000 0.000000 -1.000000 0.000000 )
+		orientation view
+		speed ( 1.000000 0.500000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.010000 0.100000 0.000000 0.000000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 400.000000
+		useEmitterTrails
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+		attached
+	}
+}
+
+"pet_egg_tabi00b"
+{
+	rotAngle	( 0.000000 0.000000 0.000000 )
+	emitter {
+		texture "volumdust_006.dds"
+		blendFunc blend
+		time 1.000000
+		timeVariation 0.300000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 10
+		cycles	0
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 0.878000 0.843000 0.722000 0.000000 ) ( 0.440000 0.788000 0.729000 0.529000 0.300000 ) ( 1.000000 0.878000 0.843000 0.722000 0.000000 )
+		hasInitialAngle 0 1 1
+		initialAngle 0.000000 0.000000 0.000000
+		initialAngleVariation 0.000000 0.000000 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.010000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailType 1
+		distribution sphere ( 0.000000 0.000000 0.000000 0.200000 )
+		direction cone ( 0.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationZ ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationX ( 0.000000 0.000000 0.000000 0.000000 )
+		rotationY ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.100000 0.200000 0.200000 0.300000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 60.000000
+		rotationAxis ( 0.000000 1.000000 0.000000 )
+	}
+}

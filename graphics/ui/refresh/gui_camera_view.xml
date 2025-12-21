@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="gui_camera_view_Animation.xml" />
+  </properties>
+  <base type="WND" subclass="" name="Wnd">
+    <Visible val="True" />
+    <Anchor val="Top, Bottom, Left, Right" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="1024" b="768" />
+    <snd type="SHOW">
+    </snd>
+    <snd type="HIDE">
+    </snd>
+    <IsHitTestVisible val="True" />
+    <ClipChildren val="False" />
+    <child type="STACKPANEL" name="StackPanel" subclass="">
+      <Visible val="True" />
+      <Anchor val="Top, Left, Right" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="1024" b="150" />
+      <Orientation val="Vertical" />
+      <HAlign val="Center" />
+      <VAlign val="Bottom" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <base type="WND" subclass="" name="Wnd_camera_view">
+        <Visible val="True" />
+        <Anchor val="Top, Left, Right" />
+        <pos x="408" y="74" />
+        <rect l="0" t="0" r="208" b="76" />
+        <snd type="SHOW">
+        </snd>
+        <snd type="HIDE">
+        </snd>
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <child type="PICTURE" name="img_camera_view_bg" subclass="">
+          <asset type="STATIC">img_camera_view_bg.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="0" y="0" />
+          <rect l="0" t="0" r="208" b="76" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="img_camera_view_horse" subclass="">
+          <asset type="STATIC">img_camera_view_horse.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="31" y="25" />
+          <rect l="0" t="0" r="62" b="44" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="img_camera_view_dis" subclass="">
+          <asset type="STATIC">img_camera_view_dis.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="92" y="7" />
+          <rect l="0" t="0" r="87" b="54" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="img_camera_view_3" subclass="">
+          <asset type="STATIC">img_camera_view_3.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="92" y="34" />
+          <rect l="0" t="0" r="87" b="27" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="img_camera_view_2" subclass="">
+          <asset type="STATIC">img_camera_view_2.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="92" y="26" />
+          <rect l="0" t="0" r="87" b="16" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="img_camera_view_1" subclass="">
+          <asset type="STATIC">img_camera_view_1.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="92" y="7" />
+          <rect l="0" t="0" r="87" b="27" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+      </base>
+    </child>
+  </base>
+</refresh>

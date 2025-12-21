@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <dummy name="egg_point1" parent="Dummyroot_hatch" sync="TRUE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0254</offsetX>
+        <offsetY>1.2850</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <dummy name="icon1" parent="Dummyroot_hatch" sync="TRUE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0280</offsetX>
+        <offsetY>2.8700</offsetY>
+        <offsetZ>-0.0075</offsetZ>
+    </dummy>
+    <dummy name="ui_cam1" parent="Dummyroot_hatch" sync="TRUE" extra="">
+        <rotationX>0.0001</rotationX>
+        <rotationY>0.9998</rotationY>
+        <rotationZ>-0.0074</rotationZ>
+        <rotationW>-0.0181</rotationW>
+        <offsetX>0.1213</offsetX>
+        <offsetY>1.7626</offsetY>
+        <offsetZ>3.5896</offsetZ>
+    </dummy>
+    <action category="" state="ACTIVATE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>idle00</main>
+    </action>
+    <action category="" state="G_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>activate00</main>
+    </action>
+</aim>

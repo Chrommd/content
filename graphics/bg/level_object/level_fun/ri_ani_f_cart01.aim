@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <AABB animation="1st">
+        <minX>-1.1214</minX>
+        <minY>-0.0000</minY>
+        <minZ>-30.5720</minZ>
+        <maxX>2.4714</maxX>
+        <maxY>0.7447</maxY>
+        <maxZ>0.5272</maxZ>
+    </AABB>
+    <AABB animation="2nd">
+        <minX>-1.1214</minX>
+        <minY>-0.0000</minY>
+        <minZ>-30.5720</minZ>
+        <maxX>2.4714</maxX>
+        <maxY>0.7447</maxY>
+        <maxZ>0.5272</maxZ>
+    </AABB>
+    <AABB animation="3rd">
+        <minX>-1.1214</minX>
+        <minY>-0.0000</minY>
+        <minZ>-30.5720</minZ>
+        <maxX>2.4714</maxX>
+        <maxY>0.7447</maxY>
+        <maxZ>0.5052</maxZ>
+    </AABB>
+    <event animation="2nd">
+        <function>PlaySND($asset, "crash_cart01_", "", "-var 2")</function>
+        <time>0.0320</time>
+        <type>NORMAL</type>
+    </event>
+    <event animation="2nd">
+        <function>PlayFX($asset, "ob_windmill_door_crash_001", "dummy_001", "")</function>
+        <time>0.0080</time>
+        <type>NORMAL</type>
+    </event>
+    <event animation="2nd">
+        <function>PlayFX($asset, "ob_windmill_door_crash_002", "dummy_002", "")</function>
+        <time>0.2400</time>
+        <type>NORMAL</type>
+    </event>
+    <event animation="2nd">
+        <function>RelayMsg($asset, "FadeOut", "-time 1")</function>
+        <time>0.7107</time>
+        <type>NORMAL</type>
+    </event>
+    <event animation="3rd">
+        <function>PlaySND($asset, "crash_cart01_", "", "-var 2")</function>
+        <time>0.0071</time>
+        <type>NORMAL</type>
+    </event>
+    <event animation="3rd">
+        <function>PlayFX($asset, "ob_windmill_door_crash_001", "dummy_001", "")</function>
+        <time>0.0088</time>
+        <type>NORMAL</type>
+    </event>
+    <event animation="3rd">
+        <function>PlayFX($asset, "ob_windmill_door_crash_002", "dummy_003", "")</function>
+        <time>0.3021</time>
+        <type>NORMAL</type>
+    </event>
+    <event animation="3rd">
+        <function>RelayMsg($asset, "FadeOut", "-time 1")</function>
+        <time>0.8480</time>
+        <type>NORMAL</type>
+    </event>
+    <dummy name="dummy_001" parent="NODE_0" sync="FALSE">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>1.3288</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <dummy name="dummy_002" parent="ri_ani_f_cart" sync="FALSE">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.0000</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <dummy name="dummy_003" parent="ri_ani_f_cart" sync="FALSE">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>-0.1484</offsetX>
+        <offsetY>-0.7331</offsetY>
+        <offsetZ>-2.0689</offsetZ>
+    </dummy>
+    <action state="BROKEN_1ST" loop="0" poskey="0" rotkey="0">
+        <main>1st</main>
+    </action>
+    <action state="BROKEN_2ND" loop="0" poskey="0" rotkey="0">
+        <main>2nd</main>
+    </action>
+    <action state="BROKEN_3RD" loop="0" poskey="0" rotkey="0">
+        <main>3rd</main>
+    </action>
+</aim>

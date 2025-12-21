@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <event animation="blow00">
+        <function>PlaySND($asset, "npc_pgri_horn", "", "-var 0")</function>
+        <time>1.0703</time>
+        <freq>100</freq>
+    </event>
+    <action category="" state="G_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>blow00</main>
+    </action>
+</aim>

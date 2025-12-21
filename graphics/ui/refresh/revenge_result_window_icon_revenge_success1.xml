@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="icon_revenge_success1_Default">
+    <asset type="IMAGE" name="asset_icon_revenge_success" path="icon_revenge_success.png">
+      <rect l="0" t="0" r="83" b="87" />
+    </asset>
+    <object name="icon_revenge_success" ani="ani_icon_revenge_success">
+      <asset type="IMAGE" link="asset_icon_revenge_success" />
+    </object>
+    <param type="RES" x="83" y="87" />
+    <param type="LOOP" cnt="-1" pendulum="0" />
+    <anim name="ani_icon_revenge_success">
+      <frame cnt="0">
+        <posx val="0.506024096385542" />
+        <posy val="0.505747126436782" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

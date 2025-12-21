@@ -1,0 +1,684 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="help_mate_dialog_Animation.xml" />
+  </properties>
+  <base type="WNDEX" subclass="" name="help_mate_WndEx">
+    <asset type="BG" path="" tileMode="Tile">
+      <tex x="0" y="0" />
+      <rect l="8" t="8" r="1008" b="752" />
+    </asset>
+    <asset type="EDGE_LT" path="" tileMode="Tile">
+      <tex x="0" y="0" />
+      <rect l="0" t="0" r="8" b="8" />
+    </asset>
+    <asset type="EDGE_RT" path="" tileMode="Tile">
+      <tex x="0" y="0" />
+      <rect l="0" t="0" r="8" b="8" />
+    </asset>
+    <asset type="EDGE_LB" path="" tileMode="Tile">
+      <tex x="0" y="0" />
+      <rect l="0" t="0" r="8" b="8" />
+    </asset>
+    <asset type="EDGE_RB" path="" tileMode="Tile">
+      <tex x="0" y="0" />
+      <rect l="0" t="0" r="8" b="8" />
+    </asset>
+    <asset type="FRAME_T" path="" tileMode="Tile">
+      <tex x="0" y="0" />
+      <rect l="8" t="0" r="1008" b="8" />
+    </asset>
+    <asset type="FRAME_B" path="" tileMode="Tile">
+      <tex x="0" y="0" />
+      <rect l="8" t="0" r="1008" b="8" />
+    </asset>
+    <asset type="FRAME_L" path="" tileMode="Tile">
+      <tex x="0" y="0" />
+      <rect l="0" t="8" r="8" b="752" />
+    </asset>
+    <asset type="FRAME_R" path="" tileMode="Tile">
+      <tex x="0" y="0" />
+      <rect l="0" t="8" r="8" b="752" />
+    </asset>
+    <Visible val="True" />
+    <Anchor val="None" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="1024" b="768" />
+    <Dragable val="False" />
+    <StartPosition val="CenterScreen" />
+    <EscKeyAction val="None" />
+    <IsHitTestVisible val="True" />
+    <ClipChildren val="False" />
+    <child type="PICTURE" name="help_book_bg" subclass="">
+      <asset type="STATIC">help_book_bg.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="22" y="23" />
+      <rect l="0" t="0" r="980" b="663" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="PICTURE" name="help_bottom_bg" subclass="">
+      <asset type="STATIC">help_bottom_bg.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="90" y="530" />
+      <rect l="0" t="0" r="844" b="130" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="PICTURE" name="help_npc" subclass="">
+      <asset type="STATIC">help_npc.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="93" y="448" />
+      <rect l="0" t="0" r="172" b="212" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="PANEL" name="pn_help_mate_page2" subclass="">
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <embed src="" />
+      <pos x="66" y="51" />
+      <rect l="0" t="0" r="890" b="610" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <child type="PANEL" name="pn_help_mate_page2_btm" subclass="">
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <embed src="" />
+        <pos x="161" y="492" />
+        <rect l="0" t="0" r="696" b="114" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <child type="LABEL" name="lb_help_mate_page2_btm_title" subclass="">
+          <label val="교배하는 방법" />
+          <pos x="21" y="17" />
+          <rect l="0" t="0" r="247" b="30" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#FF0000" />
+          <color val="#7F6643" />
+          <halign val="0" />
+          <valign val="1" />
+          <FontName val="나눔고딕" />
+          <FontSize val="24" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+        <child type="LABEL" name="lb_help_mate_page2_btm_txt" subclass="">
+          <label val="자신의 말보다 높은 등급의 말과 교배하면 높은 등급의 망아지를 얻을 수 있습니다." />
+          <pos x="47" y="63" />
+          <rect l="0" t="0" r="621" b="21" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#FF0000" />
+          <color val="#30210D" />
+          <halign val="0" />
+          <valign val="1" />
+          <FontName val="나눔고딕" />
+          <FontSize val="15" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+        <child type="LABELBUTTON" name="btn_help_mate_front" subclass="">
+          <asset type="NORMAL">help_btn_n.png</asset>
+          <asset type="DOWN">help_btn_d.png</asset>
+          <asset type="OVER">help_btn_o.png</asset>
+          <asset type="DISABLE">help_btn_dis.png</asset>
+          <snd type="OVER">
+          </snd>
+          <snd type="DOWN">ui_btn_menu_click</snd>
+          <snd type="RELEASE">ui_btn_menu_release;ui_btn_menu_page</snd>
+          <control type="LABEL" name="btn_help_mate_front_Label">
+            <label val="Next" />
+            <pos x="9" y="9" />
+            <rect l="0" t="0" r="72" b="21" />
+            <Visible val="True" />
+            <Anchor val="Bottom, Left, Right" />
+            <OutlineColor val="#FF0000" />
+            <ShadowColor val="#FF0000" />
+            <color val="#46280E" />
+            <halign val="1" />
+            <valign val="1" />
+            <FontName val="나눔고딕" />
+            <FontSize val="15" />
+            <TextTrimming val="None" />
+            <style val="1" />
+            <IsHitTestVisible val="False" />
+            <ClipChildren val="False" />
+            <Padding val="0, 0, 0, 0" />
+          </control>
+          <pos x="577" y="37" />
+          <rect l="0" t="0" r="92" b="42" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+          <NormalColor val="#46280E" />
+          <HoverColor val="#46280E" />
+          <PushColor val="#46280E" />
+          <DisableColor val="#46280E" />
+          <IsDefaultButton val="False" />
+        </child>
+      </child>
+      <child type="PICTURE" name="help_mate_page2" subclass="">
+        <asset type="STATIC">help_mate_page2.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="0" y="0" />
+        <rect l="0" t="0" r="890" b="470" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <child type="LABEL" name="lb_help_mate_page2_2-5" subclass="">
+          <label val="등급 낮은 망아지 탄생" />
+          <pos x="686" y="390" />
+          <rect l="0" t="0" r="180" b="20" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#FF0000" />
+          <color val="#91890E" />
+          <halign val="0" />
+          <valign val="1" />
+          <FontName val="나눔고딕" />
+          <FontSize val="15" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+        <child type="LABEL" name="lb_help_mate_page2_2-4" subclass="">
+          <label val="등급 낮은 씨수마" />
+          <pos x="753" y="135" />
+          <rect l="0" t="0" r="120" b="20" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#FF0000" />
+          <color val="#91890E" />
+          <halign val="0" />
+          <valign val="1" />
+          <FontName val="나눔고딕" />
+          <FontSize val="15" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+        <child type="LABEL" name="lb_help_mate_page2_2-3" subclass="">
+          <label val="자신의 말" />
+          <pos x="509" y="151" />
+          <rect l="0" t="0" r="80" b="20" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#FF0000" />
+          <color val="#9E845D" />
+          <halign val="0" />
+          <valign val="1" />
+          <FontName val="나눔고딕" />
+          <FontSize val="15" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+        <child type="LABEL" name="lb_help_mate_page2_2-2" subclass="">
+          <label val="씨수마와 교배했을 때" />
+          <pos x="628" y="58" />
+          <rect l="0" t="0" r="203" b="24" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#FF0000" />
+          <color val="#6F5634" />
+          <halign val="0" />
+          <valign val="1" />
+          <FontName val="나눔명조" />
+          <FontSize val="18" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+        <child type="LABEL" name="lb_help_mate_page2_2-1" subclass="">
+          <label val="등급 낮은" />
+          <pos x="547" y="58" />
+          <rect l="0" t="0" r="90" b="24" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#FF0000" />
+          <color val="#4D3C23" />
+          <halign val="0" />
+          <valign val="1" />
+          <FontName val="나눔명조 ExtraBold" />
+          <FontSize val="18" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+        <child type="LABEL" name="lb_help_mate_page2_1-5" subclass="">
+          <label val="등급높은 망아지 탄생" />
+          <pos x="236" y="390" />
+          <rect l="0" t="0" r="180" b="20" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#FF0000" />
+          <color val="#DA6010" />
+          <halign val="0" />
+          <valign val="1" />
+          <FontName val="나눔고딕" />
+          <FontSize val="15" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+        <child type="LABEL" name="lb_help_mate_page2_1-4" subclass="">
+          <label val="등급 높은 씨수마" />
+          <pos x="301" y="135" />
+          <rect l="0" t="0" r="120" b="20" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#FF0000" />
+          <color val="#DA6010" />
+          <halign val="0" />
+          <valign val="1" />
+          <FontName val="나눔고딕" />
+          <FontSize val="15" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+        <child type="LABEL" name="lb_help_mate_page2_1-3" subclass="">
+          <label val="자신의 말" />
+          <pos x="59" y="151" />
+          <rect l="0" t="0" r="72" b="20" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#FF0000" />
+          <color val="#9E845D" />
+          <halign val="0" />
+          <valign val="1" />
+          <FontName val="나눔고딕" />
+          <FontSize val="15" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+        <child type="LABEL" name="lb_help_mate_page2_1-2" subclass="">
+          <label val="씨수마와 교배했을 때" />
+          <pos x="172" y="58" />
+          <rect l="0" t="0" r="203" b="24" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#FF0000" />
+          <color val="#6F5634" />
+          <halign val="0" />
+          <valign val="1" />
+          <FontName val="나눔명조" />
+          <FontSize val="18" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+        <child type="LABEL" name="lb_help_mate_page2_1-1" subclass="">
+          <label val="등급 높은" />
+          <pos x="91" y="58" />
+          <rect l="0" t="0" r="90" b="24" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#FF0000" />
+          <color val="#4D3C23" />
+          <halign val="0" />
+          <valign val="1" />
+          <FontName val="나눔명조 ExtraBold" />
+          <FontSize val="18" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+      </child>
+    </child>
+    <child type="PANEL" name="pn_help_mate_page1" subclass="">
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <embed src="" />
+      <pos x="66" y="51" />
+      <rect l="0" t="0" r="890" b="610" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <child type="PANEL" name="pn_help_mate_page1_btm" subclass="">
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <embed src="" />
+        <pos x="161" y="492" />
+        <rect l="0" t="0" r="696" b="114" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <child type="LABEL" name="lb_help_mate_page1_btm_title" subclass="">
+          <label val="교배하는 방법" />
+          <pos x="21" y="17" />
+          <rect l="0" t="0" r="247" b="30" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#FF0000" />
+          <color val="#7F6643" />
+          <halign val="0" />
+          <valign val="1" />
+          <FontName val="나눔고딕" />
+          <FontSize val="24" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+        <child type="LABEL" name="lb_help_mate_page1_btm_txt" subclass="">
+          <label val="내 말과 씨수마를 선택한 후 교배하기 버튼을 누르면 교배를 할 수 있습니다." />
+          <pos x="47" y="63" />
+          <rect l="0" t="0" r="621" b="21" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#FF0000" />
+          <color val="#30210D" />
+          <halign val="0" />
+          <valign val="1" />
+          <FontName val="나눔고딕" />
+          <FontSize val="15" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+        <child type="LABELBUTTON" name="btn_help_mate_next" subclass="">
+          <asset type="NORMAL">help_btn_n.png</asset>
+          <asset type="DOWN">help_btn_d.png</asset>
+          <asset type="OVER">help_btn_o.png</asset>
+          <asset type="DISABLE">help_btn_dis.png</asset>
+          <snd type="OVER">
+          </snd>
+          <snd type="DOWN">ui_btn_menu_click
+</snd>
+          <snd type="RELEASE">ui_btn_menu_release;ui_btn_menu_page</snd>
+          <control type="LABEL" name="btn_help_mate_next_Label">
+            <label val="이전" />
+            <pos x="9" y="9" />
+            <rect l="0" t="0" r="72" b="21" />
+            <Visible val="True" />
+            <Anchor val="Bottom, Left, Right" />
+            <OutlineColor val="#FF0000" />
+            <ShadowColor val="#FF0000" />
+            <color val="#46280E" />
+            <halign val="1" />
+            <valign val="1" />
+            <FontName val="나눔고딕" />
+            <FontSize val="15" />
+            <TextTrimming val="None" />
+            <style val="1" />
+            <IsHitTestVisible val="False" />
+            <ClipChildren val="False" />
+            <Padding val="0, 0, 0, 0" />
+          </control>
+          <pos x="577" y="37" />
+          <rect l="0" t="0" r="92" b="42" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+          <NormalColor val="#46280E" />
+          <HoverColor val="#46280E" />
+          <PushColor val="#46280E" />
+          <DisableColor val="#46280E" />
+          <IsDefaultButton val="False" />
+        </child>
+      </child>
+      <child type="PICTURE" name="help_mate_page1" subclass="">
+        <asset type="STATIC">help_mate_page1.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="0" y="0" />
+        <rect l="0" t="0" r="890" b="470" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <child type="LABEL" name="lb_help_mate_page1_3-3" subclass="">
+          <label val="말선택이 끝나면 교배하기 버튼 누름" />
+          <pos x="562" y="370" />
+          <rect l="0" t="0" r="286" b="20" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#FF0000" />
+          <color val="#9E845D" />
+          <halign val="0" />
+          <valign val="1" />
+          <FontName val="나눔고딕" />
+          <FontSize val="15" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+        <child type="LABEL" name="lb_help_mate_page1_3-2" subclass="">
+          <label val="교배하기 버튼 누름" />
+          <pos x="562" y="330" />
+          <rect l="0" t="0" r="203" b="24" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#FF0000" />
+          <color val="#6F5634" />
+          <halign val="0" />
+          <valign val="1" />
+          <FontName val="나눔명조" />
+          <FontSize val="18" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+        <child type="LABEL" name="lb_help_mate_page1_3-1" subclass="">
+          <label val="Step 3" />
+          <pos x="504" y="330" />
+          <rect l="0" t="0" r="60" b="24" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#FF0000" />
+          <color val="#4D3C23" />
+          <halign val="0" />
+          <valign val="1" />
+          <FontName val="나눔명조 ExtraBold" />
+          <FontSize val="18" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+        <child type="LABEL" name="lb_help_mate_page1_2-3" subclass="">
+          <label val="교배하고 싶은 상대의 말을 선택" />
+          <pos x="562" y="240" />
+          <rect l="0" t="0" r="286" b="20" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#FF0000" />
+          <color val="#9E845D" />
+          <halign val="0" />
+          <valign val="1" />
+          <FontName val="나눔고딕" />
+          <FontSize val="15" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+        <child type="LABEL" name="lb_help_mate_page1_2-2" subclass="">
+          <label val="씨수마 선택" />
+          <pos x="562" y="200" />
+          <rect l="0" t="0" r="203" b="24" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#FF0000" />
+          <color val="#6F5634" />
+          <halign val="0" />
+          <valign val="1" />
+          <FontName val="나눔명조" />
+          <FontSize val="18" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+        <child type="LABEL" name="lb_help_mate_page1_2-1" subclass="">
+          <label val="Step 2" />
+          <pos x="504" y="200" />
+          <rect l="0" t="0" r="60" b="24" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#FF0000" />
+          <color val="#4D3C23" />
+          <halign val="0" />
+          <valign val="1" />
+          <FontName val="나눔명조 ExtraBold" />
+          <FontSize val="18" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+        <child type="LABEL" name="lb_help_mate_page1_1-3" subclass="">
+          <label val="교배하려는 자신의 말을 선택" />
+          <pos x="562" y="110" />
+          <rect l="0" t="0" r="286" b="20" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#FF0000" />
+          <color val="#9E845D" />
+          <halign val="0" />
+          <valign val="1" />
+          <FontName val="나눔고딕" />
+          <FontSize val="15" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+        <child type="LABEL" name="lb_help_mate_page1_1-2" subclass="">
+          <label val="자신의 말 선택" />
+          <pos x="562" y="70" />
+          <rect l="0" t="0" r="203" b="24" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#FF0000" />
+          <color val="#6F5634" />
+          <halign val="0" />
+          <valign val="1" />
+          <FontName val="나눔명조" />
+          <FontSize val="18" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+        <child type="LABEL" name="lb_help_mate_page1_1-1" subclass="">
+          <label val="Step 1" />
+          <pos x="504" y="70" />
+          <rect l="0" t="0" r="60" b="24" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#FF0000" />
+          <color val="#4D3C23" />
+          <halign val="0" />
+          <valign val="1" />
+          <FontName val="나눔명조 ExtraBold" />
+          <FontSize val="18" />
+          <TextTrimming val="None" />
+          <style val="1" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+      </child>
+    </child>
+    <child type="ANIMBUTTON" name="btn_close" subclass="">
+      <asset type="GROUP">help_mate_dialog_btn_close.xml</asset>
+      <asset type="NORMAL">
+      </asset>
+      <asset type="DOWN">
+      </asset>
+      <asset type="OVER">
+      </asset>
+      <asset type="DISABLE">
+      </asset>
+      <asset type="ENTER">
+      </asset>
+      <asset type="LEAVE">
+      </asset>
+      <snd type="OVER">
+      </snd>
+      <snd type="DOWN">ui_btn_menu_click</snd>
+      <snd type="RELEASE">ui_btn_menu_release;ui_btn_menu_close</snd>
+      <pos x="930" y="50" />
+      <rect l="0" t="0" r="29" b="28" />
+      <Visible val="True" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <Anchor val="None" />
+      <IsDefaultButton val="False" />
+    </child>
+  </base>
+</refresh>

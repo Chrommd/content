@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <event animation="_initialize_">
+        <function>PlayFX($asset, "ob_chim_smoke_002", "dum1", "")</function>
+        <time>0.0000</time>
+        <freq>ONCE</freq>
+    </event>
+    <event animation="_initialize_">
+        <function>PlayFX($asset, "ob_chim_smoke_003", "dum2", "")</function>
+        <time>0.0000</time>
+        <freq>ONCE</freq>
+    </event>
+    <dummy name="dum1" parent="ri_dorf_vhouse03_01_lt" sync="FALSE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>-6.8233</offsetX>
+        <offsetY>20.1635</offsetY>
+        <offsetZ>-1.4875</offsetZ>
+    </dummy>
+    <dummy name="dum2" parent="ri_dorf_vhouse03_01_lt" sync="FALSE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>-5.6462</offsetX>
+        <offsetY>19.6271</offsetY>
+        <offsetZ>0.0837</offsetZ>
+    </dummy>
+</aim>

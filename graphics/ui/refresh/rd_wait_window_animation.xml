@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="_Opening_">
+    <asset type="UI" name="asset_bg_waite_black">
+      <rect l="0" t="0" r="1024" b="768" />
+    </asset>
+    <asset type="UI" name="asset_bg_wait_under">
+      <rect l="0" t="0" r="1024" b="131" />
+    </asset>
+    <asset type="UI" name="asset_bg_wait_over">
+      <rect l="0" t="0" r="1024" b="34" />
+    </asset>
+    <asset type="UI" name="asset_bg_frm">
+      <rect l="0" t="0" r="368" b="215" />
+    </asset>
+    <object name="bg_waite_black" ani="ani_bg_waite_black">
+      <asset type="UI" link="asset_bg_waite_black" />
+    </object>
+    <object name="bg_wait_under" ani="ani_bg_wait_under">
+      <asset type="UI" link="asset_bg_wait_under" />
+    </object>
+    <object name="bg_wait_over" ani="ani_bg_wait_over">
+      <asset type="UI" link="asset_bg_wait_over" />
+    </object>
+    <object name="bg_frm" ani="ani_bg_frm">
+      <asset type="UI" link="asset_bg_frm" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_bg_waite_black">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="300">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.3" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_bg_wait_under">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.85546875" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="300">
+        <posx val="0" />
+        <posy val="0.85546875" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="633">
+        <posx val="0" />
+        <posy val="0.829427083333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_bg_wait_over">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="-0.0260416666666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="300">
+        <posx val="0" />
+        <posy val="-0.0260416666666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="633">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_bg_frm">
+      <frame cnt="0">
+        <posx val="0.3203125" />
+        <posy val="0.2981771" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="633">
+        <posx val="0.3203125" />
+        <posy val="0.2981771" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1167">
+        <posx val="0.3203125" />
+        <posy val="0.2981771" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Closing_">
+    <asset type="UI" name="asset_bg_waite_black">
+      <rect l="0" t="0" r="1024" b="768" />
+    </asset>
+    <asset type="UI" name="asset_bg_wait_under">
+      <rect l="0" t="0" r="1024" b="131" />
+    </asset>
+    <asset type="UI" name="asset_bg_wait_over">
+      <rect l="0" t="0" r="1024" b="34" />
+    </asset>
+    <asset type="UI" name="asset_bg_frm">
+      <rect l="0" t="0" r="368" b="215" />
+    </asset>
+    <object name="bg_waite_black" ani="ani_bg_waite_black">
+      <asset type="UI" link="asset_bg_waite_black" />
+    </object>
+    <object name="bg_wait_under" ani="ani_bg_wait_under">
+      <asset type="UI" link="asset_bg_wait_under" />
+    </object>
+    <object name="bg_wait_over" ani="ani_bg_wait_over">
+      <asset type="UI" link="asset_bg_wait_over" />
+    </object>
+    <object name="bg_frm" ani="ani_bg_frm">
+      <asset type="UI" link="asset_bg_frm" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_bg_waite_black">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.3" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_bg_wait_under">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.829427083333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0" />
+        <posy val="0.85546875" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_bg_wait_over">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0" />
+        <posy val="-0.0260416666666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_bg_frm">
+      <frame cnt="0">
+        <posx val="0.3203125" />
+        <posy val="0.2981771" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.3203125" />
+        <posy val="0.2981771" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="667">
+        <posx val="0.3203125" />
+        <posy val="0.2981771" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

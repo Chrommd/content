@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="wait_window_Animation.xml" />
+  </properties>
+  <base type="WND" subclass="" name="wait">
+    <Visible val="True" />
+    <Anchor val="Top, Bottom, Left, Right" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="1024" b="768" />
+    <IsHitTestVisible val="True" />
+    <ClipChildren val="False" />
+    <child type="STACKPANEL" name="anchor_wait" subclass="">
+      <Visible val="True" />
+      <Anchor val="Top, Bottom, Left, Right" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="1024" b="768" />
+      <Orientation val="Vertical" />
+      <HAlign val="Center" />
+      <VAlign val="Center" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <base type="WNDEX" subclass="" name="bg_frm">
+        <asset type="BG" path="frm_alert_CenterMiddle.png" tileMode="Stretch">
+          <tex x="4" y="4" />
+          <rect l="40" t="30" r="288" b="165" />
+        </asset>
+        <asset type="EDGE_LT" path="frm_alert_LeftTop.png" tileMode="Stretch">
+          <tex x="40" y="30" />
+          <rect l="0" t="0" r="40" b="30" />
+        </asset>
+        <asset type="EDGE_RT" path="frm_alert_RightTop.png" tileMode="Stretch">
+          <tex x="40" y="30" />
+          <rect l="0" t="0" r="40" b="30" />
+        </asset>
+        <asset type="EDGE_LB" path="frm_alert_LeftBottom.png" tileMode="Stretch">
+          <tex x="40" y="20" />
+          <rect l="0" t="0" r="40" b="20" />
+        </asset>
+        <asset type="EDGE_RB" path="frm_alert_RightBottom.png" tileMode="Stretch">
+          <tex x="40" y="20" />
+          <rect l="0" t="0" r="40" b="20" />
+        </asset>
+        <asset type="FRAME_T" path="frm_alert_CenterTop.png" tileMode="Tile">
+          <tex x="4" y="30" />
+          <rect l="40" t="0" r="288" b="30" />
+        </asset>
+        <asset type="FRAME_B" path="frm_alert_CenterBottom.png" tileMode="Tile">
+          <tex x="4" y="20" />
+          <rect l="40" t="0" r="288" b="20" />
+        </asset>
+        <asset type="FRAME_L" path="frm_alert_LeftMiddle.png" tileMode="Stretch">
+          <tex x="40" y="4" />
+          <rect l="0" t="30" r="40" b="165" />
+        </asset>
+        <asset type="FRAME_R" path="frm_alert_RightMiddle.png" tileMode="Tile">
+          <tex x="40" y="4" />
+          <rect l="0" t="30" r="40" b="165" />
+        </asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="328" y="277" />
+        <rect l="0" t="0" r="368" b="215" />
+        <Dragable val="False" />
+        <StartPosition val="None" />
+        <EscKeyAction val="None" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <child type="PICTURE" name="bg_wait" subclass="">
+          <asset type="STATIC">bg_loading.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="148" y="31" />
+          <rect l="0" t="0" r="71" b="71" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="wait_bar" subclass="">
+          <asset type="ANIMATION">wait_window_wait_bar.xml</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="148" y="31" />
+          <rect l="0" t="0" r="71" b="71" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="icon_wait_room1" subclass="">
+          <asset type="STATIC">icon_wait_room1.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="173" y="55" />
+          <rect l="0" t="0" r="22" b="22" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="icon_wait_room2" subclass="">
+          <asset type="ANIMATION">wait_window_icon_wait_room2.xml</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="183" y="67" />
+          <rect l="0" t="0" r="15" b="15" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="LABEL" name="lb_wait_reason" subclass="">
+          <label val="입장할 대기방을 검색 중입니다" />
+          <pos x="15" y="121" />
+          <rect l="0" t="0" r="337" b="18" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FFFFFF" />
+          <ShadowColor val="#030200" />
+          <color val="#FFFFFE" />
+          <halign val="1" />
+          <valign val="0" />
+          <FontName val="나눔고딕" />
+          <FontSize val="14" />
+          <TextTrimming val="None" />
+          <style val="32" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+          <Padding val="0, 0, 0, 0" />
+        </child>
+        <child type="LABELBUTTON" name="cancel" subclass="">
+          <asset type="NORMAL">btn_common_cancel_Normal.png</asset>
+          <asset type="DOWN">btn_common_cancel_Push.png</asset>
+          <asset type="OVER">btn_common_cancel_Hover.png</asset>
+          <asset type="DISABLE">btn_common_cancel_Disable.png</asset>
+          <snd type="OVER">
+          </snd>
+          <snd type="DOWN">
+          </snd>
+          <control type="LABEL" name="cancel_Label">
+            <label val="Cancel" />
+            <pos x="0" y="0" />
+            <rect l="0" t="0" r="92" b="33" />
+            <Visible val="True" />
+            <Anchor val="Bottom, Left, Right" />
+            <OutlineColor val="#FFFFFF" />
+            <ShadowColor val="#0000004C" />
+            <color val="#6B5D54" />
+            <halign val="1" />
+            <valign val="1" />
+            <FontName val="나눔고딕" />
+            <FontSize val="13" />
+            <TextTrimming val="None" />
+            <style val="1" />
+            <IsHitTestVisible val="False" />
+            <ClipChildren val="False" />
+            <Padding val="0, 0, 0, 0" />
+          </control>
+          <pos x="137" y="156" />
+          <rect l="0" t="0" r="92" b="33" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+          <NormalColor val="#FFFFFFFF" />
+          <HoverColor val="#FFFFFFFF" />
+          <PushColor val="#F1E4DBFF" />
+          <DisableColor val="#998A81FF" />
+          <IsDefaultButton val="False" />
+        </child>
+      </base>
+    </child>
+  </base>
+</refresh>

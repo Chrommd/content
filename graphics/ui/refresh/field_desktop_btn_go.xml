@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="NORMAL">
+    <asset type="IMAGE" name="asset_btn_go_n" path="btn_go_n.png">
+      <rect l="0" t="0" r="38" b="38" />
+    </asset>
+    <asset type="IMAGE" name="asset_txt_go" path="txt_go.png">
+      <rect l="0" t="0" r="38" b="38" />
+    </asset>
+    <object name="btn_go_n" ani="ani_btn_go_n">
+      <asset type="IMAGE" link="asset_btn_go_n" />
+    </object>
+    <object name="txt_go" ani="ani_txt_go">
+      <asset type="IMAGE" link="asset_txt_go" />
+    </object>
+    <param type="RES" x="38" y="38" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_btn_go_n">
+      <frame cnt="0">
+        <posx val="0.5" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+    <anim name="ani_txt_go">
+      <frame cnt="0">
+        <posx val="0.5" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="OVER">
+    <asset type="IMAGE" name="asset_btn_go_n" path="btn_go_n.png">
+      <rect l="0" t="0" r="38" b="38" />
+    </asset>
+    <asset type="IMAGE" name="asset_btn_go_o" path="btn_go_o.png">
+      <rect l="0" t="0" r="38" b="38" />
+    </asset>
+    <asset type="IMAGE" name="asset_txt_go" path="txt_go.png">
+      <rect l="0" t="0" r="38" b="38" />
+    </asset>
+    <object name="btn_go_n" ani="ani_btn_go_n">
+      <asset type="IMAGE" link="asset_btn_go_n" />
+    </object>
+    <object name="btn_go_o" ani="ani_btn_go_o">
+      <asset type="IMAGE" link="asset_btn_go_o" />
+    </object>
+    <object name="txt_go" ani="ani_txt_go">
+      <asset type="IMAGE" link="asset_txt_go" />
+    </object>
+    <param type="RES" x="38" y="38" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_btn_go_n">
+      <frame cnt="0">
+        <posx val="0.5" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+    <anim name="ani_btn_go_o">
+      <frame cnt="0">
+        <posx val="0.5" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.5" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="167">
+        <posx val="0.5" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+    <anim name="ani_txt_go">
+      <frame cnt="0">
+        <posx val="0.5" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="DOWN">
+    <asset type="IMAGE" name="asset_btn_go_d" path="btn_go_d.png">
+      <rect l="0" t="0" r="38" b="38" />
+    </asset>
+    <asset type="IMAGE" name="asset_txt_go" path="txt_go.png">
+      <rect l="0" t="0" r="38" b="38" />
+    </asset>
+    <object name="btn_go_d" ani="ani_btn_go_d">
+      <asset type="IMAGE" link="asset_btn_go_d" />
+    </object>
+    <object name="txt_go" ani="ani_txt_go">
+      <asset type="IMAGE" link="asset_txt_go" />
+    </object>
+    <param type="RES" x="38" y="38" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_btn_go_d">
+      <frame cnt="0">
+        <posx val="0.5" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="167">
+        <posx val="0.5" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+    <anim name="ani_txt_go">
+      <frame cnt="0">
+        <posx val="0.5" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.5" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="DISABLE">
+    <param type="RES" x="38" y="38" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+  </scene>
+</rfanimation>

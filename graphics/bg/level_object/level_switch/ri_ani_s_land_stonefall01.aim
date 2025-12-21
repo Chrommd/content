@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <event animation="1st">
+        <function>PlayFX($asset, "ob_funobj_ston_crash_002", "dum", "-attach ")</function>
+        <time>0.0120</time>
+        <freq>100</freq>
+    </event>
+    <event animation="1st">
+        <function>PlaySND($asset, "crash_stonebreak01_", "dum", "-var 3")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="1st">
+        <function>RelayMsg($asset, "FadeOut", "-time 1")</function>
+        <time>1.2000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="3rd">
+        <function>PlayFX($asset, "ob_funobj_ston_crash_002", "dum", "-attach ")</function>
+        <time>0.0117</time>
+        <freq>100</freq>
+    </event>
+    <event animation="3rd">
+        <function>PlaySND($asset, "crash_stonebreak01_", "dum", "-var 3")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="3rd">
+        <function>RelayMsg($asset, "FadeOut", "-time 1")</function>
+        <time>1.2320</time>
+        <freq>100</freq>
+    </event>
+    <event animation="trans">
+        <function>PlaySND($asset, "ob_stone_fall1", "dum", "-var 0")</function>
+        <time>0.0627</time>
+        <freq>100</freq>
+    </event>
+    <dummy name="dum" parent="Object03" sync="FALSE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.0000</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <action state=" FALLING" prevState="" loop="1">
+        <main speed=0.0000>start</main>
+    </action>
+    <action state="BROKEN_1ST" prevState="" loop="0">
+        <main speed=0.0000>1st</main>
+    </action>
+    <action state="BROKEN_2ND" prevState="" loop="0">
+        <main speed=0.0000>3rd</main>
+    </action>
+    <action state="BROKEN_3RD" prevState="" loop="0">
+        <main speed=0.0000>3rd</main>
+    </action>
+    <action state="FALLEN" prevState="" loop="1">
+        <begin speed=0.0000>trans</begin>
+        <main speed=0.0000></main>
+    </action>
+</aim>

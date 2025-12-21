@@ -1,0 +1,338 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="intro_letter_Animation.xml" />
+  </properties>
+  <base type="WND" subclass="" name="Wnd">
+    <Visible val="True" />
+    <Anchor val="Top, Bottom, Left, Right" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="1024" b="768" />
+    <snd type="SHOW">
+    </snd>
+    <snd type="HIDE">
+    </snd>
+    <IsHitTestVisible val="True" />
+    <ClipChildren val="False" />
+    <child type="STACKPANEL" name="StackPanel" subclass="">
+      <Visible val="True" />
+      <Anchor val="Top, Bottom, Left, Right" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="1024" b="768" />
+      <Orientation val="Vertical" />
+      <HAlign val="Center" />
+      <VAlign val="Center" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <child type="PICTURE" name="img_intro_movie" subclass="">
+        <asset type="STATIC">
+        </asset>
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <pos x="0" y="0" />
+        <rect l="0" t="0" r="1024" b="768" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+    </child>
+    <child type="STACKPANEL" name="stack_letter" subclass="">
+      <Visible val="True" />
+      <Anchor val="Top, Bottom, Left, Right" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="1024" b="768" />
+      <Orientation val="Vertical" />
+      <HAlign val="Center" />
+      <VAlign val="Center" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <base type="WND" subclass="" name="wnd_intro_letter">
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <pos x="215" y="76" />
+        <rect l="0" t="0" r="593" b="616" />
+        <snd type="SHOW">
+        </snd>
+        <snd type="HIDE">
+        </snd>
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+        <child type="PICTURE" name="img_introletter_cat" subclass="">
+          <asset type="STATIC">img_introletter_cat.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="522" y="456" />
+          <rect l="0" t="0" r="72" b="146" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="img_introletter_sheep " subclass="">
+          <asset type="STATIC">img_introletter_sheep.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="-17" y="411" />
+          <rect l="0" t="0" r="84" b="180" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="img_introletter_starto" subclass="">
+          <asset type="STATIC">img_introletter_starto.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="506" y="271" />
+          <rect l="0" t="0" r="127" b="189" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="img_introletter_startohand_back" subclass="">
+          <asset type="STATIC">img_introletter_startohand_back.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="517" y="439" />
+          <rect l="0" t="0" r="31" b="34" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+        </child>
+        <base type="WND" subclass="" name="wnd_intro_letter_btn">
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <pos x="22" y="-2" />
+          <rect l="0" t="0" r="534" b="690" />
+          <snd type="SHOW">
+          </snd>
+          <snd type="HIDE">
+          </snd>
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="True" />
+          <child type="PICTURE" name="img_introletter_bg" subclass="">
+            <asset type="STATIC">img_introletter_bg.png</asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="29" y="72" />
+            <rect l="0" t="0" r="490" b="493" />
+            <center x="0" y="0" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+          </child>
+          <child type="PICTURE" name="img_introletter_bg1" subclass="">
+            <asset type="STATIC">img_introletter_bg.png</asset>
+            <Visible val="True" />
+            <Anchor val="None" />
+            <pos x="29" y="71" />
+            <rect l="0" t="0" r="490" b="493" />
+            <center x="0" y="0" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+            <child type="LABEL" name="lb_intro_letter_to" subclass="">
+              <label val="으하하하하님아" />
+              <pos x="51" y="70" />
+              <rect l="0" t="0" r="359" b="34" />
+              <Visible val="True" />
+              <Anchor val="None" />
+              <OutlineColor val="#FFFFFF" />
+              <ShadowColor val="#0000004C" />
+              <color val="#50280EFF" />
+              <halign val="0" />
+              <valign val="0" />
+              <FontName val="나눔고딕" />
+              <FontSize val="25" />
+              <TextTrimming val="None" />
+              <style val="1" />
+              <IsHitTestVisible val="False" />
+              <ClipChildren val="False" />
+              <Padding val="0, 0, 0, 0" />
+            </child>
+            <child type="TEXTAREA" name="ta_intro_letter_contents" subclass="">
+              <asset type="BG" path="" tileMode="Tile">
+                <tex x="0" y="0" />
+                <rect l="8" t="8" r="363" b="174" />
+              </asset>
+              <asset type="EDGE_LT" path="" tileMode="Tile">
+                <tex x="0" y="0" />
+                <rect l="0" t="0" r="8" b="8" />
+              </asset>
+              <asset type="EDGE_RT" path="" tileMode="Tile">
+                <tex x="0" y="0" />
+                <rect l="0" t="0" r="8" b="8" />
+              </asset>
+              <asset type="EDGE_LB" path="" tileMode="Tile">
+                <tex x="0" y="0" />
+                <rect l="0" t="0" r="8" b="8" />
+              </asset>
+              <asset type="EDGE_RB" path="" tileMode="Tile">
+                <tex x="0" y="0" />
+                <rect l="0" t="0" r="8" b="8" />
+              </asset>
+              <asset type="FRAME_T" path="" tileMode="Tile">
+                <tex x="0" y="0" />
+                <rect l="8" t="0" r="363" b="8" />
+              </asset>
+              <asset type="FRAME_B" path="" tileMode="Tile">
+                <tex x="0" y="0" />
+                <rect l="8" t="0" r="363" b="8" />
+              </asset>
+              <asset type="FRAME_L" path="" tileMode="Tile">
+                <tex x="0" y="0" />
+                <rect l="0" t="8" r="8" b="174" />
+              </asset>
+              <asset type="FRAME_R" path="" tileMode="Tile">
+                <tex x="0" y="0" />
+                <rect l="0" t="8" r="8" b="174" />
+              </asset>
+              <asset type="CARET" path="">
+                <rpos x="0" y="0" />
+                <rect l="0" t="0" r="0" b="0" />
+              </asset>
+              <pos x="52" y="105" />
+              <rect l="0" t="0" r="379" b="190" />
+              <Visible val="True" />
+              <Anchor val="None" />
+              <Editable val="False" />
+              <OutlineColor val="#FFFFFF" />
+              <ShadowColor val="#0000004C" />
+              <SelectionBrush val="#FF0000" />
+              <color val="#50280EFF" />
+              <style val="1" />
+              <halign val="0" />
+              <padding l="3" t="2" r="3" b="2" />
+              <FontName val="나눔고딕" />
+              <FontSize val="16" />
+              <IsHitTestVisible val="False" />
+              <ClipChildren val="False" />
+            </child>
+          </child>
+          <child type="ANIMBUTTON" name="btn_intro_letter" subclass="">
+            <asset type="GROUP">intro_letter_btn_intro_letter.xml</asset>
+            <asset type="NORMAL">
+            </asset>
+            <asset type="DOWN">
+            </asset>
+            <asset type="OVER">
+            </asset>
+            <asset type="DISABLE">
+            </asset>
+            <asset type="ENTER">
+            </asset>
+            <asset type="LEAVE">
+            </asset>
+            <snd type="OVER">ui_btn_menu_over </snd>
+            <snd type="DOWN">ui_btn_menu_click</snd>
+            <snd type="RELEASE">ui_btn_menu_release;ui_mating_fail_card_select</snd>
+            <pos x="211" y="348" />
+            <rect l="0" t="0" r="303" b="218" />
+            <Visible val="True" />
+            <IsHitTestVisible val="True" />
+            <ClipChildren val="False" />
+            <Anchor val="Top, Left" />
+            <IsDefaultButton val="False" />
+          </child>
+        </base>
+        <child type="PICTURE" name="img_introletter_string_top02" subclass="">
+          <asset type="STATIC">img_introletter_string_top02.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="351" y="-2" />
+          <rect l="0" t="0" r="55" b="39" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="img_introletter_string_botton" subclass="">
+          <asset type="STATIC">img_introletter_string_botton.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="224" y="591" />
+          <rect l="0" t="0" r="58" b="97" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="img_introletter_bg_top" subclass="">
+          <asset type="STATIC">img_introletter_bg_top.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="24" y="25" />
+          <rect l="0" t="0" r="515" b="59" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="img_introletter_bg_bottom" subclass="">
+          <asset type="STATIC">img_introletter_bg_bottom.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="52" y="553" />
+          <rect l="0" t="0" r="506" b="67" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="img_introletter_string_shadow" subclass="">
+          <asset type="STATIC">img_introletter_string_shadow.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="423" y="29" />
+          <rect l="0" t="0" r="79" b="167" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="img_introletter_string_top01" subclass="">
+          <asset type="STATIC">img_introletter_string_top01.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="406" y="-2" />
+          <rect l="0" t="0" r="92" b="187" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="img_introletter_seal" subclass="">
+          <asset type="STATIC">img_introletter_seal.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="402" y="42" />
+          <rect l="0" t="0" r="101" b="94" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="img_introletter_bg_disable" subclass="">
+          <asset type="STATIC">img_introletter_bg_disable.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="21" y="-5" />
+          <rect l="0" t="0" r="539" b="695" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="img_intro_effect" subclass="">
+          <asset type="ANIMATION">intro_letter_img_intro_effect.xml</asset>
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <pos x="55" y="27" />
+          <rect l="0" t="0" r="478" b="586" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+        </child>
+        <child type="PICTURE" name="img_introletter_startohand_front" subclass="">
+          <asset type="STATIC">img_introletter_startohand_front.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="515" y="446" />
+          <rect l="0" t="0" r="34" b="26" />
+          <center x="0" y="0" />
+          <IsHitTestVisible val="False" />
+          <ClipChildren val="False" />
+        </child>
+      </base>
+    </child>
+  </base>
+</refresh>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <event animation="00">
+        <function>PlaySND($asset, "camel2_voice", "", "-var 2")</function>
+        <time>0.3200</time>
+        <freq>100</freq>
+    </event>
+    <event animation="00">
+        <function>PlaySND($asset, "camel1_voice", "", "-var 4")</function>
+        <time>1.2600</time>
+        <freq>100</freq>
+    </event>
+    <event animation="00">
+        <function>PlaySND($asset, "camel2_voice", "", "-var 2")</function>
+        <time>2.2280</time>
+        <freq>100</freq>
+    </event>
+    <event animation="00">
+        <function>PlaySND($asset, "camel1_voice", "", "-var 4")</function>
+        <time>3.2320</time>
+        <freq>100</freq>
+    </event>
+    <action category="" state="G_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>00</main>
+    </action>
+</aim>

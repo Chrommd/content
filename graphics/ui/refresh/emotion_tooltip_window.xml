@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="emotion_tooltip_window_Animation.xml" />
+  </properties>
+  <base type="WND" subclass="" name="care_tip2">
+    <Visible val="True" />
+    <Anchor val="None" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="63" b="50" />
+    <base type="WNDEX" subclass="" name="bg_care_tip">
+      <asset type="BG" path="tooltip_d_04.png">
+        <tex x="11" y="4" />
+        <rect l="11" t="11" r="38" b="10" />
+      </asset>
+      <asset type="EDGE_LT" path="tooltip_d_00.png">
+        <tex x="11" y="11" />
+        <rect l="0" t="0" r="11" b="11" />
+      </asset>
+      <asset type="EDGE_RT" path="tooltip_d_02.png">
+        <tex x="14" y="11" />
+        <rect l="0" t="0" r="14" b="11" />
+      </asset>
+      <asset type="EDGE_LB" path="tooltip_d_06.png">
+        <tex x="11" y="20" />
+        <rect l="0" t="0" r="11" b="20" />
+      </asset>
+      <asset type="EDGE_RB" path="tooltip_d_08.png">
+        <tex x="14" y="20" />
+        <rect l="0" t="0" r="14" b="20" />
+      </asset>
+      <asset type="FRAME_T" path="tooltip_d_01.png">
+        <tex x="11" y="11" />
+        <rect l="11" t="0" r="38" b="11" />
+      </asset>
+      <asset type="FRAME_B" path="tooltip_d_07.png">
+        <tex x="11" y="20" />
+        <rect l="11" t="0" r="38" b="20" />
+      </asset>
+      <asset type="FRAME_L" path="tooltip_d_03.png">
+        <tex x="11" y="4" />
+        <rect l="0" t="11" r="11" b="10" />
+      </asset>
+      <asset type="FRAME_R" path="tooltip_d_05.png">
+        <tex x="14" y="4" />
+        <rect l="0" t="11" r="14" b="10" />
+      </asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="63" b="41" />
+      <Dragable val="False" />
+      <StartPosition val="None" />
+      <EscKeyAction val="None" />
+    </base>
+    <child type="PICTURE" name="bg_tip_line" subclass="">
+      <asset type="STATIC">tooltip_d_line.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="28" y="34" />
+      <rect l="0" t="0" r="8" b="16" />
+      <center x="0" y="0" />
+    </child>
+    <child type="TEXTAREA" name="txt_care_tip2" subclass="">
+      <asset type="BG" path="">
+        <tex x="0" y="0" />
+        <rect l="8" t="8" r="-5" b="2" />
+      </asset>
+      <asset type="EDGE_LT" path="">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_RT" path="">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_LB" path="">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_RB" path="">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="FRAME_T" path="">
+        <tex x="0" y="0" />
+        <rect l="8" t="0" r="-5" b="8" />
+      </asset>
+      <asset type="FRAME_B" path="">
+        <tex x="0" y="0" />
+        <rect l="8" t="0" r="-5" b="8" />
+      </asset>
+      <asset type="FRAME_L" path="">
+        <tex x="0" y="0" />
+        <rect l="0" t="8" r="8" b="2" />
+      </asset>
+      <asset type="FRAME_R" path="">
+        <tex x="0" y="0" />
+        <rect l="0" t="8" r="8" b="2" />
+      </asset>
+      <asset type="CARET" path="">
+        <rpos x="0" y="0" />
+        <rect l="0" t="0" r="0" b="0" />
+      </asset>
+      <pos x="41" y="8" />
+      <rect l="0" t="0" r="11" b="18" />
+      <Visible val="True" />
+      <Anchor val="None" />
+      <Editable val="False" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#291205" />
+      <SelectionBrush val="#FF0000" />
+      <color val="#E9FE38" />
+      <style val="32" />
+      <halign val="0" />
+      <padding l="0" t="0" r="0" b="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="13" />
+    </child>
+    <child type="PICTURE" name="icon_detail_emotion" subclass="">
+      <asset type="STATIC">
+      </asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="2" y="2" />
+      <rect l="0" t="0" r="31" b="31" />
+      <center x="0" y="0" />
+    </child>
+  </base>
+</refresh>

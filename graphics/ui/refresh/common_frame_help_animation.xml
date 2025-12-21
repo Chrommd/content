@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="_Opening_">
+    <asset type="UI" name="asset_wndex_common_help">
+      <rect l="0" t="0" r="519" b="402" />
+    </asset>
+    <object name="wndex_common_help" ani="ani_wndex_common_help">
+      <asset type="UI" link="asset_wndex_common_help" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_wndex_common_help">
+      <frame cnt="0">
+        <posx val="0.2460938" />
+        <posy val="0.2382813" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="300">
+        <posx val="0.2460938" />
+        <posy val="0.2382813" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Closing_">
+    <asset type="UI" name="asset_wndex_common_help">
+      <rect l="0" t="0" r="519" b="402" />
+    </asset>
+    <object name="wndex_common_help" ani="ani_wndex_common_help">
+      <asset type="UI" link="asset_wndex_common_help" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_wndex_common_help">
+      <frame cnt="0">
+        <posx val="0.2460938" />
+        <posy val="0.2382813" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="300">
+        <posx val="0.2460938" />
+        <posy val="0.2382813" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

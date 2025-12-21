@@ -1,0 +1,367 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <event animation="1st">
+        <function>PlayFX($asset, "ob_rcslink01_001", "BBOX", "-attach")</function>
+        <time>0.000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="1st">
+        <function>PlaySND($asset, "crash_stonebreak_impact", "BBOX", "-var 0")</function>
+        <time>0.000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="1st">
+        <function>RelayMsg($asset, "FadeOut", "-time 1")</function>
+        <time>0.553</time>
+        <freq>100</freq>
+    </event>
+    <event animation="1st">
+        <function>StopLoopFX($asset)</function>
+        <time>0.0000</time>
+        <freq>ONCE</freq>
+    </event>
+    <event animation="2nd">
+        <function>PlayFX($asset, "ob_rcslink01_001", "BBOX", "-attach")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="2nd">
+        <function>PlaySND($asset, "crash_stonebreak_impact", "BBOX", "-var 0")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="2nd">
+        <function>RelayMsg($asset, "FadeOut", "-time 1")</function>
+        <time>1.0547</time>
+        <freq>100</freq>
+    </event>
+    <event animation="2nd">
+        <function>StopLoopFX($asset)</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="3rd">
+        <function>PlayFX($asset, "ob_rcslink01_001", "BBOX", "-attach")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="3rd">
+        <function>PlaySND($asset, "crash_stonebreak_impact", "BBOX", "-var 0")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="3rd">
+        <function>RelayMsg($asset, "FadeOut", "-time 1")</function>
+        <time>1.1033</time>
+        <freq>100</freq>
+    </event>
+    <event animation="3rd">
+        <function>StopLoopFX($asset)</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="idle">
+        <function>StopLoopFX($asset)</function>
+        <time>0.0000</time>
+        <freq>ONCE</freq>
+    </event>
+    <dummy name="BBOX" parent="DummyRoot" sync="TRUE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>1.3000</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <action category="" state="BROKEN_1ST" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>1st</main>
+    </action>
+    <action category="" state="BROKEN_2ND" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>2nd</main>
+    </action>
+    <action category="" state="BROKEN_3RD" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>3rd</main>
+    </action>
+    <action category="" state="G_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>idle</main>
+    </action>
+    <boneScaleInfo type="C_Face" name="Opt_Bip01_HeadNub" min_x=98 min_y=97 min_z=97 max_x=109 max_y=114 max_z=114/>
+    <boneScaleInfo type="C_Face" name="Opt_Bip01_Spine1" min_x=100 min_y=100 min_z=100 max_x=100 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Face" name="Opt_Bip01_Spine2" min_x=100 min_y=100 min_z=100 max_x=100 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Face" name="Opt_Rig_Bone_L_Arm_Twist" min_x=100 min_y=100 min_z=100 max_x=100 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Face" name="Opt_Rig_Bone_R_Arm_Twist" min_x=100 min_y=100 min_z=100 max_x=100 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Shape" name="Opt_Bip01" min_x=82 min_y=100 min_z=100 max_x=100 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Shape" name="Opt_Bip01_Head" min_x=87 min_y=95 min_z=95 max_x=104 max_y=101 max_z=101/>
+    <boneScaleInfo type="C_Shape" name="Opt_Bip01_L_Calf" min_x=83 min_y=85 min_z=85 max_x=102 max_y=101 max_z=101/>
+    <boneScaleInfo type="C_Shape" name="Opt_Bip01_L_Finger0" min_x=87 min_y=100 min_z=100 max_x=100 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Shape" name="Opt_Bip01_L_Finger01" min_x=85 min_y=100 min_z=100 max_x=100 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Shape" name="Opt_Bip01_L_Finger0Nub" min_x=87 min_y=100 min_z=100 max_x=100 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Shape" name="Opt_Bip01_L_Finger1" min_x=85 min_y=100 min_z=100 max_x=100 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Shape" name="Opt_Bip01_L_Finger11" min_x=85 min_y=100 min_z=100 max_x=100 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Shape" name="Opt_Bip01_L_Finger1Nub" min_x=84 min_y=100 min_z=100 max_x=100 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Shape" name="Opt_Bip01_L_Finger2" min_x=85 min_y=100 min_z=100 max_x=100 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Shape" name="Opt_Bip01_L_Finger21" min_x=88 min_y=100 min_z=100 max_x=100 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Shape" name="Opt_Bip01_L_Finger2Nub" min_x=85 min_y=100 min_z=100 max_x=100 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Shape" name="Opt_Bip01_L_Foot" min_x=83 min_y=90 min_z=90 max_x=100 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Shape" name="Opt_Bip01_L_Forearm" min_x=91 min_y=100 min_z=100 max_x=101 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Shape" name="Opt_Bip01_L_Hand" min_x=79 min_y=100 min_z=100 max_x=101 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Shape" name="Opt_Bip01_L_Toe0" min_x=79 min_y=90 min_z=90 max_x=101 max_y=101 max_z=101/>
+    <boneScaleInfo type="C_Shape" name="Opt_Bip01_L_Toe0Nub" min_x=81 min_y=87 min_z=87 max_x=101 max_y=101 max_z=101/>
+    <boneScaleInfo type="C_Shape" name="Opt_Bip01_L_UpperArm" min_x=79 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Shape" name="Opt_Bip01_R_Calf" min_x=83 min_y=85 min_z=85 max_x=102 max_y=101 max_z=101/>
+    <boneScaleInfo type="C_Shape" name="Opt_Bip01_R_Finger0" min_x=87 min_y=100 min_z=100 max_x=100 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Shape" name="Opt_Bip01_R_Finger01" min_x=85 min_y=100 min_z=100 max_x=100 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Shape" name="Opt_Bip01_R_Finger0Nub" min_x=87 min_y=100 min_z=100 max_x=100 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Shape" name="Opt_Bip01_R_Finger1" min_x=85 min_y=100 min_z=100 max_x=100 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Shape" name="Opt_Bip01_R_Finger11" min_x=85 min_y=100 min_z=100 max_x=100 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Shape" name="Opt_Bip01_R_Finger1Nub" min_x=84 min_y=100 min_z=100 max_x=100 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Shape" name="Opt_Bip01_R_Finger2" min_x=85 min_y=100 min_z=100 max_x=100 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Shape" name="Opt_Bip01_R_Finger21" min_x=88 min_y=100 min_z=100 max_x=100 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Shape" name="Opt_Bip01_R_Finger2Nub" min_x=85 min_y=100 min_z=100 max_x=100 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Shape" name="Opt_Bip01_R_Foot" min_x=83 min_y=90 min_z=90 max_x=100 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Shape" name="Opt_Bip01_R_Forearm" min_x=91 min_y=100 min_z=100 max_x=101 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Shape" name="Opt_Bip01_R_Hand" min_x=79 min_y=100 min_z=100 max_x=101 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Shape" name="Opt_Bip01_R_Toe0" min_x=79 min_y=90 min_z=90 max_x=101 max_y=101 max_z=101/>
+    <boneScaleInfo type="C_Shape" name="Opt_Bip01_R_Toe0Nub" min_x=81 min_y=87 min_z=87 max_x=101 max_y=101 max_z=101/>
+    <boneScaleInfo type="C_Shape" name="Opt_Bip01_R_UpperArm" min_x=79 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Shape" name="Opt_Bip01_Spine" min_x=100 min_y=100 min_z=100 max_x=100 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Shape" name="Opt_Bip01_Spine1" min_x=83 min_y=100 min_z=100 max_x=101 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Shape" name="Opt_Bip01_Spine2" min_x=91 min_y=100 min_z=100 max_x=101 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Shape" name="Opt_Rig_Bone_L_Arm_Twist" min_x=85 min_y=100 min_z=100 max_x=101 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Shape" name="Opt_Rig_Bone_L_Arm_Twist01" min_x=84 min_y=100 min_z=100 max_x=102 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Shape" name="Opt_Rig_Bone_L_Breast_Nub" min_x=79 min_y=100 min_z=100 max_x=114 max_y=104 max_z=104/>
+    <boneScaleInfo type="C_Shape" name="Opt_Rig_Bone_L_HandCover_Base" min_x=100 min_y=100 min_z=100 max_x=100 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Shape" name="Opt_Rig_Bone_L_Knee" min_x=100 min_y=100 min_z=100 max_x=100 max_y=91 max_z=91/>
+    <boneScaleInfo type="C_Shape" name="Opt_Rig_Bone_L_Shoulder_Mid" min_x=79 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Shape" name="Opt_Rig_Bone_R_Arm_Twist" min_x=85 min_y=100 min_z=100 max_x=101 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Shape" name="Opt_Rig_Bone_R_Arm_Twist01" min_x=84 min_y=100 min_z=100 max_x=102 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Shape" name="Opt_Rig_Bone_R_Breast_Nub" min_x=79 min_y=100 min_z=100 max_x=114 max_y=104 max_z=104/>
+    <boneScaleInfo type="C_Shape" name="Opt_Rig_Bone_R_HandCover_Base" min_x=100 min_y=100 min_z=100 max_x=100 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Shape" name="Opt_Rig_Bone_R_Knee" min_x=100 min_y=100 min_z=100 max_x=100 max_y=91 max_z=91/>
+    <boneScaleInfo type="C_Shape" name="Opt_Rig_Bone_R_Shoulder_Mid" min_x=79 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="NODE_0" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Bip01" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Bip01_Head" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Bip01_HeadNub" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Bip01_L_Calf" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Bip01_L_Clavicle" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Bip01_L_Finger0" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Bip01_L_Finger01" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Bip01_L_Finger0Nub" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Bip01_L_Finger1" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Bip01_L_Finger11" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Bip01_L_Finger1Nub" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Bip01_L_Finger2" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Bip01_L_Finger21" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Bip01_L_Finger2Nub" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Bip01_L_Foot" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Bip01_L_Forearm" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Bip01_L_Hand" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Bip01_L_Thigh" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Bip01_L_Toe0" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Bip01_L_Toe0Nub" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Bip01_L_UpperArm" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Bip01_Neck" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Bip01_Pelvis" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Bip01_R_Calf" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Bip01_R_Clavicle" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Bip01_R_Finger0" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Bip01_R_Finger01" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Bip01_R_Finger0Nub" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Bip01_R_Finger1" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Bip01_R_Finger11" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Bip01_R_Finger1Nub" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Bip01_R_Finger2" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Bip01_R_Finger21" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Bip01_R_Finger2Nub" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Bip01_R_Foot" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Bip01_R_Forearm" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Bip01_R_Hand" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Bip01_R_Thigh" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Bip01_R_Toe0" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Bip01_R_Toe0Nub" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Bip01_R_UpperArm" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Bip01_Spine" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Bip01_Spine1" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Bip01_Spine2" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_CATRig_Backpack" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_CATRig_Skirt" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_CATRig_Skirt_Bone_BL" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_CATRig_Skirt_Bone_BLBone01" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_CATRig_Skirt_Bone_BR" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_CATRig_Skirt_Bone_BRBone01" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_CATRig_Skirt_Bone_FL" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_CATRig_Skirt_Bone_FLBone01" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_CATRig_Skirt_Bone_FR" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_CATRig_Skirt_Bone_FRBone01" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_CATRig_Skirt_Bone_ML" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_CATRig_Skirt_Bone_MLBone01" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_CATRig_Skirt_Bone_MR" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_CATRig_Skirt_Bone_MRBone01" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_DummyRoot_r00" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Rig_Bone_L_Arm_Twist" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Rig_Bone_L_Arm_Twist01" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Rig_Bone_L_Breast" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Rig_Bone_L_Breast_Nub" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Rig_Bone_L_Elbow" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Rig_Bone_L_HandCover" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Rig_Bone_L_HandCover_Base" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Rig_Bone_L_HandCover_Nub" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Rig_Bone_L_Knee" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Rig_Bone_L_Shoulder" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Rig_Bone_L_Shoulder_Mid" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Rig_Bone_L_Shoulder_Twist" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Rig_Bone_L_Thigh_Twist" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Rig_Bone_R_Arm_Twist" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Rig_Bone_R_Arm_Twist01" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Rig_Bone_R_Breast" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Rig_Bone_R_Breast_Nub" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Rig_Bone_R_Elbow" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Rig_Bone_R_HandCover" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Rig_Bone_R_HandCover_Base" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Rig_Bone_R_Knee" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Rig_Bone_R_Shoulder" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Rig_Bone_R_Shoulder_Mid" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Rig_Bone_R_Shoulder_Twist" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Rig_Bone_R_Thigh_Twist" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Rig_Bone_Wp0" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Rig_Bone_Wp1" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Rig_L_Bum" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Tall" name="Opt_Rig_R_Bum" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Volume" name="Opt_Bip01_L_Calf" min_x=100 min_y=96 min_z=97 max_x=100 max_y=114 max_z=114/>
+    <boneScaleInfo type="C_Volume" name="Opt_Bip01_L_Foot" min_x=100 min_y=94 min_z=95 max_x=100 max_y=115 max_z=113/>
+    <boneScaleInfo type="C_Volume" name="Opt_Bip01_L_Forearm" min_x=100 min_y=95 min_z=95 max_x=100 max_y=120 max_z=120/>
+    <boneScaleInfo type="C_Volume" name="Opt_Bip01_L_Hand" min_x=100 min_y=100 min_z=100 max_x=100 max_y=110 max_z=110/>
+    <boneScaleInfo type="C_Volume" name="Opt_Bip01_L_UpperArm" min_x=100 min_y=100 min_z=100 max_x=100 max_y=113 max_z=113/>
+    <boneScaleInfo type="C_Volume" name="Opt_Bip01_R_Calf" min_x=100 min_y=96 min_z=97 max_x=100 max_y=114 max_z=114/>
+    <boneScaleInfo type="C_Volume" name="Opt_Bip01_R_Foot" min_x=100 min_y=94 min_z=95 max_x=100 max_y=115 max_z=113/>
+    <boneScaleInfo type="C_Volume" name="Opt_Bip01_R_Forearm" min_x=100 min_y=95 min_z=95 max_x=100 max_y=120 max_z=120/>
+    <boneScaleInfo type="C_Volume" name="Opt_Bip01_R_Hand" min_x=100 min_y=100 min_z=100 max_x=100 max_y=110 max_z=110/>
+    <boneScaleInfo type="C_Volume" name="Opt_Bip01_R_UpperArm" min_x=100 min_y=100 min_z=100 max_x=100 max_y=113 max_z=113/>
+    <boneScaleInfo type="C_Volume" name="Opt_Bip01_Spine" min_x=100 min_y=97 min_z=97 max_x=100 max_y=100 max_z=100/>
+    <boneScaleInfo type="C_Volume" name="Opt_Bip01_Spine1" min_x=100 min_y=94 min_z=91 max_x=100 max_y=114 max_z=114/>
+    <boneScaleInfo type="C_Volume" name="Opt_Bip01_Spine2" min_x=100 min_y=88 min_z=83 max_x=100 max_y=116 max_z=116/>
+    <boneScaleInfo type="C_Volume" name="Opt_Rig_Bone_L_Arm_Twist" min_x=101 min_y=89 min_z=88 max_x=101 max_y=111 max_z=112/>
+    <boneScaleInfo type="C_Volume" name="Opt_Rig_Bone_L_Arm_Twist01" min_x=102 min_y=91 min_z=91 max_x=102 max_y=111 max_z=110/>
+    <boneScaleInfo type="C_Volume" name="Opt_Rig_Bone_L_Breast_Nub" min_x=97 min_y=97 min_z=97 max_x=123 max_y=123 max_z=123/>
+    <boneScaleInfo type="C_Volume" name="Opt_Rig_Bone_L_Knee" min_x=100 min_y=98 min_z=98 max_x=100 max_y=104 max_z=104/>
+    <boneScaleInfo type="C_Volume" name="Opt_Rig_Bone_R_Arm_Twist" min_x=101 min_y=89 min_z=88 max_x=101 max_y=111 max_z=112/>
+    <boneScaleInfo type="C_Volume" name="Opt_Rig_Bone_R_Arm_Twist01" min_x=102 min_y=91 min_z=91 max_x=102 max_y=111 max_z=110/>
+    <boneScaleInfo type="C_Volume" name="Opt_Rig_Bone_R_Breast_Nub" min_x=97 min_y=97 min_z=97 max_x=123 max_y=123 max_z=123/>
+    <boneScaleInfo type="C_Volume" name="Opt_Rig_Bone_R_Knee" min_x=100 min_y=98 min_z=98 max_x=100 max_y=104 max_z=104/>
+    <boneScaleInfo type="M_L_Body" name="Opt_ArmorFront" min_x=96 min_y=100 min_z=100 max_x=100 max_y=100 max_z=100/>
+    <boneScaleInfo type="M_L_Body" name="Opt_ColtNeck1" min_x=96 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="M_L_Body" name="Opt_ColtNeck2" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="M_L_Body" name="Opt_ColtNeck3" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="M_L_Body" name="Opt_ColtNeck4" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="M_L_Body" name="Opt_ColtNeck5" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="M_L_Body" name="Opt_ColtNeckSkn01" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="M_L_Body" name="Opt_ColtNeckSkn02" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="M_L_Body" name="Opt_ColtNeckSkn03" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="M_L_Body" name="Opt_ColtSpine2" min_x=97 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="M_L_Body" name="Opt_ColtSpine3" min_x=97 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="M_L_Body" name="Opt_ColtSpine4" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="M_L_Body" name="Opt_HorseNeck1" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="M_L_Body" name="Opt_HorseNeck2" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="M_L_Body" name="Opt_HorseNeck3" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="M_L_Body" name="Opt_HorseNeck4" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="M_L_Body" name="Opt_HorseNeck5" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="M_L_Body" name="Opt_HorseNeck6" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="M_L_Body" name="Opt_HorseNeckSkn03" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="M_L_Body" name="Opt_HorseNeckSkn03_Correction_Lower" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="M_L_Body" name="Opt_HorseNeckSkn03_Correction_Upper" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="M_L_Body" name="Opt_HorseSkull" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="M_L_Body" name="Opt_HorseSpine2" min_x=95 min_y=100 min_z=100 max_x=103 max_y=100 max_z=100/>
+    <boneScaleInfo type="M_L_Body" name="Opt_HorseSpine3" min_x=94 min_y=100 min_z=100 max_x=102 max_y=100 max_z=100/>
+    <boneScaleInfo type="M_L_Body" name="Opt_HorseSpine4" min_x=95 min_y=100 min_z=100 max_x=102 max_y=100 max_z=100/>
+    <boneScaleInfo type="M_L_Body" name="Opt_Rig_Point_HorseNeckSkn02_Root" min_x=96 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="M_L_Body" name="Opt_Rig_Point_HorseNeckSkn03_Root" min_x=95 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="M_L_Leg" name="Opt_ColtCenterControl" min_x=90 min_y=100 min_z=100 max_x=102 max_y=100 max_z=100/>
+    <boneScaleInfo type="M_L_Leg" name="Opt_ColtFrontLMetacarpus" min_x=87 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="M_L_Leg" name="Opt_ColtFrontLPhalangesManus" min_x=85 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="M_L_Leg" name="Opt_ColtFrontRMetacarpus" min_x=87 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="M_L_Leg" name="Opt_ColtFrontRPhalangesManus" min_x=85 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="M_L_Leg" name="Opt_ColtLLargeCannon" min_x=91 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="M_L_Leg" name="Opt_ColtLPhalanxPrima" min_x=90 min_y=100 min_z=100 max_x=103 max_y=100 max_z=100/>
+    <boneScaleInfo type="M_L_Leg" name="Opt_ColtLTibia" min_x=90 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="M_L_Leg" name="Opt_ColtRLargeCannon" min_x=91 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="M_L_Leg" name="Opt_ColtRPhalanxPrima" min_x=90 min_y=100 min_z=100 max_x=103 max_y=100 max_z=100/>
+    <boneScaleInfo type="M_L_Leg" name="Opt_ColtRTibia" min_x=90 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="M_L_Leg" name="Opt_HorseCenterControl" min_x=87 min_y=100 min_z=100 max_x=100 max_y=100 max_z=100/>
+    <boneScaleInfo type="M_L_Leg" name="Opt_HorseLLargeCannon" min_x=84 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="M_L_Leg" name="Opt_HorseLMetacarpus" min_x=85 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="M_L_Leg" name="Opt_HorseLPhalangesManus" min_x=85 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="M_L_Leg" name="Opt_HorseLPhalanxPrima" min_x=85 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="M_L_Leg" name="Opt_HorseRLargeCannon" min_x=84 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="M_L_Leg" name="Opt_HorseRMetacarpus" min_x=85 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="M_L_Leg" name="Opt_HorseRPhalangesManus" min_x=85 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="M_L_Leg" name="Opt_HorseRPhalanxPrima" min_x=85 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="M_L_Leg" name="Opt_Rig_Point_FixPelvis" min_x=97 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="M_V_Body" name="Opt_ArmorFront" min_x=100 min_y=91 min_z=100 max_x=100 max_y=115 max_z=100/>
+    <boneScaleInfo type="M_V_Body" name="Opt_ColtFrontLHumerus" min_x=100 min_y=95 min_z=100 max_x=100 max_y=116 max_z=100/>
+    <boneScaleInfo type="M_V_Body" name="Opt_ColtFrontLRadius" min_x=100 min_y=94 min_z=100 max_x=100 max_y=115 max_z=100/>
+    <boneScaleInfo type="M_V_Body" name="Opt_ColtFrontRHumerus" min_x=100 min_y=95 min_z=100 max_x=100 max_y=116 max_z=100/>
+    <boneScaleInfo type="M_V_Body" name="Opt_ColtFrontRRadius" min_x=100 min_y=94 min_z=100 max_x=100 max_y=115 max_z=100/>
+    <boneScaleInfo type="M_V_Body" name="Opt_ColtJaw" min_x=100 min_y=97 min_z=100 max_x=100 max_y=104 max_z=100/>
+    <boneScaleInfo type="M_V_Body" name="Opt_ColtLFemur" min_x=100 min_y=91 min_z=100 max_x=100 max_y=116 max_z=100/>
+    <boneScaleInfo type="M_V_Body" name="Opt_ColtLTibia" min_x=100 min_y=95 min_z=100 max_x=100 max_y=110 max_z=100/>
+    <boneScaleInfo type="M_V_Body" name="Opt_ColtLip_Lower" min_x=100 min_y=97 min_z=100 max_x=100 max_y=104 max_z=100/>
+    <boneScaleInfo type="M_V_Body" name="Opt_ColtLip_Upper" min_x=100 min_y=96 min_z=100 max_x=100 max_y=104 max_z=100/>
+    <boneScaleInfo type="M_V_Body" name="Opt_ColtNeckSkn01" min_x=100 min_y=96 min_z=100 max_x=100 max_y=111 max_z=100/>
+    <boneScaleInfo type="M_V_Body" name="Opt_ColtNeckSkn02" min_x=100 min_y=95 min_z=100 max_x=100 max_y=110 max_z=100/>
+    <boneScaleInfo type="M_V_Body" name="Opt_ColtNeckSkn05" min_x=100 min_y=95 min_z=100 max_x=100 max_y=109 max_z=100/>
+    <boneScaleInfo type="M_V_Body" name="Opt_ColtRFemur" min_x=100 min_y=91 min_z=100 max_x=100 max_y=116 max_z=100/>
+    <boneScaleInfo type="M_V_Body" name="Opt_ColtRTibia" min_x=100 min_y=95 min_z=100 max_x=100 max_y=110 max_z=100/>
+    <boneScaleInfo type="M_V_Body" name="Opt_ColtSpine2" min_x=100 min_y=94 min_z=100 max_x=100 max_y=112 max_z=100/>
+    <boneScaleInfo type="M_V_Body" name="Opt_ColtSpine3" min_x=100 min_y=91 min_z=100 max_x=100 max_y=114 max_z=100/>
+    <boneScaleInfo type="M_V_Body" name="Opt_ColtSpine4" min_x=100 min_y=96 min_z=100 max_x=100 max_y=110 max_z=100/>
+    <boneScaleInfo type="M_V_Body" name="Opt_ColtTail1" min_x=100 min_y=91 min_z=100 max_x=100 max_y=114 max_z=100/>
+    <boneScaleInfo type="M_V_Body" name="Opt_HorseEyeCtrl_l" min_x=98 min_y=100 min_z=100 max_x=100 max_y=100 max_z=100/>
+    <boneScaleInfo type="M_V_Body" name="Opt_HorseEyeCtrl_r" min_x=98 min_y=100 min_z=100 max_x=100 max_y=100 max_z=100/>
+    <boneScaleInfo type="M_V_Body" name="Opt_HorseJaw" min_x=100 min_y=100 min_z=100 max_x=100 max_y=100 max_z=100/>
+    <boneScaleInfo type="M_V_Body" name="Opt_HorseLHumerus" min_x=100 min_y=90 min_z=100 max_x=100 max_y=116 max_z=100/>
+    <boneScaleInfo type="M_V_Body" name="Opt_HorseLRadius" min_x=100 min_y=91 min_z=100 max_x=100 max_y=114 max_z=100/>
+    <boneScaleInfo type="M_V_Body" name="Opt_HorseLip_Lower" min_x=100 min_y=94 min_z=96 max_x=100 max_y=102 max_z=101/>
+    <boneScaleInfo type="M_V_Body" name="Opt_HorseLip_Upper" min_x=102 min_y=100 min_z=100 max_x=101 max_y=100 max_z=100/>
+    <boneScaleInfo type="M_V_Body" name="Opt_HorseRHumerus" min_x=100 min_y=90 min_z=100 max_x=100 max_y=116 max_z=100/>
+    <boneScaleInfo type="M_V_Body" name="Opt_HorseRRadius" min_x=100 min_y=91 min_z=100 max_x=100 max_y=114 max_z=100/>
+    <boneScaleInfo type="M_V_Body" name="Opt_HorseSpine2" min_x=100 min_y=100 min_z=100 max_x=100 max_y=100 max_z=100/>
+    <boneScaleInfo type="M_V_Body" name="Opt_HorseSpine3" min_x=100 min_y=100 min_z=100 max_x=100 max_y=100 max_z=100/>
+    <boneScaleInfo type="M_V_Body" name="Opt_HorseSpine4" min_x=100 min_y=100 min_z=100 max_x=100 max_y=100 max_z=100/>
+    <boneScaleInfo type="M_V_Body" name="Opt_Rig_Point_TailLink" min_x=100 min_y=95 min_z=100 max_x=100 max_y=104 max_z=100/>
+    <boneScaleInfo type="M_V_Leg" name="Opt_ColtFrontLMetacarpus" min_x=100 min_y=90 min_z=90 max_x=100 max_y=114 max_z=114/>
+    <boneScaleInfo type="M_V_Leg" name="Opt_ColtFrontLPhalangesManus" min_x=100 min_y=89 min_z=89 max_x=100 max_y=113 max_z=114/>
+    <boneScaleInfo type="M_V_Leg" name="Opt_ColtFrontLRadius" min_x=100 min_y=90 min_z=90 max_x=100 max_y=110 max_z=110/>
+    <boneScaleInfo type="M_V_Leg" name="Opt_ColtFrontRMetacarpus" min_x=100 min_y=90 min_z=90 max_x=100 max_y=114 max_z=114/>
+    <boneScaleInfo type="M_V_Leg" name="Opt_ColtFrontRPhalangesManus" min_x=100 min_y=89 min_z=89 max_x=100 max_y=113 max_z=114/>
+    <boneScaleInfo type="M_V_Leg" name="Opt_ColtFrontRRadius" min_x=100 min_y=90 min_z=90 max_x=100 max_y=110 max_z=110/>
+    <boneScaleInfo type="M_V_Leg" name="Opt_ColtLFemur" min_x=100 min_y=95 min_z=94 max_x=100 max_y=109 max_z=112/>
+    <boneScaleInfo type="M_V_Leg" name="Opt_ColtLLargeCannon" min_x=100 min_y=91 min_z=91 max_x=100 max_y=115 max_z=114/>
+    <boneScaleInfo type="M_V_Leg" name="Opt_ColtLPhalanxPrima" min_x=100 min_y=91 min_z=91 max_x=100 max_y=115 max_z=115/>
+    <boneScaleInfo type="M_V_Leg" name="Opt_ColtLTibia" min_x=100 min_y=91 min_z=91 max_x=100 max_y=114 max_z=111/>
+    <boneScaleInfo type="M_V_Leg" name="Opt_ColtRFemur" min_x=100 min_y=95 min_z=94 max_x=100 max_y=109 max_z=112/>
+    <boneScaleInfo type="M_V_Leg" name="Opt_ColtRLargeCannon" min_x=100 min_y=91 min_z=91 max_x=100 max_y=115 max_z=114/>
+    <boneScaleInfo type="M_V_Leg" name="Opt_ColtRPhalanxPrima" min_x=100 min_y=91 min_z=91 max_x=100 max_y=115 max_z=115/>
+    <boneScaleInfo type="M_V_Leg" name="Opt_ColtRTibia" min_x=100 min_y=91 min_z=91 max_x=100 max_y=114 max_z=111/>
+    <boneScaleInfo type="M_V_Leg" name="Opt_HorseLFemur" min_x=100 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="M_V_Leg" name="Opt_HorseLFrontHoof" min_x=100 min_y=90 min_z=91 max_x=100 max_y=110 max_z=110/>
+    <boneScaleInfo type="M_V_Leg" name="Opt_HorseLHumerus" min_x=100 min_y=100 min_z=100 max_x=102 max_y=100 max_z=100/>
+    <boneScaleInfo type="M_V_Leg" name="Opt_HorseLLargeCannon" min_x=100 min_y=81 min_z=84 max_x=100 max_y=113 max_z=112/>
+    <boneScaleInfo type="M_V_Leg" name="Opt_HorseLMetacarpus" min_x=100 min_y=79 min_z=79 max_x=100 max_y=100 max_z=100/>
+    <boneScaleInfo type="M_V_Leg" name="Opt_HorseLPhalangesManus" min_x=100 min_y=84 min_z=84 max_x=100 max_y=100 max_z=100/>
+    <boneScaleInfo type="M_V_Leg" name="Opt_HorseLPhalanxPrima" min_x=100 min_y=83 min_z=84 max_x=100 max_y=109 max_z=104/>
+    <boneScaleInfo type="M_V_Leg" name="Opt_HorseLRadius" min_x=100 min_y=84 min_z=96 max_x=100 max_y=100 max_z=100/>
+    <boneScaleInfo type="M_V_Leg" name="Opt_HorseLRearHoof" min_x=100 min_y=91 min_z=91 max_x=100 max_y=110 max_z=110/>
+    <boneScaleInfo type="M_V_Leg" name="Opt_HorseLScapula" min_x=100 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="M_V_Leg" name="Opt_HorseRFemur" min_x=100 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+    <boneScaleInfo type="M_V_Leg" name="Opt_HorseRFrontHoof" min_x=100 min_y=90 min_z=91 max_x=100 max_y=110 max_z=110/>
+    <boneScaleInfo type="M_V_Leg" name="Opt_HorseRHumerus" min_x=100 min_y=100 min_z=100 max_x=102 max_y=100 max_z=100/>
+    <boneScaleInfo type="M_V_Leg" name="Opt_HorseRLargeCannon" min_x=100 min_y=81 min_z=84 max_x=100 max_y=113 max_z=112/>
+    <boneScaleInfo type="M_V_Leg" name="Opt_HorseRMetacarpus" min_x=100 min_y=79 min_z=79 max_x=100 max_y=100 max_z=100/>
+    <boneScaleInfo type="M_V_Leg" name="Opt_HorseRPhalangesManus" min_x=100 min_y=84 min_z=84 max_x=100 max_y=100 max_z=100/>
+    <boneScaleInfo type="M_V_Leg" name="Opt_HorseRPhalanxPrima" min_x=100 min_y=83 min_z=84 max_x=100 max_y=109 max_z=104/>
+    <boneScaleInfo type="M_V_Leg" name="Opt_HorseRRadius" min_x=100 min_y=84 min_z=96 max_x=100 max_y=100 max_z=100/>
+    <boneScaleInfo type="M_V_Leg" name="Opt_HorseRRearHoof" min_x=100 min_y=91 min_z=91 max_x=100 max_y=110 max_z=110/>
+    <boneScaleInfo type="M_V_Leg" name="Opt_HorseRScapula" min_x=100 min_y=100 min_z=100 max_x=104 max_y=100 max_z=100/>
+</aim>

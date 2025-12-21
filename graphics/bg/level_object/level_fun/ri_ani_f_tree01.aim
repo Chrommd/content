@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <AABB animation="2nd_00">
+        <minX>-0.0145</minX>
+        <minY>-0.0000</minY>
+        <minZ>0.0000</minZ>
+        <maxX>0.0120</maxX>
+        <maxY>0.0000</maxY>
+        <maxZ>0.0239</maxZ>
+    </AABB>
+    <AABB animation="3rd_00">
+        <minX>-0.0145</minX>
+        <minY>0.0000</minY>
+        <minZ>0.0000</minZ>
+        <maxX>0.0120</maxX>
+        <maxY>0.0000</maxY>
+        <maxZ>0.0239</maxZ>
+    </AABB>
+    <event animation="2nd_00">
+        <function>PlayFX($asset, "ob_tree_crash_a", "tree01", "")</function>
+        <time>0.0000</time>
+        <type>NORMAL</type>
+    </event>
+    <event animation="2nd_00">
+        <function>RelayMsg($asset, "FadeOut", "-time 1")</function>
+        <time>0.9520</time>
+        <type>NORMAL</type>
+    </event>
+    <event animation="2nd_00">
+        <function>PlaySND($asset, "crash_tree01_", "tree01", "-var 2")</function>
+        <time>0.0427</time>
+        <type>NORMAL</type>
+    </event>
+    <event animation="3rd_00">
+        <function>PlayFX($asset, "ob_tree_crash_a", "tree01", "")</function>
+        <time>0.0000</time>
+        <type>NORMAL</type>
+    </event>
+    <event animation="3rd_00">
+        <function>RelayMsg($asset, "FadeOut", "-time 1")</function>
+        <time>0.4611</time>
+        <type>NORMAL</type>
+    </event>
+    <event animation="3rd_00">
+        <function>PlaySND($asset, "crash_tree01_", "tree01", "-var 2")</function>
+        <time>0.0000</time>
+        <type>NORMAL</type>
+    </event>
+    <dummy name="tree01" parent="DummyRoot" sync="FALSE">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>1.9664</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <action state="BROKEN_1ST" loop="0" poskey="" rotkey="">
+        <main>2nd_00</main>
+    </action>
+    <action state="BROKEN_2ND" loop="0" poskey="" rotkey="">
+        <main>2nd_00</main>
+    </action>
+    <action state="BROKEN_3RD" loop="0" poskey="" rotkey="">
+        <main>3rd_00</main>
+    </action>
+</aim>

@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+  </properties>
+  <base type="WND" subclass="" name="Wnd_grow_skill">
+    <Visible val="True" />
+    <Anchor val="Top, Left" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="185" b="83" />
+    <IsHitTestVisible val="True" />
+    <ClipChildren val="False" />
+    <base type="WNDEX" subclass="" name="WndEx_grow_skill">
+      <asset type="BG" path="frame_subpopup_CenterMiddle.png">
+        <tex x="4" y="4" />
+        <rect l="9" t="9" r="167" b="65" />
+      </asset>
+      <asset type="EDGE_LT" path="frame_subpopup_LeftTop.png">
+        <tex x="9" y="9" />
+        <rect l="0" t="0" r="9" b="9" />
+      </asset>
+      <asset type="EDGE_RT" path="frame_subpopup_RightTop.png">
+        <tex x="9" y="9" />
+        <rect l="0" t="0" r="9" b="9" />
+      </asset>
+      <asset type="EDGE_LB" path="frame_subpopup_LeftBottom.png">
+        <tex x="9" y="9" />
+        <rect l="0" t="0" r="9" b="9" />
+      </asset>
+      <asset type="EDGE_RB" path="frame_subpopup_RightBottom.png">
+        <tex x="9" y="9" />
+        <rect l="0" t="0" r="9" b="9" />
+      </asset>
+      <asset type="FRAME_T" path="frame_subpopup_CenterTop.png">
+        <tex x="4" y="9" />
+        <rect l="9" t="0" r="167" b="9" />
+      </asset>
+      <asset type="FRAME_B" path="frame_subpopup_CenterBottom.png">
+        <tex x="4" y="9" />
+        <rect l="9" t="0" r="167" b="9" />
+      </asset>
+      <asset type="FRAME_L" path="frame_subpopup_LeftMiddle.png">
+        <tex x="9" y="4" />
+        <rect l="0" t="9" r="9" b="65" />
+      </asset>
+      <asset type="FRAME_R" path="frame_subpopup_RightMiddle.png">
+        <tex x="9" y="4" />
+        <rect l="0" t="9" r="9" b="65" />
+      </asset>
+      <Visible val="True" />
+      <Anchor val="Top, Bottom, Left, Right" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="185" b="83" />
+      <Dragable val="False" />
+      <StartPosition val="None" />
+      <EscKeyAction val="None" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <child type="LABEL" name="lb_grow_skill_name" subclass="">
+        <label val="" />
+        <pos x="7" y="10" />
+        <rect l="0" t="0" r="170" b="28" />
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#FF0000" />
+        <color val="#000000" />
+        <halign val="0" />
+        <valign val="0" />
+        <FontName val="나눔고딕" />
+        <FontSize val="12" />
+        <TextTrimming val="None" />
+        <FontName val="나눔고딕" />
+        <IsHitTestVisible val="False" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="LABEL" name="lb_grow_skill_cmt" subclass="">
+        <label val="" />
+        <pos x="7" y="46" />
+        <rect l="0" t="0" r="170" b="28" />
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#FF0000" />
+        <color val="#000000" />
+        <halign val="0" />
+        <valign val="0" />
+        <FontName val="나눔고딕" />
+        <FontSize val="12" />
+        <TextTrimming val="None" />
+        <FontName val="나눔고딕" />
+        <IsHitTestVisible val="False" />
+        <ClipChildren val="False" />
+      </child>
+      <child type="PICTURE" name="img_grow_skill_tooltip_line" subclass="">
+        <asset type="STATIC">img_grow_skill_tooltip_line.png</asset>
+        <Visible val="True" />
+        <Anchor val="None" />
+        <pos x="9" y="42" />
+        <rect l="0" t="0" r="170" b="1" />
+        <center x="0" y="0" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </child>
+    </base>
+  </base>
+</refresh>

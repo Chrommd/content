@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="NORMAL">
+    <asset type="IMAGE" name="asset_btn_equip_n" path="btn_inven_equip_n.png">
+      <rect l="0" t="0" r="133" b="42" />
+    </asset>
+    <asset type="IMAGE" name="asset_icon_equip" path="icon_equip1.png">
+      <rect l="0" t="0" r="26" b="26" />
+    </asset>
+    <object name="btn_equip_n" ani="ani_btn_equip_n">
+      <asset type="IMAGE" link="asset_btn_equip_n" />
+    </object>
+    <object name="icon_equip" ani="ani_icon_equip">
+      <asset type="IMAGE" link="asset_icon_equip" />
+    </object>
+    <param type="RES" x="133" y="42" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_btn_equip_n">
+      <frame cnt="0">
+        <posx val="0.496240601503759" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_equip">
+      <frame cnt="0">
+        <posx val="0.0451127819548872" />
+        <posy val="0.19047619047619" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="OVER">
+    <asset type="IMAGE" name="asset_btn_equip_n" path="btn_inven_equip_n.png">
+      <rect l="0" t="0" r="133" b="42" />
+    </asset>
+    <asset type="IMAGE" name="asset_btn_equip_o" path="btn_buy_o.png">
+      <rect l="0" t="0" r="80" b="33" />
+    </asset>
+    <asset type="IMAGE" name="asset_icon_equip" path="icon_equip1.png">
+      <rect l="0" t="0" r="26" b="26" />
+    </asset>
+    <object name="btn_equip_n" ani="ani_btn_equip_n">
+      <asset type="IMAGE" link="asset_btn_equip_n" />
+    </object>
+    <object name="btn_equip_o" ani="ani_btn_equip_o">
+      <asset type="IMAGE" link="asset_btn_equip_o" />
+    </object>
+    <object name="icon_equip" ani="ani_icon_equip">
+      <asset type="IMAGE" link="asset_icon_equip" />
+    </object>
+    <param type="RES" x="133" y="42" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_btn_equip_n">
+      <frame cnt="0">
+        <posx val="0.496240601503759" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+    <anim name="ani_btn_equip_o">
+      <frame cnt="0">
+        <posx val="0.496240601503759" />
+        <posy val="0.5" />
+        <scalex val="1.6625" />
+        <scaley val="1.272727" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="233">
+        <posx val="0.496240601503759" easeValue="0.5,0.0,0.5,1.0" />
+        <posy val="0.5" easeValue="0.5,0.0,0.5,1.0" />
+        <scalex val="1.6625" />
+        <scaley val="1.272727" />
+        <alpha val="1" easeValue="0.5,0.0,0.5,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_equip">
+      <frame cnt="0">
+        <posx val="0.0451127819548872" />
+        <posy val="0.19047619047619" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="DOWN">
+    <asset type="IMAGE" name="asset_btn_equip_d" path="btn_inven_equip_d.png">
+      <rect l="0" t="0" r="133" b="42" />
+    </asset>
+    <asset type="IMAGE" name="asset_icon_equip" path="icon_equip1.png">
+      <rect l="0" t="0" r="26" b="26" />
+    </asset>
+    <object name="btn_equip_d" ani="ani_btn_equip_d">
+      <asset type="IMAGE" link="asset_btn_equip_d" />
+    </object>
+    <object name="icon_equip" ani="ani_icon_equip">
+      <asset type="IMAGE" link="asset_icon_equip" />
+    </object>
+    <param type="RES" x="133" y="42" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_btn_equip_d">
+      <frame cnt="0">
+        <posx val="0.496240601503759" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.8" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="200">
+        <posx val="0.496240601503759" easeValue="0.5,0.0,0.5,1.0" />
+        <posy val="0.5" easeValue="0.5,0.0,0.5,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.5,0.0,0.5,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_equip">
+      <frame cnt="0">
+        <posx val="0.0451127819548872" />
+        <posy val="0.19047619047619" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.5" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="DISABLE">
+    <asset type="IMAGE" name="asset_btn_equip_dis" path="btn_inven_equip_dis.png">
+      <rect l="0" t="0" r="133" b="42" />
+    </asset>
+    <asset type="IMAGE" name="asset_icon_equip" path="icon_equip1.png">
+      <rect l="0" t="0" r="26" b="26" />
+    </asset>
+    <object name="btn_equip_dis" ani="ani_btn_equip_dis">
+      <asset type="IMAGE" link="asset_btn_equip_dis" />
+    </object>
+    <object name="icon_equip" ani="ani_icon_equip">
+      <asset type="IMAGE" link="asset_icon_equip" />
+    </object>
+    <param type="RES" x="133" y="42" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_btn_equip_dis">
+      <frame cnt="0">
+        <posx val="0.4962406" />
+        <posy val="0.5" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.8" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_equip">
+      <frame cnt="0">
+        <posx val="0.05263158" />
+        <posy val="0.1666667" />
+        <scalex val="1.153846" />
+        <scaley val="1.038462" />
+        <alpha val="0.5" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="233">
+        <posx val="0.0451127819548872" />
+        <posy val="0.19047619047619" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.5" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="ingame_guildrace_window_Animation.xml" />
+  </properties>
+  <base type="WND" subclass="" name="Wnd">
+    <Visible val="True" />
+    <Anchor val="Top, Left" />
+    <pos x="10" y="10" />
+    <rect l="0" t="0" r="86" b="25" />
+    <IsHitTestVisible val="True" />
+    <child type="PICTURE" name="ingame_guild_iconbg" subclass="">
+      <asset type="STATIC">ingame_guild_iconbg.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="86" b="25" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+    </child>
+    <child type="PICTURE" name="ingame_guild_icon4" subclass="">
+      <asset type="STATIC">ingame_guild_icon.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="60" y="0" />
+      <rect l="0" t="0" r="26" b="25" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+    </child>
+    <child type="PICTURE" name="ingame_guild_icon3" subclass="">
+      <asset type="STATIC">ingame_guild_icon.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="40" y="0" />
+      <rect l="0" t="0" r="26" b="25" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+    </child>
+    <child type="PICTURE" name="ingame_guild_icon2" subclass="">
+      <asset type="STATIC">ingame_guild_icon.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="20" y="0" />
+      <rect l="0" t="0" r="26" b="25" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+    </child>
+    <child type="PICTURE" name="ingame_guild_icon1" subclass="">
+      <asset type="STATIC">ingame_guild_icon.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="26" b="25" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+    </child>
+  </base>
+</refresh>

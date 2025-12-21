@@ -1,0 +1,431 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+  </properties>
+  <base type="WNDEX" subclass="" name="WndEx">
+    <asset type="BG" path="login_edit_04.png" tileMode="Tile">
+      <tex x="10" y="6" />
+      <rect l="10" t="10" r="844" b="466" />
+    </asset>
+    <asset type="EDGE_LT" path="login_edit_00.png" tileMode="Tile">
+      <tex x="10" y="10" />
+      <rect l="0" t="0" r="10" b="10" />
+    </asset>
+    <asset type="EDGE_RT" path="login_edit_02.png" tileMode="Tile">
+      <tex x="10" y="10" />
+      <rect l="0" t="0" r="10" b="10" />
+    </asset>
+    <asset type="EDGE_LB" path="login_edit_06.png" tileMode="Tile">
+      <tex x="10" y="10" />
+      <rect l="0" t="0" r="10" b="10" />
+    </asset>
+    <asset type="EDGE_RB" path="login_edit_08.png" tileMode="Tile">
+      <tex x="10" y="10" />
+      <rect l="0" t="0" r="10" b="10" />
+    </asset>
+    <asset type="FRAME_T" path="login_edit_01.png" tileMode="Tile">
+      <tex x="10" y="10" />
+      <rect l="10" t="0" r="844" b="10" />
+    </asset>
+    <asset type="FRAME_B" path="login_edit_07.png" tileMode="Tile">
+      <tex x="10" y="10" />
+      <rect l="10" t="0" r="844" b="10" />
+    </asset>
+    <asset type="FRAME_L" path="login_edit_03.png" tileMode="Tile">
+      <tex x="10" y="6" />
+      <rect l="0" t="10" r="10" b="466" />
+    </asset>
+    <asset type="FRAME_R" path="login_edit_05.png" tileMode="Tile">
+      <tex x="10" y="6" />
+      <rect l="0" t="10" r="10" b="466" />
+    </asset>
+    <Visible val="True" />
+    <Anchor val="Top, Left" />
+    <pos x="95" y="117" />
+    <rect l="0" t="0" r="864" b="486" />
+    <snd type="SHOW">
+    </snd>
+    <snd type="HIDE">
+    </snd>
+    <Dragable val="True" />
+    <StartPosition val="None" />
+    <EscKeyAction val="None" />
+    <IsHitTestVisible val="True" />
+    <ClipChildren val="False" />
+    <child type="BUTTON" subclass="" name="btn_cancel">
+      <asset type="NORMAL">btn_makeroom_n.png</asset>
+      <asset type="DOWN">btn_makeroom_d.png</asset>
+      <asset type="OVER">btn_makeroom_dis.png</asset>
+      <asset type="DISABLE">btn_makeroom_d.png</asset>
+      <snd type="OVER">
+      </snd>
+      <snd type="DOWN">
+      </snd>
+      <snd type="RELEASE">
+      </snd>
+      <pos x="307" y="414" />
+      <rect l="0" t="0" r="125" b="39" />
+      <Visible val="True" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <Anchor val="Top, Left" />
+      <IsDefaultButton val="False" />
+      <child type="LABEL" name="lb_cancel" subclass="">
+        <label val="Close" />
+        <pos x="39" y="10" />
+        <rect l="0" t="0" r="56" b="22" />
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#FF0000" />
+        <color val="#FF0000" />
+        <halign val="0" />
+        <valign val="0" />
+        <FontName val="나눔고딕" />
+        <FontSize val="16" />
+        <TextTrimming val="None" />
+        <style val="1" />
+        <IsHitTestVisible val="False" />
+        <ClipChildren val="False" />
+        <Padding val="0, 0, 0, 0" />
+        <FitToContent val="False" />
+      </child>
+    </child>
+    <child type="BUTTON" subclass="" name="btn_ok">
+      <asset type="NORMAL">btn_makeroom_n.png</asset>
+      <asset type="DOWN">btn_makeroom_d.png</asset>
+      <asset type="OVER">btn_makeroom_dis.png</asset>
+      <asset type="DISABLE">btn_makeroom_d.png</asset>
+      <snd type="OVER">
+      </snd>
+      <snd type="DOWN">
+      </snd>
+      <snd type="RELEASE">
+      </snd>
+      <pos x="441" y="415" />
+      <rect l="0" t="0" r="121" b="38" />
+      <Visible val="True" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <Anchor val="Top, Left" />
+      <IsDefaultButton val="False" />
+      <child type="LABEL" name="lb_ok" subclass="">
+        <label val="OK" />
+        <pos x="36" y="9" />
+        <rect l="0" t="0" r="56" b="22" />
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#FF0000" />
+        <color val="#0030FF" />
+        <halign val="0" />
+        <valign val="0" />
+        <FontName val="나눔고딕" />
+        <FontSize val="16" />
+        <TextTrimming val="None" />
+        <style val="1" />
+        <IsHitTestVisible val="False" />
+        <ClipChildren val="False" />
+        <Padding val="0, 0, 0, 0" />
+        <FitToContent val="False" />
+      </child>
+    </child>
+    <child type="LISTSC" name="lc_content" subclass="">
+      <asset type="BG" path="login_edit_04.png" tileMode="Tile">
+        <tex x="10" y="6" />
+        <rect l="10" t="10" r="780" b="276" />
+      </asset>
+      <asset type="EDGE_LT" path="login_edit_00.png" tileMode="Tile">
+        <tex x="10" y="10" />
+        <rect l="0" t="0" r="10" b="10" />
+      </asset>
+      <asset type="EDGE_RT" path="login_edit_02.png" tileMode="Tile">
+        <tex x="10" y="10" />
+        <rect l="0" t="0" r="10" b="10" />
+      </asset>
+      <asset type="EDGE_LB" path="login_edit_06.png" tileMode="Tile">
+        <tex x="10" y="10" />
+        <rect l="0" t="0" r="10" b="10" />
+      </asset>
+      <asset type="EDGE_RB" path="login_edit_08.png" tileMode="Tile">
+        <tex x="10" y="10" />
+        <rect l="0" t="0" r="10" b="10" />
+      </asset>
+      <asset type="FRAME_T" path="login_edit_01.png" tileMode="Tile">
+        <tex x="10" y="10" />
+        <rect l="10" t="0" r="780" b="10" />
+      </asset>
+      <asset type="FRAME_B" path="login_edit_07.png" tileMode="Tile">
+        <tex x="10" y="10" />
+        <rect l="10" t="0" r="780" b="10" />
+      </asset>
+      <asset type="FRAME_L" path="login_edit_03.png" tileMode="Tile">
+        <tex x="10" y="6" />
+        <rect l="0" t="10" r="10" b="276" />
+      </asset>
+      <asset type="FRAME_R" path="login_edit_05.png" tileMode="Tile">
+        <tex x="10" y="6" />
+        <rect l="0" t="10" r="10" b="276" />
+      </asset>
+      <control type="VSCROLLBAR" name="lc_content_VSlider" horizontal="0">
+        <control type="BUTTON_LT" name="lc_content_VScrollBar_TopButton">
+          <asset type="NORMAL">scroll_down_c_n.png</asset>
+          <asset type="DOWN">scroll_down_c_d.png</asset>
+          <asset type="OVER">scroll_down_c_dis.png</asset>
+          <asset type="DISABLE">scroll_down_c_d.png</asset>
+          <snd type="OVER">
+          </snd>
+          <snd type="DOWN">
+          </snd>
+          <snd type="RELEASE">
+          </snd>
+          <pos x="2" y="4" />
+          <rect l="0" t="0" r="14" b="17" />
+          <Visible val="True" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+          <Anchor val="Top, Left, Right" />
+          <IsDefaultButton val="False" />
+        </control>
+        <control type="THUMB" name="lc_content_VScrollBar_Thumb">
+          <asset type="NORMAL">scroll_bar_a1_n.png</asset>
+          <asset type="DOWN">scroll_bar_a1_d.png</asset>
+          <asset type="OVER">scroll_bar_a1_o.png</asset>
+          <asset type="DISABLE">scroll_bar_a1_d.png</asset>
+          <snd type="OVER">
+          </snd>
+          <snd type="DOWN">
+          </snd>
+          <snd type="RELEASE">
+          </snd>
+          <pos x="0" y="23" />
+          <rect l="0" t="0" r="14" b="246" />
+          <Visible val="True" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+          <Anchor val="Top, Left, Right" />
+          <IsDefaultButton val="False" />
+        </control>
+        <control type="BUTTON_RB" name="lc_content_VScrollBar_BottomButton">
+          <asset type="NORMAL">scroll_down_c_n.png</asset>
+          <asset type="DOWN">scroll_down_c_d.png</asset>
+          <asset type="OVER">scroll_down_c_dis.png</asset>
+          <asset type="DISABLE">scroll_down_c_d.png</asset>
+          <snd type="OVER">
+          </snd>
+          <snd type="DOWN">
+          </snd>
+          <snd type="RELEASE">
+          </snd>
+          <pos x="0" y="269" />
+          <rect l="0" t="0" r="14" b="17" />
+          <Visible val="True" />
+          <IsHitTestVisible val="True" />
+          <ClipChildren val="False" />
+          <Anchor val="Bottom, Left, Right" />
+          <IsDefaultButton val="False" />
+        </control>
+        <scrollrect l="0" t="21" r="20" b="254" />
+        <Visible val="True" />
+        <Anchor val="Top, Bottom, Right" />
+        <pos x="780" y="0" />
+        <rect l="0" t="0" r="20" b="271" />
+        <IsHitTestVisible val="True" />
+        <ClipChildren val="False" />
+      </control>
+      <control type="HSCROLLBAR" name="lc_content_HSlider" horizontal="1">
+      </control>
+      <pos x="34" y="96" />
+      <rect l="0" t="0" r="800" b="296" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <padding l="7" t="6" r="6" b="7" />
+      <column val="1" />
+      <itemrect l="0" t="0" r="800" b="20" />
+      <selection val="0" />
+      <deselectable val="1" />
+      <rclickaction val="1" />
+      <IsHitTestVisible val="True" />
+      <Orientation val="Vertical" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="LABEL" name="Label" subclass="">
+      <label val="System Function Control Window" />
+      <pos x="37" y="9" />
+      <rect l="0" t="0" r="345" b="25" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#FF0000" />
+      <color val="#6928FF" />
+      <halign val="0" />
+      <valign val="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="16" />
+      <TextTrimming val="None" />
+      <style val="1" />
+      <IsHitTestVisible val="False" />
+      <ClipChildren val="False" />
+      <Padding val="0, 0, 0, 0" />
+      <FitToContent val="False" />
+    </child>
+    <child type="LABEL" name="Label2" subclass="">
+      <label val="Function" />
+      <pos x="69" y="78" />
+      <rect l="0" t="0" r="123" b="19" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#FF0000" />
+      <color val="#001DFF" />
+      <halign val="0" />
+      <valign val="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="12" />
+      <TextTrimming val="None" />
+      <style val="1" />
+      <IsHitTestVisible val="False" />
+      <ClipChildren val="False" />
+      <Padding val="0, 0, 0, 0" />
+      <FitToContent val="False" />
+    </child>
+    <child type="LABEL" name="Label3" subclass="">
+      <label val="Settings" />
+      <pos x="362" y="79" />
+      <rect l="0" t="0" r="75" b="18" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#FF0000" />
+      <color val="#0036FF" />
+      <halign val="0" />
+      <valign val="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="12" />
+      <TextTrimming val="None" />
+      <style val="1" />
+      <IsHitTestVisible val="False" />
+      <ClipChildren val="False" />
+      <Padding val="0, 0, 0, 0" />
+      <FitToContent val="False" />
+    </child>
+    <child type="BUTTON" subclass="" name="btn_category1">
+      <asset type="NORMAL">btn_makeroom_n.png</asset>
+      <asset type="DOWN">btn_makeroom_d.png</asset>
+      <asset type="OVER">btn_makeroom_dis.png</asset>
+      <asset type="DISABLE">btn_makeroom_d.png</asset>
+      <snd type="OVER">
+      </snd>
+      <snd type="DOWN">
+      </snd>
+      <snd type="RELEASE">
+      </snd>
+      <pos x="40" y="40" />
+      <rect l="0" t="0" r="114" b="27" />
+      <Visible val="True" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <Anchor val="Top, Left" />
+      <IsDefaultButton val="False" />
+      <child type="LABEL" name="lb_cancel1" subclass="">
+        <label val="General" />
+        <pos x="38" y="7" />
+        <rect l="0" t="0" r="56" b="22" />
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#FF0000" />
+        <color val="#000000" />
+        <halign val="0" />
+        <valign val="0" />
+        <FontName val="나눔고딕" />
+        <FontSize val="12" />
+        <TextTrimming val="None" />
+        <style val="1" />
+        <IsHitTestVisible val="False" />
+        <ClipChildren val="False" />
+        <Padding val="0, 0, 0, 0" />
+        <FitToContent val="False" />
+      </child>
+    </child>
+    <child type="BUTTON" subclass="" name="btn_category2">
+      <asset type="NORMAL">btn_makeroom_n.png</asset>
+      <asset type="DOWN">btn_makeroom_d.png</asset>
+      <asset type="OVER">btn_makeroom_dis.png</asset>
+      <asset type="DISABLE">btn_makeroom_d.png</asset>
+      <snd type="OVER">
+      </snd>
+      <snd type="DOWN">
+      </snd>
+      <snd type="RELEASE">
+      </snd>
+      <pos x="153" y="40" />
+      <rect l="0" t="0" r="114" b="27" />
+      <Visible val="True" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <Anchor val="Top, Left" />
+      <IsDefaultButton val="False" />
+      <child type="LABEL" name="lb_cancel2" subclass="">
+        <label val="System" />
+        <pos x="33" y="6" />
+        <rect l="0" t="0" r="56" b="22" />
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#FF0000" />
+        <color val="#000000" />
+        <halign val="0" />
+        <valign val="0" />
+        <FontName val="나눔고딕" />
+        <FontSize val="12" />
+        <TextTrimming val="None" />
+        <style val="1" />
+        <IsHitTestVisible val="False" />
+        <ClipChildren val="False" />
+        <Padding val="0, 0, 0, 0" />
+        <FitToContent val="False" />
+      </child>
+    </child>
+    <child type="BUTTON" subclass="" name="btn_category3">
+      <asset type="NORMAL">btn_makeroom_n.png</asset>
+      <asset type="DOWN">btn_makeroom_d.png</asset>
+      <asset type="OVER">btn_makeroom_dis.png</asset>
+      <asset type="DISABLE">btn_makeroom_d.png</asset>
+      <snd type="OVER">
+      </snd>
+      <snd type="DOWN">
+      </snd>
+      <snd type="RELEASE">
+      </snd>
+      <pos x="266" y="40" />
+      <rect l="0" t="0" r="114" b="27" />
+      <Visible val="True" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <Anchor val="Top, Left" />
+      <IsDefaultButton val="False" />
+      <child type="LABEL" name="lb_cancel3" subclass="">
+        <label val="Developer" />
+        <pos x="33" y="6" />
+        <rect l="0" t="0" r="56" b="22" />
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#FF0000" />
+        <color val="#FF0000" />
+        <halign val="0" />
+        <valign val="0" />
+        <FontName val="나눔고딕" />
+        <FontSize val="12" />
+        <TextTrimming val="None" />
+        <style val="1" />
+        <IsHitTestVisible val="False" />
+        <ClipChildren val="False" />
+        <Padding val="0, 0, 0, 0" />
+        <FitToContent val="False" />
+      </child>
+    </child>
+  </base>
+</refresh>

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <dummy name="ui_cam2" parent="Dummyroot_hatch" sync="TRUE" extra="">
+        <rotationX>-0.0092</rotationX>
+        <rotationY>0.9908</rotationY>
+        <rotationZ>-0.0761</rotationZ>
+        <rotationW>0.1118</rotationW>
+        <offsetX>0.1424</offsetX>
+        <offsetY>1.9009</offsetY>
+        <offsetZ>3.1328</offsetZ>
+    </dummy>
+    <dummy name="egg_point1" parent="Dummyroot_hatch" sync="TRUE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>-0.9300</offsetX>
+        <offsetY>1.2100</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <dummy name="icon1" parent="Dummyroot_hatch" sync="TRUE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>2.6500</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <dummy name="ui_cam1" parent="Dummyroot_hatch" sync="TRUE" extra="">
+        <rotationX>0.0039</rotationX>
+        <rotationY>0.9968</rotationY>
+        <rotationZ>-0.0470</rotationZ>
+        <rotationW>-0.0650</rotationW>
+        <offsetX>-0.4387</offsetX>
+        <offsetY>1.8775</offsetY>
+        <offsetZ>3.1964</offsetZ>
+    </dummy>
+    <dummy name="egg_point2" parent="Dummyroot_hatch" sync="TRUE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.9295</offsetX>
+        <offsetY>1.2066</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <dummy name="icon2" parent="Dummyroot_hatch" sync="TRUE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>-0.9329</offsetX>
+        <offsetY>2.5000</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <action category="" state="ACTIVATE" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>activate00</main>
+    </action>
+    <action category="" state="G_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>idle00</main>
+    </action>
+</aim>

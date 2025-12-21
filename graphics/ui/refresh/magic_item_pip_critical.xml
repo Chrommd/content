@@ -1,0 +1,25 @@
+﻿<refresh version="2">
+	<properties>
+		<property name="DPI" val="72" />
+	</properties>
+	<base type="WND" subclass="" name="Wnd_magic_critical">
+		<pos x="0" y="0" />
+		<rect l="0" t="0" r="145" b="176" />
+		<Visible val="True" />
+		<Anchor val="Top, Left" />
+		<snd type="SHOW"></snd>
+		<snd type="HIDE"></snd>
+		<IsHitTestVisible val="False" />
+		<ClipChildren val="False" />
+		<child type="PICTURE" name="img_critical" subclass="">
+			<asset type="ANIMATION">Magic_item_pip_critical_img_critical.xml</asset>
+			<pos x="11" y="7" />
+			<rect l="0" t="0" r="136" b="48" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+	</base>
+</refresh>

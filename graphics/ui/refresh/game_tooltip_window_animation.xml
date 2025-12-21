@@ -1,0 +1,423 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="_Opening_">
+    <asset type="UI" name="asset_game_tooltip4">
+      <rect l="0" t="0" r="160" b="93" />
+    </asset>
+    <asset type="UI" name="asset_game_tooltip3">
+      <rect l="0" t="0" r="160" b="93" />
+    </asset>
+    <asset type="UI" name="asset_game_tooltip2">
+      <rect l="0" t="0" r="160" b="93" />
+    </asset>
+    <asset type="UI" name="asset_game_tooltip1">
+      <rect l="0" t="0" r="160" b="93" />
+    </asset>
+    <object name="game_tooltip4" ani="ani_game_tooltip4">
+      <asset type="UI" link="asset_game_tooltip4" />
+    </object>
+    <object name="game_tooltip3" ani="ani_game_tooltip3">
+      <asset type="UI" link="asset_game_tooltip3" />
+    </object>
+    <object name="game_tooltip2" ani="ani_game_tooltip2">
+      <asset type="UI" link="asset_game_tooltip2" />
+    </object>
+    <object name="game_tooltip1" ani="ani_game_tooltip1">
+      <asset type="UI" link="asset_game_tooltip1" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_game_tooltip4">
+      <frame cnt="0">
+        <posx val="0.35546875" />
+        <posy val="0.815104166666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <sound val="ui_event_fadein" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="300">
+        <posx val="0.35546875" />
+        <posy val="0.821614583333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="633">
+        <posx val="0.35546875" />
+        <posy val="0.815104166666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.5,0.0,0.5,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_game_tooltip3">
+      <frame cnt="0">
+        <posx val="0.28515625" />
+        <posy val="0.815104166666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <sound val="ui_event_fadein" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="300">
+        <posx val="0.28515625" />
+        <posy val="0.821614583333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="633">
+        <posx val="0.28515625" />
+        <posy val="0.815104166666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.5,0.0,0.5,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_game_tooltip2">
+      <frame cnt="0">
+        <posx val="0.21484375" />
+        <posy val="0.815104166666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <sound val="ui_event_fadein" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="300">
+        <posx val="0.21484375" />
+        <posy val="0.821614583333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="633">
+        <posx val="0.21484375" />
+        <posy val="0.815104166666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.5,0.0,0.5,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_game_tooltip1">
+      <frame cnt="0">
+        <posx val="0.14453125" />
+        <posy val="0.815104166666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <sound val="ui_event_fadein" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="300">
+        <posx val="0.14453125" />
+        <posy val="0.821614583333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="633">
+        <posx val="0.14453125" />
+        <posy val="0.815104166666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.5,0.0,0.5,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Closing_">
+    <asset type="UI" name="asset_game_tooltip4">
+      <rect l="0" t="0" r="160" b="93" />
+    </asset>
+    <asset type="UI" name="asset_lb_title4">
+      <rect l="0" t="0" r="123" b="20" />
+    </asset>
+    <asset type="UI" name="asset_game_tooltip3">
+      <rect l="0" t="0" r="160" b="93" />
+    </asset>
+    <asset type="UI" name="asset_lb_title3">
+      <rect l="0" t="0" r="123" b="20" />
+    </asset>
+    <asset type="UI" name="asset_game_tooltip2">
+      <rect l="0" t="0" r="160" b="93" />
+    </asset>
+    <asset type="UI" name="asset_lb_title2">
+      <rect l="0" t="0" r="123" b="20" />
+    </asset>
+    <asset type="UI" name="asset_game_tooltip1">
+      <rect l="0" t="0" r="160" b="93" />
+    </asset>
+    <asset type="UI" name="asset_lb_title1">
+      <rect l="0" t="0" r="123" b="20" />
+    </asset>
+    <object name="game_tooltip4" ani="ani_game_tooltip4">
+      <asset type="UI" link="asset_game_tooltip4" />
+    </object>
+    <object name="lb_title4" ani="ani_lb_title4">
+      <asset type="UI" link="asset_lb_title4" />
+    </object>
+    <object name="game_tooltip3" ani="ani_game_tooltip3">
+      <asset type="UI" link="asset_game_tooltip3" />
+    </object>
+    <object name="lb_title3" ani="ani_lb_title3">
+      <asset type="UI" link="asset_lb_title3" />
+    </object>
+    <object name="game_tooltip2" ani="ani_game_tooltip2">
+      <asset type="UI" link="asset_game_tooltip2" />
+    </object>
+    <object name="lb_title2" ani="ani_lb_title2">
+      <asset type="UI" link="asset_lb_title2" />
+    </object>
+    <object name="game_tooltip1" ani="ani_game_tooltip1">
+      <asset type="UI" link="asset_game_tooltip1" />
+    </object>
+    <object name="lb_title1" ani="ani_lb_title1">
+      <asset type="UI" link="asset_lb_title1" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_game_tooltip4">
+      <frame cnt="0">
+        <posx val="0.35546875" />
+        <posy val="0.815104166666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="300">
+        <posx val="0.35546875" />
+        <posy val="0.815104166666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="633">
+        <posx val="0.35546875" easeValue="0.5,0.0,0.5,1.0" />
+        <posy val="0.821614583333333" easeValue="0.5,0.0,0.5,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" easeValue="0.5,0.0,0.5,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_lb_title4">
+      <frame cnt="633">
+        <posx val="0.01660156" />
+        <posy val="0.01822917" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <sound val="ui_tooltip" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_game_tooltip3">
+      <frame cnt="0">
+        <posx val="0.28515625" />
+        <posy val="0.815104166666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="300">
+        <posx val="0.28515625" />
+        <posy val="0.815104166666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="633">
+        <posx val="0.28515625" easeValue="0.5,0.0,0.5,1.0" />
+        <posy val="0.821614583333333" easeValue="0.5,0.0,0.5,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" easeValue="0.5,0.0,0.5,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_lb_title3">
+      <frame cnt="633">
+        <posx val="0.01660156" />
+        <posy val="0.01822917" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <sound val="ui_tooltip" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_game_tooltip2">
+      <frame cnt="0">
+        <posx val="0.21484375" />
+        <posy val="0.815104166666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="300">
+        <posx val="0.21484375" />
+        <posy val="0.815104166666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="633">
+        <posx val="0.21484375" easeValue="0.5,0.0,0.5,1.0" />
+        <posy val="0.821614583333333" easeValue="0.5,0.0,0.5,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" easeValue="0.5,0.0,0.5,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_lb_title2">
+      <frame cnt="633">
+        <posx val="0.01660156" />
+        <posy val="0.01822917" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <sound val="ui_tooltip" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_game_tooltip1">
+      <frame cnt="0">
+        <posx val="0.14453125" />
+        <posy val="0.815104166666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="300">
+        <posx val="0.14453125" />
+        <posy val="0.815104166666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="633">
+        <posx val="0.14453125" easeValue="0.5,0.0,0.5,1.0" />
+        <posy val="0.821614583333333" easeValue="0.5,0.0,0.5,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" easeValue="0.5,0.0,0.5,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_lb_title1">
+      <frame cnt="633">
+        <posx val="0.01660156" />
+        <posy val="0.01822917" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <sound val="ui_tooltip" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

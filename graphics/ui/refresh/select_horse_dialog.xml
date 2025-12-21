@@ -1,0 +1,569 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+  </properties>
+  <base type="WNDEX" name="select_horse">
+    <asset type="BG" path="frm_system_a_04.png">
+      <tex x="15" y="10" />
+      <rect l="16" t="16" r="493" b="289" />
+    </asset>
+    <asset type="EDGE_LT" path="frm_system_a_00.png">
+      <tex x="16" y="16" />
+      <rect l="0" t="0" r="16" b="16" />
+    </asset>
+    <asset type="EDGE_RT" path="frm_system_a_02.png">
+      <tex x="23" y="16" />
+      <rect l="0" t="0" r="23" b="16" />
+    </asset>
+    <asset type="EDGE_LB" path="frm_system_a_06.png">
+      <tex x="16" y="77" />
+      <rect l="0" t="0" r="16" b="77" />
+    </asset>
+    <asset type="EDGE_RB" path="frm_system_a_08.png">
+      <tex x="23" y="77" />
+      <rect l="0" t="0" r="23" b="77" />
+    </asset>
+    <asset type="FRAME_T" path="frm_system_a_01.png">
+      <tex x="15" y="16" />
+      <rect l="16" t="0" r="493" b="16" />
+    </asset>
+    <asset type="FRAME_B" path="frm_system_a_07.png">
+      <tex x="15" y="77" />
+      <rect l="16" t="0" r="493" b="77" />
+    </asset>
+    <asset type="FRAME_L" path="frm_system_a_03.png">
+      <tex x="16" y="10" />
+      <rect l="0" t="16" r="16" b="289" />
+    </asset>
+    <asset type="FRAME_R" path="frm_system_a_05.png">
+      <tex x="23" y="10" />
+      <rect l="0" t="16" r="23" b="289" />
+    </asset>
+    <Visible val="True" />
+    <Anchor val="Top, Left" />
+    <pos x="405" y="58" />
+    <rect l="0" t="0" r="532" b="382" />
+    <Dragable val="False" />
+    <StartPosition val="None" />
+    <EscKeyAction val="None" />
+    <child type="PICTURE" name="bg_select_horse2">
+      <asset type="STATIC">bg_select_horse2.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="214" y="299" />
+      <rect l="0" t="0" r="294" b="31" />
+      <center x="0" y="0" />
+    </child>
+    <child type="PICTURE" name="bg_select_horse">
+      <asset type="STATIC">bg_select_horse.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="4" y="3" />
+      <rect l="0" t="0" r="260" b="366" />
+      <center x="0" y="0" />
+    </child>
+    <child type="ANIMBUTTON" name="btn_ranch_upgrade">
+      <asset type="GROUP">select_horse_dialog_btn_ranch_upgrade.xml</asset>
+      <asset type="NORMAL">
+      </asset>
+      <asset type="DOWN">
+      </asset>
+      <asset type="OVER">
+      </asset>
+      <asset type="DISABLE">
+      </asset>
+      <asset type="ENTER">
+      </asset>
+      <asset type="LEAVE">
+      </asset>
+      <snd type="OVER">
+      </snd>
+      <snd type="DOWN">ui_btn_confirm</snd>
+      <pos x="219" y="324" />
+      <rect l="0" t="0" r="109" b="34" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <child type="LABEL" name="lb_ranch_upgrade">
+        <label val="목장 넓히기" />
+        <pos x="10" y="7" />
+        <rect l="0" t="0" r="88" b="18" />
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#030200" />
+        <color val="#EBE0D9" />
+        <halign val="1" />
+        <valign val="0" />
+        <FontName val="나눔고딕" />
+        <FontSize val="14" />
+        <style val="1" />
+      </child>
+    </child>
+    <child type="ANIMBUTTON" name="btn_close">
+      <asset type="GROUP">select_horse_dialog_btn_close.xml</asset>
+      <asset type="NORMAL">
+      </asset>
+      <asset type="DOWN">
+      </asset>
+      <asset type="OVER">
+      </asset>
+      <asset type="DISABLE">
+      </asset>
+      <asset type="ENTER">
+      </asset>
+      <asset type="LEAVE">
+      </asset>
+      <snd type="OVER">
+      </snd>
+      <snd type="DOWN">ui_close_paper</snd>
+      <pos x="489" y="-1" />
+      <rect l="0" t="0" r="35" b="35" />
+      <Visible val="True" />
+      <Anchor val="None" />
+    </child>
+    <child type="ANIMBUTTON" name="btn_confirm">
+      <asset type="GROUP">select_horse_dialog_btn_confirm.xml</asset>
+      <asset type="NORMAL">
+      </asset>
+      <asset type="DOWN">
+      </asset>
+      <asset type="OVER">
+      </asset>
+      <asset type="DISABLE">
+      </asset>
+      <asset type="ENTER">
+      </asset>
+      <asset type="LEAVE">
+      </asset>
+      <snd type="OVER">
+      </snd>
+      <snd type="DOWN">ui_btn_confirm</snd>
+      <pos x="357" y="324" />
+      <rect l="0" t="0" r="72" b="34" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <child type="LABEL" name="lb_confirm">
+        <label val="OK" />
+        <pos x="0" y="5" />
+        <rect l="0" t="0" r="72" b="20" />
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#030200" />
+        <color val="#EBE0D9" />
+        <halign val="1" />
+        <valign val="0" />
+        <FontName val="나눔고딕" />
+        <FontSize val="14" />
+        <style val="1" />
+      </child>
+    </child>
+    <child type="ANIMBUTTON" name="btn_cancel">
+      <asset type="GROUP">select_horse_dialog_btn_cancel.xml</asset>
+      <asset type="NORMAL">
+      </asset>
+      <asset type="DOWN">
+      </asset>
+      <asset type="OVER">
+      </asset>
+      <asset type="DISABLE">
+      </asset>
+      <asset type="ENTER">
+      </asset>
+      <asset type="LEAVE">
+      </asset>
+      <snd type="OVER">
+      </snd>
+      <snd type="DOWN">ui_btn_confirm</snd>
+      <pos x="431" y="324" />
+      <rect l="0" t="0" r="72" b="34" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <child type="LABEL" name="lb_cancel">
+        <label val="Cancel" />
+        <pos x="0" y="5" />
+        <rect l="0" t="0" r="72" b="20" />
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#030200" />
+        <color val="#EBE0D9" />
+        <halign val="1" />
+        <valign val="0" />
+        <FontName val="나눔고딕" />
+        <FontSize val="14" />
+        <style val="1" />
+      </child>
+    </child>
+    <child type="ANIMBUTTON" name="slot10">
+      <asset type="GROUP">select_horse_dialog_slot10.xml</asset>
+      <asset type="NORMAL">
+      </asset>
+      <asset type="DOWN">
+      </asset>
+      <asset type="OVER">
+      </asset>
+      <asset type="DISABLE">
+      </asset>
+      <asset type="ENTER">
+      </asset>
+      <asset type="LEAVE">
+      </asset>
+      <snd type="OVER">
+      </snd>
+      <snd type="DOWN">
+      </snd>
+      <pos x="421" y="218" />
+      <rect l="0" t="0" r="61" b="62" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+    </child>
+    <child type="ANIMBUTTON" name="slot9">
+      <asset type="GROUP">select_horse_dialog_slot9.xml</asset>
+      <asset type="NORMAL">
+      </asset>
+      <asset type="DOWN">
+      </asset>
+      <asset type="OVER">
+      </asset>
+      <asset type="DISABLE">
+      </asset>
+      <asset type="ENTER">
+      </asset>
+      <asset type="LEAVE">
+      </asset>
+      <snd type="OVER">
+      </snd>
+      <snd type="DOWN">
+      </snd>
+      <pos x="360" y="218" />
+      <rect l="0" t="0" r="61" b="62" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+    </child>
+    <child type="ANIMBUTTON" name="slot8">
+      <asset type="GROUP">select_horse_dialog_slot8.xml</asset>
+      <asset type="NORMAL">
+      </asset>
+      <asset type="DOWN">
+      </asset>
+      <asset type="OVER">
+      </asset>
+      <asset type="DISABLE">
+      </asset>
+      <asset type="ENTER">
+      </asset>
+      <asset type="LEAVE">
+      </asset>
+      <snd type="OVER">
+      </snd>
+      <snd type="DOWN">
+      </snd>
+      <pos x="298" y="218" />
+      <rect l="0" t="0" r="61" b="62" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+    </child>
+    <child type="ANIMBUTTON" name="slot7">
+      <asset type="GROUP">select_horse_dialog_slot7.xml</asset>
+      <asset type="NORMAL">
+      </asset>
+      <asset type="DOWN">
+      </asset>
+      <asset type="OVER">
+      </asset>
+      <asset type="DISABLE">
+      </asset>
+      <asset type="ENTER">
+      </asset>
+      <asset type="LEAVE">
+      </asset>
+      <snd type="OVER">
+      </snd>
+      <snd type="DOWN">
+      </snd>
+      <pos x="237" y="218" />
+      <rect l="0" t="0" r="61" b="62" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+    </child>
+    <child type="ANIMBUTTON" name="slot6">
+      <asset type="GROUP">select_horse_dialog_slot6.xml</asset>
+      <asset type="NORMAL">
+      </asset>
+      <asset type="DOWN">
+      </asset>
+      <asset type="OVER">
+      </asset>
+      <asset type="DISABLE">
+      </asset>
+      <asset type="ENTER">
+      </asset>
+      <asset type="LEAVE">
+      </asset>
+      <snd type="OVER">
+      </snd>
+      <snd type="DOWN">
+      </snd>
+      <pos x="391" y="154" />
+      <rect l="0" t="0" r="61" b="62" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+    </child>
+    <child type="ANIMBUTTON" name="slot5">
+      <asset type="GROUP">select_horse_dialog_slot5.xml</asset>
+      <asset type="NORMAL">
+      </asset>
+      <asset type="DOWN">
+      </asset>
+      <asset type="OVER">
+      </asset>
+      <asset type="DISABLE">
+      </asset>
+      <asset type="ENTER">
+      </asset>
+      <asset type="LEAVE">
+      </asset>
+      <snd type="OVER">
+      </snd>
+      <snd type="DOWN">
+      </snd>
+      <pos x="329" y="154" />
+      <rect l="0" t="0" r="61" b="62" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+    </child>
+    <child type="ANIMBUTTON" name="slot4">
+      <asset type="GROUP">select_horse_dialog_slot4.xml</asset>
+      <asset type="NORMAL">
+      </asset>
+      <asset type="DOWN">
+      </asset>
+      <asset type="OVER">
+      </asset>
+      <asset type="DISABLE">
+      </asset>
+      <asset type="ENTER">
+      </asset>
+      <asset type="LEAVE">
+      </asset>
+      <snd type="OVER">
+      </snd>
+      <snd type="DOWN">
+      </snd>
+      <pos x="267" y="154" />
+      <rect l="0" t="0" r="61" b="62" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+    </child>
+    <child type="ANIMBUTTON" name="slot3">
+      <asset type="GROUP">select_horse_dialog_slot3.xml</asset>
+      <asset type="NORMAL">
+      </asset>
+      <asset type="DOWN">
+      </asset>
+      <asset type="OVER">
+      </asset>
+      <asset type="DISABLE">
+      </asset>
+      <asset type="ENTER">
+      </asset>
+      <asset type="LEAVE">
+      </asset>
+      <snd type="OVER">
+      </snd>
+      <snd type="DOWN">
+      </snd>
+      <pos x="360" y="90" />
+      <rect l="0" t="0" r="61" b="62" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+    </child>
+    <child type="ANIMBUTTON" name="slot2">
+      <asset type="GROUP">select_horse_dialog_slot2.xml</asset>
+      <asset type="NORMAL">
+      </asset>
+      <asset type="DOWN">
+      </asset>
+      <asset type="OVER">
+      </asset>
+      <asset type="DISABLE">
+      </asset>
+      <asset type="ENTER">
+      </asset>
+      <asset type="LEAVE">
+      </asset>
+      <snd type="OVER">
+      </snd>
+      <snd type="DOWN">
+      </snd>
+      <pos x="299" y="90" />
+      <rect l="0" t="0" r="61" b="62" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+    </child>
+    <child type="ANIMBUTTON" name="slot1">
+      <asset type="GROUP">select_horse_dialog_slot1.xml</asset>
+      <asset type="NORMAL">
+      </asset>
+      <asset type="DOWN">
+      </asset>
+      <asset type="OVER">
+      </asset>
+      <asset type="DISABLE">
+      </asset>
+      <asset type="ENTER">
+      </asset>
+      <asset type="LEAVE">
+      </asset>
+      <snd type="OVER">
+      </snd>
+      <snd type="DOWN">
+      </snd>
+      <pos x="329" y="26" />
+      <rect l="0" t="0" r="61" b="62" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+    </child>
+    <child type="LABEL" name="lb_horsename">
+      <label val="" />
+      <pos x="43" y="176" />
+      <rect l="0" t="0" r="119" b="18" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#030200" />
+      <color val="#FFFFFF" />
+      <halign val="0" />
+      <valign val="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="13" />
+      <FontName val="나눔고딕" />
+    </child>
+    <child type="LABEL" name="lb_ability5">
+      <label val="Stamina" />
+      <pos x="43" y="319" />
+      <rect l="0" t="0" r="95" b="18" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#000000" />
+      <color val="#FFFFFF" />
+      <halign val="0" />
+      <valign val="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="13" />
+      <style val="1" />
+    </child>
+    <child type="LABEL" name="lb_ability4">
+      <label val="지구력" />
+      <pos x="43" y="289" />
+      <rect l="0" t="0" r="95" b="18" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#000000" />
+      <color val="#FFFFFF" />
+      <halign val="0" />
+      <valign val="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="13" />
+      <style val="1" />
+    </child>
+    <child type="LABEL" name="lb_ability3">
+      <label val="조향력" />
+      <pos x="43" y="259" />
+      <rect l="0" t="0" r="95" b="18" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#000000" />
+      <color val="#FFFFFF" />
+      <halign val="0" />
+      <valign val="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="13" />
+      <style val="1" />
+    </child>
+    <child type="LABEL" name="lb_ability2">
+      <label val="가속도" />
+      <pos x="43" y="230" />
+      <rect l="0" t="0" r="95" b="18" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#000000" />
+      <color val="#FFFFFF" />
+      <halign val="0" />
+      <valign val="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="13" />
+      <style val="1" />
+    </child>
+    <child type="LABEL" name="lb_ability1">
+      <label val="최대속도" />
+      <pos x="43" y="201" />
+      <rect l="0" t="0" r="95" b="18" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#000000" />
+      <color val="#FFFFFF" />
+      <halign val="0" />
+      <valign val="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="13" />
+      <style val="1" />
+    </child>
+    <child type="PICTURE" name="ability_gauge5">
+      <asset type="STATIC">gauge_5.png</asset>
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <pos x="43" y="337" />
+      <rect l="0" t="0" r="118" b="9" />
+      <center x="0" y="0" />
+    </child>
+    <child type="PICTURE" name="ability_gauge4">
+      <asset type="STATIC">gauge_4.png</asset>
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <pos x="43" y="307" />
+      <rect l="0" t="0" r="118" b="9" />
+      <center x="0" y="0" />
+    </child>
+    <child type="PICTURE" name="ability_gauge3">
+      <asset type="STATIC">gauge_3.png</asset>
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <pos x="43" y="277" />
+      <rect l="0" t="0" r="118" b="9" />
+      <center x="0" y="0" />
+    </child>
+    <child type="PICTURE" name="ability_gauge2">
+      <asset type="STATIC">gauge_2.png</asset>
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <pos x="43" y="248" />
+      <rect l="0" t="0" r="118" b="9" />
+      <center x="0" y="0" />
+    </child>
+    <child type="PICTURE" name="ability_gauge1">
+      <asset type="STATIC">gauge_1.png</asset>
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <pos x="43" y="219" />
+      <rect l="0" t="0" r="118" b="9" />
+      <center x="0" y="0" />
+    </child>
+    <child type="PICTURE" name="rect_horse">
+      <asset type="STATIC">
+      </asset>
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <pos x="19" y="18" />
+      <rect l="0" t="0" r="166" b="151" />
+      <center x="0" y="0" />
+    </child>
+  </base>
+</refresh>

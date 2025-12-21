@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="_Opening_">
+    <asset type="UI" name="asset_care_open">
+      <rect l="0" t="0" r="454" b="286" />
+    </asset>
+    <asset type="UI" name="asset_panel_text">
+      <rect l="0" t="0" r="454" b="251" />
+    </asset>
+    <asset type="UI" name="asset_bg_care_open2">
+      <rect l="0" t="0" r="137" b="147" />
+    </asset>
+    <object name="care_open" ani="ani_care_open">
+      <asset type="UI" link="asset_care_open" />
+    </object>
+    <object name="panel_text" ani="ani_panel_text">
+      <asset type="UI" link="asset_panel_text" />
+    </object>
+    <object name="bg_care_open2" ani="ani_bg_care_open2">
+      <asset type="UI" link="asset_bg_care_open2" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_care_open">
+      <frame cnt="0">
+        <posx val="0.2783203125" />
+        <posy val="0.295572916666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0.2783203125" />
+        <posy val="0.26953125" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_panel_text">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.02083333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <sound val="ui_event_levelup" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_bg_care_open2">
+      <frame cnt="0">
+        <posx val="0.28515625" />
+        <posy val="0.145833333333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0.28515625" />
+        <posy val="0.130208333333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="967">
+        <posx val="0.28515625" />
+        <posy val="0.119791666666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Closing_">
+    <asset type="UI" name="asset_care_open">
+      <rect l="0" t="0" r="454" b="286" />
+    </asset>
+    <object name="care_open" ani="ani_care_open">
+      <asset type="UI" link="asset_care_open" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_care_open">
+      <frame cnt="0">
+        <posx val="0.2783203125" />
+        <posy val="0.26953125" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.2783203125" />
+        <posy val="0.26953125" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

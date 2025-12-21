@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <event animation="move00">
+        <function>PlaySND($asset, "bison_footstep1_", "root", "-var 2")</function>
+        <time>0.0210</time>
+        <freq>100</freq>
+    </event>
+    <event animation="move00">
+        <function>PlaySND($asset, "bison_footstep2_", "root", "-var 2")</function>
+        <time>0.0877</time>
+        <freq>100</freq>
+    </event>
+    <event animation="move00">
+        <function>PlaySND($asset, "bison_footstep3_", "root", "-var 2")</function>
+        <time>0.2674</time>
+        <freq>100</freq>
+    </event>
+    <event animation="move00">
+        <function>PlaySND($asset, "bison_footstep4_", "root", "-var 2")</function>
+        <time>0.3159</time>
+        <freq>100</freq>
+    </event>
+    <event animation="move00">
+        <function>PlaySND($asset, "bison_breath", "col_1_2", "-var 2")</function>
+        <time>0.0387</time>
+        <freq>100</freq>
+    </event>
+    <event animation="move00">
+        <function>PlayFX($asset, "npc_bison_dust", "al", "")</function>
+        <time>0.0201</time>
+        <freq>100</freq>
+    </event>
+    <event animation="move00">
+        <function>PlayFX($asset, "npc_bison_dust", "ar", "")</function>
+        <time>0.0653</time>
+        <freq>100</freq>
+    </event>
+    <event animation="move00">
+        <function>PlayFX($asset, "npc_bison_dust", "bl", "")</function>
+        <time>0.2557</time>
+        <freq>100</freq>
+    </event>
+    <event animation="move00">
+        <function>PlayFX($asset, "npc_bison_dust", "br", "")</function>
+        <time>0.3575</time>
+        <freq>100</freq>
+    </event>
+    <dummy name="root" parent="Dummyroot" sync="FALSE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.0000</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <dummy name="col_1_1.0" parent="GnouSpinegnouSpine3" sync="FALSE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0494</offsetX>
+        <offsetY>1.3581</offsetY>
+        <offsetZ>-0.3225</offsetZ>
+    </dummy>
+    <dummy name="al" parent="GnouLLegDigit0" sync="FALSE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.0000</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <dummy name="ar" parent="GnouRLegDigit0" sync="FALSE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.0000</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <dummy name="bl" parent="GnouLLegRearHoof" sync="FALSE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.0000</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <dummy name="br" parent="GnouRLegRearHoof" sync="FALSE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.0000</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <dummy name="col_2_1.0" parent="Dummyroot" sync="FALSE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>1.1585</offsetY>
+        <offsetZ>-0.9236</offsetZ>
+    </dummy>
+    <dummy name="sit" parent="GnouSpinegnouSpine3" sync="TRUE" extra="">
+        <rotationX>-0.0352</rotationX>
+        <rotationY>0.7075</rotationY>
+        <rotationZ>0.7059</rotationZ>
+        <rotationW>0.0013</rotationW>
+        <offsetX>-0.0202</offsetX>
+        <offsetY>-0.1644</offsetY>
+        <offsetZ>0.4499</offsetZ>
+    </dummy>
+    <dummy name="cam_0" parent="Dummyroot" sync="TRUE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>-0.0258</offsetX>
+        <offsetY>2.3527</offsetY>
+        <offsetZ>-7.8362</offsetZ>
+    </dummy>
+    <dummy name="cam_1" parent="Dummyroot" sync="TRUE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>-0.0201</offsetX>
+        <offsetY>2.9900</offsetY>
+        <offsetZ>-7.4678</offsetZ>
+    </dummy>
+    <dummy name="cam_2" parent="Dummyroot" sync="TRUE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>5.6200</offsetY>
+        <offsetZ>-8.2512</offsetZ>
+    </dummy>
+    <dummy name="col0" parent="GnouSpinegnouSpine4" sync="FALSE" extra="-addCol 2">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.0000</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <action category="" state="G_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>move00</main>
+    </action>
+    <action category="" state="IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>idle01</main>
+    </action>
+    <action category="" state="JUMP" prevState="" loop="0" weight="1" script="">
+        <main speed=0.0000>move00</main>
+    </action>
+    <action category="" state="MOVE_1ST" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>move00</main>
+    </action>
+    <action category="" state="MOVE_2ND" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>move00</main>
+    </action>
+    <action category="" state="MOVE_3RD" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>move00</main>
+    </action>
+    <action category="" state="MOVE_4TH" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>move00</main>
+    </action>
+    <action category="" state="MOVE_ZERO" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000>move00</main>
+    </action>
+</aim>

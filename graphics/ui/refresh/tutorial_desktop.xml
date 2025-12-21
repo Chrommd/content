@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="UIAnimation" val="tutorial_desktop_Animation.xml" />
+  </properties>
+  <base type="WND" name="Tutorial_Wnd">
+    <Visible val="True" />
+    <Anchor val="Top, Left" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="1024" b="768" />
+    <base type="WNDEX" name="rooftip">
+      <asset type="BG" path="tooltip_b_04.png">
+        <tex x="14" y="14" />
+        <rect l="14" t="14" r="204" b="178" />
+      </asset>
+      <asset type="EDGE_LT" path="tooltip_b_00.png">
+        <tex x="14" y="14" />
+        <rect l="0" t="0" r="14" b="14" />
+      </asset>
+      <asset type="EDGE_RT" path="tooltip_b_02.png">
+        <tex x="17" y="14" />
+        <rect l="0" t="0" r="17" b="14" />
+      </asset>
+      <asset type="EDGE_LB" path="tooltip_b_06.png">
+        <tex x="14" y="18" />
+        <rect l="0" t="0" r="14" b="18" />
+      </asset>
+      <asset type="EDGE_RB" path="tooltip_b_08.png">
+        <tex x="17" y="18" />
+        <rect l="0" t="0" r="17" b="18" />
+      </asset>
+      <asset type="FRAME_T" path="tooltip_b_01.png">
+        <tex x="14" y="14" />
+        <rect l="14" t="0" r="204" b="14" />
+      </asset>
+      <asset type="FRAME_B" path="tooltip_b_07.png">
+        <tex x="14" y="18" />
+        <rect l="14" t="0" r="204" b="18" />
+      </asset>
+      <asset type="FRAME_L" path="tooltip_b_03.png">
+        <tex x="14" y="14" />
+        <rect l="0" t="14" r="14" b="178" />
+      </asset>
+      <asset type="FRAME_R" path="tooltip_b_05.png">
+        <tex x="17" y="14" />
+        <rect l="0" t="14" r="17" b="178" />
+      </asset>
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <pos x="784" y="340" />
+      <rect l="0" t="0" r="235" b="210" />
+      <Dragable val="False" />
+      <StartPosition val="None" />
+      <EscKeyAction val="None" />
+      <child type="PANEL" name="tuto_jump">
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <pos x="13" y="12" />
+        <rect l="0" t="0" r="206" b="138" />
+        <child type="LABEL" name="lb_jump2">
+          <label val="Z키를 눌러 장애물을 넘으세요" />
+          <pos x="-1" y="161" />
+          <rect l="0" t="0" r="206" b="19" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#FF0000" />
+          <color val="#FFFFFF" />
+          <FontName val="나눔고딕" />
+          <halign val="0" />
+          <valign val="0" />
+          <fontname val="2=NtreevSoft" />
+          <fontsize val="13" />
+        </child>
+        <child type="LABEL" name="lb_jump1">
+          <label val="장애물 바로 앞에서" />
+          <pos x="-1" y="143" />
+          <rect l="0" t="0" r="206" b="19" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#FF0000" />
+          <color val="#FFFFFF" />
+          <FontName val="나눔고딕" />
+          <halign val="0" />
+          <valign val="0" />
+          <fontname val="2=NtreevSoft" />
+          <fontsize val="13" />
+        </child>
+        <child type="PICTURE" name="img_jump3">
+          <asset type="STATIC">tuto_jump3.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="0" y="0" />
+          <rect l="0" t="0" r="206" b="138" />
+          <center x="0" y="0" />
+        </child>
+        <child type="PICTURE" name="img_jump2">
+          <asset type="STATIC">tuto_jump2.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="0" y="0" />
+          <rect l="0" t="0" r="206" b="138" />
+          <center x="0" y="0" />
+        </child>
+        <child type="PICTURE" name="img_jump1">
+          <asset type="STATIC">tuto_jump1.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="0" y="0" />
+          <rect l="0" t="0" r="206" b="138" />
+          <center x="0" y="0" />
+        </child>
+      </child>
+      <child type="PANEL" name="tuto_sliding">
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <pos x="13" y="12" />
+        <rect l="0" t="0" r="206" b="138" />
+        <child type="LABEL" name="lb_sliding2">
+          <label val="빠르게 코너를 빠져나갈 수 있습니다." />
+          <pos x="-1" y="161" />
+          <rect l="0" t="0" r="206" b="19" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#FF0000" />
+          <color val="#FFFFFF" />
+          <FontName val="나눔고딕" />
+          <halign val="0" />
+          <valign val="0" />
+          <fontname val="2=NtreevSoft" />
+          <fontsize val="13" />
+        </child>
+        <child type="LABEL" name="lb_sliding1">
+          <label val="급코너에서는 슬라이딩으로" />
+          <pos x="-1" y="143" />
+          <rect l="0" t="0" r="206" b="19" />
+          <Visible val="True" />
+          <Anchor val="Top, Left" />
+          <OutlineColor val="#FF0000" />
+          <ShadowColor val="#FF0000" />
+          <color val="#FFFFFF" />
+          <FontName val="나눔고딕" />
+          <halign val="0" />
+          <valign val="0" />
+          <fontname val="2=NtreevSoft" />
+          <fontsize val="13" />
+        </child>
+        <child type="PICTURE" name="img_sliding3">
+          <asset type="STATIC">tuto_sliding3.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="0" y="0" />
+          <rect l="0" t="0" r="206" b="138" />
+          <center x="0" y="0" />
+        </child>
+        <child type="PICTURE" name="img_sliding2">
+          <asset type="STATIC">tuto_sliding2.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="0" y="0" />
+          <rect l="0" t="0" r="206" b="138" />
+          <center x="0" y="0" />
+        </child>
+        <child type="PICTURE" name="img_sliding1">
+          <asset type="STATIC">tuto_sliding1.png</asset>
+          <Visible val="True" />
+          <Anchor val="None" />
+          <pos x="0" y="0" />
+          <rect l="0" t="0" r="206" b="138" />
+          <center x="0" y="0" />
+        </child>
+      </child>
+    </base>
+    <child type="PICTURE" name="tuto_start">
+      <asset type="STATIC">tuto_tip_balloon.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="71" y="652" />
+      <rect l="0" t="0" r="235" b="67" />
+      <center x="0" y="0" />
+      <child type="LABEL" name="lb_start1">
+        <label val="게임 버턴을 눌러" />
+        <pos x="12" y="9" />
+        <rect l="0" t="0" r="210" b="19" />
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#FF0000" />
+        <color val="#FFFFFF" />
+        <FontName val="나눔고딕" />
+        <halign val="0" />
+        <valign val="0" />
+        <fontname val="2=NtreevSoft" />
+        <fontsize val="13" />
+      </child>
+      <child type="LABEL" name="lb_start2">
+        <label val="게임 플레이에 참가하십시오." />
+        <pos x="12" y="26" />
+        <rect l="0" t="0" r="210" b="19" />
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#FF0000" />
+        <color val="#FFFFFF" />
+        <FontName val="나눔고딕" />
+        <halign val="0" />
+        <valign val="0" />
+        <fontname val="2=NtreevSoft" />
+        <fontsize val="13" />
+      </child>
+    </child>
+  </base>
+</refresh>

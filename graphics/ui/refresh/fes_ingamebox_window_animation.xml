@@ -1,0 +1,456 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="mission_success1">
+    <param type="RES" x="320" y="128" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+  </scene>
+  <scene name="mission_fail">
+    <asset type="UI" name="asset_fes_ingamebox">
+      <rect l="0" t="0" r="320" b="128" />
+    </asset>
+    <object name="fes_ingamebox" ani="ani_fes_ingamebox">
+      <asset type="UI" link="asset_fes_ingamebox" />
+    </object>
+    <param type="RES" x="320" y="128" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_fes_ingamebox">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Opening_">
+    <asset type="UI" name="asset_fes_ingamebox">
+      <rect l="0" t="0" r="320" b="128" />
+    </asset>
+    <asset type="UI" name="asset_pn_fes_ingamebox">
+      <rect l="0" t="0" r="320" b="128" />
+    </asset>
+    <asset type="UI" name="asset_fes_ingame_audition_bg">
+      <rect l="0" t="0" r="320" b="55" />
+    </asset>
+    <asset type="UI" name="asset_fes_ingame_audition_efc2">
+      <rect l="0" t="0" r="298" b="54" />
+    </asset>
+    <asset type="UI" name="asset_fes_ingame_audition_title2">
+      <rect l="0" t="0" r="298" b="54" />
+    </asset>
+    <asset type="UI" name="asset_fes_ingame_audition_title1">
+      <rect l="0" t="0" r="298" b="54" />
+    </asset>
+    <asset type="UI" name="asset_TextArea_fesmission">
+      <rect l="0" t="0" r="311" b="21" />
+    </asset>
+    <object name="fes_ingamebox" ani="ani_fes_ingamebox">
+      <asset type="UI" link="asset_fes_ingamebox" />
+    </object>
+    <object name="pn_fes_ingamebox" ani="ani_pn_fes_ingamebox">
+      <asset type="UI" link="asset_pn_fes_ingamebox" />
+    </object>
+    <object name="fes_ingame_audition_bg" ani="ani_fes_ingame_audition_bg">
+      <asset type="UI" link="asset_fes_ingame_audition_bg" />
+    </object>
+    <object name="fes_ingame_audition_efc2" ani="ani_fes_ingame_audition_efc2">
+      <asset type="UI" link="asset_fes_ingame_audition_efc2" />
+    </object>
+    <object name="fes_ingame_audition_title2" ani="ani_fes_ingame_audition_title2">
+      <asset type="UI" link="asset_fes_ingame_audition_title2" />
+    </object>
+    <object name="fes_ingame_audition_title1" ani="ani_fes_ingame_audition_title1">
+      <asset type="UI" link="asset_fes_ingame_audition_title1" />
+    </object>
+    <object name="TextArea_fesmission" ani="ani_TextArea_fesmission">
+      <asset type="UI" link="asset_TextArea_fesmission" />
+    </object>
+    <param type="RES" x="320" y="128" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_fes_ingamebox">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_pn_fes_ingamebox">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_fes_ingame_audition_bg">
+      <frame cnt="0">
+        <posx val="0.125" />
+        <posy val="0.40625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="200">
+        <posx val="0" easeValue="0.0,0.6,1.0,1.0" />
+        <posy val="0.40625" easeValue="0.0,0.6,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,0.6,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_fes_ingame_audition_efc2">
+      <frame cnt="0">
+        <posx val="0.06875" />
+        <posy val="0.1171875" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_fes_ingame_audition_title2">
+      <frame cnt="0">
+        <posx val="0.06875" />
+        <posy val="0.1171875" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_fes_ingame_audition_title1">
+      <frame cnt="0">
+        <posx val="0.1875" />
+        <posy val="0.1171875" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="100">
+        <posx val="0.1875" />
+        <posy val="0.1171875" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.06875" easeValue="0.0,0.6,1.0,1.0" />
+        <posy val="0.1171875" easeValue="0.0,0.6,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,0.6,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_TextArea_fesmission">
+      <frame cnt="0">
+        <posx val="0.009375" />
+        <posy val="0.640625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="100">
+        <posx val="0.009375" />
+        <posy val="0.640625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.009375" />
+        <posy val="0.484375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Closing_">
+    <asset type="UI" name="asset_fes_ingamebox">
+      <rect l="0" t="0" r="320" b="128" />
+    </asset>
+    <asset type="UI" name="asset_pn_fes_ingamebox">
+      <rect l="0" t="0" r="320" b="128" />
+    </asset>
+    <object name="fes_ingamebox" ani="ani_fes_ingamebox">
+      <asset type="UI" link="asset_fes_ingamebox" />
+    </object>
+    <object name="pn_fes_ingamebox" ani="ani_pn_fes_ingamebox">
+      <asset type="UI" link="asset_pn_fes_ingamebox" />
+    </object>
+    <param type="RES" x="320" y="128" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_fes_ingamebox">
+      <frame cnt="0">
+        <posx val="0" easeValue="0.0,0.5,1.0,1.0" />
+        <posy val="0.1171875" easeValue="0.0,0.5,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" easeValue="0.0,0.5,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_pn_fes_ingamebox">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="mission_success">
+    <asset type="UI" name="asset_fes_ingamebox">
+      <rect l="0" t="0" r="320" b="128" />
+    </asset>
+    <asset type="UI" name="asset_pn_fes_ingamebox">
+      <rect l="0" t="0" r="320" b="128" />
+    </asset>
+    <asset type="UI" name="asset_fes_ingame_audition_bg">
+      <rect l="0" t="0" r="320" b="55" />
+    </asset>
+    <asset type="UI" name="asset_fes_ingame_audition_efc2">
+      <rect l="0" t="0" r="298" b="54" />
+    </asset>
+    <asset type="UI" name="asset_fes_ingame_audition_title2">
+      <rect l="0" t="0" r="298" b="54" />
+    </asset>
+    <asset type="UI" name="asset_fes_ingame_audition_title1">
+      <rect l="0" t="0" r="298" b="54" />
+    </asset>
+    <asset type="UI" name="asset_TextArea_fesmission">
+      <rect l="0" t="0" r="311" b="21" />
+    </asset>
+    <object name="fes_ingamebox" ani="ani_fes_ingamebox">
+      <asset type="UI" link="asset_fes_ingamebox" />
+    </object>
+    <object name="pn_fes_ingamebox" ani="ani_pn_fes_ingamebox">
+      <asset type="UI" link="asset_pn_fes_ingamebox" />
+    </object>
+    <object name="fes_ingame_audition_bg" ani="ani_fes_ingame_audition_bg">
+      <asset type="UI" link="asset_fes_ingame_audition_bg" />
+    </object>
+    <object name="fes_ingame_audition_efc2" ani="ani_fes_ingame_audition_efc2">
+      <asset type="UI" link="asset_fes_ingame_audition_efc2" />
+    </object>
+    <object name="fes_ingame_audition_title2" ani="ani_fes_ingame_audition_title2">
+      <asset type="UI" link="asset_fes_ingame_audition_title2" />
+    </object>
+    <object name="fes_ingame_audition_title1" ani="ani_fes_ingame_audition_title1">
+      <asset type="UI" link="asset_fes_ingame_audition_title1" />
+    </object>
+    <object name="TextArea_fesmission" ani="ani_TextArea_fesmission">
+      <asset type="UI" link="asset_TextArea_fesmission" />
+    </object>
+    <param type="RES" x="320" y="128" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_fes_ingamebox">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_pn_fes_ingamebox">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_fes_ingame_audition_bg">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.40625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_fes_ingame_audition_efc2">
+      <frame cnt="0">
+        <posx val="0.1875" />
+        <posy val="0.1171875" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="400">
+        <posx val="0.1875" />
+        <posy val="0.1171875" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="567">
+        <posx val="0.06875" />
+        <posy val="0.1171875" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_fes_ingame_audition_title2">
+      <frame cnt="0">
+        <posx val="0.1875" />
+        <posy val="0.1171875" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="233">
+        <posx val="0.1875" />
+        <posy val="0.1171875" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="400">
+        <posx val="0.065625" />
+        <posy val="0.1171875" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_fes_ingame_audition_title1">
+      <frame cnt="0">
+        <posx val="0.06875" />
+        <posy val="0.1171875" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="167">
+        <posx val="0.1875" />
+        <posy val="0.1171875" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_TextArea_fesmission">
+      <frame cnt="0">
+        <posx val="0.009375" />
+        <posy val="0.484375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

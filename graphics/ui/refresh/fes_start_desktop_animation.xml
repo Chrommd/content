@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="_Opening_">
+    <asset type="UI" name="asset_lettercover">
+      <rect l="0" t="0" r="506" b="212" />
+    </asset>
+    <asset type="UI" name="asset_img_fes_letter">
+      <rect l="0" t="0" r="600" b="238" />
+    </asset>
+    <asset type="UI" name="asset_lb_fes_start_notice">
+      <rect l="0" t="0" r="340" b="16" />
+    </asset>
+    <asset type="UI" name="asset_txt_fes_mission">
+      <rect l="0" t="0" r="394" b="24" />
+    </asset>
+    <object name="lettercover" ani="ani_lettercover">
+      <asset type="UI" link="asset_lettercover" />
+    </object>
+    <object name="img_fes_letter" ani="ani_img_fes_letter">
+      <asset type="UI" link="asset_img_fes_letter" />
+    </object>
+    <object name="lb_fes_start_notice" ani="ani_lb_fes_start_notice">
+      <asset type="UI" link="asset_lb_fes_start_notice" />
+    </object>
+    <object name="txt_fes_mission" ani="ani_txt_fes_mission">
+      <asset type="UI" link="asset_txt_fes_mission" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_lettercover">
+      <frame cnt="0">
+        <posx val="0.2529296875" />
+        <posy val="0.208333333333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="0.2529296875" easeValue="0.0,0.5,1.0,1.0" />
+        <posy val="0.234375" easeValue="0.0,0.5,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,0.5,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="400">
+        <posx val="0.2529297" />
+        <posy val="0.234375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <sound val="result_ceremony_st1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_fes_letter">
+      <frame cnt="0">
+        <posx val="0.236328125" />
+        <posy val="0.1640625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <sound val="gui_festival_start" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="200">
+        <posx val="0.236328125" />
+        <posy val="0.1640625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="600">
+        <posx val="0.236328125" easeValue="0.0,0.5,1.0,1.0" />
+        <posy val="0.203125" easeValue="0.0,0.5,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,0.5,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_lb_fes_start_notice">
+      <frame cnt="0">
+        <posx val="0.09765625" />
+        <posy val="0.1731771" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="400">
+        <posx val="0.09765625" />
+        <posy val="0.1731771" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="667">
+        <posx val="0.09765625" />
+        <posy val="0.1731771" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_txt_fes_mission">
+      <frame cnt="0">
+        <posx val="0.0703125" />
+        <posy val="0.21875" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="400">
+        <posx val="0.0703125" />
+        <posy val="0.21875" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="667">
+        <posx val="0.0703125" />
+        <posy val="0.21875" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Closing_">
+    <asset type="UI" name="asset_lettercover">
+      <rect l="0" t="0" r="506" b="212" />
+    </asset>
+    <asset type="UI" name="asset_img_fes_letter">
+      <rect l="0" t="0" r="600" b="238" />
+    </asset>
+    <asset type="UI" name="asset_lb_fes_start_notice">
+      <rect l="0" t="0" r="340" b="16" />
+    </asset>
+    <asset type="UI" name="asset_txt_fes_mission">
+      <rect l="0" t="0" r="394" b="24" />
+    </asset>
+    <object name="lettercover" ani="ani_lettercover">
+      <asset type="UI" link="asset_lettercover" />
+    </object>
+    <object name="img_fes_letter" ani="ani_img_fes_letter">
+      <asset type="UI" link="asset_img_fes_letter" />
+    </object>
+    <object name="lb_fes_start_notice" ani="ani_lb_fes_start_notice">
+      <asset type="UI" link="asset_lb_fes_start_notice" />
+    </object>
+    <object name="txt_fes_mission" ani="ani_txt_fes_mission">
+      <asset type="UI" link="asset_txt_fes_mission" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_lettercover">
+      <frame cnt="0">
+        <posx val="0.2529296875" />
+        <posy val="0.234375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="367">
+        <posx val="0.2529296875" />
+        <posy val="0.234375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="700">
+        <posx val="0.2529296875" easeValue="0.0,0.5,1.0,1.0" />
+        <posy val="0.260416666666667" easeValue="0.0,0.5,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" easeValue="0.0,0.5,1.0,1.0" />
+        <rotate val="0" easeValue="0.0,0.5,1.0,1.0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_fes_letter">
+      <frame cnt="0">
+        <posx val="0.236328125" />
+        <posy val="0.203125" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="200">
+        <posx val="0.236328125" />
+        <posy val="0.203125" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="567">
+        <posx val="0.236328125" easeValue="0.0,0.5,1.0,1.0" />
+        <posy val="0.255208333333333" easeValue="0.0,0.5,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" easeValue="0.0,0.5,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_lb_fes_start_notice">
+      <frame cnt="0">
+        <posx val="0.09765625" />
+        <posy val="0.1731771" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="400">
+        <posx val="0.09765625" />
+        <posy val="0.1731771" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="667">
+        <posx val="0.09765625" />
+        <posy val="0.1731771" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_txt_fes_mission">
+      <frame cnt="0">
+        <posx val="0.0703125" />
+        <posy val="0.21875" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="400">
+        <posx val="0.0703125" />
+        <posy val="0.21875" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="667">
+        <posx val="0.0703125" />
+        <posy val="0.21875" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

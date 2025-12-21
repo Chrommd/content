@@ -1,0 +1,843 @@
+﻿<refresh version="2">
+	<properties>
+		<property name="DPI" val="72" />
+	</properties>
+	<base type="WND" subclass="" name="Wnd">
+		<pos x="0" y="0" />
+		<rect l="0" t="0" r="400" b="478" />
+		<Visible val="True" />
+		<Anchor val="Top, Left" />
+		<snd type="SHOW">ui_popup_item</snd>
+		<snd type="HIDE"></snd>
+		<IsHitTestVisible val="True" />
+		<ClipChildren val="False" />
+		<child type="PANEL" name="Panel_quest_step_2" subclass="">
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="400" b="478" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<embed src="" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<child type="PICTURE" name="quest_slot1_bg" subclass="">
+				<asset type="STATIC">quest_slot1_bg.png</asset>
+				<pos x="9" y="268" />
+				<rect l="0" t="0" r="390" b="200" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+				<base type="WND" subclass="" name="Wnd_item_0">
+					<pos x="3" y="3" />
+					<rect l="0" t="0" r="123" b="100" />
+					<Visible val="True" />
+					<Anchor val="Top, Left" />
+					<snd type="SHOW"></snd>
+					<snd type="HIDE"></snd>
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+					<child type="PICTURE" name="slot_b_n0" subclass="">
+						<asset type="STATIC">quest_slot1_b_n.png</asset>
+						<pos x="0" y="0" />
+						<rect l="0" t="0" r="121" b="95" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="False" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="PICTURE" name="item_icon0" subclass="">
+						<asset type="STATIC"></asset>
+						<pos x="25" y="3" />
+						<rect l="0" t="0" r="71" b="71" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="False" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="LABEL" name="Label_item_name0" subclass="">
+						<pos x="3" y="77" />
+						<rect l="0" t="0" r="115" b="17" />
+						<Visible val="True" />
+						<Anchor val="Left, Right" />
+						<label val="아이템이름" />
+						<OutlineColor val="#FFFFFF" />
+						<ShadowColor val="#0000004C" />
+						<color val="#FFFFFFFF" />
+						<halign val="1" />
+						<valign val="1" />
+						<FontName val="나눔고딕" />
+						<FontSize val="12" />
+						<TextTrimming val="CharacterEllipsis" />
+						<style val="1" />
+						<IsHitTestVisible val="False" />
+						<ClipChildren val="False" />
+						<Padding val="0, 0, 0, 0" />
+						<FitToContent val="False" />
+					</child>
+					<child type="LABEL" name="Label_item_info0" subclass="">
+						<pos x="6" y="58" />
+						<rect l="0" t="0" r="108" b="17" />
+						<Visible val="True" />
+						<Anchor val="Right" />
+						<label val="10개" />
+						<OutlineColor val="#4E3838FF" />
+						<ShadowColor val="#0000004C" />
+						<color val="#EEF600FF" />
+						<halign val="2" />
+						<valign val="1" />
+						<FontName val="나눔고딕 ExtraBold" />
+						<FontSize val="13" />
+						<TextTrimming val="CharacterEllipsis" />
+						<style val="16" />
+						<IsHitTestVisible val="False" />
+						<ClipChildren val="False" />
+						<Padding val="0, 0, 0, 0" />
+						<FitToContent val="False" />
+					</child>
+				</base>
+				<base type="WND" subclass="" name="Wnd_item_1">
+					<pos x="130" y="3" />
+					<rect l="0" t="0" r="123" b="100" />
+					<Visible val="True" />
+					<Anchor val="Top, Left" />
+					<snd type="SHOW"></snd>
+					<snd type="HIDE"></snd>
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+					<child type="PICTURE" name="slot_b_n1" subclass="">
+						<asset type="STATIC">quest_slot1_b_n.png</asset>
+						<pos x="0" y="0" />
+						<rect l="0" t="0" r="121" b="95" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="False" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="PICTURE" name="item_icon1" subclass="">
+						<asset type="STATIC"></asset>
+						<pos x="25" y="3" />
+						<rect l="0" t="0" r="71" b="71" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="False" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="LABEL" name="Label_item_name1" subclass="">
+						<pos x="3" y="77" />
+						<rect l="0" t="0" r="115" b="17" />
+						<Visible val="True" />
+						<Anchor val="Left, Right" />
+						<label val="아이템이름" />
+						<OutlineColor val="#FFFFFF" />
+						<ShadowColor val="#0000004C" />
+						<color val="#FFFFFFFF" />
+						<halign val="1" />
+						<valign val="1" />
+						<FontName val="나눔고딕" />
+						<FontSize val="12" />
+						<TextTrimming val="CharacterEllipsis" />
+						<style val="1" />
+						<IsHitTestVisible val="False" />
+						<ClipChildren val="False" />
+						<Padding val="0, 0, 0, 0" />
+						<FitToContent val="False" />
+					</child>
+					<child type="LABEL" name="Label_item_info1" subclass="">
+						<pos x="6" y="58" />
+						<rect l="0" t="0" r="108" b="17" />
+						<Visible val="True" />
+						<Anchor val="Right" />
+						<label val="10개" />
+						<OutlineColor val="#4E3838FF" />
+						<ShadowColor val="#0000004C" />
+						<color val="#EEF600FF" />
+						<halign val="2" />
+						<valign val="1" />
+						<FontName val="나눔고딕 ExtraBold" />
+						<FontSize val="13" />
+						<TextTrimming val="CharacterEllipsis" />
+						<style val="16" />
+						<IsHitTestVisible val="False" />
+						<ClipChildren val="False" />
+						<Padding val="0, 0, 0, 0" />
+						<FitToContent val="False" />
+					</child>
+				</base>
+				<base type="WND" subclass="" name="Wnd_item_2">
+					<pos x="257" y="3" />
+					<rect l="0" t="0" r="123" b="100" />
+					<Visible val="True" />
+					<Anchor val="Top, Left" />
+					<snd type="SHOW"></snd>
+					<snd type="HIDE"></snd>
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+					<child type="PICTURE" name="slot_b_n2" subclass="">
+						<asset type="STATIC">quest_slot1_b_n.png</asset>
+						<pos x="0" y="0" />
+						<rect l="0" t="0" r="121" b="95" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="False" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="PICTURE" name="item_icon2" subclass="">
+						<asset type="STATIC"></asset>
+						<pos x="25" y="3" />
+						<rect l="0" t="0" r="71" b="71" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="False" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="LABEL" name="Label_item_name2" subclass="">
+						<pos x="3" y="77" />
+						<rect l="0" t="0" r="115" b="17" />
+						<Visible val="True" />
+						<Anchor val="Left, Right" />
+						<label val="아이템이름" />
+						<OutlineColor val="#FFFFFF" />
+						<ShadowColor val="#0000004C" />
+						<color val="#FFFFFFFF" />
+						<halign val="1" />
+						<valign val="1" />
+						<FontName val="나눔고딕" />
+						<FontSize val="12" />
+						<TextTrimming val="CharacterEllipsis" />
+						<style val="1" />
+						<IsHitTestVisible val="False" />
+						<ClipChildren val="False" />
+						<Padding val="0, 0, 0, 0" />
+						<FitToContent val="False" />
+					</child>
+					<child type="LABEL" name="Label_item_info2" subclass="">
+						<pos x="6" y="58" />
+						<rect l="0" t="0" r="108" b="17" />
+						<Visible val="True" />
+						<Anchor val="Right" />
+						<label val="10개" />
+						<OutlineColor val="#4E3838FF" />
+						<ShadowColor val="#0000004C" />
+						<color val="#EEF600FF" />
+						<halign val="2" />
+						<valign val="1" />
+						<FontName val="나눔고딕 ExtraBold" />
+						<FontSize val="13" />
+						<TextTrimming val="CharacterEllipsis" />
+						<style val="16" />
+						<IsHitTestVisible val="False" />
+						<ClipChildren val="False" />
+						<Padding val="0, 0, 0, 0" />
+						<FitToContent val="False" />
+					</child>
+				</base>
+				<base type="WND" subclass="" name="Wnd_item_3">
+					<pos x="3" y="102" />
+					<rect l="0" t="0" r="123" b="100" />
+					<Visible val="True" />
+					<Anchor val="Top, Left" />
+					<snd type="SHOW"></snd>
+					<snd type="HIDE"></snd>
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+					<child type="PICTURE" name="slot_b_n3" subclass="">
+						<asset type="STATIC">quest_slot1_b_n.png</asset>
+						<pos x="0" y="0" />
+						<rect l="0" t="0" r="121" b="95" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="False" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="PICTURE" name="item_icon3" subclass="">
+						<asset type="STATIC"></asset>
+						<pos x="25" y="3" />
+						<rect l="0" t="0" r="71" b="71" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="False" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="LABEL" name="Label_item_name3" subclass="">
+						<pos x="3" y="77" />
+						<rect l="0" t="0" r="115" b="17" />
+						<Visible val="True" />
+						<Anchor val="Left, Right" />
+						<label val="아이템이름" />
+						<OutlineColor val="#FFFFFF" />
+						<ShadowColor val="#0000004C" />
+						<color val="#FFFFFFFF" />
+						<halign val="1" />
+						<valign val="1" />
+						<FontName val="나눔고딕" />
+						<FontSize val="12" />
+						<TextTrimming val="CharacterEllipsis" />
+						<style val="1" />
+						<IsHitTestVisible val="False" />
+						<ClipChildren val="False" />
+						<Padding val="0, 0, 0, 0" />
+						<FitToContent val="False" />
+					</child>
+					<child type="LABEL" name="Label_item_info3" subclass="">
+						<pos x="6" y="58" />
+						<rect l="0" t="0" r="108" b="17" />
+						<Visible val="True" />
+						<Anchor val="Right" />
+						<label val="10개" />
+						<OutlineColor val="#4E3838FF" />
+						<ShadowColor val="#0000004C" />
+						<color val="#EEF600FF" />
+						<halign val="2" />
+						<valign val="1" />
+						<FontName val="나눔고딕 ExtraBold" />
+						<FontSize val="13" />
+						<TextTrimming val="CharacterEllipsis" />
+						<style val="16" />
+						<IsHitTestVisible val="False" />
+						<ClipChildren val="False" />
+						<Padding val="0, 0, 0, 0" />
+						<FitToContent val="False" />
+					</child>
+				</base>
+				<base type="WND" subclass="" name="Wnd_item_4">
+					<pos x="131" y="102" />
+					<rect l="0" t="0" r="123" b="100" />
+					<Visible val="True" />
+					<Anchor val="Top, Left" />
+					<snd type="SHOW"></snd>
+					<snd type="HIDE"></snd>
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+					<child type="PICTURE" name="slot_b_n4" subclass="">
+						<asset type="STATIC">quest_slot1_b_n.png</asset>
+						<pos x="0" y="0" />
+						<rect l="0" t="0" r="121" b="95" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="False" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="PICTURE" name="item_icon4" subclass="">
+						<asset type="STATIC"></asset>
+						<pos x="25" y="3" />
+						<rect l="0" t="0" r="71" b="71" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="False" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="LABEL" name="Label_item_name4" subclass="">
+						<pos x="3" y="77" />
+						<rect l="0" t="0" r="115" b="17" />
+						<Visible val="True" />
+						<Anchor val="Left, Right" />
+						<label val="아이템이름" />
+						<OutlineColor val="#FFFFFF" />
+						<ShadowColor val="#0000004C" />
+						<color val="#FFFFFFFF" />
+						<halign val="1" />
+						<valign val="1" />
+						<FontName val="나눔고딕" />
+						<FontSize val="12" />
+						<TextTrimming val="CharacterEllipsis" />
+						<style val="1" />
+						<IsHitTestVisible val="False" />
+						<ClipChildren val="False" />
+						<Padding val="0, 0, 0, 0" />
+						<FitToContent val="False" />
+					</child>
+					<child type="LABEL" name="Label_item_info4" subclass="">
+						<pos x="6" y="58" />
+						<rect l="0" t="0" r="108" b="17" />
+						<Visible val="True" />
+						<Anchor val="Right" />
+						<label val="10개" />
+						<OutlineColor val="#4E3838FF" />
+						<ShadowColor val="#0000004C" />
+						<color val="#EEF600FF" />
+						<halign val="2" />
+						<valign val="1" />
+						<FontName val="나눔고딕 ExtraBold" />
+						<FontSize val="13" />
+						<TextTrimming val="CharacterEllipsis" />
+						<style val="16" />
+						<IsHitTestVisible val="False" />
+						<ClipChildren val="False" />
+						<Padding val="0, 0, 0, 0" />
+						<FitToContent val="False" />
+					</child>
+				</base>
+				<base type="WND" subclass="" name="Wnd_item_5">
+					<pos x="258" y="102" />
+					<rect l="0" t="0" r="123" b="100" />
+					<Visible val="True" />
+					<Anchor val="Top, Left" />
+					<snd type="SHOW"></snd>
+					<snd type="HIDE"></snd>
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+					<child type="PICTURE" name="slot_b_n5" subclass="">
+						<asset type="STATIC">quest_slot1_b_n.png</asset>
+						<pos x="0" y="0" />
+						<rect l="0" t="0" r="121" b="95" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="False" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="PICTURE" name="item_icon5" subclass="">
+						<asset type="STATIC"></asset>
+						<pos x="25" y="3" />
+						<rect l="0" t="0" r="71" b="71" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="False" />
+						<ClipChildren val="False" />
+					</child>
+					<child type="LABEL" name="Label_item_name5" subclass="">
+						<pos x="3" y="77" />
+						<rect l="0" t="0" r="115" b="17" />
+						<Visible val="True" />
+						<Anchor val="Left, Right" />
+						<label val="아이템이름" />
+						<OutlineColor val="#FFFFFF" />
+						<ShadowColor val="#0000004C" />
+						<color val="#FFFFFFFF" />
+						<halign val="1" />
+						<valign val="1" />
+						<FontName val="나눔고딕" />
+						<FontSize val="12" />
+						<TextTrimming val="CharacterEllipsis" />
+						<style val="1" />
+						<IsHitTestVisible val="False" />
+						<ClipChildren val="False" />
+						<Padding val="0, 0, 0, 0" />
+						<FitToContent val="False" />
+					</child>
+					<child type="LABEL" name="Label_item_info5" subclass="">
+						<pos x="6" y="58" />
+						<rect l="0" t="0" r="108" b="17" />
+						<Visible val="True" />
+						<Anchor val="Right" />
+						<label val="10개" />
+						<OutlineColor val="#4E3838FF" />
+						<ShadowColor val="#0000004C" />
+						<color val="#EEF600FF" />
+						<halign val="2" />
+						<valign val="1" />
+						<FontName val="나눔고딕 ExtraBold" />
+						<FontSize val="13" />
+						<TextTrimming val="CharacterEllipsis" />
+						<style val="16" />
+						<IsHitTestVisible val="False" />
+						<ClipChildren val="False" />
+						<Padding val="0, 0, 0, 0" />
+						<FitToContent val="False" />
+					</child>
+				</base>
+			</child>
+			<base type="WNDEX" subclass="" name="WndEx_bonus">
+				<asset type="BG" path="frm_color_orange_CenterMiddle.png" tileMode="Stretch">
+					<tex x="4" y="4" />
+					<rect l="4" t="4" r="92" b="11" />
+				</asset>
+				<asset type="EDGE_LT" path="frm_color_orange_LeftTop.png" tileMode="Stretch">
+					<tex x="4" y="4" />
+					<rect l="0" t="0" r="4" b="4" />
+				</asset>
+				<asset type="EDGE_RT" path="frm_color_orange_RightTop.png" tileMode="Stretch">
+					<tex x="4" y="4" />
+					<rect l="0" t="0" r="4" b="4" />
+				</asset>
+				<asset type="EDGE_LB" path="frm_color_orange_LeftBottom.png" tileMode="Stretch">
+					<tex x="4" y="4" />
+					<rect l="0" t="0" r="4" b="4" />
+				</asset>
+				<asset type="EDGE_RB" path="frm_color_orange_RightBottom.png" tileMode="Stretch">
+					<tex x="4" y="4" />
+					<rect l="0" t="0" r="4" b="4" />
+				</asset>
+				<asset type="FRAME_T" path="frm_color_orange_CenterTop.png" tileMode="Tile">
+					<tex x="4" y="4" />
+					<rect l="4" t="0" r="92" b="4" />
+				</asset>
+				<asset type="FRAME_B" path="frm_color_orange_CenterBottom.png" tileMode="Tile">
+					<tex x="4" y="4" />
+					<rect l="4" t="0" r="92" b="4" />
+				</asset>
+				<asset type="FRAME_L" path="frm_color_orange_LeftMiddle.png" tileMode="Tile">
+					<tex x="4" y="4" />
+					<rect l="0" t="4" r="4" b="11" />
+				</asset>
+				<asset type="FRAME_R" path="frm_color_orange_RightMiddle.png" tileMode="Tile">
+					<tex x="4" y="4" />
+					<rect l="0" t="4" r="4" b="11" />
+				</asset>
+				<pos x="7" y="244" />
+				<rect l="0" t="0" r="100" b="19" />
+				<Visible val="True" />
+				<Anchor val="Top, Left, Right" />
+				<snd type="SHOW"></snd>
+				<snd type="HIDE"></snd>
+				<Dragable val="False" />
+				<StartPosition val="None" />
+				<EscKeyAction val="None" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+				<child type="LABEL" name="Label_quest_bonus" subclass="">
+					<pos x="5" y="0" />
+					<rect l="0" t="0" r="101" b="20" />
+					<Visible val="True" />
+					<Anchor val="Top, Left" />
+					<label val="Reward" />
+					<OutlineColor val="#FFFFFF" />
+					<ShadowColor val="#0000004C" />
+					<color val="#FFFFFFFF" />
+					<halign val="0" />
+					<valign val="1" />
+					<FontName val="나눔고딕 ExtraBold" />
+					<FontSize val="14" />
+					<TextTrimming val="None" />
+					<style val="0" />
+					<IsHitTestVisible val="False" />
+					<ClipChildren val="False" />
+					<Padding val="0, 0, 0, 0" />
+					<FitToContent val="False" />
+				</child>
+			</base>
+			<base type="WNDEX" subclass="" name="WndEx_target">
+				<asset type="BG" path="frm_color_orange_CenterMiddle.png" tileMode="Stretch">
+					<tex x="4" y="4" />
+					<rect l="4" t="4" r="92" b="11" />
+				</asset>
+				<asset type="EDGE_LT" path="frm_color_orange_LeftTop.png" tileMode="Stretch">
+					<tex x="4" y="4" />
+					<rect l="0" t="0" r="4" b="4" />
+				</asset>
+				<asset type="EDGE_RT" path="frm_color_orange_RightTop.png" tileMode="Stretch">
+					<tex x="4" y="4" />
+					<rect l="0" t="0" r="4" b="4" />
+				</asset>
+				<asset type="EDGE_LB" path="frm_color_orange_LeftBottom.png" tileMode="Stretch">
+					<tex x="4" y="4" />
+					<rect l="0" t="0" r="4" b="4" />
+				</asset>
+				<asset type="EDGE_RB" path="frm_color_orange_RightBottom.png" tileMode="Stretch">
+					<tex x="4" y="4" />
+					<rect l="0" t="0" r="4" b="4" />
+				</asset>
+				<asset type="FRAME_T" path="frm_color_orange_CenterTop.png" tileMode="Tile">
+					<tex x="4" y="4" />
+					<rect l="4" t="0" r="92" b="4" />
+				</asset>
+				<asset type="FRAME_B" path="frm_color_orange_CenterBottom.png" tileMode="Tile">
+					<tex x="4" y="4" />
+					<rect l="4" t="0" r="92" b="4" />
+				</asset>
+				<asset type="FRAME_L" path="frm_color_orange_LeftMiddle.png" tileMode="Tile">
+					<tex x="4" y="4" />
+					<rect l="0" t="4" r="4" b="11" />
+				</asset>
+				<asset type="FRAME_R" path="frm_color_orange_RightMiddle.png" tileMode="Tile">
+					<tex x="4" y="4" />
+					<rect l="0" t="4" r="4" b="11" />
+				</asset>
+				<pos x="7" y="194" />
+				<rect l="0" t="0" r="100" b="19" />
+				<Visible val="True" />
+				<Anchor val="Top, Left, Right" />
+				<snd type="SHOW"></snd>
+				<snd type="HIDE"></snd>
+				<Dragable val="False" />
+				<StartPosition val="None" />
+				<EscKeyAction val="None" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+				<child type="LABEL" name="Label_quest_bonus1" subclass="">
+					<pos x="5" y="0" />
+					<rect l="0" t="0" r="101" b="20" />
+					<Visible val="True" />
+					<Anchor val="Top, Left" />
+					<label val="Task" />
+					<OutlineColor val="#FFFFFF" />
+					<ShadowColor val="#0000004C" />
+					<color val="#FFFFFFFF" />
+					<halign val="0" />
+					<valign val="1" />
+					<FontName val="나눔고딕 ExtraBold" />
+					<FontSize val="14" />
+					<TextTrimming val="None" />
+					<style val="0" />
+					<IsHitTestVisible val="False" />
+					<ClipChildren val="False" />
+					<Padding val="0, 0, 0, 0" />
+					<FitToContent val="False" />
+				</child>
+			</base>
+			<child type="PICTURE" name="quest_info_bg2" subclass="">
+				<asset type="STATIC">quest_npc_info_bg.png</asset>
+				<pos x="0" y="0" />
+				<rect l="0" t="0" r="428" b="192" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+				<child type="PICTURE" name="map_img" subclass="">
+					<asset type="STATIC">map_dummy.png</asset>
+					<pos x="13" y="36" />
+					<rect l="0" t="0" r="156" b="106" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+				</child>
+				<child type="PICTURE" name="quest_npc_info_bg_deco_01" subclass="">
+					<asset type="STATIC">quest_npc_info_bg_deco_01.png</asset>
+					<pos x="5" y="29" />
+					<rect l="0" t="0" r="171" b="121" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+				</child>
+				<child type="STACKPANEL" name="quest_level" subclass="">
+					<pos x="18" y="161" />
+					<rect l="0" t="0" r="144" b="22" />
+					<Visible val="True" />
+					<Anchor val="Top, Left" />
+					<Orientation val="Horizontal" />
+					<HAlign val="Center" />
+					<VAlign val="Center" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+					<child type="PICTURE" name="icon_common_star_empty" subclass="">
+						<asset type="STATIC">icon_common_star_empty.png</asset>
+						<pos x="65" y="3" />
+						<rect l="0" t="0" r="68" b="15" />
+						<Visible val="True" />
+						<Anchor val="None" />
+						<center x="0" y="0" />
+						<IsHitTestVisible val="False" />
+						<ClipChildren val="False" />
+						<child type="PICTURE" name="img_course_level" subclass="">
+							<asset type="STATIC">course_level_5.png</asset>
+							<pos x="0" y="0" />
+							<rect l="0" t="0" r="68" b="15" />
+							<Visible val="True" />
+							<Anchor val="None" />
+							<center x="0" y="0" />
+							<IsHitTestVisible val="False" />
+							<ClipChildren val="False" />
+						</child>
+					</child>
+					<child type="LABEL" name="Label" subclass="">
+						<pos x="11" y="2" />
+						<rect l="0" t="0" r="54" b="17" />
+						<Visible val="True" />
+						<Anchor val="Top, Left" />
+						<label val="Difficulty " />
+						<OutlineColor val="#3D3232FF" />
+						<ShadowColor val="#0000004C" />
+						<color val="#7C6D4FFF" />
+						<halign val="0" />
+						<valign val="1" />
+						<FontName val="나눔고딕 ExtraBold" />
+						<FontSize val="12" />
+						<TextTrimming val="None" />
+						<style val="0" />
+						<IsHitTestVisible val="False" />
+						<ClipChildren val="False" />
+						<Padding val="0, 0, 0, 0" />
+						<FitToContent val="True" />
+					</child>
+				</child>
+				<child type="PICTURE" name="common_line_02" subclass="">
+					<asset type="STATIC">common_line_01.png</asset>
+					<pos x="15" y="160" />
+					<rect l="0" t="0" r="159" b="13" />
+					<Visible val="True" />
+					<Anchor val="None" />
+					<center x="0" y="0" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+				</child>
+				<child type="LABEL" name="map_name" subclass="">
+					<pos x="15" y="141" />
+					<rect l="0" t="0" r="152" b="19" />
+					<Visible val="True" />
+					<Anchor val="Top, Left" />
+					<label val="프로라가도" />
+					<OutlineColor val="#3D3232FF" />
+					<ShadowColor val="#0000004C" />
+					<color val="#3D3232FF" />
+					<halign val="1" />
+					<valign val="1" />
+					<FontName val="나눔고딕" />
+					<FontSize val="15" />
+					<TextTrimming val="CharacterEllipsis" />
+					<style val="1" />
+					<IsHitTestVisible val="False" />
+					<ClipChildren val="False" />
+					<Padding val="0, 0, 0, 0" />
+					<FitToContent val="False" />
+				</child>
+				<child type="TEXTAREA" name="quest_info2" subclass="">
+					<asset type="BG" path="" tileMode="Tile">
+						<tex x="0" y="0" />
+						<rect l="8" t="8" r="193" b="125" />
+					</asset>
+					<asset type="EDGE_LT" path="" tileMode="Tile">
+						<tex x="0" y="0" />
+						<rect l="0" t="0" r="8" b="8" />
+					</asset>
+					<asset type="EDGE_RT" path="" tileMode="Tile">
+						<tex x="0" y="0" />
+						<rect l="0" t="0" r="8" b="8" />
+					</asset>
+					<asset type="EDGE_LB" path="" tileMode="Tile">
+						<tex x="0" y="0" />
+						<rect l="0" t="0" r="8" b="8" />
+					</asset>
+					<asset type="EDGE_RB" path="" tileMode="Tile">
+						<tex x="0" y="0" />
+						<rect l="0" t="0" r="8" b="8" />
+					</asset>
+					<asset type="FRAME_T" path="" tileMode="Tile">
+						<tex x="0" y="0" />
+						<rect l="8" t="0" r="193" b="8" />
+					</asset>
+					<asset type="FRAME_B" path="" tileMode="Tile">
+						<tex x="0" y="0" />
+						<rect l="8" t="0" r="193" b="8" />
+					</asset>
+					<asset type="FRAME_L" path="" tileMode="Tile">
+						<tex x="0" y="0" />
+						<rect l="0" t="8" r="8" b="125" />
+					</asset>
+					<asset type="FRAME_R" path="" tileMode="Tile">
+						<tex x="0" y="0" />
+						<rect l="0" t="8" r="8" b="125" />
+					</asset>
+					<asset type="CARET" path="">
+						<rpos x="0" y="0" />
+						<rect l="0" t="0" r="0" b="0" />
+					</asset>
+					<pos x="177" y="38" />
+					<rect l="0" t="0" r="209" b="141" />
+					<Visible val="True" />
+					<Anchor val="Top, Left" />
+					<Editable val="False" />
+					<OutlineColor val="#FFFFFF" />
+					<ShadowColor val="#0000004C" />
+					<SelectionBrush val="#FF0000" />
+					<color val="#6B5D54" />
+					<style val="1" />
+					<halign val="0" />
+					<padding l="0" t="0" r="0" b="0" />
+					<FontName val="나눔고딕" />
+					<FontSize val="13" />
+					<IsHitTestVisible val="True" />
+					<ClipChildren val="False" />
+					<FitToContent val="False" />
+					<Text val="" />
+				</child>
+			</child>
+			<child type="LABEL" name="Label_quest_info" subclass="">
+				<pos x="12" y="8" />
+				<rect l="0" t="0" r="358" b="20" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<label val="이 퀘스트는 뭔가?" />
+				<OutlineColor val="#FFFFFF" />
+				<ShadowColor val="#0000004C" />
+				<color val="#FFFFFFFF" />
+				<halign val="0" />
+				<valign val="1" />
+				<FontName val="나눔고딕" />
+				<FontSize val="16" />
+				<TextTrimming val="None" />
+				<style val="33" />
+				<IsHitTestVisible val="False" />
+				<ClipChildren val="False" />
+				<Padding val="0, 0, 0, 0" />
+				<FitToContent val="False" />
+			</child>
+			<child type="TEXTAREA" name="TextArea_target" subclass="">
+				<asset type="BG" path="" tileMode="Tile">
+					<tex x="0" y="0" />
+					<rect l="8" t="8" r="367" b="6" />
+				</asset>
+				<asset type="EDGE_LT" path="" tileMode="Tile">
+					<tex x="0" y="0" />
+					<rect l="0" t="0" r="8" b="8" />
+				</asset>
+				<asset type="EDGE_RT" path="" tileMode="Tile">
+					<tex x="0" y="0" />
+					<rect l="0" t="0" r="8" b="8" />
+				</asset>
+				<asset type="EDGE_LB" path="" tileMode="Tile">
+					<tex x="0" y="0" />
+					<rect l="0" t="0" r="8" b="8" />
+				</asset>
+				<asset type="EDGE_RB" path="" tileMode="Tile">
+					<tex x="0" y="0" />
+					<rect l="0" t="0" r="8" b="8" />
+				</asset>
+				<asset type="FRAME_T" path="" tileMode="Tile">
+					<tex x="0" y="0" />
+					<rect l="8" t="0" r="367" b="8" />
+				</asset>
+				<asset type="FRAME_B" path="" tileMode="Tile">
+					<tex x="0" y="0" />
+					<rect l="8" t="0" r="367" b="8" />
+				</asset>
+				<asset type="FRAME_L" path="" tileMode="Tile">
+					<tex x="0" y="0" />
+					<rect l="0" t="8" r="8" b="6" />
+				</asset>
+				<asset type="FRAME_R" path="" tileMode="Tile">
+					<tex x="0" y="0" />
+					<rect l="0" t="8" r="8" b="6" />
+				</asset>
+				<asset type="CARET" path="">
+					<rpos x="0" y="0" />
+					<rect l="0" t="0" r="0" b="0" />
+				</asset>
+				<pos x="10" y="215" />
+				<rect l="0" t="0" r="383" b="22" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<Editable val="False" />
+				<OutlineColor val="#FFFFFF" />
+				<ShadowColor val="#0000004C" />
+				<SelectionBrush val="#FF0000" />
+				<color val="#6B5D54" />
+				<style val="1" />
+				<halign val="0" />
+				<padding l="0" t="0" r="0" b="0" />
+				<FontName val="나눔고딕" />
+				<FontSize val="14" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+				<FitToContent val="False" />
+				<Text val="" />
+			</child>
+		</child>
+	</base>
+</refresh>

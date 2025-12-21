@@ -1,0 +1,249 @@
+﻿<refresh version="2">
+	<properties>
+		<property name="DPI" val="72" />
+		<property name="UIAnimation" val="rd_user_column_Animation.xml" />
+	</properties>
+	<base type="WND" subclass="" name="Wnd_rd_user">
+		<pos x="0" y="0" />
+		<rect l="0" t="0" r="220" b="23" />
+		<Visible val="True" />
+		<Anchor val="Top, Left" />
+		<snd type="SHOW"></snd>
+		<snd type="HIDE"></snd>
+		<IsHitTestVisible val="True" />
+		<ClipChildren val="False" />
+		<child type="PICTURE" name="user_bar_on" subclass="">
+			<asset type="STATIC">chat_bar_on.png</asset>
+			<pos x="40" y="-1" />
+			<rect l="0" t="0" r="179" b="25" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="icon_blue" subclass="">
+			<asset type="STATIC">icon_blue2.png</asset>
+			<pos x="2" y="1" />
+			<rect l="0" t="0" r="21" b="22" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="icon_red" subclass="">
+			<asset type="STATIC">icon_red2.png</asset>
+			<pos x="2" y="1" />
+			<rect l="0" t="0" r="21" b="22" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="LABEL" name="Label_name" subclass="">
+			<pos x="65" y="-1" />
+			<rect l="0" t="0" r="133" b="23" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<label val="" />
+			<OutlineColor val="#000000BF" />
+			<ShadowColor val="#0000004C" />
+			<color val="#FFFFFFFF" />
+			<halign val="0" />
+			<valign val="1" />
+			<FontName val="나눔고딕" />
+			<FontSize val="13" />
+			<TextTrimming val="CharacterEllipsis" />
+			<style val="33" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+			<Padding val="0, 0, 0, 0" />
+			<FitToContent val="False" />
+		</child>
+		<child type="PICTURE" name="myinfo_chat_block" subclass="">
+			<asset type="STATIC">myinfo_icon_chat_block.png</asset>
+			<pos x="182" y="5" />
+			<rect l="0" t="0" r="14" b="14" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="BUTTON" subclass="" name="btn_user_info">
+			<asset type="NORMAL">cha_info_btn_Normal.png</asset>
+			<asset type="DOWN">cha_info_btn_Push.png</asset>
+			<asset type="OVER">cha_info_btn_Hover.png</asset>
+			<asset type="DISABLE">cha_info_btn_Disable.png</asset>
+			<pos x="198" y="2" />
+			<rect l="0" t="0" r="19" b="19" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<snd type="OVER"></snd>
+			<snd type="DOWN"></snd>
+			<snd type="RELEASE"></snd>
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<IsDefaultButton val="False" />
+		</child>
+		<child type="PICTURE" name="icon_ready3" subclass="">
+			<asset type="STATIC">icon_ready3.png</asset>
+			<pos x="219" y="1" />
+			<rect l="0" t="0" r="71" b="21" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="icon_ready2" subclass="">
+			<asset type="STATIC">icon_ready2.png</asset>
+			<pos x="219" y="1" />
+			<rect l="0" t="0" r="71" b="21" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="icon_ready1" subclass="">
+			<asset type="STATIC">icon_ready1.png</asset>
+			<pos x="219" y="1" />
+			<rect l="0" t="0" r="71" b="21" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="icon_master" subclass="">
+			<asset type="STATIC">icon_master.png</asset>
+			<pos x="219" y="1" />
+			<rect l="0" t="0" r="71" b="21" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="img_icon_winlevel_3" subclass="">
+			<asset type="STATIC">img_icon_winlevel_3.png</asset>
+			<pos x="20" y="0" />
+			<rect l="0" t="0" r="24" b="24" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="img_icon_winlevel_2" subclass="">
+			<asset type="STATIC">img_icon_winlevel_2.png</asset>
+			<pos x="20" y="0" />
+			<rect l="0" t="0" r="24" b="24" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="img_icon_winlevel" subclass="">
+			<asset type="STATIC">img_icon_winlevel_1.png</asset>
+			<pos x="20" y="0" />
+			<rect l="0" t="0" r="24" b="24" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="icon_revenge" subclass="">
+			<asset type="STATIC">icon_revenge_0.png</asset>
+			<pos x="290" y="1" />
+			<rect l="0" t="0" r="56" b="21" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="icon_levelup" subclass="">
+			<asset type="STATIC">icon_levelup.png</asset>
+			<pos x="346" y="2" />
+			<rect l="0" t="0" r="22" b="18" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PANEL" name="Panel_myinfo_icon_sex" subclass="">
+			<pos x="43" y="1" />
+			<rect l="0" t="0" r="20" b="21" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<embed src="" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<child type="BUTTON" subclass="" name="myinfo_icon_sex_2">
+				<asset type="NORMAL">myinfo_icon_sex_none.png</asset>
+				<asset type="DOWN">myinfo_icon_sex_none_over.png</asset>
+				<asset type="OVER">myinfo_icon_sex_none_over.png</asset>
+				<asset type="DISABLE"></asset>
+				<pos x="0" y="0" />
+				<rect l="0" t="0" r="20" b="23" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<snd type="OVER"></snd>
+				<snd type="DOWN"></snd>
+				<snd type="RELEASE"></snd>
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+				<IsDefaultButton val="False" />
+			</child>
+			<child type="BUTTON" subclass="" name="myinfo_icon_sex_1">
+				<asset type="NORMAL">myinfo_icon_sex_male.png</asset>
+				<asset type="DOWN">myinfo_icon_sex_male_over.png</asset>
+				<asset type="OVER">myinfo_icon_sex_male_over.png</asset>
+				<asset type="DISABLE"></asset>
+				<pos x="0" y="0" />
+				<rect l="0" t="0" r="20" b="23" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<snd type="OVER"></snd>
+				<snd type="DOWN"></snd>
+				<snd type="RELEASE"></snd>
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+				<IsDefaultButton val="False" />
+			</child>
+			<child type="BUTTON" subclass="" name="myinfo_icon_sex_0">
+				<asset type="NORMAL">myinfo_icon_sex_female.png</asset>
+				<asset type="DOWN">myinfo_icon_sex_female_over.png</asset>
+				<asset type="OVER">myinfo_icon_sex_female_over.png</asset>
+				<asset type="DISABLE"></asset>
+				<pos x="0" y="0" />
+				<rect l="0" t="0" r="20" b="23" />
+				<Visible val="True" />
+				<Anchor val="Top, Left" />
+				<snd type="OVER"></snd>
+				<snd type="DOWN"></snd>
+				<snd type="RELEASE"></snd>
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+				<IsDefaultButton val="False" />
+			</child>
+			<child type="PICTURE" name="myinfo_icon_gm" subclass="">
+				<asset type="STATIC">myinfo_icon_gm.png</asset>
+				<pos x="0" y="3" />
+				<rect l="0" t="0" r="23" b="15" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+		</child>
+	</base>
+</refresh>

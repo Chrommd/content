@@ -1,0 +1,2178 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="revenge_ingame">
+    <asset type="UI" name="asset_wnd_revenge">
+      <rect l="0" t="0" r="1024" b="768" />
+    </asset>
+    <asset type="UI" name="asset_StackPanel">
+      <rect l="0" t="0" r="1024" b="768" />
+    </asset>
+    <asset type="UI" name="asset_wnd_revenge_ingame">
+      <rect l="0" t="0" r="1024" b="768" />
+    </asset>
+    <asset type="UI" name="asset_panel_revenge_success">
+      <rect l="0" t="0" r="288" b="97" />
+    </asset>
+    <asset type="UI" name="asset_img_revenge_txt_success_s">
+      <rect l="0" t="0" r="270" b="47" />
+    </asset>
+    <asset type="UI" name="asset_panel_revenge_failure">
+      <rect l="0" t="0" r="288" b="97" />
+    </asset>
+    <asset type="UI" name="asset_img_revenge_txt_success_s1">
+      <rect l="0" t="0" r="270" b="47" />
+    </asset>
+    <asset type="UI" name="asset_wnd_revenge_praph">
+      <rect l="0" t="0" r="360" b="135" />
+    </asset>
+    <asset type="UI" name="asset_Panel_progress">
+      <rect l="0" t="0" r="333" b="51" />
+    </asset>
+    <asset type="UI" name="asset_img_revenge_dummy_2">
+      <rect l="0" t="0" r="332" b="50" />
+    </asset>
+    <asset type="UI" name="asset_img_revenge_dummy_3">
+      <rect l="0" t="0" r="110" b="8" />
+    </asset>
+    <asset type="UI" name="asset_progress_revenge_ingame">
+      <rect l="0" t="0" r="224" b="26" />
+    </asset>
+    <asset type="UI" name="asset_img_revenge_dummy_1">
+      <rect l="0" t="0" r="224" b="26" />
+    </asset>
+    <asset type="UI" name="asset_Panel_revnege_txt">
+      <rect l="0" t="0" r="287" b="45" />
+    </asset>
+    <asset type="UI" name="asset_img_revenge_result_txtback">
+      <rect l="0" t="0" r="287" b="43" />
+    </asset>
+    <asset type="UI" name="asset_lb_revnege_result">
+      <rect l="0" t="0" r="280" b="36" />
+    </asset>
+    <asset type="UI" name="asset_panel_revenge_ch_girl">
+      <rect l="0" t="0" r="112" b="87" />
+    </asset>
+    <asset type="UI" name="asset_img_revenge_ch_4">
+      <rect l="0" t="0" r="112" b="87" />
+    </asset>
+    <asset type="UI" name="asset_img_revenge_ch_3">
+      <rect l="0" t="0" r="112" b="87" />
+    </asset>
+    <asset type="UI" name="asset_img_revenge_ch_2">
+      <rect l="0" t="0" r="112" b="87" />
+    </asset>
+    <asset type="UI" name="asset_img_revenge_ch_1">
+      <rect l="0" t="0" r="112" b="87" />
+    </asset>
+    <asset type="UI" name="asset_panel_revenge_ch_man">
+      <rect l="0" t="0" r="93" b="87" />
+    </asset>
+    <asset type="UI" name="asset_img_revenge_ch_man_4">
+      <rect l="0" t="0" r="88" b="87" />
+    </asset>
+    <asset type="UI" name="asset_img_revenge_ch_man_3">
+      <rect l="0" t="0" r="88" b="87" />
+    </asset>
+    <asset type="UI" name="asset_img_revenge_ch_man_2">
+      <rect l="0" t="0" r="88" b="87" />
+    </asset>
+    <asset type="UI" name="asset_img_revenge_ch_man_1">
+      <rect l="0" t="0" r="88" b="87" />
+    </asset>
+    <asset type="UI" name="asset_img_revenge_effect_glow_2">
+      <rect l="0" t="0" r="135" b="135" />
+    </asset>
+    <asset type="UI" name="asset_img_revenge_effect_glow_1">
+      <rect l="0" t="0" r="135" b="135" />
+    </asset>
+    <asset type="UI" name="asset_img_revenge_frame_in">
+      <rect l="0" t="0" r="113" b="97" />
+    </asset>
+    <asset type="UI" name="asset_img_revenge_frame">
+      <rect l="0" t="0" r="121" b="125" />
+    </asset>
+    <asset type="UI" name="asset_img_revenge_frame_top">
+      <rect l="0" t="0" r="108" b="87" />
+    </asset>
+    <asset type="UI" name="asset_img_revenge_txt">
+      <rect l="0" t="0" r="88" b="37" />
+    </asset>
+    <object name="wnd_revenge" ani="ani_wnd_revenge">
+      <asset type="UI" link="asset_wnd_revenge" />
+    </object>
+    <object name="StackPanel" ani="ani_StackPanel">
+      <asset type="UI" link="asset_StackPanel" />
+    </object>
+    <object name="wnd_revenge_ingame" ani="ani_wnd_revenge_ingame">
+      <asset type="UI" link="asset_wnd_revenge_ingame" />
+    </object>
+    <object name="panel_revenge_success" ani="ani_panel_revenge_success">
+      <asset type="UI" link="asset_panel_revenge_success" />
+    </object>
+    <object name="img_revenge_txt_success_s" ani="ani_img_revenge_txt_success_s">
+      <asset type="UI" link="asset_img_revenge_txt_success_s" />
+    </object>
+    <object name="panel_revenge_failure" ani="ani_panel_revenge_failure">
+      <asset type="UI" link="asset_panel_revenge_failure" />
+    </object>
+    <object name="img_revenge_txt_success_s1" ani="ani_img_revenge_txt_success_s1">
+      <asset type="UI" link="asset_img_revenge_txt_success_s1" />
+    </object>
+    <object name="wnd_revenge_praph" ani="ani_wnd_revenge_praph">
+      <asset type="UI" link="asset_wnd_revenge_praph" />
+    </object>
+    <object name="Panel_progress" ani="ani_Panel_progress">
+      <asset type="UI" link="asset_Panel_progress" />
+    </object>
+    <object name="img_revenge_dummy_2" ani="ani_img_revenge_dummy_2">
+      <asset type="UI" link="asset_img_revenge_dummy_2" />
+    </object>
+    <object name="img_revenge_dummy_3" ani="ani_img_revenge_dummy_3">
+      <asset type="UI" link="asset_img_revenge_dummy_3" />
+    </object>
+    <object name="progress_revenge_ingame" ani="ani_progress_revenge_ingame">
+      <asset type="UI" link="asset_progress_revenge_ingame" />
+    </object>
+    <object name="img_revenge_dummy_1" ani="ani_img_revenge_dummy_1">
+      <asset type="UI" link="asset_img_revenge_dummy_1" />
+    </object>
+    <object name="Panel_revnege_txt" ani="ani_Panel_revnege_txt">
+      <asset type="UI" link="asset_Panel_revnege_txt" />
+    </object>
+    <object name="img_revenge_result_txtback" ani="ani_img_revenge_result_txtback">
+      <asset type="UI" link="asset_img_revenge_result_txtback" />
+    </object>
+    <object name="lb_revnege_result" ani="ani_lb_revnege_result">
+      <asset type="UI" link="asset_lb_revnege_result" />
+    </object>
+    <object name="panel_revenge_ch_girl" ani="ani_panel_revenge_ch_girl">
+      <asset type="UI" link="asset_panel_revenge_ch_girl" />
+    </object>
+    <object name="img_revenge_ch_4" ani="ani_img_revenge_ch_4">
+      <asset type="UI" link="asset_img_revenge_ch_4" />
+    </object>
+    <object name="img_revenge_ch_3" ani="ani_img_revenge_ch_3">
+      <asset type="UI" link="asset_img_revenge_ch_3" />
+    </object>
+    <object name="img_revenge_ch_2" ani="ani_img_revenge_ch_2">
+      <asset type="UI" link="asset_img_revenge_ch_2" />
+    </object>
+    <object name="img_revenge_ch_1" ani="ani_img_revenge_ch_1">
+      <asset type="UI" link="asset_img_revenge_ch_1" />
+    </object>
+    <object name="panel_revenge_ch_man" ani="ani_panel_revenge_ch_man">
+      <asset type="UI" link="asset_panel_revenge_ch_man" />
+    </object>
+    <object name="img_revenge_ch_man_4" ani="ani_img_revenge_ch_man_4">
+      <asset type="UI" link="asset_img_revenge_ch_man_4" />
+    </object>
+    <object name="img_revenge_ch_man_3" ani="ani_img_revenge_ch_man_3">
+      <asset type="UI" link="asset_img_revenge_ch_man_3" />
+    </object>
+    <object name="img_revenge_ch_man_2" ani="ani_img_revenge_ch_man_2">
+      <asset type="UI" link="asset_img_revenge_ch_man_2" />
+    </object>
+    <object name="img_revenge_ch_man_1" ani="ani_img_revenge_ch_man_1">
+      <asset type="UI" link="asset_img_revenge_ch_man_1" />
+    </object>
+    <object name="img_revenge_effect_glow_2" ani="ani_img_revenge_effect_glow_2">
+      <asset type="UI" link="asset_img_revenge_effect_glow_2" />
+    </object>
+    <object name="img_revenge_effect_glow_1" ani="ani_img_revenge_effect_glow_1">
+      <asset type="UI" link="asset_img_revenge_effect_glow_1" />
+    </object>
+    <object name="img_revenge_frame_in" ani="ani_img_revenge_frame_in">
+      <asset type="UI" link="asset_img_revenge_frame_in" />
+    </object>
+    <object name="img_revenge_frame" ani="ani_img_revenge_frame">
+      <asset type="UI" link="asset_img_revenge_frame" />
+    </object>
+    <object name="img_revenge_frame_top" ani="ani_img_revenge_frame_top">
+      <asset type="UI" link="asset_img_revenge_frame_top" />
+    </object>
+    <object name="img_revenge_txt" ani="ani_img_revenge_txt">
+      <asset type="UI" link="asset_img_revenge_txt" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_wnd_revenge">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_StackPanel">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <sound val="ui_event_revenge_success" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_wnd_revenge_ingame">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_panel_revenge_success">
+      <frame cnt="0">
+        <posx val="1.138672" />
+        <posy val="-0.1536458" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_revenge_txt_success_s">
+      <frame cnt="0">
+        <posx val="0.01660156" />
+        <posy val="0.001302083" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_panel_revenge_failure">
+      <frame cnt="0">
+        <posx val="0.8378906" />
+        <posy val="-0.1536458" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_revenge_txt_success_s1">
+      <frame cnt="0">
+        <posx val="0.009765625" />
+        <posy val="0.046875" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_wnd_revenge_praph">
+      <frame cnt="0">
+        <posx val="0.3203125" />
+        <posy val="0.05078125" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0.3203125" />
+        <posy val="0.05078125" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2900">
+        <posx val="0.3203125" />
+        <posy val="0.05078125" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_Panel_progress">
+      <frame cnt="0">
+        <posx val="0.015625" />
+        <posy val="0.09895834" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_revenge_dummy_2">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_revenge_dummy_3">
+      <frame cnt="0">
+        <posx val="0.171875" />
+        <posy val="-0.3723958" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_progress_revenge_ingame">
+      <frame cnt="0">
+        <posx val="0.09375" />
+        <posy val="0.015625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_revenge_dummy_1">
+      <frame cnt="0">
+        <posx val="0.09472656" />
+        <posy val="0.01432292" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_Panel_revnege_txt">
+      <frame cnt="0">
+        <posx val="0.078125" />
+        <posy val="0.1028646" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_revenge_result_txtback">
+      <frame cnt="0">
+        <posx val="-0.001953125" />
+        <posy val="0.002604167" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="-0.001953125" />
+        <posy val="0.002604167" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1000">
+        <posx val="-0.001953125" />
+        <posy val="0.002604167" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1167">
+        <posx val="-0.001953125" />
+        <posy val="0.002604167" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1567">
+        <posx val="-0.001953125" />
+        <posy val="0.002604167" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_lb_revnege_result">
+      <frame cnt="0">
+        <posx val="0.001953125" />
+        <posy val="0.005208333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_panel_revenge_ch_girl">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.002604167" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_revenge_ch_4">
+      <frame cnt="0">
+        <posx val="0.005859375" />
+        <posy val="0.03255208" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_revenge_ch_3">
+      <frame cnt="0">
+        <posx val="0.005859375" />
+        <posy val="0.03125" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_revenge_ch_2">
+      <frame cnt="0">
+        <posx val="0.005859375" />
+        <posy val="0.03125" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_revenge_ch_1">
+      <frame cnt="0">
+        <posx val="0.005859375" />
+        <posy val="0.03125" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_panel_revenge_ch_man">
+      <frame cnt="0">
+        <posx val="0.02050781" />
+        <posy val="0.02864583" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_revenge_ch_man_4">
+      <frame cnt="0">
+        <posx val="0.0009765625" />
+        <posy val="0.00390625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_revenge_ch_man_3">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.005208333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_revenge_ch_man_2">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.005208333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_revenge_ch_man_1">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.005208333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_revenge_effect_glow_2">
+      <frame cnt="0">
+        <posx val="0.25" />
+        <posy val="-0.2473958" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_revenge_effect_glow_1">
+      <frame cnt="0">
+        <posx val="0.25" />
+        <posy val="-0.2473958" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_revenge_frame_in">
+      <frame cnt="0">
+        <posx val="0.2597656" />
+        <posy val="-0.2330729" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_revenge_frame">
+      <frame cnt="0">
+        <posx val="0.2558594" />
+        <posy val="-0.2382813" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_revenge_frame_top">
+      <frame cnt="0">
+        <posx val="0.2607422" />
+        <posy val="-0.2317708" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_revenge_txt">
+      <frame cnt="0">
+        <posx val="0.02246094" />
+        <posy val="0.1289063" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="revenge_success">
+    <asset type="UI" name="asset_wnd_revenge">
+      <rect l="0" t="0" r="1024" b="768" />
+    </asset>
+    <asset type="UI" name="asset_StackPanel">
+      <rect l="0" t="0" r="1024" b="768" />
+    </asset>
+    <asset type="UI" name="asset_wnd_revenge_ingame">
+      <rect l="0" t="0" r="1024" b="768" />
+    </asset>
+    <asset type="UI" name="asset_panel_revenge_success">
+      <rect l="0" t="0" r="288" b="97" />
+    </asset>
+    <asset type="UI" name="asset_img_revenge_txt_success_s">
+      <rect l="0" t="0" r="270" b="47" />
+    </asset>
+    <asset type="UI" name="asset_panel_revenge_failure">
+      <rect l="0" t="0" r="288" b="97" />
+    </asset>
+    <asset type="UI" name="asset_img_revenge_txt_success_s1">
+      <rect l="0" t="0" r="270" b="47" />
+    </asset>
+    <asset type="UI" name="asset_wnd_revenge_praph">
+      <rect l="0" t="0" r="360" b="135" />
+    </asset>
+    <asset type="UI" name="asset_Panel_progress">
+      <rect l="0" t="0" r="333" b="51" />
+    </asset>
+    <asset type="UI" name="asset_img_revenge_dummy_2">
+      <rect l="0" t="0" r="332" b="50" />
+    </asset>
+    <asset type="UI" name="asset_img_revenge_dummy_3">
+      <rect l="0" t="0" r="110" b="8" />
+    </asset>
+    <asset type="UI" name="asset_progress_revenge_ingame">
+      <rect l="0" t="0" r="224" b="26" />
+    </asset>
+    <asset type="UI" name="asset_img_revenge_dummy_1">
+      <rect l="0" t="0" r="224" b="26" />
+    </asset>
+    <asset type="UI" name="asset_Panel_revnege_txt">
+      <rect l="0" t="0" r="287" b="45" />
+    </asset>
+    <asset type="UI" name="asset_img_revenge_result_txtback">
+      <rect l="0" t="0" r="287" b="43" />
+    </asset>
+    <asset type="UI" name="asset_lb_revnege_result">
+      <rect l="0" t="0" r="280" b="36" />
+    </asset>
+    <asset type="UI" name="asset_panel_revenge_ch_girl">
+      <rect l="0" t="0" r="112" b="87" />
+    </asset>
+    <asset type="UI" name="asset_img_revenge_ch_4">
+      <rect l="0" t="0" r="112" b="87" />
+    </asset>
+    <asset type="UI" name="asset_img_revenge_ch_3">
+      <rect l="0" t="0" r="112" b="87" />
+    </asset>
+    <asset type="UI" name="asset_img_revenge_ch_2">
+      <rect l="0" t="0" r="112" b="87" />
+    </asset>
+    <asset type="UI" name="asset_img_revenge_ch_1">
+      <rect l="0" t="0" r="112" b="87" />
+    </asset>
+    <asset type="UI" name="asset_panel_revenge_ch_man">
+      <rect l="0" t="0" r="93" b="87" />
+    </asset>
+    <asset type="UI" name="asset_img_revenge_ch_man_4">
+      <rect l="0" t="0" r="88" b="87" />
+    </asset>
+    <asset type="UI" name="asset_img_revenge_ch_man_3">
+      <rect l="0" t="0" r="88" b="87" />
+    </asset>
+    <asset type="UI" name="asset_img_revenge_ch_man_2">
+      <rect l="0" t="0" r="88" b="87" />
+    </asset>
+    <asset type="UI" name="asset_img_revenge_ch_man_1">
+      <rect l="0" t="0" r="88" b="87" />
+    </asset>
+    <asset type="UI" name="asset_img_revenge_effect_glow_2">
+      <rect l="0" t="0" r="135" b="135" />
+    </asset>
+    <asset type="UI" name="asset_img_revenge_effect_glow_1">
+      <rect l="0" t="0" r="135" b="135" />
+    </asset>
+    <asset type="UI" name="asset_img_revenge_frame_in">
+      <rect l="0" t="0" r="113" b="97" />
+    </asset>
+    <asset type="UI" name="asset_img_revenge_frame">
+      <rect l="0" t="0" r="121" b="125" />
+    </asset>
+    <asset type="UI" name="asset_img_revenge_frame_top">
+      <rect l="0" t="0" r="108" b="87" />
+    </asset>
+    <asset type="UI" name="asset_img_revenge_txt">
+      <rect l="0" t="0" r="88" b="37" />
+    </asset>
+    <object name="wnd_revenge" ani="ani_wnd_revenge">
+      <asset type="UI" link="asset_wnd_revenge" />
+    </object>
+    <object name="StackPanel" ani="ani_StackPanel">
+      <asset type="UI" link="asset_StackPanel" />
+    </object>
+    <object name="wnd_revenge_ingame" ani="ani_wnd_revenge_ingame">
+      <asset type="UI" link="asset_wnd_revenge_ingame" />
+    </object>
+    <object name="panel_revenge_success" ani="ani_panel_revenge_success">
+      <asset type="UI" link="asset_panel_revenge_success" />
+    </object>
+    <object name="img_revenge_txt_success_s" ani="ani_img_revenge_txt_success_s">
+      <asset type="UI" link="asset_img_revenge_txt_success_s" />
+    </object>
+    <object name="panel_revenge_failure" ani="ani_panel_revenge_failure">
+      <asset type="UI" link="asset_panel_revenge_failure" />
+    </object>
+    <object name="img_revenge_txt_success_s1" ani="ani_img_revenge_txt_success_s1">
+      <asset type="UI" link="asset_img_revenge_txt_success_s1" />
+    </object>
+    <object name="wnd_revenge_praph" ani="ani_wnd_revenge_praph">
+      <asset type="UI" link="asset_wnd_revenge_praph" />
+    </object>
+    <object name="Panel_progress" ani="ani_Panel_progress">
+      <asset type="UI" link="asset_Panel_progress" />
+    </object>
+    <object name="img_revenge_dummy_2" ani="ani_img_revenge_dummy_2">
+      <asset type="UI" link="asset_img_revenge_dummy_2" />
+    </object>
+    <object name="img_revenge_dummy_3" ani="ani_img_revenge_dummy_3">
+      <asset type="UI" link="asset_img_revenge_dummy_3" />
+    </object>
+    <object name="progress_revenge_ingame" ani="ani_progress_revenge_ingame">
+      <asset type="UI" link="asset_progress_revenge_ingame" />
+    </object>
+    <object name="img_revenge_dummy_1" ani="ani_img_revenge_dummy_1">
+      <asset type="UI" link="asset_img_revenge_dummy_1" />
+    </object>
+    <object name="Panel_revnege_txt" ani="ani_Panel_revnege_txt">
+      <asset type="UI" link="asset_Panel_revnege_txt" />
+    </object>
+    <object name="img_revenge_result_txtback" ani="ani_img_revenge_result_txtback">
+      <asset type="UI" link="asset_img_revenge_result_txtback" />
+    </object>
+    <object name="lb_revnege_result" ani="ani_lb_revnege_result">
+      <asset type="UI" link="asset_lb_revnege_result" />
+    </object>
+    <object name="panel_revenge_ch_girl" ani="ani_panel_revenge_ch_girl">
+      <asset type="UI" link="asset_panel_revenge_ch_girl" />
+    </object>
+    <object name="img_revenge_ch_4" ani="ani_img_revenge_ch_4">
+      <asset type="UI" link="asset_img_revenge_ch_4" />
+    </object>
+    <object name="img_revenge_ch_3" ani="ani_img_revenge_ch_3">
+      <asset type="UI" link="asset_img_revenge_ch_3" />
+    </object>
+    <object name="img_revenge_ch_2" ani="ani_img_revenge_ch_2">
+      <asset type="UI" link="asset_img_revenge_ch_2" />
+    </object>
+    <object name="img_revenge_ch_1" ani="ani_img_revenge_ch_1">
+      <asset type="UI" link="asset_img_revenge_ch_1" />
+    </object>
+    <object name="panel_revenge_ch_man" ani="ani_panel_revenge_ch_man">
+      <asset type="UI" link="asset_panel_revenge_ch_man" />
+    </object>
+    <object name="img_revenge_ch_man_4" ani="ani_img_revenge_ch_man_4">
+      <asset type="UI" link="asset_img_revenge_ch_man_4" />
+    </object>
+    <object name="img_revenge_ch_man_3" ani="ani_img_revenge_ch_man_3">
+      <asset type="UI" link="asset_img_revenge_ch_man_3" />
+    </object>
+    <object name="img_revenge_ch_man_2" ani="ani_img_revenge_ch_man_2">
+      <asset type="UI" link="asset_img_revenge_ch_man_2" />
+    </object>
+    <object name="img_revenge_ch_man_1" ani="ani_img_revenge_ch_man_1">
+      <asset type="UI" link="asset_img_revenge_ch_man_1" />
+    </object>
+    <object name="img_revenge_effect_glow_2" ani="ani_img_revenge_effect_glow_2">
+      <asset type="UI" link="asset_img_revenge_effect_glow_2" />
+    </object>
+    <object name="img_revenge_effect_glow_1" ani="ani_img_revenge_effect_glow_1">
+      <asset type="UI" link="asset_img_revenge_effect_glow_1" />
+    </object>
+    <object name="img_revenge_frame_in" ani="ani_img_revenge_frame_in">
+      <asset type="UI" link="asset_img_revenge_frame_in" />
+    </object>
+    <object name="img_revenge_frame" ani="ani_img_revenge_frame">
+      <asset type="UI" link="asset_img_revenge_frame" />
+    </object>
+    <object name="img_revenge_frame_top" ani="ani_img_revenge_frame_top">
+      <asset type="UI" link="asset_img_revenge_frame_top" />
+    </object>
+    <object name="img_revenge_txt" ani="ani_img_revenge_txt">
+      <asset type="UI" link="asset_img_revenge_txt" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_wnd_revenge">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_StackPanel">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <sound val="ui_event_revenge_success" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_wnd_revenge_ingame">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_panel_revenge_success">
+      <frame cnt="0">
+        <posx val="1.138672" />
+        <posy val="-0.1536458" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="633">
+        <posx val="0.4287109375" />
+        <posy val="0.4375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1100">
+        <posx val="0.462890625" easeValue="0.0,0.0,0.0,1.0" />
+        <posy val="0.4375" easeValue="0.0,0.0,0.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,0.0,0.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2467">
+        <posx val="0.4628906" />
+        <posy val="0.4375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="3000">
+        <posx val="0.4628906" />
+        <posy val="0.4375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_revenge_txt_success_s">
+      <frame cnt="0">
+        <posx val="0.01660156" />
+        <posy val="0.001302083" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_panel_revenge_failure">
+      <frame cnt="0">
+        <posx val="0.8378906" />
+        <posy val="-0.1536458" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_revenge_txt_success_s1">
+      <frame cnt="0">
+        <posx val="0.009765625" />
+        <posy val="0.046875" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_wnd_revenge_praph">
+      <frame cnt="0">
+        <posx val="0.4384765625" />
+        <posy val="0.389322916666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="167">
+        <posx val="0.4384766" />
+        <posy val="0.3893229" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0.4384765625" />
+        <posy val="0.389322916666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1033">
+        <posx val="0.3505859375" easeValue="0.0,0.0,0.2,1.0" />
+        <posy val="0.389322916666667" easeValue="0.0,0.0,0.2,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,0.0,0.2,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2467">
+        <posx val="0.3505859" />
+        <posy val="0.3893229" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="3000">
+        <posx val="0.3505859" />
+        <posy val="0.3893229" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_Panel_progress">
+      <frame cnt="0">
+        <posx val="0.015625" />
+        <posy val="0.09895834" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_revenge_dummy_2">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_revenge_dummy_3">
+      <frame cnt="0">
+        <posx val="0.171875" />
+        <posy val="-0.3723958" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_progress_revenge_ingame">
+      <frame cnt="0">
+        <posx val="0.09375" />
+        <posy val="0.015625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_revenge_dummy_1">
+      <frame cnt="0">
+        <posx val="0.09472656" />
+        <posy val="0.01432292" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_Panel_revnege_txt">
+      <frame cnt="0">
+        <posx val="0.078125" />
+        <posy val="0.1028646" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_revenge_result_txtback">
+      <frame cnt="0">
+        <posx val="-0.001953125" />
+        <posy val="0.002604167" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_lb_revnege_result">
+      <frame cnt="0">
+        <posx val="0.001953125" />
+        <posy val="0.005208333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_panel_revenge_ch_girl">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.002604167" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_revenge_ch_4">
+      <frame cnt="0">
+        <posx val="0.005859375" />
+        <posy val="0.03255208" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_revenge_ch_3">
+      <frame cnt="0">
+        <posx val="0.005859375" />
+        <posy val="0.03125" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_revenge_ch_2">
+      <frame cnt="0">
+        <posx val="0.005859375" />
+        <posy val="0.03125" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_revenge_ch_1">
+      <frame cnt="0">
+        <posx val="0.005859375" />
+        <posy val="0.03125" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_panel_revenge_ch_man">
+      <frame cnt="0">
+        <posx val="0.02050781" />
+        <posy val="0.02864583" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_revenge_ch_man_4">
+      <frame cnt="0">
+        <posx val="0.0009765625" />
+        <posy val="0.00390625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_revenge_ch_man_3">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.005208333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_revenge_ch_man_2">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.005208333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_revenge_ch_man_1">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.005208333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_revenge_effect_glow_2">
+      <frame cnt="0">
+        <posx val="0.25" />
+        <posy val="-0.2473958" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_revenge_effect_glow_1">
+      <frame cnt="0">
+        <posx val="0.25" />
+        <posy val="-0.2473958" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_revenge_frame_in">
+      <frame cnt="0">
+        <posx val="0.2597656" />
+        <posy val="-0.2330729" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_revenge_frame">
+      <frame cnt="0">
+        <posx val="0.2558594" />
+        <posy val="-0.2382813" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_revenge_frame_top">
+      <frame cnt="0">
+        <posx val="0.2607422" />
+        <posy val="-0.2317708" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_revenge_txt">
+      <frame cnt="0">
+        <posx val="0.02246094" />
+        <posy val="0.1289063" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="revenge_failure">
+    <asset type="UI" name="asset_wnd_revenge">
+      <rect l="0" t="0" r="1024" b="768" />
+    </asset>
+    <asset type="UI" name="asset_StackPanel">
+      <rect l="0" t="0" r="1024" b="768" />
+    </asset>
+    <asset type="UI" name="asset_wnd_revenge_ingame">
+      <rect l="0" t="0" r="1024" b="768" />
+    </asset>
+    <asset type="UI" name="asset_panel_revenge_success">
+      <rect l="0" t="0" r="288" b="97" />
+    </asset>
+    <asset type="UI" name="asset_img_revenge_txt_success_s">
+      <rect l="0" t="0" r="270" b="47" />
+    </asset>
+    <asset type="UI" name="asset_panel_revenge_failure">
+      <rect l="0" t="0" r="288" b="97" />
+    </asset>
+    <asset type="UI" name="asset_img_revenge_txt_success_s1">
+      <rect l="0" t="0" r="270" b="47" />
+    </asset>
+    <asset type="UI" name="asset_wnd_revenge_praph">
+      <rect l="0" t="0" r="360" b="135" />
+    </asset>
+    <asset type="UI" name="asset_Panel_progress">
+      <rect l="0" t="0" r="333" b="51" />
+    </asset>
+    <asset type="UI" name="asset_img_revenge_dummy_2">
+      <rect l="0" t="0" r="332" b="50" />
+    </asset>
+    <asset type="UI" name="asset_img_revenge_dummy_3">
+      <rect l="0" t="0" r="110" b="8" />
+    </asset>
+    <asset type="UI" name="asset_progress_revenge_ingame">
+      <rect l="0" t="0" r="224" b="26" />
+    </asset>
+    <asset type="UI" name="asset_img_revenge_dummy_1">
+      <rect l="0" t="0" r="224" b="26" />
+    </asset>
+    <asset type="UI" name="asset_Panel_revnege_txt">
+      <rect l="0" t="0" r="287" b="45" />
+    </asset>
+    <asset type="UI" name="asset_img_revenge_result_txtback">
+      <rect l="0" t="0" r="287" b="43" />
+    </asset>
+    <asset type="UI" name="asset_lb_revnege_result">
+      <rect l="0" t="0" r="280" b="36" />
+    </asset>
+    <asset type="UI" name="asset_panel_revenge_ch_girl">
+      <rect l="0" t="0" r="112" b="87" />
+    </asset>
+    <asset type="UI" name="asset_img_revenge_ch_4">
+      <rect l="0" t="0" r="112" b="87" />
+    </asset>
+    <asset type="UI" name="asset_img_revenge_ch_3">
+      <rect l="0" t="0" r="112" b="87" />
+    </asset>
+    <asset type="UI" name="asset_img_revenge_ch_2">
+      <rect l="0" t="0" r="112" b="87" />
+    </asset>
+    <asset type="UI" name="asset_img_revenge_ch_1">
+      <rect l="0" t="0" r="112" b="87" />
+    </asset>
+    <asset type="UI" name="asset_panel_revenge_ch_man">
+      <rect l="0" t="0" r="93" b="87" />
+    </asset>
+    <asset type="UI" name="asset_img_revenge_ch_man_4">
+      <rect l="0" t="0" r="88" b="87" />
+    </asset>
+    <asset type="UI" name="asset_img_revenge_ch_man_3">
+      <rect l="0" t="0" r="88" b="87" />
+    </asset>
+    <asset type="UI" name="asset_img_revenge_ch_man_2">
+      <rect l="0" t="0" r="88" b="87" />
+    </asset>
+    <asset type="UI" name="asset_img_revenge_ch_man_1">
+      <rect l="0" t="0" r="88" b="87" />
+    </asset>
+    <asset type="UI" name="asset_img_revenge_effect_glow_2">
+      <rect l="0" t="0" r="135" b="135" />
+    </asset>
+    <asset type="UI" name="asset_img_revenge_effect_glow_1">
+      <rect l="0" t="0" r="135" b="135" />
+    </asset>
+    <asset type="UI" name="asset_img_revenge_frame_in">
+      <rect l="0" t="0" r="113" b="97" />
+    </asset>
+    <asset type="UI" name="asset_img_revenge_frame">
+      <rect l="0" t="0" r="121" b="125" />
+    </asset>
+    <asset type="UI" name="asset_img_revenge_frame_top">
+      <rect l="0" t="0" r="108" b="87" />
+    </asset>
+    <asset type="UI" name="asset_img_revenge_txt">
+      <rect l="0" t="0" r="88" b="37" />
+    </asset>
+    <object name="wnd_revenge" ani="ani_wnd_revenge">
+      <asset type="UI" link="asset_wnd_revenge" />
+    </object>
+    <object name="StackPanel" ani="ani_StackPanel">
+      <asset type="UI" link="asset_StackPanel" />
+    </object>
+    <object name="wnd_revenge_ingame" ani="ani_wnd_revenge_ingame">
+      <asset type="UI" link="asset_wnd_revenge_ingame" />
+    </object>
+    <object name="panel_revenge_success" ani="ani_panel_revenge_success">
+      <asset type="UI" link="asset_panel_revenge_success" />
+    </object>
+    <object name="img_revenge_txt_success_s" ani="ani_img_revenge_txt_success_s">
+      <asset type="UI" link="asset_img_revenge_txt_success_s" />
+    </object>
+    <object name="panel_revenge_failure" ani="ani_panel_revenge_failure">
+      <asset type="UI" link="asset_panel_revenge_failure" />
+    </object>
+    <object name="img_revenge_txt_success_s1" ani="ani_img_revenge_txt_success_s1">
+      <asset type="UI" link="asset_img_revenge_txt_success_s1" />
+    </object>
+    <object name="wnd_revenge_praph" ani="ani_wnd_revenge_praph">
+      <asset type="UI" link="asset_wnd_revenge_praph" />
+    </object>
+    <object name="Panel_progress" ani="ani_Panel_progress">
+      <asset type="UI" link="asset_Panel_progress" />
+    </object>
+    <object name="img_revenge_dummy_2" ani="ani_img_revenge_dummy_2">
+      <asset type="UI" link="asset_img_revenge_dummy_2" />
+    </object>
+    <object name="img_revenge_dummy_3" ani="ani_img_revenge_dummy_3">
+      <asset type="UI" link="asset_img_revenge_dummy_3" />
+    </object>
+    <object name="progress_revenge_ingame" ani="ani_progress_revenge_ingame">
+      <asset type="UI" link="asset_progress_revenge_ingame" />
+    </object>
+    <object name="img_revenge_dummy_1" ani="ani_img_revenge_dummy_1">
+      <asset type="UI" link="asset_img_revenge_dummy_1" />
+    </object>
+    <object name="Panel_revnege_txt" ani="ani_Panel_revnege_txt">
+      <asset type="UI" link="asset_Panel_revnege_txt" />
+    </object>
+    <object name="img_revenge_result_txtback" ani="ani_img_revenge_result_txtback">
+      <asset type="UI" link="asset_img_revenge_result_txtback" />
+    </object>
+    <object name="lb_revnege_result" ani="ani_lb_revnege_result">
+      <asset type="UI" link="asset_lb_revnege_result" />
+    </object>
+    <object name="panel_revenge_ch_girl" ani="ani_panel_revenge_ch_girl">
+      <asset type="UI" link="asset_panel_revenge_ch_girl" />
+    </object>
+    <object name="img_revenge_ch_4" ani="ani_img_revenge_ch_4">
+      <asset type="UI" link="asset_img_revenge_ch_4" />
+    </object>
+    <object name="img_revenge_ch_3" ani="ani_img_revenge_ch_3">
+      <asset type="UI" link="asset_img_revenge_ch_3" />
+    </object>
+    <object name="img_revenge_ch_2" ani="ani_img_revenge_ch_2">
+      <asset type="UI" link="asset_img_revenge_ch_2" />
+    </object>
+    <object name="img_revenge_ch_1" ani="ani_img_revenge_ch_1">
+      <asset type="UI" link="asset_img_revenge_ch_1" />
+    </object>
+    <object name="panel_revenge_ch_man" ani="ani_panel_revenge_ch_man">
+      <asset type="UI" link="asset_panel_revenge_ch_man" />
+    </object>
+    <object name="img_revenge_ch_man_4" ani="ani_img_revenge_ch_man_4">
+      <asset type="UI" link="asset_img_revenge_ch_man_4" />
+    </object>
+    <object name="img_revenge_ch_man_3" ani="ani_img_revenge_ch_man_3">
+      <asset type="UI" link="asset_img_revenge_ch_man_3" />
+    </object>
+    <object name="img_revenge_ch_man_2" ani="ani_img_revenge_ch_man_2">
+      <asset type="UI" link="asset_img_revenge_ch_man_2" />
+    </object>
+    <object name="img_revenge_ch_man_1" ani="ani_img_revenge_ch_man_1">
+      <asset type="UI" link="asset_img_revenge_ch_man_1" />
+    </object>
+    <object name="img_revenge_effect_glow_2" ani="ani_img_revenge_effect_glow_2">
+      <asset type="UI" link="asset_img_revenge_effect_glow_2" />
+    </object>
+    <object name="img_revenge_effect_glow_1" ani="ani_img_revenge_effect_glow_1">
+      <asset type="UI" link="asset_img_revenge_effect_glow_1" />
+    </object>
+    <object name="img_revenge_frame_in" ani="ani_img_revenge_frame_in">
+      <asset type="UI" link="asset_img_revenge_frame_in" />
+    </object>
+    <object name="img_revenge_frame" ani="ani_img_revenge_frame">
+      <asset type="UI" link="asset_img_revenge_frame" />
+    </object>
+    <object name="img_revenge_frame_top" ani="ani_img_revenge_frame_top">
+      <asset type="UI" link="asset_img_revenge_frame_top" />
+    </object>
+    <object name="img_revenge_txt" ani="ani_img_revenge_txt">
+      <asset type="UI" link="asset_img_revenge_txt" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_wnd_revenge">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_StackPanel">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <sound val="ui_event_revenge_fail" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_wnd_revenge_ingame">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_panel_revenge_success">
+      <frame cnt="0">
+        <posx val="1.138672" />
+        <posy val="-0.1536458" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_revenge_txt_success_s">
+      <frame cnt="0">
+        <posx val="0.01660156" />
+        <posy val="0.001302083" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_panel_revenge_failure">
+      <frame cnt="0">
+        <posx val="0.8378906" />
+        <posy val="-0.1536458" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="633">
+        <posx val="0.4287109375" />
+        <posy val="0.4375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1100">
+        <posx val="0.462890625" easeValue="0.0,0.0,0.0,1.0" />
+        <posy val="0.4375" easeValue="0.0,0.0,0.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,0.0,0.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2467">
+        <posx val="0.4628906" />
+        <posy val="0.4375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="3000">
+        <posx val="0.4628906" />
+        <posy val="0.4375" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_revenge_txt_success_s1">
+      <frame cnt="0">
+        <posx val="0.009765625" />
+        <posy val="0.046875" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_wnd_revenge_praph">
+      <frame cnt="0">
+        <posx val="0.4384765625" />
+        <posy val="0.389322916666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="167">
+        <posx val="0.4384766" />
+        <posy val="0.3893229" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0.4384765625" />
+        <posy val="0.389322916666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1033">
+        <posx val="0.3505859375" easeValue="0.0,0.0,0.2,1.0" />
+        <posy val="0.389322916666667" easeValue="0.0,0.0,0.2,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,0.0,0.2,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2467">
+        <posx val="0.3505859" />
+        <posy val="0.3893229" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="3000">
+        <posx val="0.3505859" />
+        <posy val="0.3893229" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_Panel_progress">
+      <frame cnt="0">
+        <posx val="0.015625" />
+        <posy val="0.09895834" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_revenge_dummy_2">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_revenge_dummy_3">
+      <frame cnt="0">
+        <posx val="0.171875" />
+        <posy val="-0.3723958" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_progress_revenge_ingame">
+      <frame cnt="0">
+        <posx val="0.09375" />
+        <posy val="0.015625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_revenge_dummy_1">
+      <frame cnt="0">
+        <posx val="0.09472656" />
+        <posy val="0.01432292" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_Panel_revnege_txt">
+      <frame cnt="0">
+        <posx val="0.078125" />
+        <posy val="0.1028646" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_revenge_result_txtback">
+      <frame cnt="0">
+        <posx val="-0.001953125" />
+        <posy val="0.002604167" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_lb_revnege_result">
+      <frame cnt="0">
+        <posx val="0.001953125" />
+        <posy val="0.005208333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_panel_revenge_ch_girl">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.002604167" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_revenge_ch_4">
+      <frame cnt="0">
+        <posx val="0.005859375" />
+        <posy val="0.03255208" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_revenge_ch_3">
+      <frame cnt="0">
+        <posx val="0.005859375" />
+        <posy val="0.03125" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_revenge_ch_2">
+      <frame cnt="0">
+        <posx val="0.005859375" />
+        <posy val="0.03125" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_revenge_ch_1">
+      <frame cnt="0">
+        <posx val="0.005859375" />
+        <posy val="0.03125" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_panel_revenge_ch_man">
+      <frame cnt="0">
+        <posx val="0.02050781" />
+        <posy val="0.02864583" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_revenge_ch_man_4">
+      <frame cnt="0">
+        <posx val="0.0009765625" />
+        <posy val="0.00390625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_revenge_ch_man_3">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.005208333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_revenge_ch_man_2">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.005208333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_revenge_ch_man_1">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0.005208333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_revenge_effect_glow_2">
+      <frame cnt="0">
+        <posx val="0.25" />
+        <posy val="-0.2473958" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_revenge_effect_glow_1">
+      <frame cnt="0">
+        <posx val="0.25" />
+        <posy val="-0.2473958" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_revenge_frame_in">
+      <frame cnt="0">
+        <posx val="0.2597656" />
+        <posy val="-0.2330729" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_revenge_frame">
+      <frame cnt="0">
+        <posx val="0.2558594" />
+        <posy val="-0.2382813" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_revenge_frame_top">
+      <frame cnt="0">
+        <posx val="0.2607422" />
+        <posy val="-0.2317708" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_img_revenge_txt">
+      <frame cnt="0">
+        <posx val="0.02246094" />
+        <posy val="0.1289063" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="revenge_ingame_out">
+    <asset type="UI" name="asset_panel_revenge_success">
+      <rect l="0" t="0" r="288" b="97" />
+    </asset>
+    <asset type="UI" name="asset_panel_revenge_failure">
+      <rect l="0" t="0" r="288" b="97" />
+    </asset>
+    <asset type="UI" name="asset_wnd_revenge_praph">
+      <rect l="0" t="0" r="360" b="135" />
+    </asset>
+    <object name="panel_revenge_success" ani="ani_panel_revenge_success">
+      <asset type="UI" link="asset_panel_revenge_success" />
+    </object>
+    <object name="panel_revenge_failure" ani="ani_panel_revenge_failure">
+      <asset type="UI" link="asset_panel_revenge_failure" />
+    </object>
+    <object name="wnd_revenge_praph" ani="ani_wnd_revenge_praph">
+      <asset type="UI" link="asset_wnd_revenge_praph" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_panel_revenge_success">
+      <frame cnt="0">
+        <posx val="1.138672" />
+        <posy val="-0.1536458" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_panel_revenge_failure">
+      <frame cnt="0">
+        <posx val="0.8378906" />
+        <posy val="-0.1536458" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_wnd_revenge_praph">
+      <frame cnt="0">
+        <posx val="0.3203125" />
+        <posy val="0.05078125" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0.3203125" />
+        <posy val="0.05078125" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

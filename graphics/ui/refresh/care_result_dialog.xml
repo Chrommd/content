@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="care_result_dialog_Animation.xml" />
+  </properties>
+  <base type="WNDEX" subclass="" name="care_result">
+    <asset type="BG" path="frm_sub_04.png" tileMode="Stretch">
+      <tex x="10" y="5" />
+      <rect l="80" t="70" r="253" b="171" />
+    </asset>
+    <asset type="EDGE_LT" path="frm_sub_00.png" tileMode="Stretch">
+      <tex x="80" y="70" />
+      <rect l="0" t="0" r="80" b="70" />
+    </asset>
+    <asset type="EDGE_RT" path="frm_sub_02.png" tileMode="Stretch">
+      <tex x="87" y="70" />
+      <rect l="0" t="0" r="87" b="70" />
+    </asset>
+    <asset type="EDGE_LB" path="frm_sub_06.png" tileMode="Stretch">
+      <tex x="80" y="33" />
+      <rect l="0" t="0" r="80" b="33" />
+    </asset>
+    <asset type="EDGE_RB" path="frm_sub_08.png" tileMode="Stretch">
+      <tex x="87" y="33" />
+      <rect l="0" t="0" r="87" b="33" />
+    </asset>
+    <asset type="FRAME_T" path="frm_sub_01.png" tileMode="Stretch">
+      <tex x="10" y="70" />
+      <rect l="80" t="0" r="253" b="70" />
+    </asset>
+    <asset type="FRAME_B" path="frm_sub_07.png" tileMode="Stretch">
+      <tex x="10" y="33" />
+      <rect l="80" t="0" r="253" b="33" />
+    </asset>
+    <asset type="FRAME_L" path="frm_sub_03.png" tileMode="Stretch">
+      <tex x="80" y="5" />
+      <rect l="0" t="70" r="80" b="171" />
+    </asset>
+    <asset type="FRAME_R" path="frm_sub_05.png" tileMode="Stretch">
+      <tex x="87" y="5" />
+      <rect l="0" t="70" r="87" b="171" />
+    </asset>
+    <Visible val="True" />
+    <Anchor val="None" />
+    <pos x="306" y="248" />
+    <rect l="0" t="0" r="420" b="274" />
+    <snd type="SHOW">
+    </snd>
+    <snd type="HIDE">
+    </snd>
+    <Dragable val="False" />
+    <StartPosition val="CenterScreen" />
+    <EscKeyAction val="None" />
+    <IsHitTestVisible val="True" />
+    <ClipChildren val="False" />
+    <child type="PICTURE" name="bg_care_result" subclass="">
+      <asset type="STATIC">bg_care_effect_open.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="44" y="77" />
+      <rect l="0" t="0" r="333" b="94" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="PICTURE" name="bg_detail_line2" subclass="">
+      <asset type="STATIC">bg_detail_line2.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="142" y="114" />
+      <rect l="0" t="0" r="210" b="2" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="ANIMBUTTON" name="confirm" subclass="">
+      <asset type="GROUP">care_result_dialog_confirm.xml</asset>
+      <asset type="NORMAL">
+      </asset>
+      <asset type="DOWN">
+      </asset>
+      <asset type="OVER">
+      </asset>
+      <asset type="DISABLE">
+      </asset>
+      <asset type="ENTER">
+      </asset>
+      <asset type="LEAVE">
+      </asset>
+      <snd type="OVER">
+      </snd>
+      <snd type="DOWN">ui_btn_menu_click</snd>
+      <snd type="RELEASE">ui_btn_menu_release;ui_btn_menu_confirm</snd>
+      <pos x="175" y="203" />
+      <rect l="0" t="0" r="70" b="31" />
+      <Visible val="True" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <Anchor val="None" />
+      <IsDefaultButton val="False" />
+      <child type="LABEL" name="lb_confirm" subclass="">
+        <label val="OK" />
+        <pos x="5" y="6" />
+        <rect l="0" t="0" r="60" b="19" />
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#927254" />
+        <color val="#030200" />
+        <halign val="1" />
+        <valign val="0" />
+        <FontName val="나눔고딕" />
+        <FontSize val="14" />
+        <TextTrimming val="None" />
+        <style val="33" />
+        <IsHitTestVisible val="False" />
+        <ClipChildren val="False" />
+        <Padding val="0, 0, 0, 0" />
+      </child>
+    </child>
+    <child type="LABEL" name="txt_care_result" subclass="">
+      <label val="" />
+      <pos x="96" y="42" />
+      <rect l="0" t="0" r="222" b="20" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#CEBEB4" />
+      <color val="#250F04" />
+      <halign val="1" />
+      <valign val="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="15" />
+      <TextTrimming val="None" />
+      <style val="33" />
+      <IsHitTestVisible val="False" />
+      <ClipChildren val="False" />
+      <Padding val="0, 0, 0, 0" />
+    </child>
+    <child type="PICTURE" name="icon_star" subclass="">
+      <asset type="ANIMATION">care_result_dialog_icon_star.xml</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="61" y="94" />
+      <rect l="0" t="0" r="59" b="58" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="TEXTAREA" name="txt_effect" subclass="">
+      <asset type="BG" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="8" t="8" r="180" b="18" />
+      </asset>
+      <asset type="EDGE_LT" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_RT" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_LB" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="EDGE_RB" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="8" b="8" />
+      </asset>
+      <asset type="FRAME_T" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="8" t="0" r="180" b="8" />
+      </asset>
+      <asset type="FRAME_B" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="8" t="0" r="180" b="8" />
+      </asset>
+      <asset type="FRAME_L" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="8" r="8" b="18" />
+      </asset>
+      <asset type="FRAME_R" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="8" r="8" b="18" />
+      </asset>
+      <asset type="CARET" path="">
+        <rpos x="0" y="0" />
+        <rect l="0" t="0" r="0" b="0" />
+      </asset>
+      <pos x="149" y="116" />
+      <rect l="0" t="0" r="196" b="34" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <Editable val="False" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#FF0000" />
+      <SelectionBrush val="#FF0000" />
+      <color val="#56301A" />
+      <style val="1" />
+      <halign val="0" />
+      <padding l="0" t="0" r="0" b="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="13" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="LABEL" name="txt_effect_title" subclass="">
+      <label val="" />
+      <pos x="149" y="95" />
+      <rect l="0" t="0" r="196" b="20" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#FF0000" />
+      <color val="#E58C64" />
+      <halign val="0" />
+      <valign val="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="15" />
+      <TextTrimming val="None" />
+      <style val="1" />
+      <IsHitTestVisible val="False" />
+      <ClipChildren val="False" />
+      <Padding val="0, 0, 0, 0" />
+    </child>
+  </base>
+</refresh>

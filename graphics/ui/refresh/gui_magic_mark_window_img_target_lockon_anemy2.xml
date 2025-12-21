@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="img_target_lockon_anemy2_Default">
+    <asset type="IMAGE" name="asset_img_target_lockoff_basic1" path="img_target_lockoff_basic1.png">
+      <rect l="0" t="0" r="66" b="66" />
+    </asset>
+    <object name="img_target_lockoff_basic1" ani="ani_img_target_lockoff_basic1">
+      <asset type="IMAGE" link="asset_img_target_lockoff_basic1" />
+    </object>
+    <param type="RES" x="72" y="72" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_img_target_lockoff_basic1">
+      <frame cnt="0">
+        <posx val="0.4722222" />
+        <posy val="0.4861111" />
+        <scalex val="5" />
+        <scaley val="5" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="433">
+        <posx val="0.4722222" />
+        <posy val="0.4861111" />
+        <scalex val="1" easeValue="0.0,0.0,0.2,1.0" />
+        <scaley val="1" easeValue="0.0,0.0,0.2,1.0" />
+        <alpha val="0.4" easeValue="0.0,0.0,0.2,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="533">
+        <posx val="0.4722222" />
+        <posy val="0.4861111" />
+        <scalex val="1.51515151515152" />
+        <scaley val="1.51515151515152" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

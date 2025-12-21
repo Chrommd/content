@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="care_tooltip_window_Animation.xml" />
+  </properties>
+  <base type="WND" name="tooltip">
+    <Visible val="True" />
+    <Anchor val="None" />
+    <pos x="362" y="452" />
+    <rect l="0" t="0" r="173" b="135" />
+    <child type="PICTURE" name="bg_tooltip">
+      <asset type="STATIC">care_tooltip.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="173" b="135" />
+      <center x="0" y="0" />
+    </child>
+    <child type="PICTURE" name="img_check">
+      <asset type="STATIC">care_tooltip_check.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="89" y="28" />
+      <rect l="0" t="0" r="32" b="31" />
+      <center x="0" y="0" />
+    </child>
+    <child type="LABEL" name="lb_care_tooltip">
+      <label val="관리할 말을 선택하세요" />
+      <pos x="2" y="89" />
+      <rect l="0" t="0" r="164" b="19" />
+      <Visible val="True" />
+      <Anchor val="None" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#030200" />
+      <color val="#FF8C53" />
+      <halign val="1" />
+      <valign val="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="10" />
+      <FontName val="나눔고딕" />
+    </child>
+  </base>
+</refresh>

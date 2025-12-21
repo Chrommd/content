@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="care_effect_mark_window_Animation.xml" />
+  </properties>
+  <base type="WND" subclass="" name="care_effect_mark">
+    <Visible val="True" />
+    <Anchor val="None" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="11" b="25" />
+    <snd type="SHOW">
+    </snd>
+    <snd type="HIDE">
+    </snd>
+    <IsHitTestVisible val="True" />
+    <ClipChildren val="False" />
+    <child type="PICTURE" name="mark_effect_new" subclass="">
+      <asset type="ANIMATION">care_effect_mark_window_mark_effect_new.xml</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="-2" y="6" />
+      <rect l="0" t="0" r="17" b="28" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="PICTURE" name="mark_effect_full" subclass="">
+      <asset type="ANIMATION">care_effect_mark_window_mark_effect_full.xml</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="0" y="6" />
+      <rect l="0" t="0" r="13" b="28" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="PICTURE" name="mark_effect_empty" subclass="">
+      <asset type="STATIC">mark_effect_empty.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="0" y="2" />
+      <rect l="0" t="0" r="11" b="28" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+  </base>
+</refresh>

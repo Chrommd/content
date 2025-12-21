@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="_Opening_">
+    <asset type="UI" name="asset_ingame_levelup_effect_01">
+      <rect l="0" t="0" r="80" b="80" />
+    </asset>
+    <asset type="UI" name="asset_ingame_levelup_effect">
+      <rect l="0" t="0" r="130" b="132" />
+    </asset>
+    <asset type="UI" name="asset_ingame_tx_horse_levelup">
+      <rect l="0" t="0" r="212" b="40" />
+    </asset>
+    <object name="ingame_levelup_effect_01" ani="ani_ingame_levelup_effect_01">
+      <asset type="UI" link="asset_ingame_levelup_effect_01" />
+    </object>
+    <object name="ingame_levelup_effect" ani="ani_ingame_levelup_effect">
+      <asset type="UI" link="asset_ingame_levelup_effect" />
+    </object>
+    <object name="ingame_tx_horse_levelup" ani="ani_ingame_tx_horse_levelup">
+      <asset type="UI" link="asset_ingame_tx_horse_levelup" />
+    </object>
+    <param type="RES" x="300" y="250" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_ingame_levelup_effect_01">
+      <frame cnt="0">
+        <posx val="0.366666666666667" />
+        <posy val="0.26" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0.366666666666667" />
+        <posy val="0.292" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" easeValue="0.0,0.0,0.4,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="900">
+        <posx val="0.363333333333333" easeValue="0.0,0.0,0.4,1.0" />
+        <posy val="0.204" easeValue="0.0,0.0,0.4,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,0.0,0.4,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1900">
+        <posx val="0.366666666666667" />
+        <posy val="0.204" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2500">
+        <posx val="0.366666666666667" />
+        <posy val="0.144" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" easeValue="0.0,0.0,0.5,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_levelup_effect">
+      <frame cnt="0">
+        <posx val="0.293333333333333" />
+        <posy val="0.116" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="100">
+        <posx val="-0.143333333333333" />
+        <posy val="-0.268" />
+        <scalex val="2.93846153846154" />
+        <scaley val="2.90909090909091" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="933">
+        <posx val="0.293333333333333" easeValue="0.0,0.0,0.3,1.0" />
+        <posy val="0.116" easeValue="0.0,0.0,0.3,1.0" />
+        <scalex val="1" easeValue="0.0,0.0,0.3,1.0" />
+        <scaley val="1" easeValue="0.0,0.0,0.3,1.0" />
+        <alpha val="1" easeValue="0.0,0.0,0.3,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1200">
+        <posx val="0.293333333333333" />
+        <posy val="0.116" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1333">
+        <posx val="0.326666666666667" easeValue="0.0,0.0,0.2,1.0" />
+        <posy val="0.16" easeValue="0.0,0.0,0.2,1.0" />
+        <scalex val="0.846153846153846" easeValue="0.0,0.0,0.2,1.0" />
+        <scaley val="0.840909090909091" easeValue="0.0,0.0,0.2,1.0" />
+        <alpha val="1" easeValue="0.0,0.0,0.2,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1667">
+        <posx val="0.00666666666666667" easeValue="0.0,0.0,0.0,1.0" />
+        <posy val="-0.248" easeValue="0.0,0.0,0.0,1.0" />
+        <scalex val="2.26153846153846" easeValue="0.0,0.0,0.0,1.0" />
+        <scaley val="2.24242424242424" easeValue="0.0,0.0,0.0,1.0" />
+        <alpha val="0" easeValue="0.0,0.0,0.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_ingame_tx_horse_levelup">
+      <frame cnt="0">
+        <posx val="0.163333333333333" />
+        <posy val="0.556" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="733">
+        <posx val="0.163333333333333" easeValue="0.0,0.0,0.4,0.8" />
+        <posy val="0.42" easeValue="0.0,0.0,0.4,0.8" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,0.0,0.4,0.8" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1933">
+        <posx val="0.163333333333333" />
+        <posy val="0.42" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2533">
+        <posx val="0.163333333333333" easeValue="0.0,0.0,0.3,1.0" />
+        <posy val="0.36" easeValue="0.0,0.0,0.3,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" easeValue="0.0,0.0,0.3,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="mate_titlewing_r_bottom_Default">
+    <asset type="IMAGE" name="asset_mate_titlewing_r" path="img_wing_right_efc.png">
+      <rect l="0" t="0" r="256" b="106" />
+    </asset>
+    <object name="mate_titlewing_r" ani="ani_mate_titlewing_r">
+      <asset type="IMAGE" link="asset_mate_titlewing_r" />
+    </object>
+    <param type="RES" x="256" y="106" />
+    <param type="LOOP" cnt="-1" pendulum="0" />
+    <anim name="ani_mate_titlewing_r">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="0.9296875" />
+        <scaley val="1" />
+        <alpha val="0.5" />
+        <rotate val="7" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0" easeValue="0.0,0.3,1.0,1.0" />
+        <posy val="0" easeValue="0.0,0.3,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" easeValue="0.0,0.3,1.0,1.0" />
+        <rotate val="0" easeValue="0.0,0.3,1.0,1.0" />
+        <visible val="1" />
+        <centerx val="0" easeValue="0.0,0.3,1.0,1.0" />
+        <centery val="0" easeValue="0.0,0.3,1.0,1.0" />
+      </frame>
+      <frame cnt="1000">
+        <posx val="0" easeValue="0.5,0.0,1.0,1.0" />
+        <posy val="0" easeValue="0.5,0.0,1.0,1.0" />
+        <scalex val="1.03125" />
+        <scaley val="1" />
+        <alpha val="0.6" easeValue="0.5,0.0,1.0,1.0" />
+        <rotate val="-12" easeValue="0.5,0.0,1.0,1.0" />
+        <visible val="1" />
+        <centerx val="0" easeValue="0.5,0.0,1.0,1.0" />
+        <centery val="0" easeValue="0.5,0.0,1.0,1.0" />
+      </frame>
+      <frame cnt="1500">
+        <posx val="0" easeValue="0.0,0.3,1.0,1.0" />
+        <posy val="0" easeValue="0.0,0.3,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" easeValue="0.0,0.3,1.0,1.0" />
+        <rotate val="0" easeValue="0.0,0.3,1.0,1.0" />
+        <visible val="1" />
+        <centerx val="0" easeValue="0.0,0.3,1.0,1.0" />
+        <centery val="0" easeValue="0.0,0.3,1.0,1.0" />
+      </frame>
+      <frame cnt="2500">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="3000">
+        <posx val="0" easeValue="0.3,0.0,1.0,1.0" />
+        <posy val="0" easeValue="0.3,0.0,1.0,1.0" />
+        <scalex val="0.9296875" />
+        <scaley val="1" />
+        <alpha val="0.5" easeValue="0.3,0.0,1.0,1.0" />
+        <rotate val="7" easeValue="0.3,0.0,1.0,1.0" />
+        <visible val="1" />
+        <centerx val="0" easeValue="0.3,0.0,1.0,1.0" />
+        <centery val="0" easeValue="0.3,0.0,1.0,1.0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

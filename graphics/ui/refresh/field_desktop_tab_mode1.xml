@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="NORMAL">
+    <asset type="IMAGE" name="asset_tab_mode1_n" path="tab_mode_n.png">
+      <rect l="0" t="0" r="158" b="43" />
+    </asset>
+    <asset type="IMAGE" name="asset_txt_mode1" path="txt_mode1.png">
+      <rect l="0" t="0" r="148" b="35" />
+    </asset>
+    <object name="tab_mode1_n" ani="ani_tab_mode1_n">
+      <asset type="IMAGE" link="asset_tab_mode1_n" />
+    </object>
+    <object name="txt_mode1" ani="ani_txt_mode1">
+      <asset type="IMAGE" link="asset_txt_mode1" />
+    </object>
+    <param type="RES" x="154" y="41" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_tab_mode1_n">
+      <frame cnt="0">
+        <posx val="-0.0194805194805195" />
+        <posy val="-0.024390243902439" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_txt_mode1">
+      <frame cnt="0">
+        <posx val="0.0194805194805195" />
+        <posy val="0.0731707317073171" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="OVER">
+    <asset type="IMAGE" name="asset_tab_mode1_n" path="tab_mode_n.png">
+      <rect l="0" t="0" r="158" b="43" />
+    </asset>
+    <asset type="IMAGE" name="asset_tab_mode1_o" path="tab_mode_o.png">
+      <rect l="0" t="0" r="158" b="43" />
+    </asset>
+    <asset type="IMAGE" name="asset_txt_mode1" path="txt_mode1.png">
+      <rect l="0" t="0" r="148" b="35" />
+    </asset>
+    <object name="tab_mode1_n" ani="ani_tab_mode1_n">
+      <asset type="IMAGE" link="asset_tab_mode1_n" />
+    </object>
+    <object name="tab_mode1_o" ani="ani_tab_mode1_o">
+      <asset type="IMAGE" link="asset_tab_mode1_o" />
+    </object>
+    <object name="txt_mode1" ani="ani_txt_mode1">
+      <asset type="IMAGE" link="asset_txt_mode1" />
+    </object>
+    <param type="RES" x="154" y="41" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_tab_mode1_n">
+      <frame cnt="0">
+        <posx val="-0.0194805194805195" />
+        <posy val="-0.024390243902439" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_tab_mode1_o">
+      <frame cnt="0">
+        <posx val="-0.0194805194805195" easeValue="0.5,0.0,0.5,1.0" />
+        <posy val="-0.024390243902439" easeValue="0.5,0.0,0.5,1.0" />
+        <scalex val="1" easeValue="0.5,0.0,0.5,1.0" />
+        <scaley val="1" easeValue="0.5,0.0,0.5,1.0" />
+        <alpha val="0.8" easeValue="0.5,0.0,0.5,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="133">
+        <posx val="-0.0194805194805195" />
+        <posy val="-0.024390243902439" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_txt_mode1">
+      <frame cnt="0">
+        <posx val="0.0194805194805195" />
+        <posy val="0.0731707317073171" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="DOWN">
+    <asset type="IMAGE" name="asset_tab_mode1_d" path="tab_mode_d.png">
+      <rect l="0" t="0" r="170" b="53" />
+    </asset>
+    <asset type="IMAGE" name="asset_txt_mode1" path="txt_mode1.png">
+      <rect l="0" t="0" r="148" b="35" />
+    </asset>
+    <object name="tab_mode1_d" ani="ani_tab_mode1_d">
+      <asset type="IMAGE" link="asset_tab_mode1_d" />
+    </object>
+    <object name="txt_mode1" ani="ani_txt_mode1">
+      <asset type="IMAGE" link="asset_txt_mode1" />
+    </object>
+    <param type="RES" x="154" y="41" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_tab_mode1_d">
+      <frame cnt="0">
+        <posx val="-0.0584415584415584" />
+        <posy val="-0.146341463414634" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="133">
+        <posx val="-0.0584415584415584" />
+        <posy val="-0.146341463414634" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_txt_mode1">
+      <frame cnt="0">
+        <posx val="0.0194805194805195" />
+        <posy val="0.0731707317073171" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.8" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="133">
+        <posx val="0.0194805194805195" />
+        <posy val="0.0731707317073171" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.8" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="DISABLE">
+    <asset type="IMAGE" name="asset_tab_mode1_dis" path="tab_mode_dis.png">
+      <rect l="0" t="0" r="158" b="43" />
+    </asset>
+    <asset type="IMAGE" name="asset_txt_mode1" path="txt_mode1.png">
+      <rect l="0" t="0" r="148" b="35" />
+    </asset>
+    <object name="tab_mode1_dis" ani="ani_tab_mode1_dis">
+      <asset type="IMAGE" link="asset_tab_mode1_dis" />
+    </object>
+    <object name="txt_mode1" ani="ani_txt_mode1">
+      <asset type="IMAGE" link="asset_txt_mode1" />
+    </object>
+    <param type="RES" x="154" y="41" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_tab_mode1_dis">
+      <frame cnt="0">
+        <posx val="-0.0194805194805195" />
+        <posy val="-0.024390243902439" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_txt_mode1">
+      <frame cnt="0">
+        <posx val="0.0194805194805195" />
+        <posy val="0.0731707317073171" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.35" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="_Opening_">
+    <asset type="UI" name="asset_img_rm_list_confirm_back">
+      <rect l="0" t="0" r="330" b="66" />
+    </asset>
+    <object name="img_rm_list_confirm_back" ani="ani_img_rm_list_confirm_back">
+      <asset type="UI" link="asset_img_rm_list_confirm_back" />
+    </object>
+    <param type="RES" x="483" y="158" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_img_rm_list_confirm_back">
+      <frame cnt="0">
+        <posx val="1.00414078674948" />
+        <posy val="0.563291139240506" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="367">
+        <posx val="0.308488612836439" easeValue="0.0,0.8,1.0,1.0" />
+        <posy val="0.563291139240506" easeValue="0.0,0.8,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Closing_">
+    <asset type="UI" name="asset_img_rm_list_confirm_back">
+      <rect l="0" t="0" r="330" b="66" />
+    </asset>
+    <object name="img_rm_list_confirm_back" ani="ani_img_rm_list_confirm_back">
+      <asset type="UI" link="asset_img_rm_list_confirm_back" />
+    </object>
+    <param type="RES" x="483" y="158" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_img_rm_list_confirm_back">
+      <frame cnt="0">
+        <posx val="0.308488612836439" />
+        <posy val="0.563291139240506" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="333">
+        <posx val="1.00414078674948" />
+        <posy val="0.563291139240506" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

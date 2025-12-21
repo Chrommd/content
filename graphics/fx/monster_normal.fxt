@@ -1,0 +1,1424 @@
+
+"mon_elephant_dust"
+{
+	emitter {
+		texture "volumdust_007.dds"
+		blendFunc blend
+		time 0.645000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 9
+		cycles	1
+		bunching 0.056000
+		colorKeyframes 3 ( 0.000000 0.667000 0.537000 0.369000 0.000000 ) ( 0.116000 0.655000 0.533000 0.263000 0.500000 ) ( 1.000000 0.667000 0.537000 0.369000 0.000000 )
+		initialAngle 300.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		distribution box ( 2.000000 0.000000 0.000000 )
+		direction cone ( 180.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 1.400000 1.400000 1.000000 1.000000 )
+		rotation ( -10.000000 -10.000000 -10.000000 -10.000000 )
+		size ( 2.304000 2.560000 2.304000 2.560000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+	}
+	emitter {
+		animTexture 2 2 0 0 "leaf_long_green_001.dds" 1
+		blendFunc blend
+		time 0.500000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 17
+		cycles	1
+		bunching 0.258000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.500000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		distribution box ( 2.000000 0.000000 2.000000 )
+		direction cone ( 180.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 5.000000 5.000000 0.000000 0.000000 )
+		rotation ( 1500.000000 1500.000000 1000.000000 1000.000000 )
+		size ( 0.128000 0.512000 0.128000 0.384000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+	}
+}
+
+"mon_minibat_hit"
+{
+	depthHack	0.980000
+	emitter {
+		texture "particle_004.dds"
+		blendFunc blend
+		time 0.255000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 7
+		cycles	1
+		bunching 0.000000
+		colorKeyframes 3 ( 0.000000 0.000000 0.000000 0.000000 0.000000 ) ( 0.510000 1.000000 1.000000 1.000000 0.500000 ) ( 1.000000 0.000000 0.000000 0.000000 0.000000 )
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.050000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 180.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.600000 3.000000 0.200000 2.000000 )
+		rotation ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.128000 1.920000 0.256000 2.560000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+	}
+	emitter {
+		animTexture 2 2 8 0 "fire_red_001.dds" 0
+		blendFunc blend
+		time 0.060000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 4
+		cycles	1
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.500000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		initialAngle 180.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 30.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.100000 0.100000 0.100000 0.100000 )
+		rotation ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.384000 0.384000 4.064000 4.064000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+	}
+	emitter {
+		texture "ascent_red_002.dds"
+		blendFunc blendAdd
+		time 0.120000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 2
+		cycles	1
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.500000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		initialAngle 180.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 30.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.500000 0.500000 0.500000 0.500000 )
+		rotation ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.896000 0.896000 2.000000 2.000000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+	}
+}
+
+"mon_eagle_02"
+{
+	emitter {
+		animTexture 1 2 0 1 "feather_002.dds" 1
+		blendFunc blend
+		time 0.700000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 3
+		cycles	1
+		bunching 0.592000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.101000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.896000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 60.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 11.000000 5.800000 1.800000 1.800000 )
+		rotation ( 1500.000000 500.000000 0.000000 0.000000 )
+		size ( 0.200000 0.300000 0.300000 0.400000 )
+		aspect ( 3.000000 3.000000 3.000000 3.000000 )
+		rotationSpeed 0.000000
+	}
+	emitter {
+		animTexture 1 2 0 0 "feather_002.dds" 1
+		blendFunc blend
+		time 0.700000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 3
+		cycles	1
+		bunching 0.678000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.136000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 2.176000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 60.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 8.600000 5.000000 2.200000 2.200000 )
+		rotation ( 1500.000000 500.000000 64.440002 64.440002 )
+		size ( 0.400000 0.500000 0.400000 0.500000 )
+		aspect ( 3.000000 3.000000 3.000000 3.000000 )
+		rotationSpeed 0.000000
+	}
+}
+
+"mon_hyena_dust_002"
+{
+	emitter {
+		texture "volumdust_007.dds"
+		blendFunc blend
+		time 0.200000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 9
+		cycles	1
+		bunching 0.229000
+		colorKeyframes 3 ( 0.000000 0.525000 0.424000 0.333000 0.000000 ) ( 0.116000 0.812000 0.725000 0.522000 0.500000 ) ( 1.000000 0.525000 0.424000 0.333000 0.000000 )
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		distribution sphere ( 0.000000 0.000000 0.000000 0.010000 )
+		direction cone ( 120.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.600000 1.800000 0.600000 1.000000 )
+		rotation ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.000000 0.000000 0.384000 3.328000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+	}
+}
+
+"mon_dragon_shoot"
+{
+	cullDistance	320.000000
+	emitter {
+		shaderFunc	heathaze ( 0.020000 0.100000 0.100000 )
+		texture "bump1.png"
+		time 1.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 1
+		cycles	1
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 0.000000 0.000000 0.000000 1.000000 ) ( 0.500000 1.000000 1.000000 1.000000 0.000000 ) ( 1.000000 0.000000 0.000000 0.000000 1.000000 )
+		initialAngle 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 30.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotation ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 15.000000 15.000000 19.903999 19.903999 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+	}
+	emitter {
+		animTexture 4 4 16 0 "explode_001.dds" 1
+		blendFunc blendAdd
+		time 1.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 12
+		cycles	2
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.067000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		initialAngle 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.000000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		distribution box ( 1.000000 1.000000 1.000000 )
+		direction cone ( 180.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 2.000000 4.000000 2.000000 2.000000 )
+		rotation ( 14.400000 14.400000 50.000000 50.000000 )
+		size ( 3.000000 3.000000 5.000000 5.000000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+	}
+	emitter {
+		texture "volumdust_001.dds"
+		blendFunc blend
+		time 1.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 25
+		cycles	3
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 0.000000 0.000000 0.000000 0.000000 ) ( 0.000000 0.000000 0.000000 0.000000 1.000000 ) ( 1.000000 0.000000 0.000000 0.000000 0.000000 )
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 1
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		distribution box ( 2.000000 0.000000 2.000000 )
+		direction cone ( 50.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 2.000000 10.000000 10.000000 25.000000 )
+		rotation ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 2.000000 5.000000 5.000000 8.000000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+	}
+	emitter {
+		animTexture 4 4 16 0 "explode_001.dds" 1
+		blendFunc blendAdd
+		time 1.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 88
+		cycles	3
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.067000 1.000000 1.000000 1.000000 0.700000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		initialAngle 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 3.200000 0.000000 )
+		trails 0
+		trailTime 0.000000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		distribution box ( 1.000000 0.000000 1.000000 )
+		direction cone ( 180.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 9.800000 10.600000 2.000000 2.000000 )
+		rotation ( 14.400000 14.400000 50.000000 50.000000 )
+		size ( 0.100000 1.000000 0.100000 0.100000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+	}
+	emitter {
+		animTexture 4 4 32 0 "explode_001.dds" 1
+		blendFunc blendAdd
+		time 0.510000
+		deadTime 0.000000
+		timeOffset 1.180000
+		count 21
+		cycles	1
+		bunching 0.030000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.067000 1.000000 1.000000 1.000000 0.700000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		initialAngle 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 2.176000 0.000000 )
+		trails 3
+		trailTime 0.000000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		distribution box ( 1.000000 0.000000 1.000000 )
+		direction cone ( 180.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 10.600000 16.100000 16.500000 18.900000 )
+		rotation ( 14.400000 14.400000 50.000000 50.000000 )
+		size ( 0.384000 4.064000 0.256000 0.256000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+	}
+	emitter {
+		animTexture 4 4 32 0 "explode_001.dds" 1
+		blendFunc blendAdd
+		time 0.315000
+		deadTime 0.000000
+		timeOffset 1.180000
+		count 5
+		cycles	1
+		bunching 0.030000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.067000 1.000000 1.000000 1.000000 0.700000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		initialAngle 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 3
+		trailTime 0.000000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		distribution box ( 1.000000 0.000000 1.000000 )
+		direction cone ( 180.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 4.600000 4.600000 2.000000 2.000000 )
+		rotation ( 14.400000 14.400000 50.000000 50.000000 )
+		size ( 1.920000 2.112000 8.800000 8.800000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+	}
+}
+
+"mon_nunu_ready"
+{
+	emitter {
+		texture "spread_nunu_ready_001.dds"
+		textureRotation 180.000000
+		blendFunc blendAdd
+		time 1.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 2
+		cycles	0
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.500000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		initialAngle 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 30.000000 0.000000 1.000000 0.000000 )
+		orientation x
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotation ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 1.000000 1.000000 1.500000 1.500000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+	}
+}
+
+"mon_stun"
+{
+	emitter {
+		texture "star_001.dds"
+		blendFunc blendAdd
+		time 1.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 5
+		cycles	2
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.063000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		offset ( 0.000000 0.300000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 0.000000 0.000000 0.000000 0.000000 )
+		orientation view
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotation ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.300000 0.300000 0.000000 0.000000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		customPath cone ( 15.000000 0.300000 0.300000 )
+		attached
+	}
+}
+
+"mon_dragon_fireball_test"
+{
+	cullDistance	768.000000
+	emitter {
+		texture "volumdust_001.dds"
+		blendFunc blend
+		time 1.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 50
+		cycles	0
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 0.000000 0.000000 0.000000 0.000000 ) ( 0.464000 0.000000 0.000000 0.000000 1.000000 ) ( 1.000000 0.000000 0.000000 0.000000 0.000000 )
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 30.000000 0.000000 0.000000 0.000000 )
+		orientation view
+		speed ( 5.000000 5.000000 0.000000 0.000000 )
+		rotation ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 3.200000 4.576000 3.328000 5.088000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+	}
+	emitter {
+		animTexture 4 4 16 0 "explode_001.dds" 1
+		blendFunc blendAdd
+		time 1.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 21
+		cycles	0
+		bunching 0.997000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.509000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 -1.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailCut
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 50.000000 0.000000 0.000000 0.000000 )
+		orientation view
+		speed ( -0.000000 -0.000000 0.000000 0.000000 )
+		rotation ( 10.000000 20.000000 100.000000 100.000000 )
+		size ( 5.952000 7.520000 0.000000 0.128000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+	}
+	emitter {
+		shaderFunc	heathaze ( 0.020000 1.000000 1.000000 )
+		texture "bump1.png"
+		time 1.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 1
+		cycles	0
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 0.000000 0.000000 0.000000 0.000000 ) ( 0.438000 1.000000 1.000000 1.000000 0.000000 ) ( 1.000000 0.000000 0.000000 0.000000 0.000000 )
+		initialAngle 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 30.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotation ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 15.000000 15.000000 15.000000 15.000000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		attached
+	}
+}
+
+"mon_elephant_pack_dust_001"
+{
+	emitter {
+		texture "volumdust_002.dds"
+		blendFunc blendAdd
+		time 1.680000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 10
+		cycles	1
+		bunching 0.459000
+		colorKeyframes 3 ( 0.000000 0.961000 0.871000 0.733000 0.000000 ) ( 0.500000 0.953000 0.906000 0.737000 1.000000 ) ( 1.000000 0.961000 0.871000 0.733000 0.000000 )
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		distribution box ( 2.540000 0.000000 2.540000 )
+		direction cone ( 30.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 1.000000 1.000000 1.000000 1.000000 )
+		rotation ( 65.879997 65.879997 110.160004 110.160004 )
+		size ( 3.712000 5.216000 3.840000 4.704000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+	}
+	emitter {
+		texture "volumdust_002.dds"
+		blendFunc blendAdd
+		time 0.645000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 17
+		cycles	1
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 0.961000 0.871000 0.733000 0.000000 ) ( 0.500000 0.961000 0.871000 0.733000 1.000000 ) ( 1.000000 0.961000 0.871000 0.733000 0.000000 )
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 60.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 5.000000 5.000000 5.800000 5.800000 )
+		rotation ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 3.968000 4.576000 4.320000 5.344000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+	}
+}
+
+"mon_hyena_dust_003"
+{
+	emitter {
+		texture "volumdust_007.dds"
+		blendFunc blend
+		time 0.340000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 48
+		cycles	4
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 0.525000 0.424000 0.333000 0.000000 ) ( 0.116000 0.812000 0.725000 0.522000 0.500000 ) ( 1.000000 0.525000 0.424000 0.333000 0.000000 )
+		initialAngle 300.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		distribution box ( 1.420000 0.120000 0.000000 )
+		direction cone ( 120.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.600000 1.800000 0.600000 1.000000 )
+		rotation ( -10.000000 10.000000 -10.000000 10.000000 )
+		size ( 0.000000 0.000000 0.384000 3.328000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+	}
+}
+
+"mon_moth_wing_spread"
+{
+	emitter {
+		texture "volumdust_007.dds"
+		blendFunc blend
+		time 0.510000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 10
+		cycles	0
+		bunching 0.966000
+		colorKeyframes 3 ( 0.000000 0.502000 0.396000 0.216000 0.000000 ) ( 0.500000 1.000000 1.000000 1.000000 0.500000 ) ( 1.000000 0.502000 0.396000 0.216000 0.000000 )
+		initialAngle 300.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.640000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 30.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotation ( -10.000000 10.000000 -10.000000 10.000000 )
+		size ( 3.200000 3.200000 2.304000 2.304000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		customPath cone ( 0.010000 1.000000 1.000000 )
+	}
+}
+
+"mon_bison_dust"
+{
+	emitter {
+		texture "volumdust_007.dds"
+		blendFunc blend
+		time 0.390000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 3
+		cycles	1
+		bunching 0.120000
+		colorKeyframes 3 ( 0.000000 0.525000 0.424000 0.333000 0.000000 ) ( 0.116000 0.655000 0.537000 0.263000 0.500000 ) ( 1.000000 0.525000 0.424000 0.333000 0.000000 )
+		initialAngle 300.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 30.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotation ( -10.000000 10.000000 -10.000000 10.000000 )
+		size ( 0.000000 0.000000 4.192000 4.192000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+	}
+}
+
+"mon_elephant_crystal_crash"
+{
+	emitter {
+		texture "ring_yellow_001.dds"
+		blendFunc blendAdd
+		time 0.510000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 2
+		cycles	1
+		bunching 0.519000
+		colorKeyframes 3 ( 0.000000 0.263000 0.529000 0.973000 0.000000 ) ( 0.500000 0.549000 0.788000 1.000000 1.000000 ) ( 1.000000 0.263000 0.529000 0.973000 0.000000 )
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 30.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotation ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.128000 0.768000 1.792000 2.560000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+	}
+	emitter {
+		texture "spread_blue_004.dds"
+		blendFunc blendAdd
+		time 0.200000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 2
+		cycles	1
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.500000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 30.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotation ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.512000 1.280000 3.072000 3.968000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+	}
+	emitter {
+		texture "wave_001.dds"
+		blendFunc blendAdd
+		time 0.500000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 4
+		cycles	1
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.500000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 30.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotation ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.256000 0.512000 2.176000 3.200000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+	}
+	emitter {
+		texture "laser_green_001.dds"
+		blendFunc blendAdd
+		time 0.500000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 3
+		cycles	1
+		bunching 0.438000
+		colorKeyframes 3 ( 0.000000 0.333000 0.420000 0.925000 0.000000 ) ( 0.500000 0.396000 0.369000 0.949000 1.000000 ) ( 1.000000 0.333000 0.420000 0.925000 0.000000 )
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 30.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotation ( 15.840000 25.920000 5.760000 30.240000 )
+		size ( 0.128000 0.384000 0.512000 1.152000 )
+		aspect ( 10.000000 10.000000 10.000000 10.000000 )
+		rotationSpeed 0.000000
+	}
+	emitter {
+		animTexture 4 4 8 0 "particle_001.dds" 0
+		blendFunc blendAdd
+		time 0.400000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 57
+		cycles	1
+		bunching 0.255000
+		colorKeyframes 3 ( 0.000000 0.255000 0.271000 0.980000 0.000000 ) ( 0.500000 0.533000 0.761000 0.992000 1.000000 ) ( 1.000000 0.255000 0.271000 0.980000 0.000000 )
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.896000 0.000000 )
+		trails 0
+		trailTime 0.000000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailCut
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 360.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 3.000000 6.600000 0.600000 1.400000 )
+		rotation ( 28.799999 28.799999 0.000000 0.000000 )
+		size ( 0.256000 0.256000 0.000000 0.256000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+	}
+}
+
+"mon_elephant_pack_dust_002"
+{
+	emitter {
+		texture "volumdust_002.dds"
+		blendFunc blendAdd
+		time 0.450000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 29
+		cycles	1
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 0.961000 0.871000 0.733000 0.000000 ) ( 0.500000 0.961000 0.871000 0.733000 1.000000 ) ( 1.000000 0.961000 0.871000 0.733000 0.000000 )
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		distribution box ( 4.600000 0.000000 4.240000 )
+		direction cone ( 30.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 1.000000 1.000000 0.500000 0.500000 )
+		rotation ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 3.072000 3.072000 5.472000 5.472000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+	}
+	emitter {
+		animTexture 2 1 8 0 "ascent_white_001.dds" 1
+		blendFunc blendAdd
+		time 0.390000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 2
+		cycles	1
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 0.961000 0.871000 0.733000 0.000000 ) ( 0.500000 0.961000 0.871000 0.733000 1.000000 ) ( 1.000000 0.961000 0.871000 0.733000 0.000000 )
+		initialAngle 0.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 30.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotation ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 9.312000 9.312000 15.296000 15.296000 )
+		aspect ( 0.100000 0.100000 0.100000 0.100000 )
+		rotationSpeed 0.000000
+	}
+}
+
+"mon_hyena_dust_004"
+{
+	emitter {
+		texture "volumdust_007.dds"
+		blendFunc blend
+		time 0.900000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 26
+		cycles	1
+		bunching 0.322000
+		colorKeyframes 3 ( 0.000000 0.557000 0.533000 0.290000 0.000000 ) ( 0.295000 1.000000 1.000000 1.000000 0.300000 ) ( 1.000000 0.557000 0.533000 0.290000 0.000000 )
+		initialAngle 300.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		distribution box ( 0.100000 0.000000 0.100000 )
+		direction outward ( 0.000000 1.000000 0.000000 1.000000 )
+		orientation view
+		speed ( 1.400000 4.600000 0.100000 0.100000 )
+		rotation ( -10.000000 10.000000 -10.000000 10.000000 )
+		size ( 0.000000 0.000000 2.688000 4.960000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+	}
+}
+
+"mon_eagle_01"
+{
+	emitter {
+		animTexture 1 2 0 1 "feather_002.dds" 1
+		blendFunc blend
+		time 0.800000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 2
+		cycles	1
+		bunching 0.157000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.101000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.896000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 180.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 9.800000 6.600000 0.000000 0.000000 )
+		rotation ( 360.000000 360.000000 0.000000 0.000000 )
+		size ( 0.400000 0.500000 0.400000 0.500000 )
+		aspect ( 3.000000 3.000000 3.000000 3.000000 )
+		rotationSpeed 0.000000
+	}
+	emitter {
+		animTexture 1 2 0 0 "feather_002.dds" 1
+		blendFunc blend
+		time 0.800000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 2
+		cycles	1
+		bunching 0.157000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.136000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.896000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 180.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 9.000000 5.400000 0.000000 0.000000 )
+		rotation ( 360.000000 360.000000 0.000000 0.000000 )
+		size ( 0.300000 0.400000 0.200000 0.300000 )
+		aspect ( 3.000000 3.000000 3.000000 3.000000 )
+		rotationSpeed 0.000000
+	}
+}
+
+"mon_dragon_fireball"
+{
+	cullDistance	360.000000
+	scale	1.500000
+	emitter {
+		texture "volumdust_003.dds"
+		blendFunc blend
+		time 1.095000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 12
+		cycles	3
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.500000 0.000000 0.000000 0.000000 0.700000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		distribution sphere ( 0.000000 0.000000 0.000000 0.000000 )
+		direction cone ( 10.000000 0.000000 0.000000 -1.000000 )
+		orientation view
+		speed ( 3.800000 9.400000 1.000000 5.400000 )
+		rotation ( 147.600006 183.600006 11.520000 31.680000 )
+		size ( 2.176000 1.792000 3.456000 3.200000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		attached
+	}
+	emitter {
+		animTexture 4 4 16 0 "explode_001.dds" 1
+		blendFunc blendAdd
+		time 1.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 3
+		cycles	3
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.500000 1.000000 1.000000 1.000000 0.700000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 1
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		distribution sphere ( 0.000000 0.000000 0.000000 0.000000 )
+		direction cone ( 10.000000 0.000000 0.000000 -1.000000 )
+		orientation view
+		speed ( 0.000000 0.000000 4.000000 5.000000 )
+		rotation ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 4.192000 3.712000 0.000000 0.000000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		attached
+	}
+	emitter {
+		animTexture 4 4 16 0 "explode_001.dds" 1
+		blendFunc blend
+		time 1.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 5
+		cycles	3
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.500000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		offset ( 0.000000 0.000000 0.480000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		distribution sphere ( 0.000000 0.000000 0.000000 0.000000 )
+		direction cone ( 10.000000 0.000000 0.000000 -1.000000 )
+		orientation view
+		speed ( 6.200000 8.200000 5.000000 6.600000 )
+		rotation ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 3.712000 3.456000 0.000000 -1.000000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		attached
+	}
+	emitter {
+		animTexture 4 4 16 0 "explode_001.dds" 1
+		blendFunc blendAdd
+		time 1.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 6
+		cycles	3
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.500000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		offset ( 0.000000 0.000000 0.480000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		distribution sphere ( 0.000000 0.000000 0.000000 0.000000 )
+		direction cone ( 10.000000 0.000000 0.000000 -1.000000 )
+		orientation view
+		speed ( 4.600000 6.600000 4.200000 6.200000 )
+		rotation ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 3.584000 3.584000 -1.000000 -1.000000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		attached
+	}
+	emitter {
+		animTexture 4 4 0 6 "explode_001.dds" 1
+		blendFunc blendAdd
+		time 1.680000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 17
+		cycles	2
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.500000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		distribution box ( 0.300000 0.300000 0.300000 )
+		direction cone ( 20.000000 0.000000 0.000000 -1.000000 )
+		orientation view
+		speed ( 10.200000 13.700000 16.500000 20.100000 )
+		rotation ( 8.640000 8.640000 0.000000 0.000000 )
+		size ( 0.100000 0.100000 0.000000 0.000000 )
+		aspect ( 1.024000 4.096000 0.000000 0.000000 )
+		rotationSpeed 0.000000
+		attached
+	}
+}
+
+"mon_eagle_att"
+{
+	emitter {
+		animTexture 1 2 0 1 "feather_002.dds" 1
+		blendFunc blend
+		time 0.800000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 5
+		cycles	1
+		bunching 0.157000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.101000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.896000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 180.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 9.800000 6.600000 0.000000 0.000000 )
+		rotation ( 360.000000 360.000000 0.000000 0.000000 )
+		size ( 0.400000 0.500000 0.400000 0.500000 )
+		aspect ( 3.000000 3.000000 3.000000 3.000000 )
+		rotationSpeed 0.000000
+	}
+	emitter {
+		animTexture 1 2 0 0 "feather_002.dds" 1
+		blendFunc blend
+		time 0.800000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 5
+		cycles	1
+		bunching 0.157000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.136000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.896000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 180.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 9.000000 5.400000 0.000000 0.000000 )
+		rotation ( 360.000000 360.000000 0.000000 0.000000 )
+		size ( 0.300000 0.400000 0.200000 0.300000 )
+		aspect ( 3.000000 3.000000 3.000000 3.000000 )
+		rotationSpeed 0.000000
+	}
+	emitter {
+		animTexture 1 2 0 1 "feather_002.dds" 1
+		blendFunc blend
+		time 0.645000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 15
+		cycles	1
+		bunching 0.651000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.101000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		initialAngle 180.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( -0.000000 -0.000000 -0.000000 )
+		trails 1
+		trailTime 0.442000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		distribution sphere ( -0.000000 0.120000 0.000000 1.000000 )
+		direction cone ( 0.000000 0.000000 0.000000 1.000000 )
+		orientation aimed
+		speed ( 1.800000 10.600000 3.400000 3.400000 )
+		rotation ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.200000 0.500000 0.200000 0.400000 )
+		aspect ( 3.000000 3.000000 3.000000 3.000000 )
+		rotationSpeed 0.000000
+		attached
+	}
+}
+
+"mon_hyena_dust_001"
+{
+	emitter {
+		texture "volumdust_007.dds"
+		blendFunc blend
+		time 0.300000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 8
+		cycles	1
+		bunching 0.229000
+		colorKeyframes 3 ( 0.000000 0.714000 0.647000 0.463000 0.000000 ) ( 0.510000 1.000000 1.000000 1.000000 0.500000 ) ( 1.000000 0.714000 0.647000 0.463000 0.000000 )
+		initialAngle 300.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		distribution sphere ( 0.000000 0.000000 0.000000 0.300000 )
+		direction cone ( 30.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotation ( -10.000000 10.000000 -10.000000 10.000000 )
+		size ( 0.000000 0.000000 0.768000 3.584000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+	}
+	emitter {
+		texture "volumdust_004.dds"
+		blendFunc blend
+		time 0.300000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 4
+		cycles	1
+		bunching 0.229000
+		colorKeyframes 3 ( 0.000000 0.671000 0.580000 0.373000 0.000000 ) ( 0.116000 0.890000 0.843000 0.725000 1.000000 ) ( 1.000000 0.671000 0.580000 0.373000 0.000000 )
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		distribution sphere ( 0.000000 0.000000 0.000000 0.300000 )
+		direction cone ( 30.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotation ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.000000 0.000000 0.768000 3.584000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+	}
+	emitter {
+		animTexture 2 2 0 0 "stone_001.dds" 0
+		blendFunc blend
+		time 0.390000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 3
+		cycles	1
+		bunching 0.229000
+		colorKeyframes 3 ( 0.000000 0.510000 0.427000 0.267000 0.000000 ) ( 0.116000 0.475000 0.396000 0.192000 1.000000 ) ( 1.000000 0.510000 0.427000 0.267000 0.000000 )
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 3.200000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		distribution sphere ( 0.000000 0.000000 0.000000 0.300000 )
+		direction cone ( 120.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 2.600000 9.000000 0.000000 0.000000 )
+		rotation ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.050000 0.100000 0.100000 0.150000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+	}
+}
+
+"mon_hyena_attack_001"
+{
+	depthHack	0.980000
+	emitter {
+		texture "particle_004.dds"
+		blendFunc blend
+		time 0.255000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 7
+		cycles	1
+		bunching 0.000000
+		colorKeyframes 3 ( 0.000000 0.000000 0.000000 0.000000 0.000000 ) ( 0.510000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 0.000000 0.000000 0.000000 0.000000 )
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.050000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 180.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.600000 3.000000 0.200000 2.000000 )
+		rotation ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.128000 1.920000 0.256000 2.560000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+	}
+	emitter {
+		animTexture 2 2 8 0 "fire_red_001.dds" 0
+		blendFunc blend
+		time 0.100000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 4
+		cycles	1
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.500000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		initialAngle 180.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 30.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.100000 0.100000 0.100000 0.100000 )
+		rotation ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.384000 0.384000 4.064000 4.064000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+	}
+	emitter {
+		texture "ascent_red_002.dds"
+		blendFunc blendAdd
+		time 0.150000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 9
+		cycles	1
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.500000 1.000000 1.000000 1.000000 0.400000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		initialAngle 180.000000
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		distribution sphere ( 0.000000 0.000000 0.000000 0.300000 )
+		direction cone ( 30.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.500000 0.500000 0.500000 0.500000 )
+		rotation ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.896000 0.896000 2.000000 2.000000 )
+		aspect ( 0.500000 0.500000 0.500000 0.500000 )
+		rotationSpeed 0.000000
+	}
+	emitter {
+		texture "circle_001.dds"
+		blendFunc blendAdd
+		time 0.300000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 2
+		cycles	1
+		bunching 0.197000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.500000 0.988000 0.263000 0.020000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 30.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotation ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.000000 0.000000 7.136000 7.136000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+	}
+	emitter {
+		animTexture 2 2 8 0 "fire_red_001.dds" 0
+		blendFunc blend
+		time 0.315000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 15
+		cycles	1
+		bunching 0.043000
+		colorKeyframes 3 ( 0.000000 0.000000 0.000000 0.000000 0.000000 ) ( 0.505000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 0.000000 0.000000 0.000000 0.000000 )
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 2.176000 0.000000 )
+		trails 2
+		trailTime 0.558000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		trailCut
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 180.000000 0.000000 1.000000 1.000000 )
+		orientation aimed
+		speed ( 1.000000 14.100000 0.100000 0.200000 )
+		rotation ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.010000 0.400000 0.010000 0.400000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+	}
+}
+
+"mon_cucu_ready"
+{
+	emitter {
+		texture "spread_cucu_ready_001.dds"
+		blendFunc blendAdd
+		time 1.000000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 3
+		cycles	0
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.500000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 0.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 30.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 0.000000 0.000000 0.000000 0.000000 )
+		rotation ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 1.280000 1.536000 0.896000 1.280000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+	}
+	emitter {
+		texture "spread_cucu_ready_001.dds"
+		blendFunc blendAdd
+		time 1.410000
+		deadTime 0.000000
+		timeOffset 0.000000
+		count 10
+		cycles	0
+		bunching 1.000000
+		colorKeyframes 3 ( 0.000000 1.000000 1.000000 1.000000 0.000000 ) ( 0.500000 1.000000 1.000000 1.000000 1.000000 ) ( 1.000000 1.000000 1.000000 1.000000 0.000000 )
+		offset ( 0.000000 0.000000 0.000000 )
+		gravity ( 0.000000 -1.000000 0.000000 )
+		trails 0
+		trailTime 0.500000
+		trailShake_2 ( 0.000000 0.000000 0.000000 )
+		trailShakeFreq_2 ( 0.000000 0.000000 0.000000 )
+		distribution box ( 0.000000 0.000000 0.000000 )
+		direction cone ( 30.000000 0.000000 1.000000 0.000000 )
+		orientation view
+		speed ( 5.000000 5.000000 0.000000 0.000000 )
+		rotation ( 0.000000 0.000000 0.000000 0.000000 )
+		size ( 0.020000 0.020000 0.020000 0.256000 )
+		aspect ( 1.000000 1.000000 1.000000 1.000000 )
+		rotationSpeed 0.000000
+		customPath spherical ( 1.000000 1.000000 1.000000 )
+	}
+}

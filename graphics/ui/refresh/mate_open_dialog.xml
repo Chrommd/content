@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="mate_open_dialog_Animation.xml" />
+  </properties>
+  <base type="WNDEX" subclass="" name="mate_open">
+    <asset type="BG" path="frm_sub_04.png" tileMode="Stretch">
+      <tex x="10" y="5" />
+      <rect l="80" t="70" r="287" b="239" />
+    </asset>
+    <asset type="EDGE_LT" path="frm_sub_00.png" tileMode="Stretch">
+      <tex x="80" y="70" />
+      <rect l="0" t="0" r="80" b="70" />
+    </asset>
+    <asset type="EDGE_RT" path="frm_sub_02.png" tileMode="Stretch">
+      <tex x="87" y="70" />
+      <rect l="0" t="0" r="87" b="70" />
+    </asset>
+    <asset type="EDGE_LB" path="frm_sub_06.png" tileMode="Stretch">
+      <tex x="80" y="33" />
+      <rect l="0" t="0" r="80" b="33" />
+    </asset>
+    <asset type="EDGE_RB" path="frm_sub_08.png" tileMode="Stretch">
+      <tex x="87" y="33" />
+      <rect l="0" t="0" r="87" b="33" />
+    </asset>
+    <asset type="FRAME_T" path="frm_sub_01.png" tileMode="Stretch">
+      <tex x="10" y="70" />
+      <rect l="80" t="0" r="287" b="70" />
+    </asset>
+    <asset type="FRAME_B" path="frm_sub_07.png" tileMode="Stretch">
+      <tex x="10" y="33" />
+      <rect l="80" t="0" r="287" b="33" />
+    </asset>
+    <asset type="FRAME_L" path="frm_sub_03.png" tileMode="Stretch">
+      <tex x="80" y="5" />
+      <rect l="0" t="70" r="80" b="239" />
+    </asset>
+    <asset type="FRAME_R" path="frm_sub_05.png" tileMode="Stretch">
+      <tex x="87" y="5" />
+      <rect l="0" t="70" r="87" b="239" />
+    </asset>
+    <Visible val="True" />
+    <Anchor val="None" />
+    <pos x="285" y="207" />
+    <rect l="0" t="0" r="454" b="342" />
+    <Dragable val="False" />
+    <StartPosition val="CenterScreen" />
+    <EscKeyAction val="None" />
+    <IsHitTestVisible val="True" />
+    <ClipChildren val="False" />
+    <child type="PICTURE" name="bg_mate_open" subclass="">
+      <asset type="ANIMATION">mate_open_dialog_bg_mate_open.xml</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="42" y="65" />
+      <rect l="0" t="0" r="375" b="177" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="PANEL" name="panel_text" subclass="">
+      <Visible val="True" />
+      <Anchor val="None" />
+      <embed src="" />
+      <pos x="0" y="0" />
+      <rect l="0" t="0" r="454" b="342" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <child type="LABEL" name="lb_mate_opentip4" subclass="">
+        <label val="* 메뉴를 선택후 교배하기를 클릭하세요" />
+        <pos x="83" y="165" />
+        <rect l="0" t="0" r="250" b="17" />
+        <Visible val="True" />
+        <Anchor val="None" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#EFE4DD" />
+        <color val="#E18956" />
+        <halign val="0" />
+        <valign val="0" />
+        <FontName val="나눔고딕" />
+        <FontSize val="13" />
+        <TextTrimming val="None" />
+        <style val="32" />
+        <IsHitTestVisible val="False" />
+        <ClipChildren val="False" />
+        <Padding val="0, 0, 0, 0" />
+      </child>
+      <child type="LABEL" name="lb_mate_opentip3" subclass="">
+        <label val="예쁜 망아지를 얻으세요" />
+        <pos x="83" y="148" />
+        <rect l="0" t="0" r="209" b="17" />
+        <Visible val="True" />
+        <Anchor val="None" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#D1BFB2" />
+        <color val="#5E361F" />
+        <halign val="0" />
+        <valign val="0" />
+        <FontName val="나눔고딕" />
+        <FontSize val="13" />
+        <TextTrimming val="None" />
+        <style val="32" />
+        <IsHitTestVisible val="False" />
+        <ClipChildren val="False" />
+        <Padding val="0, 0, 0, 0" />
+      </child>
+      <child type="LABEL" name="lb_mate_opentip2" subclass="">
+        <label val="자신의 말과 다른 사람의 말을 통해서" />
+        <pos x="83" y="131" />
+        <rect l="0" t="0" r="209" b="17" />
+        <Visible val="True" />
+        <Anchor val="None" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#D1BFB2" />
+        <color val="#5E361F" />
+        <halign val="0" />
+        <valign val="0" />
+        <FontName val="나눔고딕" />
+        <FontSize val="13" />
+        <TextTrimming val="None" />
+        <style val="32" />
+        <IsHitTestVisible val="False" />
+        <ClipChildren val="False" />
+        <Padding val="0, 0, 0, 0" />
+      </child>
+      <child type="LABEL" name="lb_mate_opentip1" subclass="">
+        <label val="교배를 할 수 있게 되었습니다!" />
+        <pos x="83" y="111" />
+        <rect l="0" t="0" r="280" b="20" />
+        <Visible val="True" />
+        <Anchor val="None" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#D1BFB2" />
+        <color val="#FF692E" />
+        <halign val="0" />
+        <valign val="0" />
+        <FontName val="나눔명조 ExtraBold" />
+        <FontSize val="16" />
+        <TextTrimming val="None" />
+        <style val="32" />
+        <IsHitTestVisible val="False" />
+        <ClipChildren val="False" />
+        <Padding val="0, 0, 0, 0" />
+      </child>
+      <child type="LABEL" name="lb_mate_opentip0" subclass="">
+        <label val="레벨 10이 되어" />
+        <pos x="83" y="97" />
+        <rect l="0" t="0" r="209" b="17" />
+        <Visible val="True" />
+        <Anchor val="None" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#D1BFB2" />
+        <color val="#5E361F" />
+        <halign val="0" />
+        <valign val="0" />
+        <FontName val="나눔고딕" />
+        <FontSize val="13" />
+        <TextTrimming val="None" />
+        <style val="32" />
+        <IsHitTestVisible val="False" />
+        <ClipChildren val="False" />
+        <Padding val="0, 0, 0, 0" />
+      </child>
+      <child type="LABEL" name="lb_mate_open_title" subclass="">
+        <label val="말 교배 자격증 획득" />
+        <pos x="119" y="42" />
+        <rect l="0" t="0" r="216" b="20" />
+        <Visible val="True" />
+        <Anchor val="None" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#CEBEB4" />
+        <color val="#250F04" />
+        <halign val="1" />
+        <valign val="0" />
+        <FontName val="나눔고딕" />
+        <FontSize val="15" />
+        <TextTrimming val="None" />
+        <style val="32" />
+        <IsHitTestVisible val="False" />
+        <ClipChildren val="False" />
+        <Padding val="0, 0, 0, 0" />
+      </child>
+    </child>
+    <child type="ANIMBUTTON" name="confirm" subclass="">
+      <asset type="GROUP">mate_open_dialog_confirm.xml</asset>
+      <asset type="NORMAL">
+      </asset>
+      <asset type="DOWN">
+      </asset>
+      <asset type="OVER">
+      </asset>
+      <asset type="DISABLE">
+      </asset>
+      <asset type="ENTER">
+      </asset>
+      <asset type="LEAVE">
+      </asset>
+      <snd type="OVER">
+      </snd>
+      <snd type="DOWN">ui_btn_menu_click</snd>
+      <snd type="RELEASE">ui_btn_menu_release;ui_btn_menu_confirm</snd>
+      <pos x="192" y="271" />
+      <rect l="0" t="0" r="70" b="31" />
+      <Visible val="True" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <Anchor val="None" />
+      <IsDefaultButton val="False" />
+      <child type="LABEL" name="lb_confirm" subclass="">
+        <label val="확인" />
+        <pos x="5" y="6" />
+        <rect l="0" t="0" r="60" b="19" />
+        <Visible val="True" />
+        <Anchor val="Top, Left" />
+        <OutlineColor val="#FF0000" />
+        <ShadowColor val="#927254" />
+        <color val="#030200" />
+        <halign val="1" />
+        <valign val="0" />
+        <FontName val="나눔고딕" />
+        <FontSize val="14" />
+        <TextTrimming val="None" />
+        <style val="33" />
+        <IsHitTestVisible val="False" />
+        <ClipChildren val="False" />
+        <Padding val="0, 0, 0, 0" />
+      </child>
+    </child>
+    <child type="PICTURE" name="icon_mate_open" subclass="">
+      <asset type="STATIC">icon_breed_open.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="283" y="153" />
+      <rect l="0" t="0" r="150" b="104" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="ANIMBUTTON" name="btn_close" subclass="">
+      <asset type="GROUP">mate_open_dialog_btn_close.xml</asset>
+      <asset type="NORMAL">
+      </asset>
+      <asset type="DOWN">
+      </asset>
+      <asset type="OVER">
+      </asset>
+      <asset type="DISABLE">
+      </asset>
+      <asset type="ENTER">
+      </asset>
+      <asset type="LEAVE">
+      </asset>
+      <snd type="OVER">
+      </snd>
+      <snd type="DOWN">ui_btn_menu_click</snd>
+      <snd type="RELEASE">ui_btn_menu_close</snd>
+      <pos x="399" y="19" />
+      <rect l="0" t="0" r="35" b="35" />
+      <Visible val="True" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <Anchor val="None" />
+      <IsDefaultButton val="False" />
+    </child>
+  </base>
+</refresh>

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <event animation="">
+        <function>PlaySND($asset, "ob_dorf_crane_wooden1", "dummy_sound_creak", "-var 0")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="">
+        <function>PlaySND($asset, "ob_dorf_crane_wooden1", "dummy_sound_creak", "-var 0")</function>
+        <time>4.6559</time>
+        <freq>100</freq>
+    </event>
+    <event animation="">
+        <function>PlaySND($asset, "ob_dorf_crane_wooden2", "dummy_sound_creak", "-var 0")</function>
+        <time>6.8095</time>
+        <freq>100</freq>
+    </event>
+    <event animation="">
+        <function>PlaySND($asset, "ob_dorf_crane_wooden2", "dummy_sound_creak", "-var 0")</function>
+        <time>11.7839</time>
+        <freq>100</freq>
+    </event>
+    <event animation="">
+        <function>PlaySND($asset, "ob_dorf_crane_wooden1", "dummy_sound_creak", "-var 0")</function>
+        <time>9.6758</time>
+        <freq>100</freq>
+    </event>
+    <event animation="">
+        <function>PlaySND($asset, "ob_dorf_crane_wooden1", "dummy_sound_creak", "-var 0")</function>
+        <time>14.5441</time>
+        <freq>100</freq>
+    </event>
+    <event animation="">
+        <function>PlaySND($asset, "ob_dorf_crane_wooden2", "dummy_sound_creak", "-var 0")</function>
+        <time>2.0019</time>
+        <freq>100</freq>
+    </event>
+    <dummy name="dummy_sound_creak" parent="Dummy02" sync="FALSE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.0000</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <action category="" state="BROKEN_1ST" prevState="" loop="0" weight="1" script="">
+    </action>
+    <action category="" state="BROKEN_2ND" prevState="" loop="0" weight="1" script="">
+    </action>
+    <action category="" state="BROKEN_3RD" prevState="" loop="0" weight="1" script="">
+    </action>
+    <action category="" state="G_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000></main>
+    </action>
+</aim>

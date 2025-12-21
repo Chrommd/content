@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="_Disabled_">
+    <param type="RES" x="204" y="69" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+  </scene>
+  <scene name="_Normal_">
+    <asset type="UI" name="asset_list_btn_courseselect_Normal">
+      <rect l="0" t="0" r="200" b="51" />
+    </asset>
+    <asset type="UI" name="asset_list_btn_courseselect_Hover">
+      <rect l="0" t="0" r="200" b="51" />
+    </asset>
+    <asset type="UI" name="asset_list_btn_courseselect_Push">
+      <rect l="0" t="0" r="200" b="51" />
+    </asset>
+    <object name="list_btn_courseselect_Normal" ani="ani_list_btn_courseselect_Normal">
+      <asset type="UI" link="asset_list_btn_courseselect_Normal" />
+    </object>
+    <object name="list_btn_courseselect_Hover" ani="ani_list_btn_courseselect_Hover">
+      <asset type="UI" link="asset_list_btn_courseselect_Hover" />
+    </object>
+    <object name="list_btn_courseselect_Push" ani="ani_list_btn_courseselect_Push">
+      <asset type="UI" link="asset_list_btn_courseselect_Push" />
+    </object>
+    <param type="RES" x="204" y="69" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_list_btn_courseselect_Normal">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_list_btn_courseselect_Hover">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_list_btn_courseselect_Push">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Over_">
+    <asset type="UI" name="asset_list_btn_courseselect_Normal">
+      <rect l="0" t="0" r="200" b="51" />
+    </asset>
+    <asset type="UI" name="asset_list_btn_courseselect_Hover">
+      <rect l="0" t="0" r="200" b="51" />
+    </asset>
+    <asset type="UI" name="asset_list_btn_courseselect_Push">
+      <rect l="0" t="0" r="200" b="51" />
+    </asset>
+    <object name="list_btn_courseselect_Normal" ani="ani_list_btn_courseselect_Normal">
+      <asset type="UI" link="asset_list_btn_courseselect_Normal" />
+    </object>
+    <object name="list_btn_courseselect_Hover" ani="ani_list_btn_courseselect_Hover">
+      <asset type="UI" link="asset_list_btn_courseselect_Hover" />
+    </object>
+    <object name="list_btn_courseselect_Push" ani="ani_list_btn_courseselect_Push">
+      <asset type="UI" link="asset_list_btn_courseselect_Push" />
+    </object>
+    <param type="RES" x="204" y="69" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_list_btn_courseselect_Normal">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_list_btn_courseselect_Hover">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_list_btn_courseselect_Push">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Selected_">
+    <asset type="UI" name="asset_list_btn_courseselect_Normal">
+      <rect l="0" t="0" r="200" b="51" />
+    </asset>
+    <asset type="UI" name="asset_list_btn_courseselect_Hover">
+      <rect l="0" t="0" r="200" b="51" />
+    </asset>
+    <asset type="UI" name="asset_list_btn_courseselect_Push">
+      <rect l="0" t="0" r="200" b="51" />
+    </asset>
+    <asset type="UI" name="asset_icon_common_select">
+      <rect l="0" t="0" r="22" b="23" />
+    </asset>
+    <object name="list_btn_courseselect_Normal" ani="ani_list_btn_courseselect_Normal">
+      <asset type="UI" link="asset_list_btn_courseselect_Normal" />
+    </object>
+    <object name="list_btn_courseselect_Hover" ani="ani_list_btn_courseselect_Hover">
+      <asset type="UI" link="asset_list_btn_courseselect_Hover" />
+    </object>
+    <object name="list_btn_courseselect_Push" ani="ani_list_btn_courseselect_Push">
+      <asset type="UI" link="asset_list_btn_courseselect_Push" />
+    </object>
+    <object name="icon_common_select" ani="ani_icon_common_select">
+      <asset type="UI" link="asset_icon_common_select" />
+    </object>
+    <param type="RES" x="204" y="69" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_list_btn_courseselect_Normal">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_list_btn_courseselect_Hover">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_list_btn_courseselect_Push">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_common_select">
+      <frame cnt="0">
+        <posx val="0.8627451" />
+        <posy val="0.05797102" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <sound val="ui_btn_menu_page" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

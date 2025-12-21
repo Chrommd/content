@@ -1,0 +1,106 @@
+﻿<refresh version="2">
+	<properties>
+		<property name="DPI" val="72" />
+		<property name="UIAnimation" val="gui_weather_Animation.xml" />
+	</properties>
+	<base type="WND" subclass="" name="Wnd_weather">
+		<pos x="0" y="0" />
+		<rect l="0" t="0" r="76" b="76" />
+		<Visible val="True" />
+		<Anchor val="Top, Left" />
+		<snd type="SHOW"></snd>
+		<snd type="HIDE"></snd>
+		<IsHitTestVisible val="True" />
+		<ClipChildren val="False" />
+		<child type="PICTURE" name="weather_rain" subclass="">
+			<asset type="STATIC">weather_rain.png</asset>
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="76" b="76" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="weather_rain1" subclass="">
+			<asset type="STATIC">weather_rain_1.png</asset>
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="76" b="76" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="weather_snow" subclass="">
+			<asset type="STATIC">weather_snow.png</asset>
+			<pos x="1" y="0" />
+			<rect l="0" t="0" r="76" b="76" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="weather_snow1" subclass="">
+			<asset type="STATIC">weather_snow_1.png</asset>
+			<pos x="1" y="0" />
+			<rect l="0" t="0" r="76" b="76" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="weather_snow2" subclass="">
+			<asset type="STATIC">weather_snow_2.png</asset>
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="76" b="76" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="weather_snow3" subclass="">
+			<asset type="STATIC">weather_snow_3.png</asset>
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="76" b="76" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="weather_cloud1" subclass="">
+			<asset type="STATIC">weather_cloud.png</asset>
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="76" b="76" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="weather_cloud" subclass="">
+			<asset type="STATIC">weather_cloud_1.png</asset>
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="76" b="76" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="weather_sun" subclass="">
+			<asset type="STATIC">weather_sun.png</asset>
+			<pos x="0" y="3" />
+			<rect l="0" t="0" r="76" b="76" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+	</base>
+</refresh>

@@ -1,0 +1,156 @@
+﻿<refresh version="2">
+	<properties>
+		<property name="DPI" val="72" />
+		<property name="UIAnimation" val="shop_cubbyhole_column_Animation.xml" />
+	</properties>
+	<base type="WND" subclass="" name="Wnd_cubbyhole_list">
+		<pos x="0" y="0" />
+		<rect l="0" t="0" r="380" b="86" />
+		<Visible val="True" />
+		<Anchor val="Top, Left" />
+		<snd type="SHOW"></snd>
+		<snd type="HIDE"></snd>
+		<IsHitTestVisible val="True" />
+		<ClipChildren val="False" />
+		<child type="PICTURE" name="shop_list_horse_dis" subclass="">
+			<asset type="STATIC">cubbyhole_list_Disable.png</asset>
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="380" b="85" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="slot_b_Normal" subclass="">
+			<asset type="STATIC">cubbyhole_list_Normal.png</asset>
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="380" b="85" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="slot_b_Hover" subclass="">
+			<asset type="STATIC">cubbyhole_list_Hover.png</asset>
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="380" b="85" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="slot_b_Selected" subclass="">
+			<asset type="STATIC">cubbyhole_list_Select.png</asset>
+			<pos x="0" y="0" />
+			<rect l="0" t="0" r="380" b="85" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="slot_b_n" subclass="">
+			<asset type="STATIC">slot_b_n_01.png</asset>
+			<pos x="3" y="3" />
+			<rect l="0" t="0" r="100" b="79" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="img_common_lineHorizontal_01" subclass="">
+			<asset type="STATIC">img_common_lineHorizontal_01.png</asset>
+			<pos x="112" y="48" />
+			<rect l="0" t="0" r="256" b="4" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="img_shop_buyone_itemicon" subclass="">
+			<asset type="STATIC"></asset>
+			<pos x="17" y="7" />
+			<rect l="0" t="0" r="71" b="71" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="slot_buy_cancel" subclass="">
+			<asset type="STATIC">slot_buy_cancel.png</asset>
+			<pos x="2" y="2" />
+			<rect l="0" t="0" r="102" b="80" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="LABEL" name="txt_senduser_nick" subclass="">
+			<pos x="108" y="8" />
+			<rect l="0" t="0" r="263" b="16" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<label val="AAAAAAAAAAAA" />
+			<OutlineColor val="#FF0000" />
+			<ShadowColor val="#D1BFB2" />
+			<color val="#796456FF" />
+			<halign val="0" />
+			<valign val="0" />
+			<FontName val="나눔고딕" />
+			<FontSize val="13" />
+			<TextTrimming val="None" />
+			<style val="1" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+			<Padding val="0, 0, 0, 0" />
+			<FitToContent val="False" />
+		</child>
+		<child type="LABEL" name="txt_time" subclass="">
+			<pos x="108" y="26" />
+			<rect l="0" t="0" r="263" b="18" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<label val="2009.04.15 / 오전 11:25" />
+			<OutlineColor val="#FF0000" />
+			<ShadowColor val="#D1BFB2" />
+			<color val="#796456FF" />
+			<halign val="0" />
+			<valign val="1" />
+			<FontName val="나눔고딕" />
+			<FontSize val="12" />
+			<TextTrimming val="None" />
+			<style val="1" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+			<Padding val="0, 0, 0, 0" />
+			<FitToContent val="False" />
+		</child>
+		<child type="LABEL" name="txt_senduser_contents" subclass="">
+			<pos x="108" y="57" />
+			<rect l="0" t="0" r="264" b="20" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<label val="AAAAAAAAAAAA" />
+			<OutlineColor val="#FF0000" />
+			<ShadowColor val="#D1BFB2" />
+			<color val="#796456FF" />
+			<halign val="0" />
+			<valign val="0" />
+			<FontName val="나눔고딕" />
+			<FontSize val="13" />
+			<TextTrimming val="CharacterEllipsis" />
+			<style val="1" />
+			<IsHitTestVisible val="False" />
+			<ClipChildren val="False" />
+			<Padding val="0, 0, 0, 0" />
+			<FitToContent val="False" />
+		</child>
+	</base>
+</refresh>

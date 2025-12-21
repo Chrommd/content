@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <AABB animation="1st">
+        <minX>-1.1208</minX>
+        <minY>0.0000</minY>
+        <minZ>-4.8304</minZ>
+        <maxX>0.0000</maxX>
+        <maxY>4.3813</maxY>
+        <maxZ>0.0000</maxZ>
+    </AABB>
+    <event animation="1st">
+        <function>RelayMsg($asset,"FadeOut","-time 1")</function>
+        <time>0.5088</time>
+        <type>NORMAL</type>
+    </event>
+    <event animation="1st">
+        <function>PlayFX($asset, "ob_cavecap-breaking_01", "dum1", "")</function>
+        <time>0.0035</time>
+        <type>NORMAL</type>
+    </event>
+    <event animation="1st">
+        <function>PlayFX($asset, "ob_2nd_collision_002", "dum1", "")</function>
+        <time>0.5060</time>
+        <type>NORMAL</type>
+    </event>
+    <event animation="1st">
+        <function>PlayFX($asset, "ob_2nd_collision_001", "dum2", "")</function>
+        <time>1.0535</time>
+        <type>NORMAL</type>
+    </event>
+    <event animation="1st">
+        <function>PlaySND($asset, "log-breaking", "dum2", "-var 0")</function>
+        <time>0.0000</time>
+        <type>NORMAL</type>
+    </event>
+    <event animation="1st">
+        <function>PlaySND($asset, "log-breaking", "dum2", "-var 0")</function>
+        <time>0.6909</time>
+        <type>NORMAL</type>
+    </event>
+    <event animation="1st">
+        <function>PlaySND($asset, "log-breaking", "dum2", "-var 0")</function>
+        <time>1.0592</time>
+        <type>NORMAL</type>
+    </event>
+    <dummy name="dum1" parent="ri_ani_f_fore_tree01" sync="FALSE">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.3900</offsetX>
+        <offsetY>0.4134</offsetY>
+        <offsetZ>6.0894</offsetZ>
+    </dummy>
+    <dummy name="dum2" parent="ri_ani_f_fore_tree01" sync="FALSE">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>0.0000</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <action state="BROKEN_1ST" loop="0" poskey="0" rotkey="0">
+        <main>1st</main>
+    </action>
+    <action state="BROKEN_2ND" loop="0" poskey="0" rotkey="0">
+        <main>1st</main>
+    </action>
+    <action state="BROKEN_3RD" loop="0" poskey="0" rotkey="0">
+        <main>1st</main>
+    </action>
+</aim>

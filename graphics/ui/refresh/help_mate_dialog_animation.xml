@@ -1,0 +1,545 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="_Opening_">
+    <asset type="UI" name="asset_help_mate_WndEx">
+      <rect l="0" t="0" r="1024" b="768" />
+    </asset>
+    <asset type="UI" name="asset_help_bottom_bg">
+      <rect l="0" t="0" r="844" b="130" />
+    </asset>
+    <asset type="UI" name="asset_help_npc">
+      <rect l="0" t="0" r="172" b="212" />
+    </asset>
+    <asset type="UI" name="asset_pn_help_mate_page2">
+      <rect l="0" t="0" r="890" b="610" />
+    </asset>
+    <asset type="UI" name="asset_pn_help_mate_page2_btm">
+      <rect l="0" t="0" r="696" b="114" />
+    </asset>
+    <asset type="UI" name="asset_pn_help_mate_page1">
+      <rect l="0" t="0" r="890" b="610" />
+    </asset>
+    <object name="help_mate_WndEx" ani="ani_help_mate_WndEx">
+      <asset type="UI" link="asset_help_mate_WndEx" />
+    </object>
+    <object name="help_bottom_bg" ani="ani_help_bottom_bg">
+      <asset type="UI" link="asset_help_bottom_bg" />
+    </object>
+    <object name="help_npc" ani="ani_help_npc">
+      <asset type="UI" link="asset_help_npc" />
+    </object>
+    <object name="pn_help_mate_page2" ani="ani_pn_help_mate_page2">
+      <asset type="UI" link="asset_pn_help_mate_page2" />
+    </object>
+    <object name="pn_help_mate_page2_btm" ani="ani_pn_help_mate_page2_btm">
+      <asset type="UI" link="asset_pn_help_mate_page2_btm" />
+    </object>
+    <object name="pn_help_mate_page1" ani="ani_pn_help_mate_page1">
+      <asset type="UI" link="asset_pn_help_mate_page1" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_help_mate_WndEx">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="200">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_help_bottom_bg">
+      <frame cnt="0">
+        <posx val="0.08789063" />
+        <posy val="0.6901042" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="433">
+        <posx val="0.087890625" />
+        <posy val="0.729166666666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="833">
+        <posx val="0.087890625" easeValue="0.0,0.5,1.0,1.0" />
+        <posy val="0.690104166666667" easeValue="0.0,0.5,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,0.5,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_help_npc">
+      <frame cnt="0">
+        <posx val="0.09082031" />
+        <posy val="0.5833333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="667">
+        <posx val="0.0908203125" />
+        <posy val="0.622395833333333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1000">
+        <posx val="0.0908203125" easeValue="0.0,0.5,1.0,1.0" />
+        <posy val="0.583333333333333" easeValue="0.0,0.5,1.0,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.0,0.5,1.0,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_pn_help_mate_page2">
+      <frame cnt="0">
+        <posx val="0.06445313" />
+        <posy val="0.06640625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="433">
+        <posx val="0.06445313" />
+        <posy val="0.06640625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="700">
+        <posx val="0.06445313" />
+        <posy val="0.06640625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_pn_help_mate_page2_btm">
+      <frame cnt="0">
+        <posx val="0.1572266" />
+        <posy val="0.640625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="900">
+        <posx val="0.1572266" />
+        <posy val="0.640625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="1133">
+        <posx val="0.1572266" />
+        <posy val="0.640625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_pn_help_mate_page1">
+      <frame cnt="0">
+        <posx val="0.06445313" />
+        <posy val="0.06640625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="page1">
+    <asset type="UI" name="asset_help_mate_WndEx">
+      <rect l="0" t="0" r="1024" b="768" />
+    </asset>
+    <asset type="UI" name="asset_help_bottom_bg">
+      <rect l="0" t="0" r="844" b="130" />
+    </asset>
+    <asset type="UI" name="asset_help_npc">
+      <rect l="0" t="0" r="172" b="212" />
+    </asset>
+    <asset type="UI" name="asset_pn_help_mate_page2">
+      <rect l="0" t="0" r="890" b="610" />
+    </asset>
+    <asset type="UI" name="asset_pn_help_mate_page2_btm">
+      <rect l="0" t="0" r="696" b="114" />
+    </asset>
+    <asset type="UI" name="asset_pn_help_mate_page1">
+      <rect l="0" t="0" r="890" b="610" />
+    </asset>
+    <object name="help_mate_WndEx" ani="ani_help_mate_WndEx">
+      <asset type="UI" link="asset_help_mate_WndEx" />
+    </object>
+    <object name="help_bottom_bg" ani="ani_help_bottom_bg">
+      <asset type="UI" link="asset_help_bottom_bg" />
+    </object>
+    <object name="help_npc" ani="ani_help_npc">
+      <asset type="UI" link="asset_help_npc" />
+    </object>
+    <object name="pn_help_mate_page2" ani="ani_pn_help_mate_page2">
+      <asset type="UI" link="asset_pn_help_mate_page2" />
+    </object>
+    <object name="pn_help_mate_page2_btm" ani="ani_pn_help_mate_page2_btm">
+      <asset type="UI" link="asset_pn_help_mate_page2_btm" />
+    </object>
+    <object name="pn_help_mate_page1" ani="ani_pn_help_mate_page1">
+      <asset type="UI" link="asset_pn_help_mate_page1" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_help_mate_WndEx">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_help_bottom_bg">
+      <frame cnt="0">
+        <posx val="0.08789063" />
+        <posy val="0.6901042" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_help_npc">
+      <frame cnt="0">
+        <posx val="0.09082031" />
+        <posy val="0.5833333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_pn_help_mate_page2">
+      <frame cnt="0">
+        <posx val="0.06445313" />
+        <posy val="0.06640625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="167">
+        <posx val="0.06445313" />
+        <posy val="0.06640625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_pn_help_mate_page2_btm">
+      <frame cnt="0">
+        <posx val="0.1572266" />
+        <posy val="0.640625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="233">
+        <posx val="0.1572266" />
+        <posy val="0.640625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="467">
+        <posx val="0.1572266" />
+        <posy val="0.640625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_pn_help_mate_page1">
+      <frame cnt="0">
+        <posx val="0.06445313" />
+        <posy val="0.06640625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="page2">
+    <asset type="UI" name="asset_help_mate_WndEx">
+      <rect l="0" t="0" r="1024" b="768" />
+    </asset>
+    <asset type="UI" name="asset_help_bottom_bg">
+      <rect l="0" t="0" r="844" b="130" />
+    </asset>
+    <asset type="UI" name="asset_help_npc">
+      <rect l="0" t="0" r="172" b="212" />
+    </asset>
+    <asset type="UI" name="asset_pn_help_mate_page2">
+      <rect l="0" t="0" r="890" b="610" />
+    </asset>
+    <asset type="UI" name="asset_pn_help_mate_page1">
+      <rect l="0" t="0" r="890" b="610" />
+    </asset>
+    <asset type="UI" name="asset_pn_help_mate_page1_btm">
+      <rect l="0" t="0" r="696" b="114" />
+    </asset>
+    <object name="help_mate_WndEx" ani="ani_help_mate_WndEx">
+      <asset type="UI" link="asset_help_mate_WndEx" />
+    </object>
+    <object name="help_bottom_bg" ani="ani_help_bottom_bg">
+      <asset type="UI" link="asset_help_bottom_bg" />
+    </object>
+    <object name="help_npc" ani="ani_help_npc">
+      <asset type="UI" link="asset_help_npc" />
+    </object>
+    <object name="pn_help_mate_page2" ani="ani_pn_help_mate_page2">
+      <asset type="UI" link="asset_pn_help_mate_page2" />
+    </object>
+    <object name="pn_help_mate_page1" ani="ani_pn_help_mate_page1">
+      <asset type="UI" link="asset_pn_help_mate_page1" />
+    </object>
+    <object name="pn_help_mate_page1_btm" ani="ani_pn_help_mate_page1_btm">
+      <asset type="UI" link="asset_pn_help_mate_page1_btm" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_help_mate_WndEx">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_help_bottom_bg">
+      <frame cnt="0">
+        <posx val="0.08789063" />
+        <posy val="0.6901042" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_help_npc">
+      <frame cnt="0">
+        <posx val="0.09082031" />
+        <posy val="0.5833333" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_pn_help_mate_page2">
+      <frame cnt="0">
+        <posx val="0.06445313" />
+        <posy val="0.06640625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_pn_help_mate_page1">
+      <frame cnt="0">
+        <posx val="0.06445313" />
+        <posy val="0.06640625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="167">
+        <posx val="0.06445313" />
+        <posy val="0.06640625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_pn_help_mate_page1_btm">
+      <frame cnt="0">
+        <posx val="0.1572266" />
+        <posy val="0.640625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="233">
+        <posx val="0.1572266" />
+        <posy val="0.640625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="467">
+        <posx val="0.1572266" />
+        <posy val="0.640625" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Closing_">
+    <asset type="UI" name="asset_help_mate_WndEx">
+      <rect l="0" t="0" r="1024" b="768" />
+    </asset>
+    <object name="help_mate_WndEx" ani="ani_help_mate_WndEx">
+      <asset type="UI" link="asset_help_mate_WndEx" />
+    </object>
+    <param type="RES" x="1024" y="768" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_help_mate_WndEx">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

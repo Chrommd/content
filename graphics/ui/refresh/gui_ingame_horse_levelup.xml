@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="gui_ingame_horse_levelup_Animation.xml" />
+  </properties>
+  <base type="WND" subclass="" name="Wnd">
+    <Visible val="True" />
+    <Anchor val="Top, Left" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="300" b="247" />
+    <snd type="SHOW">
+    </snd>
+    <snd type="HIDE">
+    </snd>
+    <IsHitTestVisible val="True" />
+    <ClipChildren val="False" />
+    <child type="PICTURE" name="ingame_levelup_effect_01" subclass="">
+      <asset type="STATIC">ingame_levelup_effect_01.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="119" y="66" />
+      <rect l="0" t="0" r="62" b="60" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="PICTURE" name="ingame_levelup_effect" subclass="">
+      <asset type="STATIC">ingame_levelup_effect.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="88" y="29" />
+      <rect l="0" t="0" r="130" b="132" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="PICTURE" name="ingame_tx_horse_levelup" subclass="">
+      <asset type="STATIC">ingame_tx_horse_levelup.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="78" y="109" />
+      <rect l="0" t="0" r="149" b="31" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+  </base>
+</refresh>

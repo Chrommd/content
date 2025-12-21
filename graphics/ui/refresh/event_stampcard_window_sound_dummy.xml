@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="sound_dummy_Default">
+    <asset type="IMAGE" name="asset_dummy" path="cursor_loading1.png">
+      <rect l="0" t="0" r="64" b="64" />
+    </asset>
+    <object name="dummy" ani="ani_dummy">
+      <asset type="IMAGE" link="asset_dummy" />
+    </object>
+    <param type="RES" x="122" y="21" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_dummy">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+      <frame cnt="2967">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <sound val="result_stamp_popup_st" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

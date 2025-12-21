@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="mark_effect_new_Default">
+    <asset type="IMAGE" name="asset_mark_effect_full_1" path="mark_effect_new_1.png">
+      <rect l="0" t="0" r="11" b="28" />
+    </asset>
+    <asset type="IMAGE" name="asset_mark_effect_new_2" path="mark_effect_new_2.png">
+      <rect l="0" t="0" r="17" b="17" />
+    </asset>
+    <object name="mark_effect_full_1" ani="ani_mark_effect_full_1">
+      <asset type="IMAGE" link="asset_mark_effect_full_1" />
+    </object>
+    <object name="mark_effect_new_2" ani="ani_mark_effect_new_2">
+      <asset type="IMAGE" link="asset_mark_effect_new_2" />
+    </object>
+    <param type="RES" x="17" y="28" />
+    <param type="LOOP" cnt="-1" pendulum="0" />
+    <anim name="ani_mark_effect_full_1">
+      <frame cnt="0">
+        <posx val="0.470588235294118" />
+        <posy val="0.392857142857143" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+    <anim name="ani_mark_effect_new_2">
+      <frame cnt="0">
+        <posx val="0.470588235294118" />
+        <posy val="-0.0357142857142857" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="400">
+        <posx val="0.470588235294118" />
+        <posy val="0.142857142857143" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="500">
+        <posx val="0.470588235294118" />
+        <posy val="0.0714285714285714" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.5" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="667">
+        <posx val="0.470588235294118" />
+        <posy val="0.142857142857143" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="800">
+        <posx val="0.470588235294118" />
+        <posy val="0.107142857142857" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0.5" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="933">
+        <posx val="0.470588235294118" />
+        <posy val="0.142857142857143" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="2967">
+        <posx val="0.470588235294118" />
+        <posy val="0.142857142857143" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

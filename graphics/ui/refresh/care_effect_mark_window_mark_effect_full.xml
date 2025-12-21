@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="mark_effect_full_Default">
+    <asset type="IMAGE" name="asset_mark_effect_full_2" path="mark_effect_full_2.png">
+      <rect l="0" t="0" r="17" b="17" />
+    </asset>
+    <asset type="IMAGE" name="asset_mark_effect_full_1" path="mark_effect_full_1.png">
+      <rect l="0" t="0" r="13" b="28" />
+    </asset>
+    <object name="mark_effect_full_2" ani="ani_mark_effect_full_2">
+      <asset type="IMAGE" link="asset_mark_effect_full_2" />
+    </object>
+    <object name="mark_effect_full_1" ani="ani_mark_effect_full_1">
+      <asset type="IMAGE" link="asset_mark_effect_full_1" />
+    </object>
+    <param type="RES" x="13" y="28" />
+    <param type="LOOP" cnt="-1" pendulum="1" />
+    <anim name="ani_mark_effect_full_2">
+      <frame cnt="0">
+        <posx val="0.461538461538462" />
+        <posy val="0.0357142857142857" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+      <frame cnt="833">
+        <posx val="0.461538461538462" easeValue="0.5,0.0,0.5,1.0" />
+        <posy val="0.0357142857142857" easeValue="0.5,0.0,0.5,1.0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" easeValue="0.5,0.0,0.5,1.0" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+    <anim name="ani_mark_effect_full_1">
+      <frame cnt="0">
+        <posx val="0.461538461538462" />
+        <posy val="0.285714285714286" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0.5" />
+        <centery val="0.5" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

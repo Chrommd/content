@@ -1,0 +1,234 @@
+﻿<refresh version="2">
+	<properties>
+		<property name="DPI" val="72" />
+		<property name="UIAnimation" val="Magic_item_pip_Animation.xml" />
+	</properties>
+	<base type="WND" subclass="" name="Wnd_item_pip">
+		<pos x="0" y="0" />
+		<rect l="0" t="0" r="330" b="450" />
+		<Visible val="True" />
+		<Anchor val="None" />
+		<snd type="SHOW"></snd>
+		<snd type="HIDE"></snd>
+		<IsHitTestVisible val="True" />
+		<ClipChildren val="False" />
+		<child type="PICTURE" name="pip_multi_effect_1" subclass="">
+			<asset type="STATIC">pip_effect_02.png</asset>
+			<pos x="-88" y="-68" />
+			<rect l="0" t="0" r="480" b="475" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="pip_multi_effect" subclass="">
+			<asset type="STATIC">pip_effect_00.png</asset>
+			<pos x="-29" y="-96" />
+			<rect l="0" t="0" r="467" b="509" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="magic_pip_effect_watershild_1" subclass="">
+			<asset type="STATIC">magic_icon_01_watershield_a01.png</asset>
+			<pos x="153" y="236" />
+			<rect l="0" t="0" r="178" b="178" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="magic_pip_effect_lighting_1" subclass="">
+			<asset type="STATIC">magic_icon_01_lightning_a01.png</asset>
+			<pos x="153" y="236" />
+			<rect l="0" t="0" r="178" b="178" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="magic_pip_effect_darkfire_1" subclass="">
+			<asset type="STATIC">magic_icon_01_darkfire_a01.png</asset>
+			<pos x="153" y="236" />
+			<rect l="0" t="0" r="178" b="178" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="magic_pip_effect_summon_1" subclass="">
+			<asset type="STATIC">magic_icon_01_summon_a01.png</asset>
+			<pos x="153" y="236" />
+			<rect l="0" t="0" r="178" b="178" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="magic_pip_effect_icewall_1" subclass="">
+			<asset type="STATIC">magic_icon_01_icewall_a01.png</asset>
+			<pos x="153" y="236" />
+			<rect l="0" t="0" r="178" b="178" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="magic_pip_effect_fireball_1" subclass="">
+			<asset type="STATIC">magic_icon_01_fireball_a01.png</asset>
+			<pos x="153" y="236" />
+			<rect l="0" t="0" r="178" b="178" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="magic_pip_effect_jumpstun_1" subclass="">
+			<asset type="STATIC">magic_icon_01_jumpstun_a01.png</asset>
+			<pos x="153" y="236" />
+			<rect l="0" t="0" r="178" b="178" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PANEL" name="Panel_character" subclass="">
+			<pos x="54" y="113" />
+			<rect l="0" t="0" r="284" b="354" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<embed src="" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+			<child type="PICTURE" name="pip_character_0" subclass="">
+				<asset type="ANIMATION">Magic_item_pip_pip_character_0.xml</asset>
+				<pos x="45" y="67" />
+				<rect l="0" t="0" r="200" b="267" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="pip_character_1" subclass="">
+				<asset type="ANIMATION">Magic_item_pip_pip_character_1.xml</asset>
+				<pos x="45" y="67" />
+				<rect l="0" t="0" r="200" b="267" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="defense_character_0" subclass="">
+				<asset type="ANIMATION">Magic_item_pip_defense_character_0.xml</asset>
+				<pos x="45" y="67" />
+				<rect l="0" t="0" r="200" b="267" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+			<child type="PICTURE" name="defense_character_1" subclass="">
+				<asset type="ANIMATION">Magic_item_pip_defense_character_1.xml</asset>
+				<pos x="45" y="66" />
+				<rect l="0" t="0" r="200" b="267" />
+				<Visible val="True" />
+				<Anchor val="None" />
+				<center x="0" y="0" />
+				<IsHitTestVisible val="True" />
+				<ClipChildren val="False" />
+			</child>
+		</child>
+		<child type="PICTURE" name="magic_pip_effect_watershild_0" subclass="">
+			<asset type="STATIC">magic_pip_watershield_efect_0.png</asset>
+			<pos x="159" y="205" />
+			<rect l="0" t="0" r="200" b="250" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="magic_pip_effect_lighting_0" subclass="">
+			<asset type="STATIC">magic_pip_lightning_efect_0.png</asset>
+			<pos x="159" y="205" />
+			<rect l="0" t="0" r="200" b="250" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="magic_pip_effect_darkfire_0" subclass="">
+			<asset type="STATIC">magic_pip_darkfire_efect_0.png</asset>
+			<pos x="159" y="205" />
+			<rect l="0" t="0" r="200" b="250" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="magic_pip_effect_summon_0" subclass="">
+			<asset type="STATIC">magic_pip_summon_effect_0.png</asset>
+			<pos x="159" y="205" />
+			<rect l="0" t="0" r="200" b="250" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="magic_pip_effect_icewall_0" subclass="">
+			<asset type="STATIC">magic_pip_icewall_efect_0.png</asset>
+			<pos x="159" y="205" />
+			<rect l="0" t="0" r="200" b="250" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="magic_pip_effect_fireball_0" subclass="">
+			<asset type="STATIC">magic_pip_fireball_efect_0.png</asset>
+			<pos x="159" y="205" />
+			<rect l="0" t="0" r="200" b="250" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PICTURE" name="magic_pip_effect_jumpstunl_0" subclass="">
+			<asset type="STATIC">magic_pip_jumpstun_efect_0.png</asset>
+			<pos x="159" y="205" />
+			<rect l="0" t="0" r="200" b="250" />
+			<Visible val="True" />
+			<Anchor val="None" />
+			<center x="0" y="0" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+		<child type="PANEL" name="Panel_count" subclass="">
+			<pos x="155" y="234" />
+			<rect l="0" t="0" r="145" b="176" />
+			<Visible val="True" />
+			<Anchor val="Top, Left" />
+			<embed src="" />
+			<IsHitTestVisible val="True" />
+			<ClipChildren val="False" />
+		</child>
+	</base>
+</refresh>

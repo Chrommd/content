@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+  </properties>
+  <base type="WND" subclass="" name="comm_lb_nickname_Wnd">
+    <Visible val="True" />
+    <Anchor val="Bottom" />
+    <pos x="0" y="0" />
+    <rect l="0" t="0" r="225" b="39" />
+    <IsHitTestVisible val="True" />
+    <ClipChildren val="False" />
+    <child type="LABEL" name="txt_horsename" subclass="">
+      <label val="" />
+      <pos x="0" y="22" />
+      <rect l="0" t="0" r="225" b="18" />
+      <Visible val="True" />
+      <Anchor val="None" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#030200" />
+      <color val="#E9FE38" />
+      <halign val="1" />
+      <valign val="0" />
+      <FontName val="나눔고딕 ExtraBold" />
+      <FontSize val="12" />
+      <TextTrimming val="None" />
+      <style val="32" />
+      <IsHitTestVisible val="False" />
+      <ClipChildren val="False" />
+      <Padding val="0, 0, 0, 0" />
+    </child>
+    <child type="PICTURE" name="icon_hor_emotion" subclass="">
+      <asset type="STATIC">
+      </asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="-24" y="20" />
+      <rect l="0" t="0" r="23" b="21" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <base type="WNDEX" subclass="" name="bg_nickname">
+      <asset type="BG" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="10" t="21" r="5" b="5" />
+      </asset>
+      <asset type="EDGE_LT" path="pn_nickname_black_alpha_left.png" tileMode="Tile">
+        <tex x="10" y="21" />
+        <rect l="0" t="0" r="10" b="21" />
+      </asset>
+      <asset type="EDGE_RT" path="pn_nickname_black_alpha_right.png" tileMode="Tile">
+        <tex x="11" y="21" />
+        <rect l="-1" t="0" r="11" b="21" />
+      </asset>
+      <asset type="EDGE_LB" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="0" r="5" b="5" />
+      </asset>
+      <asset type="EDGE_RB" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="-7" t="0" r="5" b="5" />
+      </asset>
+      <asset type="FRAME_T" path="pn_nickname_black_alpha_center.png" tileMode="Tile">
+        <tex x="4" y="21" />
+        <rect l="10" t="0" r="4" b="21" />
+      </asset>
+      <asset type="FRAME_B" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="10" t="0" r="5" b="5" />
+      </asset>
+      <asset type="FRAME_L" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="0" t="21" r="5" b="5" />
+      </asset>
+      <asset type="FRAME_R" path="" tileMode="Tile">
+        <tex x="0" y="0" />
+        <rect l="-7" t="21" r="5" b="5" />
+      </asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="100" y="0" />
+      <rect l="0" t="0" r="26" b="31" />
+      <Dragable val="False" />
+      <StartPosition val="None" />
+      <EscKeyAction val="None" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </base>
+    <child type="LABEL" name="comm_lb_nickname" subclass="">
+      <label val="오예스" />
+      <pos x="0" y="2" />
+      <rect l="0" t="0" r="225" b="18" />
+      <Visible val="True" />
+      <Anchor val="None" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#030200" />
+      <color val="#FFA837" />
+      <halign val="1" />
+      <valign val="1" />
+      <FontName val="나눔고딕 ExtraBold" />
+      <FontSize val="13" />
+      <TextTrimming val="None" />
+      <style val="32" />
+      <IsHitTestVisible val="False" />
+      <ClipChildren val="False" />
+      <Padding val="0, 0, 0, 0" />
+    </child>
+    <child type="PICTURE" name="icon_level" subclass="">
+      <asset type="STATIC">
+      </asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="-112" y="2" />
+      <rect l="0" t="0" r="15" b="10" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="PICTURE" name="icon_revenge_small" subclass="">
+      <asset type="STATIC">
+      </asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="-35" y="-3" />
+      <rect l="0" t="0" r="39" b="29" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="PICTURE" name="icon_master" subclass="">
+      <asset type="STATIC">icon_master2.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="-80" y="2" />
+      <rect l="0" t="0" r="47" b="19" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="PICTURE" name="img_emblem_dummy" subclass="">
+      <asset type="STATIC">
+      </asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="37" y="-10" />
+      <rect l="0" t="0" r="50" b="50" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+  </base>
+</refresh>

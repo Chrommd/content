@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<refresh version="2">
+  <properties>
+    <property name="DPI" val="72" />
+    <property name="UIAnimation" val="myinfo_tooltip_window_Animation.xml" />
+  </properties>
+  <base type="WNDEX" subclass="" name="challenge_tooltip">
+    <asset type="BG" path="tooltip_b_04.png" tileMode="Stretch">
+      <tex x="14" y="14" />
+      <rect l="14" t="14" r="241" b="61" />
+    </asset>
+    <asset type="EDGE_LT" path="tooltip_b_00.png" tileMode="Stretch">
+      <tex x="14" y="14" />
+      <rect l="0" t="0" r="14" b="14" />
+    </asset>
+    <asset type="EDGE_RT" path="tooltip_b_02.png" tileMode="Stretch">
+      <tex x="17" y="14" />
+      <rect l="0" t="0" r="17" b="14" />
+    </asset>
+    <asset type="EDGE_LB" path="tooltip_b_06.png" tileMode="Stretch">
+      <tex x="14" y="18" />
+      <rect l="0" t="0" r="14" b="18" />
+    </asset>
+    <asset type="EDGE_RB" path="tooltip_b_08.png" tileMode="Stretch">
+      <tex x="17" y="18" />
+      <rect l="0" t="0" r="17" b="18" />
+    </asset>
+    <asset type="FRAME_T" path="tooltip_b_01.png" tileMode="Stretch">
+      <tex x="14" y="14" />
+      <rect l="14" t="0" r="241" b="14" />
+    </asset>
+    <asset type="FRAME_B" path="tooltip_b_07.png" tileMode="Stretch">
+      <tex x="14" y="18" />
+      <rect l="14" t="0" r="241" b="18" />
+    </asset>
+    <asset type="FRAME_L" path="tooltip_b_03.png" tileMode="Stretch">
+      <tex x="14" y="14" />
+      <rect l="0" t="14" r="14" b="61" />
+    </asset>
+    <asset type="FRAME_R" path="tooltip_b_05.png" tileMode="Stretch">
+      <tex x="17" y="14" />
+      <rect l="0" t="14" r="17" b="61" />
+    </asset>
+    <Visible val="True" />
+    <Anchor val="None" />
+    <pos x="75" y="336" />
+    <rect l="0" t="0" r="272" b="93" />
+    <Dragable val="False" />
+    <StartPosition val="None" />
+    <EscKeyAction val="Close" />
+    <IsHitTestVisible val="True" />
+    <ClipChildren val="False" />
+    <child type="PICTURE" name="bg_line" subclass="">
+      <asset type="STATIC">game_tooltip_line.png</asset>
+      <Visible val="True" />
+      <Anchor val="None" />
+      <pos x="17" y="35" />
+      <rect l="0" t="0" r="226" b="4" />
+      <center x="0" y="0" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+    </child>
+    <child type="LABEL" name="txt_tooltip_2" subclass="">
+      <label val="" />
+      <pos x="17" y="58" />
+      <rect l="0" t="0" r="207" b="18" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#030200" />
+      <color val="#FFFFFF" />
+      <halign val="0" />
+      <valign val="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="13" />
+      <TextTrimming val="None" />
+      <style val="1" />
+      <IsHitTestVisible val="False" />
+      <ClipChildren val="False" />
+      <Padding val="0, 0, 0, 0" />
+    </child>
+    <child type="LABEL" name="txt_tooltip_1" subclass="">
+      <label val="" />
+      <pos x="17" y="42" />
+      <rect l="0" t="0" r="207" b="18" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#030200" />
+      <color val="#FFFFFF" />
+      <halign val="0" />
+      <valign val="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="13" />
+      <TextTrimming val="None" />
+      <style val="1" />
+      <IsHitTestVisible val="False" />
+      <ClipChildren val="False" />
+      <Padding val="0, 0, 0, 0" />
+    </child>
+    <child type="LABEL" name="txt_tooltip_title" subclass="">
+      <label val="" />
+      <pos x="17" y="12" />
+      <rect l="0" t="0" r="207" b="21" />
+      <Visible val="True" />
+      <Anchor val="Top, Left" />
+      <OutlineColor val="#FF0000" />
+      <ShadowColor val="#030200" />
+      <color val="#FFB601" />
+      <halign val="0" />
+      <valign val="0" />
+      <FontName val="나눔고딕" />
+      <FontSize val="15" />
+      <TextTrimming val="None" />
+      <style val="1" />
+      <IsHitTestVisible val="False" />
+      <ClipChildren val="False" />
+      <Padding val="0, 0, 0, 0" />
+    </child>
+    <child type="ANIMBUTTON" name="btn_tooltip_close" subclass="">
+      <asset type="GROUP">myinfo_tooltip_window_btn_tooltip_close.xml</asset>
+      <asset type="NORMAL">
+      </asset>
+      <asset type="DOWN">
+      </asset>
+      <asset type="OVER">
+      </asset>
+      <asset type="DISABLE">
+      </asset>
+      <asset type="ENTER">
+      </asset>
+      <asset type="LEAVE">
+      </asset>
+      <snd type="OVER">
+      </snd>
+      <snd type="DOWN">ui_btn_menu_click</snd>
+      <snd type="RELEASE">ui_btn_menu_close</snd>
+      <pos x="234" y="-1" />
+      <rect l="0" t="0" r="35" b="35" />
+      <Visible val="True" />
+      <IsHitTestVisible val="True" />
+      <ClipChildren val="False" />
+      <Anchor val="None" />
+      <IsDefaultButton val="False" />
+    </child>
+  </base>
+</refresh>

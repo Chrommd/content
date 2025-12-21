@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <event animation="_initialize_">
+        <function>PlayFX($asset, "ob_chim_smoke_002", "chimney", "-attach ")</function>
+        <time>0.0000</time>
+        <freq>ONCE</freq>
+    </event>
+    <event animation="">
+        <function>PlaySND($asset, "ob_windmill_house_loop", "chimney", "-var 0")</function>
+        <time>0.0200</time>
+        <freq>ONCE</freq>
+    </event>
+    <event animation="">
+        <function>PlaySND($asset, "ob_windmill_whoosh1", "chimney", "-var 0")</function>
+        <time>1.4667</time>
+        <freq>100</freq>
+    </event>
+    <event animation="">
+        <function>PlaySND($asset, "ob_windmill_whoosh1", "chimney", "-var 0")</function>
+        <time>3.1867</time>
+        <freq>100</freq>
+    </event>
+    <event animation="">
+        <function>PlaySND($asset, "ob_windmill_whoosh1", "chimney", "-var 0")</function>
+        <time>4.7667</time>
+        <freq>100</freq>
+    </event>
+    <event animation="">
+        <function>PlaySND($asset, "ob_windmill_whoosh1", "chimney", "-var 0")</function>
+        <time>6.4933</time>
+        <freq>100</freq>
+    </event>
+    <dummy name="chimney" parent="ri_land_house03" sync="FALSE" extra="">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>-3.8223</offsetX>
+        <offsetY>10.0000</offsetY>
+        <offsetZ>-7.0964</offsetZ>
+    </dummy>
+    <action category="" state="G_IDLE" prevState="" loop="1" weight="1" script="">
+        <main speed=0.0000></main>
+    </action>
+
+</aim>

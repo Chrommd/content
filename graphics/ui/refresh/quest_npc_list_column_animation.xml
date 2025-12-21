@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rfanimation version="1.2">
+  <scene name="_Disable_">
+    <param type="RES" x="345" y="24" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+  </scene>
+  <scene name="_Normal_">
+    <asset type="UI" name="asset_quest_list_Over">
+      <rect l="0" t="0" r="409" b="26" />
+    </asset>
+    <object name="quest_list_Over" ani="ani_quest_list_Over">
+      <asset type="UI" link="asset_quest_list_Over" />
+    </object>
+    <param type="RES" x="345" y="24" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_quest_list_Over">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="0" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Over_">
+    <asset type="UI" name="asset_quest_list_Over">
+      <rect l="0" t="0" r="409" b="26" />
+    </asset>
+    <object name="quest_list_Over" ani="ani_quest_list_Over">
+      <asset type="UI" link="asset_quest_list_Over" />
+    </object>
+    <param type="RES" x="345" y="24" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_quest_list_Over">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+  <scene name="_Selected_">
+    <asset type="UI" name="asset_quest_list_Over">
+      <rect l="0" t="0" r="409" b="26" />
+    </asset>
+    <asset type="UI" name="asset_icon_common_select">
+      <rect l="0" t="0" r="19" b="19" />
+    </asset>
+    <object name="quest_list_Over" ani="ani_quest_list_Over">
+      <asset type="UI" link="asset_quest_list_Over" />
+    </object>
+    <object name="icon_common_select" ani="ani_icon_common_select">
+      <asset type="UI" link="asset_icon_common_select" />
+    </object>
+    <param type="RES" x="345" y="24" />
+    <param type="LOOP" cnt="1" pendulum="0" />
+    <anim name="ani_quest_list_Over">
+      <frame cnt="0">
+        <posx val="0" />
+        <posy val="0" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <sound val="ui_btn_menu_page" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+    <anim name="ani_icon_common_select">
+      <frame cnt="0">
+        <posx val="0.02028986" />
+        <posy val="0.1666667" />
+        <scalex val="1" />
+        <scaley val="1" />
+        <alpha val="1" />
+        <rotate val="0" />
+        <visible val="1" />
+        <centerx val="0" />
+        <centery val="0" />
+      </frame>
+    </anim>
+  </scene>
+</rfanimation>

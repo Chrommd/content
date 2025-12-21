@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<aim version="2">
+    <AABB animation="activate">
+        <minX>-0.5633</minX>
+        <minY>0.0000</minY>
+        <minZ>-0.3921</minZ>
+        <maxX>0.9669</maxX>
+        <maxY>7.8072</maxY>
+        <maxZ>0.3715</maxZ>
+    </AABB>
+    <AABB animation="idle">
+        <minX>-0.5633</minX>
+        <minY>0.0000</minY>
+        <minZ>-0.3921</minZ>
+        <maxX>0.9669</maxX>
+        <maxY>7.8072</maxY>
+        <maxZ>0.3715</maxZ>
+    </AABB>
+    <event animation="activate">
+        <function>PlayFX($asset, "ob_finish_column02b", "columb", "-attach ")</function>
+        <time>0.0000</time>
+        <freq>ONCE</freq>
+    </event>
+    <event animation="activate">
+        <function>PlayFX($asset, "ob_finish_column02a", "columa", "-attach ")</function>
+        <time>0.0000</time>
+        <freq>ONCE</freq>
+    </event>
+    <event animation="idle">
+        <function>PlayFX($asset, "ob_finish_column02b0", "columb", "-attach ")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <event animation="idle">
+        <function>PlayFX($asset, "ob_finish_column02a0", "columa", "-attach ")</function>
+        <time>0.0000</time>
+        <freq>100</freq>
+    </event>
+    <dummy name="columa" parent="Object01" sync="TRUE">
+        <rotationX>0.0000</rotationX>
+        <rotationY>-0.2334</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>0.9724</rotationW>
+        <offsetX>-0.0134</offsetX>
+        <offsetY>7.3260</offsetY>
+        <offsetZ>0.0123</offsetZ>
+    </dummy>
+    <dummy name="columb" parent="DummyRoot" sync="TRUE">
+        <rotationX>0.0000</rotationX>
+        <rotationY>0.0000</rotationY>
+        <rotationZ>0.0000</rotationZ>
+        <rotationW>1.0000</rotationW>
+        <offsetX>0.0000</offsetX>
+        <offsetY>1.9536</offsetY>
+        <offsetZ>0.0000</offsetZ>
+    </dummy>
+    <action state="ACTIVATE" prevState="" loop="1">
+        <main speed=0.0000>activate</main>
+    </action>
+    <action state="G_IDLE" prevState="" loop="1">
+        <main speed=0.0000>idle</main>
+    </action>
+</aim>
